@@ -45,9 +45,6 @@ jobs:
           echo "Generando tvinsider.com..."
           npm run grab -- --site=tvinsider.com --output=guides/tvinsider.com/{lang}.xml
 
-          echo "Generando tvpassport.com..."
-          npm run grab -- --site=tvpassport.com --output=guides/tvpassport.com/{lang}.xml
-
       - name: Commit si hubo cambios
         id: commit_changes
         run: |
