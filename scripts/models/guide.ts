@@ -88,75 +88,66 @@ export class Guide {
 function buildProgramme(program: Program): string {
   const p = toPlainProgram(program)
 
-  const channelId = escapeXml(p.channel || '')
+  const channelId = escapeXml(getChannelId(p))
   const start = formatXMLTVDate(p.start)
   const stop = formatXMLTVDate(p.stop)
 
   let output = `  <programme start="${start}" stop="${stop}" channel="${channelId}">\n`
 
   // 1) titles
-  if (Array.isArray(p.titles) && p.titles.length) {
-    p.titles.forEach((title: { value?: string; lang?: string }) => {
-      if (!title?.value) return
-
-      const langAttr = title.lang ? ` lang="${escapeXml(title.lang)}"` : ''
-      output += `    <title${langAttr}>${escapeXml(title.value)}</title>\n`
-    })
-  } else if (p.title_es || p.title) {
-    const titleEs = p.title_es || p.title
-    output += `    <title lang="es">${escapeXml(String(titleEs))}</title>\n`
-
-    if (p.title_en) {
-      output += `    <title lang="en">${escapeXml(String(p.title_en))}</title>\n`
-    }
-  }
+  const titles = getTitles(p)
+  titles.forEach(title => {
+    const langAttr = title.lang ? ` lang="${escapeXml(title.lang)}"` : ''
+    output += `    <title${langAttr}>${escapeXml(title.value)}</title>\n`
+  })
 
   // 2) desc
-  const description = p.description || p.synopsis || p.desc
-  if (description) {
-    output += `    <desc lang="es">${escapeXml(String(description))}</desc>\n`
+  const desc = getDesc(p)
+  if (desc?.value) {
+    const langAttr = desc.lang ? ` lang="${escapeXml(desc.lang)}"` : ' lang="es"'
+    output += `    <desc${langAttr}>${escapeXml(desc.value)}</desc>\n`
   }
 
   // 3) sub-title
-  const subtitle = p.sub_title || p.subtitle || p.episode_title
-  if (subtitle) {
-    output += `    <sub-title lang="es">${escapeXml(String(subtitle))}</sub-title>\n`
+  const subTitle = getSubTitle(p)
+  if (subTitle?.value) {
+    const langAttr = subTitle.lang ? ` lang="${escapeXml(subTitle.lang)}"` : ' lang="es"'
+    output += `    <sub-title${langAttr}>${escapeXml(subTitle.value)}</sub-title>\n`
   }
 
   // 4) category
-  if (p.category) {
-    output += `    <category lang="es">${escapeXml(String(p.category))}</category>\n`
-  }
+  const categories = getCategories(p)
+  categories.forEach(category => {
+    const langAttr = category.lang ? ` lang="${escapeXml(category.lang)}"` : ' lang="es"'
+    output += `    <category${langAttr}>${escapeXml(category.value)}</category>\n`
+  })
 
   // 5) date
-  const year = normalizeYear(p.year || p.date)
+  const year = getYear(p)
   if (year) {
     output += `    <date>${year}</date>\n`
   }
 
   // 6) episode-num
-  const season = toInteger(p.season)
-  const episode = toInteger(p.episode)
-
-  if (season !== null && episode !== null) {
-    output += `    <episode-num system="xmltv_ns">${season - 1}.${episode - 1}.0/1</episode-num>\n`
-    output += `    <episode-num system="onscreen">S${String(season).padStart(2, '0')}E${String(episode).padStart(2, '0')}</episode-num>\n`
-  } else if (episode !== null) {
-    output += `    <episode-num system="onscreen">E${String(episode).padStart(2, '0')}</episode-num>\n`
-  }
+  const episodeNumbers = getEpisodeNumbers(p)
+  episodeNumbers.forEach(ep => {
+    const systemAttr = ep.system ? ` system="${escapeXml(ep.system)}"` : ''
+    output += `    <episode-num${systemAttr}>${escapeXml(ep.value)}</episode-num>\n`
+  })
 
   // 7) rating
-  if (p.rating !== null && p.rating !== undefined && p.rating !== '') {
-    output += `    <rating><value>${escapeXml(String(p.rating))}</value></rating>\n`
+  const rating = getRating(p)
+  if (rating) {
+    output += `    <rating><value>${escapeXml(rating)}</value></rating>\n`
   }
 
   // 8) image
-  if (p.image) {
-    output += `    <image>${escapeXml(String(p.image))}</image>\n`
+  const image = getImage(p)
+  if (image) {
+    output += `    <image>${escapeXml(image)}</image>\n`
   }
 
   output += `  </programme>\n`
-
   return output
 }
 
@@ -164,8 +155,119 @@ function toPlainProgram(program: Program): any {
   if (program && typeof (program as any).toObject === 'function') {
     return (program as any).toObject()
   }
-
   return program as any
+}
+
+function getChannelId(p: any): string {
+  return p.channel || p.channelId || ''
+}
+
+function getTitles(p: any): Array<{ value: string; lang?: string }> {
+  if (Array.isArray(p.titles) && p.titles.length) {
+    return p.titles
+      .filter((t: any) => t && t.value)
+      .map((t: any) => ({ value: String(t.value), lang: t.lang ? String(t.lang) : undefined }))
+  }
+
+  const out: Array<{ value: string; lang?: string }> = []
+
+  if (p.title_es || p.title) out.push({ value: String(p.title_es || p.title), lang: 'es' })
+  if (p.title_en) out.push({ value: String(p.title_en), lang: 'en' })
+
+  return out
+}
+
+function getDesc(p: any): { value: string; lang?: string } | null {
+  if (Array.isArray(p.descs) && p.descs.length) {
+    const item = p.descs.find((d: any) => d?.value) || p.descs[0]
+    if (item?.value) return { value: String(item.value), lang: item.lang ? String(item.lang) : undefined }
+  }
+
+  const value = p.description || p.synopsis || p.desc
+  return value ? { value: String(value), lang: 'es' } : null
+}
+
+function getSubTitle(p: any): { value: string; lang?: string } | null {
+  if (Array.isArray(p.subTitles) && p.subTitles.length) {
+    const item = p.subTitles.find((s: any) => s?.value) || p.subTitles[0]
+    if (item?.value) return { value: String(item.value), lang: item.lang ? String(item.lang) : undefined }
+  }
+
+  const value = p.sub_title || p.subtitle || p.episode_title
+  return value ? { value: String(value), lang: 'es' } : null
+}
+
+function getCategories(p: any): Array<{ value: string; lang?: string }> {
+  if (Array.isArray(p.categories) && p.categories.length) {
+    return p.categories
+      .filter((c: any) => c && c.value)
+      .map((c: any) => ({ value: String(c.value), lang: c.lang ? String(c.lang) : undefined }))
+  }
+
+  if (p.category) {
+    return [{ value: String(p.category), lang: 'es' }]
+  }
+
+  return []
+}
+
+function getYear(p: any): string | null {
+  return normalizeYear(p.year || p.date)
+}
+
+function getEpisodeNumbers(p: any): Array<{ system?: string; value: string }> {
+  if (Array.isArray(p.episodeNumbers) && p.episodeNumbers.length) {
+    return p.episodeNumbers
+      .filter((e: any) => e && e.value)
+      .map((e: any) => ({ system: e.system ? String(e.system) : undefined, value: String(e.value) }))
+  }
+
+  const season = toInteger(p.season)
+  const episode = toInteger(p.episode)
+
+  if (season !== null && episode !== null) {
+    return [
+      { system: 'xmltv_ns', value: `${season - 1}.${episode - 1}.0/1` },
+      { system: 'onscreen', value: `S${String(season).padStart(2, '0')}E${String(episode).padStart(2, '0')}` }
+    ]
+  }
+
+  if (episode !== null) {
+    return [{ system: 'onscreen', value: `E${String(episode).padStart(2, '0')}` }]
+  }
+
+  return []
+}
+
+function getRating(p: any): string | null {
+  if (Array.isArray(p.ratings) && p.ratings.length) {
+    const first = p.ratings[0]
+    if (first?.value) return String(first.value)
+  }
+
+  if (p.rating !== null && p.rating !== undefined && p.rating !== '') {
+    return String(p.rating)
+  }
+
+  return null
+}
+
+function getImage(p: any): string | null {
+  if (Array.isArray(p.images) && p.images.length) {
+    const first = p.images[0]
+    if (typeof first === 'string') return first
+    if (first?.value) return String(first.value)
+    if (first?.src) return String(first.src)
+  }
+
+  if (p.icon) {
+    if (typeof p.icon === 'string') return p.icon
+    if (p.icon.src) return String(p.icon.src)
+  }
+
+  if (p.image) return String(p.image)
+
+  return null
 }
 
 function toInteger(value: any): number | null {
@@ -180,7 +282,6 @@ function formatXMLTVDate(date: any): string {
 
 function normalizeYear(value: any): string | null {
   if (value === null || value === undefined || value === '') return null
-
   const match = String(value).match(/\b(19\d{2}|20\d{2})\b/)
   return match ? match[1] : null
 }
