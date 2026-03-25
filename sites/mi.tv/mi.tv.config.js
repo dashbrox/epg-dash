@@ -154,7 +154,7 @@ function parseStart($item, date) {
 }
 
 function parseTitle($item) {
-  return normalizeText($item('a > div.content > h2').text())
+  return normalizeText($item('a > div.content > h2').clone().children().remove().end().text())
 }
 
 function parseDescription($item) {
@@ -162,7 +162,7 @@ function parseDescription($item) {
 }
 
 function parseHref($item) {
-  const href = $item('a.program-link').attr('href')
+  const href = $item('a.program-link').attr('href') || $item('a').attr('href')
   return href ? href.trim() : ''
 }
 
@@ -275,6 +275,19 @@ function looksLikeMovie(parts) {
   return hasYear && hasGenre
 }
 
+function looksLikeCategory(text) {
+  if (!text) return false
+
+  const normalized = normalizeText(text)
+  const lower = normalized.toLowerCase()
+
+  if (MOVIE_GENRES.some(genre => lower.includes(genre.toLowerCase()))) return true
+  if (/(19\d{2}|20\d{2})/.test(normalized)) return true
+  if (/^(serie|película|pelicula|cine|programa|deportes|noticias)$/i.test(normalized)) return true
+
+  return false
+}
+
 function parseProgramMeta($item, image) {
   const titleEs = parseTitle($item)
   const synopsis = parseDescription($item)
@@ -356,12 +369,19 @@ function parseProgramMeta($item, image) {
     }
   }
 
+  const maybeEnglishTitle =
+    subtitleNodes.length > 0 &&
+    !looksLikeCategory(subtitleNodes[0].text) &&
+    !extractSeriesInfoFromText(subtitleNodes[0].text)
+      ? subtitleNodes[0].text
+      : ''
+
   return {
     type: 'show',
     title: titleEs,
-    titles: buildTitles(titleEs),
+    titles: buildTitles(titleEs, maybeEnglishTitle),
     title_es: titleEs,
-    title_en: '',
+    title_en: maybeEnglishTitle,
     category: subtitleParts[0] || '',
     year: null,
     date: null,
