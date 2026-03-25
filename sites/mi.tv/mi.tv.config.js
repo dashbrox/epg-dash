@@ -120,12 +120,15 @@ module.exports = {
 }
 
 function normalizeText(text = '') {
-  return text.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
+  return String(text).replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim()
 }
 
 function normalizeYear(year) {
-  if (!year) return null
-  const match = String(year).match(/(19\d{2}|20\d{2})/)
+  if (year === null || year === undefined || year === '') return null
+
+  const value = normalizeText(String(year))
+  const match = value.match(/\b(19\d{2}|20\d{2})\b/)
+
   return match ? match[1] : null
 }
 
@@ -197,33 +200,52 @@ function parseItems(content) {
 }
 
 function parseSubtitleParts($item) {
-  const nodes = $item('span.sub-title')
-  if (!nodes.length) return []
+  const nodes = $item('span.sub-title').toArray()
 
-  const parts = []
+  return nodes
+    .map(node => {
+      const $node = $item(node)
+      const html = $node.html() || ''
 
-  nodes.each((_, node) => {
-    const $node = $item(node)
-    const html = $node.html() || ''
+      if (/<br\s*\/?>/i.test(html)) {
+        return html
+          .split(/<br\s*\/?>/i)
+          .map(part => {
+            const $part = cheerio.load(`<div>${part}</div>`)
+            return normalizeText($part('div').text())
+          })
+          .filter(Boolean)
+      }
 
-    if (/<br\s*\/?>/i.test(html)) {
-      html
-        .split(/<br\s*\/?>/i)
-        .map(part => {
-          const $part = cheerio.load(`<div>${part}</div>`)
-          return normalizeText($part('div').text())
-        })
-        .filter(Boolean)
-        .forEach(part => parts.push(part))
+      const text = normalizeText($node.text())
+      return text ? [text] : []
+    })
+    .flat()
+}
 
-      return
-    }
+function parseSubtitleNodes($item) {
+  return $item('span.sub-title')
+    .toArray()
+    .map(node => {
+      const $node = $item(node)
+      const fullText = normalizeText($node.text())
+      const ownText = normalizeText(
+        $node
+          .contents()
+          .toArray()
+          .filter(child => child.type === 'text')
+          .map(child => child.data || '')
+          .join(' ')
+      )
+      const rating = normalizeText($node.find('span.rating').first().text()) || null
 
-    const text = normalizeText($node.text())
-    if (text) parts.push(text)
-  })
-
-  return parts
+      return {
+        text: fullText,
+        ownText,
+        rating
+      }
+    })
+    .filter(node => node.text || node.ownText || node.rating)
 }
 
 function isMovieItem($item) {
@@ -257,6 +279,7 @@ function parseProgramMeta($item, image) {
   const titleEs = parseTitle($item)
   const synopsis = parseDescription($item)
   const subtitleParts = parseSubtitleParts($item)
+  const subtitleNodes = parseSubtitleNodes($item)
   const subtitleJoined = normalizeText(subtitleParts.join(' | '))
   const href = parseHref($item)
 
@@ -265,7 +288,8 @@ function parseProgramMeta($item, image) {
   const seriesFromImage = extractSeriesInfoFromImage(image)
   const seriesFromHref = extractSeriesInfoFromHref(href)
 
-  const isSeries = !!seriesFromText || !!seriesFromImage || !!seriesFromHref
+  const movie = isMovieItem($item) || looksLikeMovie(subtitleParts)
+  const isSeries = !movie && (!!seriesFromText || !!seriesFromImage || !!seriesFromHref)
 
   if (isSeries) {
     const season =
@@ -308,10 +332,8 @@ function parseProgramMeta($item, image) {
     }
   }
 
-  const movie = isMovieItem($item) || looksLikeMovie(subtitleParts)
-
   if (movie) {
-    const movieData = extractMovieInfo(subtitleParts, image)
+    const movieData = extractMovieInfo(subtitleNodes, image)
 
     return {
       type: 'movie',
@@ -371,7 +393,8 @@ function extractSeriesInfoFromText(text) {
 
   const patterns = [
     /^Temporada\s*(\d+)\s*Episodio\s*(\d+)(?:\s*[-–—:]\s*(.+))?$/i,
-    /^Temp\.?\s*(\d+)\s*Ep\.?\s*(\d+)(?:\s*[-–—:]\s*(.+))?$/i,
+    /^Temp\.?\s*(\d+)\s*Ep(?:isodio)?\.?\s*(\d+)(?:\s*[-–—:]\s*(.+))?$/i,
+    /^T\s*(\d+)\s*E\s*(\d+)(?:\s*[-–—:]\s*(.+))?$/i,
     /^S\s*(\d{1,2})\s*E\s*(\d{1,3})(?:\s*[-–—:]\s*(.+))?$/i,
     /^S(\d{1,2})E(\d{1,3})(?:\s*[-–—:]\s*(.+))?$/i
   ]
@@ -459,8 +482,8 @@ function slugToTitle(slug) {
     .join(' ')
 }
 
-function extractMovieInfo(parts, imageUrl) {
-  if (!parts.length) {
+function extractMovieInfo(subtitleNodes, imageUrl) {
+  if (!subtitleNodes.length) {
     return {
       title_en: '',
       category: '',
@@ -469,39 +492,57 @@ function extractMovieInfo(parts, imageUrl) {
     }
   }
 
-  if (parts.length >= 2) {
-    const titleEn = normalizeText(parts[0])
-    const meta = parseMovieMetaLine(parts.slice(1).join(' '))
+  const first = subtitleNodes[0]
+  const second = subtitleNodes[1]
+
+  if (second) {
+    const meta = parseMovieMetaLine(second.ownText || second.text)
 
     return {
-      title_en: titleEn,
+      title_en: normalizeText(first.text),
       category: meta.category,
       year: normalizeYear(meta.year || extractYearFromImage(imageUrl)),
-      rating: meta.rating
+      rating: second.rating || meta.rating || null
     }
   }
 
-  return splitCombinedMovieLine(parts[0], imageUrl)
+  return splitCombinedMovieLine(first.text, imageUrl)
 }
 
 function parseMovieMetaLine(line) {
-  const text = normalizeText(line)
-  const m = text.match(
-    /^(.+?)\s*\/\s*(19\d{2}|20\d{2})(?:\s*\/\s*(?:★?\s*([0-9]+(?:\.[0-9]+)?))?)?$/i
-  )
+  const text = normalizeText(line).replace(/\/\s*$/, '')
+  const parts = text
+    .split('/')
+    .map(part => normalizeText(part))
+    .filter(Boolean)
 
-  if (!m) {
+  if (!parts.length) {
     return {
-      category: text,
+      category: '',
       year: null,
       rating: null
     }
   }
 
+  let year = null
+  const categoryParts = []
+
+  for (const part of parts) {
+    const normalizedYear = normalizeYear(part)
+    if (!year && normalizedYear) {
+      year = normalizedYear
+      continue
+    }
+
+    if (!/^[0-9]+(?:\.[0-9]+)?$/.test(part)) {
+      categoryParts.push(part)
+    }
+  }
+
   return {
-    category: normalizeText(m[1]),
-    year: normalizeYear(m[2]),
-    rating: m[3] || null
+    category: normalizeText(categoryParts.join(' / ')),
+    year,
+    rating: null
   }
 }
 
@@ -553,5 +594,5 @@ function extractYearFromImage(imageUrl) {
   if (!imageUrl) return null
 
   const m = imageUrl.match(/-(19\d{2}|20\d{2})(?:-\d+)?_/i)
-  return m ? m[1] : null
+  return m ? normalizeYear(m[1]) : null
 }
