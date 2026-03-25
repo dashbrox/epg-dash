@@ -39,11 +39,8 @@ jobs:
           echo "Generando mi.tv..."
           npm run grab -- --site=mi.tv --output=guides/mi.tv/{lang}.xml
 
-          echo "Generando movistarplus.es..."
-          npm run grab -- --site=movistarplus.es --output=guides/movistarplus.es/{lang}.xml
-
-          echo "Generando tvinsider.com..."
-          npm run grab -- --site=tvinsider.com --output=guides/tvinsider.com/{lang}.xml
+          echo "Generando tvpassport.com..."
+          npm run grab -- --site=tvpassport.com --output=guides/tvpassport.com/{lang}.xml
 
       - name: Commit si hubo cambios
         id: commit_changes
