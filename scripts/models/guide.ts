@@ -86,80 +86,92 @@ export class Guide {
 }
 
 function buildProgramme(program: Program): string {
-  const channelId = escapeXml(program.channel || '')
-  const start = formatXMLTVDate(program.start)
-  const stop = formatXMLTVDate(program.stop)
+  const p = toPlainProgram(program)
+
+  const channelId = escapeXml(p.channel || '')
+  const start = formatXMLTVDate(p.start)
+  const stop = formatXMLTVDate(p.stop)
 
   let output = `  <programme start="${start}" stop="${stop}" channel="${channelId}">\n`
 
-  // 1. titles
-  if (Array.isArray(program.titles) && program.titles.length) {
-    program.titles.forEach((title: { value?: string; lang?: string }) => {
+  // 1) titles
+  if (Array.isArray(p.titles) && p.titles.length) {
+    p.titles.forEach((title: { value?: string; lang?: string }) => {
       if (!title?.value) return
 
       const langAttr = title.lang ? ` lang="${escapeXml(title.lang)}"` : ''
       output += `    <title${langAttr}>${escapeXml(title.value)}</title>\n`
     })
-  } else if ((program as any).title_es || program.title) {
-    const titleEs = (program as any).title_es || program.title
+  } else if (p.title_es || p.title) {
+    const titleEs = p.title_es || p.title
     output += `    <title lang="es">${escapeXml(String(titleEs))}</title>\n`
 
-    const titleEn = (program as any).title_en
-    if (titleEn) {
-      output += `    <title lang="en">${escapeXml(String(titleEn))}</title>\n`
+    if (p.title_en) {
+      output += `    <title lang="en">${escapeXml(String(p.title_en))}</title>\n`
     }
   }
 
-  // 2. desc
-  const description = (program as any).description || (program as any).synopsis
+  // 2) desc
+  const description = p.description || p.synopsis || p.desc
   if (description) {
     output += `    <desc lang="es">${escapeXml(String(description))}</desc>\n`
   }
 
-  // 3. sub-title
-  const subtitle =
-    (program as any).sub_title || (program as any).subtitle || (program as any).episode_title
+  // 3) sub-title
+  const subtitle = p.sub_title || p.subtitle || p.episode_title
   if (subtitle) {
     output += `    <sub-title lang="es">${escapeXml(String(subtitle))}</sub-title>\n`
   }
 
-  // 4. category
-  if ((program as any).category) {
-    output += `    <category lang="es">${escapeXml(String((program as any).category))}</category>\n`
+  // 4) category
+  if (p.category) {
+    output += `    <category lang="es">${escapeXml(String(p.category))}</category>\n`
   }
 
-  // 5. date
-  const year = normalizeYear((program as any).year || (program as any).date)
+  // 5) date
+  const year = normalizeYear(p.year || p.date)
   if (year) {
     output += `    <date>${year}</date>\n`
   }
 
-  // 6. episode-num
-  const season = (program as any).season
-  const episode = (program as any).episode
+  // 6) episode-num
+  const season = toInteger(p.season)
+  const episode = toInteger(p.episode)
 
-  if (Number.isInteger(season) && Number.isInteger(episode)) {
+  if (season !== null && episode !== null) {
     output += `    <episode-num system="xmltv_ns">${season - 1}.${episode - 1}.0/1</episode-num>\n`
-    output += `    <episode-num system="onscreen">S${String(season).padStart(2, '0')}E${String(
-      episode
-    ).padStart(2, '0')}</episode-num>\n`
-  } else if (Number.isInteger(episode)) {
+    output += `    <episode-num system="onscreen">S${String(season).padStart(2, '0')}E${String(episode).padStart(2, '0')}</episode-num>\n`
+  } else if (episode !== null) {
     output += `    <episode-num system="onscreen">E${String(episode).padStart(2, '0')}</episode-num>\n`
   }
 
-  // 7. rating
-  if ((program as any).rating !== null && (program as any).rating !== undefined && (program as any).rating !== '') {
-    output += `    <rating><value>${escapeXml(String((program as any).rating))}</value></rating>\n`
+  // 7) rating
+  if (p.rating !== null && p.rating !== undefined && p.rating !== '') {
+    output += `    <rating><value>${escapeXml(String(p.rating))}</value></rating>\n`
   }
 
-  // 8. image
-  if ((program as any).image) {
-    output += `    <image>${escapeXml(String((program as any).image))}</image>\n`
+  // 8) image
+  if (p.image) {
+    output += `    <image>${escapeXml(String(p.image))}</image>\n`
   }
 
   output += `  </programme>\n`
 
   return output
+}
+
+function toPlainProgram(program: Program): any {
+  if (program && typeof (program as any).toObject === 'function') {
+    return (program as any).toObject()
+  }
+
+  return program as any
+}
+
+function toInteger(value: any): number | null {
+  if (value === null || value === undefined || value === '') return null
+  const n = Number(value)
+  return Number.isInteger(n) ? n : null
 }
 
 function formatXMLTVDate(date: any): string {
