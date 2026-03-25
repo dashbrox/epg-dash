@@ -12,33 +12,44 @@ concurrency:
   group: epg-dash-guides
   cancel-in-progress: false
 
+env:
+  BRANCH_NAME: ${{ github.ref_name }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: "20"
+          cache: "npm"
 
       - name: Instalar dependencias
         run: npm ci
 
-      - name: Crear carpeta de salida
-        run: mkdir -p guides
-
-      - name: Generar guias
+      - name: Crear carpetas de salida
         run: |
-          echo "Generando mi.tv..."
-          npm run grab -- --site=mi.tv --output=guides/mi.tv/{lang}.xml
+          mkdir -p guides/mi.tv
+          mkdir -p guides/tvpassport.com
 
+      - name: Generar guias mi.tv
+        run: |
+          for code in ar cl co sv gt hn mx py pe
+          do
+            echo "Generando mi.tv $code..."
+            npm run grab -- --channels=sites/mi.tv/mi.tv_${code}.channels.xml --output=guides/mi.tv/${code}.xml
+          done
+
+      - name: Generar guias tvpassport.com
+        run: |
           echo "Generando tvpassport.com..."
           npm run grab -- --site=tvpassport.com --output=guides/tvpassport.com/{lang}.xml
 
@@ -48,7 +59,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add guides
+          git add -f guides/mi.tv/*.xml
+          git add -f guides/tvpassport.com/*.xml
 
           if git diff --cached --quiet; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
@@ -58,6 +70,13 @@ jobs:
           git commit -m "Actualizar guias EPG"
           echo "has_changes=true" >> "$GITHUB_OUTPUT"
 
-      - name: Push
+      - name: Rebase y push
         if: steps.commit_changes.outputs.has_changes == 'true'
-        run: git push
+        run: |
+          for i in 1 2 3; do
+            git fetch origin "$BRANCH_NAME"
+            git pull --rebase origin "$BRANCH_NAME" && git push origin HEAD:"$BRANCH_NAME" && exit 0
+            echo "Reintentando push ($i)..."
+            sleep 5
+          done
+          exit 1
