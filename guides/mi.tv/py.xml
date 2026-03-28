@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260328190526 +0000">
+<tv generator-info-name="custom-epg" date="20260328215302 +0000">
   <channel id="py#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="py#warner-channel">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#abc-tv">
+    <display-name>ABC TV</display-name>
   </channel>
-  <channel id="py#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#america-24">
+    <display-name>America 24</display-name>
   </channel>
-  <channel id="py#venus">
-    <display-name>Venus</display-name>
+  <channel id="py#axn">
+    <display-name>AXN</display-name>
   </channel>
-  <channel id="py#univision">
-    <display-name>Univision</display-name>
+  <channel id="py#canal-de-las-estrellas">
+    <display-name>Las Estrellas</display-name>
+  </channel>
+  <channel id="py#discovery-world-hd">
+    <display-name>Discovery World</display-name>
+  </channel>
+  <channel id="py#hbo">
+    <display-name>HBO</display-name>
+  </channel>
+  <channel id="py#discovery-turbo">
+    <display-name>Discovery Turbo</display-name>
+  </channel>
+  <channel id="py#golden">
+    <display-name>Golden</display-name>
+  </channel>
+  <channel id="py#gol-tv">
+    <display-name>Gol TV</display-name>
   </channel>
   <channel id="py#universal-channel-hd">
     <display-name>Universal Channel HD</display-name>
-  </channel>
-  <channel id="py#universal-channel">
-    <display-name>Universal TV</display-name>
   </channel>
   <channel id="py#unicanal">
     <display-name>Unicanal</display-name>
@@ -132,14 +144,17 @@
   <channel id="py#hbo-hd-este">
     <display-name>HBO HD</display-name>
   </channel>
-  <channel id="py#hbo">
-    <display-name>HBO</display-name>
+  <channel id="py#universal-channel">
+    <display-name>Universal TV</display-name>
   </channel>
-  <channel id="py#golden">
-    <display-name>Golden</display-name>
+  <channel id="py#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="py#gol-tv">
-    <display-name>Gol TV</display-name>
+  <channel id="py#canal-13">
+    <display-name>RPC</display-name>
+  </channel>
+  <channel id="py#discovery-kids">
+    <display-name>Discovery Kids</display-name>
   </channel>
   <channel id="py#fx">
     <display-name>FX</display-name>
@@ -195,17 +210,11 @@
   <channel id="py#disney">
     <display-name>Disney Channel</display-name>
   </channel>
-  <channel id="py#discovery-world-hd">
-    <display-name>Discovery World</display-name>
-  </channel>
-  <channel id="py#discovery-turbo">
-    <display-name>Discovery Turbo</display-name>
-  </channel>
-  <channel id="py#discovery-kids">
-    <display-name>Discovery Kids</display-name>
-  </channel>
   <channel id="py#discovery">
     <display-name>Discovery Channel</display-name>
+  </channel>
+  <channel id="py#canal-9-snt">
+    <display-name>SNT</display-name>
   </channel>
   <channel id="py#dhe">
     <display-name>DHE</display-name>
@@ -229,14 +238,8 @@
   <channel id="py#caracol-internacional">
     <display-name>Caracol Internacional</display-name>
   </channel>
-  <channel id="py#canal-de-las-estrellas">
-    <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="py#canal-13">
-    <display-name>RPC</display-name>
-  </channel>
-  <channel id="py#canal-9-snt">
-    <display-name>SNT</display-name>
+  <channel id="py#america-television">
+    <display-name>AMÉRICA TELEVISION</display-name>
   </channel>
   <channel id="py#canal-5-paravision">
     <display-name>Paravisión</display-name>
@@ -244,20 +247,17 @@
   <channel id="py#az-corazon">
     <display-name>Az Corazón</display-name>
   </channel>
-  <channel id="py#axn">
-    <display-name>AXN</display-name>
+  <channel id="py#warner-channel">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="py#univision">
+    <display-name>Univision</display-name>
   </channel>
-  <channel id="py#america-television">
-    <display-name>AMÉRICA TELEVISION</display-name>
+  <channel id="py#venus">
+    <display-name>Venus</display-name>
   </channel>
-  <channel id="py#america-24">
-    <display-name>America 24</display-name>
-  </channel>
-  <channel id="py#abc-tv">
-    <display-name>ABC TV</display-name>
+  <channel id="py#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
   <programme start="20260328060000 +0000" stop="20260328070000 +0000" channel="CNNenEspanol.us@SD">
     <title lang="es">Oppenheimer presenta</title>
@@ -1801,12 +1801,12 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/py_otro-level_l_m.jpg</image>
   </programme>
-  <programme start="20260329030000 +0000" stop="20260329090000 +0000" channel="py#abc-tv">
+  <programme start="20260329030000 +0000" stop="20260329040000 +0000" channel="py#abc-tv">
     <title lang="es">La mejor música romántica</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260329030000 +0000" stop="20260329040000 +0000" channel="py#abc-tv">
+  <programme start="20260329030000 +0000" stop="20260329090000 +0000" channel="py#abc-tv">
     <title lang="es">La mejor música romántica</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -3572,7 +3572,7 @@
     <episode-num system="onscreen">S15E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_csi-t15e07-el-camino-a-la-recuperacion_l_m.jpg</image>
   </programme>
-  <programme start="20260329052000 +0000" stop="20260329061500 +0000" channel="py#axn">
+  <programme start="20260329052000 +0000" stop="20260329062000 +0000" channel="py#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">El futuro está en el pasado</sub-title>
     <category lang="es">Serie</category>
@@ -3580,7 +3580,7 @@
     <episode-num system="onscreen">S08E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_hawaii-five-o-t08e10-i-ka-wa-ma-mua-i-ka-wa-ma-hope_l_m.jpg</image>
   </programme>
-  <programme start="20260329052000 +0000" stop="20260329062000 +0000" channel="py#axn">
+  <programme start="20260329052000 +0000" stop="20260329061500 +0000" channel="py#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">El futuro está en el pasado</sub-title>
     <category lang="es">Serie</category>
@@ -14700,7 +14700,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260329054800 +0000" stop="20260329061200 +0000" channel="py#discovery-world-hd">
+  <programme start="20260329054800 +0000" stop="20260329064800 +0000" channel="py#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Reyes del bagre</sub-title>
     <category lang="es">Serie</category>
@@ -14708,7 +14708,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_pantano-se-vende-t01e03-mi-primera-casa_l_m.jpg</image>
   </programme>
-  <programme start="20260329054800 +0000" stop="20260329064800 +0000" channel="py#discovery-world-hd">
+  <programme start="20260329054800 +0000" stop="20260329061200 +0000" channel="py#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Reyes del bagre</sub-title>
     <category lang="es">Serie</category>
@@ -22090,14 +22090,14 @@
     <episode-num system="onscreen">S03E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260330051300 +0000" stop="20260330072400 +0000" channel="py#hbo">
+  <programme start="20260330051300 +0000" stop="20260330061300 +0000" channel="py#hbo">
     <title lang="es">El rey Arturo: la leyenda de la espada</title>
     <title lang="en">King Arthur: Legend of the Sword</title>
     <category lang="es">Fantasía</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_el-rey-arturo-la-leyenda-de-la-espada-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260330051300 +0000" stop="20260330061300 +0000" channel="py#hbo">
+  <programme start="20260330051300 +0000" stop="20260330072400 +0000" channel="py#hbo">
     <title lang="es">El rey Arturo: la leyenda de la espada</title>
     <title lang="en">King Arthur: Legend of the Sword</title>
     <category lang="es">Fantasía</category>
@@ -40016,7 +40016,7 @@
     <episode-num system="onscreen">S11E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260330055000 +0000" stop="20260330064000 +0000" channel="py#universal-channel-hd">
+  <programme start="20260330055000 +0000" stop="20260330065000 +0000" channel="py#universal-channel-hd">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Perversión cómica</sub-title>
     <category lang="es">Serie</category>
@@ -40024,7 +40024,7 @@
     <episode-num system="onscreen">S15E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_la-ley-y-el-orden-uve-t15e15-perversion-comica_l_m.jpg</image>
   </programme>
-  <programme start="20260330055000 +0000" stop="20260330065000 +0000" channel="py#universal-channel-hd">
+  <programme start="20260330055000 +0000" stop="20260330064000 +0000" channel="py#universal-channel-hd">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Perversión cómica</sub-title>
     <category lang="es">Serie</category>
@@ -40580,14 +40580,14 @@
     <category lang="es">La jugada</category>
     <image>https://cdn.mitvstatic.com/programs/py_deportivo-la-jugada_l_m.jpg</image>
   </programme>
-  <programme start="20260330050000 +0000" stop="20260330070000 +0000" channel="py#univision">
+  <programme start="20260330050000 +0000" stop="20260330060000 +0000" channel="py#univision">
     <title lang="es">Antes de partir</title>
     <title lang="en">The Bucket List</title>
     <category lang="es">Drama</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_antes-de-partir-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260330050000 +0000" stop="20260330060000 +0000" channel="py#univision">
+  <programme start="20260330050000 +0000" stop="20260330070000 +0000" channel="py#univision">
     <title lang="es">Antes de partir</title>
     <title lang="en">The Bucket List</title>
     <category lang="es">Drama</category>
@@ -40928,13 +40928,13 @@
     <title lang="en">Erótica</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260330050000 +0000" stop="20260330063100 +0000" channel="py#venus">
+  <programme start="20260330050000 +0000" stop="20260330060000 +0000" channel="py#venus">
     <title lang="es">Cálzame tu verga</title>
     <title lang="en">10 Ripped Tights</title>
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/py_calzame-tu-verga-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260330050000 +0000" stop="20260330060000 +0000" channel="py#venus">
+  <programme start="20260330050000 +0000" stop="20260330063100 +0000" channel="py#venus">
     <title lang="es">Cálzame tu verga</title>
     <title lang="en">10 Ripped Tights</title>
     <category lang="es">Erótica</category>
@@ -41224,13 +41224,13 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_buenos-vecinos-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260329044400 +0000" stop="20260329065500 +0000" channel="py#warner">
+  <programme start="20260329044400 +0000" stop="20260329054400 +0000" channel="py#warner">
     <title lang="es">Cincuenta sombras más oscuras</title>
     <title lang="en">Fifty Shades Darker</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/py_cincuenta-sombras-mas-oscuras-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260329044400 +0000" stop="20260329054400 +0000" channel="py#warner">
+  <programme start="20260329044400 +0000" stop="20260329065500 +0000" channel="py#warner">
     <title lang="es">Cincuenta sombras más oscuras</title>
     <title lang="en">Fifty Shades Darker</title>
     <category lang="es">Drama</category>
@@ -41974,7 +41974,7 @@
     <episode-num system="onscreen">S09E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t09e14-the-meemaw-materialization_l_m.jpg</image>
   </programme>
-  <programme start="20260329055100 +0000" stop="20260329061100 +0000" channel="py#warner-channel">
+  <programme start="20260329055100 +0000" stop="20260329065100 +0000" channel="py#warner-channel">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La inmersión de Valentino</sub-title>
     <category lang="es">Serie</category>
@@ -41982,7 +41982,7 @@
     <episode-num system="onscreen">S09E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t09e15_l_m.jpg</image>
   </programme>
-  <programme start="20260329055100 +0000" stop="20260329065100 +0000" channel="py#warner-channel">
+  <programme start="20260329055100 +0000" stop="20260329061100 +0000" channel="py#warner-channel">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La inmersión de Valentino</sub-title>
     <category lang="es">Serie</category>
