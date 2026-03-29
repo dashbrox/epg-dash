@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260329035156 +0000">
+<tv generator-info-name="custom-epg" date="20260329073527 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png"/>
   </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
-    <icon src="https://i.imgur.com/zZd9Tkt.png"/>
+  <channel id="E.us@West">
+    <display-name>E! Entertainment USA HD - Pacific</display-name>
+    <icon src="https://i.imgur.com/TWFDkap.png"/>
   </channel>
-  <channel id="tsn-on-demand/6784">
-    <display-name>TSN On Demand</display-name>
+  <channel id="Bravo.us@East">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="tsn-4k/19467">
-    <display-name>TSN 4K</display-name>
+  <channel id="tsn1-hd/2819">
+    <display-name>TSN1 HD</display-name>
+  </channel>
+  <channel id="Bravo.us@West">
+    <display-name>Bravo USA HD - Pacific Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
   <channel id="tsn-4k-senators/31606">
     <display-name>TSN 4K Senators</display-name>
@@ -64,20 +69,15 @@
     <display-name>TSN1</display-name>
     <icon src="https://i.imgur.com/eRFE0jZ.png"/>
   </channel>
-  <channel id="tsn1-hd/2819">
-    <display-name>TSN1 HD</display-name>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
+    <icon src="https://i.imgur.com/zZd9Tkt.png"/>
   </channel>
-  <channel id="Bravo.us@West">
-    <display-name>Bravo USA HD - Pacific Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-on-demand/6784">
+    <display-name>TSN On Demand</display-name>
   </channel>
-  <channel id="Bravo.us@East">
-    <display-name>Bravo USA HD - Eastern Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
-  </channel>
-  <channel id="E.us@West">
-    <display-name>E! Entertainment USA HD - Pacific</display-name>
-    <icon src="https://i.imgur.com/TWFDkap.png"/>
+  <channel id="tsn-4k/19467">
+    <display-name>TSN 4K</display-name>
   </channel>
   <programme start="20260329100000 +0000" stop="20260329105900 +0000" channel="Bravo.us@East">
     <title lang="en">Ladies of London: The New Reign</title>
@@ -3352,12 +3352,29 @@
     <category lang="en">News</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
-  <programme start="20260330160000 +0000" stop="20260330180000 +0000" channel="tsn2-hd/5920">
-    <title lang="en">The Pat McAfee Show</title>
+  <programme start="20260330160000 +0000" stop="20260330163000 +0000" channel="tsn2-hd/5920">
+    <title lang="en">SC</title>
     <category lang="en">Sports</category>
-    <category lang="en">Talk Show</category>
-    <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p18762527_b_v12_ab.jpg</image>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260330163000 +0000" stop="20260330170000 +0000" channel="tsn2-hd/5920">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260330170000 +0000" stop="20260330173000 +0000" channel="tsn2-hd/5920">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260330173000 +0000" stop="20260330180000 +0000" channel="tsn2-hd/5920">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260330180000 +0000" stop="20260330183000 +0000" channel="tsn2-hd/5920">
     <title lang="en">SC</title>
@@ -3852,12 +3869,29 @@
     <category lang="en">News</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
-  <programme start="20260330160000 +0000" stop="20260330180000 +0000" channel="TSN2.ca@SD">
-    <title lang="en">The Pat McAfee Show</title>
+  <programme start="20260330160000 +0000" stop="20260330163000 +0000" channel="TSN2.ca@SD">
+    <title lang="en">SC</title>
     <category lang="en">Sports</category>
-    <category lang="en">Talk Show</category>
-    <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p18762527_b_v12_ab.jpg</image>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260330163000 +0000" stop="20260330170000 +0000" channel="TSN2.ca@SD">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260330170000 +0000" stop="20260330173000 +0000" channel="TSN2.ca@SD">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260330173000 +0000" stop="20260330180000 +0000" channel="TSN2.ca@SD">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260330180000 +0000" stop="20260330183000 +0000" channel="TSN2.ca@SD">
     <title lang="en">SC</title>
@@ -7701,11 +7735,9 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
   </programme>
   <programme start="20260401063000 +0000" stop="20260401070000 +0000" channel="WNYWDT1.us@SD">
-    <title lang="en">Paid Programming</title>
+    <title lang="en">Protect Your Family From Identity Theft</title>
     <category lang="en">Paid Program</category>
-    <category lang="en">Shopping</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32173104_st_v8_ab.jpg</image>
   </programme>
   <programme start="20260401070000 +0000" stop="20260401080000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">The Aging Brain</title>
