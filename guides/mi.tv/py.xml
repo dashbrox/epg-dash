@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260330104545 +0000">
+<tv generator-info-name="custom-epg" date="20260330140754 +0000">
   <channel id="py#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="py#abc-tv">
-    <display-name>ABC TV</display-name>
+  <channel id="py#warner-channel">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#america-24">
-    <display-name>America 24</display-name>
+  <channel id="py#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="py#america-television">
-    <display-name>AMÉRICA TELEVISION</display-name>
+  <channel id="py#venus">
+    <display-name>Venus</display-name>
   </channel>
   <channel id="py#univision">
     <display-name>Univision</display-name>
@@ -250,14 +247,17 @@
   <channel id="py#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="py#warner-channel">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="py#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#america-television">
+    <display-name>AMÉRICA TELEVISION</display-name>
   </channel>
-  <channel id="py#venus">
-    <display-name>Venus</display-name>
+  <channel id="py#america-24">
+    <display-name>America 24</display-name>
+  </channel>
+  <channel id="py#abc-tv">
+    <display-name>ABC TV</display-name>
   </channel>
   <programme start="20260330060000 +0000" stop="20260330070000 +0000" channel="CNNenEspanol.us@SD">
     <title lang="es">Oppenheimer presenta</title>
@@ -1912,13 +1912,13 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/py_himno-nacional-1_l_m.jpg</image>
   </programme>
-  <programme start="20260331030500 +0000" stop="20260331040500 +0000" channel="py#abc-tv">
+  <programme start="20260331030500 +0000" stop="20260331080000 +0000" channel="py#abc-tv">
     <title lang="es">Madrugada ABC</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/py_madrugada-abc_l_m.jpg</image>
   </programme>
-  <programme start="20260331030500 +0000" stop="20260331080000 +0000" channel="py#abc-tv">
+  <programme start="20260331030500 +0000" stop="20260331040500 +0000" channel="py#abc-tv">
     <title lang="es">Madrugada ABC</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -2099,7 +2099,8 @@
   </programme>
   <programme start="20260402000000 +0000" stop="20260402010000 +0000" channel="py#abc-tv">
     <title lang="es">Expediente abierto</title>
-    <category lang="es">Drama</category>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/py_expediente-abierto_l_m.jpg</image>
   </programme>
   <programme start="20260402010000 +0000" stop="20260402020000 +0000" channel="py#abc-tv">
@@ -3096,7 +3097,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_refugio-en-el-granero-t01e08-la-vaca-acuatica_l_m.jpg</image>
   </programme>
-  <programme start="20260331054000 +0000" stop="20260331064000 +0000" channel="py#animal-planet">
+  <programme start="20260331054000 +0000" stop="20260331062900 +0000" channel="py#animal-planet">
     <title lang="es">El acuario</title>
     <sub-title lang="es">Lo grande es hermoso</sub-title>
     <category lang="es">Serie</category>
@@ -3104,7 +3105,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_el-acuario-t02e10-lo-grande-es-hermoso_l_m.jpg</image>
   </programme>
-  <programme start="20260331054000 +0000" stop="20260331062900 +0000" channel="py#animal-planet">
+  <programme start="20260331054000 +0000" stop="20260331064000 +0000" channel="py#animal-planet">
     <title lang="es">El acuario</title>
     <sub-title lang="es">Lo grande es hermoso</sub-title>
     <category lang="es">Serie</category>
@@ -8220,7 +8221,7 @@
   </programme>
   <programme start="20260401045300 +0000" stop="20260401050300 +0000" channel="py#cartoon-network">
     <title lang="es">Un show más</title>
-    <sub-title lang="es">Calvo</sub-title>
+    <sub-title lang="es">Batería de 150 piezas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.5.0/1</episode-num>
     <episode-num system="onscreen">S04E06</episode-num>
@@ -16761,7 +16762,7 @@
   </programme>
   <programme start="20260331041700 +0000" stop="20260331042900 +0000" channel="py#disney">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">El último fan de pie</sub-title>
+    <sub-title lang="es">Algo de qué hablar / El último fan de pie</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -16889,7 +16890,7 @@
   </programme>
   <programme start="20260331093200 +0000" stop="20260331100000 +0000" channel="py#disney">
     <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">Bravucón salvaje / Luces, Candace, acción</sub-title>
+    <sub-title lang="es">Los pocos magníficos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -17225,7 +17226,7 @@
   </programme>
   <programme start="20260401042300 +0000" stop="20260401043500 +0000" channel="py#disney">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">El último fan de pie</sub-title>
+    <sub-title lang="es">Algo de qué hablar / El último fan de pie</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -18249,7 +18250,7 @@
   </programme>
   <programme start="20260331093200 +0000" stop="20260331100000 +0000" channel="py#disney-multicountry">
     <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">Bravucón salvaje / Luces, Candace, acción</sub-title>
+    <sub-title lang="es">Los pocos magníficos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -18577,7 +18578,7 @@
   </programme>
   <programme start="20260401043000 +0000" stop="20260401044500 +0000" channel="py#disney-multicountry">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">El último fan de pie</sub-title>
+    <sub-title lang="es">Algo de qué hablar / El último fan de pie</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -25320,8 +25321,8 @@
     <title lang="es">La Tierra sin humanos</title>
     <sub-title lang="es">Compra hasta caer rendido</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.21.0/1</episode-num>
-    <episode-num system="onscreen">S03E22</episode-num>
+    <episode-num system="xmltv_ns">2.1.0/1</episode-num>
+    <episode-num system="onscreen">S03E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260402005000 +0000" stop="20260402013800 +0000" channel="py#history">
@@ -28421,9 +28422,9 @@
     <title lang="es">Mayday: catástrofes aéreas</title>
     <sub-title lang="es">Pesadilla noruega</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">24.7.0/1</episode-num>
-    <episode-num system="onscreen">S25E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/py_mayday-catastrofes-aereas-t25e08-pesadilla-noruega_l_m.jpg</image>
+    <episode-num system="xmltv_ns">25.1.0/1</episode-num>
+    <episode-num system="onscreen">S26E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_mayday-catastrofes-aereas-t26e02-pesadilla-noruega_l_m.jpg</image>
   </programme>
   <programme start="20260402020100 +0000" stop="20260402030300 +0000" channel="py#national-geographic">
     <title lang="es">Traficantes</title>
@@ -36324,8 +36325,8 @@
   </programme>
   <programme start="20260330065500 +0000" stop="20260330070500 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Hay que correr hasta Delaware</title>
-    <category lang="es">Temporada 1 - Hay que correr hasta Delaware</category>
+    <title lang="en">Temporada 1 - Race Rally to Raleigh</title>
+    <category lang="es">Temporada 1 - Race Rally to Raleigh</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260330070500 +0000" stop="20260330071500 +0000" channel="py#tooncast">
@@ -36586,7 +36587,7 @@
   </programme>
   <programme start="20260330131000 +0000" stop="20260330131100 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Don&apos;t Walk Signs</sub-title>
+    <sub-title lang="es">Ain&apos;t Mutton Better</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -36618,7 +36619,7 @@
   </programme>
   <programme start="20260330132100 +0000" stop="20260330132200 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Lamb-Baa-sted</sub-title>
+    <sub-title lang="es">Where&apos;s the Doggie?</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.19.0/1</episode-num>
     <episode-num system="onscreen">S01E20</episode-num>
@@ -36634,7 +36635,7 @@
   </programme>
   <programme start="20260330132700 +0000" stop="20260330133300 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Esquilado de conocerte</sub-title>
+    <sub-title lang="es">Hasty Rent a Car</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -36690,7 +36691,7 @@
   </programme>
   <programme start="20260330145600 +0000" stop="20260330150600 +0000" channel="py#tooncast">
     <title lang="es">Los pequeños Looney Tunes</title>
-    <sub-title lang="es">Loose Change</sub-title>
+    <sub-title lang="es">Act Your Age</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.29.0/1</episode-num>
     <episode-num system="onscreen">S01E30</episode-num>
@@ -36778,8 +36779,8 @@
   </programme>
   <programme start="20260330184300 +0000" stop="20260330185400 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Hay que correr hasta Delaware</title>
-    <category lang="es">Temporada 1 - Hay que correr hasta Delaware</category>
+    <title lang="en">Temporada 1 - Race Rally to Raleigh</title>
+    <category lang="es">Temporada 1 - Race Rally to Raleigh</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260330185400 +0000" stop="20260330190300 +0000" channel="py#tooncast">
@@ -36792,8 +36793,8 @@
   </programme>
   <programme start="20260330190300 +0000" stop="20260330191400 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Hay que correr hasta Delaware</title>
-    <category lang="es">Temporada 1 - Hay que correr hasta Delaware</category>
+    <title lang="en">Temporada 1 - Race Rally to Raleigh</title>
+    <category lang="es">Temporada 1 - Race Rally to Raleigh</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260330191400 +0000" stop="20260330192400 +0000" channel="py#tooncast">
@@ -37050,7 +37051,7 @@
   </programme>
   <programme start="20260331011900 +0000" stop="20260331012000 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Lamb-Baa-sted</sub-title>
+    <sub-title lang="es">Where&apos;s the Doggie?</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.19.0/1</episode-num>
     <episode-num system="onscreen">S01E20</episode-num>
@@ -37066,7 +37067,7 @@
   </programme>
   <programme start="20260331012400 +0000" stop="20260331013000 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Esquilado de conocerte</sub-title>
+    <sub-title lang="es">Hasty Rent a Car</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -37122,7 +37123,7 @@
   </programme>
   <programme start="20260331025400 +0000" stop="20260331030400 +0000" channel="py#tooncast">
     <title lang="es">Los pequeños Looney Tunes</title>
-    <sub-title lang="es">Loose Change</sub-title>
+    <sub-title lang="es">Act Your Age</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.29.0/1</episode-num>
     <episode-num system="onscreen">S01E30</episode-num>
@@ -37218,8 +37219,8 @@
   </programme>
   <programme start="20260331064400 +0000" stop="20260331065400 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Hay que correr hasta Delaware</title>
-    <category lang="es">Temporada 1 - Hay que correr hasta Delaware</category>
+    <title lang="en">Temporada 1 - Race Rally to Raleigh</title>
+    <category lang="es">Temporada 1 - Race Rally to Raleigh</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260331065400 +0000" stop="20260331070400 +0000" channel="py#tooncast">
@@ -37232,14 +37233,14 @@
   </programme>
   <programme start="20260331070400 +0000" stop="20260331071400 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Hay que correr hasta Delaware</title>
-    <category lang="es">Temporada 1 - Hay que correr hasta Delaware</category>
+    <title lang="en">Temporada 1 - Race Rally to Raleigh</title>
+    <category lang="es">Temporada 1 - Race Rally to Raleigh</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260331071400 +0000" stop="20260331072400 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Hay que correr hasta Delaware</title>
-    <category lang="es">Temporada 1 - Hay que correr hasta Delaware</category>
+    <title lang="en">Temporada 1 - Race Rally to Raleigh</title>
+    <category lang="es">Temporada 1 - Race Rally to Raleigh</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260331072400 +0000" stop="20260331073400 +0000" channel="py#tooncast">
@@ -37444,7 +37445,7 @@
   </programme>
   <programme start="20260331125000 +0000" stop="20260331125100 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Refrigerators</sub-title>
+    <sub-title lang="es">En casa para las baaa-caciones</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -37452,7 +37453,7 @@
   </programme>
   <programme start="20260331125100 +0000" stop="20260331125600 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Oxmoron Roach Suits</sub-title>
+    <sub-title lang="es">Supermodel Sandra and Oxymoron Shampoo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -37492,7 +37493,7 @@
   </programme>
   <programme start="20260331130600 +0000" stop="20260331131100 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Juggling Things in Life</sub-title>
+    <sub-title lang="es">I&apos;ll Ask the Questions Here Game Show</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -37506,7 +37507,7 @@
   </programme>
   <programme start="20260331131200 +0000" stop="20260331131900 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Juggling Things in Life</sub-title>
+    <sub-title lang="es">I&apos;ll Ask the Questions Here Game Show</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -37570,7 +37571,7 @@
   </programme>
   <programme start="20260331143900 +0000" stop="20260331145000 +0000" channel="py#tooncast">
     <title lang="es">Los pequeños Looney Tunes</title>
-    <sub-title lang="es">Now Museum, Now You Don&apos;t</sub-title>
+    <sub-title lang="es">These Little Piggies Went to Market</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.40.0/1</episode-num>
     <episode-num system="onscreen">S02E41</episode-num>
@@ -37906,7 +37907,7 @@
   </programme>
   <programme start="20260401005400 +0000" stop="20260401005500 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Refrigerators</sub-title>
+    <sub-title lang="es">En casa para las baaa-caciones</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -37914,7 +37915,7 @@
   </programme>
   <programme start="20260401005500 +0000" stop="20260401010000 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Oxmoron Roach Suits</sub-title>
+    <sub-title lang="es">Supermodel Sandra and Oxymoron Shampoo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -37954,7 +37955,7 @@
   </programme>
   <programme start="20260401011000 +0000" stop="20260401011500 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Juggling Things in Life</sub-title>
+    <sub-title lang="es">I&apos;ll Ask the Questions Here Game Show</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -37968,7 +37969,7 @@
   </programme>
   <programme start="20260401011600 +0000" stop="20260401012300 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Juggling Things in Life</sub-title>
+    <sub-title lang="es">I&apos;ll Ask the Questions Here Game Show</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -38032,7 +38033,7 @@
   </programme>
   <programme start="20260401024700 +0000" stop="20260401025900 +0000" channel="py#tooncast">
     <title lang="es">Los pequeños Looney Tunes</title>
-    <sub-title lang="es">Now Museum, Now You Don&apos;t</sub-title>
+    <sub-title lang="es">These Little Piggies Went to Market</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.40.0/1</episode-num>
     <episode-num system="onscreen">S02E41</episode-num>
@@ -42415,13 +42416,13 @@
     <title lang="en">Erótica</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260401041200 +0000" stop="20260401051200 +0000" channel="py#venus">
+  <programme start="20260401041200 +0000" stop="20260401150000 +0000" channel="py#venus">
     <title lang="es">Venus</title>
     <title lang="en">Erótico</title>
     <category lang="es">Erótico</category>
     <image>https://cdn.mitvstatic.com/programs/py_venus_l_m.jpg</image>
   </programme>
-  <programme start="20260401041200 +0000" stop="20260401150000 +0000" channel="py#venus">
+  <programme start="20260401041200 +0000" stop="20260401051200 +0000" channel="py#venus">
     <title lang="es">Venus</title>
     <title lang="en">Erótico</title>
     <category lang="es">Erótico</category>
@@ -43018,13 +43019,13 @@
     <rating><value>8.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_guason-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260401051600 +0000" stop="20260401061600 +0000" channel="py#warner">
+  <programme start="20260401051600 +0000" stop="20260401070400 +0000" channel="py#warner">
     <title lang="es">Zoolander 2</title>
     <title lang="en">Comedia</title>
     <rating><value>4.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_zoolander-2-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260401051600 +0000" stop="20260401070400 +0000" channel="py#warner">
+  <programme start="20260401051600 +0000" stop="20260401061600 +0000" channel="py#warner">
     <title lang="es">Zoolander 2</title>
     <title lang="en">Comedia</title>
     <rating><value>4.8</value></rating>
@@ -43861,7 +43862,7 @@
     <episode-num system="onscreen">S10E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t10e08-the-brain-bowl-incubation_l_m.jpg</image>
   </programme>
-  <programme start="20260401055300 +0000" stop="20260401065300 +0000" channel="py#warner-channel">
+  <programme start="20260401055300 +0000" stop="20260401061400 +0000" channel="py#warner-channel">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La elevación de la geología</sub-title>
     <category lang="es">Serie</category>
@@ -43869,7 +43870,7 @@
     <episode-num system="onscreen">S10E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t10e09_l_m.jpg</image>
   </programme>
-  <programme start="20260401055300 +0000" stop="20260401061400 +0000" channel="py#warner-channel">
+  <programme start="20260401055300 +0000" stop="20260401065300 +0000" channel="py#warner-channel">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La elevación de la geología</sub-title>
     <category lang="es">Serie</category>

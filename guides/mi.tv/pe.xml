@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260330104607 +0000">
+<tv generator-info-name="custom-epg" date="20260330140823 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -9,37 +9,35 @@
   <channel id="pe#america-sports">
     <display-name>América Sports</display-name>
   </channel>
+  <channel id="ATV.pe@SD">
+    <display-name>ATV</display-name>
+    <icon src="https://i.imgur.com/eUzYZfg.png"/>
+  </channel>
+  <channel id="pe#azteca-13">
+    <display-name>Azteca 13</display-name>
+  </channel>
   <channel id="pe#animal-planet">
     <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="pe#az-corazon">
+    <display-name>Az Corazón</display-name>
+  </channel>
+  <channel id="pe#axn">
+    <display-name>AXN</display-name>
   </channel>
   <channel id="pe#america-television">
     <display-name>América Televisión</display-name>
   </channel>
-  <channel id="pe#universal-channel">
-    <display-name>Universal TV</display-name>
+  <channel id="ATVSur.pe@SD">
+    <display-name>ATV Sur</display-name>
+    <icon src="https://i.imgur.com/LnyVa5H.png"/>
   </channel>
-  <channel id="UnitelSantaCruz.bo@SD">
-    <display-name>Unitel</display-name>
-    <icon src="https://i.imgur.com/B9wg1zj.png"/>
+  <channel id="ATVPlus.pe@SD">
+    <display-name>ATV +</display-name>
+    <icon src="https://i.imgur.com/fY9256H.png"/>
   </channel>
-  <channel id="pe#tyc-sports">
-    <display-name>TyC Sports</display-name>
-  </channel>
-  <channel id="pe#tvn-chile">
-    <display-name>TVN Chile</display-name>
-  </channel>
-  <channel id="pe#tve">
-    <display-name>TVE</display-name>
-  </channel>
-  <channel id="TVPeru.pe@SD">
-    <display-name>TV Perú</display-name>
-    <icon src="https://i.imgur.com/6io0IrX.png"/>
-  </channel>
-  <channel id="pe#tv-agro">
-    <display-name>Tv Agro</display-name>
-  </channel>
-  <channel id="pe#tru-tv">
-    <display-name>TruTV</display-name>
+  <channel id="pe#bbc-world">
+    <display-name>BBC World</display-name>
   </channel>
   <channel id="pe#tnt-series">
     <display-name>TNT Series</display-name>
@@ -329,29 +327,12 @@
   <channel id="pe#bethel">
     <display-name>Bethel</display-name>
   </channel>
-  <channel id="pe#bbc-world">
-    <display-name>BBC World</display-name>
+  <channel id="TVPeru.pe@SD">
+    <display-name>TV Perú</display-name>
+    <icon src="https://i.imgur.com/6io0IrX.png"/>
   </channel>
-  <channel id="pe#azteca-13">
-    <display-name>Azteca 13</display-name>
-  </channel>
-  <channel id="pe#az-corazon">
-    <display-name>Az Corazón</display-name>
-  </channel>
-  <channel id="pe#axn">
-    <display-name>AXN</display-name>
-  </channel>
-  <channel id="ATVSur.pe@SD">
-    <display-name>ATV Sur</display-name>
-    <icon src="https://i.imgur.com/LnyVa5H.png"/>
-  </channel>
-  <channel id="ATVPlus.pe@SD">
-    <display-name>ATV +</display-name>
-    <icon src="https://i.imgur.com/fY9256H.png"/>
-  </channel>
-  <channel id="ATV.pe@SD">
-    <display-name>ATV</display-name>
-    <icon src="https://i.imgur.com/eUzYZfg.png"/>
+  <channel id="pe#tv-agro">
+    <display-name>Tv Agro</display-name>
   </channel>
   <channel id="WillaxTV.pe@SD">
     <display-name>Willax</display-name>
@@ -362,6 +343,25 @@
   </channel>
   <channel id="pe#ve-plus-tv">
     <display-name>Ve Plus TV</display-name>
+  </channel>
+  <channel id="pe#universal-channel">
+    <display-name>Universal TV</display-name>
+  </channel>
+  <channel id="pe#tyc-sports">
+    <display-name>TyC Sports</display-name>
+  </channel>
+  <channel id="pe#tvn-chile">
+    <display-name>TVN Chile</display-name>
+  </channel>
+  <channel id="pe#tve">
+    <display-name>TVE</display-name>
+  </channel>
+  <channel id="pe#tru-tv">
+    <display-name>TruTV</display-name>
+  </channel>
+  <channel id="UnitelSantaCruz.bo@SD">
+    <display-name>Unitel</display-name>
+    <icon src="https://i.imgur.com/B9wg1zj.png"/>
   </channel>
   <programme start="20260330060000 +0000" stop="20260330103000 +0000" channel="ATV.pe@SD">
     <title lang="es">Los hombres de Paco</title>
@@ -6361,8 +6361,6 @@
   <programme start="20260401104000 +0000" stop="20260401110000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Wylde Pak</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
-    <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260401110000 +0000" stop="20260401112500 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
@@ -9786,7 +9784,7 @@
     <episode-num system="onscreen">S05E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_animales-en-riesgo-houston-s05e11-rescates-extremos_l_m.jpg</image>
   </programme>
-  <programme start="20260331051700 +0000" stop="20260331061700 +0000" channel="pe#animal-planet">
+  <programme start="20260331051700 +0000" stop="20260331060700 +0000" channel="pe#animal-planet">
     <title lang="es">Animales en riesgo: Houston</title>
     <sub-title lang="es">A salvo</sub-title>
     <category lang="es">Serie</category>
@@ -9794,7 +9792,7 @@
     <episode-num system="onscreen">S09E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_animales-en-riesgo-houston-s09e20-a-salvo_l_m.jpg</image>
   </programme>
-  <programme start="20260331051700 +0000" stop="20260331060700 +0000" channel="pe#animal-planet">
+  <programme start="20260331051700 +0000" stop="20260331061700 +0000" channel="pe#animal-planet">
     <title lang="es">Animales en riesgo: Houston</title>
     <sub-title lang="es">A salvo</sub-title>
     <category lang="es">Serie</category>
@@ -10081,7 +10079,7 @@
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_jeff-corwin-en-accion-s00e05-la-fauna-del-sur-de-louisiana_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/pe_jeff-corwin-en-accion-s01e05-la-fauna-del-sur-de-louisiana_l_m.jpg</image>
   </programme>
   <programme start="20260401124000 +0000" stop="20260401133000 +0000" channel="pe#animal-planet">
     <title lang="es">Guardianes de Texas</title>
@@ -19911,7 +19909,7 @@
   </programme>
   <programme start="20260401045300 +0000" stop="20260401050300 +0000" channel="pe#cartoon-network">
     <title lang="es">Un show más</title>
-    <sub-title lang="es">Calvo</sub-title>
+    <sub-title lang="es">Batería de 150 piezas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.5.0/1</episode-num>
     <episode-num system="onscreen">S04E06</episode-num>
@@ -29168,7 +29166,7 @@
   </programme>
   <programme start="20260402042500 +0000" stop="20260402044900 +0000" channel="pe#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">Superfiesta de superdisfraces / El jurado / El reemplazo / La samba tiene la culpa / ¡Otra v...</sub-title>
+    <sub-title lang="es">La nube / Una cucharada de metal / Armonía entre hermanos / Una visión rockera / Pinta tu mú...</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.2.0/1</episode-num>
     <episode-num system="onscreen">S03E03</episode-num>
@@ -31014,7 +31012,7 @@
   </programme>
   <programme start="20260401110000 +0000" stop="20260401112900 +0000" channel="pe#disney-jr">
     <title lang="es">Mickey Mouse Funhouse</title>
-    <sub-title lang="es">¡Día de campo! / ¡Goofy, el pez dorado!</sub-title>
+    <sub-title lang="es">Mickey, el valiente</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -31774,7 +31772,7 @@
   </programme>
   <programme start="20260331041700 +0000" stop="20260331042900 +0000" channel="pe#disney-multicountry">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">El último fan de pie</sub-title>
+    <sub-title lang="es">Algo de qué hablar / El último fan de pie</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -31902,7 +31900,7 @@
   </programme>
   <programme start="20260331093200 +0000" stop="20260331100000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">Bravucón salvaje / Luces, Candace, acción</sub-title>
+    <sub-title lang="es">Los pocos magníficos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -32230,7 +32228,7 @@
   </programme>
   <programme start="20260401043000 +0000" stop="20260401044500 +0000" channel="pe#disney-multicountry">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">El último fan de pie</sub-title>
+    <sub-title lang="es">Algo de qué hablar / El último fan de pie</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -44756,7 +44754,7 @@
   </programme>
   <programme start="20260330185300 +0000" stop="20260330195700 +0000" channel="pe#national-geographic">
     <title lang="es">Secreto en los océanos</title>
-    <sub-title lang="es">Golfo de México</sub-title>
+    <sub-title lang="es">Las maravillas perdidas de Egipto</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -45294,9 +45292,9 @@
     <title lang="es">Mayday: catástrofes aéreas</title>
     <sub-title lang="es">Pesadilla noruega</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">24.7.0/1</episode-num>
-    <episode-num system="onscreen">S25E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_mayday-catastrofes-aereas-s25e08-pesadilla-noruega_l_m.jpg</image>
+    <episode-num system="xmltv_ns">25.1.0/1</episode-num>
+    <episode-num system="onscreen">S26E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_mayday-catastrofes-aereas-s26e02-pesadilla-noruega_l_m.jpg</image>
   </programme>
   <programme start="20260402020100 +0000" stop="20260402030300 +0000" channel="pe#national-geographic">
     <title lang="es">Traficantes</title>
@@ -45388,7 +45386,7 @@
   </programme>
   <programme start="20260330081000 +0000" stop="20260330083500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">¡Botón de oro!</sub-title>
+    <sub-title lang="es">Tenemos que salvar los corales</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.22.0/1</episode-num>
     <episode-num system="onscreen">S02E23</episode-num>
@@ -45404,7 +45402,7 @@
   </programme>
   <programme start="20260330084000 +0000" stop="20260330085000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Limpieza</sub-title>
+    <sub-title lang="es">El Scáner Playil / Limpieza / Mascotas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
@@ -45572,7 +45570,7 @@
   </programme>
   <programme start="20260330151300 +0000" stop="20260330153000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Juguete / Astro bobo / Topo</sub-title>
+    <sub-title lang="es">Astro bobo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <episode-num system="onscreen">S01E09</episode-num>
@@ -45684,7 +45682,7 @@
   </programme>
   <programme start="20260330202500 +0000" stop="20260330205000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Limpieza</sub-title>
+    <sub-title lang="es">El Scáner Playil / Limpieza / Mascotas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
@@ -45852,7 +45850,7 @@
   </programme>
   <programme start="20260331024500 +0000" stop="20260331030000 +0000" channel="pe#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Los cachorros salvan a los cuervos</sub-title>
+    <sub-title lang="es">Los cachorros salvan el Paw Patroller / Los cachorros salvan a los cuervos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.24.0/1</episode-num>
     <episode-num system="onscreen">S03E25</episode-num>
@@ -46020,7 +46018,7 @@
   </programme>
   <programme start="20260331092000 +0000" stop="20260331094500 +0000" channel="pe#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">El equipo construye un tanque de agua de lluvia</sub-title>
+    <sub-title lang="es">El equipo le construye al sr. Patolino un trampolín especial / El equipo construye un tanque de...</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.10.0/1</episode-num>
     <episode-num system="onscreen">S02E11</episode-num>
@@ -46356,7 +46354,7 @@
   </programme>
   <programme start="20260331235500 +0000" stop="20260401002000 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">¡Botón de oro!</sub-title>
+    <sub-title lang="es">Tenemos que salvar los corales</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.22.0/1</episode-num>
     <episode-num system="onscreen">S02E23</episode-num>
@@ -46444,7 +46442,7 @@
   </programme>
   <programme start="20260401024500 +0000" stop="20260401030000 +0000" channel="pe#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Los cachorros salvan a sus amigos flotantes</sub-title>
+    <sub-title lang="es">Los cachorros salvan a sus amigos flotantes / Los cachorros salvan un satélite</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.25.0/1</episode-num>
     <episode-num system="onscreen">S03E26</episode-num>
@@ -46572,7 +46570,7 @@
   </programme>
   <programme start="20260401081000 +0000" stop="20260401083500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá / El Cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">El nacimiento</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -46764,7 +46762,7 @@
   </programme>
   <programme start="20260401153000 +0000" stop="20260401155500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá / El Cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">El nacimiento</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -46812,7 +46810,7 @@
   </programme>
   <programme start="20260401174500 +0000" stop="20260401181000 +0000" channel="pe#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">¡El equipo construye una pista de bolos!</sub-title>
+    <sub-title lang="es">¡El equipo construye un sendero de superfloración!</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.15.0/1</episode-num>
     <episode-num system="onscreen">S02E16</episode-num>
@@ -46844,7 +46842,7 @@
   </programme>
   <programme start="20260401191500 +0000" stop="20260401194000 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá / El Cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">El nacimiento</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -46980,7 +46978,7 @@
   </programme>
   <programme start="20260402005000 +0000" stop="20260402005500 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Agente doble</sub-title>
+    <sub-title lang="es">Premios</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -47036,7 +47034,7 @@
   </programme>
   <programme start="20260402024500 +0000" stop="20260402030000 +0000" channel="pe#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Los cachorros salvan a sus amigos flotantes</sub-title>
+    <sub-title lang="es">Los cachorros salvan a sus amigos flotantes / Los cachorros salvan un satélite</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.25.0/1</episode-num>
     <episode-num system="onscreen">S03E26</episode-num>
@@ -47076,7 +47074,7 @@
   </programme>
   <programme start="20260402042500 +0000" stop="20260402045000 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">¡Botón de oro!</sub-title>
+    <sub-title lang="es">Tenemos que salvar los corales</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.22.0/1</episode-num>
     <episode-num system="onscreen">S02E23</episode-num>
@@ -47108,7 +47106,7 @@
   </programme>
   <programme start="20260402055500 +0000" stop="20260402065500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá / El Cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">El nacimiento</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -53437,7 +53435,7 @@
     <episode-num system="onscreen">S12E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_csi-s12e22-regreso-al-hogar_l_m.jpg</image>
   </programme>
-  <programme start="20260401052400 +0000" stop="20260401060500 +0000" channel="pe#tnt-series">
+  <programme start="20260401052400 +0000" stop="20260401062400 +0000" channel="pe#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">As</sub-title>
     <category lang="es">Serie</category>
@@ -53445,7 +53443,7 @@
     <episode-num system="onscreen">S11E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-y-el-orden-uve-s11e22-as_l_m.jpg</image>
   </programme>
-  <programme start="20260401052400 +0000" stop="20260401062400 +0000" channel="pe#tnt-series">
+  <programme start="20260401052400 +0000" stop="20260401060500 +0000" channel="pe#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">As</sub-title>
     <category lang="es">Serie</category>
@@ -54936,14 +54934,14 @@
     <episode-num system="onscreen">S01E323</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260401055000 +0000" stop="20260401083500 +0000" channel="pe#tve">
+  <programme start="20260401055000 +0000" stop="20260401065000 +0000" channel="pe#tve">
     <title lang="es">La hora de la 1</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.62.0/1</episode-num>
     <episode-num system="onscreen">S01E63</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-hora-de-la-1-s00e63_l_m.jpg</image>
   </programme>
-  <programme start="20260401055000 +0000" stop="20260401065000 +0000" channel="pe#tve">
+  <programme start="20260401055000 +0000" stop="20260401083500 +0000" channel="pe#tve">
     <title lang="es">La hora de la 1</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.62.0/1</episode-num>
@@ -55961,7 +55959,7 @@
     <episode-num system="onscreen">S12E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260331052000 +0000" stop="20260331062000 +0000" channel="pe#universal-channel">
+  <programme start="20260331052000 +0000" stop="20260331061000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">La magnífica ciudad de Chicago</sub-title>
     <category lang="es">Serie</category>
@@ -55969,7 +55967,7 @@
     <episode-num system="onscreen">S10E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_chicago-fire-s10e22-the-magnificent-city-of-chicago_l_m.jpg</image>
   </programme>
-  <programme start="20260331052000 +0000" stop="20260331061000 +0000" channel="pe#universal-channel">
+  <programme start="20260331052000 +0000" stop="20260331062000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">La magnífica ciudad de Chicago</sub-title>
     <category lang="es">Serie</category>
@@ -56201,7 +56199,7 @@
     <episode-num system="onscreen">S12E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260401052000 +0000" stop="20260401061000 +0000" channel="pe#universal-channel">
+  <programme start="20260401052000 +0000" stop="20260401062000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Totalmente destrozado</sub-title>
     <category lang="es">Serie</category>
@@ -56209,7 +56207,7 @@
     <episode-num system="onscreen">S11E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_chicago-fire-s11e03-totalmente-destrozado_l_m.jpg</image>
   </programme>
-  <programme start="20260401052000 +0000" stop="20260401062000 +0000" channel="pe#universal-channel">
+  <programme start="20260401052000 +0000" stop="20260401061000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Totalmente destrozado</sub-title>
     <category lang="es">Serie</category>
@@ -57453,13 +57451,13 @@
     <rating><value>8.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_guason-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260401051600 +0000" stop="20260401061600 +0000" channel="pe#warner">
+  <programme start="20260401051600 +0000" stop="20260401070400 +0000" channel="pe#warner">
     <title lang="es">Zoolander 2</title>
     <title lang="en">Comedia</title>
     <rating><value>4.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_zoolander-2-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260401051600 +0000" stop="20260401070400 +0000" channel="pe#warner">
+  <programme start="20260401051600 +0000" stop="20260401061600 +0000" channel="pe#warner">
     <title lang="es">Zoolander 2</title>
     <title lang="en">Comedia</title>
     <rating><value>4.7</value></rating>
