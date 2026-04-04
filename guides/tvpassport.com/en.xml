@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260404072336 +0000">
+<tv generator-info-name="custom-epg" date="20260404100214 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png"/>
@@ -12,56 +12,15 @@
     <display-name>Bravo USA HD - Eastern Feed</display-name>
     <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="TSN1.ca@SD">
-    <display-name>TSN1</display-name>
-    <icon src="https://i.imgur.com/eRFE0jZ.png"/>
-  </channel>
-  <channel id="tsn3-hd/13768">
-    <display-name>TSN3 HD</display-name>
-  </channel>
-  <channel id="tsn1-hd/2819">
-    <display-name>TSN1 HD</display-name>
-  </channel>
-  <channel id="TSN2.ca@SD">
-    <display-name>TSN2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/960px-TSN2.svg.png"/>
-  </channel>
-  <channel id="tsn2-hd/5920">
-    <display-name>TSN2 HD</display-name>
-  </channel>
   <channel id="Bravo.us@West">
     <display-name>Bravo USA HD - Pacific Feed</display-name>
     <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="tsn2--no-habs/32778">
-    <display-name>TSN2 - No Habs</display-name>
-  </channel>
-  <channel id="tsn2--no-habs-hd/32779">
-    <display-name>TSN2 - No Habs HD</display-name>
-  </channel>
-  <channel id="TSN3.ca@SD">
-    <display-name>TSN3</display-name>
-    <icon src="https://i.imgur.com/AYza8KO.png"/>
-  </channel>
-  <channel id="tsn5-4k/35986">
-    <display-name>TSN5 4K</display-name>
-  </channel>
-  <channel id="TSN4.ca@SD">
-    <display-name>TSN4</display-name>
-    <icon src="https://i.imgur.com/qJyAWU8.png"/>
-  </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
-    <icon src="https://i.imgur.com/zZd9Tkt.png"/>
-  </channel>
-  <channel id="tsn-on-demand/6784">
-    <display-name>TSN On Demand</display-name>
-  </channel>
-  <channel id="tsn-4k/19467">
-    <display-name>TSN 4K</display-name>
-  </channel>
   <channel id="tsn-4k-senators/31606">
     <display-name>TSN 4K Senators</display-name>
+  </channel>
+  <channel id="tsn-4k-leafs/31605">
+    <display-name>TSN 4K Leafs</display-name>
   </channel>
   <channel id="tsn-4k-hd/31604">
     <display-name>TSN 4K HD</display-name>
@@ -73,11 +32,52 @@
   <channel id="tsn5-hd/13770">
     <display-name>TSN5 HD</display-name>
   </channel>
+  <channel id="tsn5-4k/35986">
+    <display-name>TSN5 4K</display-name>
+  </channel>
+  <channel id="TSN4.ca@SD">
+    <display-name>TSN4</display-name>
+    <icon src="https://i.imgur.com/qJyAWU8.png"/>
+  </channel>
   <channel id="tsn4-hd/13769">
     <display-name>TSN4 HD</display-name>
   </channel>
-  <channel id="tsn-4k-leafs/31605">
-    <display-name>TSN 4K Leafs</display-name>
+  <channel id="TSN3.ca@SD">
+    <display-name>TSN3</display-name>
+    <icon src="https://i.imgur.com/AYza8KO.png"/>
+  </channel>
+  <channel id="tsn3-hd/13768">
+    <display-name>TSN3 HD</display-name>
+  </channel>
+  <channel id="TSN2.ca@SD">
+    <display-name>TSN2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/960px-TSN2.svg.png"/>
+  </channel>
+  <channel id="tsn2-hd/5920">
+    <display-name>TSN2 HD</display-name>
+  </channel>
+  <channel id="tsn2--no-habs/32778">
+    <display-name>TSN2 - No Habs</display-name>
+  </channel>
+  <channel id="tsn2--no-habs-hd/32779">
+    <display-name>TSN2 - No Habs HD</display-name>
+  </channel>
+  <channel id="TSN1.ca@SD">
+    <display-name>TSN1</display-name>
+    <icon src="https://i.imgur.com/eRFE0jZ.png"/>
+  </channel>
+  <channel id="tsn1-hd/2819">
+    <display-name>TSN1 HD</display-name>
+  </channel>
+  <channel id="tsn-on-demand/6784">
+    <display-name>TSN On Demand</display-name>
+  </channel>
+  <channel id="tsn-4k/19467">
+    <display-name>TSN 4K</display-name>
+  </channel>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
+    <icon src="https://i.imgur.com/zZd9Tkt.png"/>
   </channel>
   <programme start="20260404100000 +0000" stop="20260404110000 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of Beverly Hills</title>
@@ -3563,18 +3563,16 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260404200000 +0000" stop="20260404230000 +0000" channel="tsn2--no-habs-hd/32779">
-    <title lang="en">College Basketball</title>
+    <title lang="en">AFL Premiership Football</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p356298_b_v8_ap.jpg</image>
+    <category lang="en">Australian Rules Football</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p3589784_b_v8_ab.jpg</image>
   </programme>
   <programme start="20260404200000 +0000" stop="20260404230000 +0000" channel="tsn2--no-habs-hd/32779">
-    <title lang="en">College Basketball</title>
+    <title lang="en">AFL Premiership Football</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p356298_b_v8_ap.jpg</image>
+    <category lang="en">Australian Rules Football</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p3589784_b_v8_ab.jpg</image>
   </programme>
   <programme start="20260404200000 +0000" stop="20260404230000 +0000" channel="tsn2--no-habs-hd/32779">
     <title lang="en">AFL Premiership Football</title>
@@ -3823,18 +3821,16 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p3589784_b_v8_ab.jpg</image>
   </programme>
   <programme start="20260404200000 +0000" stop="20260404230000 +0000" channel="tsn2--no-habs/32778">
-    <title lang="en">College Basketball</title>
+    <title lang="en">AFL Premiership Football</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p356298_b_v8_ap.jpg</image>
+    <category lang="en">Australian Rules Football</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p3589784_b_v8_ab.jpg</image>
   </programme>
   <programme start="20260404200000 +0000" stop="20260404230000 +0000" channel="tsn2--no-habs/32778">
-    <title lang="en">College Basketball</title>
+    <title lang="en">AFL Premiership Football</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p356298_b_v8_ap.jpg</image>
+    <category lang="en">Australian Rules Football</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p3589784_b_v8_ab.jpg</image>
   </programme>
   <programme start="20260404230000 +0000" stop="20260404233000 +0000" channel="tsn2--no-habs/32778">
     <title lang="en">SC</title>
@@ -4605,7 +4601,7 @@
     <title lang="en">Game and Glory</title>
     <category lang="en">Sports</category>
     <category lang="en">Soccer</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32808792_st_v8_aa.jpg</image>
   </programme>
   <programme start="20260407000000 +0000" stop="20260407010000 +0000" channel="TSN2.ca@SD">
     <title lang="en">Masters Official Film</title>
@@ -7734,11 +7730,9 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p21244589_b_v12_ae.jpg</image>
   </programme>
   <programme start="20260405150000 +0000" stop="20260405153000 +0000" channel="WNYWDT1.us@SD">
-    <title lang="en">Paid Programming</title>
+    <title lang="en">Car Repair Secrets!</title>
     <category lang="en">Paid Program</category>
-    <category lang="en">Shopping</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17463183_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260405153000 +0000" stop="20260405160000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Protect Your Family From Identity Theft</title>
