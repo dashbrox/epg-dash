@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260408075747 +0000">
+<tv generator-info-name="custom-epg" date="20260408102306 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -376,18 +378,16 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <programme start="20260408053500 +0000" stop="20260408074000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">HellBoy</title>
@@ -691,14 +691,14 @@
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410040000 +0000" stop="20260410060500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260410040000 +0000" stop="20260410050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Jungla</title>
     <title lang="en">Jungle</title>
     <category lang="es">Aventura</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410040000 +0000" stop="20260410050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260410040000 +0000" stop="20260410060500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Jungla</title>
     <title lang="en">Jungle</title>
     <category lang="es">Aventura</category>
@@ -1356,11 +1356,19 @@
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/mx_one-piece_l_m.jpg</image>
   </programme>
-  <programme start="20260410201500 +0000" stop="20260411004500 +0000" channel="Azteca7.mx@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_a-confirmar_l_m.jpg</image>
+  <programme start="20260410201500 +0000" stop="20260410224500 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Malas compañías</title>
+    <title lang="en">Bad Company</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.6</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_malas-companias-2002_l_m.jpg</image>
+  </programme>
+  <programme start="20260410224500 +0000" stop="20260411004500 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Seguridad nacional</title>
+    <title lang="en">National Security</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_seguridad-nacional-2003_l_m.jpg</image>
   </programme>
   <programme start="20260411004500 +0000" stop="20260411030000 +0000" channel="Azteca7.mx@SD">
     <title lang="es">Puebla vs. León</title>
@@ -1790,10 +1798,9 @@
   </programme>
   <programme start="20260410163000 +0000" stop="20260410180000 +0000" channel="Canal5.mx@SD">
     <title lang="es">Los pingüinos de Madagascar</title>
-    <title lang="en">Penguins of Madagascar</title>
+    <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar-2014_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar_l_m.jpg</image>
   </programme>
   <programme start="20260410180000 +0000" stop="20260410200000 +0000" channel="Canal5.mx@SD">
     <title lang="es">iCarly</title>
@@ -10215,10 +10222,10 @@
     <image>https://cdn.mitvstatic.com/programs/mx_deportivo-la-aficion_l_m.jpg</image>
   </programme>
   <programme start="20260410084500 +0000" stop="20260410090000 +0000" channel="MilenioTelevision.mx@SD">
-    <title lang="es">El asalto a la razón con Carlos Marín</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-asalto-a-la-razon-con-carlos-marin_l_m.jpg</image>
+    <title lang="es">Multiverso</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260410090000 +0000" stop="20260410093000 +0000" channel="MilenioTelevision.mx@SD">
     <title lang="es">Milenio Noticias</title>
@@ -10251,10 +10258,10 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260410104500 +0000" stop="20260410110000 +0000" channel="MilenioTelevision.mx@SD">
-    <title lang="es">El asalto a la razón con Carlos Marín</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-asalto-a-la-razon-con-carlos-marin_l_m.jpg</image>
+    <title lang="es">En 15 con Carlos Puig</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_en-15-con-carlos-puig_l_m.jpg</image>
   </programme>
   <programme start="20260410110000 +0000" stop="20260410130000 +0000" channel="MilenioTelevision.mx@SD">
     <title lang="es">Milenio Noticias</title>
@@ -10328,11 +10335,16 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/mx_milenio-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260411000000 +0000" stop="20260411010000 +0000" channel="MilenioTelevision.mx@SD">
+  <programme start="20260411000000 +0000" stop="20260411004500 +0000" channel="MilenioTelevision.mx@SD">
     <title lang="es">Milenio Noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/mx_milenio-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260411004500 +0000" stop="20260411010000 +0000" channel="MilenioTelevision.mx@SD">
+    <title lang="es">El arte de la canción</title>
+    <category lang="es">Musical</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-arte-de-la-cancion_l_m.jpg</image>
   </programme>
   <programme start="20260411010000 +0000" stop="20260411014500 +0000" channel="MilenioTelevision.mx@SD">
     <title lang="es">Milenio Noticias</title>
@@ -11982,443 +11994,474 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260408061000 +0000" stop="20260408080500 +0000" channel="mx#amc-hd">
+  <programme start="20260408061000 +0000" stop="20260408074000 +0000" channel="mx#amc-hd">
     <title lang="es">Soldado universal</title>
     <title lang="en">Universal Soldier</title>
     <category lang="es">Acción</category>
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_soldado-universal-1992_l_m.jpg</image>
   </programme>
-  <programme start="20260408080500 +0000" stop="20260408083000 +0000" channel="mx#amc-hd">
+  <programme start="20260408074000 +0000" stop="20260408091000 +0000" channel="mx#amc-hd">
+    <title lang="es">Presa</title>
+    <title lang="en">Kalahari</title>
+    <category lang="es">Acción</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260408091000 +0000" stop="20260408110500 +0000" channel="mx#amc-hd">
+    <title lang="es">Soldado universal</title>
+    <title lang="en">Universal Soldier</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_soldado-universal-1992_l_m.jpg</image>
+  </programme>
+  <programme start="20260408110500 +0000" stop="20260408113000 +0000" channel="mx#amc-hd">
     <title lang="es">Planet Action</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.292.0/1</episode-num>
     <episode-num system="onscreen">S01E293</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e293_l_m.jpg</image>
   </programme>
-  <programme start="20260408083000 +0000" stop="20260408090000 +0000" channel="mx#amc-hd">
+  <programme start="20260408113000 +0000" stop="20260408120000 +0000" channel="mx#amc-hd">
     <title lang="es">Planet Action</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.293.0/1</episode-num>
     <episode-num system="onscreen">S01E294</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e294_l_m.jpg</image>
   </programme>
-  <programme start="20260408090000 +0000" stop="20260408093000 +0000" channel="mx#amc-hd">
+  <programme start="20260408120000 +0000" stop="20260408123000 +0000" channel="mx#amc-hd">
     <title lang="es">Planet Action</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.294.0/1</episode-num>
     <episode-num system="onscreen">S01E295</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e295_l_m.jpg</image>
   </programme>
-  <programme start="20260408093000 +0000" stop="20260408100000 +0000" channel="mx#amc-hd">
+  <programme start="20260408123000 +0000" stop="20260408130000 +0000" channel="mx#amc-hd">
     <title lang="es">Planet Action</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.295.0/1</episode-num>
     <episode-num system="onscreen">S01E296</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e296_l_m.jpg</image>
-  </programme>
-  <programme start="20260408100000 +0000" stop="20260408103000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408103000 +0000" stop="20260408110000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408110000 +0000" stop="20260408113000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408113000 +0000" stop="20260408120000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408120000 +0000" stop="20260408123000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408123000 +0000" stop="20260408130000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
   </programme>
   <programme start="20260408130000 +0000" stop="20260408133000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408133000 +0000" stop="20260408140000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260408140000 +0000" stop="20260408143000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.304.0/1</episode-num>
-    <episode-num system="onscreen">S01E305</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e305_l_m.jpg</image>
-  </programme>
-  <programme start="20260408143000 +0000" stop="20260408150000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.305.0/1</episode-num>
-    <episode-num system="onscreen">S01E306</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e306_l_m.jpg</image>
-  </programme>
-  <programme start="20260408150000 +0000" stop="20260408165500 +0000" channel="mx#amc-hd">
-    <title lang="es">Dura de ligar</title>
-    <title lang="en">Management</title>
-    <category lang="es">Comedia</category>
-    <rating><value>5.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260408165500 +0000" stop="20260408191000 +0000" channel="mx#amc-hd">
-    <title lang="es">El mito</title>
-    <title lang="en">The Myth</title>
-    <category lang="es">Acción</category>
-    <rating><value>6.1</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-mito-2005_l_m.jpg</image>
-  </programme>
-  <programme start="20260408191000 +0000" stop="20260408204500 +0000" channel="mx#amc-hd">
-    <title lang="es">Yo, Frankenstein</title>
-    <title lang="en">I, Frankenstein</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260408204500 +0000" stop="20260408225000 +0000" channel="mx#amc-hd">
-    <title lang="es">Terminator: La salvación</title>
-    <title lang="en">Terminator Salvation</title>
-    <category lang="es">Acción</category>
-    <rating><value>6.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_terminator-la-salvacion-2009-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260408225000 +0000" stop="20260409010000 +0000" channel="mx#amc-hd">
-    <title lang="es">RoboCop</title>
-    <title lang="en">Acción</title>
-    <rating><value>6.1</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_robocop-2014-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260409010000 +0000" stop="20260409040000 +0000" channel="mx#amc-hd">
-    <title lang="es">La chica del dragón tatuado</title>
-    <title lang="en">The Girl with the Dragon Tattoo</title>
-    <category lang="es">Drama</category>
-    <rating><value>7.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
-  </programme>
-  <programme start="20260409040000 +0000" stop="20260409055500 +0000" channel="mx#amc-hd">
-    <title lang="es">Drive: acción a máxima velocidad</title>
-    <title lang="en">Drive</title>
-    <category lang="es">Crimen</category>
-    <rating><value>7.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_drive-accion-a-maxima-velocidad-2011_l_m.jpg</image>
-  </programme>
-  <programme start="20260409055500 +0000" stop="20260409075500 +0000" channel="mx#amc-hd">
-    <title lang="es">El orfanato</title>
-    <title lang="en">Terror</title>
-    <rating><value>7.5</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-orfanato-2007_l_m.jpg</image>
-  </programme>
-  <programme start="20260409055500 +0000" stop="20260409065500 +0000" channel="mx#amc-hd">
-    <title lang="es">El orfanato</title>
-    <title lang="en">Terror</title>
-    <rating><value>7.5</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-orfanato-2007_l_m.jpg</image>
-  </programme>
-  <programme start="20260409075500 +0000" stop="20260409093500 +0000" channel="mx#amc-hd">
-    <title lang="es">Temporada de brujas</title>
-    <title lang="en">Season of the Witch</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.4</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_temporada-de-brujas-2011_l_m.jpg</image>
-  </programme>
-  <programme start="20260409093500 +0000" stop="20260409100000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.303.0/1</episode-num>
-    <episode-num system="onscreen">S01E304</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e304_l_m.jpg</image>
-  </programme>
-  <programme start="20260409100000 +0000" stop="20260409103000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409103000 +0000" stop="20260409110000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409110000 +0000" stop="20260409113000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409113000 +0000" stop="20260409120000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409120000 +0000" stop="20260409123000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409123000 +0000" stop="20260409130000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409130000 +0000" stop="20260409133000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409133000 +0000" stop="20260409140000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260409140000 +0000" stop="20260409143000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.287.0/1</episode-num>
-    <episode-num system="onscreen">S01E288</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e288_l_m.jpg</image>
-  </programme>
-  <programme start="20260409143000 +0000" stop="20260409150000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.288.0/1</episode-num>
-    <episode-num system="onscreen">S01E289</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e289_l_m.jpg</image>
-  </programme>
-  <programme start="20260409150000 +0000" stop="20260409163000 +0000" channel="mx#amc-hd">
-    <title lang="es">Yo, Frankenstein</title>
-    <title lang="en">I, Frankenstein</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260409163000 +0000" stop="20260409183000 +0000" channel="mx#amc-hd">
-    <title lang="es">Espejito, espejito</title>
-    <title lang="en">Mirror, Mirror</title>
-    <category lang="es">Aventura</category>
-    <rating><value>5.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_espejito-espejito-2012_l_m.jpg</image>
-  </programme>
-  <programme start="20260409183000 +0000" stop="20260409201000 +0000" channel="mx#amc-hd">
-    <title lang="es">Siempre a tu lado</title>
-    <title lang="en">Hachiko: A Dog&apos;s Story</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_siempre-a-tu-lado-2009_l_m.jpg</image>
-  </programme>
-  <programme start="20260409201000 +0000" stop="20260409215000 +0000" channel="mx#amc-hd">
-    <title lang="es">Contrarreloj</title>
-    <title lang="en">Retribution</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.3</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260409215000 +0000" stop="20260409232500 +0000" channel="mx#amc-hd">
-    <title lang="es">Rocky IV</title>
-    <title lang="en">Acción</title>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_rocky-iv-1985_l_m.jpg</image>
-  </programme>
-  <programme start="20260409232500 +0000" stop="20260410010000 +0000" channel="mx#amc-hd">
-    <title lang="es">Inmersión</title>
-    <title lang="en">The Dive</title>
-    <category lang="es">Thriller</category>
-    <rating><value>5.5</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260410010000 +0000" stop="20260410030500 +0000" channel="mx#amc-hd">
-    <title lang="es">Jungla</title>
-    <title lang="en">Jungle</title>
-    <category lang="es">Aventura</category>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260410030500 +0000" stop="20260410060500 +0000" channel="mx#amc-hd">
-    <title lang="es">La chica del dragón tatuado</title>
-    <title lang="en">The Girl with the Dragon Tattoo</title>
-    <category lang="es">Drama</category>
-    <rating><value>7.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
-  </programme>
-  <programme start="20260410030500 +0000" stop="20260410040500 +0000" channel="mx#amc-hd">
-    <title lang="es">La chica del dragón tatuado</title>
-    <title lang="en">The Girl with the Dragon Tattoo</title>
-    <category lang="es">Drama</category>
-    <rating><value>7.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
-  </programme>
-  <programme start="20260410060500 +0000" stop="20260410080000 +0000" channel="mx#amc-hd">
-    <title lang="es">Vivero</title>
-    <title lang="en">Vivarium</title>
-    <category lang="es">Terror</category>
-    <rating><value>5.9</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260410080000 +0000" stop="20260410093000 +0000" channel="mx#amc-hd">
-    <title lang="es">Presa</title>
-    <title lang="en">Kalahari</title>
-    <category lang="es">Acción</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260410093000 +0000" stop="20260410100000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.286.0/1</episode-num>
-    <episode-num system="onscreen">S01E287</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e287_l_m.jpg</image>
-  </programme>
-  <programme start="20260410100000 +0000" stop="20260410103000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410103000 +0000" stop="20260410110000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410110000 +0000" stop="20260410113000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410113000 +0000" stop="20260410120000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410120000 +0000" stop="20260410123000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410123000 +0000" stop="20260410130000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410130000 +0000" stop="20260410133000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410133000 +0000" stop="20260410140000 +0000" channel="mx#amc-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_infomerciales_l_m.jpg</image>
-  </programme>
-  <programme start="20260410140000 +0000" stop="20260410143000 +0000" channel="mx#amc-hd">
-    <title lang="es">Planet Action</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.295.0/1</episode-num>
-    <episode-num system="onscreen">S01E296</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e296_l_m.jpg</image>
-  </programme>
-  <programme start="20260410143000 +0000" stop="20260410145500 +0000" channel="mx#amc-hd">
     <title lang="es">Planet Action</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.296.0/1</episode-num>
     <episode-num system="onscreen">S01E297</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e297_l_m.jpg</image>
   </programme>
-  <programme start="20260410145500 +0000" stop="20260410162500 +0000" channel="mx#amc-hd">
-    <title lang="es">Yo, Frankenstein</title>
-    <title lang="en">I, Frankenstein</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
+  <programme start="20260408133000 +0000" stop="20260408140000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.297.0/1</episode-num>
+    <episode-num system="onscreen">S01E298</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e298_l_m.jpg</image>
   </programme>
-  <programme start="20260410162500 +0000" stop="20260410180000 +0000" channel="mx#amc-hd">
-    <title lang="es">Z</title>
-    <title lang="en">Terror</title>
-    <rating><value>5.5</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260408140000 +0000" stop="20260408143000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.298.0/1</episode-num>
+    <episode-num system="onscreen">S01E299</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e299_l_m.jpg</image>
   </programme>
-  <programme start="20260410180000 +0000" stop="20260410195500 +0000" channel="mx#amc-hd">
+  <programme start="20260408143000 +0000" stop="20260408150000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.299.0/1</episode-num>
+    <episode-num system="onscreen">S01E300</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e300_l_m.jpg</image>
+  </programme>
+  <programme start="20260408150000 +0000" stop="20260408153000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.300.0/1</episode-num>
+    <episode-num system="onscreen">S01E301</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e301_l_m.jpg</image>
+  </programme>
+  <programme start="20260408153000 +0000" stop="20260408160000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.301.0/1</episode-num>
+    <episode-num system="onscreen">S01E302</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e302_l_m.jpg</image>
+  </programme>
+  <programme start="20260408160000 +0000" stop="20260408163000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.302.0/1</episode-num>
+    <episode-num system="onscreen">S01E303</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e303_l_m.jpg</image>
+  </programme>
+  <programme start="20260408163000 +0000" stop="20260408170000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.303.0/1</episode-num>
+    <episode-num system="onscreen">S01E304</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e304_l_m.jpg</image>
+  </programme>
+  <programme start="20260408170000 +0000" stop="20260408173000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.304.0/1</episode-num>
+    <episode-num system="onscreen">S01E305</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e305_l_m.jpg</image>
+  </programme>
+  <programme start="20260408173000 +0000" stop="20260408180000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.305.0/1</episode-num>
+    <episode-num system="onscreen">S01E306</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e306_l_m.jpg</image>
+  </programme>
+  <programme start="20260408180000 +0000" stop="20260408195500 +0000" channel="mx#amc-hd">
     <title lang="es">Dura de ligar</title>
     <title lang="en">Management</title>
     <category lang="es">Comedia</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410195500 +0000" stop="20260410213500 +0000" channel="mx#amc-hd">
+  <programme start="20260408195500 +0000" stop="20260408221000 +0000" channel="mx#amc-hd">
+    <title lang="es">El mito</title>
+    <title lang="en">The Myth</title>
+    <category lang="es">Acción</category>
+    <rating><value>6.1</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mito-2005_l_m.jpg</image>
+  </programme>
+  <programme start="20260408221000 +0000" stop="20260408234500 +0000" channel="mx#amc-hd">
+    <title lang="es">Yo, Frankenstein</title>
+    <title lang="en">I, Frankenstein</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.2</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
+  </programme>
+  <programme start="20260408234500 +0000" stop="20260409015000 +0000" channel="mx#amc-hd">
+    <title lang="es">Terminator: La salvación</title>
+    <title lang="en">Terminator Salvation</title>
+    <category lang="es">Acción</category>
+    <rating><value>6.6</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_terminator-la-salvacion-2009-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260409015000 +0000" stop="20260409040000 +0000" channel="mx#amc-hd">
+    <title lang="es">RoboCop</title>
+    <title lang="en">Acción</title>
+    <rating><value>6.1</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_robocop-2014-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260409040000 +0000" stop="20260409070000 +0000" channel="mx#amc-hd">
+    <title lang="es">La chica del dragón tatuado</title>
+    <title lang="en">The Girl with the Dragon Tattoo</title>
+    <category lang="es">Drama</category>
+    <rating><value>7.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
+  </programme>
+  <programme start="20260409040000 +0000" stop="20260409050000 +0000" channel="mx#amc-hd">
+    <title lang="es">La chica del dragón tatuado</title>
+    <title lang="en">The Girl with the Dragon Tattoo</title>
+    <category lang="es">Drama</category>
+    <rating><value>7.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
+  </programme>
+  <programme start="20260409070000 +0000" stop="20260409085500 +0000" channel="mx#amc-hd">
+    <title lang="es">Drive: acción a máxima velocidad</title>
+    <title lang="en">Drive</title>
+    <category lang="es">Crimen</category>
+    <rating><value>7.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_drive-accion-a-maxima-velocidad-2011_l_m.jpg</image>
+  </programme>
+  <programme start="20260409085500 +0000" stop="20260409105500 +0000" channel="mx#amc-hd">
+    <title lang="es">El orfanato</title>
+    <title lang="en">Terror</title>
+    <rating><value>7.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-orfanato-2007_l_m.jpg</image>
+  </programme>
+  <programme start="20260409105500 +0000" stop="20260409123500 +0000" channel="mx#amc-hd">
+    <title lang="es">Temporada de brujas</title>
+    <title lang="en">Season of the Witch</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_temporada-de-brujas-2011_l_m.jpg</image>
+  </programme>
+  <programme start="20260409123500 +0000" stop="20260409130000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.303.0/1</episode-num>
+    <episode-num system="onscreen">S01E304</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e304_l_m.jpg</image>
+  </programme>
+  <programme start="20260409130000 +0000" stop="20260409133000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.304.0/1</episode-num>
+    <episode-num system="onscreen">S01E305</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e305_l_m.jpg</image>
+  </programme>
+  <programme start="20260409133000 +0000" stop="20260409140000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.305.0/1</episode-num>
+    <episode-num system="onscreen">S01E306</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e306_l_m.jpg</image>
+  </programme>
+  <programme start="20260409140000 +0000" stop="20260409143000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.306.0/1</episode-num>
+    <episode-num system="onscreen">S01E307</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e307_l_m.jpg</image>
+  </programme>
+  <programme start="20260409143000 +0000" stop="20260409150000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.307.0/1</episode-num>
+    <episode-num system="onscreen">S01E308</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e308_l_m.jpg</image>
+  </programme>
+  <programme start="20260409150000 +0000" stop="20260409153000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.308.0/1</episode-num>
+    <episode-num system="onscreen">S01E309</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e309_l_m.jpg</image>
+  </programme>
+  <programme start="20260409153000 +0000" stop="20260409160000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.309.0/1</episode-num>
+    <episode-num system="onscreen">S01E310</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e310_l_m.jpg</image>
+  </programme>
+  <programme start="20260409160000 +0000" stop="20260409163000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.285.0/1</episode-num>
+    <episode-num system="onscreen">S01E286</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e286_l_m.jpg</image>
+  </programme>
+  <programme start="20260409163000 +0000" stop="20260409170000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.286.0/1</episode-num>
+    <episode-num system="onscreen">S01E287</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e287_l_m.jpg</image>
+  </programme>
+  <programme start="20260409170000 +0000" stop="20260409173000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.287.0/1</episode-num>
+    <episode-num system="onscreen">S01E288</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e288_l_m.jpg</image>
+  </programme>
+  <programme start="20260409173000 +0000" stop="20260409180000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.288.0/1</episode-num>
+    <episode-num system="onscreen">S01E289</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e289_l_m.jpg</image>
+  </programme>
+  <programme start="20260409180000 +0000" stop="20260409193000 +0000" channel="mx#amc-hd">
+    <title lang="es">Yo, Frankenstein</title>
+    <title lang="en">I, Frankenstein</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.2</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
+  </programme>
+  <programme start="20260409193000 +0000" stop="20260409213000 +0000" channel="mx#amc-hd">
+    <title lang="es">Espejito, espejito</title>
+    <title lang="en">Mirror, Mirror</title>
+    <category lang="es">Aventura</category>
+    <rating><value>5.6</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_espejito-espejito-2012_l_m.jpg</image>
+  </programme>
+  <programme start="20260409213000 +0000" stop="20260409231000 +0000" channel="mx#amc-hd">
+    <title lang="es">Siempre a tu lado</title>
+    <title lang="en">Hachiko: A Dog&apos;s Story</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_siempre-a-tu-lado-2009_l_m.jpg</image>
+  </programme>
+  <programme start="20260409231000 +0000" stop="20260410005000 +0000" channel="mx#amc-hd">
     <title lang="es">Contrarreloj</title>
     <title lang="en">Retribution</title>
     <category lang="es">Acción</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410213500 +0000" stop="20260410230500 +0000" channel="mx#amc-hd">
+  <programme start="20260410005000 +0000" stop="20260410022500 +0000" channel="mx#amc-hd">
+    <title lang="es">Rocky IV</title>
+    <title lang="en">Acción</title>
+    <rating><value>6.7</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_rocky-iv-1985_l_m.jpg</image>
+  </programme>
+  <programme start="20260410022500 +0000" stop="20260410040000 +0000" channel="mx#amc-hd">
+    <title lang="es">Inmersión</title>
+    <title lang="en">The Dive</title>
+    <category lang="es">Thriller</category>
+    <rating><value>5.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410040000 +0000" stop="20260410060500 +0000" channel="mx#amc-hd">
+    <title lang="es">Jungla</title>
+    <title lang="en">Jungle</title>
+    <category lang="es">Aventura</category>
+    <rating><value>6.7</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410040000 +0000" stop="20260410050000 +0000" channel="mx#amc-hd">
+    <title lang="es">Jungla</title>
+    <title lang="en">Jungle</title>
+    <category lang="es">Aventura</category>
+    <rating><value>6.7</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410060500 +0000" stop="20260410090500 +0000" channel="mx#amc-hd">
+    <title lang="es">La chica del dragón tatuado</title>
+    <title lang="en">The Girl with the Dragon Tattoo</title>
+    <category lang="es">Drama</category>
+    <rating><value>7.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
+  </programme>
+  <programme start="20260410090500 +0000" stop="20260410110000 +0000" channel="mx#amc-hd">
+    <title lang="es">Vivero</title>
+    <title lang="en">Vivarium</title>
+    <category lang="es">Terror</category>
+    <rating><value>5.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410110000 +0000" stop="20260410123000 +0000" channel="mx#amc-hd">
+    <title lang="es">Presa</title>
+    <title lang="en">Kalahari</title>
+    <category lang="es">Acción</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410123000 +0000" stop="20260410130000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.286.0/1</episode-num>
+    <episode-num system="onscreen">S01E287</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e287_l_m.jpg</image>
+  </programme>
+  <programme start="20260410130000 +0000" stop="20260410133000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.287.0/1</episode-num>
+    <episode-num system="onscreen">S01E288</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e288_l_m.jpg</image>
+  </programme>
+  <programme start="20260410133000 +0000" stop="20260410140000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.288.0/1</episode-num>
+    <episode-num system="onscreen">S01E289</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e289_l_m.jpg</image>
+  </programme>
+  <programme start="20260410140000 +0000" stop="20260410143000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.289.0/1</episode-num>
+    <episode-num system="onscreen">S01E290</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e290_l_m.jpg</image>
+  </programme>
+  <programme start="20260410143000 +0000" stop="20260410150000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.290.0/1</episode-num>
+    <episode-num system="onscreen">S01E291</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e291_l_m.jpg</image>
+  </programme>
+  <programme start="20260410150000 +0000" stop="20260410153000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.291.0/1</episode-num>
+    <episode-num system="onscreen">S01E292</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e292_l_m.jpg</image>
+  </programme>
+  <programme start="20260410153000 +0000" stop="20260410160000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.292.0/1</episode-num>
+    <episode-num system="onscreen">S01E293</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e293_l_m.jpg</image>
+  </programme>
+  <programme start="20260410160000 +0000" stop="20260410163000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.293.0/1</episode-num>
+    <episode-num system="onscreen">S01E294</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e294_l_m.jpg</image>
+  </programme>
+  <programme start="20260410163000 +0000" stop="20260410170000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.294.0/1</episode-num>
+    <episode-num system="onscreen">S01E295</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e295_l_m.jpg</image>
+  </programme>
+  <programme start="20260410170000 +0000" stop="20260410173000 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.295.0/1</episode-num>
+    <episode-num system="onscreen">S01E296</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e296_l_m.jpg</image>
+  </programme>
+  <programme start="20260410173000 +0000" stop="20260410175500 +0000" channel="mx#amc-hd">
+    <title lang="es">Planet Action</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.296.0/1</episode-num>
+    <episode-num system="onscreen">S01E297</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_planet-action-s01e297_l_m.jpg</image>
+  </programme>
+  <programme start="20260410175500 +0000" stop="20260410192500 +0000" channel="mx#amc-hd">
+    <title lang="es">Yo, Frankenstein</title>
+    <title lang="en">I, Frankenstein</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.2</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
+  </programme>
+  <programme start="20260410192500 +0000" stop="20260410210000 +0000" channel="mx#amc-hd">
+    <title lang="es">Z</title>
+    <title lang="en">Terror</title>
+    <rating><value>5.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410210000 +0000" stop="20260410225500 +0000" channel="mx#amc-hd">
+    <title lang="es">Dura de ligar</title>
+    <title lang="en">Management</title>
+    <category lang="es">Comedia</category>
+    <rating><value>5.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260410225500 +0000" stop="20260411003500 +0000" channel="mx#amc-hd">
+    <title lang="es">Contrarreloj</title>
+    <title lang="en">Retribution</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.3</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260411003500 +0000" stop="20260411020500 +0000" channel="mx#amc-hd">
     <title lang="es">Carnada</title>
     <title lang="en">Something in the Water</title>
     <category lang="es">Aventura</category>
     <rating><value>4.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410230500 +0000" stop="20260411010000 +0000" channel="mx#amc-hd">
+  <programme start="20260411020500 +0000" stop="20260411040000 +0000" channel="mx#amc-hd">
     <title lang="es">Vértigo</title>
     <title lang="en">Fall</title>
     <category lang="es">Thriller</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411010000 +0000" stop="20260411025000 +0000" channel="mx#amc-hd">
+  <programme start="20260411040000 +0000" stop="20260411055000 +0000" channel="mx#amc-hd">
     <title lang="es">Tormenta infinita</title>
     <title lang="en">Infinite Storm</title>
     <category lang="es">Drama</category>
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411025000 +0000" stop="20260411044500 +0000" channel="mx#amc-hd">
+  <programme start="20260411055000 +0000" stop="20260411065000 +0000" channel="mx#amc-hd">
     <title lang="es">Los indestructibles 2</title>
     <title lang="en">The Expendables 2</title>
     <category lang="es">Acción</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_los-indestructibles-2-2012_l_m.jpg</image>
-  </programme>
-  <programme start="20260411044500 +0000" stop="20260411054500 +0000" channel="mx#amc-hd">
-    <title lang="es">El último objetivo</title>
-    <title lang="en">The Retirement Plan</title>
-    <category lang="es">Comedia</category>
-    <rating><value>5.1</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260408051400 +0000" stop="20260408060600 +0000" channel="mx#animal-planet">
     <title lang="es">Tiburones voladores III</title>
@@ -12657,7 +12700,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409051400 +0000" stop="20260409060600 +0000" channel="mx#animal-planet">
+  <programme start="20260409051400 +0000" stop="20260409061400 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Conducta fatal</sub-title>
     <category lang="es">Serie</category>
@@ -12665,7 +12708,7 @@
     <episode-num system="onscreen">S06E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guardianes-de-texas-s06e04-pescadores-alcohol-y-lechuzas_l_m.jpg</image>
   </programme>
-  <programme start="20260409051400 +0000" stop="20260409061400 +0000" channel="mx#animal-planet">
+  <programme start="20260409051400 +0000" stop="20260409060600 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Conducta fatal</sub-title>
     <category lang="es">Serie</category>
@@ -16900,90 +16943,90 @@
     <rating><value>4.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_marea-zombie-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260408101100 +0000" stop="20260408125800 +0000" channel="mx#cinecanal">
+  <programme start="20260408101100 +0000" stop="20260408130000 +0000" channel="mx#cinecanal">
     <title lang="es">Viejos</title>
     <title lang="en">Old</title>
     <category lang="es">Terror</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260408125800 +0000" stop="20260408160800 +0000" channel="mx#cinecanal">
+  <programme start="20260408130000 +0000" stop="20260408161000 +0000" channel="mx#cinecanal">
     <title lang="es">Guardianes de alta mar</title>
     <title lang="en">The Guardian</title>
     <category lang="es">Drama</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_guardianes-de-alta-mar-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260408160800 +0000" stop="20260408180100 +0000" channel="mx#cinecanal">
+  <programme start="20260408161000 +0000" stop="20260408180300 +0000" channel="mx#cinecanal">
     <title lang="es">Perdiendo el este</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/mx_perdiendo-el-este-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260408180100 +0000" stop="20260408195900 +0000" channel="mx#cinecanal">
+  <programme start="20260408180300 +0000" stop="20260408200100 +0000" channel="mx#cinecanal">
     <title lang="es">Yo soy más yo</title>
     <title lang="en">Eu sou mais eu</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/mx_yo-soy-mas-yo-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260408195900 +0000" stop="20260408220700 +0000" channel="mx#cinecanal">
+  <programme start="20260408200100 +0000" stop="20260408220900 +0000" channel="mx#cinecanal">
     <title lang="es">Recetas de amor</title>
     <title lang="en">Waitress</title>
     <category lang="es">Comedia</category>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_recetas-de-amor-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260408220700 +0000" stop="20260409001100 +0000" channel="mx#cinecanal">
+  <programme start="20260408220900 +0000" stop="20260409001300 +0000" channel="mx#cinecanal">
     <title lang="es">Los excéntricos Tenenbaum</title>
     <title lang="en">The Royal Tenenbaums</title>
     <category lang="es">Comedia</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_los-excentricos-tenenbaum-2001_l_m.jpg</image>
   </programme>
-  <programme start="20260409001100 +0000" stop="20260409021400 +0000" channel="mx#cinecanal">
+  <programme start="20260409001300 +0000" stop="20260409021600 +0000" channel="mx#cinecanal">
     <title lang="es">Ophelia</title>
     <title lang="en">Drama</title>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409021400 +0000" stop="20260409040000 +0000" channel="mx#cinecanal">
+  <programme start="20260409021600 +0000" stop="20260409040200 +0000" channel="mx#cinecanal">
     <title lang="es">Dulce corazón</title>
     <title lang="en">Sweetheart</title>
     <category lang="es">Terror</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_dulce-corazon-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260409040000 +0000" stop="20260409054000 +0000" channel="mx#cinecanal">
+  <programme start="20260409040200 +0000" stop="20260409054200 +0000" channel="mx#cinecanal">
     <title lang="es">Una noche fuera de serie</title>
     <title lang="en">Date Night</title>
     <category lang="es">Comedia</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_una-noche-fuera-de-serie-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260409054000 +0000" stop="20260409074400 +0000" channel="mx#cinecanal">
+  <programme start="20260409054200 +0000" stop="20260409074600 +0000" channel="mx#cinecanal">
     <title lang="es">Falsa influencer</title>
     <title lang="en">Not Okay</title>
     <category lang="es">Comedia</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409054000 +0000" stop="20260409064000 +0000" channel="mx#cinecanal">
+  <programme start="20260409054200 +0000" stop="20260409064200 +0000" channel="mx#cinecanal">
     <title lang="es">Falsa influencer</title>
     <title lang="en">Not Okay</title>
     <category lang="es">Comedia</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409074400 +0000" stop="20260409092700 +0000" channel="mx#cinecanal">
+  <programme start="20260409074600 +0000" stop="20260409092900 +0000" channel="mx#cinecanal">
     <title lang="es">Miamor perdido</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/mx_miamor-perdido-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260409092700 +0000" stop="20260409105400 +0000" channel="mx#cinecanal">
+  <programme start="20260409092900 +0000" stop="20260409105500 +0000" channel="mx#cinecanal">
     <title lang="es">La gran aventura de los Lunnis y el libro mágico</title>
     <title lang="en">Aventura</title>
     <image>https://cdn.mitvstatic.com/programs/mx_la-gran-aventura-de-los-lunnis-y-el-libro-magico-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260409105400 +0000" stop="20260409130000 +0000" channel="mx#cinecanal">
+  <programme start="20260409105500 +0000" stop="20260409130000 +0000" channel="mx#cinecanal">
     <title lang="es">Un niñero sinvergüenza</title>
     <title lang="en">The Sitter</title>
     <category lang="es">Comedia</category>
@@ -17020,27 +17063,27 @@
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_loco-corazon-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260410012600 +0000" stop="20260410040000 +0000" channel="mx#cinecanal">
+  <programme start="20260410012600 +0000" stop="20260410035900 +0000" channel="mx#cinecanal">
     <title lang="es">Ladrona de libros</title>
     <title lang="en">The Book Thief</title>
     <category lang="es">Drama</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_ladrona-de-libros-2013-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410040000 +0000" stop="20260410055900 +0000" channel="mx#cinecanal">
+  <programme start="20260410035900 +0000" stop="20260410055800 +0000" channel="mx#cinecanal">
     <title lang="es">La noche de su vida</title>
     <title lang="en">I Love You, Beth Cooper</title>
     <category lang="es">Comedia</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_la-noche-de-su-vida-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260410055900 +0000" stop="20260410080900 +0000" channel="mx#cinecanal">
+  <programme start="20260410055800 +0000" stop="20260410080900 +0000" channel="mx#cinecanal">
     <title lang="es">Irene, yo y mi otro yo</title>
     <title lang="en">Me, Myself and Irene</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/mx_irene-yo-y-mi-otro-yo-2000_l_m.jpg</image>
   </programme>
-  <programme start="20260410055900 +0000" stop="20260410065900 +0000" channel="mx#cinecanal">
+  <programme start="20260410055800 +0000" stop="20260410065800 +0000" channel="mx#cinecanal">
     <title lang="es">Irene, yo y mi otro yo</title>
     <title lang="en">Me, Myself and Irene</title>
     <category lang="es">Comedia</category>
@@ -17329,14 +17372,14 @@
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/mx_irene-yo-y-mi-otro-yo-2000_l_m.jpg</image>
   </programme>
-  <programme start="20260410073500 +0000" stop="20260410093400 +0000" channel="mx#cinecanal-hd">
+  <programme start="20260410073500 +0000" stop="20260410093300 +0000" channel="mx#cinecanal-hd">
     <title lang="es">Viento de libertad</title>
     <title lang="en">Balloon</title>
     <category lang="es">Drama</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410093400 +0000" stop="20260410120000 +0000" channel="mx#cinecanal-hd">
+  <programme start="20260410093300 +0000" stop="20260410120000 +0000" channel="mx#cinecanal-hd">
     <title lang="es">Enlace mortal</title>
     <title lang="en">Phone Booth</title>
     <category lang="es">Thriller</category>
@@ -17706,12 +17749,26 @@
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_novio-por-una-noche-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260408144500 +0000" stop="20260408154500 +0000" channel="mx#cnn">
+  <programme start="20260408144500 +0000" stop="20260408164500 +0000" channel="mx#cnn">
     <title lang="es">CNN Marketplace Middle East</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">6.52.0/1</episode-num>
     <episode-num system="onscreen">S07E53</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260408164500 +0000" stop="20260408204500 +0000" channel="mx#cnn">
+    <title lang="es">African Voices</title>
+    <title lang="en">- Joeboy</title>
+    <category lang="es">- Joeboy</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_african-voices-joeboy_l_m.jpg</image>
+  </programme>
+  <programme start="20260408204500 +0000" stop="20260408214500 +0000" channel="mx#cnn">
+    <title lang="es">Connecting Africa</title>
+    <sub-title lang="es">Critical Minerals</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.164.0/1</episode-num>
+    <episode-num system="onscreen">S01E165</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_connecting-africa-s00e165_l_m.jpg</image>
   </programme>
   <programme start="20260409153000 +0000" stop="20260410040000 +0000" channel="mx#cnn">
     <title lang="es">CNN Creators: The Intro</title>
@@ -28212,10 +28269,9 @@
   </programme>
   <programme start="20260410050500 +0000" stop="20260410060500 +0000" channel="mx#distrito-comedia">
     <title lang="es">Humor sin barreras</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.68.0/1</episode-num>
-    <episode-num system="onscreen">S01E69</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260410050500 +0000" stop="20260410060500 +0000" channel="mx#distrito-comedia">
     <title lang="es">Humor sin barreras</title>
@@ -28226,169 +28282,45 @@
   </programme>
   <programme start="20260410060500 +0000" stop="20260410065500 +0000" channel="mx#distrito-comedia">
     <title lang="es">La escuelita VIP</title>
-    <title lang="en">- 7 y 8</title>
-    <category lang="es">- 7 y 8</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-escuelita-vip_l_m.jpg</image>
   </programme>
   <programme start="20260410065500 +0000" stop="20260410074500 +0000" channel="mx#distrito-comedia">
     <title lang="es">La hora pico</title>
-    <title lang="en">- 205 y 206</title>
-    <category lang="es">- 205 y 206</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-hora-pico-205-y-206_l_m.jpg</image>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-hora-pico_l_m.jpg</image>
   </programme>
-  <programme start="20260410074500 +0000" stop="20260410084500 +0000" channel="mx#distrito-comedia">
+  <programme start="20260410074500 +0000" stop="20260410105000 +0000" channel="mx#distrito-comedia">
     <title lang="es">Más noche</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.84.0/1</episode-num>
-    <episode-num system="onscreen">S01E85</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260410084500 +0000" stop="20260410095500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">40 y 20</title>
-    <sub-title lang="es">4 5 Y 6</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_40-y-20-s01e00-4-5-y-6_l_m.jpg</image>
-  </programme>
-  <programme start="20260410095500 +0000" stop="20260410105000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Vecinos</title>
-    <sub-title lang="es">Inicia</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_vecinos-s02e00-inicia_l_m.jpg</image>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_mas-noche_l_m.jpg</image>
   </programme>
   <programme start="20260410105000 +0000" stop="20260410112000 +0000" channel="mx#distrito-comedia">
     <title lang="es">El príncipe del barrio</title>
-    <sub-title lang="es">Regreso a Chacaltepec</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.0.0/1</episode-num>
-    <episode-num system="onscreen">S03E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260410112000 +0000" stop="20260410121500 +0000" channel="mx#distrito-comedia">
+  <programme start="20260410112000 +0000" stop="20260410194500 +0000" channel="mx#distrito-comedia">
     <title lang="es">Derbez en cuando</title>
-    <title lang="en">- 9 y 10</title>
-    <category lang="es">- 9 y 10</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260410121500 +0000" stop="20260410133000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Nosotros los guapos</title>
-    <sub-title lang="es">11 Al 15</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_nosotros-los-guapos-s01e00-11-al-15_l_m.jpg</image>
-  </programme>
-  <programme start="20260410133000 +0000" stop="20260410144500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Una familia de diez</title>
-    <sub-title lang="es">14 15 Y 16</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_una-familia-de-diez-s01e00-14-15-y-16_l_m.jpg</image>
-  </programme>
-  <programme start="20260410144500 +0000" stop="20260410153500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">La familia Peluche</title>
-    <sub-title lang="es">Recuerdos</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-familia-peluche-s01e00-recuerdos_l_m.jpg</image>
-  </programme>
-  <programme start="20260410153500 +0000" stop="20260410160000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Simón dice</title>
-    <sub-title lang="es">Aprieta el asterisco</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.8.0/1</episode-num>
-    <episode-num system="onscreen">S02E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_simon-dice-s02e09-aprieta-el-asterisco_l_m.jpg</image>
-  </programme>
-  <programme start="20260410160000 +0000" stop="20260410171500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Vecinos</title>
-    <sub-title lang="es">Final</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_vecinos-s10e00-final_l_m.jpg</image>
-  </programme>
-  <programme start="20260410171500 +0000" stop="20260410183000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Nosotros los guapos</title>
-    <sub-title lang="es">8 A 10</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_nosotros-los-guapos-s04e00-8-a-10_l_m.jpg</image>
-  </programme>
-  <programme start="20260410183000 +0000" stop="20260410192000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Una familia de diez</title>
-    <sub-title lang="es">Final</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_una-familia-de-diez-s06e00-final_l_m.jpg</image>
-  </programme>
-  <programme start="20260410192000 +0000" stop="20260410194500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Renta congelada</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.8.0/1</episode-num>
-    <episode-num system="onscreen">S03E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_renta-congelada-s03e09_l_m.jpg</image>
-  </programme>
-  <programme start="20260410194500 +0000" stop="20260410210000 +0000" channel="mx#distrito-comedia">
+  <programme start="20260410194500 +0000" stop="20260411020000 +0000" channel="mx#distrito-comedia">
     <title lang="es">El Chavo</title>
-    <title lang="en">- 82, 83 y 84</title>
-    <category lang="es">- 82, 83 y 84</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-chavo_l_m.jpg</image>
   </programme>
-  <programme start="20260410210000 +0000" stop="20260410221500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">40 y 20</title>
-    <sub-title lang="es">10 11 Y 12</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_40-y-20-s10e00-10-11-y-12_l_m.jpg</image>
-  </programme>
-  <programme start="20260410221500 +0000" stop="20260410231000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Vecinos</title>
-    <title lang="en">- 11 y 12</title>
-    <category lang="es">- 11 y 12</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_vecinos-11-y-12_l_m.jpg</image>
-  </programme>
-  <programme start="20260410231000 +0000" stop="20260410233500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Tal para cual</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.7.0/1</episode-num>
-    <episode-num system="onscreen">S03E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260410233500 +0000" stop="20260411004500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">La familia Peluche</title>
-    <sub-title lang="es">La Navidad Perfecta</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-familia-peluche-s03e00-la-navidad-perfecta_l_m.jpg</image>
-  </programme>
-  <programme start="20260411004500 +0000" stop="20260411020000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Una familia de diez</title>
-    <sub-title lang="es">3 Y 4</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_una-familia-de-diez-s07e00-3-y-4_l_m.jpg</image>
-  </programme>
-  <programme start="20260411020000 +0000" stop="20260411024500 +0000" channel="mx#distrito-comedia">
+  <programme start="20260411020000 +0000" stop="20260411050500 +0000" channel="mx#distrito-comedia">
     <title lang="es">El Chavo</title>
-    <title lang="en">- 109 y 110</title>
-    <category lang="es">- 109 y 110</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260411024500 +0000" stop="20260411031500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">El príncipe del barrio</title>
-    <sub-title lang="es">La virgen de la humedad</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
-    <episode-num system="onscreen">S03E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260411031500 +0000" stop="20260411041000 +0000" channel="mx#distrito-comedia">
-    <title lang="es">Vecinos</title>
-    <title lang="en">- 7 y 8</title>
-    <category lang="es">- 7 y 8</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_vecinos-7-y-8_l_m.jpg</image>
-  </programme>
-  <programme start="20260411041000 +0000" stop="20260411050500 +0000" channel="mx#distrito-comedia">
-    <title lang="es">40 y 20</title>
-    <sub-title lang="es">10 11 Y 12</sub-title>
-    <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_40-y-20-s10e00-10-11-y-12_l_m.jpg</image>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-chavo_l_m.jpg</image>
   </programme>
   <programme start="20260411050500 +0000" stop="20260411060500 +0000" channel="mx#distrito-comedia">
     <title lang="es">Humor sin barreras</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.69.0/1</episode-num>
-    <episode-num system="onscreen">S01E70</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260408060000 +0000" stop="20260408063000 +0000" channel="mx#el-gourmet">
     <title lang="es">La ruta del cacao</title>
@@ -30323,7 +30255,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260410184500 +0000" stop="20260410233000 +0000" channel="mx#espn">
-    <title lang="es">Segunda Ronda, Augusta National Golf Club, Augusta, GA, USA</title>
+    <title lang="es">Segunda ronda, Augusta National Golf Club, Augusta, GA, USA</title>
     <title lang="en">Masters Golf Tournament</title>
     <category lang="es">Masters Golf Tournament</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -32457,8 +32389,8 @@
   </programme>
   <programme start="20260410170000 +0000" stop="20260410193000 +0000" channel="mx#fox-sports">
     <title lang="es">Kansas City Comets vs. St. Louis Ambush</title>
-    <title lang="en">Playoffs - Juego 4</title>
-    <category lang="es">Playoffs - Juego 4</category>
+    <title lang="en">Juego 4 - Playoffs</title>
+    <category lang="es">Juego 4 - Playoffs</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260410193000 +0000" stop="20260410200000 +0000" channel="mx#fox-sports">
@@ -32815,29 +32747,23 @@
     <category lang="es">All Elite Wrestling: Collision</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260410180000 +0000" stop="20260410183000 +0000" channel="mx#fox-sports-2">
-    <title lang="es">Women&apos;s Football Weekly</title>
-    <title lang="en">Women&apos;s Football Weekly</title>
-    <category lang="es">Women&apos;s Football Weekly</category>
+  <programme start="20260410180000 +0000" stop="20260410193000 +0000" channel="mx#fox-sports-2">
+    <title lang="es">El Nido, Palawan, Filipinas</title>
+    <title lang="en">Red Bull Cliff Diving World Series</title>
+    <category lang="es">Red Bull Cliff Diving World Series</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260410183000 +0000" stop="20260410210000 +0000" channel="mx#fox-sports-2">
-    <title lang="es">Empire Strykers vs. Milwaukee Wave</title>
-    <title lang="en">Playoffs - Juego 2</title>
-    <category lang="es">Playoffs - Juego 2</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260410210000 +0000" stop="20260411010000 +0000" channel="mx#fox-sports-2">
+  <programme start="20260410193000 +0000" stop="20260410233000 +0000" channel="mx#fox-sports-2">
     <title lang="es">Semi-final A y B, Women&apos;s, Cairo, Egypt</title>
     <title lang="en">UIPM Pentathlon World Cup</title>
     <category lang="es">UIPM Pentathlon World Cup</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260411010000 +0000" stop="20260411020000 +0000" channel="mx#fox-sports-2">
-    <title lang="es">Fox Gol México</title>
-    <title lang="en">Fox Gol México</title>
-    <category lang="es">Fox Gol México</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_futbol-fox-gol-mexico-1_l_m.jpg</image>
+  <programme start="20260410233000 +0000" stop="20260411020000 +0000" channel="mx#fox-sports-2">
+    <title lang="es">Baltimore Blast vs. Milwaukee Wave</title>
+    <title lang="en">Juego 1, Semifinal</title>
+    <category lang="es">Juego 1, Semifinal</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260411020000 +0000" stop="20260411030000 +0000" channel="mx#fox-sports-2">
     <title lang="es">Budo Combat</title>
@@ -33039,8 +32965,8 @@
   </programme>
   <programme start="20260410093000 +0000" stop="20260410120000 +0000" channel="mx#fox-sports-3">
     <title lang="es">Kansas City Comets vs. St. Louis Ambush</title>
-    <title lang="en">Playoffs - Juego 4</title>
-    <category lang="es">Playoffs - Juego 4</category>
+    <title lang="en">Juego 4 - Playoffs</title>
+    <category lang="es">Juego 4 - Playoffs</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260410120000 +0000" stop="20260410140000 +0000" channel="mx#fox-sports-3">
@@ -33073,16 +32999,28 @@
     <category lang="es">Red Bull - Drift Masters European Championship</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260410220000 +0000" stop="20260411003000 +0000" channel="mx#fox-sports-3">
-    <title lang="es">St. Louis Ambush vs. Kansas City Comets</title>
-    <title lang="en">Playoffs - Juego 3</title>
-    <category lang="es">Playoffs - Juego 3</category>
+  <programme start="20260410220000 +0000" stop="20260411000000 +0000" channel="mx#fox-sports-3">
+    <title lang="es">Budo Striking</title>
+    <title lang="en">Budo Sento Championship</title>
+    <category lang="es">Budo Sento Championship</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260411003000 +0000" stop="20260411030000 +0000" channel="mx#fox-sports-3">
-    <title lang="es">Kansas City Comets vs. St. Louis Ambush</title>
-    <title lang="en">Playoffs - Juego 4</title>
-    <category lang="es">Playoffs - Juego 4</category>
+  <programme start="20260411000000 +0000" stop="20260411003000 +0000" channel="mx#fox-sports-3">
+    <title lang="es">Gearing Up</title>
+    <title lang="en">Gearing Up</title>
+    <category lang="es">Gearing Up</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_deportivo-gearing-up_l_m.jpg</image>
+  </programme>
+  <programme start="20260411003000 +0000" stop="20260411010000 +0000" channel="mx#fox-sports-3">
+    <title lang="es">Women&apos;s Football Weekly</title>
+    <title lang="en">Women&apos;s Football Weekly</title>
+    <category lang="es">Women&apos;s Football Weekly</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260411010000 +0000" stop="20260411030000 +0000" channel="mx#fox-sports-3">
+    <title lang="es">All Elite Wrestling: Collision</title>
+    <title lang="en">All Elite Wrestling: Collision</title>
+    <category lang="es">All Elite Wrestling: Collision</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260411030000 +0000" stop="20260411050000 +0000" channel="mx#fox-sports-3">
@@ -33302,14 +33240,14 @@
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_crimen-a-contrarreloj-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260410075800 +0000" stop="20260410094500 +0000" channel="mx#fx">
+  <programme start="20260410075800 +0000" stop="20260410094400 +0000" channel="mx#fx">
     <title lang="es">Soldado anónimo 4: La ley del regreso</title>
     <title lang="en">Jarhead: Law of Return</title>
     <category lang="es">Bélica</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_soldado-anonimo-4-la-ley-del-regreso-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260410094500 +0000" stop="20260410103100 +0000" channel="mx#fx">
+  <programme start="20260410094400 +0000" stop="20260410103000 +0000" channel="mx#fx">
     <title lang="es">The Amazing Race</title>
     <sub-title lang="es">Cracovia, te atraparé</sub-title>
     <category lang="es">Serie</category>
@@ -33317,7 +33255,7 @@
     <episode-num system="onscreen">S27E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-amazing-race-s27e08-cracovia-te-atrapare_l_m.jpg</image>
   </programme>
-  <programme start="20260410103100 +0000" stop="20260410111800 +0000" channel="mx#fx">
+  <programme start="20260410103000 +0000" stop="20260410111700 +0000" channel="mx#fx">
     <title lang="es">The Amazing Race</title>
     <sub-title lang="es">Siempre son los más tranquilos</sub-title>
     <category lang="es">Serie</category>
@@ -33325,7 +33263,7 @@
     <episode-num system="onscreen">S27E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-amazing-race-s27e09-siempre-son-los-mas-tranquilos_l_m.jpg</image>
   </programme>
-  <programme start="20260410111800 +0000" stop="20260410130000 +0000" channel="mx#fx">
+  <programme start="20260410111700 +0000" stop="20260410130000 +0000" channel="mx#fx">
     <title lang="es">The Amazing Race</title>
     <sub-title lang="es">¡Trae la diversión!</sub-title>
     <category lang="es">Serie</category>
@@ -34463,66 +34401,66 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_la-casa-de-los-sustos-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260410102400 +0000" stop="20260410120100 +0000" channel="mx#hbo-family">
+  <programme start="20260410102400 +0000" stop="20260410120000 +0000" channel="mx#hbo-family">
     <title lang="es">Shrek 2</title>
     <title lang="en">Animación</title>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_shrek-2-2004_l_m.jpg</image>
   </programme>
-  <programme start="20260410120100 +0000" stop="20260410134100 +0000" channel="mx#hbo-family">
+  <programme start="20260410120000 +0000" stop="20260410134100 +0000" channel="mx#hbo-family">
     <title lang="es">Angry Birds, la película</title>
     <title lang="en">Angry Birds</title>
     <category lang="es">Familiar</category>
     <image>https://cdn.mitvstatic.com/programs/mx_angry-birds-la-pelicula-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260410134100 +0000" stop="20260410151200 +0000" channel="mx#hbo-family">
+  <programme start="20260410134100 +0000" stop="20260410151100 +0000" channel="mx#hbo-family">
     <title lang="es">Capitán Calzoncillos: el primer peliculón</title>
     <title lang="en">Captain Underpants: The First Epic Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_capitan-calzoncillos-el-primer-peliculon-2017-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410151200 +0000" stop="20260410165100 +0000" channel="mx#hbo-family">
+  <programme start="20260410151100 +0000" stop="20260410165000 +0000" channel="mx#hbo-family">
     <title lang="es">Un jefe en pañales</title>
     <title lang="en">The Boss Baby</title>
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/mx_un-jefe-en-panales-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260410165100 +0000" stop="20260410183000 +0000" channel="mx#hbo-family">
+  <programme start="20260410165000 +0000" stop="20260410182800 +0000" channel="mx#hbo-family">
     <title lang="es">Pie Pequeño</title>
     <title lang="en">Smallfoot</title>
     <category lang="es">Infantil</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_pie-pequeno-2018-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410183000 +0000" stop="20260410201400 +0000" channel="mx#hbo-family">
+  <programme start="20260410182800 +0000" stop="20260410201400 +0000" channel="mx#hbo-family">
     <title lang="es">Cómo entrenar a tu dragón 2</title>
     <title lang="en">How to Train Your Dragon 2</title>
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/mx_como-entrenar-a-tu-dragon-2-2014-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410201400 +0000" stop="20260410214600 +0000" channel="mx#hbo-family">
+  <programme start="20260410201400 +0000" stop="20260410214500 +0000" channel="mx#hbo-family">
     <title lang="es">Las aventuras de Dog Man</title>
     <title lang="en">Dog Man</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410214600 +0000" stop="20260410232400 +0000" channel="mx#hbo-family">
+  <programme start="20260410214500 +0000" stop="20260410232200 +0000" channel="mx#hbo-family">
     <title lang="es">Lluvia de hamburguesas 2: la venganza de las sobras</title>
     <title lang="en">Cloudy with a Chance of Meatballs 2</title>
     <category lang="es">Familiar</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_lluvia-de-hamburguesas-2-la-venganza-de-las-sobras-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260410232400 +0000" stop="20260411010100 +0000" channel="mx#hbo-family">
+  <programme start="20260410232200 +0000" stop="20260411005900 +0000" channel="mx#hbo-family">
     <title lang="es">Karate Kid: Leyendas</title>
     <title lang="en">Karate Kid: Legends</title>
     <category lang="es">Drama</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411010100 +0000" stop="20260411024000 +0000" channel="mx#hbo-family">
+  <programme start="20260411005900 +0000" stop="20260411024000 +0000" channel="mx#hbo-family">
     <title lang="es">Angry Birds, la película</title>
     <title lang="en">Angry Birds</title>
     <category lang="es">Familiar</category>
@@ -34561,34 +34499,41 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_robin-hood-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260408120000 +0000" stop="20260408134100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408120000 +0000" stop="20260408133000 +0000" channel="mx#hbo-oeste">
     <title lang="es">En el tornado</title>
     <title lang="en">Into the Storm</title>
     <category lang="es">Acción</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_en-el-tornado-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260408134100 +0000" stop="20260408154100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408133000 +0000" stop="20260408153000 +0000" channel="mx#hbo-oeste">
     <title lang="es">Atómica</title>
     <title lang="en">Atomic Blonde</title>
     <category lang="es">Thriller</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_atomica-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260408154100 +0000" stop="20260408171900 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408153000 +0000" stop="20260408170800 +0000" channel="mx#hbo-oeste">
     <title lang="es">Sisu: camino a la venganza</title>
     <title lang="en">Sisu 2</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260408171900 +0000" stop="20260408192000 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408170800 +0000" stop="20260408192000 +0000" channel="mx#hbo-oeste">
     <title lang="es">Aquaman y el reino perdido</title>
     <title lang="en">Aquaman and the Lost Kingdom</title>
     <category lang="es">Acción</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260408192000 +0000" stop="20260408195600 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408192000 +0000" stop="20260408195000 +0000" channel="mx#hbo-oeste">
+    <title lang="es">En busca de Harry: el arte detrás de la magia</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260408195000 +0000" stop="20260408202600 +0000" channel="mx#hbo-oeste">
     <title lang="es">Rooster</title>
     <sub-title lang="es">Mr. Razzles</sub-title>
     <category lang="es">Serie</category>
@@ -34596,7 +34541,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260408195600 +0000" stop="20260408204300 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408202600 +0000" stop="20260408210200 +0000" channel="mx#hbo-oeste">
     <title lang="es">El regreso</title>
     <sub-title lang="es">Valerie enfrenta la realidad</sub-title>
     <category lang="es">Serie</category>
@@ -34604,41 +34549,41 @@
     <episode-num system="onscreen">S03E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260408204300 +0000" stop="20260408231100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408210200 +0000" stop="20260408233000 +0000" channel="mx#hbo-oeste">
     <title lang="es">Historia de honor</title>
     <title lang="en">Devotion</title>
     <category lang="es">Bélica</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260408231100 +0000" stop="20260409011100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260408233000 +0000" stop="20260409013000 +0000" channel="mx#hbo-oeste">
     <title lang="es">Sé lo que hicieron el verano pasado</title>
     <title lang="en">I Know What You Did Last Summer</title>
     <category lang="es">Terror</category>
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409011100 +0000" stop="20260409030000 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409013000 +0000" stop="20260409033000 +0000" channel="mx#hbo-oeste">
     <title lang="es">El intermediario</title>
     <title lang="en">Relay</title>
     <category lang="es">Suspenso</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409030000 +0000" stop="20260409041100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409033000 +0000" stop="20260409040000 +0000" channel="mx#hbo-oeste">
     <title lang="es">En busca de Harry: el arte detrás de la magia</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409041100 +0000" stop="20260409054600 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409040000 +0000" stop="20260409054700 +0000" channel="mx#hbo-oeste">
     <title lang="es">Anaconda</title>
     <title lang="en">Aventura</title>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409054600 +0000" stop="20260409070000 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409054700 +0000" stop="20260409064500 +0000" channel="mx#hbo-oeste">
     <title lang="es">DTF St. Louis</title>
     <sub-title lang="es">El plan Denny&apos;s</sub-title>
     <category lang="es">Serie</category>
@@ -34646,7 +34591,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409054600 +0000" stop="20260409064600 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409054700 +0000" stop="20260409064700 +0000" channel="mx#hbo-oeste">
     <title lang="es">DTF St. Louis</title>
     <sub-title lang="es">El plan Denny&apos;s</sub-title>
     <category lang="es">Serie</category>
@@ -34654,14 +34599,14 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409070000 +0000" stop="20260409102200 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409064500 +0000" stop="20260409100900 +0000" channel="mx#hbo-oeste">
     <title lang="es">La lista de Schindler</title>
     <title lang="en">Schindler&apos;s List</title>
     <category lang="es">Drama</category>
     <rating><value>8.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_la-lista-de-schindler-1993_l_m.jpg</image>
   </programme>
-  <programme start="20260409102200 +0000" stop="20260409121100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260409100900 +0000" stop="20260409121100 +0000" channel="mx#hbo-oeste">
     <title lang="es">Criatura voraz</title>
     <title lang="en">It Feeds</title>
     <category lang="es">Suspenso</category>
@@ -35301,20 +35246,20 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410070000 +0000" stop="20260410090100 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410070000 +0000" stop="20260410090000 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Scott Pilgrim vs. Los ex de la chica de sus sueños</title>
     <title lang="en">Scott Pilgrim vs. The World</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/mx_scott-pilgrim-vs-los-ex-de-la-chica-de-sus-suenos-2010-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410090100 +0000" stop="20260410112600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410090000 +0000" stop="20260410112500 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Guasón 2: Folie à deux</title>
     <title lang="en">Joker: Folie à Deux</title>
     <category lang="es">Musical</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410112600 +0000" stop="20260410132600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410112500 +0000" stop="20260410132600 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Líbranos del mal</title>
     <title lang="en">Deliver Us from Evil</title>
     <category lang="es">Terror</category>
@@ -35328,54 +35273,54 @@
     <rating><value>8.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410160600 +0000" stop="20260410174600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410160600 +0000" stop="20260410174500 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Drácula: la historia jamás contada</title>
     <title lang="en">Dracula Untold</title>
     <category lang="es">Fantasía</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_dracula-la-historia-jamas-contada-2014-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410174600 +0000" stop="20260410192600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410174500 +0000" stop="20260410192400 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Inframundo 3: La rebelión de los Lycans</title>
     <title lang="en">Underworld: Rise of the Lycans</title>
     <category lang="es">C.Ficción</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_inframundo-3-la-rebelion-de-los-lycans-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260410192600 +0000" stop="20260410211100 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410192400 +0000" stop="20260410211100 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Observados</title>
     <title lang="en">The Watchers</title>
     <category lang="es">Terror</category>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410211100 +0000" stop="20260410233600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410211100 +0000" stop="20260410233400 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">El sorprendente Hombre Araña</title>
     <title lang="en">The Amazing Spider-Man</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/mx_el-sorprendente-hombre-arana-2012-1_l_m.jpg</image>
   </programme>
-  <programme start="20260410233600 +0000" stop="20260411010600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260410233400 +0000" stop="20260411010500 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Harpía: acecho maligno</title>
     <title lang="en">The Beldham</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411010600 +0000" stop="20260411030100 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260411010500 +0000" stop="20260411030000 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">La momia</title>
     <title lang="en">The Mummy</title>
-    <category lang="es">Aventura</category>
-    <rating><value>7.0</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-momia-1999_l_m.jpg</image>
+    <category lang="es">Acción</category>
+    <rating><value>5.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-momia-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260411030100 +0000" stop="20260411053600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260411030000 +0000" stop="20260411053500 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Furiosa: de la saga Mad Max</title>
     <title lang="en">Furiosa: A Mad Max Saga</title>
     <category lang="es">Acción</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411053600 +0000" stop="20260411063600 +0000" channel="mx#hbo-plus-mexico">
+  <programme start="20260411053500 +0000" stop="20260411063500 +0000" channel="mx#hbo-plus-mexico">
     <title lang="es">Intrusos</title>
     <title lang="en">Intruders</title>
     <category lang="es">Thriller</category>
@@ -37272,14 +37217,6 @@
     <episode-num system="onscreen">S40E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s40e13-sterling-and-nina-agdal-lxvi_l_m.jpg</image>
   </programme>
-  <programme start="20260409055000 +0000" stop="20260409061000 +0000" channel="mx#m-tv">
-    <title lang="es">Ridiculousness</title>
-    <sub-title lang="es">Sterling and Nina Agdal LXVII</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">39.13.0/1</episode-num>
-    <episode-num system="onscreen">S40E14</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s40e14-sterling-and-nina-agdal-lxvii_l_m.jpg</image>
-  </programme>
   <programme start="20260409055000 +0000" stop="20260409065000 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Nina Agdal LXVII</sub-title>
@@ -37288,7 +37225,15 @@
     <episode-num system="onscreen">S40E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s40e14-sterling-and-nina-agdal-lxvii_l_m.jpg</image>
   </programme>
-  <programme start="20260409061000 +0000" stop="20260409063500 +0000" channel="mx#m-tv">
+  <programme start="20260409055500 +0000" stop="20260409061500 +0000" channel="mx#m-tv">
+    <title lang="es">Ridiculousness</title>
+    <sub-title lang="es">Sterling and Nina Agdal LXVII</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">39.13.0/1</episode-num>
+    <episode-num system="onscreen">S40E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s40e14-sterling-and-nina-agdal-lxvii_l_m.jpg</image>
+  </programme>
+  <programme start="20260409061500 +0000" stop="20260409064000 +0000" channel="mx#m-tv">
     <title lang="es">Ink Master</title>
     <sub-title lang="es">Retiradas</sub-title>
     <category lang="es">Serie</category>
@@ -37296,7 +37241,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ink-master-s01e03-la-virgen-de-80-anos_l_m.jpg</image>
   </programme>
-  <programme start="20260409063500 +0000" stop="20260409070000 +0000" channel="mx#m-tv">
+  <programme start="20260409064000 +0000" stop="20260409070000 +0000" channel="mx#m-tv">
     <title lang="es">Ink Master</title>
     <sub-title lang="es">Ajuste de cuentas</sub-title>
     <category lang="es">Serie</category>
@@ -37304,7 +37249,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ink-master-s01e05-empieza-el-juego_l_m.jpg</image>
   </programme>
-  <programme start="20260409070000 +0000" stop="20260409074000 +0000" channel="mx#m-tv">
+  <programme start="20260409070000 +0000" stop="20260409074500 +0000" channel="mx#m-tv">
     <title lang="es">Ink Master</title>
     <sub-title lang="es">Competición agrietada</sub-title>
     <category lang="es">Serie</category>
@@ -37312,7 +37257,7 @@
     <episode-num system="onscreen">S15E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ink-master-s15e08-competicion-agrietada_l_m.jpg</image>
   </programme>
-  <programme start="20260409074000 +0000" stop="20260409082000 +0000" channel="mx#m-tv">
+  <programme start="20260409074500 +0000" stop="20260409083000 +0000" channel="mx#m-tv">
     <title lang="es">Ink Master</title>
     <sub-title lang="es">Karma instantáneo</sub-title>
     <category lang="es">Serie</category>
@@ -37320,7 +37265,7 @@
     <episode-num system="onscreen">S15E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ink-master-s15e09-karma-instantaneo_l_m.jpg</image>
   </programme>
-  <programme start="20260409082000 +0000" stop="20260409084500 +0000" channel="mx#m-tv">
+  <programme start="20260409083000 +0000" stop="20260409085000 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling y Karrueche Tran LVII</sub-title>
     <category lang="es">Serie</category>
@@ -37328,7 +37273,7 @@
     <episode-num system="onscreen">S39E251</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s39e251-sterling-e-karrueche-tran-lvii_l_m.jpg</image>
   </programme>
-  <programme start="20260409084500 +0000" stop="20260409090500 +0000" channel="mx#m-tv">
+  <programme start="20260409085000 +0000" stop="20260409091500 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Lolo Wood XXXIX</sub-title>
     <category lang="es">Serie</category>
@@ -37336,7 +37281,7 @@
     <episode-num system="onscreen">S39E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s39e18_l_m.jpg</image>
   </programme>
-  <programme start="20260409090500 +0000" stop="20260409092500 +0000" channel="mx#m-tv">
+  <programme start="20260409091500 +0000" stop="20260409093500 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Carly Aquilino XCI</sub-title>
     <category lang="es">Serie</category>
@@ -37344,7 +37289,7 @@
     <episode-num system="onscreen">S43E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s43e01-sterling-and-carly-aquilino-xci_l_m.jpg</image>
   </programme>
-  <programme start="20260409092500 +0000" stop="20260409095000 +0000" channel="mx#m-tv">
+  <programme start="20260409093500 +0000" stop="20260409095500 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Carly Aquilino XCII</sub-title>
     <category lang="es">Serie</category>
@@ -37352,7 +37297,7 @@
     <episode-num system="onscreen">S43E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s43e02-sterling-and-carly-aquilino-xcii_l_m.jpg</image>
   </programme>
-  <programme start="20260409095000 +0000" stop="20260409101000 +0000" channel="mx#m-tv">
+  <programme start="20260409095500 +0000" stop="20260409102000 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling y Carly Aquilino XCIII</sub-title>
     <category lang="es">Serie</category>
@@ -37360,7 +37305,7 @@
     <episode-num system="onscreen">S43E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s43e05-sterling-y-carly-aquilino-xciii_l_m.jpg</image>
   </programme>
-  <programme start="20260409101000 +0000" stop="20260409102500 +0000" channel="mx#m-tv">
+  <programme start="20260409102000 +0000" stop="20260409103000 +0000" channel="mx#m-tv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling y Carly Aquilino XCIV</sub-title>
     <category lang="es">Serie</category>
@@ -37368,7 +37313,7 @@
     <episode-num system="onscreen">S43E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ridiculousness-s43e06-sterling-y-carly-aquilino-xciv_l_m.jpg</image>
   </programme>
-  <programme start="20260409102500 +0000" stop="20260409111000 +0000" channel="mx#m-tv">
+  <programme start="20260409103000 +0000" stop="20260409111500 +0000" channel="mx#m-tv">
     <title lang="es">La venganza de los ex</title>
     <sub-title lang="es">La pelea por Georgia</sub-title>
     <category lang="es">Serie</category>
@@ -37376,7 +37321,7 @@
     <episode-num system="onscreen">S07E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409111000 +0000" stop="20260409120000 +0000" channel="mx#m-tv">
+  <programme start="20260409111500 +0000" stop="20260409120000 +0000" channel="mx#m-tv">
     <title lang="es">Geordie Shore</title>
     <sub-title lang="es">El fin del camino</sub-title>
     <category lang="es">Serie</category>
@@ -37810,9 +37755,11 @@
   </programme>
   <programme start="20260410135000 +0000" stop="20260410141000 +0000" channel="mx#m-tv">
     <title lang="es">MTV Cribs Internacional</title>
-    <sub-title lang="es">Christine Quinn Y Kevin Mchale</sub-title>
+    <sub-title lang="es">Christine Quinn y Kevin McHale</sub-title>
     <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_mtv-cribs-internacional-s01e00-christine-quinn-y-kevin-mchale_l_m.jpg</image>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_mtv-cribs-internacional-s02e02-tyson-fury-wes-nelson_l_m.jpg</image>
   </programme>
   <programme start="20260410141000 +0000" stop="20260410143500 +0000" channel="mx#m-tv">
     <title lang="es">MTV Cribs Internacional</title>
@@ -39091,81 +39038,81 @@
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410062500 +0000" stop="20260410090100 +0000" channel="mx#max">
+  <programme start="20260410062500 +0000" stop="20260410090000 +0000" channel="mx#max">
     <title lang="es">Leyendas de los héroes Cóndor: Los valientes</title>
     <title lang="en">She diao ying xiong zhuan: Xia zhi da zhe</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410090100 +0000" stop="20260410105100 +0000" channel="mx#max">
+  <programme start="20260410090000 +0000" stop="20260410104900 +0000" channel="mx#max">
     <title lang="es">Forajidos</title>
     <title lang="en">The Killers</title>
     <category lang="es">Thriller</category>
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410105100 +0000" stop="20260410123100 +0000" channel="mx#max">
+  <programme start="20260410104900 +0000" stop="20260410123000 +0000" channel="mx#max">
     <title lang="es">El seductor</title>
     <title lang="en">The Beguiled</title>
     <category lang="es">Drama</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-seductor-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260410123100 +0000" stop="20260410142100 +0000" channel="mx#max">
+  <programme start="20260410123000 +0000" stop="20260410142000 +0000" channel="mx#max">
     <title lang="es">Demolición</title>
     <title lang="en">Demolition</title>
     <category lang="es">Drama</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_demolicion-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260410142100 +0000" stop="20260410164100 +0000" channel="mx#max">
+  <programme start="20260410142000 +0000" stop="20260410164000 +0000" channel="mx#max">
     <title lang="es">El caso de Richard Jewell</title>
     <title lang="en">Richard Jewell</title>
     <category lang="es">Biográfico</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-caso-de-richard-jewell-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260410164100 +0000" stop="20260410180100 +0000" channel="mx#max">
+  <programme start="20260410164000 +0000" stop="20260410180000 +0000" channel="mx#max">
     <title lang="es">Petite maman</title>
     <title lang="en">Drama</title>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410180100 +0000" stop="20260410194600 +0000" channel="mx#max">
+  <programme start="20260410180000 +0000" stop="20260410194500 +0000" channel="mx#max">
     <title lang="es">Las chicas de Wall</title>
     <title lang="en">East of Wall</title>
     <category lang="es">Western</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410194600 +0000" stop="20260410212100 +0000" channel="mx#max">
+  <programme start="20260410194500 +0000" stop="20260410212000 +0000" channel="mx#max">
     <title lang="es">La última gran actuación</title>
     <title lang="en">The Last Showgirl</title>
     <category lang="es">Drama</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410212100 +0000" stop="20260410233100 +0000" channel="mx#max">
+  <programme start="20260410212000 +0000" stop="20260410233000 +0000" channel="mx#max">
     <title lang="es">Ella</title>
     <title lang="en">Her</title>
     <category lang="es">Romántica</category>
     <rating><value>8.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_ella-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260410233100 +0000" stop="20260411012000 +0000" channel="mx#max">
+  <programme start="20260410233000 +0000" stop="20260411011900 +0000" channel="mx#max">
     <title lang="es">El esquema fenicio</title>
     <title lang="en">The Phoenician Scheme</title>
     <category lang="es">Acción</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411012000 +0000" stop="20260411030000 +0000" channel="mx#max">
+  <programme start="20260411011900 +0000" stop="20260411030000 +0000" channel="mx#max">
     <title lang="es">Oh, Hi!</title>
     <title lang="en">Comedia</title>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411030000 +0000" stop="20260411035600 +0000" channel="mx#max">
+  <programme start="20260411030000 +0000" stop="20260411035500 +0000" channel="mx#max">
     <title lang="es">Privilégios</title>
     <sub-title lang="es">Piso 7</sub-title>
     <category lang="es">Serie</category>
@@ -39173,7 +39120,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260411035600 +0000" stop="20260411045600 +0000" channel="mx#max">
+  <programme start="20260411035500 +0000" stop="20260411045500 +0000" channel="mx#max">
     <title lang="es">Una batalla tras otra</title>
     <title lang="en">One Battle After Another</title>
     <category lang="es">Acción</category>
@@ -39370,85 +39317,85 @@
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_entre-besos-y-tiros-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260410064800 +0000" stop="20260410090100 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410064800 +0000" stop="20260410090000 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Vivir de noche</title>
     <title lang="en">Live by Night</title>
     <category lang="es">Crimen</category>
     <image>https://cdn.mitvstatic.com/programs/mx_vivir-de-noche-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260410090100 +0000" stop="20260410110900 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410090000 +0000" stop="20260410110800 +0000" channel="mx#max-prime-mexico">
     <title lang="es">The Alto Knights: mafia y poder</title>
     <title lang="en">The Alto Knights</title>
     <category lang="es">Crimen</category>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260410110900 +0000" stop="20260410130700 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410110800 +0000" stop="20260410130600 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Fuerza antigángster</title>
     <title lang="en">The Gangster Squad</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/mx_fuerza-antigangster-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260410130700 +0000" stop="20260410145400 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410130600 +0000" stop="20260410145400 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Las reinas del crimen</title>
     <title lang="en">The Kitchen</title>
     <category lang="es">Acción</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_las-reinas-del-crimen-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260410145400 +0000" stop="20260410163800 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410145400 +0000" stop="20260410163700 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Jane tomó las armas</title>
     <title lang="en">Jane Got a Gun</title>
     <category lang="es">Western</category>
     <image>https://cdn.mitvstatic.com/programs/mx_jane-tomo-las-armas-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260410163800 +0000" stop="20260410181100 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410163700 +0000" stop="20260410181000 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Miedo profundo</title>
     <title lang="en">The Shallows</title>
     <category lang="es">Thriller</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_miedo-profundo-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260410181100 +0000" stop="20260410194400 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410181000 +0000" stop="20260410194300 +0000" channel="mx#max-prime-mexico">
     <title lang="es">No respires</title>
     <title lang="en">Don&apos;t Breathe</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/mx_no-respires-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260410194400 +0000" stop="20260410214600 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410194300 +0000" stop="20260410214500 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Fragmentado</title>
     <title lang="en">Split</title>
     <category lang="es">Thriller</category>
     <image>https://cdn.mitvstatic.com/programs/mx_fragmentado-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260410214600 +0000" stop="20260410233300 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410214500 +0000" stop="20260410233200 +0000" channel="mx#max-prime-mexico">
     <title lang="es">300: El nacimiento de un imperio</title>
     <title lang="en">300: Rise of an Empire</title>
     <category lang="es">Acción</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_300-el-nacimiento-de-un-imperio-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260410233300 +0000" stop="20260411010400 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260410233200 +0000" stop="20260411010300 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Miedo profundo</title>
     <title lang="en">The Shallows</title>
     <category lang="es">Thriller</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_miedo-profundo-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260411010400 +0000" stop="20260411030100 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260411010300 +0000" stop="20260411025900 +0000" channel="mx#max-prime-mexico">
     <title lang="es">La casa de cera</title>
     <title lang="en">House of Wax</title>
     <category lang="es">Terror</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_la-casa-de-cera-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260411030100 +0000" stop="20260411043300 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260411025900 +0000" stop="20260411043100 +0000" channel="mx#max-prime-mexico">
     <title lang="es">No respires</title>
     <title lang="en">Don&apos;t Breathe</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/mx_no-respires-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260411043300 +0000" stop="20260411053300 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260411043100 +0000" stop="20260411053100 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Fragmentado</title>
     <title lang="en">Split</title>
     <category lang="es">Thriller</category>
@@ -44635,9 +44582,8 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260408060000 +0000" stop="20260408063000 +0000" channel="mx#russia-today-hd">
-    <title lang="es">El oriente indómito</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
+    <title lang="es">El Oriente indómito</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260408063000 +0000" stop="20260408070000 +0000" channel="mx#russia-today-hd">
@@ -44654,15 +44600,13 @@
     <image>https://cdn.mitvstatic.com/programs/mx_entrevista-jorge-laplace-guionista-de-netflix_l_m.jpg</image>
   </programme>
   <programme start="20260408073000 +0000" stop="20260408080000 +0000" channel="mx#russia-today-hd">
-    <title lang="es">El oriente indómito</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
+    <title lang="es">El Oriente indómito</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260408080000 +0000" stop="20260408083000 +0000" channel="mx#russia-today-hd">
-    <title lang="es">El oriente indómito</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
+    <title lang="es">El Oriente indómito</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260408083000 +0000" stop="20260408090000 +0000" channel="mx#russia-today-hd">
@@ -54045,10 +53989,9 @@
   </programme>
   <programme start="20260408163000 +0000" stop="20260408180000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Los pingüinos de Madagascar</title>
-    <title lang="en">Penguins of Madagascar</title>
+    <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar-2014_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar_l_m.jpg</image>
   </programme>
   <programme start="20260408180000 +0000" stop="20260408200000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">iCarly</title>
@@ -54081,17 +54024,12 @@
     <rating><value>4.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_air-bud-el-fichaje-de-la-liga-1998-1_l_m.jpg</image>
   </programme>
-  <programme start="20260409020000 +0000" stop="20260409050000 +0000" channel="mx#xh-gc-canal-5-hd">
+  <programme start="20260409020000 +0000" stop="20260409053000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Los locos Addams 2</title>
     <title lang="en">The Addams Family 2</title>
     <category lang="es">Animación</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260409050000 +0000" stop="20260409053000 +0000" channel="mx#xh-gc-canal-5-hd">
-    <title lang="es">Policías de Chicago</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260409053000 +0000" stop="20260409063000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Contacto deportivo</title>
@@ -54202,10 +54140,9 @@
   </programme>
   <programme start="20260409163000 +0000" stop="20260409180000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Los pingüinos de Madagascar</title>
-    <title lang="en">Penguins of Madagascar</title>
+    <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar-2014_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar_l_m.jpg</image>
   </programme>
   <programme start="20260409180000 +0000" stop="20260409200000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">iCarly</title>
@@ -54238,17 +54175,12 @@
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_paranoia-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260410020000 +0000" stop="20260410050000 +0000" channel="mx#xh-gc-canal-5-hd">
+  <programme start="20260410020000 +0000" stop="20260410053000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Noche de graduación sangrienta</title>
     <title lang="en">Prom Night</title>
     <category lang="es">Terror</category>
     <rating><value>3.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_noche-de-graduacion-sangrienta-2008_l_m.jpg</image>
-  </programme>
-  <programme start="20260410050000 +0000" stop="20260410053000 +0000" channel="mx#xh-gc-canal-5-hd">
-    <title lang="es">Policías de Chicago</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260410053000 +0000" stop="20260410063000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Contacto deportivo</title>
@@ -54353,10 +54285,9 @@
   </programme>
   <programme start="20260410163000 +0000" stop="20260410180000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">Los pingüinos de Madagascar</title>
-    <title lang="en">Penguins of Madagascar</title>
+    <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar-2014_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-pinguinos-de-madagascar_l_m.jpg</image>
   </programme>
   <programme start="20260410180000 +0000" stop="20260410200000 +0000" channel="mx#xh-gc-canal-5-hd">
     <title lang="es">iCarly</title>
@@ -56955,7 +56886,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409045500 +0000" stop="20260409070100 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409044900 +0000" stop="20260409065900 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Black Adam</title>
     <title lang="en">Acción</title>
     <rating><value>6.4</value></rating>
@@ -56967,7 +56898,7 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409070100 +0000" stop="20260409072200 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409065900 +0000" stop="20260409072000 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La derivación de la concesión de la beca</sub-title>
     <category lang="es">Serie</category>
@@ -56975,7 +56906,7 @@
     <episode-num system="onscreen">S12E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-big-bang-theory-s12e07-the-grant-allocation-derivation_l_m.jpg</image>
   </programme>
-  <programme start="20260409072200 +0000" stop="20260409074200 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409072000 +0000" stop="20260409074200 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La desviación de la consumación</sub-title>
     <category lang="es">Serie</category>
@@ -56983,7 +56914,7 @@
     <episode-num system="onscreen">S12E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-big-bang-theory-s12e08_l_m.jpg</image>
   </programme>
-  <programme start="20260409074200 +0000" stop="20260409080300 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409074200 +0000" stop="20260409080500 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La negación de la cita</sub-title>
     <category lang="es">Serie</category>
@@ -56991,7 +56922,7 @@
     <episode-num system="onscreen">S12E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-big-bang-theory-s12e09_l_m.jpg</image>
   </programme>
-  <programme start="20260409080300 +0000" stop="20260409082500 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409080500 +0000" stop="20260409082700 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La iluminación del video</sub-title>
     <category lang="es">Serie</category>
@@ -56999,7 +56930,7 @@
     <episode-num system="onscreen">S12E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-big-bang-theory-s12e10_l_m.jpg</image>
   </programme>
-  <programme start="20260409082500 +0000" stop="20260409084500 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409082700 +0000" stop="20260409084800 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La dispersión del paintball</sub-title>
     <category lang="es">Serie</category>
@@ -57007,7 +56938,7 @@
     <episode-num system="onscreen">S12E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-big-bang-theory-s12e11_l_m.jpg</image>
   </programme>
-  <programme start="20260409084500 +0000" stop="20260409090500 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409084800 +0000" stop="20260409090900 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La proposición de la propagación</sub-title>
     <category lang="es">Serie</category>
@@ -57015,7 +56946,7 @@
     <episode-num system="onscreen">S12E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_the-big-bang-theory-s12e12_l_m.jpg</image>
   </programme>
-  <programme start="20260409090500 +0000" stop="20260409092700 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409090900 +0000" stop="20260409093200 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Orinar como princesa</sub-title>
     <category lang="es">Serie</category>
@@ -57023,7 +56954,7 @@
     <episode-num system="onscreen">S07E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_dos-hombres-y-medio-s07e16-orinar-como-princesa_l_m.jpg</image>
   </programme>
-  <programme start="20260409092700 +0000" stop="20260409095000 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409093200 +0000" stop="20260409095500 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Aquí está tu bigote</sub-title>
     <category lang="es">Serie</category>
@@ -57031,7 +56962,7 @@
     <episode-num system="onscreen">S07E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_dos-hombres-y-medio-s07e17-aqui-esta-tu-bigote_l_m.jpg</image>
   </programme>
-  <programme start="20260409095000 +0000" stop="20260409101100 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409095500 +0000" stop="20260409101800 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Deja esto en la isla Ixnay</sub-title>
     <category lang="es">Serie</category>
@@ -57039,7 +56970,7 @@
     <episode-num system="onscreen">S07E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_dos-hombres-y-medio-s07e18-deja-esto-en-la-isla-ixnay_l_m.jpg</image>
   </programme>
-  <programme start="20260409101100 +0000" stop="20260409103000 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409101800 +0000" stop="20260409103900 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Keith Moon estará vomitando en su tumba</sub-title>
     <category lang="es">Serie</category>
@@ -57047,7 +56978,7 @@
     <episode-num system="onscreen">S07E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_dos-hombres-y-medio-s07e19-keith-moon-estara-vomitando-en-su-tumba_l_m.jpg</image>
   </programme>
-  <programme start="20260409103000 +0000" stop="20260409111900 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409103900 +0000" stop="20260409112500 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Encontrados</title>
     <sub-title lang="es">Desaparecida y atormentada</sub-title>
     <category lang="es">Serie</category>
@@ -57055,7 +56986,7 @@
     <episode-num system="onscreen">S02E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409111900 +0000" stop="20260409120000 +0000" channel="WarnerChannel.us@Mexico">
+  <programme start="20260409112500 +0000" stop="20260409120000 +0000" channel="WarnerChannel.us@Mexico">
     <title lang="es">Cobra Kai</title>
     <sub-title lang="es">Las patadas consiguen damas</sub-title>
     <category lang="es">Serie</category>
