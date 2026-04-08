@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260408140648 +0000">
+<tv generator-info-name="custom-epg" date="20260408164117 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
@@ -1051,9 +1051,11 @@
     <image>https://cdn.mitvstatic.com/programs/sv_el-noticiero_l_m.jpg</image>
   </programme>
   <programme start="20260409030000 +0000" stop="20260409050000 +0000" channel="Canal6.sv@SD">
-    <title lang="es">Cinema Platinum</title>
-    <category lang="es">Película</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_cinema-platinum_l_m.jpg</image>
+    <title lang="es">La chica salvaje</title>
+    <title lang="en">Where the Crawdads Sing</title>
+    <category lang="es">Drama</category>
+    <rating><value>7.1</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260409050000 +0000" stop="20260409060000 +0000" channel="Canal6.sv@SD">
     <title lang="es">El noticiero</title>
@@ -2865,8 +2867,8 @@
   </programme>
   <programme start="20260408150000 +0000" stop="20260408160000 +0000" channel="MegavisionCanal19.sv@SD">
     <title lang="es">Veneno rosa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260408160000 +0000" stop="20260408170000 +0000" channel="MegavisionCanal19.sv@SD">
@@ -30276,17 +30278,11 @@
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
-  <programme start="20260408090000 +0000" stop="20260408110000 +0000" channel="sv#espn">
-    <title lang="es">Bay FC vs. Washington Spirit</title>
-    <title lang="en">Temporada regular, Audi Field</title>
-    <category lang="es">Temporada regular, Audi Field</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_futbol-bay-fc-vs-washington-spirit-temporada-regular-audi-field_l_m.jpg</image>
-  </programme>
-  <programme start="20260408110000 +0000" stop="20260408170000 +0000" channel="sv#espn">
-    <title lang="es">Second Round, Monte Carlo Country Club, Monte Carlo, Monaco</title>
+  <programme start="20260408090000 +0000" stop="20260408170000 +0000" channel="sv#espn">
+    <title lang="es">ATP World Tour Masters 1000 - Rolex Monte-Carlo Masters</title>
     <title lang="en">ATP World Tour Masters 1000 - Rolex Monte-Carlo Masters</title>
     <category lang="es">ATP World Tour Masters 1000 - Rolex Monte-Carlo Masters</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/sv_tenis-atp-world-tour-masters-1000-rolex-monte-carlo-masters_l_m.jpg</image>
   </programme>
   <programme start="20260408170000 +0000" stop="20260408180000 +0000" channel="sv#espn">
     <title lang="es">Goles de la Eredivisie</title>
@@ -31635,7 +31631,7 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_la-batalla-de-los-sexos-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260409015400 +0000" stop="20260409022700 +0000" channel="sv#fox">
+  <programme start="20260409015400 +0000" stop="20260409022600 +0000" channel="sv#fox">
     <title lang="es">Los Simpson</title>
     <sub-title lang="es">El abuelo y la ineficiencia romántica</sub-title>
     <category lang="es">Serie</category>
@@ -31643,7 +31639,7 @@
     <episode-num system="onscreen">S06E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_los-simpson-s06e10-grandpa-vs-sexual-inadequacy_l_m.jpg</image>
   </programme>
-  <programme start="20260409022700 +0000" stop="20260409030000 +0000" channel="sv#fox">
+  <programme start="20260409022600 +0000" stop="20260409025900 +0000" channel="sv#fox">
     <title lang="es">Los Simpson</title>
     <sub-title lang="es">Miedo a volar</sub-title>
     <category lang="es">Serie</category>
@@ -31651,7 +31647,7 @@
     <episode-num system="onscreen">S06E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_los-simpson-s06e11-fear-of-flying_l_m.jpg</image>
   </programme>
-  <programme start="20260409030000 +0000" stop="20260409034300 +0000" channel="sv#fox">
+  <programme start="20260409025900 +0000" stop="20260409034200 +0000" channel="sv#fox">
     <title lang="es">Morir de placer</title>
     <sub-title lang="es">My Pet</sub-title>
     <category lang="es">Serie</category>
@@ -31659,7 +31655,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260409034300 +0000" stop="20260409042800 +0000" channel="sv#fox">
+  <programme start="20260409034200 +0000" stop="20260409042700 +0000" channel="sv#fox">
     <title lang="es">Morir de placer</title>
     <sub-title lang="es">Happy Holidays</sub-title>
     <category lang="es">Serie</category>
@@ -31674,7 +31670,7 @@
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_vigilando-a-jean-seberg-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260409042800 +0000" stop="20260409052800 +0000" channel="sv#fox">
+  <programme start="20260409042700 +0000" stop="20260409052700 +0000" channel="sv#fox">
     <title lang="es">Vigilando a Jean Seberg</title>
     <title lang="en">Seberg</title>
     <category lang="es">Biográfico</category>
@@ -48514,15 +48510,28 @@
     <episode-num system="onscreen">S14E220</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_tnt-buzz-s14e220_l_m.jpg</image>
   </programme>
-  <programme start="20260408110000 +0000" stop="20260408112300 +0000" channel="sv#warner">
-    <title lang="es">Georgie y Mandy - Su primer matrimonio</title>
-    <sub-title lang="es">Basura de dieta</sub-title>
+  <programme start="20260408110000 +0000" stop="20260408110100 +0000" channel="sv#warner">
+    <title lang="es">TNT Buzz</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <episode-num system="xmltv_ns">13.205.0/1</episode-num>
+    <episode-num system="onscreen">S14E206</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_tnt-buzz-s14e206_l_m.jpg</image>
   </programme>
-  <programme start="20260408112300 +0000" stop="20260408120500 +0000" channel="sv#warner">
+  <programme start="20260408110100 +0000" stop="20260408110400 +0000" channel="sv#warner">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.206.0/1</episode-num>
+    <episode-num system="onscreen">S14E207</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_tnt-buzz-s14e207_l_m.jpg</image>
+  </programme>
+  <programme start="20260408110400 +0000" stop="20260408110800 +0000" channel="sv#warner">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.207.0/1</episode-num>
+    <episode-num system="onscreen">S14E208</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_tnt-buzz-s14e208_l_m.jpg</image>
+  </programme>
+  <programme start="20260408110800 +0000" stop="20260408115700 +0000" channel="sv#warner">
     <title lang="es">Superman &amp; Lois</title>
     <sub-title lang="es">El hombre del traje</sub-title>
     <category lang="es">Serie</category>
@@ -48530,13 +48539,13 @@
     <episode-num system="onscreen">S04E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260408120500 +0000" stop="20260408135700 +0000" channel="sv#warner">
+  <programme start="20260408115700 +0000" stop="20260408134200 +0000" channel="sv#warner">
     <title lang="es">Asesino solitario</title>
     <title lang="en">War</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/sv_asesino-solitario-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260408135700 +0000" stop="20260408141700 +0000" channel="sv#warner">
+  <programme start="20260408134200 +0000" stop="20260408140300 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La dispersión del paintball</sub-title>
     <category lang="es">Serie</category>
@@ -48544,7 +48553,7 @@
     <episode-num system="onscreen">S12E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s12e11_l_m.jpg</image>
   </programme>
-  <programme start="20260408141700 +0000" stop="20260408143600 +0000" channel="sv#warner">
+  <programme start="20260408140300 +0000" stop="20260408142600 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La proposición de la propagación</sub-title>
     <category lang="es">Serie</category>
@@ -48552,7 +48561,7 @@
     <episode-num system="onscreen">S12E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s12e12_l_m.jpg</image>
   </programme>
-  <programme start="20260408143600 +0000" stop="20260408145900 +0000" channel="sv#warner">
+  <programme start="20260408142600 +0000" stop="20260408144800 +0000" channel="sv#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Orinar como princesa</sub-title>
     <category lang="es">Serie</category>
@@ -48560,7 +48569,7 @@
     <episode-num system="onscreen">S07E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_dos-hombres-y-medio-s07e16-orinar-como-princesa_l_m.jpg</image>
   </programme>
-  <programme start="20260408145900 +0000" stop="20260408152200 +0000" channel="sv#warner">
+  <programme start="20260408144800 +0000" stop="20260408151100 +0000" channel="sv#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Aquí está tu bigote</sub-title>
     <category lang="es">Serie</category>
@@ -48568,7 +48577,7 @@
     <episode-num system="onscreen">S07E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_dos-hombres-y-medio-s07e17-aqui-esta-tu-bigote_l_m.jpg</image>
   </programme>
-  <programme start="20260408152200 +0000" stop="20260408154400 +0000" channel="sv#warner">
+  <programme start="20260408151100 +0000" stop="20260408153500 +0000" channel="sv#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Deja esto en la isla Ixnay</sub-title>
     <category lang="es">Serie</category>
@@ -48576,7 +48585,7 @@
     <episode-num system="onscreen">S07E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_dos-hombres-y-medio-s07e18-deja-esto-en-la-isla-ixnay_l_m.jpg</image>
   </programme>
-  <programme start="20260408154400 +0000" stop="20260408160400 +0000" channel="sv#warner">
+  <programme start="20260408153500 +0000" stop="20260408155500 +0000" channel="sv#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Keith Moon estará vomitando en su tumba</sub-title>
     <category lang="es">Serie</category>
@@ -48584,7 +48593,7 @@
     <episode-num system="onscreen">S07E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_dos-hombres-y-medio-s07e19-keith-moon-estara-vomitando-en-su-tumba_l_m.jpg</image>
   </programme>
-  <programme start="20260408160400 +0000" stop="20260408162700 +0000" channel="sv#warner">
+  <programme start="20260408155500 +0000" stop="20260408161900 +0000" channel="sv#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Se llamaba Magoo</sub-title>
     <category lang="es">Serie</category>
@@ -48592,7 +48601,7 @@
     <episode-num system="onscreen">S07E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_dos-hombres-y-medio-s07e20-se-llamaba-magoo_l_m.jpg</image>
   </programme>
-  <programme start="20260408162700 +0000" stop="20260408164900 +0000" channel="sv#warner">
+  <programme start="20260408161900 +0000" stop="20260408164200 +0000" channel="sv#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Un blandiblu empalmado</sub-title>
     <category lang="es">Serie</category>
@@ -48600,7 +48609,7 @@
     <episode-num system="onscreen">S07E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_dos-hombres-y-medio-s07e21-un-blandiblu-empalmado_l_m.jpg</image>
   </programme>
-  <programme start="20260408164900 +0000" stop="20260408172200 +0000" channel="sv#warner">
+  <programme start="20260408164200 +0000" stop="20260408171900 +0000" channel="sv#warner">
     <title lang="es">Cobra Kai</title>
     <sub-title lang="es">Las patadas consiguen damas</sub-title>
     <category lang="es">Serie</category>
@@ -48608,32 +48617,32 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260408172200 +0000" stop="20260408191900 +0000" channel="sv#warner">
+  <programme start="20260408171900 +0000" stop="20260408191800 +0000" channel="sv#warner">
     <title lang="es">Linterna Verde</title>
     <title lang="en">Green Lantern</title>
     <category lang="es">Aventura</category>
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_linterna-verde-2011-1_l_m.jpg</image>
   </programme>
-  <programme start="20260408191900 +0000" stop="20260408222100 +0000" channel="sv#warner">
+  <programme start="20260408191800 +0000" stop="20260408221700 +0000" channel="sv#warner">
     <title lang="es">Batman</title>
     <title lang="en">The Batman</title>
     <category lang="es">Acción</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260408222100 +0000" stop="20260409001900 +0000" channel="sv#warner">
+  <programme start="20260408221700 +0000" stop="20260409001800 +0000" channel="sv#warner">
     <title lang="es">Godzilla vs. Kong</title>
     <title lang="en">C.Ficción</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_godzilla-vs-kong-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260409001900 +0000" stop="20260409030000 +0000" channel="sv#warner">
+  <programme start="20260409001800 +0000" stop="20260409030000 +0000" channel="sv#warner">
     <title lang="es">The Flash</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/sv_the-flash_l_m.jpg</image>
   </programme>
-  <programme start="20260409030000 +0000" stop="20260409035600 +0000" channel="sv#warner">
+  <programme start="20260409030000 +0000" stop="20260409035100 +0000" channel="sv#warner">
     <title lang="es">The Pitt</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
@@ -48646,7 +48655,7 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260409035600 +0000" stop="20260409045600 +0000" channel="sv#warner">
+  <programme start="20260409035100 +0000" stop="20260409045100 +0000" channel="sv#warner">
     <title lang="es">Black Adam</title>
     <title lang="en">Acción</title>
     <rating><value>6.4</value></rating>
