@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260410191657 +0000">
+<tv generator-info-name="custom-epg" date="20260410215824 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
@@ -103,8 +103,17 @@
   <channel id="sv#discovery-channel">
     <display-name>Discovery Channel</display-name>
   </channel>
+  <channel id="sv#history">
+    <display-name>History</display-name>
+  </channel>
   <channel id="sv#de-pelicula">
     <display-name>De Película</display-name>
+  </channel>
+  <channel id="sv#hbo-2">
+    <display-name>HBO 2</display-name>
+  </channel>
+  <channel id="sv#hbo">
+    <display-name>HBO</display-name>
   </channel>
   <channel id="sv#azteca-13">
     <display-name>Azteca 13</display-name>
@@ -116,24 +125,24 @@
   <channel id="sv#concert-channel">
     <display-name>Concert Channel</display-name>
   </channel>
-  <channel id="sv#cnn-en-espanol">
-    <display-name>CNN en Español</display-name>
+  <channel id="sv#h2">
+    <display-name>History 2</display-name>
   </channel>
-  <channel id="Canal6.sv@SD">
-    <display-name>Canal 6</display-name>
-    <icon src="https://i.imgur.com/M4muPLK.png"/>
+  <channel id="sv#golden">
+    <display-name>Golden</display-name>
   </channel>
-  <channel id="sv#cnn">
-    <display-name>CNN</display-name>
+  <channel id="Genteve.sv@SD">
+    <display-name>Gentevé</display-name>
+    <icon src="https://i.imgur.com/SjNj3N5.png"/>
+  </channel>
+  <channel id="sv#fx-movies">
+    <display-name>FX Movies</display-name>
   </channel>
   <channel id="sv#fx">
     <display-name>FX</display-name>
   </channel>
   <channel id="sv#fox-sports-3">
     <display-name>FOX Sports 3</display-name>
-  </channel>
-  <channel id="sv#cinemax">
-    <display-name>Cinemax</display-name>
   </channel>
   <channel id="sv#fox-sports-2">
     <display-name>FOX Sports 2</display-name>
@@ -156,6 +165,19 @@
   <channel id="sv#espn-2">
     <display-name>ESPN 2</display-name>
   </channel>
+  <channel id="sv#cnn-en-espanol">
+    <display-name>CNN en Español</display-name>
+  </channel>
+  <channel id="Canal6.sv@SD">
+    <display-name>Canal 6</display-name>
+    <icon src="https://i.imgur.com/M4muPLK.png"/>
+  </channel>
+  <channel id="sv#cnn">
+    <display-name>CNN</display-name>
+  </channel>
+  <channel id="sv#cinemax">
+    <display-name>Cinemax</display-name>
+  </channel>
   <channel id="Canal4.sv@SD">
     <display-name>Canal 4</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/960px-Canal_4_TCS.png"/>
@@ -165,45 +187,6 @@
   </channel>
   <channel id="sv#cinecanal">
     <display-name>Cinecanal</display-name>
-  </channel>
-  <channel id="sv#telesur">
-    <display-name>teleSUR</display-name>
-  </channel>
-  <channel id="sv#telemundo">
-    <display-name>Telemundo</display-name>
-  </channel>
-  <channel id="sv#tdn">
-    <display-name>TDN</display-name>
-  </channel>
-  <channel id="sv#tcm">
-    <display-name>TCM</display-name>
-  </channel>
-  <channel id="sv#tbs-veryfunny">
-    <display-name>TBS</display-name>
-  </channel>
-  <channel id="sv#tabernaculo-biblico-bautista">
-    <display-name>Tabernaculo Biblico Bautista</display-name>
-  </channel>
-  <channel id="sv#studio-universal">
-    <display-name>Studio Universal</display-name>
-  </channel>
-  <channel id="sv#space">
-    <display-name>Space</display-name>
-  </channel>
-  <channel id="sv#sony">
-    <display-name>Sony</display-name>
-  </channel>
-  <channel id="sv#ritmoson-latino">
-    <display-name>RMS</display-name>
-  </channel>
-  <channel id="sv#nickelodeon">
-    <display-name>Nick</display-name>
-  </channel>
-  <channel id="sv#national-geographic">
-    <display-name>National Geographic</display-name>
-  </channel>
-  <channel id="sv#multipremier">
-    <display-name>Multipremier</display-name>
   </channel>
   <channel id="sv#max">
     <display-name>HBO Mundi</display-name>
@@ -217,31 +200,8 @@
   <channel id="sv#htv">
     <display-name>HTV</display-name>
   </channel>
-  <channel id="sv#history">
-    <display-name>History</display-name>
-  </channel>
-  <channel id="sv#hbo">
-    <display-name>HBO</display-name>
-  </channel>
-  <channel id="sv#h2">
-    <display-name>History 2</display-name>
-  </channel>
-  <channel id="sv#golden">
-    <display-name>Golden</display-name>
-  </channel>
-  <channel id="sv#fx-movies">
-    <display-name>FX Movies</display-name>
-  </channel>
-  <channel id="Genteve.sv@SD">
-    <display-name>Gentevé</display-name>
-    <icon src="https://i.imgur.com/SjNj3N5.png"/>
-  </channel>
   <channel id="sv#warner">
     <display-name>Warner Channel</display-name>
-  </channel>
-  <channel id="VTVCanal35.sv@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/RSVzyzp.png"/>
   </channel>
   <channel id="sv#ve-plus-tv">
     <display-name>Ve Plus TV</display-name>
@@ -252,26 +212,66 @@
   <channel id="sv#tve">
     <display-name>TVE</display-name>
   </channel>
-  <channel id="sv#universal-channel">
-    <display-name>Universal TV</display-name>
+  <channel id="sv#tnt-series">
+    <display-name>TNT Series</display-name>
   </channel>
   <channel id="sv#tnt">
     <display-name>TNT</display-name>
   </channel>
+  <channel id="sv#telesur">
+    <display-name>teleSUR</display-name>
+  </channel>
+  <channel id="sv#tcm">
+    <display-name>TCM</display-name>
+  </channel>
+  <channel id="sv#tabernaculo-biblico-bautista">
+    <display-name>Tabernaculo Biblico Bautista</display-name>
+  </channel>
+  <channel id="sv#space">
+    <display-name>Space</display-name>
+  </channel>
+  <channel id="sv#sony">
+    <display-name>Sony</display-name>
+  </channel>
+  <channel id="sv#ritmoson-latino">
+    <display-name>RMS</display-name>
+  </channel>
+  <channel id="sv#nickelodeon">
+    <display-name>Nick</display-name>
+  </channel>
+  <channel id="VTVCanal35.sv@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/RSVzyzp.png"/>
+  </channel>
+  <channel id="sv#universal-channel">
+    <display-name>Universal TV</display-name>
+  </channel>
   <channel id="sv#tlnovelas">
     <display-name>TLNovelas</display-name>
+  </channel>
+  <channel id="sv#telemundo">
+    <display-name>Telemundo</display-name>
+  </channel>
+  <channel id="sv#tdn">
+    <display-name>TDN</display-name>
+  </channel>
+  <channel id="sv#tbs-veryfunny">
+    <display-name>TBS</display-name>
+  </channel>
+  <channel id="sv#studio-universal">
+    <display-name>Studio Universal</display-name>
+  </channel>
+  <channel id="sv#national-geographic">
+    <display-name>National Geographic</display-name>
   </channel>
   <channel id="sv#mas-chic">
     <display-name>Más Chic</display-name>
   </channel>
-  <channel id="sv#hbo-2">
-    <display-name>HBO 2</display-name>
-  </channel>
   <channel id="sv#vh1">
     <display-name>VH1</display-name>
   </channel>
-  <channel id="sv#tnt-series">
-    <display-name>TNT Series</display-name>
+  <channel id="sv#multipremier">
+    <display-name>Multipremier</display-name>
   </channel>
   <channel id="sv#rai">
     <display-name>Rai Italia</display-name>
@@ -31812,13 +31812,13 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_senales-2002_l_m.jpg</image>
   </programme>
-  <programme start="20260411053700 +0000" stop="20260411063700 +0000" channel="sv#fx">
+  <programme start="20260411053700 +0000" stop="20260411072100 +0000" channel="sv#fx">
     <title lang="es">El Chicano</title>
     <title lang="en">Drama</title>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260411053700 +0000" stop="20260411072100 +0000" channel="sv#fx">
+  <programme start="20260411053700 +0000" stop="20260411063700 +0000" channel="sv#fx">
     <title lang="es">El Chicano</title>
     <title lang="en">Drama</title>
     <rating><value>5.3</value></rating>
@@ -32853,7 +32853,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260412051600 +0000" stop="20260412061600 +0000" channel="sv#h2">
+  <programme start="20260412051600 +0000" stop="20260412060500 +0000" channel="sv#h2">
     <title lang="es">Juego de tronos, una historia real</title>
     <sub-title lang="es">El rey loco y la doncella</sub-title>
     <category lang="es">Serie</category>
@@ -32861,7 +32861,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260412051600 +0000" stop="20260412060500 +0000" channel="sv#h2">
+  <programme start="20260412051600 +0000" stop="20260412061600 +0000" channel="sv#h2">
     <title lang="es">Juego de tronos, una historia real</title>
     <sub-title lang="es">El rey loco y la doncella</sub-title>
     <category lang="es">Serie</category>
@@ -33265,14 +33265,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260412040000 +0000" stop="20260412050000 +0000" channel="sv#hbo">
+  <programme start="20260412040000 +0000" stop="20260412060800 +0000" channel="sv#hbo">
     <title lang="es">Cónclave</title>
     <title lang="en">Conclave</title>
     <category lang="es">Thriller</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260412040000 +0000" stop="20260412060800 +0000" channel="sv#hbo">
+  <programme start="20260412040000 +0000" stop="20260412050000 +0000" channel="sv#hbo">
     <title lang="es">Cónclave</title>
     <title lang="en">Conclave</title>
     <category lang="es">Thriller</category>
@@ -34552,13 +34552,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260411040000 +0000" stop="20260411120000 +0000" channel="sv#htv">
+  <programme start="20260411040000 +0000" stop="20260411050000 +0000" channel="sv#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260411040000 +0000" stop="20260411050000 +0000" channel="sv#htv">
+  <programme start="20260411040000 +0000" stop="20260411120000 +0000" channel="sv#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -34576,13 +34576,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260412040000 +0000" stop="20260412050000 +0000" channel="sv#htv">
+  <programme start="20260412040000 +0000" stop="20260412120000 +0000" channel="sv#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260412040000 +0000" stop="20260412120000 +0000" channel="sv#htv">
+  <programme start="20260412040000 +0000" stop="20260412050000 +0000" channel="sv#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -34737,14 +34737,14 @@
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_la-asesina-que-conocio-online-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260411052000 +0000" stop="20260411070000 +0000" channel="sv#lifetime">
+  <programme start="20260411052000 +0000" stop="20260411062000 +0000" channel="sv#lifetime">
     <title lang="es">Perfil de un asesino</title>
     <title lang="en">Profile for Murder</title>
     <category lang="es">Drama</category>
     <rating><value>4.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_perfil-de-un-asesino-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260411052000 +0000" stop="20260411062000 +0000" channel="sv#lifetime">
+  <programme start="20260411052000 +0000" stop="20260411070000 +0000" channel="sv#lifetime">
     <title lang="es">Perfil de un asesino</title>
     <title lang="en">Profile for Murder</title>
     <category lang="es">Drama</category>
@@ -35354,7 +35354,7 @@
     <episode-num system="onscreen">S03E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260411054500 +0000" stop="20260411061000 +0000" channel="sv#m-tv">
+  <programme start="20260411054500 +0000" stop="20260411064500 +0000" channel="sv#m-tv">
     <title lang="es">8M infinito</title>
     <sub-title lang="es">Body Shaming</sub-title>
     <category lang="es">Serie</category>
@@ -35362,7 +35362,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260411054500 +0000" stop="20260411064500 +0000" channel="sv#m-tv">
+  <programme start="20260411054500 +0000" stop="20260411061000 +0000" channel="sv#m-tv">
     <title lang="es">8M infinito</title>
     <sub-title lang="es">Body Shaming</sub-title>
     <category lang="es">Serie</category>
@@ -35738,7 +35738,7 @@
     <episode-num system="onscreen">S23E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_geordie-shore-s23e01-vamos-nos-reunir_l_m.jpg</image>
   </programme>
-  <programme start="20260412055500 +0000" stop="20260412064000 +0000" channel="sv#m-tv">
+  <programme start="20260412055500 +0000" stop="20260412065500 +0000" channel="sv#m-tv">
     <title lang="es">Geordie Shore</title>
     <sub-title lang="es">¡Geordi-cioso!</sub-title>
     <category lang="es">Serie</category>
@@ -35746,7 +35746,7 @@
     <episode-num system="onscreen">S21E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_geordie-shore-s21e08-geordi-cioso_l_m.jpg</image>
   </programme>
-  <programme start="20260412055500 +0000" stop="20260412065500 +0000" channel="sv#m-tv">
+  <programme start="20260412055500 +0000" stop="20260412064000 +0000" channel="sv#m-tv">
     <title lang="es">Geordie Shore</title>
     <sub-title lang="es">¡Geordi-cioso!</sub-title>
     <category lang="es">Serie</category>
@@ -37384,13 +37384,13 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260412045500 +0000" stop="20260412055500 +0000" channel="sv#multipremier">
+  <programme start="20260412045500 +0000" stop="20260412064500 +0000" channel="sv#multipremier">
     <title lang="es">Relaciones de familia</title>
     <title lang="en">Love and Debt</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260412045500 +0000" stop="20260412064500 +0000" channel="sv#multipremier">
+  <programme start="20260412045500 +0000" stop="20260412055500 +0000" channel="sv#multipremier">
     <title lang="es">Relaciones de familia</title>
     <title lang="en">Love and Debt</title>
     <category lang="es">Comedia</category>
@@ -37691,7 +37691,7 @@
     <episode-num system="onscreen">S19E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mayday-catastrofes-aereas-s19e08-limites-letales_l_m.jpg</image>
   </programme>
-  <programme start="20260411053200 +0000" stop="20260411061900 +0000" channel="sv#national-geographic">
+  <programme start="20260411053200 +0000" stop="20260411063200 +0000" channel="sv#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Malaysia Airlines 370</sub-title>
     <category lang="es">Serie</category>
@@ -37699,7 +37699,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_secreto-en-los-oceanos-s01e08-malaysia-airlines-370_l_m.jpg</image>
   </programme>
-  <programme start="20260411053200 +0000" stop="20260411063200 +0000" channel="sv#national-geographic">
+  <programme start="20260411053200 +0000" stop="20260411061900 +0000" channel="sv#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Malaysia Airlines 370</sub-title>
     <category lang="es">Serie</category>
@@ -38736,7 +38736,7 @@
     <episode-num system="onscreen">S11E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_bob-esponja-s11e18-avistamiento-de-ballenas-limpieza-limpiezas-el-crustaceo-cascarudo_l_m.jpg</image>
   </programme>
-  <programme start="20260411054500 +0000" stop="20260411061000 +0000" channel="sv#nickelodeon">
+  <programme start="20260411054500 +0000" stop="20260411064500 +0000" channel="sv#nickelodeon">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">Patnocho / El chef Bob</sub-title>
     <category lang="es">Serie</category>
@@ -38744,7 +38744,7 @@
     <episode-num system="onscreen">S11E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_bob-esponja-s11e19-patnocho-chef-bob_l_m.jpg</image>
   </programme>
-  <programme start="20260411054500 +0000" stop="20260411064500 +0000" channel="sv#nickelodeon">
+  <programme start="20260411054500 +0000" stop="20260411061000 +0000" channel="sv#nickelodeon">
     <title lang="es">Bob Esponja</title>
     <sub-title lang="es">Patnocho / El chef Bob</sub-title>
     <category lang="es">Serie</category>
@@ -40834,14 +40834,14 @@
     <category lang="es">Serie</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260411050000 +0000" stop="20260411060000 +0000" channel="sv#sony">
+  <programme start="20260411050000 +0000" stop="20260411064500 +0000" channel="sv#sony">
     <title lang="es">Búsqueda implacable</title>
     <title lang="en">Taken</title>
     <category lang="es">Acción</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_busqueda-implacable-2008_l_m.jpg</image>
   </programme>
-  <programme start="20260411050000 +0000" stop="20260411064500 +0000" channel="sv#sony">
+  <programme start="20260411050000 +0000" stop="20260411060000 +0000" channel="sv#sony">
     <title lang="es">Búsqueda implacable</title>
     <title lang="en">Taken</title>
     <category lang="es">Acción</category>
@@ -41622,13 +41622,13 @@
     <category lang="es">C.Ficción</category>
     <image>https://cdn.mitvstatic.com/programs/sv_robocop-2-1990-1_l_m.jpg</image>
   </programme>
-  <programme start="20260412041000 +0000" stop="20260412051000 +0000" channel="sv#studio-universal">
+  <programme start="20260412041000 +0000" stop="20260412060500 +0000" channel="sv#studio-universal">
     <title lang="es">RoboCop 3</title>
     <title lang="en">Acción</title>
     <rating><value>4.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_robocop-3-1992-1_l_m.jpg</image>
   </programme>
-  <programme start="20260412041000 +0000" stop="20260412060500 +0000" channel="sv#studio-universal">
+  <programme start="20260412041000 +0000" stop="20260412051000 +0000" channel="sv#studio-universal">
     <title lang="es">RoboCop 3</title>
     <title lang="en">Acción</title>
     <rating><value>4.2</value></rating>
@@ -44258,14 +44258,14 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_el-protector-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260412045600 +0000" stop="20260412070300 +0000" channel="sv#tnt">
+  <programme start="20260412045600 +0000" stop="20260412055600 +0000" channel="sv#tnt">
     <title lang="es">Día de entrenamiento</title>
     <title lang="en">Training Day</title>
     <category lang="es">Drama</category>
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_dia-de-entrenamiento-2001_l_m.jpg</image>
   </programme>
-  <programme start="20260412045600 +0000" stop="20260412055600 +0000" channel="sv#tnt">
+  <programme start="20260412045600 +0000" stop="20260412070300 +0000" channel="sv#tnt">
     <title lang="es">Día de entrenamiento</title>
     <title lang="en">Training Day</title>
     <category lang="es">Drama</category>
@@ -44624,7 +44624,7 @@
     <episode-num system="onscreen">S03E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_el-mentalista-s03e12-bloodhounds_l_m.jpg</image>
   </programme>
-  <programme start="20260411055200 +0000" stop="20260411063800 +0000" channel="sv#tnt-series">
+  <programme start="20260411055200 +0000" stop="20260411065200 +0000" channel="sv#tnt-series">
     <title lang="es">El mentalista</title>
     <sub-title lang="es">Alerta roja</sub-title>
     <category lang="es">Serie</category>
@@ -44632,7 +44632,7 @@
     <episode-num system="onscreen">S03E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_el-mentalista-s03e13-red-alert_l_m.jpg</image>
   </programme>
-  <programme start="20260411055200 +0000" stop="20260411065200 +0000" channel="sv#tnt-series">
+  <programme start="20260411055200 +0000" stop="20260411063800 +0000" channel="sv#tnt-series">
     <title lang="es">El mentalista</title>
     <sub-title lang="es">Alerta roja</sub-title>
     <category lang="es">Serie</category>
@@ -47581,13 +47581,13 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260411052700 +0000" stop="20260411062700 +0000" channel="sv#warner">
+  <programme start="20260411052700 +0000" stop="20260411065600 +0000" channel="sv#warner">
     <title lang="es">Hotel Transylvania 2</title>
     <title lang="en">Familiar</title>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_hotel-transylvania-2-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260411052700 +0000" stop="20260411065600 +0000" channel="sv#warner">
+  <programme start="20260411052700 +0000" stop="20260411062700 +0000" channel="sv#warner">
     <title lang="es">Hotel Transylvania 2</title>
     <title lang="en">Familiar</title>
     <rating><value>6.7</value></rating>
