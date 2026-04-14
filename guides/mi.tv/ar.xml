@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260414104248 +0000">
+<tv generator-info-name="custom-epg" date="20260414141552 +0000">
   <channel id="247CanaldeNoticias.ar@SD">
     <display-name>24/7 Canal de Noticias</display-name>
     <icon src="https://i.imgur.com/4hDCB1M.png"/>
   </channel>
-  <channel id="ZooMoo.sg@SD">
-    <display-name>ZooMoo</display-name>
-    <icon src="https://i.imgur.com/ciTJrnl.png"/>
+  <channel id="Canal26.ar@SD">
+    <display-name>Canal 26</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
   </channel>
-  <channel id="WarnerChannel.us@South">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="Atrescine.es@SD">
+    <display-name>Atrescine</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
   </channel>
   <channel id="VTV.uy@SD">
     <display-name>VTV</display-name>
@@ -777,13 +777,13 @@
     <display-name>A&amp;E</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
   </channel>
-  <channel id="Atrescine.es@SD">
-    <display-name>Atrescine</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
+  <channel id="ZooMoo.sg@SD">
+    <display-name>ZooMoo</display-name>
+    <icon src="https://i.imgur.com/ciTJrnl.png"/>
   </channel>
-  <channel id="Canal26.ar@SD">
-    <display-name>Canal 26</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
+  <channel id="WarnerChannel.us@South">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
   <programme start="20260414010000 +0000" stop="20260414090000 +0000" channel="247CanaldeNoticias.ar@SD">
     <title lang="es">Trasnoche de 24/7</title>
@@ -9866,7 +9866,7 @@
   </programme>
   <programme start="20260414050000 +0000" stop="20260414060500 +0000" channel="ar#hbo">
     <title lang="es">Euphoria</title>
-    <sub-title lang="es">Trouble Don&apos;t Last Always</sub-title>
+    <sub-title lang="es">Ándale</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.0.0/1</episode-num>
     <episode-num system="onscreen">S03E01</episode-num>
@@ -14514,7 +14514,8 @@
   </programme>
   <programme start="20260414163000 +0000" stop="20260414180000 +0000" channel="Atrescine.es@SD">
     <title lang="es">La loba y la paloma</title>
-    <title lang="en">Drama / 5.0</title>
+    <title lang="en">Drama</title>
+    <rating><value>5.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260414180000 +0000" stop="20260414194500 +0000" channel="Atrescine.es@SD">
@@ -14644,12 +14645,12 @@
     <category lang="es">- Parte 1</category>
     <image>https://cdn.mitvstatic.com/programs/ar_tormenta-parte-1_l_m.jpg</image>
   </programme>
-  <programme start="20260416055500 +0000" stop="20260416073000 +0000" channel="Atrescine.es@SD">
+  <programme start="20260416055500 +0000" stop="20260416065500 +0000" channel="Atrescine.es@SD">
     <title lang="es">El próximo oriente</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/ar_el-proximo-oriente-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260416055500 +0000" stop="20260416065500 +0000" channel="Atrescine.es@SD">
+  <programme start="20260416055500 +0000" stop="20260416073000 +0000" channel="Atrescine.es@SD">
     <title lang="es">El próximo oriente</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/ar_el-proximo-oriente-2006_l_m.jpg</image>
@@ -25208,46 +25209,60 @@
     <episode-num system="onscreen">S01E112</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e112_l_m.jpg</image>
   </programme>
-  <programme start="20260414120000 +0000" stop="20260414132700 +0000" channel="CinemaxLatinAmerica.us@SD">
-    <title lang="es">Nene de mamá</title>
-    <title lang="en">Mama&apos;s Boy</title>
-    <category lang="es">Comedia</category>
-    <rating><value>5.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/ar_nene-de-mama-2007_l_m.jpg</image>
+  <programme start="20260414120000 +0000" stop="20260414123800 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.28.0/1</episode-num>
+    <episode-num system="onscreen">S01E29</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e29_l_m.jpg</image>
   </programme>
-  <programme start="20260414132700 +0000" stop="20260414150500 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260414123800 +0000" stop="20260414131800 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.27.0/1</episode-num>
+    <episode-num system="onscreen">S01E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e28_l_m.jpg</image>
+  </programme>
+  <programme start="20260414131800 +0000" stop="20260414132700 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.80.0/1</episode-num>
+    <episode-num system="onscreen">S01E81</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e81_l_m.jpg</image>
+  </programme>
+  <programme start="20260414132700 +0000" stop="20260414150900 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">El plan de Maggie</title>
     <title lang="en">Maggie&apos;s Plan</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/ar_el-plan-de-maggie-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260414150500 +0000" stop="20260414165500 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260414150900 +0000" stop="20260414170100 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Click: perdiendo el control</title>
     <title lang="en">Click</title>
     <category lang="es">Comedia</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_click-perdiendo-el-control-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260414165500 +0000" stop="20260414185500 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260414170100 +0000" stop="20260414185900 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Si fueras yo</title>
     <title lang="en">The Change-Up</title>
     <category lang="es">Comedia</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_si-fueras-yo-2011_l_m.jpg</image>
   </programme>
-  <programme start="20260414185500 +0000" stop="20260414202800 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260414185900 +0000" stop="20260414203000 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">La familia Hollars</title>
     <title lang="en">The Hollars</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/ar_la-familia-hollars-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260414202800 +0000" stop="20260414232600 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260414203000 +0000" stop="20260414232700 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Boyhood</title>
     <title lang="en">Drama</title>
     <rating><value>8.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_boyhood-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260414232600 +0000" stop="20260415010500 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260414232700 +0000" stop="20260415010500 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Un papá genial</title>
     <title lang="en">Big Daddy</title>
     <category lang="es">Comedia</category>
@@ -25261,7 +25276,7 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_click-perdiendo-el-control-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260415030000 +0000" stop="20260415050300 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260415030000 +0000" stop="20260415050100 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Si fueras yo</title>
     <title lang="en">The Change-Up</title>
     <category lang="es">Comedia</category>
@@ -25275,7 +25290,7 @@
     <rating><value>4.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_cincuenta-sombras-de-grey-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260415050300 +0000" stop="20260415060300 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20260415050100 +0000" stop="20260415060100 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Cincuenta sombras de Grey</title>
     <title lang="en">Fifty Shades of Grey</title>
     <category lang="es">Romántica</category>
@@ -44280,8 +44295,8 @@
   </programme>
   <programme start="20260414120000 +0000" stop="20260414140000 +0000" channel="FoxSports2.ar@SD">
     <title lang="es">UPCN vs. Ciudad Voley</title>
-    <title lang="en">Juego 3 - Final</title>
-    <category lang="es">Juego 3 - Final</category>
+    <title lang="en">Juego 4 - Final</title>
+    <category lang="es">Juego 4 - Final</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260414140000 +0000" stop="20260414150000 +0000" channel="FoxSports2.ar@SD">
@@ -44321,15 +44336,15 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260414210000 +0000" stop="20260414213000 +0000" channel="FoxSports2.ar@SD">
-    <title lang="es">Rally argentino</title>
-    <title lang="en">Rally argentino</title>
-    <category lang="es">Rally argentino</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_rally-rally-argentino_l_m.jpg</image>
-  </programme>
-  <programme start="20260414213000 +0000" stop="20260414220000 +0000" channel="FoxSports2.ar@SD">
     <title lang="es">Leyendas del rugby</title>
     <title lang="en">Leyendas del rugby</title>
     <category lang="es">Leyendas del rugby</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260414213000 +0000" stop="20260414220000 +0000" channel="FoxSports2.ar@SD">
+    <title lang="es">Fecha 26</title>
+    <title lang="en">Quinto cuarto</title>
+    <category lang="es">Quinto cuarto</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260414220000 +0000" stop="20260415000000 +0000" channel="FoxSports2.ar@SD">
@@ -44412,8 +44427,8 @@
   </programme>
   <programme start="20260415220000 +0000" stop="20260416000000 +0000" channel="FoxSports2.ar@SD">
     <title lang="es">UPCN vs. Ciudad Voley</title>
-    <title lang="en">Juego 3 - Final</title>
-    <category lang="es">Juego 3 - Final</category>
+    <title lang="en">Juego 4 - Final</title>
+    <category lang="es">Juego 4 - Final</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260416000000 +0000" stop="20260416023000 +0000" channel="FoxSports2.ar@SD">
@@ -44839,11 +44854,17 @@
     <category lang="es">La vuelta</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260414080000 +0000" stop="20260414100000 +0000" channel="FoxSports.ar@SD">
+  <programme start="20260414080000 +0000" stop="20260414090000 +0000" channel="FoxSports.ar@SD">
     <title lang="es">Todo pelota</title>
     <title lang="en">Todo pelota</title>
     <category lang="es">Todo pelota</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260414090000 +0000" stop="20260414100000 +0000" channel="FoxSports.ar@SD">
+    <title lang="es">Telemétrico</title>
+    <title lang="en">Telemétrico</title>
+    <category lang="es">Telemétrico</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-telemetrico_l_m.jpg</image>
   </programme>
   <programme start="20260414100000 +0000" stop="20260414120000 +0000" channel="FoxSports.ar@SD">
     <title lang="es">U. Católica (Chi) vs. Boca Jrs. (Arg)</title>
@@ -62841,8 +62862,8 @@
   </programme>
   <programme start="20260414173000 +0000" stop="20260414190000 +0000" channel="NETTV.ar@SD">
     <title lang="es">Entrometidos</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
+    <title lang="en">Espectáculo</title>
+    <category lang="es">Espectáculo</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260414190000 +0000" stop="20260414210000 +0000" channel="NETTV.ar@SD">
@@ -77344,68 +77365,75 @@
     <episode-num system="onscreen">S01E109</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e109_l_m.jpg</image>
   </programme>
-  <programme start="20260414090000 +0000" stop="20260414100100 +0000" channel="TNTLatinAmerica.us@South">
-    <title lang="es">Citas en Nueva York</title>
-    <title lang="en">Dating &amp; New York</title>
-    <category lang="es">Romántica</category>
-    <rating><value>4.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260414090000 +0000" stop="20260414093700 +0000" channel="TNTLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.34.0/1</episode-num>
+    <episode-num system="onscreen">S01E35</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e35_l_m.jpg</image>
   </programme>
-  <programme start="20260414100100 +0000" stop="20260414114500 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414093700 +0000" stop="20260414101400 +0000" channel="TNTLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.35.0/1</episode-num>
+    <episode-num system="onscreen">S01E36</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e36_l_m.jpg</image>
+  </programme>
+  <programme start="20260414101400 +0000" stop="20260414115700 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Espías en manada</title>
     <title lang="en">Spycies</title>
     <category lang="es">Animación</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_espias-en-manada-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260414114500 +0000" stop="20260414140700 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414115700 +0000" stop="20260414141800 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Ready Player One: comienza el juego</title>
     <title lang="en">Ready Player One</title>
     <category lang="es">C.Ficción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_ready-player-one-comienza-el-juego-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260414140700 +0000" stop="20260414161700 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414141800 +0000" stop="20260414162400 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Godzilla</title>
     <title lang="en">Acción</title>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_godzilla-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260414161700 +0000" stop="20260414180500 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414162400 +0000" stop="20260414181300 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Cry Macho</title>
     <title lang="en">Drama</title>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260414180500 +0000" stop="20260414202100 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414181300 +0000" stop="20260414202600 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">La nueva gran estafa</title>
     <title lang="en">Ocean&apos;s Twelve</title>
     <category lang="es">Acción</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_la-nueva-gran-estafa-2004_l_m.jpg</image>
   </programme>
-  <programme start="20260414202100 +0000" stop="20260414223200 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414202600 +0000" stop="20260414223600 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Ahora son 13</title>
     <title lang="en">Ocean&apos;s Thirteen</title>
     <category lang="es">Acción</category>
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_ahora-son-13-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260414223200 +0000" stop="20260415010000 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260414223600 +0000" stop="20260415010000 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Mujer Maravilla</title>
     <title lang="en">Wonder Woman</title>
     <category lang="es">Acción</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mujer-maravilla-2017-1_l_m.jpg</image>
   </programme>
-  <programme start="20260415010000 +0000" stop="20260415031600 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260415010000 +0000" stop="20260415031700 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Guasón</title>
     <title lang="en">Joker</title>
     <category lang="es">Drama</category>
     <rating><value>8.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_guason-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260415031600 +0000" stop="20260415055500 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260415031700 +0000" stop="20260415055100 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Batman: El caballero de la noche</title>
     <title lang="en">The Dark Knight</title>
     <category lang="es">Thriller</category>
@@ -77418,7 +77446,7 @@
     <rating><value>8.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260415055500 +0000" stop="20260415065500 +0000" channel="TNTLatinAmerica.us@South">
+  <programme start="20260415055100 +0000" stop="20260415065100 +0000" channel="TNTLatinAmerica.us@South">
     <title lang="es">Diario de mi vagina</title>
     <title lang="en">Fitting In</title>
     <category lang="es">Comedia</category>
