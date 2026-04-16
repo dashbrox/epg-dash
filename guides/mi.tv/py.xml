@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260416035250 +0000">
+<tv generator-info-name="custom-epg" date="20260416080840 +0000">
   <channel id="py#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="py#warner-channel">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#abc-tv">
+    <display-name>ABC TV</display-name>
   </channel>
-  <channel id="py#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#america-24">
+    <display-name>America 24</display-name>
   </channel>
-  <channel id="py#venus">
-    <display-name>Venus</display-name>
+  <channel id="py#axn">
+    <display-name>AXN</display-name>
+  </channel>
+  <channel id="py#canal-de-las-estrellas">
+    <display-name>Las Estrellas</display-name>
+  </channel>
+  <channel id="py#discovery-world-hd">
+    <display-name>Discovery World</display-name>
+  </channel>
+  <channel id="py#hbo">
+    <display-name>HBO</display-name>
+  </channel>
+  <channel id="py#discovery-turbo">
+    <display-name>Discovery Turbo</display-name>
+  </channel>
+  <channel id="py#golden">
+    <display-name>Golden</display-name>
   </channel>
   <channel id="py#univision">
     <display-name>Univision</display-name>
+  </channel>
+  <channel id="py#gol-tv">
+    <display-name>Gol TV</display-name>
   </channel>
   <channel id="py#universal-channel-hd">
     <display-name>Universal Channel HD</display-name>
@@ -132,14 +150,14 @@
   <channel id="py#hbo-hd-este">
     <display-name>HBO HD</display-name>
   </channel>
-  <channel id="py#hbo">
-    <display-name>HBO</display-name>
+  <channel id="py#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="py#golden">
-    <display-name>Golden</display-name>
+  <channel id="py#canal-13">
+    <display-name>RPC</display-name>
   </channel>
-  <channel id="py#gol-tv">
-    <display-name>Gol TV</display-name>
+  <channel id="py#discovery-kids">
+    <display-name>Discovery Kids</display-name>
   </channel>
   <channel id="py#fx">
     <display-name>FX</display-name>
@@ -195,17 +213,11 @@
   <channel id="py#disney">
     <display-name>Disney Channel</display-name>
   </channel>
-  <channel id="py#discovery-world-hd">
-    <display-name>Discovery World</display-name>
-  </channel>
-  <channel id="py#discovery-turbo">
-    <display-name>Discovery Turbo</display-name>
-  </channel>
-  <channel id="py#discovery-kids">
-    <display-name>Discovery Kids</display-name>
-  </channel>
   <channel id="py#discovery">
     <display-name>Discovery Channel</display-name>
+  </channel>
+  <channel id="py#canal-9-snt">
+    <display-name>SNT</display-name>
   </channel>
   <channel id="py#dhe">
     <display-name>DHE</display-name>
@@ -229,14 +241,8 @@
   <channel id="py#caracol-internacional">
     <display-name>Caracol Internacional</display-name>
   </channel>
-  <channel id="py#canal-de-las-estrellas">
-    <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="py#canal-13">
-    <display-name>RPC</display-name>
-  </channel>
-  <channel id="py#canal-9-snt">
-    <display-name>SNT</display-name>
+  <channel id="py#america-television">
+    <display-name>AMÉRICA TELEVISION</display-name>
   </channel>
   <channel id="py#canal-5-paravision">
     <display-name>Paravisión</display-name>
@@ -244,20 +250,14 @@
   <channel id="py#az-corazon">
     <display-name>Az Corazón</display-name>
   </channel>
-  <channel id="py#axn">
-    <display-name>AXN</display-name>
+  <channel id="py#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="py#venus">
+    <display-name>Venus</display-name>
   </channel>
-  <channel id="py#america-television">
-    <display-name>AMÉRICA TELEVISION</display-name>
-  </channel>
-  <channel id="py#america-24">
-    <display-name>America 24</display-name>
-  </channel>
-  <channel id="py#abc-tv">
-    <display-name>ABC TV</display-name>
+  <channel id="py#warner-channel">
+    <display-name>Warner Channel</display-name>
   </channel>
   <programme start="20260416060000 +0000" stop="20260416070000 +0000" channel="CNNenEspanol.us@SD">
     <title lang="es">Conclusiones</title>
@@ -1781,13 +1781,13 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/py_himno-nacional-1_l_m.jpg</image>
   </programme>
-  <programme start="20260417030500 +0000" stop="20260417080000 +0000" channel="py#abc-tv">
+  <programme start="20260417030500 +0000" stop="20260417040500 +0000" channel="py#abc-tv">
     <title lang="es">Madrugada ABC</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/py_madrugada-abc_l_m.jpg</image>
   </programme>
-  <programme start="20260417030500 +0000" stop="20260417040500 +0000" channel="py#abc-tv">
+  <programme start="20260417030500 +0000" stop="20260417080000 +0000" channel="py#abc-tv">
     <title lang="es">Madrugada ABC</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -3232,13 +3232,13 @@
     <episode-num system="onscreen">S01E102</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_guardianes-de-texas-t01e102-con-las-manos-en-la-masa_l_m.jpg</image>
   </programme>
-  <programme start="20260418054000 +0000" stop="20260418063000 +0000" channel="py#animal-planet">
+  <programme start="20260418051700 +0000" stop="20260418061200 +0000" channel="py#animal-planet">
     <title lang="es">Guardianes de Texas</title>
-    <sub-title lang="es">La calma que precede la tormenta</sub-title>
+    <sub-title lang="es">Con las manos en la masa</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.103.0/1</episode-num>
-    <episode-num system="onscreen">S01E104</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/py_guardianes-de-texas-t01e104-la-calma-que-precede-la-tormenta_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
+    <episode-num system="onscreen">S01E102</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_guardianes-de-texas-t01e102-con-las-manos-en-la-masa_l_m.jpg</image>
   </programme>
   <programme start="20260418054000 +0000" stop="20260418064000 +0000" channel="py#animal-planet">
     <title lang="es">Guardianes de Texas</title>
@@ -3248,7 +3248,15 @@
     <episode-num system="onscreen">S01E104</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_guardianes-de-texas-t01e104-la-calma-que-precede-la-tormenta_l_m.jpg</image>
   </programme>
-  <programme start="20260418063000 +0000" stop="20260418072000 +0000" channel="py#animal-planet">
+  <programme start="20260418061200 +0000" stop="20260418070100 +0000" channel="py#animal-planet">
+    <title lang="es">Guardianes de Texas</title>
+    <sub-title lang="es">La calma que precede la tormenta</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.103.0/1</episode-num>
+    <episode-num system="onscreen">S01E104</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_guardianes-de-texas-t01e104-la-calma-que-precede-la-tormenta_l_m.jpg</image>
+  </programme>
+  <programme start="20260418070100 +0000" stop="20260418074900 +0000" channel="py#animal-planet">
     <title lang="es">El zoológico del Bronx</title>
     <sub-title lang="es">Vuelve Bouba</sub-title>
     <category lang="es">Serie</category>
@@ -3256,13 +3264,13 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_el-zoologico-del-bronx-t03e10-conejos-pequenos-mundo-grande_l_m.jpg</image>
   </programme>
-  <programme start="20260418072000 +0000" stop="20260418081000 +0000" channel="py#animal-planet">
+  <programme start="20260418074900 +0000" stop="20260418083800 +0000" channel="py#animal-planet">
     <title lang="es">El zoológico del Bronx</title>
     <title lang="en">Temporada 3 - Andre, la pequeña cabra</title>
     <category lang="es">Temporada 3 - Andre, la pequeña cabra</category>
     <image>https://cdn.mitvstatic.com/programs/py_el-zoologico-del-bronx-t03e00-andre-la-pequena-cabra_l_m.jpg</image>
   </programme>
-  <programme start="20260418081000 +0000" stop="20260418090000 +0000" channel="py#animal-planet">
+  <programme start="20260418083800 +0000" stop="20260418090000 +0000" channel="py#animal-planet">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">Llamada del hogar</sub-title>
     <category lang="es">Serie</category>
@@ -3694,7 +3702,7 @@
     <episode-num system="onscreen">S01E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_csi-t01e19-gentle-gentle_l_m.jpg</image>
   </programme>
-  <programme start="20260417053000 +0000" stop="20260417062000 +0000" channel="py#axn">
+  <programme start="20260417053000 +0000" stop="20260417063000 +0000" channel="py#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">No se culpa los espíritus por los apuros</sub-title>
     <category lang="es">Serie</category>
@@ -3702,7 +3710,7 @@
     <episode-num system="onscreen">S10E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_hawaii-five-o-t10e05-he-oi-o-kuhihewa-he-kaka-ola-i-ike-ia-e-ka-makaula_l_m.jpg</image>
   </programme>
-  <programme start="20260417053000 +0000" stop="20260417063000 +0000" channel="py#axn">
+  <programme start="20260417053000 +0000" stop="20260417062000 +0000" channel="py#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">No se culpa los espíritus por los apuros</sub-title>
     <category lang="es">Serie</category>
@@ -4002,26 +4010,26 @@
   </programme>
   <programme start="20260418130000 +0000" stop="20260418133000 +0000" channel="py#axn">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418133000 +0000" stop="20260418140000 +0000" channel="py#axn">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418140000 +0000" stop="20260418143000 +0000" channel="py#axn">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418143000 +0000" stop="20260418150000 +0000" channel="py#axn">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418150000 +0000" stop="20260418155000 +0000" channel="py#axn">
@@ -4908,9 +4916,10 @@
     <image>https://cdn.mitvstatic.com/programs/py_jason-and-the-heroes-of-mount-olympus-1_l_m.jpg</image>
   </programme>
   <programme start="20260418113000 +0000" stop="20260418131000 +0000" channel="py#canal-5-paravision">
-    <title lang="es">Marvel galaxia / Naruto</title>
-    <category lang="es">Animación</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="es">Guardianes de la galaxia</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/py_guardianes-de-la-galaxia_l_m.jpg</image>
   </programme>
   <programme start="20260418131000 +0000" stop="20260418140000 +0000" channel="py#canal-5-paravision">
     <title lang="es">Tom y Jerry</title>
@@ -5871,16 +5880,10 @@
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/py_jovenes-y-bellas-1961_l_m.jpg</image>
   </programme>
-  <programme start="20260418171000 +0000" stop="20260418185500 +0000" channel="py#canal-de-las-estrellas">
+  <programme start="20260418171000 +0000" stop="20260419003500 +0000" channel="py#canal-de-las-estrellas">
     <title lang="es">El Chapulín Colorado</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/py_el-chapulin-colorado-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260418185500 +0000" stop="20260419003500 +0000" channel="py#canal-de-las-estrellas">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/py_a-confirmar_l_m.jpg</image>
   </programme>
   <programme start="20260419003500 +0000" stop="20260419013000 +0000" channel="py#canal-de-las-estrellas">
     <title lang="es">Silvia, frente a ti</title>
@@ -6343,16 +6346,22 @@
     <image>https://cdn.mitvstatic.com/programs/py_la-red_l_m.jpg</image>
   </programme>
   <programme start="20260418230000 +0000" stop="20260419000000 +0000" channel="py#caracol-internacional">
-    <title lang="es">Se dice de mí</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/py_se-dice-de-mi_l_m.jpg</image>
+    <title lang="es">Random 360</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260419000000 +0000" stop="20260419010000 +0000" channel="py#caracol-internacional">
-    <title lang="es">Noticias 19:00 Caracol</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/py_noticias-19-00-caracol_l_m.jpg</image>
+  <programme start="20260419000000 +0000" stop="20260419003000 +0000" channel="py#caracol-internacional">
+    <title lang="es">Deportes 360</title>
+    <title lang="en">Deportes 360</title>
+    <category lang="es">Deportes 360</category>
+    <image>https://cdn.mitvstatic.com/programs/py_deportivo-deportes-360_l_m.jpg</image>
+  </programme>
+  <programme start="20260419003000 +0000" stop="20260419010000 +0000" channel="py#caracol-internacional">
+    <title lang="es">Testigo directo</title>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/py_testigo-directo_l_m.jpg</image>
   </programme>
   <programme start="20260419010000 +0000" stop="20260419040000 +0000" channel="py#caracol-internacional">
     <title lang="es">Sábados felices</title>
@@ -6361,10 +6370,10 @@
     <image>https://cdn.mitvstatic.com/programs/py_sabados-felices_l_m.jpg</image>
   </programme>
   <programme start="20260419040000 +0000" stop="20260419050000 +0000" channel="py#caracol-internacional">
-    <title lang="es">Se dice de mí</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/py_se-dice-de-mi_l_m.jpg</image>
+    <title lang="es">Random 360</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260419050000 +0000" stop="20260419060000 +0000" channel="py#caracol-internacional">
     <title lang="es">La red</title>
@@ -9348,14 +9357,14 @@
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_viviendo-con-mi-ex-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260418223700 +0000" stop="20260419010000 +0000" channel="py#cinecanal">
+  <programme start="20260418223700 +0000" stop="20260419005900 +0000" channel="py#cinecanal">
     <title lang="es">Mujer bonita</title>
     <title lang="en">Pretty Woman</title>
     <category lang="es">Comedia</category>
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_mujer-bonita-1990_l_m.jpg</image>
   </programme>
-  <programme start="20260419010000 +0000" stop="20260419032100 +0000" channel="py#cinecanal">
+  <programme start="20260419005900 +0000" stop="20260419032100 +0000" channel="py#cinecanal">
     <title lang="es">Al otro lado del río y entre los árboles</title>
     <title lang="en">Across the River and Into the Trees</title>
     <category lang="es">Drama</category>
@@ -14527,13 +14536,13 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_al-estilo-kindig-t01e05-transformacion-completa_l_m.jpg</image>
   </programme>
-  <programme start="20260418055800 +0000" stop="20260418065000 +0000" channel="py#discovery-turbo">
-    <title lang="es">Te debo una: celebridades y autos</title>
-    <sub-title lang="es">Sandra Echeverría</sub-title>
+  <programme start="20260418052200 +0000" stop="20260418061200 +0000" channel="py#discovery-turbo">
+    <title lang="es">Al estilo Kindig</title>
+    <sub-title lang="es">Transformación completa</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/py_te-debo-una-celebridades-y-autos-t01e04-sandra-echeverria_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_al-estilo-kindig-t01e05-transformacion-completa_l_m.jpg</image>
   </programme>
   <programme start="20260418055800 +0000" stop="20260418065800 +0000" channel="py#discovery-turbo">
     <title lang="es">Te debo una: celebridades y autos</title>
@@ -14543,7 +14552,15 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_te-debo-una-celebridades-y-autos-t01e04-sandra-echeverria_l_m.jpg</image>
   </programme>
-  <programme start="20260418065000 +0000" stop="20260418074000 +0000" channel="py#discovery-turbo">
+  <programme start="20260418061200 +0000" stop="20260418070400 +0000" channel="py#discovery-turbo">
+    <title lang="es">Te debo una: celebridades y autos</title>
+    <sub-title lang="es">Sandra Echeverría</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_te-debo-una-celebridades-y-autos-t01e04-sandra-echeverria_l_m.jpg</image>
+  </programme>
+  <programme start="20260418070400 +0000" stop="20260418075600 +0000" channel="py#discovery-turbo">
     <title lang="es">Te debo una: celebridades y autos</title>
     <sub-title lang="es">Matisse</sub-title>
     <category lang="es">Serie</category>
@@ -14551,14 +14568,14 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_te-debo-una-celebridades-y-autos-t01e05-matisse_l_m.jpg</image>
   </programme>
-  <programme start="20260418074000 +0000" stop="20260418083000 +0000" channel="py#discovery-turbo">
+  <programme start="20260418075600 +0000" stop="20260418084900 +0000" channel="py#discovery-turbo">
     <title lang="es">House of Cars</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_house-of-cars-t01e04_l_m.jpg</image>
   </programme>
-  <programme start="20260418083000 +0000" stop="20260418092000 +0000" channel="py#discovery-turbo">
+  <programme start="20260418084900 +0000" stop="20260418094200 +0000" channel="py#discovery-turbo">
     <title lang="es">Máquinas renovadas</title>
     <sub-title lang="es">Un Chevy Corvette de 1962</sub-title>
     <category lang="es">Serie</category>
@@ -14566,7 +14583,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_maquinas-renovadas-t02e04_l_m.jpg</image>
   </programme>
-  <programme start="20260418092000 +0000" stop="20260418101000 +0000" channel="py#discovery-turbo">
+  <programme start="20260418094200 +0000" stop="20260418102700 +0000" channel="py#discovery-turbo">
     <title lang="es">Al estilo Kindig</title>
     <sub-title lang="es">Show al aire libre</sub-title>
     <category lang="es">Serie</category>
@@ -14574,7 +14591,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_al-estilo-kindig-t01e04-mile-high-rod_l_m.jpg</image>
   </programme>
-  <programme start="20260418101000 +0000" stop="20260418110000 +0000" channel="py#discovery-turbo">
+  <programme start="20260418102700 +0000" stop="20260418110000 +0000" channel="py#discovery-turbo">
     <title lang="es">Al estilo Kindig</title>
     <sub-title lang="es">Transformación completa</sub-title>
     <category lang="es">Serie</category>
@@ -15167,7 +15184,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260417054800 +0000" stop="20260417061200 +0000" channel="py#discovery-world-hd">
+  <programme start="20260417054800 +0000" stop="20260417064800 +0000" channel="py#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Hogar antihuracán</sub-title>
     <category lang="es">Serie</category>
@@ -15175,7 +15192,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_pantano-se-vende-t01e07-hogar-antihuracan_l_m.jpg</image>
   </programme>
-  <programme start="20260417054800 +0000" stop="20260417064800 +0000" channel="py#discovery-world-hd">
+  <programme start="20260417054800 +0000" stop="20260417061200 +0000" channel="py#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Hogar antihuracán</sub-title>
     <category lang="es">Serie</category>
@@ -16846,15 +16863,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-owl-house-la-casa-buho-t01e09-something-ventured-someone-framed-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418060000 +0000" stop="20260418063000 +0000" channel="py#disney">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">Mucha gimnasia / En la noche</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.25.0/1</episode-num>
-    <episode-num system="onscreen">S04E26</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/py_los-green-en-la-gran-ciudad-t04e26-mucha-gimnasia-en-la-noche_l_m.jpg</image>
-  </programme>
-  <programme start="20260418063000 +0000" stop="20260418070000 +0000" channel="py#disney">
+  <programme start="20260418055400 +0000" stop="20260418061700 +0000" channel="py#disney">
     <title lang="es">Acampados</title>
     <sub-title lang="es">Yo quiero ser testigo</sub-title>
     <category lang="es">Serie</category>
@@ -16862,7 +16871,7 @@
     <episode-num system="onscreen">S07E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_acampados-t07e18-yo-quiero-ser-testigo_l_m.jpg</image>
   </programme>
-  <programme start="20260418070000 +0000" stop="20260418073000 +0000" channel="py#disney">
+  <programme start="20260418061700 +0000" stop="20260418064200 +0000" channel="py#disney">
     <title lang="es">Sydney como Max</title>
     <sub-title lang="es">¿Qué calificación?</sub-title>
     <category lang="es">Serie</category>
@@ -16870,7 +16879,7 @@
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_sydney-como-max-t02e12-look-who-s-rocking_l_m.jpg</image>
   </programme>
-  <programme start="20260418073000 +0000" stop="20260418080000 +0000" channel="py#disney">
+  <programme start="20260418064200 +0000" stop="20260418070500 +0000" channel="py#disney">
     <title lang="es">Los hechiceros de Waverly Place</title>
     <sub-title lang="es">Hechiceros contra Ángeles Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -16878,7 +16887,7 @@
     <episode-num system="onscreen">S04E91</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_los-hechiceros-de-waverly-place-t04e91-hechiceros-contra-angeles-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260418080000 +0000" stop="20260418083000 +0000" channel="py#disney">
+  <programme start="20260418070500 +0000" stop="20260418072700 +0000" channel="py#disney">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">El rescategrama / Fiebre en la casa del lago</sub-title>
     <category lang="es">Serie</category>
@@ -16886,7 +16895,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t04e04-ransomgram-lake-house-fever_l_m.jpg</image>
   </programme>
-  <programme start="20260418083000 +0000" stop="20260418090000 +0000" channel="py#disney">
+  <programme start="20260418072700 +0000" stop="20260418075000 +0000" channel="py#disney">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">Convención de amigos / Inflamado</sub-title>
     <category lang="es">Serie</category>
@@ -16894,7 +16903,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_los-green-en-la-gran-ciudad-t02e14-friend-con-flimflammed_l_m.jpg</image>
   </programme>
-  <programme start="20260418090000 +0000" stop="20260418093000 +0000" channel="py#disney">
+  <programme start="20260418075000 +0000" stop="20260418081300 +0000" channel="py#disney">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Anansi</sub-title>
     <category lang="es">Serie</category>
@@ -16902,7 +16911,7 @@
     <episode-num system="onscreen">S02E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t02e18-style-queen-the-queens-battle-part-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418093000 +0000" stop="20260418095500 +0000" channel="py#disney">
+  <programme start="20260418081300 +0000" stop="20260418083600 +0000" channel="py#disney">
     <title lang="es">Las aventuras enredadas de Rapunzel</title>
     <sub-title lang="es">Pájaro libre</sub-title>
     <category lang="es">Serie</category>
@@ -16910,7 +16919,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_las-aventuras-enredadas-de-rapunzel-t02e05-freebird_l_m.jpg</image>
   </programme>
-  <programme start="20260418095500 +0000" stop="20260418100000 +0000" channel="py#disney">
+  <programme start="20260418083600 +0000" stop="20260418084700 +0000" channel="py#disney">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">El show de Ponyhead / Sobrevivir a los picarañas</sub-title>
     <category lang="es">Serie</category>
@@ -16918,7 +16927,31 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t04e06-el-show-de-ponyhead-sobrevivir-a-los-picaranas_l_m.jpg</image>
   </programme>
-  <programme start="20260418100000 +0000" stop="20260418103000 +0000" channel="py#disney">
+  <programme start="20260418084700 +0000" stop="20260418091000 +0000" channel="py#disney">
+    <title lang="es">Star vs. Las fuerzas del mal</title>
+    <sub-title lang="es">El día del tronco / Fiesta de hechizos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.13.0/1</episode-num>
+    <episode-num system="onscreen">S03E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t03e14-fiesta-de-hechizos_l_m.jpg</image>
+  </programme>
+  <programme start="20260418091000 +0000" stop="20260418093300 +0000" channel="py#disney">
+    <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
+    <sub-title lang="es">La verdad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.0.0/1</episode-num>
+    <episode-num system="onscreen">S04E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t04e01-tormentosa-parte-2_l_m.jpg</image>
+  </programme>
+  <programme start="20260418093300 +0000" stop="20260418100000 +0000" channel="py#disney">
+    <title lang="es">Phineas y Ferb</title>
+    <sub-title lang="es">¿Sabes jugar? / El cometa Kermillian</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_phineas-y-ferb-t01e25-sabes-jugar-el-cometa-kermillian_l_m.jpg</image>
+  </programme>
+  <programme start="20260418100000 +0000" stop="20260418102900 +0000" channel="py#disney">
     <title lang="es">Patoaventuras</title>
     <sub-title lang="es">La casa del ganso afortunado</sub-title>
     <category lang="es">Serie</category>
@@ -16926,7 +16959,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_patoaventuras-t01e06-the-house-of-the-lucky-gander_l_m.jpg</image>
   </programme>
-  <programme start="20260418103000 +0000" stop="20260418110000 +0000" channel="py#disney">
+  <programme start="20260418102900 +0000" stop="20260418110000 +0000" channel="py#disney">
     <title lang="es">Enredados otra vez: la serie</title>
     <sub-title lang="es">Los hermanos mayores de Corona</sub-title>
     <category lang="es">Serie</category>
@@ -16934,7 +16967,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_enredados-otra-vez-la-serie-t01e12_l_m.jpg</image>
   </programme>
-  <programme start="20260418110000 +0000" stop="20260418113000 +0000" channel="py#disney">
+  <programme start="20260418110000 +0000" stop="20260418112900 +0000" channel="py#disney">
     <title lang="es">El fantasma y Molly McGee</title>
     <sub-title lang="es">El fin</sub-title>
     <category lang="es">Serie</category>
@@ -16942,7 +16975,7 @@
     <episode-num system="onscreen">S02E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418113000 +0000" stop="20260418120000 +0000" channel="py#disney">
+  <programme start="20260418112900 +0000" stop="20260418120000 +0000" channel="py#disney">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Oni-Chan</sub-title>
     <category lang="es">Serie</category>
@@ -16950,7 +16983,7 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t03e10-oblivio_l_m.jpg</image>
   </programme>
-  <programme start="20260418120000 +0000" stop="20260418121500 +0000" channel="py#disney">
+  <programme start="20260418120000 +0000" stop="20260418121400 +0000" channel="py#disney">
     <title lang="es">ZOMBIES: La serie re-animada</title>
     <sub-title lang="es">Atrapa la carne si puedes</sub-title>
     <category lang="es">Serie</category>
@@ -16958,7 +16991,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418121500 +0000" stop="20260418123000 +0000" channel="py#disney">
+  <programme start="20260418121400 +0000" stop="20260418122800 +0000" channel="py#disney">
     <title lang="es">Tara Duncan</title>
     <sub-title lang="es">El sombrero</sub-title>
     <category lang="es">Serie</category>
@@ -16966,7 +16999,7 @@
     <episode-num system="onscreen">S01E49</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418123000 +0000" stop="20260418130000 +0000" channel="py#disney">
+  <programme start="20260418122800 +0000" stop="20260418130000 +0000" channel="py#disney">
     <title lang="es">Vampirina: una vampirina adolescente</title>
     <sub-title lang="es">El primer día de escuela</sub-title>
     <category lang="es">Serie</category>
@@ -16974,7 +17007,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418130000 +0000" stop="20260418133000 +0000" channel="py#disney">
+  <programme start="20260418130000 +0000" stop="20260418132900 +0000" channel="py#disney">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">Los hechiceros solo quieren divertirse</sub-title>
     <category lang="es">Serie</category>
@@ -16982,7 +17015,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418133000 +0000" stop="20260418140000 +0000" channel="py#disney">
+  <programme start="20260418132900 +0000" stop="20260418140000 +0000" channel="py#disney">
     <title lang="es">Electric Bloom: La mejor banda del mundo</title>
     <sub-title lang="es">Cómo aprendimos a amar a nuestros haters</sub-title>
     <category lang="es">Serie</category>
@@ -16990,7 +17023,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418140000 +0000" stop="20260418150000 +0000" channel="py#disney">
+  <programme start="20260418140000 +0000" stop="20260418144700 +0000" channel="py#disney">
     <title lang="es">Selenkay</title>
     <sub-title lang="es">Fénix</sub-title>
     <category lang="es">Serie</category>
@@ -16998,13 +17031,21 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418150000 +0000" stop="20260418164500 +0000" channel="py#disney">
+  <programme start="20260418144700 +0000" stop="20260418145900 +0000" channel="py#disney">
+    <title lang="es">Los Green en la gran ciudad</title>
+    <sub-title lang="es">El legado familiar</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_los-green-en-la-gran-ciudad-t01e25-dente-dolorido-manas-da-noite-do-pijama_l_m.jpg</image>
+  </programme>
+  <programme start="20260418145900 +0000" stop="20260418164200 +0000" channel="py#disney">
     <title lang="es">Los hechiceros de Waverly Place: La película</title>
     <title lang="en">Wizards of Waverly Place: The Movie</title>
     <category lang="es">Familiar</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-hechiceros-de-waverly-place-la-pelicula-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260418164500 +0000" stop="20260418170000 +0000" channel="py#disney">
+  <programme start="20260418164200 +0000" stop="20260418170000 +0000" channel="py#disney">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Fiesta de pizzas</sub-title>
     <category lang="es">Serie</category>
@@ -17012,7 +17053,7 @@
     <episode-num system="onscreen">S04E35</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t04e35-fiesta-de-pizzas_l_m.jpg</image>
   </programme>
-  <programme start="20260418170000 +0000" stop="20260418173000 +0000" channel="py#disney">
+  <programme start="20260418170000 +0000" stop="20260418172900 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">¿Anne o la bestia? / Un amigo de verdad</sub-title>
     <category lang="es">Serie</category>
@@ -17020,7 +17061,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e01-un-amigo-de-verdad_l_m.jpg</image>
   </programme>
-  <programme start="20260418173000 +0000" stop="20260418180000 +0000" channel="py#disney">
+  <programme start="20260418172900 +0000" stop="20260418175700 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Un bastón especial / Inundación, sudor y lágrimas</sub-title>
     <category lang="es">Serie</category>
@@ -17028,7 +17069,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e02-un-baston-especial-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260418180000 +0000" stop="20260418183000 +0000" channel="py#disney">
+  <programme start="20260418175700 +0000" stop="20260418182600 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Plato fuerte / Enfrentados</sub-title>
     <category lang="es">Serie</category>
@@ -17036,7 +17077,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e03-un-baston-especial_l_m.jpg</image>
   </programme>
-  <programme start="20260418183000 +0000" stop="20260418190000 +0000" channel="py#disney">
+  <programme start="20260418182600 +0000" stop="20260418185400 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">El efecto dominó / La pura verdad</sub-title>
     <category lang="es">Serie</category>
@@ -17044,7 +17085,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e04-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260418190000 +0000" stop="20260418193000 +0000" channel="py#disney">
+  <programme start="20260418185400 +0000" stop="20260418192300 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Rápida y curiosa / Brote de fama</sub-title>
     <category lang="es">Serie</category>
@@ -17052,7 +17093,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e05-brote-de-fama_l_m.jpg</image>
   </programme>
-  <programme start="20260418193000 +0000" stop="20260418200000 +0000" channel="py#disney">
+  <programme start="20260418192300 +0000" stop="20260418195400 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Sprig versus Abu Hop / Cosas de chicas</sub-title>
     <category lang="es">Serie</category>
@@ -17060,7 +17101,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e06-sprig-versus-abu-hop_l_m.jpg</image>
   </programme>
-  <programme start="20260418200000 +0000" stop="20260418203000 +0000" channel="py#disney">
+  <programme start="20260418195400 +0000" stop="20260418203100 +0000" channel="py#disney">
     <title lang="es">Los MacAnimals</title>
     <sub-title lang="es">Secretos y revelaciones</sub-title>
     <category lang="es">Serie</category>
@@ -17068,7 +17109,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418203000 +0000" stop="20260418210000 +0000" channel="py#disney">
+  <programme start="20260418203100 +0000" stop="20260418210300 +0000" channel="py#disney">
     <title lang="es">Art Attack: modo desafío</title>
     <sub-title lang="es">Bienvenidos a la feria</sub-title>
     <category lang="es">Serie</category>
@@ -17076,7 +17117,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418210000 +0000" stop="20260418214500 +0000" channel="py#disney">
+  <programme start="20260418210300 +0000" stop="20260418215000 +0000" channel="py#disney">
     <title lang="es">STM: Sé tú misma</title>
     <sub-title lang="es">Todo o nada</sub-title>
     <category lang="es">Serie</category>
@@ -17084,7 +17125,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418214500 +0000" stop="20260418220000 +0000" channel="py#disney">
+  <programme start="20260418215000 +0000" stop="20260418220200 +0000" channel="py#disney">
     <title lang="es">StuGo</title>
     <sub-title lang="es">Sin manos de hombre, no hay isla / Hermanas al agua</sub-title>
     <category lang="es">Serie</category>
@@ -17092,7 +17133,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418220000 +0000" stop="20260418223000 +0000" channel="py#disney">
+  <programme start="20260418220200 +0000" stop="20260418223100 +0000" channel="py#disney">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">Detenciones crueles</sub-title>
     <category lang="es">Serie</category>
@@ -17100,7 +17141,7 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418223000 +0000" stop="20260418230000 +0000" channel="py#disney">
+  <programme start="20260418223100 +0000" stop="20260418230000 +0000" channel="py#disney">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Problemática</sub-title>
     <category lang="es">Serie</category>
@@ -17108,21 +17149,29 @@
     <episode-num system="onscreen">S02E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t02e31_l_m.jpg</image>
   </programme>
-  <programme start="20260418230000 +0000" stop="20260419004500 +0000" channel="py#disney">
+  <programme start="20260418230000 +0000" stop="20260419003300 +0000" channel="py#disney">
     <title lang="es">Brujillizas</title>
     <title lang="en">Twitches</title>
     <category lang="es">Comedia</category>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_brujillizas-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260419004500 +0000" stop="20260419023000 +0000" channel="py#disney">
+  <programme start="20260419003300 +0000" stop="20260419020400 +0000" channel="py#disney">
     <title lang="es">Brujillizas II</title>
     <title lang="en">Twitches Too</title>
     <category lang="es">Fantasía</category>
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_brujillizas-ii-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260419023000 +0000" stop="20260419030000 +0000" channel="py#disney">
+  <programme start="20260419020400 +0000" stop="20260419022900 +0000" channel="py#disney">
+    <title lang="es">Los hechiceros de Waverly Place</title>
+    <sub-title lang="es">No siempre puedes obtener lo que alfombraste</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_los-hechiceros-de-waverly-place-t01e06-alex-la-del-medio_l_m.jpg</image>
+  </programme>
+  <programme start="20260419022900 +0000" stop="20260419030000 +0000" channel="py#disney">
     <title lang="es">Secretos en Sulphur Springs</title>
     <sub-title lang="es">Ya es hora</sub-title>
     <category lang="es">Serie</category>
@@ -17130,7 +17179,7 @@
     <episode-num system="onscreen">S02E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260419030000 +0000" stop="20260419033000 +0000" channel="py#disney">
+  <programme start="20260419030000 +0000" stop="20260419032800 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">¿Anne o la bestia? / Un amigo de verdad</sub-title>
     <category lang="es">Serie</category>
@@ -17138,7 +17187,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e01-un-amigo-de-verdad_l_m.jpg</image>
   </programme>
-  <programme start="20260419033000 +0000" stop="20260419040000 +0000" channel="py#disney">
+  <programme start="20260419032800 +0000" stop="20260419035700 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Un bastón especial / Inundación, sudor y lágrimas</sub-title>
     <category lang="es">Serie</category>
@@ -17146,7 +17195,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e02-un-baston-especial-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260419040000 +0000" stop="20260419043000 +0000" channel="py#disney">
+  <programme start="20260419035700 +0000" stop="20260419042600 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Plato fuerte / Enfrentados</sub-title>
     <category lang="es">Serie</category>
@@ -17154,7 +17203,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e03-un-baston-especial_l_m.jpg</image>
   </programme>
-  <programme start="20260419043000 +0000" stop="20260419050000 +0000" channel="py#disney">
+  <programme start="20260419042600 +0000" stop="20260419045400 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">El efecto dominó / La pura verdad</sub-title>
     <category lang="es">Serie</category>
@@ -17162,7 +17211,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e04-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260419050000 +0000" stop="20260419053000 +0000" channel="py#disney">
+  <programme start="20260419045400 +0000" stop="20260419052200 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Rápida y curiosa / Brote de fama</sub-title>
     <category lang="es">Serie</category>
@@ -17170,13 +17219,21 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e05-brote-de-fama_l_m.jpg</image>
   </programme>
-  <programme start="20260419053000 +0000" stop="20260419063000 +0000" channel="py#disney">
+  <programme start="20260419052200 +0000" stop="20260419055000 +0000" channel="py#disney">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Sprig versus Abu Hop / Cosas de chicas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e06-sprig-versus-abu-hop_l_m.jpg</image>
+  </programme>
+  <programme start="20260419055000 +0000" stop="20260419065000 +0000" channel="py#disney">
+    <title lang="es">Acampados</title>
+    <sub-title lang="es">Problemas de visitas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.7.0/1</episode-num>
+    <episode-num system="onscreen">S04E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_acampados-t04e08-inn-trouble_l_m.jpg</image>
   </programme>
   <programme start="20260416053900 +0000" stop="20260416060100 +0000" channel="py#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
@@ -18039,15 +18096,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-owl-house-la-casa-buho-t01e09-something-ventured-someone-framed-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418060000 +0000" stop="20260418063000 +0000" channel="py#disney-multicountry">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">Mucha gimnasia / En la noche</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.25.0/1</episode-num>
-    <episode-num system="onscreen">S04E26</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/py_los-green-en-la-gran-ciudad-t04e26-mucha-gimnasia-en-la-noche_l_m.jpg</image>
-  </programme>
-  <programme start="20260418063000 +0000" stop="20260418070000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418055400 +0000" stop="20260418061700 +0000" channel="py#disney-multicountry">
     <title lang="es">Acampados</title>
     <sub-title lang="es">Yo quiero ser testigo</sub-title>
     <category lang="es">Serie</category>
@@ -18055,7 +18104,7 @@
     <episode-num system="onscreen">S07E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_acampados-t07e18-yo-quiero-ser-testigo_l_m.jpg</image>
   </programme>
-  <programme start="20260418070000 +0000" stop="20260418073000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418061700 +0000" stop="20260418064200 +0000" channel="py#disney-multicountry">
     <title lang="es">Sydney como Max</title>
     <sub-title lang="es">¿Qué calificación?</sub-title>
     <category lang="es">Serie</category>
@@ -18063,7 +18112,7 @@
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_sydney-como-max-t02e12-look-who-s-rocking_l_m.jpg</image>
   </programme>
-  <programme start="20260418073000 +0000" stop="20260418080000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418064200 +0000" stop="20260418070500 +0000" channel="py#disney-multicountry">
     <title lang="es">Los hechiceros de Waverly Place</title>
     <sub-title lang="es">Hechiceros contra Ángeles Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -18071,7 +18120,7 @@
     <episode-num system="onscreen">S04E91</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_los-hechiceros-de-waverly-place-t04e91-hechiceros-contra-angeles-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260418080000 +0000" stop="20260418083000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418070500 +0000" stop="20260418072700 +0000" channel="py#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">El rescategrama / Fiebre en la casa del lago</sub-title>
     <category lang="es">Serie</category>
@@ -18079,7 +18128,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t04e04-ransomgram-lake-house-fever_l_m.jpg</image>
   </programme>
-  <programme start="20260418083000 +0000" stop="20260418090000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418072700 +0000" stop="20260418075000 +0000" channel="py#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">Convención de amigos / Inflamado</sub-title>
     <category lang="es">Serie</category>
@@ -18087,7 +18136,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_los-green-en-la-gran-ciudad-t02e14-friend-con-flimflammed_l_m.jpg</image>
   </programme>
-  <programme start="20260418090000 +0000" stop="20260418093000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418075000 +0000" stop="20260418081300 +0000" channel="py#disney-multicountry">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Anansi</sub-title>
     <category lang="es">Serie</category>
@@ -18095,7 +18144,7 @@
     <episode-num system="onscreen">S02E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t02e18-style-queen-the-queens-battle-part-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418093000 +0000" stop="20260418095500 +0000" channel="py#disney-multicountry">
+  <programme start="20260418081300 +0000" stop="20260418083600 +0000" channel="py#disney-multicountry">
     <title lang="es">Las aventuras enredadas de Rapunzel</title>
     <sub-title lang="es">Pájaro libre</sub-title>
     <category lang="es">Serie</category>
@@ -18103,7 +18152,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_las-aventuras-enredadas-de-rapunzel-t02e05-freebird_l_m.jpg</image>
   </programme>
-  <programme start="20260418095500 +0000" stop="20260418100000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418083600 +0000" stop="20260418084700 +0000" channel="py#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">El show de Ponyhead / Sobrevivir a los picarañas</sub-title>
     <category lang="es">Serie</category>
@@ -18111,7 +18160,31 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t04e06-el-show-de-ponyhead-sobrevivir-a-los-picaranas_l_m.jpg</image>
   </programme>
-  <programme start="20260418100000 +0000" stop="20260418103000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418084700 +0000" stop="20260418091000 +0000" channel="py#disney-multicountry">
+    <title lang="es">Star vs. Las fuerzas del mal</title>
+    <sub-title lang="es">El día del tronco / Fiesta de hechizos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.13.0/1</episode-num>
+    <episode-num system="onscreen">S03E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t03e14-fiesta-de-hechizos_l_m.jpg</image>
+  </programme>
+  <programme start="20260418091000 +0000" stop="20260418093300 +0000" channel="py#disney-multicountry">
+    <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
+    <sub-title lang="es">La verdad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.0.0/1</episode-num>
+    <episode-num system="onscreen">S04E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t04e01-tormentosa-parte-2_l_m.jpg</image>
+  </programme>
+  <programme start="20260418093300 +0000" stop="20260418100000 +0000" channel="py#disney-multicountry">
+    <title lang="es">Phineas y Ferb</title>
+    <sub-title lang="es">¿Sabes jugar? / El cometa Kermillian</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_phineas-y-ferb-t01e25-sabes-jugar-el-cometa-kermillian_l_m.jpg</image>
+  </programme>
+  <programme start="20260418100000 +0000" stop="20260418102900 +0000" channel="py#disney-multicountry">
     <title lang="es">Patoaventuras</title>
     <sub-title lang="es">La casa del ganso afortunado</sub-title>
     <category lang="es">Serie</category>
@@ -18119,7 +18192,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_patoaventuras-t01e06-the-house-of-the-lucky-gander_l_m.jpg</image>
   </programme>
-  <programme start="20260418103000 +0000" stop="20260418110000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418102900 +0000" stop="20260418110000 +0000" channel="py#disney-multicountry">
     <title lang="es">Enredados otra vez: la serie</title>
     <sub-title lang="es">Los hermanos mayores de Corona</sub-title>
     <category lang="es">Serie</category>
@@ -18127,7 +18200,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_enredados-otra-vez-la-serie-t01e12_l_m.jpg</image>
   </programme>
-  <programme start="20260418110000 +0000" stop="20260418113000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418110000 +0000" stop="20260418112900 +0000" channel="py#disney-multicountry">
     <title lang="es">El fantasma y Molly McGee</title>
     <sub-title lang="es">El fin</sub-title>
     <category lang="es">Serie</category>
@@ -18135,7 +18208,7 @@
     <episode-num system="onscreen">S02E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418113000 +0000" stop="20260418120000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418112900 +0000" stop="20260418120000 +0000" channel="py#disney-multicountry">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Oni-Chan</sub-title>
     <category lang="es">Serie</category>
@@ -18143,7 +18216,7 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t03e10-oblivio_l_m.jpg</image>
   </programme>
-  <programme start="20260418120000 +0000" stop="20260418121500 +0000" channel="py#disney-multicountry">
+  <programme start="20260418120000 +0000" stop="20260418121400 +0000" channel="py#disney-multicountry">
     <title lang="es">ZOMBIES: La serie re-animada</title>
     <sub-title lang="es">Atrapa la carne si puedes</sub-title>
     <category lang="es">Serie</category>
@@ -18151,7 +18224,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418121500 +0000" stop="20260418123000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418121400 +0000" stop="20260418122800 +0000" channel="py#disney-multicountry">
     <title lang="es">Tara Duncan</title>
     <sub-title lang="es">El sombrero</sub-title>
     <category lang="es">Serie</category>
@@ -18159,7 +18232,7 @@
     <episode-num system="onscreen">S01E49</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418123000 +0000" stop="20260418130000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418122800 +0000" stop="20260418130000 +0000" channel="py#disney-multicountry">
     <title lang="es">Vampirina: una vampirina adolescente</title>
     <sub-title lang="es">El primer día de escuela</sub-title>
     <category lang="es">Serie</category>
@@ -18167,7 +18240,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418130000 +0000" stop="20260418133000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418130000 +0000" stop="20260418132900 +0000" channel="py#disney-multicountry">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">Los hechiceros solo quieren divertirse</sub-title>
     <category lang="es">Serie</category>
@@ -18175,7 +18248,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418133000 +0000" stop="20260418140000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418132900 +0000" stop="20260418140000 +0000" channel="py#disney-multicountry">
     <title lang="es">Electric Bloom: La mejor banda del mundo</title>
     <sub-title lang="es">Cómo aprendimos a amar a nuestros haters</sub-title>
     <category lang="es">Serie</category>
@@ -18183,7 +18256,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418140000 +0000" stop="20260418150000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418140000 +0000" stop="20260418144700 +0000" channel="py#disney-multicountry">
     <title lang="es">Selenkay</title>
     <sub-title lang="es">Fénix</sub-title>
     <category lang="es">Serie</category>
@@ -18191,13 +18264,21 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418150000 +0000" stop="20260418164500 +0000" channel="py#disney-multicountry">
+  <programme start="20260418144700 +0000" stop="20260418145900 +0000" channel="py#disney-multicountry">
+    <title lang="es">Los Green en la gran ciudad</title>
+    <sub-title lang="es">El legado familiar</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_los-green-en-la-gran-ciudad-t01e25-dente-dolorido-manas-da-noite-do-pijama_l_m.jpg</image>
+  </programme>
+  <programme start="20260418145900 +0000" stop="20260418164200 +0000" channel="py#disney-multicountry">
     <title lang="es">Los hechiceros de Waverly Place: La película</title>
     <title lang="en">Wizards of Waverly Place: The Movie</title>
     <category lang="es">Familiar</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-hechiceros-de-waverly-place-la-pelicula-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260418164500 +0000" stop="20260418170000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418164200 +0000" stop="20260418170000 +0000" channel="py#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Fiesta de pizzas</sub-title>
     <category lang="es">Serie</category>
@@ -18205,7 +18286,7 @@
     <episode-num system="onscreen">S04E35</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_star-vs-las-fuerzas-del-mal-t04e35-fiesta-de-pizzas_l_m.jpg</image>
   </programme>
-  <programme start="20260418170000 +0000" stop="20260418173000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418170000 +0000" stop="20260418172900 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">¿Anne o la bestia? / Un amigo de verdad</sub-title>
     <category lang="es">Serie</category>
@@ -18213,7 +18294,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e01-un-amigo-de-verdad_l_m.jpg</image>
   </programme>
-  <programme start="20260418173000 +0000" stop="20260418180000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418172900 +0000" stop="20260418175700 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Un bastón especial / Inundación, sudor y lágrimas</sub-title>
     <category lang="es">Serie</category>
@@ -18221,7 +18302,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e02-un-baston-especial-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260418180000 +0000" stop="20260418183000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418175700 +0000" stop="20260418182600 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Plato fuerte / Enfrentados</sub-title>
     <category lang="es">Serie</category>
@@ -18229,7 +18310,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e03-un-baston-especial_l_m.jpg</image>
   </programme>
-  <programme start="20260418183000 +0000" stop="20260418190000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418182600 +0000" stop="20260418185400 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">El efecto dominó / La pura verdad</sub-title>
     <category lang="es">Serie</category>
@@ -18237,7 +18318,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e04-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260418190000 +0000" stop="20260418193000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418185400 +0000" stop="20260418192300 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Rápida y curiosa / Brote de fama</sub-title>
     <category lang="es">Serie</category>
@@ -18245,7 +18326,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e05-brote-de-fama_l_m.jpg</image>
   </programme>
-  <programme start="20260418193000 +0000" stop="20260418200000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418192300 +0000" stop="20260418195400 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Sprig versus Abu Hop / Cosas de chicas</sub-title>
     <category lang="es">Serie</category>
@@ -18253,7 +18334,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e06-sprig-versus-abu-hop_l_m.jpg</image>
   </programme>
-  <programme start="20260418200000 +0000" stop="20260418203000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418195400 +0000" stop="20260418203100 +0000" channel="py#disney-multicountry">
     <title lang="es">Los MacAnimals</title>
     <sub-title lang="es">Secretos y revelaciones</sub-title>
     <category lang="es">Serie</category>
@@ -18261,7 +18342,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418203000 +0000" stop="20260418210000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418203100 +0000" stop="20260418210300 +0000" channel="py#disney-multicountry">
     <title lang="es">Art Attack: modo desafío</title>
     <sub-title lang="es">Bienvenidos a la feria</sub-title>
     <category lang="es">Serie</category>
@@ -18269,7 +18350,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418210000 +0000" stop="20260418214500 +0000" channel="py#disney-multicountry">
+  <programme start="20260418210300 +0000" stop="20260418215000 +0000" channel="py#disney-multicountry">
     <title lang="es">STM: Sé tú misma</title>
     <sub-title lang="es">Todo o nada</sub-title>
     <category lang="es">Serie</category>
@@ -18277,7 +18358,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418214500 +0000" stop="20260418220000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418215000 +0000" stop="20260418220200 +0000" channel="py#disney-multicountry">
     <title lang="es">StuGo</title>
     <sub-title lang="es">Sin manos de hombre, no hay isla / Hermanas al agua</sub-title>
     <category lang="es">Serie</category>
@@ -18285,7 +18366,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418220000 +0000" stop="20260418223000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418220200 +0000" stop="20260418223100 +0000" channel="py#disney-multicountry">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">Detenciones crueles</sub-title>
     <category lang="es">Serie</category>
@@ -18293,7 +18374,7 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418223000 +0000" stop="20260418230000 +0000" channel="py#disney-multicountry">
+  <programme start="20260418223100 +0000" stop="20260418230000 +0000" channel="py#disney-multicountry">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Problemática</sub-title>
     <category lang="es">Serie</category>
@@ -18301,21 +18382,29 @@
     <episode-num system="onscreen">S02E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_prodigiosa-las-aventuras-de-ladybug-t02e31_l_m.jpg</image>
   </programme>
-  <programme start="20260418230000 +0000" stop="20260419004500 +0000" channel="py#disney-multicountry">
+  <programme start="20260418230000 +0000" stop="20260419003300 +0000" channel="py#disney-multicountry">
     <title lang="es">Brujillizas</title>
     <title lang="en">Twitches</title>
     <category lang="es">Comedia</category>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_brujillizas-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260419004500 +0000" stop="20260419023000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419003300 +0000" stop="20260419020400 +0000" channel="py#disney-multicountry">
     <title lang="es">Brujillizas II</title>
     <title lang="en">Twitches Too</title>
     <category lang="es">Fantasía</category>
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_brujillizas-ii-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260419023000 +0000" stop="20260419030000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419020400 +0000" stop="20260419022900 +0000" channel="py#disney-multicountry">
+    <title lang="es">Los hechiceros de Waverly Place</title>
+    <sub-title lang="es">No siempre puedes obtener lo que alfombraste</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_los-hechiceros-de-waverly-place-t01e06-alex-la-del-medio_l_m.jpg</image>
+  </programme>
+  <programme start="20260419022900 +0000" stop="20260419030000 +0000" channel="py#disney-multicountry">
     <title lang="es">Secretos en Sulphur Springs</title>
     <sub-title lang="es">Ya es hora</sub-title>
     <category lang="es">Serie</category>
@@ -18323,7 +18412,7 @@
     <episode-num system="onscreen">S02E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260419030000 +0000" stop="20260419033000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419030000 +0000" stop="20260419032800 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">¿Anne o la bestia? / Un amigo de verdad</sub-title>
     <category lang="es">Serie</category>
@@ -18331,7 +18420,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e01-un-amigo-de-verdad_l_m.jpg</image>
   </programme>
-  <programme start="20260419033000 +0000" stop="20260419040000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419032800 +0000" stop="20260419035700 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Un bastón especial / Inundación, sudor y lágrimas</sub-title>
     <category lang="es">Serie</category>
@@ -18339,7 +18428,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e02-un-baston-especial-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260419040000 +0000" stop="20260419043000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419035700 +0000" stop="20260419042600 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Plato fuerte / Enfrentados</sub-title>
     <category lang="es">Serie</category>
@@ -18347,7 +18436,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e03-un-baston-especial_l_m.jpg</image>
   </programme>
-  <programme start="20260419043000 +0000" stop="20260419050000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419042600 +0000" stop="20260419045400 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">El efecto dominó / La pura verdad</sub-title>
     <category lang="es">Serie</category>
@@ -18355,7 +18444,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e04-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260419050000 +0000" stop="20260419053000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419045400 +0000" stop="20260419052200 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Rápida y curiosa / Brote de fama</sub-title>
     <category lang="es">Serie</category>
@@ -18363,13 +18452,21 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e05-brote-de-fama_l_m.jpg</image>
   </programme>
-  <programme start="20260419053000 +0000" stop="20260419063000 +0000" channel="py#disney-multicountry">
+  <programme start="20260419052200 +0000" stop="20260419055000 +0000" channel="py#disney-multicountry">
     <title lang="es">Anfibilandia</title>
     <sub-title lang="es">Sprig versus Abu Hop / Cosas de chicas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_anfibilandia-t01e06-sprig-versus-abu-hop_l_m.jpg</image>
+  </programme>
+  <programme start="20260419055000 +0000" stop="20260419065000 +0000" channel="py#disney-multicountry">
+    <title lang="es">Acampados</title>
+    <sub-title lang="es">Problemas de visitas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.7.0/1</episode-num>
+    <episode-num system="onscreen">S04E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/py_acampados-t04e08-inn-trouble_l_m.jpg</image>
   </programme>
   <programme start="20260416040000 +0000" stop="20260416093000 +0000" channel="py#el-trece">
     <title lang="es">Fin de transmisión</title>
@@ -19299,8 +19396,8 @@
   </programme>
   <programme start="20260419003000 +0000" stop="20260419010000 +0000" channel="py#enlace-tbn">
     <title lang="es">Cafecito con el rey</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260419010000 +0000" stop="20260419013000 +0000" channel="py#enlace-tbn">
@@ -19638,9 +19735,9 @@
     <image>https://cdn.mitvstatic.com/tags/py_boxeo_l_m.jpg</image>
   </programme>
   <programme start="20260418210000 +0000" stop="20260418220000 +0000" channel="py#espn">
-    <title lang="es">Semifinal femenina</title>
-    <title lang="en">Compacto - Premier Padel Newgiza</title>
-    <category lang="es">Compacto - Premier Padel Newgiza</category>
+    <title lang="es">Final Masculina</title>
+    <title lang="en">Compacto - Premier Padel Newgiza P2</title>
+    <category lang="es">Compacto - Premier Padel Newgiza P2</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260418220000 +0000" stop="20260419000000 +0000" channel="py#espn">
@@ -19912,35 +20009,35 @@
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418060000 +0000" stop="20260418070000 +0000" channel="py#espn-1">
+  <programme start="20260418055700 +0000" stop="20260418065500 +0000" channel="py#espn-1">
     <title lang="es">SportsCenter</title>
     <title lang="en">SportsCenter</title>
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418070000 +0000" stop="20260418080000 +0000" channel="py#espn-1">
+  <programme start="20260418065500 +0000" stop="20260418075300 +0000" channel="py#espn-1">
     <title lang="es">SportsCenter</title>
     <title lang="en">SportsCenter</title>
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418080000 +0000" stop="20260418090000 +0000" channel="py#espn-1">
+  <programme start="20260418075300 +0000" stop="20260418085300 +0000" channel="py#espn-1">
     <title lang="es">SportsCenter</title>
     <title lang="en">SportsCenter</title>
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418090000 +0000" stop="20260418103000 +0000" channel="py#espn-1">
+  <programme start="20260418085300 +0000" stop="20260418102000 +0000" channel="py#espn-1">
     <title lang="es">SportsCenter</title>
     <title lang="en">SportsCenter</title>
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
-  <programme start="20260418103000 +0000" stop="20260418112000 +0000" channel="py#espn-1">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/py_a-confirmar_l_m.jpg</image>
+  <programme start="20260418102000 +0000" stop="20260418112000 +0000" channel="py#espn-1">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
   <programme start="20260418112000 +0000" stop="20260418132500 +0000" channel="py#espn-1">
     <title lang="es">Brentford vs. Fulham</title>
@@ -20697,7 +20794,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418195000 +0000" stop="20260418202700 +0000" channel="py#fox">
+  <programme start="20260418195000 +0000" stop="20260418202600 +0000" channel="py#fox">
     <title lang="es">Cómo conocí a tu padre</title>
     <sub-title lang="es">La sincronización lo es todo</sub-title>
     <category lang="es">Serie</category>
@@ -20705,7 +20802,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418202700 +0000" stop="20260418205600 +0000" channel="py#fox">
+  <programme start="20260418202600 +0000" stop="20260418205600 +0000" channel="py#fox">
     <title lang="es">Cómo conocí a tu padre</title>
     <sub-title lang="es">Tranquilo y con onda</sub-title>
     <category lang="es">Serie</category>
@@ -20745,14 +20842,14 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418225000 +0000" stop="20260419010000 +0000" channel="py#fox">
+  <programme start="20260418225000 +0000" stop="20260419005900 +0000" channel="py#fox">
     <title lang="es">Mi última palabra</title>
     <title lang="en">The Last Word</title>
     <category lang="es">Comedia</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_mi-ultima-palabra-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260419010000 +0000" stop="20260419033300 +0000" channel="py#fox">
+  <programme start="20260419005900 +0000" stop="20260419033300 +0000" channel="py#fox">
     <title lang="es">La primera profecía</title>
     <title lang="en">The First Omen</title>
     <category lang="es">Terror</category>
@@ -21149,7 +21246,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418195000 +0000" stop="20260418202700 +0000" channel="py#fox-hd">
+  <programme start="20260418195000 +0000" stop="20260418202600 +0000" channel="py#fox-hd">
     <title lang="es">Cómo conocí a tu padre</title>
     <sub-title lang="es">La sincronización lo es todo</sub-title>
     <category lang="es">Serie</category>
@@ -21157,7 +21254,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418202700 +0000" stop="20260418205600 +0000" channel="py#fox-hd">
+  <programme start="20260418202600 +0000" stop="20260418205600 +0000" channel="py#fox-hd">
     <title lang="es">Cómo conocí a tu padre</title>
     <sub-title lang="es">Tranquilo y con onda</sub-title>
     <category lang="es">Serie</category>
@@ -21197,14 +21294,14 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418225000 +0000" stop="20260419010000 +0000" channel="py#fox-hd">
+  <programme start="20260418225000 +0000" stop="20260419005900 +0000" channel="py#fox-hd">
     <title lang="es">Mi última palabra</title>
     <title lang="en">The Last Word</title>
     <category lang="es">Comedia</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_mi-ultima-palabra-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260419010000 +0000" stop="20260419033300 +0000" channel="py#fox-hd">
+  <programme start="20260419005900 +0000" stop="20260419033300 +0000" channel="py#fox-hd">
     <title lang="es">La primera profecía</title>
     <title lang="en">The First Omen</title>
     <category lang="es">Terror</category>
@@ -21386,23 +21483,46 @@
     <category lang="es">Temporada regular, Daikin Park</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260418030000 +0000" stop="20260418104500 +0000" channel="py#fox-sports">
-    <title lang="es">A confirmar</title>
-    <title lang="en">A confirmar</title>
-    <category lang="es">A confirmar</category>
-    <image>https://cdn.mitvstatic.com/programs/py_deportivo-a-confirmar_l_m.jpg</image>
-  </programme>
   <programme start="20260418030000 +0000" stop="20260418040000 +0000" channel="py#fox-sports">
     <title lang="es">A confirmar</title>
     <title lang="en">A confirmar</title>
     <category lang="es">A confirmar</category>
     <image>https://cdn.mitvstatic.com/programs/py_deportivo-a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260418104500 +0000" stop="20260418112000 +0000" channel="py#fox-sports">
-    <title lang="es">UEFA Champions League Weekly</title>
-    <title lang="en">UEFA Champions League Weekly</title>
-    <category lang="es">UEFA Champions League Weekly</category>
-    <image>https://cdn.mitvstatic.com/programs/py_futbol-uefa-champions-league-weekly_l_m.jpg</image>
+  <programme start="20260418060000 +0000" stop="20260418080000 +0000" channel="py#fox-sports">
+    <title lang="es">Aston Villa (Ing) vs. Bologna (Ita)</title>
+    <title lang="en">Cuartos de final - Vuelta, Villa Park</title>
+    <category lang="es">Cuartos de final - Vuelta, Villa Park</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260418080000 +0000" stop="20260418082800 +0000" channel="py#fox-sports">
+    <title lang="es">Acción de la NBA</title>
+    <category lang="es">Acción de la NBA</category>
+    <image>https://cdn.mitvstatic.com/programs/py_basquet-accion-de-la-nba_l_m.jpg</image>
+  </programme>
+  <programme start="20260418082800 +0000" stop="20260418085600 +0000" channel="py#fox-sports">
+    <title lang="es">Serie A - Preview Show</title>
+    <title lang="en">Serie A - Preview Show</title>
+    <category lang="es">Serie A - Preview Show</category>
+    <image>https://cdn.mitvstatic.com/programs/py_futbol-serie-a-preview-show_l_m.jpg</image>
+  </programme>
+  <programme start="20260418085600 +0000" stop="20260418095400 +0000" channel="py#fox-sports">
+    <title lang="es">ESPN Knockout, el show</title>
+    <title lang="en">ESPN Knockout, el show</title>
+    <category lang="es">ESPN Knockout, el show</category>
+    <image>https://cdn.mitvstatic.com/programs/py_boxeo-espn-knockout-el-show_l_m.jpg</image>
+  </programme>
+  <programme start="20260418095400 +0000" stop="20260418105200 +0000" channel="py#fox-sports">
+    <title lang="es">Goles de la UEFA Europa League y UEFA Conference League</title>
+    <title lang="en">Goles de la UEFA Europa League y UEFA Conference League</title>
+    <category lang="es">Goles de la UEFA Europa League y UEFA Conference League</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260418105200 +0000" stop="20260418112000 +0000" channel="py#fox-sports">
+    <title lang="es">EFL Highlights</title>
+    <title lang="en">EFL Highlights</title>
+    <category lang="es">EFL Highlights</category>
+    <image>https://cdn.mitvstatic.com/programs/py_futbol-efl-highlights_l_m.jpg</image>
   </programme>
   <programme start="20260418112000 +0000" stop="20260418133000 +0000" channel="py#fox-sports">
     <title lang="es">Portsmouth vs. Leicester City</title>
@@ -21411,27 +21531,85 @@
     <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
   <programme start="20260418133000 +0000" stop="20260418135000 +0000" channel="py#fox-sports">
-    <title lang="es">A confirmar</title>
-    <title lang="en">A confirmar</title>
-    <category lang="es">A confirmar</category>
-    <image>https://cdn.mitvstatic.com/programs/py_deportivo-a-confirmar_l_m.jpg</image>
+    <title lang="es">PSG campeón UEFA Champions League 2024-2025</title>
+    <category lang="es">PSG campeón UEFA Champions League 2024-2025</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20260418135000 +0000" stop="20260418155500 +0000" channel="py#fox-sports">
+  <programme start="20260418135000 +0000" stop="20260418160000 +0000" channel="py#fox-sports">
     <title lang="es">España vs. Ucrania</title>
     <category lang="es">Eliminatorias - Copa Mundial de la FIFA Femenina 2027</category>
     <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20260418155500 +0000" stop="20260419035500 +0000" channel="py#fox-sports">
-    <title lang="es">A confirmar</title>
-    <title lang="en">A confirmar</title>
-    <category lang="es">A confirmar</category>
-    <image>https://cdn.mitvstatic.com/programs/py_deportivo-a-confirmar_l_m.jpg</image>
+  <programme start="20260418160000 +0000" stop="20260418163000 +0000" channel="py#fox-sports">
+    <title lang="es">ATP Tour Uncovered</title>
+    <title lang="en">ATP Tour Uncovered</title>
+    <category lang="es">ATP Tour Uncovered</category>
+    <image>https://cdn.mitvstatic.com/tags/py_tenis_l_m.jpg</image>
   </programme>
-  <programme start="20260419035500 +0000" stop="20260419045500 +0000" channel="py#fox-sports">
-    <title lang="es">A confirmar</title>
-    <title lang="en">A confirmar</title>
-    <category lang="es">A confirmar</category>
-    <image>https://cdn.mitvstatic.com/programs/py_deportivo-a-confirmar_l_m.jpg</image>
+  <programme start="20260418163000 +0000" stop="20260418170000 +0000" channel="py#fox-sports">
+    <title lang="es">Acción de la NBA</title>
+    <category lang="es">Acción de la NBA</category>
+    <image>https://cdn.mitvstatic.com/programs/py_basquet-accion-de-la-nba_l_m.jpg</image>
+  </programme>
+  <programme start="20260418170000 +0000" stop="20260418180000 +0000" channel="py#fox-sports">
+    <title lang="es">Supersport Race 1 - Raceway Road Atlanta, GA</title>
+    <title lang="en">AMA Superbike Series</title>
+    <category lang="es">AMA Superbike Series</category>
+    <image>https://cdn.mitvstatic.com/tags/py_motociclismo_l_m.jpg</image>
+  </programme>
+  <programme start="20260418180000 +0000" stop="20260418190000 +0000" channel="py#fox-sports">
+    <title lang="es">World SBK - Race 1 - Netherlands</title>
+    <title lang="en">FIM World Super Bike Series</title>
+    <category lang="es">FIM World Super Bike Series</category>
+    <image>https://cdn.mitvstatic.com/tags/py_motociclismo_l_m.jpg</image>
+  </programme>
+  <programme start="20260418190000 +0000" stop="20260418200000 +0000" channel="py#fox-sports">
+    <title lang="es">Superbike Race 1 - Raceway Road Atlanta, GA</title>
+    <title lang="en">AMA Superbike Series</title>
+    <category lang="es">AMA Superbike Series</category>
+    <image>https://cdn.mitvstatic.com/tags/py_motociclismo_l_m.jpg</image>
+  </programme>
+  <programme start="20260418200000 +0000" stop="20260418220000 +0000" channel="py#fox-sports">
+    <title lang="es">Napoli vs. Lazio</title>
+    <title lang="en">Fecha 33, Estadio Diego Armando Maradona</title>
+    <category lang="es">Fecha 33, Estadio Diego Armando Maradona</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260418220000 +0000" stop="20260419000000 +0000" channel="py#fox-sports">
+    <title lang="es">Brentford vs. Fulham</title>
+    <title lang="en">Fecha 33, Brentford Community Stadium</title>
+    <category lang="es">Fecha 33, Brentford Community Stadium</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260419000000 +0000" stop="20260419020000 +0000" channel="py#fox-sports">
+    <title lang="es">Leeds Utd. vs. Wolverhampton Wanderers</title>
+    <title lang="en">Fecha 33, Elland Road</title>
+    <category lang="es">Fecha 33, Elland Road</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260419020000 +0000" stop="20260419030000 +0000" channel="py#fox-sports">
+    <title lang="es">El show de la Copa Libertadores</title>
+    <title lang="en">El show de la Copa Libertadores</title>
+    <category lang="es">El show de la Copa Libertadores</category>
+    <image>https://cdn.mitvstatic.com/programs/py_futbol-el-show-de-la-copa-libertadores_l_m.jpg</image>
+  </programme>
+  <programme start="20260419030000 +0000" stop="20260419040000 +0000" channel="py#fox-sports">
+    <title lang="es">Napoli vs. Lazio</title>
+    <title lang="en">Fecha 33, Estadio Diego Armando Maradona</title>
+    <category lang="es">Fecha 33, Estadio Diego Armando Maradona</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260419040000 +0000" stop="20260419050000 +0000" channel="py#fox-sports">
+    <title lang="es">Chelsea vs. Manchester Utd.</title>
+    <title lang="en">Fecha 33, Stamford Bridge</title>
+    <category lang="es">Fecha 33, Stamford Bridge</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260419050000 +0000" stop="20260419060000 +0000" channel="py#fox-sports">
+    <title lang="es">Hoffenheim vs. Borussia Dortmund</title>
+    <title lang="en">Fecha 30, PreZero Arena</title>
+    <category lang="es">Fecha 30, PreZero Arena</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
   <programme start="20260416060000 +0000" stop="20260416070000 +0000" channel="py#fox-sports-3">
     <title lang="es">Boston, Estados Unidos</title>
@@ -22000,7 +22178,7 @@
     <episode-num system="onscreen">S29E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-amazing-race-t29e03-cosas-del-tipo-por-hacer-antes-de-morir_l_m.jpg</image>
   </programme>
-  <programme start="20260418105200 +0000" stop="20260418120000 +0000" channel="py#fx">
+  <programme start="20260418105200 +0000" stop="20260418115900 +0000" channel="py#fx">
     <title lang="es">The Amazing Race</title>
     <sub-title lang="es">Otro más que muerde el polvo</sub-title>
     <category lang="es">Serie</category>
@@ -22008,31 +22186,31 @@
     <episode-num system="onscreen">S29E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-amazing-race-t29e04-otro-mas-que-muerde-el-polvo_l_m.jpg</image>
   </programme>
-  <programme start="20260418120000 +0000" stop="20260418123000 +0000" channel="py#fx">
+  <programme start="20260418115900 +0000" stop="20260418122900 +0000" channel="py#fx">
     <title lang="es">Infomercial</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/py_infomercial_l_m.jpg</image>
   </programme>
-  <programme start="20260418123000 +0000" stop="20260418130000 +0000" channel="py#fx">
+  <programme start="20260418122900 +0000" stop="20260418125900 +0000" channel="py#fx">
     <title lang="es">Infomercial</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/py_infomercial_l_m.jpg</image>
   </programme>
-  <programme start="20260418130000 +0000" stop="20260418133000 +0000" channel="py#fx">
+  <programme start="20260418125900 +0000" stop="20260418132900 +0000" channel="py#fx">
     <title lang="es">Infomercial</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/py_infomercial_l_m.jpg</image>
   </programme>
-  <programme start="20260418133000 +0000" stop="20260418140000 +0000" channel="py#fx">
+  <programme start="20260418132900 +0000" stop="20260418135900 +0000" channel="py#fx">
     <title lang="es">Infomercial</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/py_infomercial_l_m.jpg</image>
   </programme>
-  <programme start="20260418140000 +0000" stop="20260418143000 +0000" channel="py#fx">
+  <programme start="20260418135900 +0000" stop="20260418143000 +0000" channel="py#fx">
     <title lang="es">Infomercial</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
@@ -22544,14 +22722,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260418052000 +0000" stop="20260418073600 +0000" channel="py#hbo">
+  <programme start="20260418052000 +0000" stop="20260418062000 +0000" channel="py#hbo">
     <title lang="es">Cónclave</title>
     <title lang="en">Conclave</title>
     <category lang="es">Thriller</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260418052000 +0000" stop="20260418062000 +0000" channel="py#hbo">
+  <programme start="20260418052000 +0000" stop="20260418073600 +0000" channel="py#hbo">
     <title lang="es">Cónclave</title>
     <title lang="en">Conclave</title>
     <category lang="es">Thriller</category>
@@ -23574,7 +23752,7 @@
   </programme>
   <programme start="20260419043000 +0000" stop="20260419050000 +0000" channel="py#hbo-signature">
     <title lang="es">El regreso</title>
-    <sub-title lang="es">Valerie Does It All</sub-title>
+    <sub-title lang="es">Valerie lo hace todo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.3.0/1</episode-num>
     <episode-num system="onscreen">S03E04</episode-num>
@@ -25501,7 +25679,7 @@
   </programme>
   <programme start="20260418054000 +0000" stop="20260418061000 +0000" channel="py#max-up">
     <title lang="es">El regreso</title>
-    <sub-title lang="es">Valerie Does It All</sub-title>
+    <sub-title lang="es">Valerie lo hace todo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.3.0/1</episode-num>
     <episode-num system="onscreen">S03E04</episode-num>
@@ -27502,7 +27680,7 @@
     <episode-num system="onscreen">S06E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_alerta-aeropuerto-t06e07-papa-en-tres-meses_l_m.jpg</image>
   </programme>
-  <programme start="20260418075900 +0000" stop="20260418084300 +0000" channel="py#national-geographic">
+  <programme start="20260418075900 +0000" stop="20260418084400 +0000" channel="py#national-geographic">
     <title lang="es">Alerta aeropuerto</title>
     <sub-title lang="es">Peso pesado</sub-title>
     <category lang="es">Serie</category>
@@ -27510,7 +27688,7 @@
     <episode-num system="onscreen">S07E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_alerta-aeropuerto-t07e03-peso-pesado_l_m.jpg</image>
   </programme>
-  <programme start="20260418084300 +0000" stop="20260418093000 +0000" channel="py#national-geographic">
+  <programme start="20260418084400 +0000" stop="20260418093100 +0000" channel="py#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">El submarino de Hitler</sub-title>
     <category lang="es">Serie</category>
@@ -27518,7 +27696,7 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_secreto-en-los-oceanos-t03e10-el-submarino-de-hitler_l_m.jpg</image>
   </programme>
-  <programme start="20260418093000 +0000" stop="20260418100000 +0000" channel="py#national-geographic">
+  <programme start="20260418093100 +0000" stop="20260418100000 +0000" channel="py#national-geographic">
     <title lang="es">Hacia lo desconocido</title>
     <sub-title lang="es">Fuerza de voluntad</sub-title>
     <category lang="es">Serie</category>
@@ -30272,20 +30450,20 @@
   </programme>
   <programme start="20260418130000 +0000" stop="20260418133000 +0000" channel="py#sony">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418133000 +0000" stop="20260418140000 +0000" channel="py#sony">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418140000 +0000" stop="20260418143000 +0000" channel="py#sony">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418143000 +0000" stop="20260418150000 +0000" channel="py#sony">
@@ -30699,26 +30877,26 @@
   </programme>
   <programme start="20260418110000 +0000" stop="20260418113000 +0000" channel="py#sony-hd">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418113000 +0000" stop="20260418120000 +0000" channel="py#sony-hd">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418120000 +0000" stop="20260418123000 +0000" channel="py#sony-hd">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418123000 +0000" stop="20260418130000 +0000" channel="py#sony-hd">
     <title lang="es">TeveCompras</title>
-    <title lang="en">Temporada 1 - Power Ear 26 V1</title>
-    <category lang="es">Temporada 1 - Power Ear 26 V1</category>
+    <title lang="en">Temporada 1 - Core Press 26 V1</title>
+    <category lang="es">Temporada 1 - Core Press 26 V1</category>
     <image>https://cdn.mitvstatic.com/programs/py_tevecompras-t01e00-ultramaxx-v3_l_m.jpg</image>
   </programme>
   <programme start="20260418130000 +0000" stop="20260418133500 +0000" channel="py#sony-hd">
@@ -32800,10 +32978,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260418083000 +0000" stop="20260418090000 +0000" channel="py#telecafe">
-    <title lang="es">Especiales Telecafé</title>
-    <title lang="en">Especial</title>
-    <category lang="es">Especial</category>
-    <image>https://cdn.mitvstatic.com/programs/py_especiales-telecafe_l_m.jpg</image>
+    <title lang="es">Eje paraíso de todos</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/py_eje-paraiso-de-todos_l_m.jpg</image>
   </programme>
   <programme start="20260418090000 +0000" stop="20260418093000 +0000" channel="py#telecafe">
     <title lang="es">Más allá de la idea: sueños que prosperan</title>
@@ -37215,8 +37392,8 @@
   </programme>
   <programme start="20260418064700 +0000" stop="20260418065700 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Carrera entre madera</title>
-    <category lang="es">Temporada 1 - Carrera entre madera</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260418065700 +0000" stop="20260418070700 +0000" channel="py#tooncast">
@@ -37229,8 +37406,8 @@
   </programme>
   <programme start="20260418070700 +0000" stop="20260418071700 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Carrera entre madera</title>
-    <category lang="es">Temporada 1 - Carrera entre madera</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260418071700 +0000" stop="20260418072700 +0000" channel="py#tooncast">
@@ -37243,8 +37420,8 @@
   </programme>
   <programme start="20260418072700 +0000" stop="20260418074000 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Carrera entre madera</title>
-    <category lang="es">Temporada 1 - Carrera entre madera</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260418074000 +0000" stop="20260418080200 +0000" channel="py#tooncast">
@@ -37481,7 +37658,7 @@
   </programme>
   <programme start="20260418130800 +0000" stop="20260418130900 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Supermodel Sandra and Oxymoron Shampoo</sub-title>
+    <sub-title lang="es">Identidad equivocada</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -37713,8 +37890,8 @@
   </programme>
   <programme start="20260418191400 +0000" stop="20260418192500 +0000" channel="py#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - Carrera entre madera</title>
-    <category lang="es">Temporada 1 - Carrera entre madera</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/py_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260418192500 +0000" stop="20260418194600 +0000" channel="py#tooncast">
@@ -37931,7 +38108,7 @@
   </programme>
   <programme start="20260419010500 +0000" stop="20260419010600 +0000" channel="py#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Supermodel Sandra and Oxymoron Shampoo</sub-title>
+    <sub-title lang="es">Identidad equivocada</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -38851,65 +39028,83 @@
     <category lang="es">Sportia</category>
     <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportia_l_m.jpg</image>
   </programme>
-  <programme start="20260418130000 +0000" stop="20260418143000 +0000" channel="py#tyc-sports">
+  <programme start="20260418130000 +0000" stop="20260418142000 +0000" channel="py#tyc-sports">
     <title lang="es">#Bonadeo</title>
     <title lang="en">#Bonadeo</title>
     <category lang="es">#Bonadeo</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260418143000 +0000" stop="20260418163000 +0000" channel="py#tyc-sports">
-    <title lang="es">Liga Nacional de Básquet</title>
-    <title lang="en">Liga Nacional de Básquet</title>
-    <category lang="es">Liga Nacional de Básquet</category>
-    <image>https://cdn.mitvstatic.com/programs/py_basquet-liga-nacional-de-basquet-1_l_m.jpg</image>
+  <programme start="20260418142000 +0000" stop="20260418163000 +0000" channel="py#tyc-sports">
+    <title lang="es">Obras vs. San Lorenzo</title>
+    <title lang="en">Temporada regular, Estadio Obras Sanitarias</title>
+    <category lang="es">Temporada regular, Estadio Obras Sanitarias</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260418163000 +0000" stop="20260418190000 +0000" channel="py#tyc-sports">
-    <title lang="es">Sportia</title>
+  <programme start="20260418163000 +0000" stop="20260418175500 +0000" channel="py#tyc-sports">
+    <title lang="es">La previa del Superclásico y la fecha 15</title>
     <title lang="en">Sportia</title>
     <category lang="es">Sportia</category>
-    <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportia_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260418190000 +0000" stop="20260418210000 +0000" channel="py#tyc-sports">
-    <title lang="es">Clasificación - Carburando</title>
-    <title lang="en">Clasificación - Carburando</title>
-    <category lang="es">Clasificación - Carburando</category>
-    <image>https://cdn.mitvstatic.com/programs/py_automovilismo-clasificacion-carburando_l_m.jpg</image>
+  <programme start="20260418175500 +0000" stop="20260418200000 +0000" channel="py#tyc-sports">
+    <title lang="es">Gimnasia (LP) vs. Estudiantes (RC)</title>
+    <title lang="en">Fecha 15 - Grupo B, Estadio Juan Carmelo Zerillo</title>
+    <category lang="es">Fecha 15 - Grupo B, Estadio Juan Carmelo Zerillo</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20260418210000 +0000" stop="20260418230000 +0000" channel="py#tyc-sports">
-    <title lang="es">Fútbol en vivo</title>
-    <title lang="en">Fútbol en vivo</title>
-    <category lang="es">Fútbol en vivo</category>
-    <image>https://cdn.mitvstatic.com/programs/py_futbol-futbol-en-vivo_l_m.jpg</image>
+  <programme start="20260418200000 +0000" stop="20260418201000 +0000" channel="py#tyc-sports">
+    <title lang="es">Líbero</title>
+    <title lang="en">Líbero</title>
+    <category lang="es">Líbero</category>
+    <image>https://cdn.mitvstatic.com/programs/py_futbol-libero_l_m.jpg</image>
   </programme>
-  <programme start="20260418230000 +0000" stop="20260419010000 +0000" channel="py#tyc-sports">
-    <title lang="es">Fútbol en vivo</title>
-    <title lang="en">Fútbol en vivo</title>
-    <category lang="es">Fútbol en vivo</category>
-    <image>https://cdn.mitvstatic.com/programs/py_futbol-futbol-en-vivo_l_m.jpg</image>
+  <programme start="20260418201000 +0000" stop="20260418221500 +0000" channel="py#tyc-sports">
+    <title lang="es">Instituto vs. Estudiantes (LP)</title>
+    <title lang="en">Fecha 15 - Grupo A, Estadio Presidente Peron</title>
+    <category lang="es">Fecha 15 - Grupo A, Estadio Presidente Peron</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20260419010000 +0000" stop="20260419020000 +0000" channel="py#tyc-sports">
+  <programme start="20260418221500 +0000" stop="20260418223000 +0000" channel="py#tyc-sports">
     <title lang="es">Club Miami</title>
     <title lang="en">Club Miami</title>
     <category lang="es">Club Miami</category>
     <image>https://cdn.mitvstatic.com/programs/py_deportivo-club-miami_l_m.jpg</image>
   </programme>
-  <programme start="20260419020000 +0000" stop="20260419043000 +0000" channel="py#tyc-sports">
-    <title lang="es">Boxeo de primera</title>
-    <title lang="en">Boxeo de primera</title>
-    <category lang="es">Boxeo de primera</category>
-    <image>https://cdn.mitvstatic.com/programs/py_boxeo-boxeo-de-primera_l_m.jpg</image>
+  <programme start="20260418223000 +0000" stop="20260419003000 +0000" channel="py#tyc-sports">
+    <title lang="es">Gimnasia (LP) vs. Estudiantes (RC)</title>
+    <title lang="en">Fecha 15 - Grupo B, Estadio Juan Carmelo Zerillo</title>
+    <category lang="es">Fecha 15 - Grupo B, Estadio Juan Carmelo Zerillo</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20260419043000 +0000" stop="20260419053000 +0000" channel="py#tyc-sports">
-    <title lang="es">Sportia</title>
-    <title lang="en">Sportia</title>
-    <category lang="es">Sportia</category>
-    <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportia_l_m.jpg</image>
+  <programme start="20260419003000 +0000" stop="20260419004000 +0000" channel="py#tyc-sports">
+    <title lang="es">Líbero</title>
+    <title lang="en">Líbero</title>
+    <category lang="es">Líbero</category>
+    <image>https://cdn.mitvstatic.com/programs/py_futbol-libero_l_m.jpg</image>
   </programme>
-  <programme start="20260419053000 +0000" stop="20260419063000 +0000" channel="py#tyc-sports">
-    <title lang="es">Sportia</title>
-    <title lang="en">Sportia</title>
-    <category lang="es">Sportia</category>
-    <image>https://cdn.mitvstatic.com/programs/py_noticiero-sportia_l_m.jpg</image>
+  <programme start="20260419004000 +0000" stop="20260419024500 +0000" channel="py#tyc-sports">
+    <title lang="es">Argentinos Jrs. vs. Atl. Tucumán</title>
+    <title lang="en">Fecha 15 - Grupo B, Estadio Diego Armando Maradona</title>
+    <category lang="es">Fecha 15 - Grupo B, Estadio Diego Armando Maradona</category>
+    <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260419024500 +0000" stop="20260419030000 +0000" channel="py#tyc-sports">
+    <title lang="es">Líbero</title>
+    <title lang="en">Líbero</title>
+    <category lang="es">Líbero</category>
+    <image>https://cdn.mitvstatic.com/programs/py_futbol-libero_l_m.jpg</image>
+  </programme>
+  <programme start="20260419030000 +0000" stop="20260419040000 +0000" channel="py#tyc-sports">
+    <title lang="es">Club Miami</title>
+    <title lang="en">Club Miami</title>
+    <category lang="es">Club Miami</category>
+    <image>https://cdn.mitvstatic.com/programs/py_deportivo-club-miami_l_m.jpg</image>
+  </programme>
+  <programme start="20260419040000 +0000" stop="20260419050000 +0000" channel="py#tyc-sports">
+    <title lang="es">Obras vs. San Lorenzo</title>
+    <title lang="en">Temporada regular, Estadio Obras Sanitarias</title>
+    <category lang="es">Temporada regular, Estadio Obras Sanitarias</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260416053000 +0000" stop="20260416070000 +0000" channel="py#unicanal">
     <title lang="es">El péndulo</title>
@@ -39814,7 +40009,7 @@
     <episode-num system="onscreen">S13E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_chicago-fire-t13e09-un-favor_l_m.jpg</image>
   </programme>
-  <programme start="20260418055000 +0000" stop="20260418064000 +0000" channel="py#universal-channel">
+  <programme start="20260418055000 +0000" stop="20260418065000 +0000" channel="py#universal-channel">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">Tendrán que pasar por mí</sub-title>
     <category lang="es">Serie</category>
@@ -39822,7 +40017,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418055000 +0000" stop="20260418065000 +0000" channel="py#universal-channel">
+  <programme start="20260418055000 +0000" stop="20260418064000 +0000" channel="py#universal-channel">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">Tendrán que pasar por mí</sub-title>
     <category lang="es">Serie</category>
@@ -41421,13 +41616,13 @@
     <title lang="en">Erótica</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260418043800 +0000" stop="20260418060800 +0000" channel="py#venus">
+  <programme start="20260418043800 +0000" stop="20260418053800 +0000" channel="py#venus">
     <title lang="es">Diosas con curvas</title>
     <title lang="en">Curvy Goddesses Double-Stuffed</title>
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260418043800 +0000" stop="20260418053800 +0000" channel="py#venus">
+  <programme start="20260418043800 +0000" stop="20260418060800 +0000" channel="py#venus">
     <title lang="es">Diosas con curvas</title>
     <title lang="en">Curvy Goddesses Double-Stuffed</title>
     <category lang="es">Erótica</category>
@@ -42704,14 +42899,14 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260418043300 +0000" stop="20260418063700 +0000" channel="py#warner-channel">
+  <programme start="20260418043300 +0000" stop="20260418053300 +0000" channel="py#warner-channel">
     <title lang="es">El justiciero 2</title>
     <title lang="en">The Equalizer 2</title>
     <category lang="es">Acción</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_el-justiciero-2-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260418043300 +0000" stop="20260418053300 +0000" channel="py#warner-channel">
+  <programme start="20260418043300 +0000" stop="20260418063700 +0000" channel="py#warner-channel">
     <title lang="es">El justiciero 2</title>
     <title lang="en">The Equalizer 2</title>
     <category lang="es">Acción</category>
