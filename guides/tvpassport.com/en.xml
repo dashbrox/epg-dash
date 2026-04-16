@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260416165436 +0000">
+<tv generator-info-name="custom-epg" date="20260416194414 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png"/>
   </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
+  <channel id="E.us@West">
+    <display-name>E! Entertainment USA HD - Pacific</display-name>
+    <icon src="https://i.imgur.com/TWFDkap.png"/>
   </channel>
-  <channel id="tsn-on-demand/6784">
-    <display-name>TSN On Demand</display-name>
+  <channel id="Bravo.us@East">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="tsn-4k/19467">
-    <display-name>TSN 4K</display-name>
+  <channel id="Bravo.us@West">
+    <display-name>Bravo USA HD - Pacific Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
   <channel id="tsn-4k-senators/31606">
     <display-name>TSN 4K Senators</display-name>
@@ -66,17 +69,14 @@
   <channel id="tsn1-hd/2819">
     <display-name>TSN1 HD</display-name>
   </channel>
-  <channel id="Bravo.us@West">
-    <display-name>Bravo USA HD - Pacific Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-on-demand/6784">
+    <display-name>TSN On Demand</display-name>
   </channel>
-  <channel id="Bravo.us@East">
-    <display-name>Bravo USA HD - Eastern Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-4k/19467">
+    <display-name>TSN 4K</display-name>
   </channel>
-  <channel id="E.us@West">
-    <display-name>E! Entertainment USA HD - Pacific</display-name>
-    <icon src="https://i.imgur.com/TWFDkap.png"/>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
   </channel>
   <programme start="20260416100000 +0000" stop="20260416110000 +0000" channel="Bravo.us@East">
     <title lang="en">Ladies of London: The New Reign</title>
@@ -1911,7 +1911,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260417190000 +0000" stop="20260417200000 +0000" channel="tsn1-hd/2819">
     <title lang="en">NBA Today Playoff Preview</title>
@@ -4384,7 +4384,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260418010000 +0000" stop="20260418013000 +0000" channel="tsn3-hd/13768">
     <title lang="en">Open Gym</title>
@@ -4756,7 +4756,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260418010000 +0000" stop="20260418013000 +0000" channel="TSN3.ca@SD">
     <title lang="en">Open Gym</title>
@@ -5160,7 +5160,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260418010000 +0000" stop="20260418013000 +0000" channel="tsn4-hd/13769">
     <title lang="en">Open Gym</title>
@@ -5256,7 +5256,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260418163000 +0000" stop="20260418170000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SC</title>
@@ -5277,10 +5277,10 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191276_b_v12_ak.jpg</image>
   </programme>
   <programme start="20260418220000 +0000" stop="20260418223000 +0000" channel="tsn4-hd/13769">
-    <title lang="en">NBA Playoffs Pregame</title>
+    <title lang="en">SC</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10772802_b_v8_aa.jpg</image>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260418223000 +0000" stop="20260419100000 +0000" channel="tsn4-hd/13769">
     <title lang="en">NBA Basketball</title>
@@ -5371,7 +5371,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260417000000 +0000" stop="20260417003000 +0000" channel="TSN4.ca@SD">
     <title lang="en">SC</title>
@@ -5606,7 +5606,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260418163000 +0000" stop="20260418170000 +0000" channel="TSN4.ca@SD">
     <title lang="en">SC</title>
@@ -5627,16 +5627,70 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191276_b_v12_ak.jpg</image>
   </programme>
   <programme start="20260418220000 +0000" stop="20260418223000 +0000" channel="TSN4.ca@SD">
-    <title lang="en">NBA Playoffs Pregame</title>
+    <title lang="en">SC</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10772802_b_v8_aa.jpg</image>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260418223000 +0000" stop="20260419103000 +0000" channel="TSN4.ca@SD">
+  <programme start="20260418223000 +0000" stop="20260419010000 +0000" channel="TSN4.ca@SD">
     <title lang="en">NBA Basketball</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191276_b_v12_ak.jpg</image>
+  </programme>
+  <programme start="20260419010000 +0000" stop="20260419033000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">NBA Basketball</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Basketball</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191276_b_v12_ak.jpg</image>
+  </programme>
+  <programme start="20260419033000 +0000" stop="20260419040000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SportsCentre</title>
+    <category lang="en">Sports</category>
+    <category lang="en">News</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+  </programme>
+  <programme start="20260419040000 +0000" stop="20260419043000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260419043000 +0000" stop="20260419050000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SC</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+  </programme>
+  <programme start="20260419050000 +0000" stop="20260419060000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SportsCentre</title>
+    <category lang="en">Sports</category>
+    <category lang="en">News</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+  </programme>
+  <programme start="20260419060000 +0000" stop="20260419070000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SportsCentre</title>
+    <category lang="en">Sports</category>
+    <category lang="en">News</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+  </programme>
+  <programme start="20260419070000 +0000" stop="20260419080000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SportsCentre</title>
+    <category lang="en">Sports</category>
+    <category lang="en">News</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+  </programme>
+  <programme start="20260419080000 +0000" stop="20260419090000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SportsCentre</title>
+    <category lang="en">Sports</category>
+    <category lang="en">News</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+  </programme>
+  <programme start="20260419090000 +0000" stop="20260419100000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SportsCentre</title>
+    <category lang="en">Sports</category>
+    <category lang="en">News</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
   <programme start="20260416100000 +0000" stop="20260416140000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Watch 4K Coverage of Live Sports Action</title>
@@ -6131,7 +6185,7 @@
     <title lang="en">Basketball Island: NBA Playoff Preview</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_st_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32881341_b_v12_aa.jpg</image>
   </programme>
   <programme start="20260417000000 +0000" stop="20260417003000 +0000" channel="TSN5.ca@SD">
     <title lang="en">SC</title>
