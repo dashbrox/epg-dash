@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260419191216 +0000">
+<tv generator-info-name="custom-epg" date="20260419215434 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -635,17 +633,19 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260419060000 +0000" stop="20260419070000 +0000" channel="13C.cl@SD">
     <title lang="es">Tierra adentro</title>
@@ -2866,14 +2866,14 @@
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260421051000 +0000" stop="20260421061000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260421051000 +0000" stop="20260421081000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">La chica del dragón tatuado</title>
     <title lang="en">The Girl with the Dragon Tattoo</title>
     <category lang="es">Drama</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_la-chica-del-dragon-tatuado-2011_l_m.jpg</image>
   </programme>
-  <programme start="20260421051000 +0000" stop="20260421081000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260421051000 +0000" stop="20260421061000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">La chica del dragón tatuado</title>
     <title lang="en">The Girl with the Dragon Tattoo</title>
     <category lang="es">Drama</category>
@@ -18273,7 +18273,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-dodo-en-busca-de-heroes-s02e03-ponis-enanos-y-otros-rescates-de-granja_l_m.jpg</image>
   </programme>
-  <programme start="20260420053300 +0000" stop="20260420063300 +0000" channel="cl#animal-planet">
+  <programme start="20260420053300 +0000" stop="20260420062400 +0000" channel="cl#animal-planet">
     <title lang="es">Con el agua al cuello</title>
     <sub-title lang="es">Cena con los peces</sub-title>
     <category lang="es">Serie</category>
@@ -18281,7 +18281,7 @@
     <episode-num system="onscreen">S04E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_con-el-agua-al-cuello-s04e07-cena-con-los-peces_l_m.jpg</image>
   </programme>
-  <programme start="20260420053300 +0000" stop="20260420062400 +0000" channel="cl#animal-planet">
+  <programme start="20260420053300 +0000" stop="20260420063300 +0000" channel="cl#animal-planet">
     <title lang="es">Con el agua al cuello</title>
     <sub-title lang="es">Cena con los peces</sub-title>
     <category lang="es">Serie</category>
@@ -89376,14 +89376,14 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260421053000 +0000" stop="20260421063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260421053000 +0000" stop="20260421070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.18.0/1</episode-num>
     <episode-num system="onscreen">S04E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260421053000 +0000" stop="20260421070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260421053000 +0000" stop="20260421063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.18.0/1</episode-num>
@@ -90029,7 +90029,7 @@
     <episode-num system="onscreen">S03E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s03e19-the-wheaton-recurrence_l_m.jpg</image>
   </programme>
-  <programme start="20260421055300 +0000" stop="20260421065300 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260421055300 +0000" stop="20260421061500 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El catalizador de espagueti</sub-title>
     <category lang="es">Serie</category>
@@ -90037,7 +90037,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s03e20-the-spaghetti-catalysis_l_m.jpg</image>
   </programme>
-  <programme start="20260421055300 +0000" stop="20260421061500 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260421055300 +0000" stop="20260421065300 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El catalizador de espagueti</sub-title>
     <category lang="es">Serie</category>
