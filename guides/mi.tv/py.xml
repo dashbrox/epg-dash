@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260421163819 +0000">
+<tv generator-info-name="custom-epg" date="20260421194611 +0000">
   <channel id="py#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -12,11 +12,23 @@
   <channel id="py#axn">
     <display-name>AXN</display-name>
   </channel>
+  <channel id="py#canal-de-las-estrellas">
+    <display-name>Las Estrellas</display-name>
+  </channel>
   <channel id="py#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
+  <channel id="py#canal-13">
+    <display-name>RPC</display-name>
+  </channel>
   <channel id="py#canal-9-snt">
     <display-name>SNT</display-name>
+  </channel>
+  <channel id="py#dhe">
+    <display-name>DHE</display-name>
+  </channel>
+  <channel id="py#comedy-central">
+    <display-name>Comedy Central</display-name>
   </channel>
   <channel id="py#america-television">
     <display-name>AMÉRICA TELEVISION</display-name>
@@ -24,35 +36,24 @@
   <channel id="py#canal-5-paravision">
     <display-name>Paravisión</display-name>
   </channel>
+  <channel id="CNNenEspanol.us@SD">
+    <display-name>CNN en Español</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"/>
+  </channel>
+  <channel id="py#cinecanal">
+    <display-name>Cinecanal</display-name>
+  </channel>
   <channel id="py#az-corazon">
     <display-name>Az Corazón</display-name>
   </channel>
-  <channel id="py#tvs-hd">
-    <display-name>TVS HD</display-name>
+  <channel id="py#cine-latino">
+    <display-name>Cinelatino</display-name>
   </channel>
-  <channel id="py#tvs">
-    <display-name>TVS</display-name>
+  <channel id="py#cartoon-network">
+    <display-name>Cartoon Network</display-name>
   </channel>
-  <channel id="py#tooncast">
-    <display-name>Tooncast</display-name>
-  </channel>
-  <channel id="py#tnt-series">
-    <display-name>TNT Series</display-name>
-  </channel>
-  <channel id="py#tnt">
-    <display-name>TNT</display-name>
-  </channel>
-  <channel id="py#tlnovelas">
-    <display-name>TLNovelas</display-name>
-  </channel>
-  <channel id="py#tigo-sports">
-    <display-name>Tigo Sports</display-name>
-  </channel>
-  <channel id="py#telemundo">
-    <display-name>Telemundo</display-name>
-  </channel>
-  <channel id="py#telefuturo">
-    <display-name>Telefuturo</display-name>
+  <channel id="py#caracol-internacional">
+    <display-name>Caracol Internacional</display-name>
   </channel>
   <channel id="py#telefe-internacional">
     <display-name>Telefe Internacional</display-name>
@@ -207,37 +208,6 @@
   <channel id="py#discovery">
     <display-name>Discovery Channel</display-name>
   </channel>
-  <channel id="py#dhe">
-    <display-name>DHE</display-name>
-  </channel>
-  <channel id="py#comedy-central">
-    <display-name>Comedy Central</display-name>
-  </channel>
-  <channel id="CNNenEspanol.us@SD">
-    <display-name>CNN en Español</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/960px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png"/>
-  </channel>
-  <channel id="py#cinecanal">
-    <display-name>Cinecanal</display-name>
-  </channel>
-  <channel id="py#cine-latino">
-    <display-name>Cinelatino</display-name>
-  </channel>
-  <channel id="py#cartoon-network">
-    <display-name>Cartoon Network</display-name>
-  </channel>
-  <channel id="py#caracol-internacional">
-    <display-name>Caracol Internacional</display-name>
-  </channel>
-  <channel id="py#canal-de-las-estrellas">
-    <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="py#canal-13">
-    <display-name>RPC</display-name>
-  </channel>
-  <channel id="py#warner">
-    <display-name>Warner Channel</display-name>
-  </channel>
   <channel id="py#venus">
     <display-name>Venus</display-name>
   </channel>
@@ -256,8 +226,38 @@
   <channel id="py#tyc-sports">
     <display-name>TyC Sports</display-name>
   </channel>
+  <channel id="py#tvs-hd">
+    <display-name>TVS HD</display-name>
+  </channel>
+  <channel id="py#tvs">
+    <display-name>TVS</display-name>
+  </channel>
+  <channel id="py#tooncast">
+    <display-name>Tooncast</display-name>
+  </channel>
+  <channel id="py#tnt-series">
+    <display-name>TNT Series</display-name>
+  </channel>
+  <channel id="py#tnt">
+    <display-name>TNT</display-name>
+  </channel>
+  <channel id="py#tlnovelas">
+    <display-name>TLNovelas</display-name>
+  </channel>
+  <channel id="py#tigo-sports">
+    <display-name>Tigo Sports</display-name>
+  </channel>
+  <channel id="py#telemundo">
+    <display-name>Telemundo</display-name>
+  </channel>
   <channel id="py#warner-channel">
     <display-name>Warner Channel</display-name>
+  </channel>
+  <channel id="py#warner">
+    <display-name>Warner Channel</display-name>
+  </channel>
+  <channel id="py#telefuturo">
+    <display-name>Telefuturo</display-name>
   </channel>
   <programme start="20260421060000 +0000" stop="20260421070000 +0000" channel="CNNenEspanol.us@SD">
     <title lang="es">Conclusiones</title>
@@ -11616,14 +11616,14 @@
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_55-pasos-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260423050000 +0000" stop="20260423063000 +0000" channel="py#dhe">
+  <programme start="20260423050000 +0000" stop="20260423060000 +0000" channel="py#dhe">
     <title lang="es">Jesse Stone: Perdido en el paraíso</title>
     <title lang="en">Jesse Stone: Lost in Paradise</title>
     <category lang="es">Crimen</category>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_jesse-stone-perdido-en-el-paraiso-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260423050000 +0000" stop="20260423060000 +0000" channel="py#dhe">
+  <programme start="20260423050000 +0000" stop="20260423063000 +0000" channel="py#dhe">
     <title lang="es">Jesse Stone: Perdido en el paraíso</title>
     <title lang="en">Jesse Stone: Lost in Paradise</title>
     <category lang="es">Crimen</category>
@@ -35220,14 +35220,14 @@
     <category lang="es">Juego 2 - Playoffs, Crypto.com Arena</category>
     <image>https://cdn.mitvstatic.com/tags/py_nba_l_m.jpg</image>
   </programme>
-  <programme start="20260422045900 +0000" stop="20260422063700 +0000" channel="py#tnt">
+  <programme start="20260422045900 +0000" stop="20260422055900 +0000" channel="py#tnt">
     <title lang="es">Rambo II</title>
     <title lang="en">Rambo: First Blood Part II</title>
     <category lang="es">Acción</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_rambo-ii-1985_l_m.jpg</image>
   </programme>
-  <programme start="20260422045900 +0000" stop="20260422055900 +0000" channel="py#tnt">
+  <programme start="20260422045900 +0000" stop="20260422063700 +0000" channel="py#tnt">
     <title lang="es">Rambo II</title>
     <title lang="en">Rambo: First Blood Part II</title>
     <category lang="es">Acción</category>
@@ -35690,7 +35690,7 @@
     <episode-num system="onscreen">S14E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_csi-t14e04-ultima-cena_l_m.jpg</image>
   </programme>
-  <programme start="20260422052400 +0000" stop="20260422060600 +0000" channel="py#tnt-series">
+  <programme start="20260422052400 +0000" stop="20260422062400 +0000" channel="py#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Reemplazo</sub-title>
     <category lang="es">Serie</category>
@@ -35698,7 +35698,7 @@
     <episode-num system="onscreen">S12E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_la-ley-y-el-orden-uve-t12e01-reemplazo_l_m.jpg</image>
   </programme>
-  <programme start="20260422052400 +0000" stop="20260422062400 +0000" channel="py#tnt-series">
+  <programme start="20260422052400 +0000" stop="20260422060600 +0000" channel="py#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Reemplazo</sub-title>
     <category lang="es">Serie</category>
@@ -39373,13 +39373,13 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/py_tvs-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260423013000 +0000" stop="20260423023000 +0000" channel="py#tvs-hd">
+  <programme start="20260423013000 +0000" stop="20260423080000 +0000" channel="py#tvs-hd">
     <title lang="es">Cierre de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/py_cierre-de-transmision_l_m.jpg</image>
   </programme>
-  <programme start="20260423013000 +0000" stop="20260423080000 +0000" channel="py#tvs-hd">
+  <programme start="20260423013000 +0000" stop="20260423023000 +0000" channel="py#tvs-hd">
     <title lang="es">Cierre de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -40460,7 +40460,7 @@
     <episode-num system="onscreen">S13E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_chicago-fire-t13e15-too-close_l_m.jpg</image>
   </programme>
-  <programme start="20260422055000 +0000" stop="20260422065000 +0000" channel="py#universal-channel">
+  <programme start="20260422055000 +0000" stop="20260422064000 +0000" channel="py#universal-channel">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">Dios, oro y gloria</sub-title>
     <category lang="es">Serie</category>
@@ -40468,7 +40468,7 @@
     <episode-num system="onscreen">S02E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260422055000 +0000" stop="20260422064000 +0000" channel="py#universal-channel">
+  <programme start="20260422055000 +0000" stop="20260422065000 +0000" channel="py#universal-channel">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">Dios, oro y gloria</sub-title>
     <category lang="es">Serie</category>
@@ -41163,7 +41163,7 @@
     <episode-num system="onscreen">S13E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_chicago-fire-t13e15-too-close_l_m.jpg</image>
   </programme>
-  <programme start="20260422055000 +0000" stop="20260422064000 +0000" channel="py#universal-channel-hd">
+  <programme start="20260422055000 +0000" stop="20260422065000 +0000" channel="py#universal-channel-hd">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">Dios, oro y gloria</sub-title>
     <category lang="es">Serie</category>
@@ -41171,7 +41171,7 @@
     <episode-num system="onscreen">S02E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260422055000 +0000" stop="20260422065000 +0000" channel="py#universal-channel-hd">
+  <programme start="20260422055000 +0000" stop="20260422064000 +0000" channel="py#universal-channel-hd">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">Dios, oro y gloria</sub-title>
     <category lang="es">Serie</category>
@@ -42163,13 +42163,13 @@
     <title lang="en">Erótica</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260422054300 +0000" stop="20260422071600 +0000" channel="py#venus">
+  <programme start="20260422054300 +0000" stop="20260422064300 +0000" channel="py#venus">
     <title lang="es">Amor graba este trío</title>
     <title lang="en">3some with Her Bestie!</title>
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/py_amor-graba-este-trio-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260422054300 +0000" stop="20260422064300 +0000" channel="py#venus">
+  <programme start="20260422054300 +0000" stop="20260422071600 +0000" channel="py#venus">
     <title lang="es">Amor graba este trío</title>
     <title lang="en">3some with Her Bestie!</title>
     <category lang="es">Erótica</category>
@@ -42267,13 +42267,13 @@
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/py_10-trios-con-morenas-2017-1_l_m.jpg</image>
   </programme>
-  <programme start="20260423055300 +0000" stop="20260423075400 +0000" channel="py#venus">
+  <programme start="20260423055300 +0000" stop="20260423065300 +0000" channel="py#venus">
     <title lang="es">Juegos pervertidos</title>
     <title lang="en">Perverted Games</title>
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260423055300 +0000" stop="20260423065300 +0000" channel="py#venus">
+  <programme start="20260423055300 +0000" stop="20260423075400 +0000" channel="py#venus">
     <title lang="es">Juegos pervertidos</title>
     <title lang="en">Perverted Games</title>
     <category lang="es">Erótica</category>
@@ -42657,7 +42657,7 @@
     <episode-num system="onscreen">S03E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t03e21-the-plimpton-stimulation_l_m.jpg</image>
   </programme>
-  <programme start="20260422055800 +0000" stop="20260422065800 +0000" channel="py#warner">
+  <programme start="20260422055800 +0000" stop="20260422061800 +0000" channel="py#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La implementación de la escalera continua</sub-title>
     <category lang="es">Serie</category>
@@ -42665,7 +42665,7 @@
     <episode-num system="onscreen">S03E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t03e22-the-staircase-implementation_l_m.jpg</image>
   </programme>
-  <programme start="20260422055800 +0000" stop="20260422061800 +0000" channel="py#warner">
+  <programme start="20260422055800 +0000" stop="20260422065800 +0000" channel="py#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La implementación de la escalera continua</sub-title>
     <category lang="es">Serie</category>
