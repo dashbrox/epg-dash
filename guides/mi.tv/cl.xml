@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260423165542 +0000">
+<tv generator-info-name="custom-epg" date="20260423194550 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -633,19 +635,17 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <programme start="20260423060000 +0000" stop="20260423070000 +0000" channel="13C.cl@SD">
     <title lang="es">Tierra adentro</title>
@@ -3029,12 +3029,12 @@
     <rating><value>3.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-apocalipsis-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260425044000 +0000" stop="20260425065500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260425044000 +0000" stop="20260425054000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Rocky</title>
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/cl_rocky-1976_l_m.jpg</image>
   </programme>
-  <programme start="20260425044000 +0000" stop="20260425054000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260425044000 +0000" stop="20260425065500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Rocky</title>
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/cl_rocky-1976_l_m.jpg</image>
@@ -24851,7 +24851,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260423204500 +0000" stop="20260424040000 +0000" channel="cl#cnn">
+  <programme start="20260423204500 +0000" stop="20260423214500 +0000" channel="cl#cnn">
     <title lang="es">El mundo maravilloso de Quest</title>
     <sub-title lang="es">A Make-Good (Sydney)</sub-title>
     <category lang="es">Serie</category>
@@ -24864,24 +24864,6 @@
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260424040000 +0000" stop="20260424044500 +0000" channel="cl#cnn">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_cnn-newsroom_l_m.jpg</image>
-  </programme>
-  <programme start="20260424044500 +0000" stop="20260424050000 +0000" channel="cl#cnn">
-    <title lang="es">World Sport</title>
-    <title lang="en">World Sport</title>
-    <category lang="es">World Sport</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-world-sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260424050000 +0000" stop="20260424060000 +0000" channel="cl#cnn">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_cnn-newsroom_l_m.jpg</image>
   </programme>
   <programme start="20260424053000 +0000" stop="20260424063000 +0000" channel="cl#cnn">
     <title lang="es">El mundo maravilloso de Quest</title>
@@ -46078,10 +46060,10 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260425043000 +0000" stop="20260425050000 +0000" channel="cl#fox-sports-basico">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_a-confirmar_l_m.jpg</image>
+    <title lang="es">UEFA Champions League Weekly</title>
+    <title lang="en">UEFA Champions League Weekly</title>
+    <category lang="es">UEFA Champions League Weekly</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_futbol-uefa-champions-league-weekly_l_m.jpg</image>
   </programme>
   <programme start="20260425050000 +0000" stop="20260425070000 +0000" channel="cl#fox-sports-basico">
     <title lang="es">Dogos XV vs. Pampas</title>
@@ -66741,14 +66723,6 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260424052400 +0000" stop="20260424061500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
-    <title lang="es">Cámara policial</title>
-    <sub-title lang="es">Incumplimiento</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">5.14.0/1</episode-num>
-    <episode-num system="onscreen">S06E15</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s06e15-incumplimiento_l_m.jpg</image>
-  </programme>
   <programme start="20260424052400 +0000" stop="20260424062400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Incumplimiento</sub-title>
@@ -66757,7 +66731,7 @@
     <episode-num system="onscreen">S06E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s06e15-incumplimiento_l_m.jpg</image>
   </programme>
-  <programme start="20260424061500 +0000" stop="20260424070600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424052600 +0000" stop="20260424061400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Imprevistos</sub-title>
     <category lang="es">Serie</category>
@@ -66765,7 +66739,7 @@
     <episode-num system="onscreen">S07E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s07e06-imprevistos_l_m.jpg</image>
   </programme>
-  <programme start="20260424070600 +0000" stop="20260424075600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424061400 +0000" stop="20260424070200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Lo inesperado</sub-title>
     <category lang="es">Serie</category>
@@ -66773,7 +66747,7 @@
     <episode-num system="onscreen">S07E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s07e07-lo-inesperado_l_m.jpg</image>
   </programme>
-  <programme start="20260424075600 +0000" stop="20260424084300 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424070200 +0000" stop="20260424074700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Explosión en un banco</sub-title>
     <category lang="es">Serie</category>
@@ -66781,7 +66755,7 @@
     <episode-num system="onscreen">S08E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s08e19-explosion-en-un-banco_l_m.jpg</image>
   </programme>
-  <programme start="20260424084300 +0000" stop="20260424093000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424074700 +0000" stop="20260424085500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">El gran estafador</sub-title>
     <category lang="es">Serie</category>
@@ -66789,7 +66763,7 @@
     <episode-num system="onscreen">S09E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s09e10-el-gran-estafador_l_m.jpg</image>
   </programme>
-  <programme start="20260424093000 +0000" stop="20260424100000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424085500 +0000" stop="20260424100000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Aeropuerto 24/7 Miami</title>
     <sub-title lang="es">Luna llena</sub-title>
     <category lang="es">Serie</category>
@@ -66797,7 +66771,7 @@
     <episode-num system="onscreen">S02E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_aeropuerto-24-7-miami-s02e11-luna-llena_l_m.jpg</image>
   </programme>
-  <programme start="20260424100000 +0000" stop="20260424102200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424100000 +0000" stop="20260424102500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Aeropuerto 24/7 Miami</title>
     <sub-title lang="es">Escondite millonario</sub-title>
     <category lang="es">Serie</category>
@@ -66805,15 +66779,15 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_aeropuerto-24-7-miami-s02e10-escondite-millonario_l_m.jpg</image>
   </programme>
-  <programme start="20260424102200 +0000" stop="20260424110600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424102500 +0000" stop="20260424111200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
-    <sub-title lang="es">El cazador y los cazados</sub-title>
+    <sub-title lang="es">Camino equivocado</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">4.2.0/1</episode-num>
     <episode-num system="onscreen">S05E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s05e03-camino-equivocado_l_m.jpg</image>
   </programme>
-  <programme start="20260424110600 +0000" stop="20260424115000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424111200 +0000" stop="20260424115800 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Raptor + Combi + Urna</sub-title>
     <category lang="es">Serie</category>
@@ -66821,7 +66795,7 @@
     <episode-num system="onscreen">S05E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mexicanicos-s05e06-raptor-combi-urna_l_m.jpg</image>
   </programme>
-  <programme start="20260424115000 +0000" stop="20260424123400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424115800 +0000" stop="20260424124500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Carroza panorámica, pura luz, Martín y un nuevo invento, Dragster Tubina para dos personas</sub-title>
     <category lang="es">Serie</category>
@@ -66829,7 +66803,7 @@
     <episode-num system="onscreen">S07E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mexicanicos-s07e06-carroza-panoramica-pura-luz-martin-y-un-nuevo-invento-dragster-tubina-para-dos-personas_l_m.jpg</image>
   </programme>
-  <programme start="20260424123400 +0000" stop="20260424132000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424124500 +0000" stop="20260424133200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Limo Lincoln, ejecutivo en Cancún, Cadillac 49, auto regalo, Isabel al mando del presupuesto</sub-title>
     <category lang="es">Serie</category>
@@ -66837,7 +66811,7 @@
     <episode-num system="onscreen">S07E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mexicanicos-s07e05-limo-lincoln-ejecutivo-en-cancun-cadillac-49-auto-regalo-isabel-al-mando-del-presupuesto_l_m.jpg</image>
   </programme>
-  <programme start="20260424132000 +0000" stop="20260424140600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424133200 +0000" stop="20260424141900 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Fiebre del oro</title>
     <sub-title lang="es">Problemas con la planta de lavado</sub-title>
     <category lang="es">Serie</category>
@@ -66845,7 +66819,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_fiebre-del-oro-s04e04-problemas-con-la-planta-de-lavado_l_m.jpg</image>
   </programme>
-  <programme start="20260424140600 +0000" stop="20260424145700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424141900 +0000" stop="20260424151200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Volver a la vida a un Chrysler Imperial 1931 en honor a una antigua amistad</sub-title>
     <category lang="es">Serie</category>
@@ -66853,7 +66827,7 @@
     <episode-num system="onscreen">S07E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mexicanicos-s07e07_l_m.jpg</image>
   </programme>
-  <programme start="20260424145700 +0000" stop="20260424154800 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424151200 +0000" stop="20260424160500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Réplica de Ford T 1928 Deportivo Oldsmobile - Reemplazo de vacaciones</sub-title>
     <category lang="es">Serie</category>
@@ -66861,7 +66835,7 @@
     <episode-num system="onscreen">S07E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mexicanicos-s07e01-replica-de-ford-t-1928-deportivo-oldsmobile-reemplazo-de-vacaciones_l_m.jpg</image>
   </programme>
-  <programme start="20260424154800 +0000" stop="20260424163900 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424160500 +0000" stop="20260424165500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">El club de autos de Kevin Hart</title>
     <sub-title lang="es">Recorriendo la pista</sub-title>
     <category lang="es">Serie</category>
@@ -66869,7 +66843,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260424163900 +0000" stop="20260424173000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424165500 +0000" stop="20260424174600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">El club de autos de Kevin Hart</title>
     <sub-title lang="es">¿Cuán bajo puedes caer?</sub-title>
     <category lang="es">Serie</category>
@@ -66877,7 +66851,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260424173000 +0000" stop="20260424182100 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424174600 +0000" stop="20260424183900 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Héroe canino</sub-title>
     <category lang="es">Serie</category>
@@ -66885,7 +66859,7 @@
     <episode-num system="onscreen">S05E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s05e12-heroe-canino_l_m.jpg</image>
   </programme>
-  <programme start="20260424182100 +0000" stop="20260424191200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424183900 +0000" stop="20260424193200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">A prueba de todo</title>
     <sub-title lang="es">El Ártico</sub-title>
     <category lang="es">Serie</category>
@@ -66893,7 +66867,7 @@
     <episode-num system="onscreen">S04E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_a-prueba-de-todo-s04e02-el-artico_l_m.jpg</image>
   </programme>
-  <programme start="20260424191200 +0000" stop="20260424200300 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424193200 +0000" stop="20260424202500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Monstruos de río: aguas desconocidas</title>
     <sub-title lang="es">El regreso de la bestia</sub-title>
     <category lang="es">Serie</category>
@@ -66901,7 +66875,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_monstruos-de-rio-aguas-desconocidas-s01e03-pico_l_m.jpg</image>
   </programme>
-  <programme start="20260424200300 +0000" stop="20260424205400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424202500 +0000" stop="20260424211600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Extraídos</title>
     <sub-title lang="es">Familia contra familia</sub-title>
     <category lang="es">Serie</category>
@@ -66909,7 +66883,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260424205400 +0000" stop="20260424214500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424211600 +0000" stop="20260424220700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Extraídos</title>
     <sub-title lang="es">La caja misteriosa</sub-title>
     <category lang="es">Serie</category>
@@ -66917,7 +66891,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260424214500 +0000" stop="20260424223600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424220700 +0000" stop="20260424223600 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Historias de fantasmas</title>
     <sub-title lang="es">La entidad en la granja de la familia Graber</sub-title>
     <category lang="es">Serie</category>
@@ -66925,7 +66899,7 @@
     <episode-num system="onscreen">S17E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_historias-de-fantasmas-s17e11-la-entidad-en-la-granja-de-la-familia-graber_l_m.jpg</image>
   </programme>
-  <programme start="20260424223600 +0000" stop="20260424232700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424223600 +0000" stop="20260424225800 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Garaje Callejero: Nads y Amir</title>
     <sub-title lang="es">Convertimos un Subaru BRZ 2016 de auto de viajes a ganador de carreras</sub-title>
     <category lang="es">Serie</category>
@@ -66933,23 +66907,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260424232700 +0000" stop="20260425001800 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
-    <title lang="es">Garaje Callejero: Nads y Amir</title>
-    <sub-title lang="es">El Lotus Elise de Amir es el primer EURO completo con un giro JDM</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260425001800 +0000" stop="20260425010900 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
-    <title lang="es">Garaje Callejero: Nads y Amir</title>
-    <sub-title lang="es">Hora de la redención para el BRZ y el Chaser</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260425010900 +0000" stop="20260425020000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424225800 +0000" stop="20260424232700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Riesgoso</sub-title>
     <category lang="es">Serie</category>
@@ -66957,7 +66915,15 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s02e10-riesgoso_l_m.jpg</image>
   </programme>
-  <programme start="20260425020000 +0000" stop="20260425025100 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260424232700 +0000" stop="20260424235100 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+    <title lang="es">Garaje Callejero: Nads y Amir</title>
+    <sub-title lang="es">El Lotus Elise de Amir es el primer EURO completo con un giro JDM</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260424235100 +0000" stop="20260425001800 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Superfanáticos</sub-title>
     <category lang="es">Serie</category>
@@ -66965,7 +66931,15 @@
     <episode-num system="onscreen">S11E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_supervivencia-al-desnudo-s11e12-superfanaticos_l_m.jpg</image>
   </programme>
-  <programme start="20260425025100 +0000" stop="20260425043300 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260425001800 +0000" stop="20260425004200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+    <title lang="es">Garaje Callejero: Nads y Amir</title>
+    <sub-title lang="es">Hora de la redención para el BRZ y el Chaser</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
+    <episode-num system="onscreen">S01E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260425004200 +0000" stop="20260425022700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Redención #9.9</sub-title>
     <category lang="es">Serie</category>
@@ -66973,15 +66947,15 @@
     <episode-num system="onscreen">S09E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_supervivencia-al-desnudo-s09e09-redencion-9-9_l_m.jpg</image>
   </programme>
-  <programme start="20260425043300 +0000" stop="20260425052400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260425022700 +0000" stop="20260425032000 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
-    <sub-title lang="es">El cazador y los cazados</sub-title>
+    <sub-title lang="es">Camino equivocado</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">4.2.0/1</episode-num>
     <episode-num system="onscreen">S05E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s05e03-camino-equivocado_l_m.jpg</image>
   </programme>
-  <programme start="20260425052400 +0000" stop="20260425062400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+  <programme start="20260425032000 +0000" stop="20260425041200 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Psicópata 1</sub-title>
     <category lang="es">Serie</category>
@@ -66989,7 +66963,31 @@
     <episode-num system="onscreen">S05E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s05e07-un-plan-bien-pensado_l_m.jpg</image>
   </programme>
+  <programme start="20260425041200 +0000" stop="20260425050500 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+    <title lang="es">Cámara policial</title>
+    <sub-title lang="es">¡Me disparó!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.7.0/1</episode-num>
+    <episode-num system="onscreen">S05E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s05e08-me-disparo_l_m.jpg</image>
+  </programme>
+  <programme start="20260425050500 +0000" stop="20260425055700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+    <title lang="es">Cámara policial</title>
+    <sub-title lang="es">Lluvia de balas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.8.0/1</episode-num>
+    <episode-num system="onscreen">S05E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s05e09-lluvia-de-balas_l_m.jpg</image>
+  </programme>
   <programme start="20260425055700 +0000" stop="20260425064400 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
+    <title lang="es">Cámara policial</title>
+    <sub-title lang="es">90 minutos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_camara-policial-s02e02-mi-nombre-es-muerte_l_m.jpg</image>
+  </programme>
+  <programme start="20260425055700 +0000" stop="20260425065700 +0000" channel="DiscoveryChannelLatinAmerica.us@Chile">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">90 minutos</sub-title>
     <category lang="es">Serie</category>
@@ -70749,17 +70747,11 @@
     <category lang="es">Fecha 32, Estadio Coliseum Alfonso Pérez</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260423050000 +0000" stop="20260423070000 +0000" channel="ESPN4LatinAmerica.us@South">
+  <programme start="20260423050000 +0000" stop="20260423090000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">ESPN F90</title>
     <title lang="en">ESPN F90</title>
     <category lang="es">ESPN F90</category>
     <image>https://cdn.mitvstatic.com/programs/cl_futbol-espn-f90_l_m.jpg</image>
-  </programme>
-  <programme start="20260423070000 +0000" stop="20260423090000 +0000" channel="ESPN4LatinAmerica.us@South">
-    <title lang="es">La Flèche Wallonne</title>
-    <title lang="en">La Flèche Wallonne</title>
-    <category lang="es">La Flèche Wallonne</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_ciclismo-la-fleche-wallonne-1_l_m.jpg</image>
   </programme>
   <programme start="20260423090000 +0000" stop="20260423100000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">Barcelona vs. Celta de Vigo</title>
@@ -70802,17 +70794,11 @@
     <category lang="es">UEFA Champions League Weekly</category>
     <image>https://cdn.mitvstatic.com/programs/cl_futbol-uefa-champions-league-weekly_l_m.jpg</image>
   </programme>
-  <programme start="20260423220000 +0000" stop="20260423233000 +0000" channel="ESPN4LatinAmerica.us@South">
+  <programme start="20260423220000 +0000" stop="20260424000000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">SportsCenter</title>
     <title lang="en">SportsCenter</title>
     <category lang="es">SportsCenter</category>
     <image>https://cdn.mitvstatic.com/programs/cl_noticiero-sportscenter-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260423233000 +0000" stop="20260424000000 +0000" channel="ESPN4LatinAmerica.us@South">
-    <title lang="es">La Flèche Wallonne</title>
-    <title lang="en">La Flèche Wallonne</title>
-    <category lang="es">La Flèche Wallonne</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_ciclismo-la-fleche-wallonne-1_l_m.jpg</image>
   </programme>
   <programme start="20260424000000 +0000" stop="20260424010000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">El show de la Fórmula 1</title>
@@ -70832,17 +70818,11 @@
     <category lang="es">Semifinal, BayArena</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260424030000 +0000" stop="20260424040000 +0000" channel="ESPN4LatinAmerica.us@South">
+  <programme start="20260424030000 +0000" stop="20260424043000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">Barcelona vs. Celta de Vigo</title>
     <title lang="en">Fecha 33, Estadio Camp Nou</title>
     <category lang="es">Fecha 33, Estadio Camp Nou</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260424040000 +0000" stop="20260424043000 +0000" channel="ESPN4LatinAmerica.us@South">
-    <title lang="es">La Flèche Wallonne</title>
-    <title lang="en">La Flèche Wallonne</title>
-    <category lang="es">La Flèche Wallonne</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_ciclismo-la-fleche-wallonne-1_l_m.jpg</image>
   </programme>
   <programme start="20260424043000 +0000" stop="20260424050000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">F Táctico</title>
@@ -70862,17 +70842,11 @@
     <category lang="es">ESPN F90</category>
     <image>https://cdn.mitvstatic.com/programs/cl_futbol-espn-f90_l_m.jpg</image>
   </programme>
-  <programme start="20260424070000 +0000" stop="20260424073000 +0000" channel="ESPN4LatinAmerica.us@South">
+  <programme start="20260424070000 +0000" stop="20260424080000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">F Táctico</title>
     <title lang="en">F Táctico</title>
     <category lang="es">F Táctico</category>
     <image>https://cdn.mitvstatic.com/programs/cl_futbol-f-tactico_l_m.jpg</image>
-  </programme>
-  <programme start="20260424073000 +0000" stop="20260424080000 +0000" channel="ESPN4LatinAmerica.us@South">
-    <title lang="es">La Flèche Wallonne</title>
-    <title lang="en">La Flèche Wallonne</title>
-    <category lang="es">La Flèche Wallonne</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_ciclismo-la-fleche-wallonne-1_l_m.jpg</image>
   </programme>
   <programme start="20260424080000 +0000" stop="20260424090000 +0000" channel="ESPN4LatinAmerica.us@South">
     <title lang="es">El show de la Fórmula 1</title>
@@ -84689,7 +84663,7 @@
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_francotirador-6-el-tirador-fantasma-2016-1_l_m.jpg</image>
   </programme>
-  <programme start="20260424055800 +0000" stop="20260424072900 +0000" channel="Space.ar@Alternate">
+  <programme start="20260424055100 +0000" stop="20260424072400 +0000" channel="Space.ar@Alternate">
     <title lang="es">Posesión infernal</title>
     <title lang="en">Evil Dead</title>
     <category lang="es">Terror</category>
@@ -84703,12 +84677,35 @@
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_posesion-infernal-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260424072900 +0000" stop="20260424103000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260424072400 +0000" stop="20260424090100 +0000" channel="Space.ar@Alternate">
     <title lang="es">Posesión infernal: El despertar</title>
     <title lang="en">Evil Dead Rise</title>
     <category lang="es">Terror</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260424090100 +0000" stop="20260424092200 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Guerra de containers</title>
+    <sub-title lang="es">Aventura al aire libre</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.10.0/1</episode-num>
+    <episode-num system="onscreen">S02E11</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_guerra-de-containers-s02e11-aventura-al-aire-libre_l_m.jpg</image>
+  </programme>
+  <programme start="20260424092200 +0000" stop="20260424094700 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Guerra de containers</title>
+    <sub-title lang="es">Control de daños</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
+    <episode-num system="onscreen">S02E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_guerra-de-containers-s02e12-control-de-danos_l_m.jpg</image>
+  </programme>
+  <programme start="20260424094700 +0000" stop="20260424103000 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.108.0/1</episode-num>
+    <episode-num system="onscreen">S01E109</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e109_l_m.jpg</image>
   </programme>
   <programme start="20260424103000 +0000" stop="20260424132400 +0000" channel="Space.ar@Alternate">
     <title lang="es">Batman: El caballero de la noche</title>
@@ -88528,14 +88525,14 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260425053000 +0000" stop="20260425070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260425053000 +0000" stop="20260425063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Lo mejor de Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.22.0/1</episode-num>
     <episode-num system="onscreen">S04E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260425053000 +0000" stop="20260425063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260425053000 +0000" stop="20260425070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Lo mejor de Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.22.0/1</episode-num>
@@ -89131,13 +89128,13 @@
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260425050600 +0000" stop="20260425071700 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260425050600 +0000" stop="20260425060600 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">John Wick: Capítulo 3 - Parabellum</title>
     <title lang="en">John Wick 3: Parabellum</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_john-wick-capitulo-3-parabellum-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260425050600 +0000" stop="20260425060600 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260425050600 +0000" stop="20260425071700 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">John Wick: Capítulo 3 - Parabellum</title>
     <title lang="en">John Wick 3: Parabellum</title>
     <category lang="es">Acción</category>
