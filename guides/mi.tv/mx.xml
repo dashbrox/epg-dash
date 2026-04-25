@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260425075324 +0000">
+<tv generator-info-name="custom-epg" date="20260425101245 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -376,18 +378,16 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <programme start="20260425054000 +0000" stop="20260425074000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El apocalipsis</title>
@@ -709,13 +709,13 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_los-juegos-del-hambre-sinsajo-parte-1-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260427040000 +0000" stop="20260427060500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260427040000 +0000" stop="20260427050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">HellBoy</title>
     <title lang="en">Acción</title>
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260427040000 +0000" stop="20260427050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260427040000 +0000" stop="20260427060500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">HellBoy</title>
     <title lang="en">Acción</title>
     <rating><value>5.2</value></rating>
@@ -12388,7 +12388,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_refugio-en-el-granero-s01e11-el-rescate-de-los-cerdos_l_m.jpg</image>
   </programme>
-  <programme start="20260426051400 +0000" stop="20260426060600 +0000" channel="mx#animal-planet">
+  <programme start="20260426051400 +0000" stop="20260426061400 +0000" channel="mx#animal-planet">
     <title lang="es">Los siete pecados animales</title>
     <sub-title lang="es">Orgullo</sub-title>
     <category lang="es">Serie</category>
@@ -12396,7 +12396,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_los-siete-pecados-animales-s01e06-orgullo_l_m.jpg</image>
   </programme>
-  <programme start="20260426051400 +0000" stop="20260426061400 +0000" channel="mx#animal-planet">
+  <programme start="20260426051400 +0000" stop="20260426060600 +0000" channel="mx#animal-planet">
     <title lang="es">Los siete pecados animales</title>
     <sub-title lang="es">Orgullo</sub-title>
     <category lang="es">Serie</category>
@@ -39602,7 +39602,7 @@
   </programme>
   <programme start="20260425151200 +0000" stop="20260425153000 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Juguete</sub-title>
+    <sub-title lang="es">Astro bobo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <episode-num system="onscreen">S01E09</episode-num>
@@ -39994,7 +39994,7 @@
   </programme>
   <programme start="20260426081000 +0000" stop="20260426083500 +0000" channel="mx#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá</sub-title>
+    <sub-title lang="es">El cumpleaños de los Barbabebés</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -40122,7 +40122,7 @@
   </programme>
   <programme start="20260426133000 +0000" stop="20260426135000 +0000" channel="mx#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">¡Los cachorros salvan a un dulce alcalde! / ¡Los cachorros salvan el truco de magia!</sub-title>
+    <sub-title lang="es">¡Los cachorros salvan a una vaca en la nieve!</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">7.1.0/1</episode-num>
     <episode-num system="onscreen">S08E02</episode-num>
@@ -40258,7 +40258,7 @@
   </programme>
   <programme start="20260426191500 +0000" stop="20260426194000 +0000" channel="mx#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá</sub-title>
+    <sub-title lang="es">El cumpleaños de los Barbabebés</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -40402,7 +40402,7 @@
   </programme>
   <programme start="20260427020000 +0000" stop="20260427022500 +0000" channel="mx#nick-jr">
     <title lang="es">Blaze y los Monster Machines</title>
-    <sub-title lang="es">Las llantas saltarinas</sub-title>
+    <sub-title lang="es">Un paseo épico en bote</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -40482,7 +40482,7 @@
   </programme>
   <programme start="20260427053500 +0000" stop="20260427055500 +0000" channel="mx#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Misión movimiento</sub-title>
+    <sub-title lang="es">El invento de Barbabright</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.0.0/1</episode-num>
     <episode-num system="onscreen">S02E01</episode-num>
