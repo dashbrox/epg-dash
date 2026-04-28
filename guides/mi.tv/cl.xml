@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260428195950 +0000">
+<tv generator-info-name="custom-epg" date="20260428221447 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -635,17 +633,19 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260428060000 +0000" stop="20260428070000 +0000" channel="13C.cl@SD">
     <title lang="es">Ruta 5</title>
@@ -2715,14 +2715,14 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_rambo-iii-1988_l_m.jpg</image>
   </programme>
-  <programme start="20260430050000 +0000" stop="20260430060000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260430050000 +0000" stop="20260430065500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Lo imposible</title>
     <title lang="en">The Impossible</title>
     <category lang="es">Thriller</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_lo-imposible-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260430050000 +0000" stop="20260430065500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260430050000 +0000" stop="20260430060000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Lo imposible</title>
     <title lang="en">The Impossible</title>
     <category lang="es">Thriller</category>
@@ -18477,7 +18477,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_viento-del-everest-s01e06-rescate-en-altura-muerte-en-la-montana_l_m.jpg</image>
   </programme>
-  <programme start="20260429053500 +0000" stop="20260429063500 +0000" channel="cl#animal-planet">
+  <programme start="20260429053500 +0000" stop="20260429062200 +0000" channel="cl#animal-planet">
     <title lang="es">El último de su especie</title>
     <sub-title lang="es">La tortuga oculta de Vietnam</sub-title>
     <category lang="es">Serie</category>
@@ -18485,7 +18485,7 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_el-ultimo-de-su-especie-s02e06-la-tortuga-oculta-de-vietnam_l_m.jpg</image>
   </programme>
-  <programme start="20260429053500 +0000" stop="20260429062200 +0000" channel="cl#animal-planet">
+  <programme start="20260429053500 +0000" stop="20260429063500 +0000" channel="cl#animal-planet">
     <title lang="es">El último de su especie</title>
     <sub-title lang="es">La tortuga oculta de Vietnam</sub-title>
     <category lang="es">Serie</category>
@@ -66784,35 +66784,46 @@
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/cl_cntv-infantil-television-educativa-1_l_m.jpg</image>
   </programme>
-  <programme start="20260428130000 +0000" stop="20260428133000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">Innovación y territorio</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260428130000 +0000" stop="20260428143000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Teatro San Javier</title>
+    <title lang="en">- Concierto Entrama</title>
+    <category lang="es">- Concierto Entrama</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260428133000 +0000" stop="20260428140000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">Antesala</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260428143000 +0000" stop="20260428144000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Resumen informativo en lengua de señas</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_resumen-informativo-en-lengua-de-senas_l_m.jpg</image>
   </programme>
-  <programme start="20260428140000 +0000" stop="20260428190000 +0000" channel="DiputadosTV.ar@SD">
+  <programme start="20260428144000 +0000" stop="20260428150000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Semana en la cámara</title>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_semana-en-la-camara_l_m.jpg</image>
+  </programme>
+  <programme start="20260428150000 +0000" stop="20260428170000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Comisión de ciencias</title>
+    <title lang="en">- Emisión del día 20/04/26</title>
+    <category lang="es">- Emisión del día 20/04/26</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260428170000 +0000" stop="20260428213000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Sesión de sala</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_sesion-de-sala_l_m.jpg</image>
+    <title lang="en">- Sesión Nº 15 - Emisión del día 21/04/26</title>
+    <category lang="es">- Sesión Nº 15 - Emisión del día 21/04/26</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_sesion-de-sala-sesion-n-15-emision-del-dia-21-04-26_l_m.jpg</image>
   </programme>
-  <programme start="20260428190000 +0000" stop="20260428213000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">Comisión de hacienda</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-hacienda_l_m.jpg</image>
+  <programme start="20260428213000 +0000" stop="20260428220000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Mentes brillantes</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_mentes-brillantes_l_m.jpg</image>
   </programme>
-  <programme start="20260428213000 +0000" stop="20260429000000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">Comisión de economía</title>
-    <title lang="en">Economía</title>
-    <category lang="es">Economía</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-economia_l_m.jpg</image>
+  <programme start="20260428220000 +0000" stop="20260429000000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Comisión de recursos hídricos</title>
+    <title lang="en">- Emisión del día 20/04/26</title>
+    <category lang="es">- Emisión del día 20/04/26</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-recursos-hidricos-emision-del-dia-20-04-26_l_m.jpg</image>
   </programme>
   <programme start="20260429000000 +0000" stop="20260429010000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">UESTV</title>
@@ -66820,16 +66831,23 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_uestv_l_m.jpg</image>
   </programme>
-  <programme start="20260429010000 +0000" stop="20260429020000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">Mentes brillantes</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_mentes-brillantes_l_m.jpg</image>
-  </programme>
-  <programme start="20260429020000 +0000" stop="20260429043000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">Comisión de educación</title>
+  <programme start="20260429010000 +0000" stop="20260429013000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Puntos de vista</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-educacion_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/cl_puntos-de-vista_l_m.jpg</image>
+  </programme>
+  <programme start="20260429013000 +0000" stop="20260429033000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Comisión de cultura</title>
+    <title lang="en">- Emisión del día 20/04/26</title>
+    <category lang="es">- Emisión del día 20/04/26</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-cultura-emision-del-dia-20-04-26_l_m.jpg</image>
+  </programme>
+  <programme start="20260429033000 +0000" stop="20260429043000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Vida en el arte</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260429043000 +0000" stop="20260429110000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Cierre</title>
@@ -88960,14 +88978,14 @@
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260430053000 +0000" stop="20260430063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260430053000 +0000" stop="20260430070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.25.0/1</episode-num>
     <episode-num system="onscreen">S04E26</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260430053000 +0000" stop="20260430070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260430053000 +0000" stop="20260430063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.25.0/1</episode-num>
@@ -89602,7 +89620,7 @@
     <episode-num system="onscreen">S05E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s05e22-the-stag-convergence_l_m.jpg</image>
   </programme>
-  <programme start="20260430053800 +0000" stop="20260430063800 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260430053800 +0000" stop="20260430060200 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La aceleración del lanzamiento</sub-title>
     <category lang="es">Serie</category>
@@ -89610,7 +89628,7 @@
     <episode-num system="onscreen">S05E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s05e23-the-launch-acceleration_l_m.jpg</image>
   </programme>
-  <programme start="20260430053800 +0000" stop="20260430060200 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260430053800 +0000" stop="20260430063800 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La aceleración del lanzamiento</sub-title>
     <category lang="es">Serie</category>
