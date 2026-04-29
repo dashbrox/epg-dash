@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260429143726 +0000">
+<tv generator-info-name="custom-epg" date="20260429165939 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -378,16 +376,18 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
   <programme start="20260429054000 +0000" stop="20260429071000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Yo, Frankenstein</title>
@@ -693,14 +693,14 @@
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_soldado-universal-1992_l_m.jpg</image>
   </programme>
-  <programme start="20260501055500 +0000" stop="20260501065500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260501055500 +0000" stop="20260501075000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-protector-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260501055500 +0000" stop="20260501075000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260501055500 +0000" stop="20260501065500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
@@ -12300,7 +12300,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260430051400 +0000" stop="20260430061400 +0000" channel="mx#animal-planet">
+  <programme start="20260430051400 +0000" stop="20260430060600 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Camarones</sub-title>
     <category lang="es">Serie</category>
@@ -12308,7 +12308,7 @@
     <episode-num system="onscreen">S05E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guardianes-de-texas-s05e07-camarones_l_m.jpg</image>
   </programme>
-  <programme start="20260430051400 +0000" stop="20260430060600 +0000" channel="mx#animal-planet">
+  <programme start="20260430051400 +0000" stop="20260430061400 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Camarones</sub-title>
     <category lang="es">Serie</category>
@@ -19759,8 +19759,10 @@
   </programme>
   <programme start="20260430034200 +0000" stop="20260430043000 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Naturaleza indomable</title>
-    <title lang="en">- Mares salvajes</title>
-    <category lang="es">- Mares salvajes</category>
+    <sub-title lang="es">Mares salvajes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260430043000 +0000" stop="20260430052300 +0000" channel="mx#discovery-hd-mexico">
@@ -21001,7 +21003,7 @@
     <episode-num system="onscreen">S08E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_pesadilla-en-la-cocina-s08e01_l_m.jpg</image>
   </programme>
-  <programme start="20260429082800 +0000" stop="20260429091500 +0000" channel="mx#discovery-home-and-health">
+  <programme start="20260429082800 +0000" stop="20260429091600 +0000" channel="mx#discovery-home-and-health">
     <title lang="es">Divina comida</title>
     <sub-title lang="es">Julio César Chávez</sub-title>
     <category lang="es">Serie</category>
@@ -21009,7 +21011,7 @@
     <episode-num system="onscreen">S03E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260429091500 +0000" stop="20260429100200 +0000" channel="mx#discovery-home-and-health">
+  <programme start="20260429091600 +0000" stop="20260429100200 +0000" channel="mx#discovery-home-and-health">
     <title lang="es">Divina comida</title>
     <sub-title lang="es">Luis Fernando Peña</sub-title>
     <category lang="es">Serie</category>
@@ -58247,7 +58249,7 @@
   </programme>
   <programme start="20260430220000 +0000" stop="20260430221000 +0000" channel="XEIPNTDT.mx@SD">
     <title lang="es">Escuela de rugidos</title>
-    <sub-title lang="es">Rinoberto Confiesa</sub-title>
+    <sub-title lang="es">Wufflebump lo confiesa</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -58263,6 +58265,7 @@
   </programme>
   <programme start="20260430222000 +0000" stop="20260430223000 +0000" channel="XEIPNTDT.mx@SD">
     <title lang="es">Alonso y Cachudito</title>
+    <sub-title lang="es">Compartamos las nubes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -58294,6 +58297,7 @@
   </programme>
   <programme start="20260430231500 +0000" stop="20260430232200 +0000" channel="XEIPNTDT.mx@SD">
     <title lang="es">La oveja Shaun</title>
+    <sub-title lang="es">Shelf Life</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">6.1.0/1</episode-num>
     <episode-num system="onscreen">S07E02</episode-num>
