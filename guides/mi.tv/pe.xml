@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260429041329 +0000">
+<tv generator-info-name="custom-epg" date="20260429084242 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
   </channel>
-  <channel id="pe#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
   </channel>
-  <channel id="pe#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
+  <channel id="pe#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="pe#america-television">
+    <display-name>América Televisión</display-name>
   </channel>
   <channel id="pe#universal-channel">
     <display-name>Universal TV</display-name>
@@ -351,17 +353,15 @@
     <display-name>ATV</display-name>
     <icon src="https://i.imgur.com/eUzYZfg.png"/>
   </channel>
-  <channel id="pe#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
-  <channel id="pe#america-television">
-    <display-name>América Televisión</display-name>
+  <channel id="pe#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
-  </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="pe#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
   <programme start="20260429060000 +0000" stop="20260429073000 +0000" channel="ATV.pe@SD">
     <title lang="es">Ghost Whisperer</title>
@@ -2695,9 +2695,9 @@
   </programme>
   <programme start="20260501093000 +0000" stop="20260501110000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Candy Candy</title>
-    <title lang="en">- 1 2 y 3</title>
-    <category lang="es">- 1 2 y 3</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_candy-candy-1-2-y-3_l_m.jpg</image>
+    <title lang="en">- 1 al 3</title>
+    <category lang="es">- 1 al 3</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_candy-candy-1-al-3_l_m.jpg</image>
   </programme>
   <programme start="20260501110000 +0000" stop="20260501123000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Citynoticias de las 8</title>
@@ -2725,8 +2725,8 @@
   </programme>
   <programme start="20260501190000 +0000" stop="20260501193000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">La ciudad que viene</title>
-    <title lang="en">Arquitectura</title>
-    <category lang="es">Arquitectura</category>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260501193000 +0000" stop="20260501200000 +0000" channel="CitytvBogota.co@SD">
@@ -2769,10 +2769,10 @@
     <image>https://cdn.mitvstatic.com/programs/pe_hashtag_l_m.jpg</image>
   </programme>
   <programme start="20260502023000 +0000" stop="20260502033000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">Bravissimo</title>
+    <title lang="es">Bravissimo sin tapujos</title>
     <title lang="en">- Susi Mora</title>
     <category lang="es">- Susi Mora</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_bravissimo-susi-mora_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260502033000 +0000" stop="20260502043000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Citynoticias de las 8</title>
@@ -6419,7 +6419,7 @@
   </programme>
   <programme start="20260501120000 +0000" stop="20260501122000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Mar-Espía / Caos en la cafetería</sub-title>
+    <sub-title lang="es">Mar-Espía</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -6491,7 +6491,7 @@
   </programme>
   <programme start="20260501150000 +0000" stop="20260501152500 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Bob Esponja</title>
-    <sub-title lang="es">El mesón esponjoso / Plankton botado</sub-title>
+    <sub-title lang="es">El mesón esponjoso</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.4.0/1</episode-num>
     <episode-num system="onscreen">S10E05</episode-num>
@@ -6507,7 +6507,7 @@
   </programme>
   <programme start="20260501154000 +0000" stop="20260501160500 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Mar-Espía / Caos en la cafetería</sub-title>
+    <sub-title lang="es">Mar-Espía</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -7025,7 +7025,13 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_buenos-dias-peru-segunda-edicion-1_l_m.jpg</image>
   </programme>
-  <programme start="20260501143000 +0000" stop="20260501163000 +0000" channel="PanamericanaTV.pe@SD">
+  <programme start="20260501143000 +0000" stop="20260501150000 +0000" channel="PanamericanaTV.pe@SD">
+    <title lang="es">Quality Products</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260501150000 +0000" stop="20260501163000 +0000" channel="PanamericanaTV.pe@SD">
     <title lang="es">Detrás de cámaras</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
@@ -8177,14 +8183,14 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_rambo-iii-1988_l_m.jpg</image>
   </programme>
-  <programme start="20260430050000 +0000" stop="20260430065500 +0000" channel="pe#amc">
+  <programme start="20260430050000 +0000" stop="20260430060000 +0000" channel="pe#amc">
     <title lang="es">Lo imposible</title>
     <title lang="en">The Impossible</title>
     <category lang="es">Thriller</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_lo-imposible-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260430050000 +0000" stop="20260430060000 +0000" channel="pe#amc">
+  <programme start="20260430050000 +0000" stop="20260430065500 +0000" channel="pe#amc">
     <title lang="es">Lo imposible</title>
     <title lang="en">The Impossible</title>
     <category lang="es">Thriller</category>
@@ -9809,7 +9815,7 @@
     <episode-num system="onscreen">S06E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_guardianes-de-texas-s06e08-persiguiendo-a-un-hombre-muerto_l_m.jpg</image>
   </programme>
-  <programme start="20260430055600 +0000" stop="20260430064800 +0000" channel="pe#animal-planet">
+  <programme start="20260430055600 +0000" stop="20260430065600 +0000" channel="pe#animal-planet">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">Castración</sub-title>
     <category lang="es">Serie</category>
@@ -9817,7 +9823,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_veterinarios-de-texas-s04e04-el-pug-que-lucha_l_m.jpg</image>
   </programme>
-  <programme start="20260430055600 +0000" stop="20260430065600 +0000" channel="pe#animal-planet">
+  <programme start="20260430055600 +0000" stop="20260430064800 +0000" channel="pe#animal-planet">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">Castración</sub-title>
     <category lang="es">Serie</category>
@@ -10037,12 +10043,13 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_refugio-en-el-granero-s01e04-el-club-de-la-pelea-de-gallos_l_m.jpg</image>
   </programme>
-  <programme start="20260501055600 +0000" stop="20260501064800 +0000" channel="pe#animal-planet">
-    <title lang="es">Wild Frank</title>
+  <programme start="20260501053400 +0000" stop="20260501062500 +0000" channel="pe#animal-planet">
+    <title lang="es">Jeff Corwin en acción</title>
+    <sub-title lang="es">Los elefantes de Tailandia</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_wild-frank-s01e01_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_jeff-corwin-en-accion-s00e06-los-elefantes-de-tailandia_l_m.jpg</image>
   </programme>
   <programme start="20260501055600 +0000" stop="20260501065600 +0000" channel="pe#animal-planet">
     <title lang="es">Wild Frank</title>
@@ -10051,15 +10058,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_wild-frank-s01e01_l_m.jpg</image>
   </programme>
-  <programme start="20260501064800 +0000" stop="20260501073900 +0000" channel="pe#animal-planet">
-    <title lang="es">Jeff Corwin en acción</title>
-    <sub-title lang="es">Los elefantes de Tailandia</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
-    <episode-num system="onscreen">S01E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_jeff-corwin-en-accion-s00e06-los-elefantes-de-tailandia_l_m.jpg</image>
-  </programme>
-  <programme start="20260501073900 +0000" stop="20260501083000 +0000" channel="pe#animal-planet">
+  <programme start="20260501062500 +0000" stop="20260501071600 +0000" channel="pe#animal-planet">
     <title lang="es">Jeff Corwin en acción</title>
     <sub-title lang="es">Seis días con el dragón</sub-title>
     <category lang="es">Serie</category>
@@ -10067,7 +10066,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_jeff-corwin-en-accion-s00e07-seis-dias-con-el-dragon_l_m.jpg</image>
   </programme>
-  <programme start="20260501083000 +0000" stop="20260501092000 +0000" channel="pe#animal-planet">
+  <programme start="20260501071600 +0000" stop="20260501080700 +0000" channel="pe#animal-planet">
     <title lang="es">Refugio en el granero</title>
     <sub-title lang="es">Rescate en un incendio</sub-title>
     <category lang="es">Serie</category>
@@ -10075,14 +10074,14 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_refugio-en-el-granero-s01e03-rescate-en-un-incendio_l_m.jpg</image>
   </programme>
-  <programme start="20260501092000 +0000" stop="20260501101000 +0000" channel="pe#animal-planet">
+  <programme start="20260501080700 +0000" stop="20260501085900 +0000" channel="pe#animal-planet">
     <title lang="es">Perdido entre gorilas</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501101000 +0000" stop="20260501110000 +0000" channel="pe#animal-planet">
+  <programme start="20260501085900 +0000" stop="20260501110000 +0000" channel="pe#animal-planet">
     <title lang="es">Refugio en el granero</title>
     <sub-title lang="es">El club de la pelea de gallos</sub-title>
     <category lang="es">Serie</category>
@@ -16258,7 +16257,7 @@
   </programme>
   <programme start="20260501063200 +0000" stop="20260501063500 +0000" channel="pe#boomerang-cartoon">
     <title lang="es">Blippi quiere saber</title>
-    <sub-title lang="es">Planetas</sub-title>
+    <sub-title lang="es">Copo de nieve</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -17202,7 +17201,7 @@
   </programme>
   <programme start="20260501220400 +0000" stop="20260501220700 +0000" channel="pe#boomerang-cartoon">
     <title lang="es">Blippi quiere saber</title>
-    <sub-title lang="es">Planetas</sub-title>
+    <sub-title lang="es">Copo de nieve</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -17578,7 +17577,7 @@
   </programme>
   <programme start="20260502050600 +0000" stop="20260502051300 +0000" channel="pe#boomerang-cartoon">
     <title lang="es">Pocoyó</title>
-    <sub-title lang="es">Porquería en la tubería</sub-title>
+    <sub-title lang="es">Cortocircuito</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.6.0/1</episode-num>
     <episode-num system="onscreen">S04E07</episode-num>
@@ -20471,15 +20470,7 @@
     <episode-num system="onscreen">S01E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_escandalosos-s01e23-chloe-y-polar_l_m.jpg</image>
   </programme>
-  <programme start="20260501060000 +0000" stop="20260501061000 +0000" channel="pe#cartoon-network">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">Las estrellas</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.21.0/1</episode-num>
-    <episode-num system="onscreen">S05E22</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s05e22-las-estrellas_l_m.jpg</image>
-  </programme>
-  <programme start="20260501061000 +0000" stop="20260501062000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501060000 +0000" stop="20260501061100 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La recopilación</sub-title>
     <category lang="es">Serie</category>
@@ -20487,7 +20478,7 @@
     <episode-num system="onscreen">S04E38</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s04e38-la-recopilacion_l_m.jpg</image>
   </programme>
-  <programme start="20260501062000 +0000" stop="20260501063000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501061100 +0000" stop="20260501062600 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">El pony</sub-title>
     <category lang="es">Serie</category>
@@ -20495,15 +20486,15 @@
     <episode-num system="onscreen">S02E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s02e21-la-flor_l_m.jpg</image>
   </programme>
-  <programme start="20260501063000 +0000" stop="20260501064000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501062600 +0000" stop="20260501063700 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">El secreto</sub-title>
+    <sub-title lang="es">Las estrellas</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
-    <episode-num system="onscreen">S01E22</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s01e22-el-secreto_l_m.jpg</image>
+    <episode-num system="xmltv_ns">4.21.0/1</episode-num>
+    <episode-num system="onscreen">S05E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s05e22-las-estrellas_l_m.jpg</image>
   </programme>
-  <programme start="20260501064000 +0000" stop="20260501065000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501063700 +0000" stop="20260501064900 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La visión</sub-title>
     <category lang="es">Serie</category>
@@ -20511,7 +20502,7 @@
     <episode-num system="onscreen">S05E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s05e05-la-vision_l_m.jpg</image>
   </programme>
-  <programme start="20260501065000 +0000" stop="20260501070000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501064900 +0000" stop="20260501070400 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">El consejo</sub-title>
     <category lang="es">Serie</category>
@@ -20519,23 +20510,7 @@
     <episode-num system="onscreen">S04E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s04e23-el-consejo_l_m.jpg</image>
   </programme>
-  <programme start="20260501070000 +0000" stop="20260501071000 +0000" channel="pe#cartoon-network">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">El beso</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
-    <episode-num system="onscreen">S01E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s01e16-el-horno-de-microondas_l_m.jpg</image>
-  </programme>
-  <programme start="20260501071000 +0000" stop="20260501072000 +0000" channel="pe#cartoon-network">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">La novia</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
-    <episode-num system="onscreen">S04E22</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s04e22-la-novia_l_m.jpg</image>
-  </programme>
-  <programme start="20260501072000 +0000" stop="20260501073000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501070400 +0000" stop="20260501071600 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La inquisición</sub-title>
     <category lang="es">Serie</category>
@@ -20543,71 +20518,15 @@
     <episode-num system="onscreen">S06E44</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s06e44-la-inquisicion_l_m.jpg</image>
   </programme>
-  <programme start="20260501073000 +0000" stop="20260501074000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Cartas para Lars</sub-title>
+  <programme start="20260501071600 +0000" stop="20260501072700 +0000" channel="pe#cartoon-network">
+    <title lang="es">El increíble mundo de Gumball</title>
+    <sub-title lang="es">La novia</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.15.0/1</episode-num>
-    <episode-num system="onscreen">S05E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s05e16-cartas-para-lars_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.21.0/1</episode-num>
+    <episode-num system="onscreen">S04E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s04e22-la-novia_l_m.jpg</image>
   </programme>
-  <programme start="20260501074000 +0000" stop="20260501075000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Un poco de diversión</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
-    <episode-num system="onscreen">S02E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s02e02-un-poco-de-diversion_l_m.jpg</image>
-  </programme>
-  <programme start="20260501075000 +0000" stop="20260501080000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Gemacaciones</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.5.0/1</episode-num>
-    <episode-num system="onscreen">S05E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s05e06-gemacaciones_l_m.jpg</image>
-  </programme>
-  <programme start="20260501080000 +0000" stop="20260501081000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Al diamante</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
-    <episode-num system="onscreen">S03E05</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s03e05-zoltron-el-nino-del-futuro_l_m.jpg</image>
-  </programme>
-  <programme start="20260501081000 +0000" stop="20260501082000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">¿Eres mi papá?</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.22.0/1</episode-num>
-    <episode-num system="onscreen">S04E23</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s04e23-eres-mi-papa_l_m.jpg</image>
-  </programme>
-  <programme start="20260501082000 +0000" stop="20260501083000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Juntos solos</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.25.0/1</episode-num>
-    <episode-num system="onscreen">S05E26</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s05e26-juntos-solos_l_m.jpg</image>
-  </programme>
-  <programme start="20260501083000 +0000" stop="20260501084000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Cartas de amor</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
-    <episode-num system="onscreen">S02E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s02e03-cartas-de-amor_l_m.jpg</image>
-  </programme>
-  <programme start="20260501084000 +0000" stop="20260501085000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Steven Universe</title>
-    <sub-title lang="es">Visión futura</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.38.0/1</episode-num>
-    <episode-num system="onscreen">S01E39</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s01e39-vision-futura_l_m.jpg</image>
-  </programme>
-  <programme start="20260501085000 +0000" stop="20260501090000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501072700 +0000" stop="20260501073900 +0000" channel="pe#cartoon-network">
     <title lang="es">Steven Universe: futuro</title>
     <sub-title lang="es">Juntos por siempre</sub-title>
     <category lang="es">Serie</category>
@@ -20615,23 +20534,63 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-futuro-s01e13-together-forever_l_m.jpg</image>
   </programme>
-  <programme start="20260501090000 +0000" stop="20260501091000 +0000" channel="pe#cartoon-network">
-    <title lang="es">El mundo de Craig</title>
-    <sub-title lang="es">Armando las piezas</sub-title>
+  <programme start="20260501073900 +0000" stop="20260501075000 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">Cartas de amor</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.6.0/1</episode-num>
-    <episode-num system="onscreen">S05E07</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s05e07-armando-las-piezas_l_m.jpg</image>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s02e03-cartas-de-amor_l_m.jpg</image>
   </programme>
-  <programme start="20260501091000 +0000" stop="20260501092000 +0000" channel="pe#cartoon-network">
-    <title lang="es">El mundo de Craig</title>
-    <sub-title lang="es">Amor de cachorro</sub-title>
+  <programme start="20260501075000 +0000" stop="20260501080300 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">Juntos solos</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.27.0/1</episode-num>
-    <episode-num system="onscreen">S04E28</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s04e28-puppy-love_l_m.jpg</image>
+    <episode-num system="xmltv_ns">4.25.0/1</episode-num>
+    <episode-num system="onscreen">S05E26</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s05e26-juntos-solos_l_m.jpg</image>
   </programme>
-  <programme start="20260501092000 +0000" stop="20260501093000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501080300 +0000" stop="20260501081500 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">¿Eres mi papá?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.22.0/1</episode-num>
+    <episode-num system="onscreen">S04E23</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s04e23-eres-mi-papa_l_m.jpg</image>
+  </programme>
+  <programme start="20260501081500 +0000" stop="20260501082600 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">Al diamante</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s03e05-zoltron-el-nino-del-futuro_l_m.jpg</image>
+  </programme>
+  <programme start="20260501082600 +0000" stop="20260501083900 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">Gemacaciones</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.5.0/1</episode-num>
+    <episode-num system="onscreen">S05E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s05e06-gemacaciones_l_m.jpg</image>
+  </programme>
+  <programme start="20260501083900 +0000" stop="20260501085000 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">Un poco de diversión</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s02e02-un-poco-de-diversion_l_m.jpg</image>
+  </programme>
+  <programme start="20260501085000 +0000" stop="20260501090200 +0000" channel="pe#cartoon-network">
+    <title lang="es">Steven Universe</title>
+    <sub-title lang="es">Cartas para Lars</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.15.0/1</episode-num>
+    <episode-num system="onscreen">S05E16</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_steven-universe-s05e16-cartas-para-lars_l_m.jpg</image>
+  </programme>
+  <programme start="20260501090200 +0000" stop="20260501091300 +0000" channel="pe#cartoon-network">
     <title lang="es">El mundo de Craig</title>
     <sub-title lang="es">Competencia de saltos</sub-title>
     <category lang="es">Serie</category>
@@ -20639,15 +20598,23 @@
     <episode-num system="onscreen">S04E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s04e31-the-jump-off_l_m.jpg</image>
   </programme>
-  <programme start="20260501093000 +0000" stop="20260501094000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501091300 +0000" stop="20260501092600 +0000" channel="pe#cartoon-network">
     <title lang="es">El mundo de Craig</title>
-    <sub-title lang="es">El chico del 3030</sub-title>
+    <sub-title lang="es">Amor de cachorro</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.25.0/1</episode-num>
-    <episode-num system="onscreen">S01E26</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s01e26-el-chico-del-3030_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.27.0/1</episode-num>
+    <episode-num system="onscreen">S04E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s04e28-puppy-love_l_m.jpg</image>
   </programme>
-  <programme start="20260501094000 +0000" stop="20260501095000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501092600 +0000" stop="20260501093700 +0000" channel="pe#cartoon-network">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">Armando las piezas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.6.0/1</episode-num>
+    <episode-num system="onscreen">S05E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s05e07-armando-las-piezas_l_m.jpg</image>
+  </programme>
+  <programme start="20260501093700 +0000" stop="20260501095000 +0000" channel="pe#cartoon-network">
     <title lang="es">El mundo de Craig</title>
     <sub-title lang="es">La gran fiebre de fósiles</sub-title>
     <category lang="es">Serie</category>
@@ -20655,7 +20622,7 @@
     <episode-num system="onscreen">S01E38</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s01e38-la-gran-fiebre-de-fosiles_l_m.jpg</image>
   </programme>
-  <programme start="20260501095000 +0000" stop="20260501100000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501095000 +0000" stop="20260501100200 +0000" channel="pe#cartoon-network">
     <title lang="es">El mundo de Craig</title>
     <sub-title lang="es">Misión solitaria</sub-title>
     <category lang="es">Serie</category>
@@ -20663,7 +20630,7 @@
     <episode-num system="onscreen">S01E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-mundo-de-craig-s01e40-mision-solitaria_l_m.jpg</image>
   </programme>
-  <programme start="20260501100000 +0000" stop="20260501101000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501100200 +0000" stop="20260501101300 +0000" channel="pe#cartoon-network">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">¿El lanzamiento perfecto?</sub-title>
     <category lang="es">Serie</category>
@@ -20671,7 +20638,7 @@
     <episode-num system="onscreen">S07E42</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s07e42-el-lanzamiento-perfecto_l_m.jpg</image>
   </programme>
-  <programme start="20260501101000 +0000" stop="20260501102000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501101300 +0000" stop="20260501102500 +0000" channel="pe#cartoon-network">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">Juego del picante</sub-title>
     <category lang="es">Serie</category>
@@ -20679,23 +20646,7 @@
     <episode-num system="onscreen">S03E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s03e05-juego-del-picante_l_m.jpg</image>
   </programme>
-  <programme start="20260501102000 +0000" stop="20260501103000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Los Jóvenes Titanes en acción</title>
-    <sub-title lang="es">Glunkakakah</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">6.28.0/1</episode-num>
-    <episode-num system="onscreen">S07E29</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s07e29-glunkakakah_l_m.jpg</image>
-  </programme>
-  <programme start="20260501103000 +0000" stop="20260501104000 +0000" channel="pe#cartoon-network">
-    <title lang="es">Los Jóvenes Titanes en acción</title>
-    <sub-title lang="es">Aniquilación pascual</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">7.8.0/1</episode-num>
-    <episode-num system="onscreen">S08E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s08e09-ataca-bien-el-crimen_l_m.jpg</image>
-  </programme>
-  <programme start="20260501104000 +0000" stop="20260501105000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501102500 +0000" stop="20260501103600 +0000" channel="pe#cartoon-network">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">Mirando al futuro</sub-title>
     <category lang="es">Serie</category>
@@ -20703,7 +20654,15 @@
     <episode-num system="onscreen">S01E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s01e31-mirando-al-futuro_l_m.jpg</image>
   </programme>
-  <programme start="20260501105000 +0000" stop="20260501110000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501103600 +0000" stop="20260501104800 +0000" channel="pe#cartoon-network">
+    <title lang="es">Los Jóvenes Titanes en acción</title>
+    <sub-title lang="es">Glunkakakah</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">6.28.0/1</episode-num>
+    <episode-num system="onscreen">S07E29</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s07e29-glunkakakah_l_m.jpg</image>
+  </programme>
+  <programme start="20260501104800 +0000" stop="20260501110000 +0000" channel="pe#cartoon-network">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">Tigre enjaulado</sub-title>
     <category lang="es">Serie</category>
@@ -20711,7 +20670,7 @@
     <episode-num system="onscreen">S01E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-jovenes-titanes-en-accion-s01e34-tigre-enjaulado_l_m.jpg</image>
   </programme>
-  <programme start="20260501110000 +0000" stop="20260501111000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501110000 +0000" stop="20260501111100 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La fe</sub-title>
     <category lang="es">Serie</category>
@@ -20719,7 +20678,7 @@
     <episode-num system="onscreen">S06E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s06e11-la-fe_l_m.jpg</image>
   </programme>
-  <programme start="20260501111000 +0000" stop="20260501112000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501111100 +0000" stop="20260501112500 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La revuelta</sub-title>
     <category lang="es">Serie</category>
@@ -20727,7 +20686,7 @@
     <episode-num system="onscreen">S06E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s06e41-la-revuelta_l_m.jpg</image>
   </programme>
-  <programme start="20260501112000 +0000" stop="20260501113000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501112500 +0000" stop="20260501113700 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">Las quejas</sub-title>
     <category lang="es">Serie</category>
@@ -20735,7 +20694,7 @@
     <episode-num system="onscreen">S03E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s03e09-las-quejas_l_m.jpg</image>
   </programme>
-  <programme start="20260501113000 +0000" stop="20260501114000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501113700 +0000" stop="20260501115000 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">El fastidio</sub-title>
     <category lang="es">Serie</category>
@@ -20743,7 +20702,7 @@
     <episode-num system="onscreen">S05E35</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s05e35-el-fastidio_l_m.jpg</image>
   </programme>
-  <programme start="20260501114000 +0000" stop="20260501115000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501115000 +0000" stop="20260501120200 +0000" channel="pe#cartoon-network">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La culpa</sub-title>
     <category lang="es">Serie</category>
@@ -20751,15 +20710,7 @@
     <episode-num system="onscreen">S04E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s04e34-la-culpa_l_m.jpg</image>
   </programme>
-  <programme start="20260501115000 +0000" stop="20260501120000 +0000" channel="pe#cartoon-network">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">El engaño</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.38.0/1</episode-num>
-    <episode-num system="onscreen">S04E39</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-increible-mundo-de-gumball-s04e39-el-engano_l_m.jpg</image>
-  </programme>
-  <programme start="20260501120000 +0000" stop="20260501121000 +0000" channel="pe#cartoon-network">
+  <programme start="20260501120200 +0000" stop="20260501121000 +0000" channel="pe#cartoon-network">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">Me llamo José</sub-title>
     <category lang="es">Serie</category>
@@ -22610,7 +22561,7 @@
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_madagascar-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260501044900 +0000" stop="20260501063900 +0000" channel="pe#cinecanal">
+  <programme start="20260501044900 +0000" stop="20260501063800 +0000" channel="pe#cinecanal">
     <title lang="es">Absolutamente fabulosas</title>
     <title lang="en">Absolutely Fabulous: The Movie</title>
     <category lang="es">Comedia</category>
@@ -22618,6 +22569,13 @@
     <image>https://cdn.mitvstatic.com/programs/pe_absolutamente-fabulosas-2016_l_m.jpg</image>
   </programme>
   <programme start="20260501044900 +0000" stop="20260501054900 +0000" channel="pe#cinecanal">
+    <title lang="es">Absolutamente fabulosas</title>
+    <title lang="en">Absolutely Fabulous: The Movie</title>
+    <category lang="es">Comedia</category>
+    <rating><value>5.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/pe_absolutamente-fabulosas-2016_l_m.jpg</image>
+  </programme>
+  <programme start="20260501063800 +0000" stop="20260501063900 +0000" channel="pe#cinecanal">
     <title lang="es">Absolutamente fabulosas</title>
     <title lang="en">Absolutely Fabulous: The Movie</title>
     <category lang="es">Comedia</category>
@@ -22995,37 +22953,31 @@
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_como-entrenar-a-tu-dragon-2-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260501030000 +0000" stop="20260501060100 +0000" channel="pe#cinemax">
-    <title lang="es">Harry Potter y la piedra filosofal - Edición extendida</title>
-    <title lang="en">Harry Potter and the Sorcerer&apos;s Stone - Extended Edition</title>
-    <category lang="es">Aventura</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_harry-potter-y-la-piedra-filosofal-edicion-extendida-2001_l_m.jpg</image>
-  </programme>
   <programme start="20260501030000 +0000" stop="20260501040000 +0000" channel="pe#cinemax">
     <title lang="es">Harry Potter y la piedra filosofal - Edición extendida</title>
     <title lang="en">Harry Potter and the Sorcerer&apos;s Stone - Extended Edition</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/pe_harry-potter-y-la-piedra-filosofal-edicion-extendida-2001_l_m.jpg</image>
   </programme>
-  <programme start="20260501060100 +0000" stop="20260501075900 +0000" channel="pe#cinemax">
+  <programme start="20260501055600 +0000" stop="20260501075400 +0000" channel="pe#cinemax">
     <title lang="es">El conjuro 3</title>
     <title lang="en">The Conjuring: The Devil Made Me Do It</title>
     <category lang="es">Terror</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_el-conjuro-3-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260501075900 +0000" stop="20260501092300 +0000" channel="pe#cinemax">
+  <programme start="20260501075400 +0000" stop="20260501091600 +0000" channel="pe#cinemax">
     <title lang="es">Heretiks: el convento</title>
     <title lang="en">Heretiks</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/pe_heretiks-el-convento-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260501092300 +0000" stop="20260501110000 +0000" channel="pe#cinemax">
-    <title lang="es">El conjuro 3</title>
-    <title lang="en">The Conjuring: The Devil Made Me Do It</title>
-    <category lang="es">Terror</category>
-    <rating><value>6.3</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-conjuro-3-2021_l_m.jpg</image>
+  <programme start="20260501091600 +0000" stop="20260501110000 +0000" channel="pe#cinemax">
+    <title lang="es">Promesas del Este</title>
+    <title lang="en">Eastern Promises</title>
+    <category lang="es">Thriller</category>
+    <rating><value>7.7</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/pe_promesas-del-este-2007_l_m.jpg</image>
   </programme>
   <programme start="20260501110000 +0000" stop="20260501123500 +0000" channel="pe#cinemax">
     <title lang="es">La tierra perdida</title>
@@ -23535,10 +23487,10 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260501080000 +0000" stop="20260501090000 +0000" channel="pe#cnn-domestico">
-    <title lang="es">Early Start</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_early-start_l_m.jpg</image>
+    <title lang="es">CNN Global Report: War with Iran</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260501090000 +0000" stop="20260501100000 +0000" channel="pe#cnn-domestico">
     <title lang="es">Early Start</title>
@@ -25875,7 +25827,7 @@
     <episode-num system="onscreen">S08E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_todo-en-90-dias-s08e17-first-comes-love_l_m.jpg</image>
   </programme>
-  <programme start="20260501052400 +0000" stop="20260501070000 +0000" channel="pe#discovery-home-and-health">
+  <programme start="20260501044900 +0000" stop="20260501062300 +0000" channel="pe#discovery-home-and-health">
     <title lang="es">Todo en 90 días</title>
     <sub-title lang="es">Confesiones - Parte 1 #8no18</sub-title>
     <category lang="es">Serie</category>
@@ -25891,7 +25843,7 @@
     <episode-num system="onscreen">S08E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_todo-en-90-dias-s08e18-confesiones-parte-1-8no18_l_m.jpg</image>
   </programme>
-  <programme start="20260501070000 +0000" stop="20260501074800 +0000" channel="pe#discovery-home-and-health">
+  <programme start="20260501062300 +0000" stop="20260501071000 +0000" channel="pe#discovery-home-and-health">
     <title lang="es">Remodelaciones con celebridades</title>
     <sub-title lang="es">Andy García honra a un amigo fallecido</sub-title>
     <category lang="es">Serie</category>
@@ -25899,7 +25851,7 @@
     <episode-num system="onscreen">S05E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_remodelaciones-con-celebridades-s05e09-andy-garcia-honra-a-un-amigo-fallecido_l_m.jpg</image>
   </programme>
-  <programme start="20260501074800 +0000" stop="20260501083600 +0000" channel="pe#discovery-home-and-health">
+  <programme start="20260501071000 +0000" stop="20260501075800 +0000" channel="pe#discovery-home-and-health">
     <title lang="es">Remodelaciones con celebridades</title>
     <sub-title lang="es">La construcción de Rob Lowe</sub-title>
     <category lang="es">Serie</category>
@@ -25907,7 +25859,7 @@
     <episode-num system="onscreen">S05E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_remodelaciones-con-celebridades-s05e10-la-construccion-de-rob-lowe_l_m.jpg</image>
   </programme>
-  <programme start="20260501083600 +0000" stop="20260501092400 +0000" channel="pe#discovery-home-and-health">
+  <programme start="20260501075800 +0000" stop="20260501084500 +0000" channel="pe#discovery-home-and-health">
     <title lang="es">Remodelaciones con celebridades</title>
     <sub-title lang="es">El regalo multigeneracional de Kristin Chenoweth</sub-title>
     <category lang="es">Serie</category>
@@ -25915,7 +25867,7 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_remodelaciones-con-celebridades-s06e02-el-regalo-multigeneracional-de-kristin-chenoweth_l_m.jpg</image>
   </programme>
-  <programme start="20260501092400 +0000" stop="20260501101200 +0000" channel="pe#discovery-home-and-health">
+  <programme start="20260501084500 +0000" stop="20260501093300 +0000" channel="pe#discovery-home-and-health">
     <title lang="es">Remodelaciones con celebridades</title>
     <sub-title lang="es">Remodelación al estilo de Heidi Klum</sub-title>
     <category lang="es">Serie</category>
@@ -25923,7 +25875,7 @@
     <episode-num system="onscreen">S03E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_remodelaciones-con-celebridades-s03e14-remodelacion-al-estilo-de-heidi-klum_l_m.jpg</image>
   </programme>
-  <programme start="20260501101200 +0000" stop="20260501110000 +0000" channel="pe#discovery-home-and-health">
+  <programme start="20260501093300 +0000" stop="20260501110000 +0000" channel="pe#discovery-home-and-health">
     <title lang="es">Remodelaciones con celebridades</title>
     <sub-title lang="es">La renovación de la cabaña de John C. Reilly</sub-title>
     <category lang="es">Serie</category>
@@ -29553,23 +29505,21 @@
     <episode-num system="onscreen">S05E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-busby-s05e13-noche-de-paz-santo-slime_l_m.jpg</image>
   </programme>
-  <programme start="20260501133000 +0000" stop="20260501140000 +0000" channel="pe#discovery-tlc">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_a-confirmar_l_m.jpg</image>
+  <programme start="20260501133000 +0000" stop="20260501141500 +0000" channel="pe#discovery-tlc">
+    <title lang="es">Una gran familia</title>
+    <sub-title lang="es">¡Hasta la vista, hermana!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">9.0.0/1</episode-num>
+    <episode-num system="onscreen">S10E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_una-gran-familia-s10e01-hasta-la-vista-hermana_l_m.jpg</image>
   </programme>
-  <programme start="20260501140000 +0000" stop="20260501143000 +0000" channel="pe#discovery-tlc">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_a-confirmar_l_m.jpg</image>
-  </programme>
-  <programme start="20260501143000 +0000" stop="20260501150000 +0000" channel="pe#discovery-tlc">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_a-confirmar_l_m.jpg</image>
+  <programme start="20260501141500 +0000" stop="20260501150000 +0000" channel="pe#discovery-tlc">
+    <title lang="es">Una gran familia</title>
+    <sub-title lang="es">Anna está en problemas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">9.1.0/1</episode-num>
+    <episode-num system="onscreen">S10E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_una-gran-familia-s10e02-anna-esta-en-problemas_l_m.jpg</image>
   </programme>
   <programme start="20260501150000 +0000" stop="20260501154800 +0000" channel="pe#discovery-tlc">
     <title lang="es">Un gran mundo pequeño</title>
@@ -34581,7 +34531,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501180000 +0000" stop="20260501200000 +0000" channel="pe#espn">
-    <title lang="es">Semifinales, La Caja Magica, Madrid, España</title>
+    <title lang="es">Semifinales, La Caja Mágica, Madrid, España</title>
     <title lang="en">Mutua Madrid Open</title>
     <category lang="es">Mutua Madrid Open</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -35264,10 +35214,10 @@
     <image>https://cdn.mitvstatic.com/programs/pe_futbol-uefa-champions-league-weekly_l_m.jpg</image>
   </programme>
   <programme start="20260502040000 +0000" stop="20260502050000 +0000" channel="pe#espn-3">
-    <title lang="es">A confirmar</title>
-    <title lang="en">A confirmar</title>
-    <category lang="es">A confirmar</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_deportivo-a-confirmar_l_m.jpg</image>
+    <title lang="es">Gran Premio Club de Campo Abril</title>
+    <title lang="en">Gran Premio Club de Campo Abril</title>
+    <category lang="es">Gran Premio Club de Campo Abril</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260502050000 +0000" stop="20260502060000 +0000" channel="pe#espn-3">
     <title lang="es">Segunda ronda, Trump National Doral Miami, Doral, FL, USA</title>
@@ -37265,7 +37215,8 @@
   </programme>
   <programme start="20260501152000 +0000" stop="20260501174000 +0000" channel="pe#europa-europa">
     <title lang="es">La primera cosa bella</title>
-    <title lang="en">Comedia</title>
+    <title lang="en">La prima cosa bella</title>
+    <category lang="es">Comedia</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_la-primera-cosa-bella-2010_l_m.jpg</image>
   </programme>
@@ -39286,7 +39237,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501140000 +0000" stop="20260501160000 +0000" channel="pe#fox-sports">
-    <title lang="es">Semifinales, La Caja Magica, Madrid, España</title>
+    <title lang="es">Semifinales, La Caja Mágica, Madrid, España</title>
     <title lang="en">Mutua Madrid Open</title>
     <category lang="es">Mutua Madrid Open</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -39367,13 +39318,13 @@
     <category lang="es">Clasificación - Fórmula 2</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260502035500 +0000" stop="20260502050500 +0000" channel="pe#fox-sports">
+  <programme start="20260502035500 +0000" stop="20260502053500 +0000" channel="pe#fox-sports">
     <title lang="es">Gran Premio de Miami, Práctica 1, Autódromo Internacional de Miami</title>
     <title lang="en">Práctica - Fórmula 1</title>
     <category lang="es">Práctica - Fórmula 1</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260502050500 +0000" stop="20260502060500 +0000" channel="pe#fox-sports">
+  <programme start="20260502053500 +0000" stop="20260502063500 +0000" channel="pe#fox-sports">
     <title lang="es">Gran Premio de Miami, Autódromo Internacional de Miami</title>
     <title lang="en">Clasificación - Fórmula 1 - Sprint Race</title>
     <category lang="es">Clasificación - Fórmula 1 - Sprint Race</category>
@@ -39615,24 +39566,13 @@
     <category lang="es">Semifinal - Ida, Parc des Princes</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260501150000 +0000" stop="20260501160000 +0000" channel="pe#fox-sports-2">
-    <title lang="es">Goles de la Eredivisie</title>
-    <title lang="en">Goles de la Eredivisie</title>
-    <category lang="es">Goles de la Eredivisie</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_futbol-goles-de-la-eredivisie_l_m.jpg</image>
-  </programme>
-  <programme start="20260501160000 +0000" stop="20260501163000 +0000" channel="pe#fox-sports-2">
-    <title lang="es">EFL Highlights</title>
-    <title lang="en">EFL Highlights</title>
-    <category lang="es">EFL Highlights</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_futbol-efl-highlights_l_m.jpg</image>
-  </programme>
-  <programme start="20260501163000 +0000" stop="20260501165000 +0000" channel="pe#fox-sports-2">
-    <title lang="es">PSG campeón UEFA Champions League 2024-2025</title>
-    <category lang="es">PSG campeón UEFA Champions League 2024-2025</category>
+  <programme start="20260501150000 +0000" stop="20260501170000 +0000" channel="pe#fox-sports-2">
+    <title lang="es">Atl. de Madrid (Esp) vs. Arsenal (Ing)</title>
+    <title lang="en">Semifinal - Ida, Riyadh Air Metropolitano</title>
+    <category lang="es">Semifinal - Ida, Riyadh Air Metropolitano</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260501165000 +0000" stop="20260501190000 +0000" channel="pe#fox-sports-2">
+  <programme start="20260501170000 +0000" stop="20260501190000 +0000" channel="pe#fox-sports-2">
     <title lang="es">Gaziantep vs. Besiktas</title>
     <title lang="en">Fecha 32, Gaziantep Stadyumu</title>
     <category lang="es">Fecha 32, Gaziantep Stadyumu</category>
@@ -41725,7 +41665,7 @@
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260501052600 +0000" stop="20260501071100 +0000" channel="pe#hbo">
+  <programme start="20260501051400 +0000" stop="20260501070000 +0000" channel="pe#hbo">
     <title lang="es">Anaconda</title>
     <title lang="en">Aventura</title>
     <rating><value>5.7</value></rating>
@@ -41737,7 +41677,7 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260501071100 +0000" stop="20260501091100 +0000" channel="pe#hbo">
+  <programme start="20260501070000 +0000" stop="20260501091100 +0000" channel="pe#hbo">
     <title lang="es">Una esposa de mentira</title>
     <title lang="en">Just Go with It</title>
     <category lang="es">Comedia</category>
@@ -42454,8 +42394,8 @@
     <title lang="es">Misterios inexplorados con Danny Trejo</title>
     <sub-title lang="es">Secretos turbios</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.14.0/1</episode-num>
-    <episode-num system="onscreen">S02E15</episode-num>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260502035000 +0000" stop="20260502044400 +0000" channel="pe#history">
@@ -43478,17 +43418,17 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260501020000 +0000" stop="20260501070000 +0000" channel="pe#mariavision">
-    <title lang="es">Santa Misa</title>
-    <title lang="en">- Basílica de Zapopan</title>
-    <category lang="es">- Basílica de Zapopan</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-basilica-de-zapopan-1_l_m.jpg</image>
-  </programme>
   <programme start="20260501020000 +0000" stop="20260501030000 +0000" channel="pe#mariavision">
     <title lang="es">Santa Misa</title>
     <title lang="en">- Basílica de Zapopan</title>
     <category lang="es">- Basílica de Zapopan</category>
     <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-basilica-de-zapopan-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260501060000 +0000" stop="20260501070000 +0000" channel="pe#mariavision">
+    <title lang="es">El Santísimo Sacramento</title>
+    <title lang="en">- Desde La Ermita de la Caridad, Miami, Florida</title>
+    <category lang="es">- Desde La Ermita de la Caridad, Miami, Florida</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento-desde-la-ermita-de-la-caridad-miami-florida_l_m.jpg</image>
   </programme>
   <programme start="20260501070000 +0000" stop="20260501090000 +0000" channel="pe#mariavision">
     <title lang="es">El Santísimo Sacramento</title>
@@ -43502,23 +43442,47 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/pe_coronilla-de-la-divina-misericordia_l_m.jpg</image>
   </programme>
-  <programme start="20260501093000 +0000" stop="20260501123000 +0000" channel="pe#mariavision">
+  <programme start="20260501093000 +0000" stop="20260501130000 +0000" channel="pe#mariavision">
     <title lang="es">El Santísimo Sacramento</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento_l_m.jpg</image>
   </programme>
-  <programme start="20260501123000 +0000" stop="20260501140000 +0000" channel="pe#mariavision">
-    <title lang="es">El Santísimo Sacramento</title>
+  <programme start="20260501130000 +0000" stop="20260501133000 +0000" channel="pe#mariavision">
+    <title lang="es">Despertando católicos</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260501140000 +0000" stop="20260501193000 +0000" channel="pe#mariavision">
+  <programme start="20260501133000 +0000" stop="20260501140000 +0000" channel="pe#mariavision">
+    <title lang="es">Santa Misa</title>
+    <title lang="en">- Virgen del Pilar, Sevilla</title>
+    <category lang="es">- Virgen del Pilar, Sevilla</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-virgen-del-pilar-sevilla-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260501140000 +0000" stop="20260501170000 +0000" channel="pe#mariavision">
     <title lang="es">El Santísimo Sacramento</title>
     <title lang="en">- Capilla M+V</title>
     <category lang="es">- Capilla M+V</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento-capilla-m-v_l_m.jpg</image>
+  </programme>
+  <programme start="20260501170000 +0000" stop="20260501180000 +0000" channel="pe#mariavision">
+    <title lang="es">Santa Misa</title>
+    <title lang="en">- Capilla M+V</title>
+    <category lang="es">- Capilla M+V</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-capilla-m-v-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260501180000 +0000" stop="20260501190000 +0000" channel="pe#mariavision">
+    <title lang="es">El Santísimo Sacramento</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento_l_m.jpg</image>
+  </programme>
+  <programme start="20260501190000 +0000" stop="20260501193000 +0000" channel="pe#mariavision">
+    <title lang="es">El Santísimo Sacramento</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento_l_m.jpg</image>
   </programme>
   <programme start="20260501193000 +0000" stop="20260501203000 +0000" channel="pe#mariavision">
     <title lang="es">Santa Misa</title>
@@ -43532,11 +43496,23 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/pe_la-divina-misericordia_l_m.jpg</image>
   </programme>
-  <programme start="20260501213000 +0000" stop="20260502003000 +0000" channel="pe#mariavision">
+  <programme start="20260501213000 +0000" stop="20260501223000 +0000" channel="pe#mariavision">
     <title lang="es">Audiencia con el Rey de reyes</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260501223000 +0000" stop="20260501233000 +0000" channel="pe#mariavision">
+    <title lang="es">El Santo Rosario</title>
+    <title lang="en">- Parroquia La Santa Cruz, Santa Cruz El Grande, Jal, México</title>
+    <category lang="es">- Parroquia La Santa Cruz, Santa Cruz El Grande, Jal, México</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santo-rosario-parroquia-la-santa-cruz-santa-cruz-el-grande-jal-mexico_l_m.jpg</image>
+  </programme>
+  <programme start="20260501233000 +0000" stop="20260502003000 +0000" channel="pe#mariavision">
+    <title lang="es">Santa Misa</title>
+    <title lang="en">- Parroquia del señor de la ascensión, Malpaso, Zac, Mex</title>
+    <category lang="es">- Parroquia del señor de la ascensión, Malpaso, Zac, Mex</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-parroquia-del-senor-de-la-ascension-malpaso-zac-mex_l_m.jpg</image>
   </programme>
   <programme start="20260502003000 +0000" stop="20260502010000 +0000" channel="pe#mariavision">
     <title lang="es">El Santo Rosario</title>
@@ -43546,15 +43522,33 @@
   </programme>
   <programme start="20260502010000 +0000" stop="20260502020000 +0000" channel="pe#mariavision">
     <title lang="es">Santa Misa</title>
-    <title lang="en">- Parroquia la Santa Cruz, Santa Cruz el Grande, Jalisco, México</title>
-    <category lang="es">- Parroquia la Santa Cruz, Santa Cruz el Grande, Jalisco, México</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-parroquia-la-santa-cruz-santa-cruz-el-grande-jalisco-mexico_l_m.jpg</image>
+    <title lang="en">- Parroquia del señor de la ascensión, Malpaso, Zac, Mex</title>
+    <category lang="es">- Parroquia del señor de la ascensión, Malpaso, Zac, Mex</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-parroquia-del-senor-de-la-ascension-malpaso-zac-mex_l_m.jpg</image>
   </programme>
   <programme start="20260502020000 +0000" stop="20260502030000 +0000" channel="pe#mariavision">
     <title lang="es">El Santísimo Sacramento</title>
-    <title lang="en">- Parroquia del señor de la ascensión, Malpaso, Zac, Mex</title>
-    <category lang="es">- Parroquia del señor de la ascensión, Malpaso, Zac, Mex</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento-parroquia-del-senor-de-la-ascension-malpaso-zac-mex_l_m.jpg</image>
+    <title lang="en">- Parroquia del señor de La Ascensión, Malpaso, Zac, Mex</title>
+    <category lang="es">- Parroquia del señor de La Ascensión, Malpaso, Zac, Mex</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento-parroquia-del-senor-de-la-ascension-malpaso-zac-mex-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260502030000 +0000" stop="20260502040000 +0000" channel="pe#mariavision">
+    <title lang="es">El Santísimo Sacramento</title>
+    <title lang="en">- Desde La Ermita de la Caridad, Miami, Florida</title>
+    <category lang="es">- Desde La Ermita de la Caridad, Miami, Florida</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento-desde-la-ermita-de-la-caridad-miami-florida_l_m.jpg</image>
+  </programme>
+  <programme start="20260502040000 +0000" stop="20260502050000 +0000" channel="pe#mariavision">
+    <title lang="es">Santa Misa</title>
+    <title lang="en">- Parroquia San Isidro Labrador, Huejutla, Hidalgol, Mex</title>
+    <category lang="es">- Parroquia San Isidro Labrador, Huejutla, Hidalgol, Mex</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_santa-misa-parroquia-san-isidro-labrador-huejutla-hidalgol-mex_l_m.jpg</image>
+  </programme>
+  <programme start="20260502050000 +0000" stop="20260502060000 +0000" channel="pe#mariavision">
+    <title lang="es">El Santísimo Sacramento</title>
+    <title lang="en">- Parroquia San Isidro Labrador, Huejutla, Hidalgol, México</title>
+    <category lang="es">- Parroquia San Isidro Labrador, Huejutla, Hidalgol, México</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_el-santisimo-sacramento-parroquia-san-isidro-labrador-huejutla-hidalgol-mexico_l_m.jpg</image>
   </programme>
   <programme start="20260429045000 +0000" stop="20260429063500 +0000" channel="pe#multipremier">
     <title lang="es">De 5 a 7</title>
@@ -45829,7 +45823,7 @@
   </programme>
   <programme start="20260501083500 +0000" stop="20260501084000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Agente doble / Hoja marina / Premios</sub-title>
+    <sub-title lang="es">Premios</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -45837,7 +45831,7 @@
   </programme>
   <programme start="20260501084000 +0000" stop="20260501085000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Vinny</sub-title>
+    <sub-title lang="es">Regalo/Película/Vinny</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -45933,7 +45927,7 @@
   </programme>
   <programme start="20260501124500 +0000" stop="20260501130500 +0000" channel="pe#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -46013,7 +46007,7 @@
   </programme>
   <programme start="20260501153500 +0000" stop="20260501155500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Boris</sub-title>
+    <sub-title lang="es">Nacido para ser libre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -46061,7 +46055,7 @@
   </programme>
   <programme start="20260501174500 +0000" stop="20260501181000 +0000" channel="pe#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -46165,7 +46159,7 @@
   </programme>
   <programme start="20260501225000 +0000" stop="20260501230000 +0000" channel="pe#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">¡Los cachorros salvan a un gallo fugitivo!</sub-title>
+    <sub-title lang="es">¡Los cachorros salvan a una vaca en la nieve!</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">7.0.0/1</episode-num>
     <episode-num system="onscreen">S08E01</episode-num>
@@ -46173,7 +46167,7 @@
   </programme>
   <programme start="20260501230000 +0000" stop="20260501232000 +0000" channel="pe#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -46253,7 +46247,7 @@
   </programme>
   <programme start="20260502013000 +0000" stop="20260502015000 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Boris</sub-title>
+    <sub-title lang="es">Nacido para ser libre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -46261,7 +46255,7 @@
   </programme>
   <programme start="20260502015000 +0000" stop="20260502020000 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El invento de Barbabright</sub-title>
+    <sub-title lang="es">Misión movimiento / El invento de barbabrillo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.0.0/1</episode-num>
     <episode-num system="onscreen">S02E01</episode-num>
@@ -46293,7 +46287,7 @@
   </programme>
   <programme start="20260502030000 +0000" stop="20260502032000 +0000" channel="pe#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -48880,7 +48874,7 @@
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260501044600 +0000" stop="20260501062200 +0000" channel="pe#space">
+  <programme start="20260501044200 +0000" stop="20260501061900 +0000" channel="pe#space">
     <title lang="es">El guerrero rojo</title>
     <title lang="en">Red Sonja</title>
     <category lang="es">Fantasía</category>
@@ -48894,19 +48888,33 @@
     <rating><value>5.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_el-guerrero-rojo-1985_l_m.jpg</image>
   </programme>
-  <programme start="20260501062200 +0000" stop="20260501075100 +0000" channel="pe#space">
+  <programme start="20260501061900 +0000" stop="20260501074700 +0000" channel="pe#space">
     <title lang="es">Crank, muerte anunciada</title>
     <title lang="en">Crank</title>
     <category lang="es">Thriller</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_crank-muerte-anunciada-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260501075100 +0000" stop="20260501100000 +0000" channel="pe#space">
+  <programme start="20260501074700 +0000" stop="20260501094400 +0000" channel="pe#space">
     <title lang="es">El líder</title>
     <title lang="en">The Grey</title>
     <category lang="es">Acción</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_el-lider-2012_l_m.jpg</image>
+  </programme>
+  <programme start="20260501094400 +0000" stop="20260501095700 +0000" channel="pe#space">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.105.0/1</episode-num>
+    <episode-num system="onscreen">S01E106</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e106_l_m.jpg</image>
+  </programme>
+  <programme start="20260501095700 +0000" stop="20260501100000 +0000" channel="pe#space">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.211.0/1</episode-num>
+    <episode-num system="onscreen">S14E212</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_tnt-buzz-s14e212_l_m.jpg</image>
   </programme>
   <programme start="20260501100000 +0000" stop="20260501123500 +0000" channel="pe#space">
     <title lang="es">T34</title>
@@ -49164,24 +49172,38 @@
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260501053300 +0000" stop="20260501074200 +0000" channel="pe#tcm">
-    <title lang="es">Blind Witness</title>
-    <title lang="en">Mienai mokugekisha</title>
-    <category lang="es">Thriller</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
   <programme start="20260501053300 +0000" stop="20260501063300 +0000" channel="pe#tcm">
     <title lang="es">Blind Witness</title>
     <title lang="en">Mienai mokugekisha</title>
     <category lang="es">Thriller</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260501074200 +0000" stop="20260501105500 +0000" channel="pe#tcm">
+  <programme start="20260501053900 +0000" stop="20260501072900 +0000" channel="pe#tcm">
+    <title lang="es">Blind Witness</title>
+    <title lang="en">Mienai mokugekisha</title>
+    <category lang="es">Thriller</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260501072900 +0000" stop="20260501093100 +0000" channel="pe#tcm">
     <title lang="es">Cautivos del mal</title>
     <title lang="en">The Bad and the Beautiful</title>
     <category lang="es">Drama</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_cautivos-del-mal-1952_l_m.jpg</image>
+  </programme>
+  <programme start="20260501093100 +0000" stop="20260501094400 +0000" channel="pe#tcm">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.105.0/1</episode-num>
+    <episode-num system="onscreen">S01E106</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e106_l_m.jpg</image>
+  </programme>
+  <programme start="20260501094400 +0000" stop="20260501105500 +0000" channel="pe#tcm">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.107.0/1</episode-num>
+    <episode-num system="onscreen">S01E108</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e108_l_m.jpg</image>
   </programme>
   <programme start="20260501105500 +0000" stop="20260501123300 +0000" channel="pe#tcm">
     <title lang="es">Europe Raiders</title>
@@ -50583,13 +50605,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501060000 +0000" stop="20260501060500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501060500 +0000" stop="20260501063000 +0000" channel="pe#telesur">
+  <programme start="20260501060000 +0000" stop="20260501063000 +0000" channel="pe#telesur">
     <title lang="es">Somos</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -50601,13 +50617,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501070000 +0000" stop="20260501070500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501070500 +0000" stop="20260501073000 +0000" channel="pe#telesur">
+  <programme start="20260501070000 +0000" stop="20260501073000 +0000" channel="pe#telesur">
     <title lang="es">Impacto económico - Emisión estelar</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -50615,15 +50625,15 @@
   </programme>
   <programme start="20260501073000 +0000" stop="20260501080000 +0000" channel="pe#telesur">
     <title lang="es">El mundo desde el sur</title>
-    <title lang="en">- Emisión del día 23/04/26</title>
-    <category lang="es">- Emisión del día 23/04/26</category>
+    <title lang="en">- Emisión del día 30/04/26</title>
+    <category lang="es">- Emisión del día 30/04/26</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260501080000 +0000" stop="20260501083000 +0000" channel="pe#telesur">
     <title lang="es">Entre fronteras</title>
-    <title lang="en">- Emisión del día 23/04/26</title>
-    <category lang="es">- Emisión del día 23/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_entre-fronteras-emision-del-dia-23-04-26_l_m.jpg</image>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_entre-fronteras_l_m.jpg</image>
   </programme>
   <programme start="20260501083000 +0000" stop="20260501090000 +0000" channel="pe#telesur">
     <title lang="es">Telesur Noticias</title>
@@ -50631,13 +50641,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501090000 +0000" stop="20260501090500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501090500 +0000" stop="20260501093000 +0000" channel="pe#telesur">
+  <programme start="20260501090000 +0000" stop="20260501093000 +0000" channel="pe#telesur">
     <title lang="es">El mapa</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
@@ -50649,13 +50653,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501100000 +0000" stop="20260501100500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501100500 +0000" stop="20260501103000 +0000" channel="pe#telesur">
+  <programme start="20260501100000 +0000" stop="20260501103000 +0000" channel="pe#telesur">
     <title lang="es">Somos</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -50669,9 +50667,9 @@
   </programme>
   <programme start="20260501110000 +0000" stop="20260501113000 +0000" channel="pe#telesur">
     <title lang="es">Latitud Brasil</title>
-    <title lang="en">- Emisión del día 22/04/26</title>
-    <category lang="es">- Emisión del día 22/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_latitud-brasil-emision-del-dia-22-04-26_l_m.jpg</image>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_latitud-brasil_l_m.jpg</image>
   </programme>
   <programme start="20260501113000 +0000" stop="20260501120000 +0000" channel="pe#telesur">
     <title lang="es">Conexión digital - Matutino</title>
@@ -50697,13 +50695,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_reporte-360-emision-matutina_l_m.jpg</image>
   </programme>
-  <programme start="20260501140000 +0000" stop="20260501140500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501140500 +0000" stop="20260501143000 +0000" channel="pe#telesur">
+  <programme start="20260501140000 +0000" stop="20260501143000 +0000" channel="pe#telesur">
     <title lang="es">Vidas</title>
     <title lang="en">Entrevista</title>
     <category lang="es">Entrevista</category>
@@ -50715,13 +50707,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501150000 +0000" stop="20260501150500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501150500 +0000" stop="20260501153000 +0000" channel="pe#telesur">
+  <programme start="20260501150000 +0000" stop="20260501153000 +0000" channel="pe#telesur">
     <title lang="es">Deportes Telesur</title>
     <title lang="en">Deportes Telesur</title>
     <category lang="es">Deportes Telesur</category>
@@ -50735,17 +50721,11 @@
   </programme>
   <programme start="20260501163000 +0000" stop="20260501170000 +0000" channel="pe#telesur">
     <title lang="es">Notables</title>
-    <title lang="en">- Emisión del día 24/04/26</title>
-    <category lang="es">- Emisión del día 24/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_notables-emision-del-dia-24-04-26_l_m.jpg</image>
+    <title lang="en">- Emisión del día 30/04/26</title>
+    <category lang="es">- Emisión del día 30/04/26</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_notables-emision-del-dia-30-04-26_l_m.jpg</image>
   </programme>
-  <programme start="20260501170000 +0000" stop="20260501170500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501170500 +0000" stop="20260501173000 +0000" channel="pe#telesur">
+  <programme start="20260501170000 +0000" stop="20260501173000 +0000" channel="pe#telesur">
     <title lang="es">Impacto económico - Emisión matutina</title>
     <title lang="en">Economía</title>
     <category lang="es">Economía</category>
@@ -50757,17 +50737,11 @@
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/pe_conexion-digital-vespertino_l_m.jpg</image>
   </programme>
-  <programme start="20260501180000 +0000" stop="20260501180500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501180500 +0000" stop="20260501183000 +0000" channel="pe#telesur">
+  <programme start="20260501180000 +0000" stop="20260501183000 +0000" channel="pe#telesur">
     <title lang="es">Vidas</title>
-    <title lang="en">- Emisión del día 24/04/26</title>
-    <category lang="es">- Emisión del día 24/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_vidas-emision-del-dia-24-04-26_l_m.jpg</image>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_vidas_l_m.jpg</image>
   </programme>
   <programme start="20260501183000 +0000" stop="20260501190000 +0000" channel="pe#telesur">
     <title lang="es">Lenguaje de señas</title>
@@ -50775,13 +50749,7 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260501190000 +0000" stop="20260501190500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501190500 +0000" stop="20260501193000 +0000" channel="pe#telesur">
+  <programme start="20260501190000 +0000" stop="20260501193000 +0000" channel="pe#telesur">
     <title lang="es">El mapa</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
@@ -50793,13 +50761,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501200000 +0000" stop="20260501200500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501200500 +0000" stop="20260501203000 +0000" channel="pe#telesur">
+  <programme start="20260501200000 +0000" stop="20260501203000 +0000" channel="pe#telesur">
     <title lang="es">Somos</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -50811,13 +50773,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_temas-del-dia_l_m.jpg</image>
   </programme>
-  <programme start="20260501210000 +0000" stop="20260501210500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501210500 +0000" stop="20260501213000 +0000" channel="pe#telesur">
+  <programme start="20260501210000 +0000" stop="20260501213000 +0000" channel="pe#telesur">
     <title lang="es">Deportes Telesur</title>
     <title lang="en">Deportes Telesur</title>
     <category lang="es">Deportes Telesur</category>
@@ -50829,17 +50785,11 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_telesur-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260501220000 +0000" stop="20260501220500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260501220500 +0000" stop="20260501223000 +0000" channel="pe#telesur">
+  <programme start="20260501220000 +0000" stop="20260501223000 +0000" channel="pe#telesur">
     <title lang="es">Entre fronteras</title>
-    <title lang="en">- Emisión del día 23/04/26</title>
-    <category lang="es">- Emisión del día 23/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_entre-fronteras-emision-del-dia-23-04-26_l_m.jpg</image>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_entre-fronteras_l_m.jpg</image>
   </programme>
   <programme start="20260501223000 +0000" stop="20260501230000 +0000" channel="pe#telesur">
     <title lang="es">Reporte 360 - Emisión estelar</title>
@@ -50883,13 +50833,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260502030000 +0000" stop="20260502030500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260502030500 +0000" stop="20260502033000 +0000" channel="pe#telesur">
+  <programme start="20260502030000 +0000" stop="20260502033000 +0000" channel="pe#telesur">
     <title lang="es">El mapa</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
@@ -50897,21 +50841,15 @@
   </programme>
   <programme start="20260502033000 +0000" stop="20260502040000 +0000" channel="pe#telesur">
     <title lang="es">Latitud Brasil</title>
-    <title lang="en">- Emisión del día 22/04/26</title>
-    <category lang="es">- Emisión del día 22/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_latitud-brasil-emision-del-dia-22-04-26_l_m.jpg</image>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_latitud-brasil_l_m.jpg</image>
   </programme>
-  <programme start="20260502040000 +0000" stop="20260502040500 +0000" channel="pe#telesur">
-    <title lang="es">Titulares</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_titulares_l_m.jpg</image>
-  </programme>
-  <programme start="20260502040500 +0000" stop="20260502043000 +0000" channel="pe#telesur">
+  <programme start="20260502040000 +0000" stop="20260502043000 +0000" channel="pe#telesur">
     <title lang="es">Notables</title>
-    <title lang="en">- Emisión del día 24/04/26</title>
-    <category lang="es">- Emisión del día 24/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_notables-emision-del-dia-24-04-26_l_m.jpg</image>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_notables_l_m.jpg</image>
   </programme>
   <programme start="20260502043000 +0000" stop="20260502050000 +0000" channel="pe#telesur">
     <title lang="es">Telesur Noticias</title>
@@ -50921,9 +50859,9 @@
   </programme>
   <programme start="20260502050000 +0000" stop="20260502053000 +0000" channel="pe#telesur">
     <title lang="es">Entre fronteras</title>
-    <title lang="en">- Emisión del día 23/04/26</title>
-    <category lang="es">- Emisión del día 23/04/26</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_entre-fronteras-emision-del-dia-23-04-26_l_m.jpg</image>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_entre-fronteras_l_m.jpg</image>
   </programme>
   <programme start="20260502053000 +0000" stop="20260502063000 +0000" channel="pe#telesur">
     <title lang="es">Telesur Noticias</title>
@@ -51858,7 +51796,7 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_alfa-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260501053000 +0000" stop="20260501065200 +0000" channel="pe#tnt">
+  <programme start="20260501051900 +0000" stop="20260501064200 +0000" channel="pe#tnt">
     <title lang="es">Una película de miedo 3</title>
     <title lang="en">Scary Movie 3</title>
     <category lang="es">Comedia</category>
@@ -51872,18 +51810,33 @@
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_una-pelicula-de-miedo-3-2003_l_m.jpg</image>
   </programme>
-  <programme start="20260501065200 +0000" stop="20260501090600 +0000" channel="pe#tnt">
+  <programme start="20260501064200 +0000" stop="20260501090100 +0000" channel="pe#tnt">
     <title lang="es">Eso</title>
     <title lang="en">It</title>
     <category lang="es">Terror</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_eso-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260501090600 +0000" stop="20260501100000 +0000" channel="pe#tnt">
-    <title lang="es">Corazones jóvenes</title>
-    <title lang="en">Young Hearts</title>
-    <category lang="es">Romántica</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260501090100 +0000" stop="20260501093800 +0000" channel="pe#tnt">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.31.0/1</episode-num>
+    <episode-num system="onscreen">S01E32</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e32_l_m.jpg</image>
+  </programme>
+  <programme start="20260501093800 +0000" stop="20260501094900 +0000" channel="pe#tnt">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.97.0/1</episode-num>
+    <episode-num system="onscreen">S01E98</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e98_l_m.jpg</image>
+  </programme>
+  <programme start="20260501094900 +0000" stop="20260501100000 +0000" channel="pe#tnt">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.104.0/1</episode-num>
+    <episode-num system="onscreen">S01E105</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e105_l_m.jpg</image>
   </programme>
   <programme start="20260501100000 +0000" stop="20260501110100 +0000" channel="pe#tnt">
     <title lang="es">El legado de las mentiras</title>
@@ -52457,7 +52410,7 @@
     <episode-num system="onscreen">S14E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_csi-s14e17-el-largo-camino-a-casa_l_m.jpg</image>
   </programme>
-  <programme start="20260501055000 +0000" stop="20260501063500 +0000" channel="pe#tnt-series">
+  <programme start="20260501054800 +0000" stop="20260501063300 +0000" channel="pe#tnt-series">
     <title lang="es">CSI</title>
     <sub-title lang="es">Sin invitación</sub-title>
     <category lang="es">Serie</category>
@@ -52473,7 +52426,7 @@
     <episode-num system="onscreen">S14E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_csi-s14e18-sin-invitacion_l_m.jpg</image>
   </programme>
-  <programme start="20260501063500 +0000" stop="20260501072000 +0000" channel="pe#tnt-series">
+  <programme start="20260501063300 +0000" stop="20260501071400 +0000" channel="pe#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Vuelo</sub-title>
     <category lang="es">Serie</category>
@@ -52481,7 +52434,7 @@
     <episode-num system="onscreen">S12E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-y-el-orden-uve-s12e15-vuelo_l_m.jpg</image>
   </programme>
-  <programme start="20260501072000 +0000" stop="20260501080200 +0000" channel="pe#tnt-series">
+  <programme start="20260501071400 +0000" stop="20260501075700 +0000" channel="pe#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Exhibición</sub-title>
     <category lang="es">Serie</category>
@@ -52489,7 +52442,7 @@
     <episode-num system="onscreen">S12E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-y-el-orden-uve-s12e16-exhibicion_l_m.jpg</image>
   </programme>
-  <programme start="20260501080200 +0000" stop="20260501084600 +0000" channel="pe#tnt-series">
+  <programme start="20260501075700 +0000" stop="20260501084100 +0000" channel="pe#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Daño</sub-title>
     <category lang="es">Serie</category>
@@ -52497,7 +52450,7 @@
     <episode-num system="onscreen">S09E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-y-el-orden-uve-s09e05-dano_l_m.jpg</image>
   </programme>
-  <programme start="20260501084600 +0000" stop="20260501093100 +0000" channel="pe#tnt-series">
+  <programme start="20260501084100 +0000" stop="20260501092600 +0000" channel="pe#tnt-series">
     <title lang="es">La ley y el orden: UVE</title>
     <sub-title lang="es">Alternativo</sub-title>
     <category lang="es">Serie</category>
@@ -52505,13 +52458,26 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-y-el-orden-uve-s09e01-alternativo_l_m.jpg</image>
   </programme>
-  <programme start="20260501093100 +0000" stop="20260501100000 +0000" channel="pe#tnt-series">
-    <title lang="es">La ley y el orden: UVE</title>
-    <sub-title lang="es">Destrozado</sub-title>
+  <programme start="20260501092600 +0000" stop="20260501094000 +0000" channel="pe#tnt-series">
+    <title lang="es">Hollywood One on One</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">10.23.0/1</episode-num>
-    <episode-num system="onscreen">S11E24</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_la-ley-y-el-orden-uve-s11e24-destrozado_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.93.0/1</episode-num>
+    <episode-num system="onscreen">S01E94</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e94_l_m.jpg</image>
+  </programme>
+  <programme start="20260501094000 +0000" stop="20260501095000 +0000" channel="pe#tnt-series">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.94.0/1</episode-num>
+    <episode-num system="onscreen">S01E95</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e95_l_m.jpg</image>
+  </programme>
+  <programme start="20260501095000 +0000" stop="20260501100000 +0000" channel="pe#tnt-series">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.95.0/1</episode-num>
+    <episode-num system="onscreen">S01E96</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e96_l_m.jpg</image>
   </programme>
   <programme start="20260501100000 +0000" stop="20260501104600 +0000" channel="pe#tnt-series">
     <title lang="es">CSI</title>
@@ -54686,49 +54652,49 @@
     <image>https://cdn.mitvstatic.com/programs/pe_noticiero-sportia_l_m.jpg</image>
   </programme>
   <programme start="20260501130000 +0000" stop="20260501140000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Superfútbol</title>
+    <title lang="es">Toda la actualidad del fútbol argentino</title>
     <title lang="en">Superfútbol</title>
     <category lang="es">Superfútbol</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501140000 +0000" stop="20260501150000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Sportia</title>
+    <title lang="es">El análisis de los clubes de cara a la última fecha</title>
     <title lang="en">Sportia</title>
     <category lang="es">Sportia</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_noticiero-sportia_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501150000 +0000" stop="20260501170000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Dale al medio</title>
+    <title lang="es">El análisis de los clubes de cara a la última fecha</title>
     <title lang="en">Dale al medio</title>
     <category lang="es">Dale al medio</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501170000 +0000" stop="20260501190000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Líbero</title>
+    <title lang="es">El análisis de la Liga Profesional</title>
     <title lang="en">Líbero</title>
     <category lang="es">Líbero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_futbol-libero_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501190000 +0000" stop="20260501220000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Sportia</title>
+    <title lang="es">El análisis de la Liga Profesional</title>
     <title lang="en">Sportia</title>
     <category lang="es">Sportia</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_noticiero-sportia_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501220000 +0000" stop="20260502000000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Presión alta</title>
+    <title lang="es">El análisis de la Liga Profesional</title>
     <title lang="en">Presión alta</title>
     <category lang="es">Presión alta</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_futbol-presion-alta_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/pe_futbol-el-analisis-de-la-liga-profesional_l_m.jpg</image>
   </programme>
   <programme start="20260502000000 +0000" stop="20260502013000 +0000" channel="pe#tyc-sports">
-    <title lang="es">Sportia</title>
+    <title lang="es">La cobertura de la fecha de la Liga Profesional</title>
     <title lang="en">Sportia</title>
     <category lang="es">Sportia</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_noticiero-sportia_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260502013000 +0000" stop="20260502030000 +0000" channel="pe#tyc-sports">
-    <title lang="es">La noche de TyC Sports</title>
+    <title lang="es">El análisis de la fecha de la Liga Profesional</title>
     <title lang="en">La noche de TyC Sports</title>
     <category lang="es">La noche de TyC Sports</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -54983,7 +54949,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260430053000 +0000" stop="20260430062000 +0000" channel="pe#universal-channel">
+  <programme start="20260430053000 +0000" stop="20260430063000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">No es fácil</sub-title>
     <category lang="es">Serie</category>
@@ -54991,7 +54957,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_chicago-fire-s01e09-no-es-facil_l_m.jpg</image>
   </programme>
-  <programme start="20260430053000 +0000" stop="20260430063000 +0000" channel="pe#universal-channel">
+  <programme start="20260430053000 +0000" stop="20260430062000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">No es fácil</sub-title>
     <category lang="es">Serie</category>
@@ -56413,7 +56379,7 @@
     <episode-num system="onscreen">S06E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s06e04-the-re-entry-minimization_l_m.jpg</image>
   </programme>
-  <programme start="20260501055000 +0000" stop="20260501061100 +0000" channel="pe#warner">
+  <programme start="20260501054800 +0000" stop="20260501061100 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La excitación holográfica</sub-title>
     <category lang="es">Serie</category>
@@ -56429,7 +56395,7 @@
     <episode-num system="onscreen">S06E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s06e05-the-holographic-excitation_l_m.jpg</image>
   </programme>
-  <programme start="20260501061100 +0000" stop="20260501063300 +0000" channel="pe#warner">
+  <programme start="20260501061100 +0000" stop="20260501063400 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La aniquilación del extracto</sub-title>
     <category lang="es">Serie</category>
@@ -56437,7 +56403,7 @@
     <episode-num system="onscreen">S06E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s06e06-the-extract-obilteration_l_m.jpg</image>
   </programme>
-  <programme start="20260501063300 +0000" stop="20260501065600 +0000" channel="pe#warner">
+  <programme start="20260501063400 +0000" stop="20260501065500 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La configuración de la cohabitación</sub-title>
     <category lang="es">Serie</category>
@@ -56445,7 +56411,7 @@
     <episode-num system="onscreen">S06E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s06e07-the-habitation-configuration_l_m.jpg</image>
   </programme>
-  <programme start="20260501065600 +0000" stop="20260501071900 +0000" channel="pe#warner">
+  <programme start="20260501065500 +0000" stop="20260501071800 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La peculiaridad del 43</sub-title>
     <category lang="es">Serie</category>
@@ -56453,7 +56419,7 @@
     <episode-num system="onscreen">S06E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s06e08-the-43-peculiarity_l_m.jpg</image>
   </programme>
-  <programme start="20260501071900 +0000" stop="20260501073800 +0000" channel="pe#warner">
+  <programme start="20260501071800 +0000" stop="20260501073900 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">Escalada por la plaza de aparcamiento</sub-title>
     <category lang="es">Serie</category>
@@ -56461,7 +56427,7 @@
     <episode-num system="onscreen">S06E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s06e09-the-parking-spot-escalation_l_m.jpg</image>
   </programme>
-  <programme start="20260501073800 +0000" stop="20260501080100 +0000" channel="pe#warner">
+  <programme start="20260501073900 +0000" stop="20260501080300 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Creo que has ofendido a Don</sub-title>
     <category lang="es">Serie</category>
@@ -56469,7 +56435,7 @@
     <episode-num system="onscreen">S06E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s06e13-creo-que-has-ofendido-a-don_l_m.jpg</image>
   </programme>
-  <programme start="20260501080100 +0000" stop="20260501082400 +0000" channel="pe#warner">
+  <programme start="20260501080300 +0000" stop="20260501082400 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Me gustaría empezar por la del gato</sub-title>
     <category lang="es">Serie</category>
@@ -56477,7 +56443,7 @@
     <episode-num system="onscreen">S06E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s06e15-me-gustaria-empezar-por-la-del-gato_l_m.jpg</image>
   </programme>
-  <programme start="20260501082400 +0000" stop="20260501084500 +0000" channel="pe#warner">
+  <programme start="20260501082400 +0000" stop="20260501084600 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Sólo digo que seguiría muerta en el descanso</sub-title>
     <category lang="es">Serie</category>
@@ -56485,7 +56451,7 @@
     <episode-num system="onscreen">S06E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s06e16-solo-digo-que-seguiria-muerta-en-el-descanso_l_m.jpg</image>
   </programme>
-  <programme start="20260501084500 +0000" stop="20260501090500 +0000" channel="pe#warner">
+  <programme start="20260501084600 +0000" stop="20260501090800 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Empa-rejados</sub-title>
     <category lang="es">Serie</category>
@@ -56493,7 +56459,7 @@
     <episode-num system="onscreen">S06E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s06e17-empa-rejados_l_m.jpg</image>
   </programme>
-  <programme start="20260501090500 +0000" stop="20260501092800 +0000" channel="pe#warner">
+  <programme start="20260501090800 +0000" stop="20260501093100 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">La cabeza enorme de mi hijo</sub-title>
     <category lang="es">Serie</category>
@@ -56501,7 +56467,7 @@
     <episode-num system="onscreen">S06E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s06e18-la-cabeza-enorme-de-mi-hijo_l_m.jpg</image>
   </programme>
-  <programme start="20260501092800 +0000" stop="20260501095100 +0000" channel="pe#warner">
+  <programme start="20260501093100 +0000" stop="20260501095400 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">La regla de los dos dedos</sub-title>
     <category lang="es">Serie</category>
@@ -56509,7 +56475,7 @@
     <episode-num system="onscreen">S06E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s06e19-la-regla-de-los-dos-dedos_l_m.jpg</image>
   </programme>
-  <programme start="20260501095100 +0000" stop="20260501104200 +0000" channel="pe#warner">
+  <programme start="20260501095400 +0000" stop="20260501104800 +0000" channel="pe#warner">
     <title lang="es">Encontrados</title>
     <sub-title lang="es">Desaparecidos sin hogar</sub-title>
     <category lang="es">Serie</category>
@@ -56517,13 +56483,12 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501104200 +0000" stop="20260501110000 +0000" channel="pe#warner">
-    <title lang="es">Cobra Kai</title>
-    <sub-title lang="es">Golpear primero</sub-title>
+  <programme start="20260501104800 +0000" stop="20260501110000 +0000" channel="pe#warner">
+    <title lang="es">Hollywood One on One</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.104.0/1</episode-num>
+    <episode-num system="onscreen">S01E105</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e105_l_m.jpg</image>
   </programme>
   <programme start="20260501110000 +0000" stop="20260501112500 +0000" channel="pe#warner">
     <title lang="es">Georgie y Mandy - Su primer matrimonio</title>
@@ -58171,20 +58136,20 @@
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/pe_udm_l_m.jpg</image>
   </programme>
-  <programme start="20260501060000 +0000" stop="20260501100000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260501053500 +0000" stop="20260501103000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
-  <programme start="20260501100000 +0000" stop="20260501110000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260501103000 +0000" stop="20260501110000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">UDM</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/pe_udm_l_m.jpg</image>
   </programme>
   <programme start="20260501110000 +0000" stop="20260501120000 +0000" channel="WillaxTV.pe@SD">
-    <title lang="es">Al dia con Willax Nacional</title>
+    <title lang="es">Al día con Willax Nacional</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -58248,13 +58213,7 @@
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260502000000 +0000" stop="20260502005000 +0000" channel="WillaxTV.pe@SD">
-    <title lang="es">Willax noticias - Edición central</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_willax-noticias-edicion-central-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260502005000 +0000" stop="20260502005500 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260502000000 +0000" stop="20260502005500 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Willax noticias - Edición central</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -58289,10 +58248,16 @@
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_camotillo-el-tinterillo_l_m.jpg</image>
   </programme>
-  <programme start="20260502050500 +0000" stop="20260502060500 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260502050500 +0000" stop="20260502053500 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Once sueños</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260502053500 +0000" stop="20260502063500 +0000" channel="WillaxTV.pe@SD">
+    <title lang="es">Nutrisa</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
 </tv>
