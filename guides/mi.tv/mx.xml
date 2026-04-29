@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260429111000 +0000">
+<tv generator-info-name="custom-epg" date="20260429143726 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -376,18 +378,16 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <programme start="20260429054000 +0000" stop="20260429071000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Yo, Frankenstein</title>
@@ -693,14 +693,14 @@
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_soldado-universal-1992_l_m.jpg</image>
   </programme>
-  <programme start="20260501055500 +0000" stop="20260501075000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260501055500 +0000" stop="20260501065500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-protector-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260501055500 +0000" stop="20260501065500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260501055500 +0000" stop="20260501075000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
@@ -5762,8 +5762,10 @@
   </programme>
   <programme start="20260430102000 +0000" stop="20260430111000 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Naturaleza indomable</title>
-    <title lang="en">- Mares salvajes</title>
-    <category lang="es">- Mares salvajes</category>
+    <sub-title lang="es">Mares salvajes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260430111000 +0000" stop="20260430120000 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
@@ -5987,7 +5989,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_operacion-alaska-s09e01-terreno-inestable_l_m.jpg</image>
   </programme>
-  <programme start="20260501120000 +0000" stop="20260501122500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501120000 +0000" stop="20260501122700 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Coyote Peterson: aventuras salvajes</title>
     <sub-title lang="es">Enjambre de abejas asesinas</sub-title>
     <category lang="es">Serie</category>
@@ -5995,7 +5997,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_coyote-peterson-aventuras-salvajes-s01e04-dragones-del-norte_l_m.jpg</image>
   </programme>
-  <programme start="20260501122500 +0000" stop="20260501131600 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501122700 +0000" stop="20260501131800 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Pareja salvaje</title>
     <sub-title lang="es">La cocina del oso</sub-title>
     <category lang="es">Serie</category>
@@ -6003,7 +6005,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_pareja-salvaje-s02e09-la-cocina-del-oso_l_m.jpg</image>
   </programme>
-  <programme start="20260501131600 +0000" stop="20260501140700 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501131800 +0000" stop="20260501140900 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Desafío x2</title>
     <sub-title lang="es">Fiordos de Nueva Zelandia</sub-title>
     <category lang="es">Serie</category>
@@ -6011,7 +6013,7 @@
     <episode-num system="onscreen">S04E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_desafio-x2-s04e10-fiordos-de-nueva-zelandia_l_m.jpg</image>
   </programme>
-  <programme start="20260501140700 +0000" stop="20260501145300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501140900 +0000" stop="20260501145500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Operación Alaska</title>
     <sub-title lang="es">A romper</sub-title>
     <category lang="es">Serie</category>
@@ -6019,7 +6021,7 @@
     <episode-num system="onscreen">S02E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_operacion-alaska-s02e02-a-romper_l_m.jpg</image>
   </programme>
-  <programme start="20260501145300 +0000" stop="20260501154300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501145500 +0000" stop="20260501154500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Hombres del Ártico</title>
     <sub-title lang="es">Río crecido</sub-title>
     <category lang="es">Serie</category>
@@ -6027,7 +6029,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_hombres-del-artico-s02e14-rio-crecido-1_l_m.jpg</image>
   </programme>
-  <programme start="20260501154300 +0000" stop="20260501163300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501154500 +0000" stop="20260501163500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Tras la pista del oro</title>
     <sub-title lang="es">Tiburones y oro</sub-title>
     <category lang="es">Serie</category>
@@ -6035,7 +6037,7 @@
     <episode-num system="onscreen">S05E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_tras-la-pista-del-oro-s05e08-tiburones-y-oro_l_m.jpg</image>
   </programme>
-  <programme start="20260501163300 +0000" stop="20260501172300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501163500 +0000" stop="20260501172300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Deadline to Disaster</title>
     <sub-title lang="es">Cat 5 Emergency</sub-title>
     <category lang="es">Serie</category>
@@ -6043,7 +6045,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501172300 +0000" stop="20260501190500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501172300 +0000" stop="20260501190300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Extraídos</title>
     <sub-title lang="es">Desaparición</sub-title>
     <category lang="es">Serie</category>
@@ -6051,7 +6053,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501190500 +0000" stop="20260501205100 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501190300 +0000" stop="20260501204900 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">El último de su especie</title>
     <sub-title lang="es">El leopardo de Zanzíbar</sub-title>
     <category lang="es">Serie</category>
@@ -6059,7 +6061,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-ultimo-de-su-especie-s01e04-el-leopardo-de-zanzibar_l_m.jpg</image>
   </programme>
-  <programme start="20260501205100 +0000" stop="20260501214200 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501204900 +0000" stop="20260501214100 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Motorglam &amp; Eleanor Robles</sub-title>
     <category lang="es">Serie</category>
@@ -6067,7 +6069,7 @@
     <episode-num system="onscreen">S10E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mexicanicos-s10e02-hermanas-mustang-vanavion_l_m.jpg</image>
   </programme>
-  <programme start="20260501214200 +0000" stop="20260501223300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501214100 +0000" stop="20260501223300 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Oka Giner &amp; Merceditas</sub-title>
     <category lang="es">Serie</category>
@@ -6075,7 +6077,7 @@
     <episode-num system="onscreen">S10E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mexicanicos-s10e01-phoenix_l_m.jpg</image>
   </programme>
-  <programme start="20260501223300 +0000" stop="20260501232400 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501223300 +0000" stop="20260501232500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Vacamión &amp; Carrozas Chiapas</sub-title>
     <category lang="es">Serie</category>
@@ -6083,7 +6085,7 @@
     <episode-num system="onscreen">S11E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mexicanicos-s11e02-vacamion-carrozas-chiapas_l_m.jpg</image>
   </programme>
-  <programme start="20260501232400 +0000" stop="20260502001500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260501232500 +0000" stop="20260502001700 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Mexicánicos celebridades</title>
     <sub-title lang="es">Poncho Cadena + Camión de bomberos</sub-title>
     <category lang="es">Serie</category>
@@ -6091,7 +6093,7 @@
     <episode-num system="onscreen">S02E203</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502001500 +0000" stop="20260502010600 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260502001700 +0000" stop="20260502010800 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Carrera por Alaska</title>
     <sub-title lang="es">Meet the Monster</sub-title>
     <category lang="es">Serie</category>
@@ -6099,7 +6101,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502010600 +0000" stop="20260502015800 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
+  <programme start="20260502010800 +0000" stop="20260502015800 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Carrera por Alaska</title>
     <sub-title lang="es">Fiesta o hambruna</sub-title>
     <category lang="es">Serie</category>
@@ -6125,8 +6127,11 @@
   </programme>
   <programme start="20260502034200 +0000" stop="20260502043400 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Naturaleza indomable</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <sub-title lang="es">Mares salvajes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260502043400 +0000" stop="20260502052500 +0000" channel="DiscoveryChannelLatinAmerica.us@Mexico">
     <title lang="es">Planeta Tierra II</title>
@@ -12083,7 +12088,7 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/mx_tiburones-voladores-iii_l_m.jpg</image>
   </programme>
-  <programme start="20260429060600 +0000" stop="20260429065800 +0000" channel="mx#animal-planet">
+  <programme start="20260429060600 +0000" stop="20260429065700 +0000" channel="mx#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Las campanas del Infierno</sub-title>
     <category lang="es">Serie</category>
@@ -12091,7 +12096,7 @@
     <episode-num system="onscreen">S11E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_pesca-mortal-s11e09-las-campanas-del-infierno_l_m.jpg</image>
   </programme>
-  <programme start="20260429065800 +0000" stop="20260429075000 +0000" channel="mx#animal-planet">
+  <programme start="20260429065700 +0000" stop="20260429074900 +0000" channel="mx#animal-planet">
     <title lang="es">Viento del Everest</title>
     <sub-title lang="es">Rescate en altura, muerte en la montaña</sub-title>
     <category lang="es">Serie</category>
@@ -12099,7 +12104,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_viento-del-everest-s01e06-rescate-en-altura-muerte-en-la-montana_l_m.jpg</image>
   </programme>
-  <programme start="20260429075000 +0000" stop="20260429084000 +0000" channel="mx#animal-planet">
+  <programme start="20260429074900 +0000" stop="20260429084000 +0000" channel="mx#animal-planet">
     <title lang="es">El último de su especie</title>
     <sub-title lang="es">La tortuga oculta de Vietnam</sub-title>
     <category lang="es">Serie</category>
@@ -12295,7 +12300,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260430051400 +0000" stop="20260430060600 +0000" channel="mx#animal-planet">
+  <programme start="20260430051400 +0000" stop="20260430061400 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Camarones</sub-title>
     <category lang="es">Serie</category>
@@ -12303,7 +12308,7 @@
     <episode-num system="onscreen">S05E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guardianes-de-texas-s05e07-camarones_l_m.jpg</image>
   </programme>
-  <programme start="20260430051400 +0000" stop="20260430061400 +0000" channel="mx#animal-planet">
+  <programme start="20260430051400 +0000" stop="20260430060600 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Camarones</sub-title>
     <category lang="es">Serie</category>
@@ -19824,8 +19829,10 @@
   </programme>
   <programme start="20260430102000 +0000" stop="20260430111000 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Naturaleza indomable</title>
-    <title lang="en">- Mares salvajes</title>
-    <category lang="es">- Mares salvajes</category>
+    <sub-title lang="es">Mares salvajes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260430111000 +0000" stop="20260430120000 +0000" channel="mx#discovery-hd-mexico">
@@ -20049,7 +20056,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_operacion-alaska-s09e01-terreno-inestable_l_m.jpg</image>
   </programme>
-  <programme start="20260501120000 +0000" stop="20260501122500 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501120000 +0000" stop="20260501122700 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Coyote Peterson: aventuras salvajes</title>
     <sub-title lang="es">Enjambre de abejas asesinas</sub-title>
     <category lang="es">Serie</category>
@@ -20057,7 +20064,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_coyote-peterson-aventuras-salvajes-s01e04-dragones-del-norte_l_m.jpg</image>
   </programme>
-  <programme start="20260501122500 +0000" stop="20260501131600 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501122700 +0000" stop="20260501131800 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Pareja salvaje</title>
     <sub-title lang="es">La cocina del oso</sub-title>
     <category lang="es">Serie</category>
@@ -20065,7 +20072,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_pareja-salvaje-s02e09-la-cocina-del-oso_l_m.jpg</image>
   </programme>
-  <programme start="20260501131600 +0000" stop="20260501140700 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501131800 +0000" stop="20260501140900 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Desafío x2</title>
     <sub-title lang="es">Fiordos de Nueva Zelandia</sub-title>
     <category lang="es">Serie</category>
@@ -20073,7 +20080,7 @@
     <episode-num system="onscreen">S04E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_desafio-x2-s04e10-fiordos-de-nueva-zelandia_l_m.jpg</image>
   </programme>
-  <programme start="20260501140700 +0000" stop="20260501145300 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501140900 +0000" stop="20260501145500 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Operación Alaska</title>
     <sub-title lang="es">A romper</sub-title>
     <category lang="es">Serie</category>
@@ -20081,7 +20088,7 @@
     <episode-num system="onscreen">S02E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_operacion-alaska-s02e02-a-romper_l_m.jpg</image>
   </programme>
-  <programme start="20260501145300 +0000" stop="20260501154300 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501145500 +0000" stop="20260501154500 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Hombres del Ártico</title>
     <sub-title lang="es">Río crecido</sub-title>
     <category lang="es">Serie</category>
@@ -20089,7 +20096,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_hombres-del-artico-s02e14-rio-crecido-1_l_m.jpg</image>
   </programme>
-  <programme start="20260501154300 +0000" stop="20260501163300 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501154500 +0000" stop="20260501163500 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Tras la pista del oro</title>
     <sub-title lang="es">Tiburones y oro</sub-title>
     <category lang="es">Serie</category>
@@ -20097,7 +20104,7 @@
     <episode-num system="onscreen">S05E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_tras-la-pista-del-oro-s05e08-tiburones-y-oro_l_m.jpg</image>
   </programme>
-  <programme start="20260501163300 +0000" stop="20260501172300 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501163500 +0000" stop="20260501172300 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Deadline to Disaster</title>
     <sub-title lang="es">Cat 5 Emergency</sub-title>
     <category lang="es">Serie</category>
@@ -20105,7 +20112,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501172300 +0000" stop="20260501190500 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501172300 +0000" stop="20260501190300 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Extraídos</title>
     <sub-title lang="es">Desaparición</sub-title>
     <category lang="es">Serie</category>
@@ -20113,7 +20120,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501190500 +0000" stop="20260501205100 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501190300 +0000" stop="20260501204900 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">El último de su especie</title>
     <sub-title lang="es">El leopardo de Zanzíbar</sub-title>
     <category lang="es">Serie</category>
@@ -20121,7 +20128,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-ultimo-de-su-especie-s01e04-el-leopardo-de-zanzibar_l_m.jpg</image>
   </programme>
-  <programme start="20260501205100 +0000" stop="20260501214200 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501204900 +0000" stop="20260501214100 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Motorglam &amp; Eleanor Robles</sub-title>
     <category lang="es">Serie</category>
@@ -20129,7 +20136,7 @@
     <episode-num system="onscreen">S10E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mexicanicos-s10e02-hermanas-mustang-vanavion_l_m.jpg</image>
   </programme>
-  <programme start="20260501214200 +0000" stop="20260501223300 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501214100 +0000" stop="20260501223300 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Oka Giner &amp; Merceditas</sub-title>
     <category lang="es">Serie</category>
@@ -20137,7 +20144,7 @@
     <episode-num system="onscreen">S10E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mexicanicos-s10e01-phoenix_l_m.jpg</image>
   </programme>
-  <programme start="20260501223300 +0000" stop="20260501232400 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501223300 +0000" stop="20260501232500 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Vacamión &amp; Carrozas Chiapas</sub-title>
     <category lang="es">Serie</category>
@@ -20145,7 +20152,7 @@
     <episode-num system="onscreen">S11E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mexicanicos-s11e02-vacamion-carrozas-chiapas_l_m.jpg</image>
   </programme>
-  <programme start="20260501232400 +0000" stop="20260502001500 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260501232500 +0000" stop="20260502001700 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Mexicánicos celebridades</title>
     <sub-title lang="es">Poncho Cadena + Camión de bomberos</sub-title>
     <category lang="es">Serie</category>
@@ -20153,7 +20160,7 @@
     <episode-num system="onscreen">S02E203</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502001500 +0000" stop="20260502010600 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260502001700 +0000" stop="20260502010800 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Carrera por Alaska</title>
     <sub-title lang="es">Meet the Monster</sub-title>
     <category lang="es">Serie</category>
@@ -20161,7 +20168,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502010600 +0000" stop="20260502015800 +0000" channel="mx#discovery-hd-mexico">
+  <programme start="20260502010800 +0000" stop="20260502015800 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Carrera por Alaska</title>
     <sub-title lang="es">Fiesta o hambruna</sub-title>
     <category lang="es">Serie</category>
@@ -20187,8 +20194,11 @@
   </programme>
   <programme start="20260502034200 +0000" stop="20260502043400 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Naturaleza indomable</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <sub-title lang="es">Mares salvajes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260502043400 +0000" stop="20260502052500 +0000" channel="mx#discovery-hd-mexico">
     <title lang="es">Planeta Tierra II</title>
@@ -21509,7 +21519,7 @@
     <episode-num system="onscreen">S09E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_pesadilla-en-la-cocina-s09e04-restaurante-kindred_l_m.jpg</image>
   </programme>
-  <programme start="20260501095600 +0000" stop="20260501104600 +0000" channel="mx#discovery-home-and-health">
+  <programme start="20260501095600 +0000" stop="20260501104300 +0000" channel="mx#discovery-home-and-health">
     <title lang="es">Divina comida</title>
     <sub-title lang="es">Karime Pindter</sub-title>
     <category lang="es">Serie</category>
@@ -21517,7 +21527,7 @@
     <episode-num system="onscreen">S04E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501104600 +0000" stop="20260501113500 +0000" channel="mx#discovery-home-and-health">
+  <programme start="20260501104300 +0000" stop="20260501113200 +0000" channel="mx#discovery-home-and-health">
     <title lang="es">Divina comida</title>
     <sub-title lang="es">Diablito</sub-title>
     <category lang="es">Serie</category>
@@ -21525,7 +21535,7 @@
     <episode-num system="onscreen">S04E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260501113500 +0000" stop="20260501120000 +0000" channel="mx#discovery-home-and-health">
+  <programme start="20260501113200 +0000" stop="20260501120000 +0000" channel="mx#discovery-home-and-health">
     <title lang="es">Sobre esta piel</title>
     <sub-title lang="es">Andreza e Indiara</sub-title>
     <category lang="es">Serie</category>
@@ -21697,7 +21707,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260429070800 +0000" stop="20260429075800 +0000" channel="mx#discovery-id">
+  <programme start="20260429070800 +0000" stop="20260429075900 +0000" channel="mx#discovery-id">
     <title lang="es">Crimen casi perfecto</title>
     <sub-title lang="es">Complot familiar</sub-title>
     <category lang="es">Serie</category>
@@ -21705,12 +21715,12 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_crimen-casi-perfecto-s02e10-el-golpeador-en-serie_l_m.jpg</image>
   </programme>
-  <programme start="20260429075800 +0000" stop="20260429093500 +0000" channel="mx#discovery-id">
+  <programme start="20260429075900 +0000" stop="20260429093400 +0000" channel="mx#discovery-id">
     <title lang="es">The Serial Killer&apos;s Apprentice</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260429093500 +0000" stop="20260429102400 +0000" channel="mx#discovery-id">
+  <programme start="20260429093400 +0000" stop="20260429102400 +0000" channel="mx#discovery-id">
     <title lang="es">Cuando el mal se disfraza</title>
     <sub-title lang="es">El guardián de mi hermano</sub-title>
     <category lang="es">Serie</category>
@@ -39616,7 +39626,7 @@
   </programme>
   <programme start="20260429092000 +0000" stop="20260429094500 +0000" channel="mx#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -39696,7 +39706,7 @@
   </programme>
   <programme start="20260429125500 +0000" stop="20260429130500 +0000" channel="mx#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -39752,7 +39762,7 @@
   </programme>
   <programme start="20260429145500 +0000" stop="20260429150500 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Vinny</sub-title>
+    <sub-title lang="es">Regalo/Película/Vinny</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -39760,7 +39770,7 @@
   </programme>
   <programme start="20260429150500 +0000" stop="20260429151200 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Globo</sub-title>
+    <sub-title lang="es">Carrera de cohetes / Magia / Padres</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -39832,7 +39842,7 @@
   </programme>
   <programme start="20260429175500 +0000" stop="20260429181000 +0000" channel="mx#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -39856,7 +39866,7 @@
   </programme>
   <programme start="20260429185500 +0000" stop="20260429191500 +0000" channel="mx#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">¡Los cachorros salvan a un gallo fugitivo!</sub-title>
+    <sub-title lang="es">¡Los cachorros salvan a una vaca en la nieve!</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">7.0.0/1</episode-num>
     <episode-num system="onscreen">S08E01</episode-num>
@@ -39952,7 +39962,7 @@
   </programme>
   <programme start="20260429231000 +0000" stop="20260429232000 +0000" channel="mx#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -39960,7 +39970,7 @@
   </programme>
   <programme start="20260429232000 +0000" stop="20260429233000 +0000" channel="mx#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Giant Volcano</sub-title>
+    <sub-title lang="es">El equipo construye una casa gigante de tortuga / El equipo construye un volcán gigante</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.5.0/1</episode-num>
     <episode-num system="onscreen">S03E06</episode-num>
@@ -40024,7 +40034,7 @@
   </programme>
   <programme start="20260430010500 +0000" stop="20260430013000 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Globo</sub-title>
+    <sub-title lang="es">Carrera de cohetes / Magia / Padres</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -40080,7 +40090,7 @@
   </programme>
   <programme start="20260430031000 +0000" stop="20260430032000 +0000" channel="mx#nick-jr">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">The Crew Builds a Fancy Drive-Thru Restaurant / The Crew Builds a Castle Show</sub-title>
+    <sub-title lang="es">El equipo construye un espectáculo de fuentes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
@@ -40208,7 +40218,7 @@
   </programme>
   <programme start="20260430083500 +0000" stop="20260430084000 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Vinny</sub-title>
+    <sub-title lang="es">Regalo/Película/Vinny</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -40216,7 +40226,7 @@
   </programme>
   <programme start="20260430084000 +0000" stop="20260430085000 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Globo</sub-title>
+    <sub-title lang="es">Carrera de cohetes / Magia / Padres</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -40376,7 +40386,7 @@
   </programme>
   <programme start="20260430145500 +0000" stop="20260430150500 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Agente doble / Hoja marina / Premios</sub-title>
+    <sub-title lang="es">Premios</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -40384,7 +40394,7 @@
   </programme>
   <programme start="20260430150500 +0000" stop="20260430151000 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Vinny</sub-title>
+    <sub-title lang="es">Regalo/Película/Vinny</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -40504,7 +40514,7 @@
   </programme>
   <programme start="20260430200000 +0000" stop="20260430202500 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Agente doble / Hoja marina / Premios</sub-title>
+    <sub-title lang="es">Premios</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -40552,15 +40562,13 @@
   </programme>
   <programme start="20260430222500 +0000" stop="20260430225000 +0000" channel="mx#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Search &amp; Rescue: Pups Save a Swept-Away Sweetheart / Search &amp; Rescue: Mystery of the Missing Kitties</sub-title>
+    <sub-title lang="es">Pups Save A Swept Away Sweetheart Mystery Of The Missing Kitties</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">11.5.0/1</episode-num>
-    <episode-num system="onscreen">S12E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_patrulla-canina-s12e06-search-rescue-los-cachorros-salvan-a-una-novia-arrastrada-por-la-corriente_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/mx_patrulla-canina-s13e00-pups-save-a-swept-away-sweetheart-mystery-of-the-missing-kitties_l_m.jpg</image>
   </programme>
   <programme start="20260430225000 +0000" stop="20260430230000 +0000" channel="mx#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Search &amp; Rescue: Pups Help the Chickens Cross the Road / Search &amp; Rescue: Pups Save a Lost Ryder</sub-title>
+    <sub-title lang="es">Pups Help the Chickens Cross the Road / Pups Save a Lost Ryder</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">11.6.0/1</episode-num>
     <episode-num system="onscreen">S12E07</episode-num>
@@ -40600,7 +40608,7 @@
   </programme>
   <programme start="20260430235500 +0000" stop="20260501002000 +0000" channel="mx#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Campamento de verano - Primera parte</sub-title>
+    <sub-title lang="es">Campamento de verano - Segunda parte</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
@@ -40632,7 +40640,7 @@
   </programme>
   <programme start="20260501005000 +0000" stop="20260501005500 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Astro-Calabaza</sub-title>
+    <sub-title lang="es">Astropumpkin / Noche espeluznante / Dinerstore</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.3.0/1</episode-num>
     <episode-num system="onscreen">S02E04</episode-num>
@@ -40640,7 +40648,7 @@
   </programme>
   <programme start="20260501005500 +0000" stop="20260501010500 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Astro-Calabaza</sub-title>
+    <sub-title lang="es">Astropumpkin / Noche espeluznante / Dinerstore</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.3.0/1</episode-num>
     <episode-num system="onscreen">S02E04</episode-num>
@@ -40680,7 +40688,7 @@
   </programme>
   <programme start="20260501022500 +0000" stop="20260501024500 +0000" channel="mx#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Search &amp; Rescue: Pups Help the Chickens Cross the Road / Search &amp; Rescue: Pups Save a Lost Ryder</sub-title>
+    <sub-title lang="es">Pups Help the Chickens Cross the Road / Pups Save a Lost Ryder</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">11.6.0/1</episode-num>
     <episode-num system="onscreen">S12E07</episode-num>
@@ -41754,7 +41762,7 @@
   </programme>
   <programme start="20260429232500 +0000" stop="20260429235000 +0000" channel="mx#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Mar-Espía / Caos en la cafetería</sub-title>
+    <sub-title lang="es">Mar-Espía</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -42018,7 +42026,7 @@
   </programme>
   <programme start="20260430112500 +0000" stop="20260430114500 +0000" channel="mx#nickelodeon">
     <title lang="es">Bob Esponja</title>
-    <sub-title lang="es">La salchica de lleva todo</sub-title>
+    <sub-title lang="es">Encerrado en el ascensor</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">14.10.0/1</episode-num>
     <episode-num system="onscreen">S15E11</episode-num>
@@ -42226,7 +42234,7 @@
   </programme>
   <programme start="20260430203000 +0000" stop="20260430205500 +0000" channel="mx#nickelodeon">
     <title lang="es">Bob Esponja</title>
-    <sub-title lang="es">La salchica de lleva todo</sub-title>
+    <sub-title lang="es">Encerrado en el ascensor</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">14.10.0/1</episode-num>
     <episode-num system="onscreen">S15E11</episode-num>
@@ -48673,7 +48681,7 @@
     <rating><value>7.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-ultimo-camino-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260501050500 +0000" stop="20260501064200 +0000" channel="mx#tnt-hd">
+  <programme start="20260501050200 +0000" stop="20260501063900 +0000" channel="mx#tnt-hd">
     <title lang="es">Alfa</title>
     <title lang="en">Alpha</title>
     <category lang="es">Aventura</category>
@@ -48687,25 +48695,26 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_alfa-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260501064200 +0000" stop="20260501083700 +0000" channel="mx#tnt-hd">
+  <programme start="20260501063900 +0000" stop="20260501083300 +0000" channel="mx#tnt-hd">
     <title lang="es">El robo del siglo</title>
     <title lang="en">The Bank Job</title>
     <category lang="es">Thriller</category>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-robo-del-siglo-2008_l_m.jpg</image>
   </programme>
-  <programme start="20260501083700 +0000" stop="20260501105500 +0000" channel="mx#tnt-hd">
+  <programme start="20260501083300 +0000" stop="20260501104800 +0000" channel="mx#tnt-hd">
     <title lang="es">Eso</title>
     <title lang="en">It</title>
     <category lang="es">Terror</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_eso-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260501105500 +0000" stop="20260501110000 +0000" channel="mx#tnt-hd">
-    <title lang="es">Corazones jóvenes</title>
-    <title lang="en">Young Hearts</title>
-    <category lang="es">Romántica</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260501104800 +0000" stop="20260501110000 +0000" channel="mx#tnt-hd">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.104.0/1</episode-num>
+    <episode-num system="onscreen">S01E105</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e105_l_m.jpg</image>
   </programme>
   <programme start="20260501110000 +0000" stop="20260501111300 +0000" channel="mx#tnt-hd">
     <title lang="es">Fuga de Pretoria</title>
@@ -48986,7 +48995,7 @@
   </programme>
   <programme start="20260429115900 +0000" stop="20260429120600 +0000" channel="mx#tooncast">
     <title lang="es">Hi Hi Puffy AmiYumi</title>
-    <sub-title lang="es">Vamos a sorfear</sub-title>
+    <sub-title lang="es">Niño consentido</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -49424,7 +49433,7 @@
   </programme>
   <programme start="20260429235600 +0000" stop="20260430000200 +0000" channel="mx#tooncast">
     <title lang="es">Hi Hi Puffy AmiYumi</title>
-    <sub-title lang="es">Vamos a sorfear</sub-title>
+    <sub-title lang="es">Niño consentido</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -55361,13 +55370,6 @@
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_scary-movie-2-otra-pelicula-de-miedo-2001-1_l_m.jpg</image>
   </programme>
-  <programme start="20260501053200 +0000" stop="20260501075200 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Eso</title>
-    <title lang="en">It</title>
-    <category lang="es">Terror</category>
-    <rating><value>7.4</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_eso-2017_l_m.jpg</image>
-  </programme>
   <programme start="20260501053200 +0000" stop="20260501063200 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Eso</title>
     <title lang="en">It</title>
@@ -55375,25 +55377,54 @@
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_eso-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260501075200 +0000" stop="20260501091300 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260501053800 +0000" stop="20260501075600 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Eso</title>
+    <title lang="en">It</title>
+    <category lang="es">Terror</category>
+    <rating><value>7.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_eso-2017_l_m.jpg</image>
+  </programme>
+  <programme start="20260501075600 +0000" stop="20260501091500 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Una película de miedo 3</title>
     <title lang="en">Scary Movie 3</title>
     <category lang="es">Comedia</category>
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_una-pelicula-de-miedo-3-2003_l_m.jpg</image>
   </programme>
-  <programme start="20260501091300 +0000" stop="20260501105200 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260501091500 +0000" stop="20260501105000 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Alfa</title>
     <title lang="en">Alpha</title>
     <category lang="es">Aventura</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_alfa-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260501105200 +0000" stop="20260501120000 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Corazones jóvenes</title>
-    <title lang="en">Young Hearts</title>
-    <category lang="es">Romántica</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260501105000 +0000" stop="20260501112700 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.31.0/1</episode-num>
+    <episode-num system="onscreen">S01E32</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e32_l_m.jpg</image>
+  </programme>
+  <programme start="20260501112700 +0000" stop="20260501114000 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.96.0/1</episode-num>
+    <episode-num system="onscreen">S01E97</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e97_l_m.jpg</image>
+  </programme>
+  <programme start="20260501114000 +0000" stop="20260501115000 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.97.0/1</episode-num>
+    <episode-num system="onscreen">S01E98</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e98_l_m.jpg</image>
+  </programme>
+  <programme start="20260501115000 +0000" stop="20260501120000 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.95.0/1</episode-num>
+    <episode-num system="onscreen">S01E96</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e96_l_m.jpg</image>
   </programme>
   <programme start="20260501120000 +0000" stop="20260501125600 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Fuga de Pretoria</title>
@@ -55422,21 +55453,21 @@
     <image>https://cdn.mitvstatic.com/programs/mx_scott-pilgrim-vs-los-ex-de-la-chica-de-sus-suenos-2010-1_l_m.jpg</image>
   </programme>
   <programme start="20260501185000 +0000" stop="20260501190000 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Previa - Premier League</title>
-    <title lang="en">Previa - Premier League</title>
-    <category lang="es">Previa - Premier League</category>
+    <title lang="es">Leeds Utd. vs. Burnley</title>
+    <title lang="en">Fecha 35, Elland Road</title>
+    <category lang="es">Fecha 35, Elland Road</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501190000 +0000" stop="20260501210000 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Premier League</title>
-    <title lang="en">Premier League</title>
-    <category lang="es">Premier League</category>
+    <title lang="es">Leeds Utd. vs. Burnley</title>
+    <title lang="en">Fecha 35, Elland Road</title>
+    <category lang="es">Fecha 35, Elland Road</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501210000 +0000" stop="20260501210500 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Post - Premier League</title>
-    <title lang="en">Post - Premier League</title>
-    <category lang="es">Post - Premier League</category>
+    <title lang="es">Leeds Utd. vs. Burnley</title>
+    <title lang="en">Fecha 35, Elland Road</title>
+    <category lang="es">Fecha 35, Elland Road</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260501210500 +0000" stop="20260501223700 +0000" channel="TNTLatinAmerica.us@Mexico">
