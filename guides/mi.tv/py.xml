@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260501043804 +0000">
+<tv generator-info-name="custom-epg" date="20260501082910 +0000">
   <channel id="py#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="py#warner-channel">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#abc-tv">
+    <display-name>ABC TV</display-name>
   </channel>
-  <channel id="py#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="py#america-24">
+    <display-name>America 24</display-name>
   </channel>
-  <channel id="py#venus">
-    <display-name>Venus</display-name>
+  <channel id="py#axn">
+    <display-name>AXN</display-name>
+  </channel>
+  <channel id="py#canal-de-las-estrellas">
+    <display-name>Las Estrellas</display-name>
+  </channel>
+  <channel id="py#discovery-world-hd">
+    <display-name>Discovery World</display-name>
+  </channel>
+  <channel id="py#hbo">
+    <display-name>HBO</display-name>
+  </channel>
+  <channel id="py#discovery-turbo">
+    <display-name>Discovery Turbo</display-name>
+  </channel>
+  <channel id="py#golden">
+    <display-name>Golden</display-name>
   </channel>
   <channel id="py#univision">
     <display-name>Univision</display-name>
@@ -132,14 +147,17 @@
   <channel id="py#hbo-hd-este">
     <display-name>HBO HD</display-name>
   </channel>
-  <channel id="py#hbo">
-    <display-name>HBO</display-name>
-  </channel>
-  <channel id="py#golden">
-    <display-name>Golden</display-name>
-  </channel>
   <channel id="py#gol-tv">
     <display-name>Gol TV</display-name>
+  </channel>
+  <channel id="py#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="py#canal-13">
+    <display-name>RPC</display-name>
+  </channel>
+  <channel id="py#discovery-kids">
+    <display-name>Discovery Kids</display-name>
   </channel>
   <channel id="py#fx">
     <display-name>FX</display-name>
@@ -195,15 +213,6 @@
   <channel id="py#disney">
     <display-name>Disney Channel</display-name>
   </channel>
-  <channel id="py#discovery-world-hd">
-    <display-name>Discovery World</display-name>
-  </channel>
-  <channel id="py#discovery-turbo">
-    <display-name>Discovery Turbo</display-name>
-  </channel>
-  <channel id="py#discovery-kids">
-    <display-name>Discovery Kids</display-name>
-  </channel>
   <channel id="py#discovery">
     <display-name>Discovery Channel</display-name>
   </channel>
@@ -229,14 +238,11 @@
   <channel id="py#caracol-internacional">
     <display-name>Caracol Internacional</display-name>
   </channel>
-  <channel id="py#canal-de-las-estrellas">
-    <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="py#canal-13">
-    <display-name>RPC</display-name>
-  </channel>
   <channel id="py#canal-9-snt">
     <display-name>SNT</display-name>
+  </channel>
+  <channel id="py#america-television">
+    <display-name>AMÉRICA TELEVISION</display-name>
   </channel>
   <channel id="py#canal-5-paravision">
     <display-name>Paravisión</display-name>
@@ -244,20 +250,14 @@
   <channel id="py#az-corazon">
     <display-name>Az Corazón</display-name>
   </channel>
-  <channel id="py#axn">
-    <display-name>AXN</display-name>
+  <channel id="py#warner-channel">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="py#venus">
+    <display-name>Venus</display-name>
   </channel>
-  <channel id="py#america-television">
-    <display-name>AMÉRICA TELEVISION</display-name>
-  </channel>
-  <channel id="py#america-24">
-    <display-name>America 24</display-name>
-  </channel>
-  <channel id="py#abc-tv">
-    <display-name>ABC TV</display-name>
+  <channel id="py#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
   <programme start="20260501060000 +0000" stop="20260501070000 +0000" channel="CNNenEspanol.us@SD">
     <title lang="es">Conclusiones</title>
@@ -3599,7 +3599,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502053000 +0000" stop="20260502062000 +0000" channel="py#axn">
+  <programme start="20260502053000 +0000" stop="20260502063000 +0000" channel="py#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">Protección</sub-title>
     <category lang="es">Serie</category>
@@ -3607,7 +3607,7 @@
     <episode-num system="onscreen">S01E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_hawaii-five-o-t01e16-powa-maka-moana-pirate_l_m.jpg</image>
   </programme>
-  <programme start="20260502053000 +0000" stop="20260502063000 +0000" channel="py#axn">
+  <programme start="20260502053000 +0000" stop="20260502062000 +0000" channel="py#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">Protección</sub-title>
     <category lang="es">Serie</category>
@@ -4395,14 +4395,14 @@
     <episode-num system="onscreen">S01E58</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_quererte-asi-t00e58_l_m.jpg</image>
   </programme>
-  <programme start="20260503052400 +0000" stop="20260503061200 +0000" channel="py#az-corazon">
+  <programme start="20260503052400 +0000" stop="20260503062400 +0000" channel="py#az-corazon">
     <title lang="es">Quererte así</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.58.0/1</episode-num>
     <episode-num system="onscreen">S01E59</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_quererte-asi-t00e59_l_m.jpg</image>
   </programme>
-  <programme start="20260503052400 +0000" stop="20260503062400 +0000" channel="py#az-corazon">
+  <programme start="20260503052400 +0000" stop="20260503061200 +0000" channel="py#az-corazon">
     <title lang="es">Quererte así</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.58.0/1</episode-num>
@@ -10797,14 +10797,14 @@
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_red-social-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260502043000 +0000" stop="20260502060500 +0000" channel="py#dhe">
+  <programme start="20260502043000 +0000" stop="20260502053000 +0000" channel="py#dhe">
     <title lang="es">Jesse Stone: Perdido en el paraíso</title>
     <title lang="en">Jesse Stone: Lost in Paradise</title>
     <category lang="es">Crimen</category>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_jesse-stone-perdido-en-el-paraiso-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260502043000 +0000" stop="20260502053000 +0000" channel="py#dhe">
+  <programme start="20260502043000 +0000" stop="20260502060500 +0000" channel="py#dhe">
     <title lang="es">Jesse Stone: Perdido en el paraíso</title>
     <title lang="en">Jesse Stone: Lost in Paradise</title>
     <category lang="es">Crimen</category>
@@ -14927,7 +14927,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502054800 +0000" stop="20260502061200 +0000" channel="py#discovery-world-hd">
+  <programme start="20260502054800 +0000" stop="20260502064800 +0000" channel="py#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Playa contra pantano</sub-title>
     <category lang="es">Serie</category>
@@ -14935,7 +14935,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_pantano-se-vende-t01e08-playa-contra-pantano_l_m.jpg</image>
   </programme>
-  <programme start="20260502054800 +0000" stop="20260502064800 +0000" channel="py#discovery-world-hd">
+  <programme start="20260502054800 +0000" stop="20260502061200 +0000" channel="py#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Playa contra pantano</sub-title>
     <category lang="es">Serie</category>
@@ -22621,13 +22621,13 @@
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260503054000 +0000" stop="20260503074000 +0000" channel="py#hbo">
+  <programme start="20260503054000 +0000" stop="20260503064000 +0000" channel="py#hbo">
     <title lang="es">Barbie</title>
     <title lang="en">Comedia</title>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260503054000 +0000" stop="20260503064000 +0000" channel="py#hbo">
+  <programme start="20260503054000 +0000" stop="20260503074000 +0000" channel="py#hbo">
     <title lang="es">Barbie</title>
     <title lang="en">Comedia</title>
     <rating><value>7.0</value></rating>
@@ -40114,7 +40114,7 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_chicago-fire-t01e17-mejor-mentir_l_m.jpg</image>
   </programme>
-  <programme start="20260502055000 +0000" stop="20260502064000 +0000" channel="py#universal-channel-hd">
+  <programme start="20260502055000 +0000" stop="20260502065000 +0000" channel="py#universal-channel-hd">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">La canción de Gregory Williams Yates</sub-title>
     <category lang="es">Serie</category>
@@ -40122,7 +40122,7 @@
     <episode-num system="onscreen">S03E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502055000 +0000" stop="20260502065000 +0000" channel="py#universal-channel-hd">
+  <programme start="20260502055000 +0000" stop="20260502064000 +0000" channel="py#universal-channel-hd">
     <title lang="es">Policías de Chicago</title>
     <sub-title lang="es">La canción de Gregory Williams Yates</sub-title>
     <category lang="es">Serie</category>
@@ -41114,13 +41114,13 @@
     <category lang="es">Erótico</category>
     <image>https://cdn.mitvstatic.com/programs/py_venus_l_m.jpg</image>
   </programme>
-  <programme start="20260503030000 +0000" stop="20260503150000 +0000" channel="py#venus">
+  <programme start="20260503030000 +0000" stop="20260503040000 +0000" channel="py#venus">
     <title lang="es">Venus</title>
     <title lang="en">Erótico</title>
     <category lang="es">Erótico</category>
     <image>https://cdn.mitvstatic.com/programs/py_venus_l_m.jpg</image>
   </programme>
-  <programme start="20260503030000 +0000" stop="20260503040000 +0000" channel="py#venus">
+  <programme start="20260503030000 +0000" stop="20260503150000 +0000" channel="py#venus">
     <title lang="es">Venus</title>
     <title lang="en">Erótico</title>
     <category lang="es">Erótico</category>
@@ -41976,14 +41976,14 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260502041200 +0000" stop="20260502061900 +0000" channel="py#warner-channel">
+  <programme start="20260502041200 +0000" stop="20260502051200 +0000" channel="py#warner-channel">
     <title lang="es">El justiciero 2</title>
     <title lang="en">The Equalizer 2</title>
     <category lang="es">Acción</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_el-justiciero-2-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260502041200 +0000" stop="20260502051200 +0000" channel="py#warner-channel">
+  <programme start="20260502041200 +0000" stop="20260502061900 +0000" channel="py#warner-channel">
     <title lang="es">El justiciero 2</title>
     <title lang="en">The Equalizer 2</title>
     <category lang="es">Acción</category>
@@ -42221,7 +42221,7 @@
     <episode-num system="onscreen">S07E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_dos-hombres-y-medio-t07e06-dame-tu-pulgar_l_m.jpg</image>
   </programme>
-  <programme start="20260503055100 +0000" stop="20260503061200 +0000" channel="py#warner-channel">
+  <programme start="20260503055100 +0000" stop="20260503065100 +0000" channel="py#warner-channel">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Lo inmaculado</sub-title>
     <category lang="es">Serie</category>
@@ -42229,7 +42229,7 @@
     <episode-num system="onscreen">S07E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_dos-hombres-y-medio-t07e07-lo-inmaculado_l_m.jpg</image>
   </programme>
-  <programme start="20260503055100 +0000" stop="20260503065100 +0000" channel="py#warner-channel">
+  <programme start="20260503055100 +0000" stop="20260503061200 +0000" channel="py#warner-channel">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Lo inmaculado</sub-title>
     <category lang="es">Serie</category>
