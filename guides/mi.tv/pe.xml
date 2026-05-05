@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260505143508 +0000">
+<tv generator-info-name="custom-epg" date="20260505170619 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -132,24 +132,23 @@
   <channel id="pe#cinemax">
     <display-name>Cinemax</display-name>
   </channel>
+  <channel id="pe#euronews">
+    <display-name>Euronews</display-name>
+  </channel>
+  <channel id="pe#eurochannel">
+    <display-name>Eurochannel</display-name>
+  </channel>
   <channel id="pe#cinema">
     <display-name>Cinema+</display-name>
   </channel>
+  <channel id="pe#espn-3">
+    <display-name>ESPN 3</display-name>
+  </channel>
+  <channel id="pe#espn-2">
+    <display-name>ESPN 2</display-name>
+  </channel>
   <channel id="pe#espn">
     <display-name>ESPN</display-name>
-  </channel>
-  <channel id="pe#mariavision">
-    <display-name>Mariavisión</display-name>
-  </channel>
-  <channel id="pe#lifetime">
-    <display-name>Lifetime</display-name>
-  </channel>
-  <channel id="pe#las-estrellas">
-    <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="LaTele.pe@SD">
-    <display-name>La Tele</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png"/>
   </channel>
   <channel id="pe#i-sat">
     <display-name>I.Sat</display-name>
@@ -212,23 +211,31 @@
   <channel id="pe#europa-europa">
     <display-name>Europa Europa</display-name>
   </channel>
-  <channel id="pe#euronews">
-    <display-name>Euronews</display-name>
+  <channel id="pe#national-geographic">
+    <display-name>National Geographic</display-name>
   </channel>
-  <channel id="pe#eurochannel">
-    <display-name>Eurochannel</display-name>
+  <channel id="pe#nat-geo-wild">
+    <display-name>National Geographic Wild</display-name>
   </channel>
-  <channel id="pe#espn-3">
-    <display-name>ESPN 3</display-name>
-  </channel>
-  <channel id="pe#espn-2">
-    <display-name>ESPN 2</display-name>
+  <channel id="pe#nat-geo-kids">
+    <display-name>Nat Geo Kids</display-name>
   </channel>
   <channel id="pe#multipremier">
     <display-name>Multipremier</display-name>
   </channel>
-  <channel id="pe#mtv-hits">
-    <display-name>MTV Hits</display-name>
+  <channel id="MiGenteTV.co@SD">
+    <display-name>Mi Gente TV</display-name>
+    <icon src="https://i.imgur.com/CSbmQlu.png"/>
+  </channel>
+  <channel id="MasChic.ar@Panregional">
+    <display-name>Más Chic</display-name>
+    <icon src="https://i.imgur.com/cJC22gJ.png"/>
+  </channel>
+  <channel id="pe#mariavision">
+    <display-name>Mariavisión</display-name>
+  </channel>
+  <channel id="pe#lifetime">
+    <display-name>Lifetime</display-name>
   </channel>
   <channel id="WillaxTV.pe@SD">
     <display-name>Willax</display-name>
@@ -329,18 +336,11 @@
     <display-name>NexTV</display-name>
     <icon src="https://i.imgur.com/yuEou9C.png"/>
   </channel>
-  <channel id="pe#national-geographic">
-    <display-name>National Geographic</display-name>
+  <channel id="pe#mtv-hits">
+    <display-name>MTV Hits</display-name>
   </channel>
-  <channel id="pe#nat-geo-wild">
-    <display-name>National Geographic Wild</display-name>
-  </channel>
-  <channel id="pe#nat-geo-kids">
-    <display-name>Nat Geo Kids</display-name>
-  </channel>
-  <channel id="MiGenteTV.co@SD">
-    <display-name>Mi Gente TV</display-name>
-    <icon src="https://i.imgur.com/CSbmQlu.png"/>
+  <channel id="pe#las-estrellas">
+    <display-name>Las Estrellas</display-name>
   </channel>
   <channel id="UnitelSantaCruz.bo@SD">
     <display-name>Unitel</display-name>
@@ -359,9 +359,9 @@
   <channel id="pe#tcm">
     <display-name>TCM</display-name>
   </channel>
-  <channel id="MasChic.ar@Panregional">
-    <display-name>Más Chic</display-name>
-    <icon src="https://i.imgur.com/cJC22gJ.png"/>
+  <channel id="LaTele.pe@SD">
+    <display-name>La Tele</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png"/>
   </channel>
   <programme start="20260505103000 +0000" stop="20260505113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -33869,13 +33869,13 @@
     <category lang="es">Semifinal - Vuelta, Allianz Arena</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260507050000 +0000" stop="20260507060000 +0000" channel="pe#espn">
+  <programme start="20260507050000 +0000" stop="20260507063000 +0000" channel="pe#espn">
     <title lang="es">ESPN F90</title>
     <title lang="en">ESPN F90</title>
     <category lang="es">ESPN F90</category>
     <image>https://cdn.mitvstatic.com/programs/pe_futbol-espn-f90_l_m.jpg</image>
   </programme>
-  <programme start="20260507050000 +0000" stop="20260507063000 +0000" channel="pe#espn">
+  <programme start="20260507050000 +0000" stop="20260507060000 +0000" channel="pe#espn">
     <title lang="es">ESPN F90</title>
     <title lang="en">ESPN F90</title>
     <category lang="es">ESPN F90</category>
@@ -42213,13 +42213,13 @@
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507044000 +0000" stop="20260507062000 +0000" channel="pe#lifetime">
+  <programme start="20260507044000 +0000" stop="20260507054000 +0000" channel="pe#lifetime">
     <title lang="es">La desaparición de mamá</title>
     <title lang="en">Gone Mom: The Disappearance of Jennifer Dulos</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507044000 +0000" stop="20260507054000 +0000" channel="pe#lifetime">
+  <programme start="20260507044000 +0000" stop="20260507062000 +0000" channel="pe#lifetime">
     <title lang="es">La desaparición de mamá</title>
     <title lang="en">Gone Mom: The Disappearance of Jennifer Dulos</title>
     <category lang="es">Drama</category>
@@ -42833,14 +42833,14 @@
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_de-5-a-7-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260506045000 +0000" stop="20260506055000 +0000" channel="pe#multipremier">
+  <programme start="20260506045000 +0000" stop="20260506064500 +0000" channel="pe#multipremier">
     <title lang="es">Esperando al rey</title>
     <title lang="en">A Hologram for the King</title>
     <category lang="es">Drama</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260506045000 +0000" stop="20260506064500 +0000" channel="pe#multipremier">
+  <programme start="20260506045000 +0000" stop="20260506055000 +0000" channel="pe#multipremier">
     <title lang="es">Esperando al rey</title>
     <title lang="en">A Hologram for the King</title>
     <category lang="es">Drama</category>
@@ -42925,13 +42925,13 @@
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507052500 +0000" stop="20260507070500 +0000" channel="pe#multipremier">
+  <programme start="20260507052500 +0000" stop="20260507062500 +0000" channel="pe#multipremier">
     <title lang="es">El castigo de papá</title>
     <title lang="en">Nie zu spät</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507052500 +0000" stop="20260507062500 +0000" channel="pe#multipremier">
+  <programme start="20260507052500 +0000" stop="20260507070500 +0000" channel="pe#multipremier">
     <title lang="es">El castigo de papá</title>
     <title lang="en">Nie zu spät</title>
     <category lang="es">Comedia</category>

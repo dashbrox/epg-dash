@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260505143256 +0000">
+<tv generator-info-name="custom-epg" date="20260505170229 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
   </channel>
-  <channel id="sv#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="sv#a-e-mundo">
+    <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="VTVCanal35.sv@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/RSVzyzp.png"/>
+  <channel id="sv#amc">
+    <display-name>AMC</display-name>
+  </channel>
+  <channel id="sv#az-corazon">
+    <display-name>Az Corazón</display-name>
+  </channel>
+  <channel id="Canal2.sv@SD">
+    <display-name>Canal 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/960px-Canal_2_TCS.png"/>
+  </channel>
+  <channel id="sv#cine-latino">
+    <display-name>Cinelatino</display-name>
+  </channel>
+  <channel id="sv#espn">
+    <display-name>ESPN</display-name>
   </channel>
   <channel id="sv#vh1">
     <display-name>VH1</display-name>
   </channel>
   <channel id="sv#ve-plus-tv">
     <display-name>Ve Plus TV</display-name>
+  </channel>
+  <channel id="sv#cartoon-network">
+    <display-name>Cartoon Network</display-name>
+  </channel>
+  <channel id="sv#entertainment">
+    <display-name>E!</display-name>
   </channel>
   <channel id="sv#universal-channel">
     <display-name>Universal TV</display-name>
@@ -141,12 +159,6 @@
   <channel id="sv#espn-2">
     <display-name>ESPN 2</display-name>
   </channel>
-  <channel id="sv#espn">
-    <display-name>ESPN</display-name>
-  </channel>
-  <channel id="sv#entertainment">
-    <display-name>E!</display-name>
-  </channel>
   <channel id="sv#enlace-tbn">
     <display-name>Enlace</display-name>
   </channel>
@@ -204,11 +216,11 @@
   <channel id="sv#cinecanal">
     <display-name>Cinecanal</display-name>
   </channel>
-  <channel id="sv#cine-latino">
-    <display-name>Cinelatino</display-name>
+  <channel id="sv#axn">
+    <display-name>AXN</display-name>
   </channel>
-  <channel id="sv#cartoon-network">
-    <display-name>Cartoon Network</display-name>
+  <channel id="sv#boomerang-cartoon">
+    <display-name>Cartoonito</display-name>
   </channel>
   <channel id="sv#canal-de-las-estrellas">
     <display-name>Las Estrellas</display-name>
@@ -245,13 +257,6 @@
     <display-name>Canal 4</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/960px-Canal_4_TCS.png"/>
   </channel>
-  <channel id="Canal2.sv@SD">
-    <display-name>Canal 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/960px-Canal_2_TCS.png"/>
-  </channel>
-  <channel id="sv#boomerang-cartoon">
-    <display-name>Cartoonito</display-name>
-  </channel>
   <channel id="sv#bbc-world">
     <display-name>BBC World</display-name>
   </channel>
@@ -261,20 +266,15 @@
   <channel id="sv#azteca-13">
     <display-name>Azteca 13</display-name>
   </channel>
-  <channel id="sv#az-corazon">
-    <display-name>Az Corazón</display-name>
-  </channel>
-  <channel id="sv#axn">
-    <display-name>AXN</display-name>
-  </channel>
   <channel id="sv#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="sv#amc">
-    <display-name>AMC</display-name>
+  <channel id="sv#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="sv#a-e-mundo">
-    <display-name>A&amp;E</display-name>
+  <channel id="VTVCanal35.sv@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/RSVzyzp.png"/>
   </channel>
   <programme start="20260505060000 +0000" stop="20260505070000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Lo que la vida me robó</title>
@@ -2617,14 +2617,14 @@
     <category lang="es">Romántica</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507050000 +0000" stop="20260507063000 +0000" channel="CanalClaro.cl@SD">
+  <programme start="20260507050000 +0000" stop="20260507060000 +0000" channel="CanalClaro.cl@SD">
     <title lang="es">El café legal</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260507050000 +0000" stop="20260507060000 +0000" channel="CanalClaro.cl@SD">
+  <programme start="20260507050000 +0000" stop="20260507063000 +0000" channel="CanalClaro.cl@SD">
     <title lang="es">El café legal</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
@@ -4094,7 +4094,7 @@
     <episode-num system="onscreen">S13E282</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-da-ma-s13e282-payaso-triste_l_m.jpg</image>
   </programme>
-  <programme start="20260506055500 +0000" stop="20260506062000 +0000" channel="sv#a-e-mundo">
+  <programme start="20260506055500 +0000" stop="20260506065500 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Viejo joven</sub-title>
     <category lang="es">Serie</category>
@@ -4102,7 +4102,7 @@
     <episode-num system="onscreen">S13E283</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-da-ma-s13e283-viejo-joven_l_m.jpg</image>
   </programme>
-  <programme start="20260506055500 +0000" stop="20260506065500 +0000" channel="sv#a-e-mundo">
+  <programme start="20260506055500 +0000" stop="20260506062000 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Viejo joven</sub-title>
     <category lang="es">Serie</category>
@@ -4995,14 +4995,14 @@
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_como-si-fuera-la-primera-vez-2004_l_m.jpg</image>
   </programme>
-  <programme start="20260507055000 +0000" stop="20260507074500 +0000" channel="sv#amc">
+  <programme start="20260507055000 +0000" stop="20260507065000 +0000" channel="sv#amc">
     <title lang="es">Son como niños 2</title>
     <title lang="en">Grown Ups 2</title>
     <category lang="es">Comedia</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_son-como-ninos-2-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260507055000 +0000" stop="20260507065000 +0000" channel="sv#amc">
+  <programme start="20260507055000 +0000" stop="20260507074500 +0000" channel="sv#amc">
     <title lang="es">Son como niños 2</title>
     <title lang="en">Grown Ups 2</title>
     <category lang="es">Comedia</category>
@@ -15063,13 +15063,13 @@
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260506051000 +0000" stop="20260506070000 +0000" channel="sv#cine-latino">
+  <programme start="20260506051000 +0000" stop="20260506061000 +0000" channel="sv#cine-latino">
     <title lang="es">Deseo</title>
     <title lang="en">Comedia</title>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_deseo-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260506051000 +0000" stop="20260506061000 +0000" channel="sv#cine-latino">
+  <programme start="20260506051000 +0000" stop="20260506070000 +0000" channel="sv#cine-latino">
     <title lang="es">Deseo</title>
     <title lang="en">Comedia</title>
     <rating><value>5.7</value></rating>
@@ -45674,13 +45674,13 @@
     <category lang="es">Talk Show</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260507053000 +0000" stop="20260507070000 +0000" channel="sv#tvn-chile">
+  <programme start="20260507053000 +0000" stop="20260507063000 +0000" channel="sv#tvn-chile">
     <title lang="es">El mediodía</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260507053000 +0000" stop="20260507063000 +0000" channel="sv#tvn-chile">
+  <programme start="20260507053000 +0000" stop="20260507070000 +0000" channel="sv#tvn-chile">
     <title lang="es">El mediodía</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
@@ -47242,7 +47242,7 @@
     <episode-num system="onscreen">S07E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s07e11-the-cooper-extraction_l_m.jpg</image>
   </programme>
-  <programme start="20260506054600 +0000" stop="20260506060800 +0000" channel="sv#warner">
+  <programme start="20260506054600 +0000" stop="20260506064600 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La ramificación de la indecisión</sub-title>
     <category lang="es">Serie</category>
@@ -47250,7 +47250,7 @@
     <episode-num system="onscreen">S07E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s07e12-the-hesitation-ramification_l_m.jpg</image>
   </programme>
-  <programme start="20260506054600 +0000" stop="20260506064600 +0000" channel="sv#warner">
+  <programme start="20260506054600 +0000" stop="20260506060800 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La ramificación de la indecisión</sub-title>
     <category lang="es">Serie</category>
