@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260507170918 +0000">
+<tv generator-info-name="custom-epg" date="20260507200121 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -378,16 +376,18 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
   <programme start="20260507055000 +0000" stop="20260507074500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Son como niños 2</title>
@@ -714,14 +714,14 @@
     <rating><value>5.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_nuestro-video-prohibido-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260509055000 +0000" stop="20260509065000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260509055000 +0000" stop="20260509072500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Paciente cero</title>
     <title lang="en">Patient Zero</title>
     <category lang="es">Terror</category>
     <rating><value>4.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_paciente-cero-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260509055000 +0000" stop="20260509072500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260509055000 +0000" stop="20260509065000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Paciente cero</title>
     <title lang="en">Patient Zero</title>
     <category lang="es">Terror</category>
@@ -3161,6 +3161,14 @@
     <episode-num system="onscreen">S02E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
+  <programme start="20260508055500 +0000" stop="20260508060600 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Escandalositos</title>
+    <sub-title lang="es">La pequeña osirenita</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
   <programme start="20260508055500 +0000" stop="20260508065500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Escandalositos</title>
     <sub-title lang="es">La pequeña osirenita</sub-title>
@@ -3169,7 +3177,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260508060000 +0000" stop="20260508061000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508060600 +0000" stop="20260508061700 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Hora de aventura</title>
     <sub-title lang="es">Ser más</sub-title>
     <category lang="es">Serie</category>
@@ -3177,7 +3185,7 @@
     <episode-num system="onscreen">S05E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s05e28-ser-mas_l_m.jpg</image>
   </programme>
-  <programme start="20260508061000 +0000" stop="20260508062000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508061700 +0000" stop="20260508063100 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Hora de aventura</title>
     <sub-title lang="es">Nueces y lluvia</sub-title>
     <category lang="es">Serie</category>
@@ -3185,15 +3193,7 @@
     <episode-num system="onscreen">S06E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s06e31-nueces-y-lluvia_l_m.jpg</image>
   </programme>
-  <programme start="20260508062000 +0000" stop="20260508063000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Hora de aventura</title>
-    <sub-title lang="es">Nadie te escucha</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.14.0/1</episode-num>
-    <episode-num system="onscreen">S03E15</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s03e15-nadie-te-escucha_l_m.jpg</image>
-  </programme>
-  <programme start="20260508063000 +0000" stop="20260508064000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508063100 +0000" stop="20260508064400 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Hora de aventura</title>
     <sub-title lang="es">BMO siempre cerrado</sub-title>
     <category lang="es">Serie</category>
@@ -3201,23 +3201,15 @@
     <episode-num system="onscreen">S10E273</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s10e273-bmo-siempre-cerrado_l_m.jpg</image>
   </programme>
-  <programme start="20260508064000 +0000" stop="20260508065000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508064400 +0000" stop="20260508065500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Hora de aventura</title>
-    <sub-title lang="es">Su héroe</sub-title>
+    <sub-title lang="es">Nadie te escucha</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
-    <episode-num system="onscreen">S01E25</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s01e25-su-heroe_l_m.jpg</image>
+    <episode-num system="xmltv_ns">2.14.0/1</episode-num>
+    <episode-num system="onscreen">S03E15</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s03e15-nadie-te-escucha_l_m.jpg</image>
   </programme>
-  <programme start="20260508065000 +0000" stop="20260508070000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Hora de aventura</title>
-    <sub-title lang="es">Las otras tartas</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.8.0/1</episode-num>
-    <episode-num system="onscreen">S02E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_hora-de-aventura-s02e09-las-otras-tartas_l_m.jpg</image>
-  </programme>
-  <programme start="20260508070000 +0000" stop="20260508071000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508065500 +0000" stop="20260508070600 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Un show más</title>
     <sub-title lang="es">Un montón de gansos adultos</sub-title>
     <category lang="es">Serie</category>
@@ -3225,7 +3217,7 @@
     <episode-num system="onscreen">S04E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s04e20-fool-me-twice_l_m.jpg</image>
   </programme>
-  <programme start="20260508071000 +0000" stop="20260508072000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508070600 +0000" stop="20260508071900 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Un show más</title>
     <sub-title lang="es">Problema con la tienda</sub-title>
     <category lang="es">Serie</category>
@@ -3233,31 +3225,7 @@
     <episode-num system="onscreen">S05E37</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s05e37-problema-con-la-tienda_l_m.jpg</image>
   </programme>
-  <programme start="20260508072000 +0000" stop="20260508073000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Un show más</title>
-    <sub-title lang="es">El más largo fin de semana</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.12.0/1</episode-num>
-    <episode-num system="onscreen">S04E13</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s04e13-el-sandwich-de-la-muerte_l_m.jpg</image>
-  </programme>
-  <programme start="20260508073000 +0000" stop="20260508074000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Un show más</title>
-    <sub-title lang="es">Pero sí tengo el recibo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
-    <episode-num system="onscreen">S02E12</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s02e12-pero-si-tengo-el-recibo_l_m.jpg</image>
-  </programme>
-  <programme start="20260508074000 +0000" stop="20260508075000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Un show más</title>
-    <sub-title lang="es">Bajada en la nieve</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">6.17.0/1</episode-num>
-    <episode-num system="onscreen">S07E18</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s07e18-bajada-en-la-nieve_l_m.jpg</image>
-  </programme>
-  <programme start="20260508075000 +0000" stop="20260508080000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508071900 +0000" stop="20260508073100 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Un show más</title>
     <sub-title lang="es">La fiesta del viaje en helicóptero número 1000</sub-title>
     <category lang="es">Serie</category>
@@ -3265,23 +3233,31 @@
     <episode-num system="onscreen">S06E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s06e20-la-fiesta-del-viaje-en-helicoptero-numero-1000_l_m.jpg</image>
   </programme>
-  <programme start="20260508080000 +0000" stop="20260508081000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Los Jóvenes Titanes en acción</title>
-    <sub-title lang="es">Es lo que hay</sub-title>
+  <programme start="20260508073100 +0000" stop="20260508074400 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Un show más</title>
+    <sub-title lang="es">Pero sí tengo el recibo</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">5.0.0/1</episode-num>
-    <episode-num system="onscreen">S06E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e01-los-jovenes-titanes-vrum-primera-parte_l_m.jpg</image>
+    <episode-num system="xmltv_ns">1.11.0/1</episode-num>
+    <episode-num system="onscreen">S02E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s02e12-pero-si-tengo-el-recibo_l_m.jpg</image>
   </programme>
-  <programme start="20260508081000 +0000" stop="20260508082000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Los Jóvenes Titanes en acción</title>
-    <sub-title lang="es">Travesuras de cangrejos</sub-title>
+  <programme start="20260508074400 +0000" stop="20260508075500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Un show más</title>
+    <sub-title lang="es">Bajada en la nieve</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">5.1.0/1</episode-num>
-    <episode-num system="onscreen">S06E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e02-los-jovenes-titanes-vrum-segunda-parte_l_m.jpg</image>
+    <episode-num system="xmltv_ns">6.17.0/1</episode-num>
+    <episode-num system="onscreen">S07E18</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s07e18-bajada-en-la-nieve_l_m.jpg</image>
   </programme>
-  <programme start="20260508082000 +0000" stop="20260508083000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508075500 +0000" stop="20260508080600 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Un show más</title>
+    <sub-title lang="es">El más largo fin de semana</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.12.0/1</episode-num>
+    <episode-num system="onscreen">S04E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_un-show-mas-s04e13-el-sandwich-de-la-muerte_l_m.jpg</image>
+  </programme>
+  <programme start="20260508080600 +0000" stop="20260508081900 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">El pollo en la cuna</sub-title>
     <category lang="es">Serie</category>
@@ -3289,23 +3265,23 @@
     <episode-num system="onscreen">S05E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s05e02-el-pollo-en-la-cuna_l_m.jpg</image>
   </programme>
-  <programme start="20260508083000 +0000" stop="20260508084000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508081900 +0000" stop="20260508083000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Los Jóvenes Titanes en acción</title>
-    <sub-title lang="es">Vuelta de cerebro</sub-title>
+    <sub-title lang="es">Es lo que hay</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">5.3.0/1</episode-num>
-    <episode-num system="onscreen">S06E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e04-es-lo-que-hay_l_m.jpg</image>
+    <episode-num system="xmltv_ns">5.0.0/1</episode-num>
+    <episode-num system="onscreen">S06E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e01-los-jovenes-titanes-vrum-primera-parte_l_m.jpg</image>
   </programme>
-  <programme start="20260508084000 +0000" stop="20260508085000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508083000 +0000" stop="20260508084200 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Los Jóvenes Titanes en acción</title>
-    <sub-title lang="es">Trampa explosiva en casa</sub-title>
+    <sub-title lang="es">Travesuras de cangrejos</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.2.0/1</episode-num>
-    <episode-num system="onscreen">S04E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s04e03-mas-dinero-mas-problemas_l_m.jpg</image>
+    <episode-num system="xmltv_ns">5.1.0/1</episode-num>
+    <episode-num system="onscreen">S06E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e02-los-jovenes-titanes-vrum-segunda-parte_l_m.jpg</image>
   </programme>
-  <programme start="20260508085000 +0000" stop="20260508090000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508084200 +0000" stop="20260508085300 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Los Jóvenes Titanes en acción</title>
     <sub-title lang="es">Robo-Hermanos</sub-title>
     <category lang="es">Serie</category>
@@ -3313,55 +3289,15 @@
     <episode-num system="onscreen">S06E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e03-brebaje-de-brujas_l_m.jpg</image>
   </programme>
-  <programme start="20260508090000 +0000" stop="20260508091000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Escandalosos</title>
-    <sub-title lang="es">Ralph</sub-title>
+  <programme start="20260508085300 +0000" stop="20260508090400 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Los Jóvenes Titanes en acción</title>
+    <sub-title lang="es">Vuelta de cerebro</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
-    <episode-num system="onscreen">S03E05</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e05-ralph_l_m.jpg</image>
+    <episode-num system="xmltv_ns">5.3.0/1</episode-num>
+    <episode-num system="onscreen">S06E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_los-jovenes-titanes-en-accion-s06e04-es-lo-que-hay_l_m.jpg</image>
   </programme>
-  <programme start="20260508091000 +0000" stop="20260508092000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Escandalosos</title>
-    <sub-title lang="es">Profesor Lampwick</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.3.0/1</episode-num>
-    <episode-num system="onscreen">S03E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e04-profesor-lampwick_l_m.jpg</image>
-  </programme>
-  <programme start="20260508092000 +0000" stop="20260508093000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Escandalosos</title>
-    <sub-title lang="es">Lucha fraternal</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.37.0/1</episode-num>
-    <episode-num system="onscreen">S03E38</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e38-lucha-fraternal_l_m.jpg</image>
-  </programme>
-  <programme start="20260508093000 +0000" stop="20260508094000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Escandalosos</title>
-    <sub-title lang="es">Osos repartidores</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.3.0/1</episode-num>
-    <episode-num system="onscreen">S04E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s04e04-osos-repartidores_l_m.jpg</image>
-  </programme>
-  <programme start="20260508094000 +0000" stop="20260508095000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Escandalosos</title>
-    <sub-title lang="es">Huracán Hal</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.38.0/1</episode-num>
-    <episode-num system="onscreen">S03E39</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e39-huracan-hal_l_m.jpg</image>
-  </programme>
-  <programme start="20260508095000 +0000" stop="20260508100000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">Escandalosos</title>
-    <sub-title lang="es">Amor de verano</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.16.0/1</episode-num>
-    <episode-num system="onscreen">S03E17</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e17-amor-de-verano_l_m.jpg</image>
-  </programme>
-  <programme start="20260508100000 +0000" stop="20260508101000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508090400 +0000" stop="20260508091500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Escandalosos</title>
     <sub-title lang="es">El favorito de la profesora</sub-title>
     <category lang="es">Serie</category>
@@ -3369,15 +3305,39 @@
     <episode-num system="onscreen">S04E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s04e02-el-favorito-de-la-profesora_l_m.jpg</image>
   </programme>
-  <programme start="20260508101000 +0000" stop="20260508102000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508091500 +0000" stop="20260508092900 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Escandalosos</title>
-    <sub-title lang="es">El oso de arriba</sub-title>
+    <sub-title lang="es">Huracán Hal</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s01e14-ninjas-shhh_l_m.jpg</image>
+    <episode-num system="xmltv_ns">2.38.0/1</episode-num>
+    <episode-num system="onscreen">S03E39</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e39-huracan-hal_l_m.jpg</image>
   </programme>
-  <programme start="20260508102000 +0000" stop="20260508103000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508092900 +0000" stop="20260508094100 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Escandalosos</title>
+    <sub-title lang="es">Ralph</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e05-ralph_l_m.jpg</image>
+  </programme>
+  <programme start="20260508094100 +0000" stop="20260508095500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Escandalosos</title>
+    <sub-title lang="es">Lucha fraternal</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.37.0/1</episode-num>
+    <episode-num system="onscreen">S03E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e38-lucha-fraternal_l_m.jpg</image>
+  </programme>
+  <programme start="20260508095500 +0000" stop="20260508100600 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Escandalosos</title>
+    <sub-title lang="es">Osos repartidores</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.3.0/1</episode-num>
+    <episode-num system="onscreen">S04E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s04e04-osos-repartidores_l_m.jpg</image>
+  </programme>
+  <programme start="20260508100600 +0000" stop="20260508101800 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Escandalosos</title>
     <sub-title lang="es">Noches heladas</sub-title>
     <category lang="es">Serie</category>
@@ -3385,13 +3345,71 @@
     <episode-num system="onscreen">S02E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s02e17-noches-heladas_l_m.jpg</image>
   </programme>
-  <programme start="20260508103000 +0000" stop="20260508120000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">El mundo de Craig</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig_l_m.jpg</image>
+  <programme start="20260508101800 +0000" stop="20260508102900 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">Escandalosos</title>
+    <sub-title lang="es">Amor de verano</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.16.0/1</episode-num>
+    <episode-num system="onscreen">S03E17</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_escandalosos-s03e17-amor-de-verano_l_m.jpg</image>
   </programme>
-  <programme start="20260508120000 +0000" stop="20260508121000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508102900 +0000" stop="20260508104100 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">Hermano constructor</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.29.0/1</episode-num>
+    <episode-num system="onscreen">S03E30</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig-s03e30-brother-builder_l_m.jpg</image>
+  </programme>
+  <programme start="20260508104100 +0000" stop="20260508105200 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">Choque de ruedas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.36.0/1</episode-num>
+    <episode-num system="onscreen">S04E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig-s04e37-choque-de-ruedas_l_m.jpg</image>
+  </programme>
+  <programme start="20260508105200 +0000" stop="20260508110500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">Primo del arroyo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.12.0/1</episode-num>
+    <episode-num system="onscreen">S02E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig-s02e13-primo-del-arroyo_l_m.jpg</image>
+  </programme>
+  <programme start="20260508110500 +0000" stop="20260508111600 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">Día de trueque</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.26.0/1</episode-num>
+    <episode-num system="onscreen">S02E27</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig-s02e27-dia-de-trueque_l_m.jpg</image>
+  </programme>
+  <programme start="20260508111600 +0000" stop="20260508114100 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">The Other Side - Part 1 &amp; 2</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig-s02e07-el-otro-lado_l_m.jpg</image>
+  </programme>
+  <programme start="20260508114100 +0000" stop="20260508115300 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El mundo de Craig</title>
+    <sub-title lang="es">Despedidas galácticas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.156.0/1</episode-num>
+    <episode-num system="onscreen">S04E157</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-mundo-de-craig-s04e157-galactic-goodbyes_l_m.jpg</image>
+  </programme>
+  <programme start="20260508115300 +0000" stop="20260508120000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">¡Krypto salva el día!</title>
+    <sub-title lang="es">Histeria en Halloween</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260508120000 +0000" stop="20260508121200 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La broma</sub-title>
     <category lang="es">Serie</category>
@@ -3399,7 +3417,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s01e14-la-busqueda_l_m.jpg</image>
   </programme>
-  <programme start="20260508121000 +0000" stop="20260508122000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508121200 +0000" stop="20260508122500 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">La prueba</sub-title>
     <category lang="es">Serie</category>
@@ -3407,31 +3425,7 @@
     <episode-num system="onscreen">S05E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s05e08-la-prueba_l_m.jpg</image>
   </programme>
-  <programme start="20260508122000 +0000" stop="20260508123000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">El misterio</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
-    <episode-num system="onscreen">S01E13</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s01e13-amiga-simian_l_m.jpg</image>
-  </programme>
-  <programme start="20260508123000 +0000" stop="20260508124000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">El héroe</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.21.0/1</episode-num>
-    <episode-num system="onscreen">S02E22</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s02e22-el-trabajo_l_m.jpg</image>
-  </programme>
-  <programme start="20260508124000 +0000" stop="20260508125000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
-    <title lang="es">El increíble mundo de Gumball</title>
-    <sub-title lang="es">El jarrón</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.14.0/1</episode-num>
-    <episode-num system="onscreen">S05E15</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s05e15-el-jarron_l_m.jpg</image>
-  </programme>
-  <programme start="20260508125000 +0000" stop="20260508130000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508122500 +0000" stop="20260508123700 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">El increíble mundo de Gumball</title>
     <sub-title lang="es">El trato</sub-title>
     <category lang="es">Serie</category>
@@ -3439,7 +3433,23 @@
     <episode-num system="onscreen">S05E37</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s05e37-el-trato_l_m.jpg</image>
   </programme>
-  <programme start="20260508130000 +0000" stop="20260508131000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+  <programme start="20260508123700 +0000" stop="20260508125000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El increíble mundo de Gumball</title>
+    <sub-title lang="es">El héroe</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.21.0/1</episode-num>
+    <episode-num system="onscreen">S02E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s02e22-el-trabajo_l_m.jpg</image>
+  </programme>
+  <programme start="20260508125000 +0000" stop="20260508130200 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
+    <title lang="es">El increíble mundo de Gumball</title>
+    <sub-title lang="es">El jarrón</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.14.0/1</episode-num>
+    <episode-num system="onscreen">S05E15</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-increible-mundo-de-gumball-s05e15-el-jarron_l_m.jpg</image>
+  </programme>
+  <programme start="20260508130200 +0000" stop="20260508131000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">El maravillosamente extraño mundo de Gumball</title>
     <sub-title lang="es">La mofa</sub-title>
     <category lang="es">Serie</category>
@@ -11743,7 +11753,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260508051400 +0000" stop="20260508061400 +0000" channel="mx#animal-planet">
+  <programme start="20260508051400 +0000" stop="20260508060600 +0000" channel="mx#animal-planet">
     <title lang="es">Refugio en el granero</title>
     <sub-title lang="es">El club de la pelea de gallos</sub-title>
     <category lang="es">Serie</category>
@@ -11751,7 +11761,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_refugio-en-el-granero-s01e04-el-club-de-la-pelea-de-gallos_l_m.jpg</image>
   </programme>
-  <programme start="20260508051400 +0000" stop="20260508060600 +0000" channel="mx#animal-planet">
+  <programme start="20260508051400 +0000" stop="20260508061400 +0000" channel="mx#animal-planet">
     <title lang="es">Refugio en el granero</title>
     <sub-title lang="es">El club de la pelea de gallos</sub-title>
     <category lang="es">Serie</category>
@@ -32635,53 +32645,55 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_euphoria-s03e04-kitty-likes-to-dance_l_m.jpg</image>
   </programme>
-  <programme start="20260507090800 +0000" stop="20260507120100 +0000" channel="mx#hbo-2">
+  <programme start="20260507090800 +0000" stop="20260507120000 +0000" channel="mx#hbo-2">
     <title lang="es">Django, sin cadenas</title>
     <title lang="en">Django Unchained</title>
     <category lang="es">Aventura</category>
     <rating><value>8.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_django-sin-cadenas-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260507120100 +0000" stop="20260507140900 +0000" channel="mx#hbo-2">
+  <programme start="20260507120000 +0000" stop="20260507140700 +0000" channel="mx#hbo-2">
     <title lang="es">En el corazón del mar</title>
     <title lang="en">In the Heart of the Sea</title>
     <category lang="es">Acción</category>
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_en-el-corazon-del-mar-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260507140900 +0000" stop="20260507162200 +0000" channel="mx#hbo-2">
+  <programme start="20260507140700 +0000" stop="20260507162100 +0000" channel="mx#hbo-2">
     <title lang="es">El Hombre Araña 2</title>
     <title lang="en">Spider-Man 2</title>
     <category lang="es">Acción</category>
     <rating><value>7.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-hombre-arana-2-2004-1_l_m.jpg</image>
   </programme>
-  <programme start="20260507162200 +0000" stop="20260507180000 +0000" channel="mx#hbo-2">
-    <title lang="es">Hasta que amanezca</title>
-    <title lang="en">Comedia</title>
+  <programme start="20260507162100 +0000" stop="20260507180000 +0000" channel="mx#hbo-2">
+    <title lang="es">Until Dawn: noche de terror</title>
+    <title lang="en">Until Dawn</title>
+    <category lang="es">Drama</category>
+    <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507180000 +0000" stop="20260507193700 +0000" channel="mx#hbo-2">
+  <programme start="20260507180000 +0000" stop="20260507193600 +0000" channel="mx#hbo-2">
     <title lang="es">El don nadie 2</title>
     <title lang="en">Nobody 2</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507193700 +0000" stop="20260507212300 +0000" channel="mx#hbo-2">
+  <programme start="20260507193600 +0000" stop="20260507212400 +0000" channel="mx#hbo-2">
     <title lang="es">Noche de juegos</title>
     <title lang="en">Game Night</title>
     <category lang="es">Comedia</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_noche-de-juegos-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260507212300 +0000" stop="20260507234000 +0000" channel="mx#hbo-2">
+  <programme start="20260507212400 +0000" stop="20260507234200 +0000" channel="mx#hbo-2">
     <title lang="es">¡Shazam! La furia de los dioses</title>
     <title lang="en">Shazam! Fury of the Gods</title>
     <category lang="es">Acción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260507234000 +0000" stop="20260508001600 +0000" channel="mx#hbo-2">
+  <programme start="20260507234200 +0000" stop="20260508001600 +0000" channel="mx#hbo-2">
     <title lang="es">Rooster</title>
     <sub-title lang="es">La cuarta profesora más sexy de Ludlow</sub-title>
     <category lang="es">Serie</category>
@@ -32689,26 +32701,26 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260508001600 +0000" stop="20260508015800 +0000" channel="mx#hbo-2">
+  <programme start="20260508001600 +0000" stop="20260508015700 +0000" channel="mx#hbo-2">
     <title lang="es">Gru 4: Mi villano favorito</title>
     <title lang="en">Despicable Me 4</title>
     <category lang="es">Aventura</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260508015800 +0000" stop="20260508040100 +0000" channel="mx#hbo-2">
+  <programme start="20260508015700 +0000" stop="20260508035900 +0000" channel="mx#hbo-2">
     <title lang="es">Barbie</title>
     <title lang="en">Comedia</title>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260508040100 +0000" stop="20260508055800 +0000" channel="mx#hbo-2">
+  <programme start="20260508035900 +0000" stop="20260508055800 +0000" channel="mx#hbo-2">
     <title lang="es">Mortal Kombat</title>
     <title lang="en">Fantasía</title>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_mortal-kombat-1995_l_m.jpg</image>
   </programme>
-  <programme start="20260508055800 +0000" stop="20260508073600 +0000" channel="mx#hbo-2">
+  <programme start="20260508055800 +0000" stop="20260508073500 +0000" channel="mx#hbo-2">
     <title lang="es">El don nadie 2</title>
     <title lang="en">Nobody 2</title>
     <category lang="es">Acción</category>
@@ -32720,14 +32732,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260508073600 +0000" stop="20260508100600 +0000" channel="mx#hbo-2">
+  <programme start="20260508073500 +0000" stop="20260508100300 +0000" channel="mx#hbo-2">
     <title lang="es">El sustituto</title>
     <title lang="en">Changeling</title>
     <category lang="es">Drama</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-sustituto-2008_l_m.jpg</image>
   </programme>
-  <programme start="20260508100600 +0000" stop="20260508120100 +0000" channel="mx#hbo-2">
+  <programme start="20260508100300 +0000" stop="20260508120100 +0000" channel="mx#hbo-2">
     <title lang="es">Un hombre diferente</title>
     <title lang="en">A Man Apart</title>
     <category lang="es">Acción</category>
@@ -33279,33 +33291,27 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_euphoria-s03e04-kitty-likes-to-dance_l_m.jpg</image>
   </programme>
-  <programme start="20260508041100 +0000" stop="20260508060300 +0000" channel="mx#hbo-oeste">
-    <title lang="es">Beetlejuice Beetlejuice</title>
-    <title lang="en">Comedia</title>
-    <rating><value>6.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
   <programme start="20260508041100 +0000" stop="20260508051100 +0000" channel="mx#hbo-oeste">
     <title lang="es">Beetlejuice Beetlejuice</title>
     <title lang="en">Comedia</title>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260508060300 +0000" stop="20260508082600 +0000" channel="mx#hbo-oeste">
+  <programme start="20260508055200 +0000" stop="20260508081500 +0000" channel="mx#hbo-oeste">
     <title lang="es">Expediente Warren: El último rito</title>
     <title lang="en">The Conjuring: Last Rites</title>
     <category lang="es">Terror</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260508082600 +0000" stop="20260508101600 +0000" channel="mx#hbo-oeste">
+  <programme start="20260508081500 +0000" stop="20260508100500 +0000" channel="mx#hbo-oeste">
     <title lang="es">Hombre lobo</title>
     <title lang="en">Wolf Man</title>
     <category lang="es">Terror</category>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260508101600 +0000" stop="20260508121100 +0000" channel="mx#hbo-oeste">
+  <programme start="20260508100500 +0000" stop="20260508121100 +0000" channel="mx#hbo-oeste">
     <title lang="es">10.000 AC</title>
     <title lang="en">10.000 BC</title>
     <category lang="es">Aventura</category>
