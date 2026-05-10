@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260510041939 +0000">
+<tv generator-info-name="custom-epg" date="20260510082433 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -635,17 +633,19 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260510060000 +0000" stop="20260510070000 +0000" channel="13C.cl@SD">
     <title lang="es">Ruta 5</title>
@@ -2862,14 +2862,14 @@
     <rating><value>7.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-vuelo-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260512054500 +0000" stop="20260512064500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260512054500 +0000" stop="20260512074500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-protector-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260512054500 +0000" stop="20260512074500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260512054500 +0000" stop="20260512064500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
@@ -15822,49 +15822,115 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260510000000 +0000" stop="20260510120000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260510043000 +0000" stop="20260510063000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Pto Varas vs. ABA Ancud</title>
+    <title lang="en">Play In</title>
+    <category lang="es">Play In</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-pto-varas-vs-aba-ancud-play-in_l_m.jpg</image>
   </programme>
-  <programme start="20260510120000 +0000" stop="20260510183000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260510063000 +0000" stop="20260510083000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">COBS vs. Old Johns</title>
+    <category lang="es">Rugby TOP10 Arusa 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260510183000 +0000" stop="20260510190000 +0000" channel="CDOPremium.cl@SD">
+  <programme start="20260510083000 +0000" stop="20260510090000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">CD Valdivia vs. Pto Montt</title>
+    <category lang="es">Play In - Liga Chery by Cecinas Llanquihue 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510090000 +0000" stop="20260510110000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Instituto (C) vs. Obras</title>
+    <title lang="en">Temporada regular, Estadio Angel Sandrin</title>
+    <category lang="es">Temporada regular, Estadio Angel Sandrin</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510110000 +0000" stop="20260510113000 +0000" channel="CDOPremium.cl@SD">
     <title lang="es">Mi historia con el cáncer</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260510190000 +0000" stop="20260510193000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">Resúmenes en 30</title>
+  <programme start="20260510113000 +0000" stop="20260510115500 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Resumen en 10&apos;</title>
+    <title lang="en">Resumen en 10&apos;</title>
+    <category lang="es">Resumen en 10&apos;</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510115500 +0000" stop="20260510140000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Nordsjaelland vs. Midtjylland</title>
+    <title lang="en">Superliga de Dinamarca</title>
+    <category lang="es">Superliga de Dinamarca</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510140000 +0000" stop="20260510160000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">CD UdeC vs. Esp de Osorno</title>
+    <category lang="es">Copa Chile de Básquetbol 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510160000 +0000" stop="20260510163000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">CD UdeC vs. Esp de Osorno - Copa Chile Chery 2026</title>
     <title lang="en">Resúmenes en 30</title>
     <category lang="es">Resúmenes en 30</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260510193000 +0000" stop="20260510233000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
-  </programme>
-  <programme start="20260510233000 +0000" stop="20260511000000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">Resúmenes en 30</title>
-    <title lang="en">Resúmenes en 30</title>
-    <category lang="es">Resúmenes en 30</category>
+  <programme start="20260510163000 +0000" stop="20260510165500 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Resumen en 10&apos;</title>
+    <title lang="en">Resumen en 10&apos;</title>
+    <category lang="es">Resumen en 10&apos;</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260511000000 +0000" stop="20260511010000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260510165500 +0000" stop="20260510190000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Valencia Basket vs. Baskonia</title>
+    <title lang="en">Fecha 30, Font de Sant Lluis</title>
+    <category lang="es">Fecha 30, Font de Sant Lluis</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510190000 +0000" stop="20260510204500 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Obras vs. Instituto (C)</title>
+    <title lang="en">Octavos de final, Estadio Luis Conde</title>
+    <category lang="es">Octavos de final, Estadio Luis Conde</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510204500 +0000" stop="20260510224500 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">CD Valdivia vs. Pto Montt</title>
+    <title lang="en">Play In</title>
+    <category lang="es">Play In</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-cd-valdivia-vs-pto-montt-play-in_l_m.jpg</image>
+  </programme>
+  <programme start="20260510224500 +0000" stop="20260510232500 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Pto Montt vs. CD Valdivia</title>
+    <category lang="es">Play In - Liga Chery by Cecinas Llanquihue 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510232500 +0000" stop="20260511013000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Gimnasia vs. Ind. de Oliva</title>
+    <title lang="en">Cuartos de final, Estadio Socios Fundadores</title>
+    <category lang="es">Cuartos de final, Estadio Socios Fundadores</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260511013000 +0000" stop="20260511033000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Barcelona vs. San Pablo Burgos</title>
+    <title lang="en">Fecha 30, Palau Blaugrana</title>
+    <category lang="es">Fecha 30, Palau Blaugrana</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260511033000 +0000" stop="20260511040000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Mi historia con el cáncer</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260511040000 +0000" stop="20260511043000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Pto Montt vs. CD Valdivia</title>
+    <category lang="es">Play In - Liga Chery by Cecinas Llanquihue 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260511043000 +0000" stop="20260511063000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">CD UdeC vs. Esp de Osorno</title>
+    <category lang="es">Copa Chile de Básquetbol 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260511043000 +0000" stop="20260511053000 +0000" channel="CDOPremium.cl@SD">
     <title lang="es">CD UdeC vs. Esp de Osorno</title>
     <category lang="es">Copa Chile de Básquetbol 2026</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -18149,7 +18215,7 @@
     <episode-num system="onscreen">S05E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_el-zoologico-del-bronx-s05e06-la-danza-de-la-jirafa_l_m.jpg</image>
   </programme>
-  <programme start="20260511052800 +0000" stop="20260511062800 +0000" channel="cl#animal-planet">
+  <programme start="20260511052800 +0000" stop="20260511061600 +0000" channel="cl#animal-planet">
     <title lang="es">Piscinas increíbles</title>
     <sub-title lang="es">En la cima de la montaña</sub-title>
     <category lang="es">Serie</category>
@@ -18157,7 +18223,7 @@
     <episode-num system="onscreen">S03E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_piscinas-increibles-s03e05-en-la-cima-de-la-montana_l_m.jpg</image>
   </programme>
-  <programme start="20260511052800 +0000" stop="20260511061600 +0000" channel="cl#animal-planet">
+  <programme start="20260511052800 +0000" stop="20260511062800 +0000" channel="cl#animal-planet">
     <title lang="es">Piscinas increíbles</title>
     <sub-title lang="es">En la cima de la montaña</sub-title>
     <category lang="es">Serie</category>
@@ -23943,49 +24009,115 @@
     <category lang="es">Todos somos técnicos</category>
     <image>https://cdn.mitvstatic.com/programs/cl_futbol-todos-somos-tecnicos_l_m.jpg</image>
   </programme>
-  <programme start="20260510000000 +0000" stop="20260510120000 +0000" channel="cl#cdo-hd">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260510043000 +0000" stop="20260510063000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Pto Varas vs. ABA Ancud</title>
+    <title lang="en">Play In</title>
+    <category lang="es">Play In</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-pto-varas-vs-aba-ancud-play-in_l_m.jpg</image>
   </programme>
-  <programme start="20260510120000 +0000" stop="20260510183000 +0000" channel="cl#cdo-hd">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260510063000 +0000" stop="20260510083000 +0000" channel="cl#cdo-hd">
+    <title lang="es">COBS vs. Old Johns</title>
+    <category lang="es">Rugby TOP10 Arusa 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260510183000 +0000" stop="20260510190000 +0000" channel="cl#cdo-hd">
+  <programme start="20260510083000 +0000" stop="20260510090000 +0000" channel="cl#cdo-hd">
+    <title lang="es">CD Valdivia vs. Pto Montt</title>
+    <category lang="es">Play In - Liga Chery by Cecinas Llanquihue 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510090000 +0000" stop="20260510110000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Instituto (C) vs. Obras</title>
+    <title lang="en">Temporada regular, Estadio Angel Sandrin</title>
+    <category lang="es">Temporada regular, Estadio Angel Sandrin</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510110000 +0000" stop="20260510113000 +0000" channel="cl#cdo-hd">
     <title lang="es">Mi historia con el cáncer</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260510190000 +0000" stop="20260510193000 +0000" channel="cl#cdo-hd">
-    <title lang="es">Resúmenes en 30</title>
+  <programme start="20260510113000 +0000" stop="20260510115500 +0000" channel="cl#cdo-hd">
+    <title lang="es">Resumen en 10&apos;</title>
+    <title lang="en">Resumen en 10&apos;</title>
+    <category lang="es">Resumen en 10&apos;</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510115500 +0000" stop="20260510140000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Nordsjaelland vs. Midtjylland</title>
+    <title lang="en">Superliga de Dinamarca</title>
+    <category lang="es">Superliga de Dinamarca</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510140000 +0000" stop="20260510160000 +0000" channel="cl#cdo-hd">
+    <title lang="es">CD UdeC vs. Esp de Osorno</title>
+    <category lang="es">Copa Chile de Básquetbol 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510160000 +0000" stop="20260510163000 +0000" channel="cl#cdo-hd">
+    <title lang="es">CD UdeC vs. Esp de Osorno - Copa Chile Chery 2026</title>
     <title lang="en">Resúmenes en 30</title>
     <category lang="es">Resúmenes en 30</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260510193000 +0000" stop="20260510233000 +0000" channel="cl#cdo-hd">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
-  </programme>
-  <programme start="20260510233000 +0000" stop="20260511000000 +0000" channel="cl#cdo-hd">
-    <title lang="es">Resúmenes en 30</title>
-    <title lang="en">Resúmenes en 30</title>
-    <category lang="es">Resúmenes en 30</category>
+  <programme start="20260510163000 +0000" stop="20260510165500 +0000" channel="cl#cdo-hd">
+    <title lang="es">Resumen en 10&apos;</title>
+    <title lang="en">Resumen en 10&apos;</title>
+    <category lang="es">Resumen en 10&apos;</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260511000000 +0000" stop="20260511010000 +0000" channel="cl#cdo-hd">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260510165500 +0000" stop="20260510190000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Valencia Basket vs. Baskonia</title>
+    <title lang="en">Fecha 30, Font de Sant Lluis</title>
+    <category lang="es">Fecha 30, Font de Sant Lluis</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510190000 +0000" stop="20260510204500 +0000" channel="cl#cdo-hd">
+    <title lang="es">Obras vs. Instituto (C)</title>
+    <title lang="en">Octavos de final, Estadio Luis Conde</title>
+    <category lang="es">Octavos de final, Estadio Luis Conde</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510204500 +0000" stop="20260510224500 +0000" channel="cl#cdo-hd">
+    <title lang="es">CD Valdivia vs. Pto Montt</title>
+    <title lang="en">Play In</title>
+    <category lang="es">Play In</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-cd-valdivia-vs-pto-montt-play-in_l_m.jpg</image>
+  </programme>
+  <programme start="20260510224500 +0000" stop="20260510232500 +0000" channel="cl#cdo-hd">
+    <title lang="es">Pto Montt vs. CD Valdivia</title>
+    <category lang="es">Play In - Liga Chery by Cecinas Llanquihue 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260510232500 +0000" stop="20260511013000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Gimnasia vs. Ind. de Oliva</title>
+    <title lang="en">Cuartos de final, Estadio Socios Fundadores</title>
+    <category lang="es">Cuartos de final, Estadio Socios Fundadores</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260511013000 +0000" stop="20260511033000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Barcelona vs. San Pablo Burgos</title>
+    <title lang="en">Fecha 30, Palau Blaugrana</title>
+    <category lang="es">Fecha 30, Palau Blaugrana</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260511033000 +0000" stop="20260511040000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Mi historia con el cáncer</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260511040000 +0000" stop="20260511043000 +0000" channel="cl#cdo-hd">
+    <title lang="es">Pto Montt vs. CD Valdivia</title>
+    <category lang="es">Play In - Liga Chery by Cecinas Llanquihue 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260511043000 +0000" stop="20260511063000 +0000" channel="cl#cdo-hd">
+    <title lang="es">CD UdeC vs. Esp de Osorno</title>
+    <category lang="es">Copa Chile de Básquetbol 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260511043000 +0000" stop="20260511053000 +0000" channel="cl#cdo-hd">
     <title lang="es">CD UdeC vs. Esp de Osorno</title>
     <category lang="es">Copa Chile de Básquetbol 2026</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -88609,13 +88741,13 @@
     <category lang="es">Político</category>
     <image>https://cdn.mitvstatic.com/programs/cl_stock-disponible_l_m.jpg</image>
   </programme>
-  <programme start="20260512043000 +0000" stop="20260512053000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260512043000 +0000" stop="20260512063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260512043000 +0000" stop="20260512063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260512043000 +0000" stop="20260512053000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
@@ -89273,7 +89405,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s09e01-the-matrimonial-momentum_l_m.jpg</image>
   </programme>
-  <programme start="20260512054000 +0000" stop="20260512064000 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260512054000 +0000" stop="20260512060200 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La oscilación de la separación</sub-title>
     <category lang="es">Serie</category>
@@ -89281,7 +89413,7 @@
     <episode-num system="onscreen">S09E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s09e02-the-separation-oscillation_l_m.jpg</image>
   </programme>
-  <programme start="20260512054000 +0000" stop="20260512060200 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260512054000 +0000" stop="20260512064000 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La oscilación de la separación</sub-title>
     <category lang="es">Serie</category>
