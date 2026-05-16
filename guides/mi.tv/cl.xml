@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260516140251 +0000">
+<tv generator-info-name="custom-epg" date="20260516161319 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <channel id="ZonaLatina.cl@SD">
     <display-name>Zona Latina</display-name>
@@ -643,9 +646,6 @@
   <channel id="AMCLatinAmerica.us@SD">
     <display-name>AMC</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260516060000 +0000" stop="20260516070000 +0000" channel="13C.cl@SD">
     <title lang="es">City Tour</title>
@@ -45610,7 +45610,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260517153000 +0000" stop="20260517180000 +0000" channel="cl#fox-sports-3">
-    <title lang="es">Femenina - Final</title>
+    <title lang="es">Final 4, Femenina</title>
     <title lang="en">EHF European League</title>
     <category lang="es">EHF European League</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -45646,7 +45646,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260518020000 +0000" stop="20260518043000 +0000" channel="cl#fox-sports-3">
-    <title lang="es">Femenina - Final</title>
+    <title lang="es">Final 4, Femenina</title>
     <title lang="en">EHF European League</title>
     <category lang="es">EHF European League</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -65496,11 +65496,11 @@
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/cl_comision-de-economia_l_m.jpg</image>
   </programme>
-  <programme start="20260518043000 +0000" stop="20260518110000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">CDTV</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_cdtv_l_m.jpg</image>
+  <programme start="20260518040000 +0000" stop="20260518110000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Cierre</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_cierre_l_m.jpg</image>
   </programme>
   <programme start="20260518043000 +0000" stop="20260518053000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">CDTV</title>
@@ -65516,9 +65516,9 @@
   </programme>
   <programme start="20260518130000 +0000" stop="20260518140000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Vida en el arte</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Eduardo Gajardo</title>
+    <category lang="es">- Eduardo Gajardo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260518140000 +0000" stop="20260518141000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Resumen informativo en lengua de señas</title>
@@ -65532,19 +65532,25 @@
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/cl_semana-en-la-camara_l_m.jpg</image>
   </programme>
-  <programme start="20260518143000 +0000" stop="20260518182000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">CDTV</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_cdtv_l_m.jpg</image>
-  </programme>
-  <programme start="20260518182000 +0000" stop="20260518185000 +0000" channel="DiputadosTV.ar@SD">
+  <programme start="20260518143000 +0000" stop="20260518150000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Antesala</title>
     <title lang="en">Político</title>
     <category lang="es">Político</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260518185000 +0000" stop="20260518210000 +0000" channel="DiputadosTV.ar@SD">
+  <programme start="20260518150000 +0000" stop="20260518170000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Comisión de trabajo</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-trabajo_l_m.jpg</image>
+  </programme>
+  <programme start="20260518170000 +0000" stop="20260518190000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Comisión de medio ambiente</title>
+    <title lang="en">Político</title>
+    <category lang="es">Político</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-medio-ambiente_l_m.jpg</image>
+  </programme>
+  <programme start="20260518190000 +0000" stop="20260518210000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Comisión de seguridad ciudadana</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -65552,9 +65558,9 @@
   </programme>
   <programme start="20260518210000 +0000" stop="20260519000000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Sesión de sala</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_sesion-de-sala_l_m.jpg</image>
+    <title lang="en">- Sesión Nº 25</title>
+    <category lang="es">- Sesión Nº 25</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_sesion-de-sala-sesion-n-25_l_m.jpg</image>
   </programme>
   <programme start="20260519000000 +0000" stop="20260519010000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">UESTV</title>
@@ -65564,14 +65570,21 @@
   </programme>
   <programme start="20260519010000 +0000" stop="20260519020000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Mentes brillantes</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_mentes-brillantes_l_m.jpg</image>
+    <title lang="en">- Fernando Monckeberg</title>
+    <category lang="es">- Fernando Monckeberg</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_mentes-brillantes-fernando-monckeberg_l_m.jpg</image>
   </programme>
-  <programme start="20260519020000 +0000" stop="20260519043000 +0000" channel="DiputadosTV.ar@SD">
-    <title lang="es">CDTV</title>
+  <programme start="20260519020000 +0000" stop="20260519023000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Puntos de vista</title>
+    <title lang="en">Político</title>
+    <category lang="es">Político</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_puntos-de-vista_l_m.jpg</image>
+  </programme>
+  <programme start="20260519023000 +0000" stop="20260519043000 +0000" channel="DiputadosTV.ar@SD">
+    <title lang="es">Comisión de familia</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_cdtv_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/cl_comision-de-familia_l_m.jpg</image>
   </programme>
   <programme start="20260519043000 +0000" stop="20260519053000 +0000" channel="DiputadosTV.ar@SD">
     <title lang="es">Cierre</title>
@@ -69765,9 +69778,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260517050000 +0000" stop="20260517070000 +0000" channel="ESPN3LatinAmerica.us@South">
-    <title lang="es">Final, Foro Italico, Rome, Italy</title>
-    <title lang="en">ATP World Tour Masters 1000 - Internazionali BNL d&apos;Italia</title>
-    <category lang="es">ATP World Tour Masters 1000 - Internazionali BNL d&apos;Italia</category>
+    <title lang="es">Coco Gauff (USA) vs. Elina Svitolina (Ukr)</title>
+    <title lang="en">Final, Foro Italico, Rome, Italy</title>
+    <category lang="es">Final, Foro Italico, Rome, Italy</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260517050000 +0000" stop="20260517060000 +0000" channel="ESPN3LatinAmerica.us@South">
@@ -69830,16 +69843,17 @@
     <category lang="es">Fecha 37, Estadio Wanda Metropolitano</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260517185500 +0000" stop="20260517193000 +0000" channel="ESPN3LatinAmerica.us@South">
-    <title lang="es">Acción de la NBA</title>
-    <category lang="es">Acción de la NBA</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_basquet-accion-de-la-nba_l_m.jpg</image>
+  <programme start="20260517185500 +0000" stop="20260517210000 +0000" channel="ESPN3LatinAmerica.us@South">
+    <title lang="es">RC Strasbourg vs. AS Monaco</title>
+    <title lang="en">Fecha 34, Stade de la Meinau</title>
+    <category lang="es">Fecha 34, Stade de la Meinau</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260517193000 +0000" stop="20260517220000 +0000" channel="ESPN3LatinAmerica.us@South">
-    <title lang="es">Juego 7 - Semifinales de conferencia</title>
-    <title lang="en">NBA</title>
-    <category lang="es">NBA</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_basquet-juego-7-semifinales-de-conferencia_l_m.jpg</image>
+  <programme start="20260517210000 +0000" stop="20260517220000 +0000" channel="ESPN3LatinAmerica.us@South">
+    <title lang="es">Gran Premio de Cataluña, Circuito de Barcelona-Cataluña</title>
+    <title lang="en">Compacto - Moto GP</title>
+    <category lang="es">Compacto - Moto GP</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260517220000 +0000" stop="20260517223000 +0000" channel="ESPN3LatinAmerica.us@South">
     <title lang="es">ATP Tour Uncovered</title>
@@ -81459,9 +81473,9 @@
   </programme>
   <programme start="20260518064000 +0000" stop="20260518064500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Easy Japanese</title>
-    <title lang="en">- #21 I&apos;m in the Clock Tower</title>
-    <category lang="es">- #21 I&apos;m in the Clock Tower</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_easy-japanese-21-i-m-in-the-clock-tower_l_m.jpg</image>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_easy-japanese_l_m.jpg</image>
   </programme>
   <programme start="20260518064500 +0000" stop="20260518065500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Culture Crossroads</title>
@@ -81645,9 +81659,9 @@
   </programme>
   <programme start="20260518174000 +0000" stop="20260518174500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Easy Japanese</title>
-    <title lang="en">- #21 I&apos;m in the Clock Tower</title>
-    <category lang="es">- #21 I&apos;m in the Clock Tower</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_easy-japanese-21-i-m-in-the-clock-tower_l_m.jpg</image>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_easy-japanese_l_m.jpg</image>
   </programme>
   <programme start="20260518174500 +0000" stop="20260518175500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Culture Crossroads</title>
@@ -81674,10 +81688,10 @@
     <image>https://cdn.mitvstatic.com/programs/cl_direct-talk_l_m.jpg</image>
   </programme>
   <programme start="20260518184300 +0000" stop="20260518185500 +0000" channel="NHKWorldJapan.jp@SD">
-    <title lang="es">NHK World Selection</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_nhk-world-selection_l_m.jpg</image>
+    <title lang="es">Gourmet in the Park</title>
+    <title lang="en">Cocina</title>
+    <category lang="es">Cocina</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260518185500 +0000" stop="20260518190000 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Ukiyo-e Edo-Life</title>
@@ -81718,12 +81732,12 @@
     <image>https://cdn.mitvstatic.com/programs/cl_nhk-newsline_l_m.jpg</image>
   </programme>
   <programme start="20260518213000 +0000" stop="20260518214500 +0000" channel="NHKWorldJapan.jp@SD">
-    <title lang="es">BOSAI: Science that Can Save Your Life</title>
+    <title lang="es">BOSAI</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/cl_bosai-1_l_m.jpg</image>
   </programme>
   <programme start="20260518214500 +0000" stop="20260518215500 +0000" channel="NHKWorldJapan.jp@SD">
-    <title lang="es">IMPACTS: Climate Change the World</title>
+    <title lang="es">Impacts: Climates Change the World</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
@@ -81747,9 +81761,9 @@
   </programme>
   <programme start="20260518224000 +0000" stop="20260518224500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Easy Japanese</title>
-    <title lang="en">- #21 I&apos;m in the Clock Tower</title>
-    <category lang="es">- #21 I&apos;m in the Clock Tower</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_easy-japanese-21-i-m-in-the-clock-tower_l_m.jpg</image>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_easy-japanese_l_m.jpg</image>
   </programme>
   <programme start="20260518224500 +0000" stop="20260518225500 +0000" channel="NHKWorldJapan.jp@SD">
     <title lang="es">Culture Crossroads</title>
@@ -84254,33 +84268,63 @@
     <episode-num system="onscreen">S01E109</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e109_l_m.jpg</image>
   </programme>
-  <programme start="20260517100000 +0000" stop="20260517111200 +0000" channel="Space.ar@Alternate">
-    <title lang="es">Fuego con fuego</title>
-    <title lang="en">Fire with Fire</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/cl_fuego-con-fuego-2012_l_m.jpg</image>
+  <programme start="20260517100000 +0000" stop="20260517102500 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Guerra de containers</title>
+    <sub-title lang="es">Vista verde</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <episode-num system="onscreen">S02E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_guerra-de-containers-s02e01-vista-verde_l_m.jpg</image>
   </programme>
-  <programme start="20260517111200 +0000" stop="20260517130800 +0000" channel="Space.ar@Alternate">
+  <programme start="20260517102500 +0000" stop="20260517104600 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Guerra de containers</title>
+    <sub-title lang="es">Resultado bizarro</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_guerra-de-containers-s02e02-resultado-bizarro_l_m.jpg</image>
+  </programme>
+  <programme start="20260517104600 +0000" stop="20260517110000 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.111.0/1</episode-num>
+    <episode-num system="onscreen">S01E112</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e112_l_m.jpg</image>
+  </programme>
+  <programme start="20260517110000 +0000" stop="20260517110200 +0000" channel="Space.ar@Alternate">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.223.0/1</episode-num>
+    <episode-num system="onscreen">S14E224</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_tnt-buzz-s14e224_l_m.jpg</image>
+  </programme>
+  <programme start="20260517110200 +0000" stop="20260517110900 +0000" channel="Space.ar@Alternate">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.125.0/1</episode-num>
+    <episode-num system="onscreen">S01E126</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e126_l_m.jpg</image>
+  </programme>
+  <programme start="20260517110900 +0000" stop="20260517132600 +0000" channel="Space.ar@Alternate">
     <title lang="es">RED</title>
     <title lang="en">Acción</title>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_red-2010-1_l_m.jpg</image>
   </programme>
-  <programme start="20260517130800 +0000" stop="20260517151200 +0000" channel="Space.ar@Alternate">
+  <programme start="20260517132600 +0000" stop="20260517154100 +0000" channel="Space.ar@Alternate">
     <title lang="es">Infierno bajo tierra</title>
     <title lang="en">Fire Down Below</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_infierno-bajo-tierra-1997_l_m.jpg</image>
   </programme>
-  <programme start="20260517151200 +0000" stop="20260517175000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260517154100 +0000" stop="20260517175700 +0000" channel="Space.ar@Alternate">
     <title lang="es">Terreno salvaje</title>
     <title lang="en">On Deadly Ground</title>
     <category lang="es">Acción</category>
     <rating><value>4.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_terreno-salvaje-1994_l_m.jpg</image>
   </programme>
-  <programme start="20260517175000 +0000" stop="20260517200000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260517175700 +0000" stop="20260517200000 +0000" channel="Space.ar@Alternate">
     <title lang="es">Furia salvaje</title>
     <title lang="en">Out for Justice</title>
     <category lang="es">Acción</category>
@@ -84293,102 +84337,102 @@
     <category lang="es">COPEC Rally Mobil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260517210000 +0000" stop="20260517230900 +0000" channel="Space.ar@Alternate">
+  <programme start="20260517210000 +0000" stop="20260517232700 +0000" channel="Space.ar@Alternate">
     <title lang="es">El implacable</title>
     <title lang="en">Get Carter</title>
     <category lang="es">Acción</category>
     <rating><value>5.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-implacable-2000_l_m.jpg</image>
   </programme>
-  <programme start="20260517230900 +0000" stop="20260518014000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260517232700 +0000" stop="20260518021800 +0000" channel="Space.ar@Alternate">
     <title lang="es">Escape a la victoria</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/cl_escape-a-la-victoria-1981_l_m.jpg</image>
   </programme>
-  <programme start="20260518014000 +0000" stop="20260518035600 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518021800 +0000" stop="20260518042900 +0000" channel="Space.ar@Alternate">
     <title lang="es">Romeo debe morir</title>
     <title lang="en">Romeo Must Die</title>
     <category lang="es">Acción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_romeo-debe-morir-2000_l_m.jpg</image>
   </programme>
-  <programme start="20260518035600 +0000" stop="20260518055000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518042900 +0000" stop="20260518062200 +0000" channel="Space.ar@Alternate">
     <title lang="es">De la cuna a la tumba</title>
     <title lang="en">Cradle 2 the Grave</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_de-la-cuna-a-la-tumba-2003_l_m.jpg</image>
   </programme>
-  <programme start="20260518055000 +0000" stop="20260518073100 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518042900 +0000" stop="20260518052900 +0000" channel="Space.ar@Alternate">
+    <title lang="es">De la cuna a la tumba</title>
+    <title lang="en">Cradle 2 the Grave</title>
+    <category lang="es">Acción</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_de-la-cuna-a-la-tumba-2003_l_m.jpg</image>
+  </programme>
+  <programme start="20260518062200 +0000" stop="20260518080200 +0000" channel="Space.ar@Alternate">
     <title lang="es">Exterminio II</title>
     <title lang="en">28 Weeks Later</title>
     <category lang="es">C.Ficción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_exterminio-ii-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260518055000 +0000" stop="20260518065000 +0000" channel="Space.ar@Alternate">
-    <title lang="es">Exterminio II</title>
-    <title lang="en">28 Weeks Later</title>
-    <category lang="es">C.Ficción</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_exterminio-ii-2007_l_m.jpg</image>
-  </programme>
-  <programme start="20260518073100 +0000" stop="20260518100000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518080200 +0000" stop="20260518100000 +0000" channel="Space.ar@Alternate">
     <title lang="es">Blade: Trinity</title>
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/cl_blade-trinity-2004_l_m.jpg</image>
   </programme>
-  <programme start="20260518100000 +0000" stop="20260518120800 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518100000 +0000" stop="20260518115900 +0000" channel="Space.ar@Alternate">
     <title lang="es">RED</title>
     <title lang="en">Acción</title>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_red-2010-1_l_m.jpg</image>
   </programme>
-  <programme start="20260518120800 +0000" stop="20260518143100 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518115900 +0000" stop="20260518143200 +0000" channel="Space.ar@Alternate">
     <title lang="es">Godzilla: Rey de los monstruos</title>
     <title lang="en">Godzilla: King of the Monsters</title>
     <category lang="es">Acción</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_godzilla-rey-de-los-monstruos-2019-1_l_m.jpg</image>
   </programme>
-  <programme start="20260518143100 +0000" stop="20260518163700 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518143200 +0000" stop="20260518163200 +0000" channel="Space.ar@Alternate">
     <title lang="es">Plan de escape: El rescate</title>
     <title lang="en">Escape Plan: The Extractors</title>
     <category lang="es">Acción</category>
     <rating><value>4.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260518163700 +0000" stop="20260518191500 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518163200 +0000" stop="20260518185100 +0000" channel="Space.ar@Alternate">
     <title lang="es">El implacable</title>
     <title lang="en">Get Carter</title>
     <category lang="es">Acción</category>
     <rating><value>5.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-implacable-2000_l_m.jpg</image>
   </programme>
-  <programme start="20260518191500 +0000" stop="20260518215000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518185100 +0000" stop="20260518214200 +0000" channel="Space.ar@Alternate">
     <title lang="es">Infierno bajo tierra</title>
     <title lang="en">Fire Down Below</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_infierno-bajo-tierra-1997_l_m.jpg</image>
   </programme>
-  <programme start="20260518215000 +0000" stop="20260519000000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518214200 +0000" stop="20260518235300 +0000" channel="Space.ar@Alternate">
     <title lang="es">Terreno salvaje</title>
     <title lang="en">On Deadly Ground</title>
     <category lang="es">Acción</category>
     <rating><value>4.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_terreno-salvaje-1994_l_m.jpg</image>
   </programme>
-  <programme start="20260519000000 +0000" stop="20260519020000 +0000" channel="Space.ar@Alternate">
+  <programme start="20260518235300 +0000" stop="20260519020000 +0000" channel="Space.ar@Alternate">
     <title lang="es">Furia salvaje</title>
     <title lang="en">Out for Justice</title>
     <category lang="es">Acción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_furia-salvaje-1991_l_m.jpg</image>
   </programme>
-  <programme start="20260519020000 +0000" stop="20260519041100 +0000" channel="Space.ar@Alternate">
+  <programme start="20260519020000 +0000" stop="20260519040800 +0000" channel="Space.ar@Alternate">
     <title lang="es">Megalodón 2: El gran abismo</title>
     <title lang="en">Meg 2: The Trench</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260519041100 +0000" stop="20260519051100 +0000" channel="Space.ar@Alternate">
+  <programme start="20260519040800 +0000" stop="20260519050800 +0000" channel="Space.ar@Alternate">
     <title lang="es">Se busca</title>
     <title lang="en">Wanted</title>
     <category lang="es">Acción</category>
