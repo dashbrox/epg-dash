@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260520203412 +0000">
+<tv generator-info-name="custom-epg" date="20260520225118 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -376,18 +378,16 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <programme start="20260520054000 +0000" stop="20260520074500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Pandorum: terror en el espacio</title>
@@ -678,14 +678,14 @@
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-hobbit-la-desolacion-de-smaug-2013-1_l_m.jpg</image>
   </programme>
-  <programme start="20260522040000 +0000" stop="20260522063000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260522040000 +0000" stop="20260522050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El Hobbit: La batalla de los cinco ejércitos</title>
     <title lang="en">The Hobbit: The Battle of the Five Armies</title>
     <category lang="es">Aventura</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-hobbit-la-batalla-de-los-cinco-ejercitos-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260522040000 +0000" stop="20260522050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260522040000 +0000" stop="20260522063000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El Hobbit: La batalla de los cinco ejércitos</title>
     <title lang="en">The Hobbit: The Battle of the Five Armies</title>
     <category lang="es">Aventura</category>
@@ -12240,7 +12240,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260521051400 +0000" stop="20260521060600 +0000" channel="mx#animal-planet">
+  <programme start="20260521051400 +0000" stop="20260521061400 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Drogas</sub-title>
     <category lang="es">Serie</category>
@@ -12248,7 +12248,7 @@
     <episode-num system="onscreen">S06E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guardianes-de-texas-s06e10-estela-de-la-destruccion_l_m.jpg</image>
   </programme>
-  <programme start="20260521051400 +0000" stop="20260521061400 +0000" channel="mx#animal-planet">
+  <programme start="20260521051400 +0000" stop="20260521060600 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Drogas</sub-title>
     <category lang="es">Serie</category>
@@ -25829,7 +25829,7 @@
   </programme>
   <programme start="20260520211600 +0000" stop="20260520214600 +0000" channel="mx#disney-jr">
     <title lang="es">Mickey: aventuras sobre ruedas</title>
-    <sub-title lang="es">¡El día perfecto de Mickey! / ¡La carrera de los bólidos!</sub-title>
+    <sub-title lang="es">Agente cero, cero Goofy / El huevo exasperante</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -45690,8 +45690,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260520190000 +0000" stop="20260520210000 +0000" channel="mx#tdn">
-    <title lang="es">Francia vs. Brasil</title>
-    <category lang="es">Semifinal, Francia 1998</category>
+    <title lang="es">Francia 1998 Francia vs. Brasil (12 Julio</title>
+    <title lang="en">Final)</title>
+    <category lang="es">Final)</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260520210000 +0000" stop="20260520220000 +0000" channel="mx#tdn">
@@ -45700,22 +45701,28 @@
     <category lang="es">Tricolor al día</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260520220000 +0000" stop="20260521000000 +0000" channel="mx#tdn">
-    <title lang="es">Alemania vs. Argentina</title>
-    <category lang="es">Final, Brasil 2014</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  <programme start="20260520220000 +0000" stop="20260520230000 +0000" channel="mx#tdn">
+    <title lang="es">UNAM vs. Pachuca</title>
+    <category lang="es">Clausura 2026 - Liga MX</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_futbol-unam-vs-pachuca-clausura-2026-liga-mx_l_m.jpg</image>
   </programme>
-  <programme start="20260521000000 +0000" stop="20260521010000 +0000" channel="mx#tdn">
+  <programme start="20260520230000 +0000" stop="20260521000000 +0000" channel="mx#tdn">
     <title lang="es">Tricolor al día</title>
     <title lang="en">Tricolor al día</title>
     <category lang="es">Tricolor al día</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
+  <programme start="20260521000000 +0000" stop="20260521010000 +0000" channel="mx#tdn">
+    <title lang="es">Línea de cuatro</title>
+    <title lang="en">Línea de cuatro</title>
+    <category lang="es">Línea de cuatro</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_futbol-linea-de-cuatro_l_m.jpg</image>
+  </programme>
   <programme start="20260521010000 +0000" stop="20260521020000 +0000" channel="mx#tdn">
-    <title lang="es">Pumas UNAM vs. Pachuca</title>
-    <title lang="en">Semifinal - Vuelta, Estadio Olímpico Universitario</title>
-    <category lang="es">Semifinal - Vuelta, Estadio Olímpico Universitario</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+    <title lang="es">Línea de cuatro</title>
+    <title lang="en">Línea de cuatro</title>
+    <category lang="es">Línea de cuatro</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_futbol-linea-de-cuatro_l_m.jpg</image>
   </programme>
   <programme start="20260521020000 +0000" stop="20260521030000 +0000" channel="mx#tdn">
     <title lang="es">Contacto deportivo</title>
@@ -45800,22 +45807,22 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260521210000 +0000" stop="20260521220000 +0000" channel="mx#tdn">
-    <title lang="es">Luchas legendarias</title>
-    <title lang="en">Hazaña, el deporte vive</title>
-    <category lang="es">Hazaña, el deporte vive</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_deportivo-luchas-legendarias-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260521220000 +0000" stop="20260521230000 +0000" channel="mx#tdn">
     <title lang="es">Faitelson sin censura</title>
     <title lang="en">Faitelson sin censura</title>
     <category lang="es">Faitelson sin censura</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260521230000 +0000" stop="20260522000000 +0000" channel="mx#tdn">
+  <programme start="20260521220000 +0000" stop="20260521230000 +0000" channel="mx#tdn">
     <title lang="es">Tricolor al día</title>
     <title lang="en">Tricolor al día</title>
     <category lang="es">Tricolor al día</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260521230000 +0000" stop="20260522000000 +0000" channel="mx#tdn">
+    <title lang="es">Línea de cuatro</title>
+    <title lang="en">Línea de cuatro</title>
+    <category lang="es">Línea de cuatro</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_futbol-linea-de-cuatro_l_m.jpg</image>
   </programme>
   <programme start="20260522000000 +0000" stop="20260522010000 +0000" channel="mx#tdn">
     <title lang="es">Línea de cuatro</title>
@@ -45823,29 +45830,29 @@
     <category lang="es">Línea de cuatro</category>
     <image>https://cdn.mitvstatic.com/programs/mx_futbol-linea-de-cuatro_l_m.jpg</image>
   </programme>
-  <programme start="20260522010000 +0000" stop="20260522020000 +0000" channel="mx#tdn">
-    <title lang="es">Línea de cuatro</title>
-    <title lang="en">Línea de cuatro</title>
-    <category lang="es">Línea de cuatro</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_futbol-linea-de-cuatro_l_m.jpg</image>
-  </programme>
-  <programme start="20260522020000 +0000" stop="20260522025500 +0000" channel="mx#tdn">
+  <programme start="20260522010000 +0000" stop="20260522015500 +0000" channel="mx#tdn">
     <title lang="es">Fútbol central</title>
     <title lang="en">Fútbol central</title>
     <category lang="es">Fútbol central</category>
     <image>https://cdn.mitvstatic.com/programs/mx_futbol-futbol-central-1_l_m.jpg</image>
   </programme>
-  <programme start="20260522025500 +0000" stop="20260522030000 +0000" channel="mx#tdn">
-    <title lang="es">Final - Ida</title>
-    <title lang="en">Previa - Liga MX</title>
-    <category lang="es">Previa - Liga MX</category>
+  <programme start="20260522015500 +0000" stop="20260522020000 +0000" channel="mx#tdn">
+    <title lang="es">Cruz Azul vs. Pumas UNAM</title>
+    <title lang="en">Final - Ida, Estadio Banorte</title>
+    <category lang="es">Final - Ida, Estadio Banorte</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260522030000 +0000" stop="20260522050000 +0000" channel="mx#tdn">
-    <title lang="es">Final - Ida</title>
-    <title lang="en">Liga MX</title>
-    <category lang="es">Liga MX</category>
+  <programme start="20260522020000 +0000" stop="20260522040000 +0000" channel="mx#tdn">
+    <title lang="es">Cruz Azul vs. Pumas UNAM</title>
+    <title lang="en">Final - Ida, Estadio Banorte</title>
+    <category lang="es">Final - Ida, Estadio Banorte</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260522040000 +0000" stop="20260522050000 +0000" channel="mx#tdn">
+    <title lang="es">Línea de cuatro</title>
+    <title lang="en">Línea de cuatro</title>
+    <category lang="es">Línea de cuatro</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_futbol-linea-de-cuatro_l_m.jpg</image>
   </programme>
   <programme start="20260522050000 +0000" stop="20260522060000 +0000" channel="mx#tdn">
     <title lang="es">Línea de cuatro</title>
@@ -54535,54 +54542,68 @@
     <episode-num system="onscreen">S01E128</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e128_l_m.jpg</image>
   </programme>
-  <programme start="20260520120000 +0000" stop="20260520122400 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Plan de escape 2: Hades</title>
-    <title lang="en">Escape Plan 2: Hades</title>
-    <category lang="es">Acción</category>
-    <rating><value>3.9</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_plan-de-escape-2-hades-2018_l_m.jpg</image>
+  <programme start="20260520120000 +0000" stop="20260520120300 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.180.0/1</episode-num>
+    <episode-num system="onscreen">S14E181</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_tnt-buzz-s14e181_l_m.jpg</image>
   </programme>
-  <programme start="20260520122400 +0000" stop="20260520144500 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Nace una estrella</title>
-    <title lang="en">A Star Is Born</title>
-    <category lang="es">Drama</category>
-    <rating><value>7.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_nace-una-estrella-2018_l_m.jpg</image>
+  <programme start="20260520120300 +0000" stop="20260520121900 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.93.0/1</episode-num>
+    <episode-num system="onscreen">S01E94</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e94_l_m.jpg</image>
   </programme>
-  <programme start="20260520144500 +0000" stop="20260520172700 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260520121900 +0000" stop="20260520122900 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.94.0/1</episode-num>
+    <episode-num system="onscreen">S01E95</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e95_l_m.jpg</image>
+  </programme>
+  <programme start="20260520122900 +0000" stop="20260520142400 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">El robo del siglo</title>
+    <title lang="en">The Bank Job</title>
+    <category lang="es">Thriller</category>
+    <rating><value>7.2</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_el-robo-del-siglo-2008_l_m.jpg</image>
+  </programme>
+  <programme start="20260520142400 +0000" stop="20260520170200 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Superman regresa</title>
     <title lang="en">Superman Returns</title>
     <category lang="es">C.Ficción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_superman-regresa-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260520172700 +0000" stop="20260520203100 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260520170200 +0000" stop="20260520200700 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Batman</title>
     <title lang="en">The Batman</title>
     <category lang="es">Acción</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260520203100 +0000" stop="20260520235000 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260520200700 +0000" stop="20260520231600 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Alexander</title>
     <title lang="en">Documental</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260520235000 +0000" stop="20260521015300 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260520231600 +0000" stop="20260521015100 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Náufrago</title>
     <title lang="en">Cast Away</title>
     <category lang="es">Aventura</category>
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_naufrago-2000_l_m.jpg</image>
   </programme>
-  <programme start="20260521015300 +0000" stop="20260521040000 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260521015100 +0000" stop="20260521040000 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">El vengador del futuro</title>
     <title lang="en">Total Recall</title>
     <category lang="es">Acción</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_el-vengador-del-futuro-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260521040000 +0000" stop="20260521093300 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260521040000 +0000" stop="20260521072500 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">¡Que viva México!</title>
     <title lang="en">Comedia</title>
     <rating><value>5.6</value></rating>
@@ -54594,19 +54615,40 @@
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260521093300 +0000" stop="20260521110900 +0000" channel="TNTLatinAmerica.us@Mexico">
+  <programme start="20260521072500 +0000" stop="20260521092200 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">En el corazón del mar</title>
+    <title lang="en">In the Heart of the Sea</title>
+    <category lang="es">Acción</category>
+    <rating><value>6.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/mx_en-el-corazon-del-mar-2015_l_m.jpg</image>
+  </programme>
+  <programme start="20260521092200 +0000" stop="20260521105800 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Asesino ninja</title>
     <title lang="en">Ninja Assassin</title>
     <category lang="es">Thriller</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_asesino-ninja-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260521110900 +0000" stop="20260521120000 +0000" channel="TNTLatinAmerica.us@Mexico">
-    <title lang="es">Plan de escape: El rescate</title>
-    <title lang="en">Escape Plan: The Extractors</title>
-    <category lang="es">Acción</category>
-    <rating><value>4.4</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260521105800 +0000" stop="20260521113600 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e37_l_m.jpg</image>
+  </programme>
+  <programme start="20260521113600 +0000" stop="20260521114800 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.108.0/1</episode-num>
+    <episode-num system="onscreen">S01E109</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e109_l_m.jpg</image>
+  </programme>
+  <programme start="20260521114800 +0000" stop="20260521120000 +0000" channel="TNTLatinAmerica.us@Mexico">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.103.0/1</episode-num>
+    <episode-num system="onscreen">S01E104</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e104_l_m.jpg</image>
   </programme>
   <programme start="20260521120000 +0000" stop="20260521123400 +0000" channel="TNTLatinAmerica.us@Mexico">
     <title lang="es">Plus One</title>
