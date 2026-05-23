@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260523194138 +0000">
+<tv generator-info-name="custom-epg" date="20260523221251 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -633,19 +635,17 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <programme start="20260523060000 +0000" stop="20260523070000 +0000" channel="13C.cl@SD">
     <title lang="es">City Tour</title>
@@ -3058,13 +3058,13 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260525053000 +0000" stop="20260525073000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260525053000 +0000" stop="20260525063000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">2067</title>
     <title lang="en">C.Ficción</title>
     <rating><value>4.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260525053000 +0000" stop="20260525063000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260525053000 +0000" stop="20260525073000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">2067</title>
     <title lang="en">C.Ficción</title>
     <rating><value>4.9</value></rating>
@@ -16067,9 +16067,9 @@
   </programme>
   <programme start="20260525120000 +0000" stop="20260525170000 +0000" channel="ChileVision.cl@SD">
     <title lang="es">Contigo en la mañana</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_contigo-en-la-manana_l_m.jpg</image>
+    <title lang="en">Episodio 1858</title>
+    <category lang="es">Episodio 1858</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260525170000 +0000" stop="20260525193000 +0000" channel="ChileVision.cl@SD">
     <title lang="es">CHV Noticias tarde</title>
@@ -16077,23 +16077,25 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_chv-noticias-tarde_l_m.jpg</image>
   </programme>
-  <programme start="20260525193000 +0000" stop="20260525213000 +0000" channel="ChileVision.cl@SD">
+  <programme start="20260525193000 +0000" stop="20260525211500 +0000" channel="ChileVision.cl@SD">
     <title lang="es">Contigo en directo</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_contigo-en-directo_l_m.jpg</image>
   </programme>
-  <programme start="20260525213000 +0000" stop="20260525230000 +0000" channel="ChileVision.cl@SD">
+  <programme start="20260525211500 +0000" stop="20260525231500 +0000" channel="ChileVision.cl@SD">
     <title lang="es">Plan perfecto</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.309.0/1</episode-num>
+    <episode-num system="onscreen">S01E310</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260525230000 +0000" stop="20260526003000 +0000" channel="ChileVision.cl@SD">
+  <programme start="20260525231500 +0000" stop="20260526003000 +0000" channel="ChileVision.cl@SD">
     <title lang="es">Cuánto vale el show</title>
-    <title lang="en">Reality Show</title>
-    <category lang="es">Reality Show</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.141.0/1</episode-num>
+    <episode-num system="onscreen">S01E142</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260526003000 +0000" stop="20260526023500 +0000" channel="ChileVision.cl@SD">
     <title lang="es">CHV noticias Central</title>
@@ -16103,20 +16105,22 @@
   </programme>
   <programme start="20260526023500 +0000" stop="20260526044500 +0000" channel="ChileVision.cl@SD">
     <title lang="es">Fiebre de baile</title>
-    <title lang="en">Reality Show</title>
-    <category lang="es">Reality Show</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_fiebre-de-baile_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.44.0/1</episode-num>
+    <episode-num system="onscreen">S02E45</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260526044500 +0000" stop="20260526054500 +0000" channel="ChileVision.cl@SD">
     <title lang="es">El VAR, after del baile</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.44.0/1</episode-num>
+    <episode-num system="onscreen">S01E45</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260526054500 +0000" stop="20260526064500 +0000" channel="ChileVision.cl@SD">
-    <title lang="es">Cuánto vale el show</title>
-    <title lang="en">Reality Show</title>
-    <category lang="es">Reality Show</category>
+    <title lang="es">Divina comida de selección</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260523054000 +0000" stop="20260523061000 +0000" channel="cl#a-e-mundo">
@@ -17879,7 +17883,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_refugio-en-el-granero-s01e03-rescate-en-un-incendio_l_m.jpg</image>
   </programme>
-  <programme start="20260524052500 +0000" stop="20260524060800 +0000" channel="cl#animal-planet">
+  <programme start="20260524052500 +0000" stop="20260524062500 +0000" channel="cl#animal-planet">
     <title lang="es">Viento del Everest</title>
     <sub-title lang="es">Congelarse en la zona de muertes</sub-title>
     <category lang="es">Serie</category>
@@ -17887,7 +17891,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_viento-del-everest-s01e04-congelarse-en-la-zona-de-muertes_l_m.jpg</image>
   </programme>
-  <programme start="20260524052500 +0000" stop="20260524062500 +0000" channel="cl#animal-planet">
+  <programme start="20260524052500 +0000" stop="20260524060800 +0000" channel="cl#animal-planet">
     <title lang="es">Viento del Everest</title>
     <sub-title lang="es">Congelarse en la zona de muertes</sub-title>
     <category lang="es">Serie</category>
@@ -88491,14 +88495,14 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260525053000 +0000" stop="20260525070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260525053000 +0000" stop="20260525063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Lo mejor de Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.42.0/1</episode-num>
     <episode-num system="onscreen">S04E43</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260525053000 +0000" stop="20260525063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260525053000 +0000" stop="20260525070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Lo mejor de Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.42.0/1</episode-num>
@@ -89094,14 +89098,14 @@
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_virgen-a-los-40-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260525041400 +0000" stop="20260525060600 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260525041400 +0000" stop="20260525051400 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">Cincuenta sombras liberadas</title>
     <title lang="en">Fifty Shades Freed</title>
     <category lang="es">Drama</category>
     <rating><value>4.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_cincuenta-sombras-liberadas-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260525041400 +0000" stop="20260525051400 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260525041400 +0000" stop="20260525060600 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">Cincuenta sombras liberadas</title>
     <title lang="en">Fifty Shades Freed</title>
     <category lang="es">Drama</category>
