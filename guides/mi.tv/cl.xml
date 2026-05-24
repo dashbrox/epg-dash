@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260524084741 +0000">
+<tv generator-info-name="custom-epg" date="20260524105240 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -633,19 +635,17 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <programme start="20260524060000 +0000" stop="20260524070000 +0000" channel="13C.cl@SD">
     <title lang="es">Maravillas del mundo</title>
@@ -2846,13 +2846,13 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-orfanato-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260526050500 +0000" stop="20260526071000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260526050500 +0000" stop="20260526060500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El libro de los secretos</title>
     <title lang="en">The Book of Eli</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_el-libro-de-los-secretos-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260526050500 +0000" stop="20260526060500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260526050500 +0000" stop="20260526071000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El libro de los secretos</title>
     <title lang="en">The Book of Eli</title>
     <category lang="es">Acción</category>
@@ -18037,7 +18037,7 @@
     <episode-num system="onscreen">S05E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_el-zoologico-del-bronx-s05e09-canguros-en-los-arboles_l_m.jpg</image>
   </programme>
-  <programme start="20260525053300 +0000" stop="20260525062100 +0000" channel="cl#animal-planet">
+  <programme start="20260525053300 +0000" stop="20260525063300 +0000" channel="cl#animal-planet">
     <title lang="es">Piscinas increíbles</title>
     <sub-title lang="es">Vivir en Nunca Jamás</sub-title>
     <category lang="es">Serie</category>
@@ -18045,7 +18045,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_piscinas-increibles-s03e06-patio-pequeno-suenos-grandes_l_m.jpg</image>
   </programme>
-  <programme start="20260525053300 +0000" stop="20260525063300 +0000" channel="cl#animal-planet">
+  <programme start="20260525053300 +0000" stop="20260525062100 +0000" channel="cl#animal-planet">
     <title lang="es">Piscinas increíbles</title>
     <sub-title lang="es">Vivir en Nunca Jamás</sub-title>
     <category lang="es">Serie</category>
@@ -88084,14 +88084,14 @@
     <episode-num system="onscreen">S01E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260526053000 +0000" stop="20260526070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260526053000 +0000" stop="20260526063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.43.0/1</episode-num>
     <episode-num system="onscreen">S04E44</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260526053000 +0000" stop="20260526063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260526053000 +0000" stop="20260526070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Not News</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.43.0/1</episode-num>
@@ -88730,7 +88730,7 @@
     <episode-num system="onscreen">S12E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s12e14_l_m.jpg</image>
   </programme>
-  <programme start="20260526053900 +0000" stop="20260526060200 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260526053900 +0000" stop="20260526063900 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La oscilación de la donación</sub-title>
     <category lang="es">Serie</category>
@@ -88738,7 +88738,7 @@
     <episode-num system="onscreen">S12E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s12e15_l_m.jpg</image>
   </programme>
-  <programme start="20260526053900 +0000" stop="20260526063900 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260526053900 +0000" stop="20260526060200 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La oscilación de la donación</sub-title>
     <category lang="es">Serie</category>
