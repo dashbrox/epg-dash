@@ -1,11 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260526044005 +0000">
+<tv generator-info-name="custom-epg" date="20260526102325 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://i.imgur.com/TWFDkap.png"/>
   </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
+  <channel id="E.us@West">
+    <display-name>E! Entertainment USA HD - Pacific</display-name>
+    <icon src="https://i.imgur.com/TWFDkap.png"/>
+  </channel>
+  <channel id="Bravo.us@East">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  </channel>
+  <channel id="TSN1.ca@SD">
+    <display-name>TSN1</display-name>
+    <icon src="https://i.imgur.com/eRFE0jZ.png"/>
+  </channel>
+  <channel id="tsn1-hd/2819">
+    <display-name>TSN1 HD</display-name>
+  </channel>
+  <channel id="TSN2.ca@SD">
+    <display-name>TSN2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/960px-TSN2.svg.png"/>
+  </channel>
+  <channel id="tsn2-hd/5920">
+    <display-name>TSN2 HD</display-name>
+  </channel>
+  <channel id="Bravo.us@West">
+    <display-name>Bravo USA HD - Pacific Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  </channel>
+  <channel id="tsn2--no-habs/32778">
+    <display-name>TSN2 - No Habs</display-name>
+  </channel>
+  <channel id="tsn2--no-habs-hd/32779">
+    <display-name>TSN2 - No Habs HD</display-name>
+  </channel>
+  <channel id="tsn5-4k/35986">
+    <display-name>TSN5 4K</display-name>
+  </channel>
+  <channel id="TSN4.ca@SD">
+    <display-name>TSN4</display-name>
+    <icon src="https://i.imgur.com/qJyAWU8.png"/>
+  </channel>
+  <channel id="tsn4-hd/13769">
+    <display-name>TSN4 HD</display-name>
+  </channel>
+  <channel id="TSN3.ca@SD">
+    <display-name>TSN3</display-name>
+    <icon src="https://i.imgur.com/AYza8KO.png"/>
+  </channel>
+  <channel id="tsn3-hd/13768">
+    <display-name>TSN3 HD</display-name>
   </channel>
   <channel id="tsn-on-demand/6784">
     <display-name>TSN On Demand</display-name>
@@ -29,54 +75,8 @@
   <channel id="tsn5-hd/13770">
     <display-name>TSN5 HD</display-name>
   </channel>
-  <channel id="tsn5-4k/35986">
-    <display-name>TSN5 4K</display-name>
-  </channel>
-  <channel id="TSN4.ca@SD">
-    <display-name>TSN4</display-name>
-    <icon src="https://i.imgur.com/qJyAWU8.png"/>
-  </channel>
-  <channel id="tsn4-hd/13769">
-    <display-name>TSN4 HD</display-name>
-  </channel>
-  <channel id="TSN3.ca@SD">
-    <display-name>TSN3</display-name>
-    <icon src="https://i.imgur.com/AYza8KO.png"/>
-  </channel>
-  <channel id="tsn3-hd/13768">
-    <display-name>TSN3 HD</display-name>
-  </channel>
-  <channel id="TSN2.ca@SD">
-    <display-name>TSN2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/960px-TSN2.svg.png"/>
-  </channel>
-  <channel id="tsn2-hd/5920">
-    <display-name>TSN2 HD</display-name>
-  </channel>
-  <channel id="tsn2--no-habs/32778">
-    <display-name>TSN2 - No Habs</display-name>
-  </channel>
-  <channel id="tsn2--no-habs-hd/32779">
-    <display-name>TSN2 - No Habs HD</display-name>
-  </channel>
-  <channel id="TSN1.ca@SD">
-    <display-name>TSN1</display-name>
-    <icon src="https://i.imgur.com/eRFE0jZ.png"/>
-  </channel>
-  <channel id="tsn1-hd/2819">
-    <display-name>TSN1 HD</display-name>
-  </channel>
-  <channel id="Bravo.us@West">
-    <display-name>Bravo USA HD - Pacific Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
-  </channel>
-  <channel id="Bravo.us@East">
-    <display-name>Bravo USA HD - Eastern Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
-  </channel>
-  <channel id="E.us@West">
-    <display-name>E! Entertainment USA HD - Pacific</display-name>
-    <icon src="https://i.imgur.com/TWFDkap.png"/>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
   </channel>
   <programme start="20260526100000 +0000" stop="20260526110000 +0000" channel="Bravo.us@East">
     <title lang="en">Below Deck Mediterranean</title>
@@ -4192,16 +4192,16 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
   <programme start="20260528233000 +0000" stop="20260529000000 +0000" channel="tsn3-hd/13768">
-    <title lang="en">SC</title>
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Anthology</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
   <programme start="20260529000000 +0000" stop="20260529003000 +0000" channel="tsn3-hd/13768">
-    <title lang="en">SC</title>
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Anthology</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
   <programme start="20260529003000 +0000" stop="20260529010000 +0000" channel="tsn3-hd/13768">
     <title lang="en">2026 Memorial Cup Pregame Show</title>
@@ -4621,16 +4621,16 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
   <programme start="20260528233000 +0000" stop="20260529000000 +0000" channel="TSN3.ca@SD">
-    <title lang="en">SC</title>
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Anthology</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
   <programme start="20260529000000 +0000" stop="20260529003000 +0000" channel="TSN3.ca@SD">
-    <title lang="en">SC</title>
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Anthology</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
   <programme start="20260529003000 +0000" stop="20260529010000 +0000" channel="TSN3.ca@SD">
     <title lang="en">2026 Memorial Cup Pregame Show</title>
@@ -4977,23 +4977,23 @@
     <category lang="en">Anthology</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529000000 +0000" stop="20260529020000 +0000" channel="tsn4-hd/13769">
-    <title lang="en">WNBA Basketball</title>
+  <programme start="20260529000000 +0000" stop="20260529003000 +0000" channel="tsn4-hd/13769">
+    <title lang="en">SC</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529020000 +0000" stop="20260529030000 +0000" channel="tsn4-hd/13769">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529003000 +0000" stop="20260529010000 +0000" channel="tsn4-hd/13769">
+    <title lang="en">2026 Memorial Cup Pregame Show</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33037069_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529030000 +0000" stop="20260529040000 +0000" channel="tsn4-hd/13769">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529010000 +0000" stop="20260529040000 +0000" channel="tsn4-hd/13769">
+    <title lang="en">2026 Memorial Cup Hockey</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33001110_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260529040000 +0000" stop="20260529050000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SC With Jay Onrait</title>
@@ -5322,23 +5322,23 @@
     <category lang="en">Anthology</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529000000 +0000" stop="20260529020000 +0000" channel="TSN4.ca@SD">
-    <title lang="en">WNBA Basketball</title>
+  <programme start="20260529000000 +0000" stop="20260529003000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">SC</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
+    <category lang="en">Anthology</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529020000 +0000" stop="20260529030000 +0000" channel="TSN4.ca@SD">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529003000 +0000" stop="20260529010000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">2026 Memorial Cup Pregame Show</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33037069_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529030000 +0000" stop="20260529040000 +0000" channel="TSN4.ca@SD">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529010000 +0000" stop="20260529040000 +0000" channel="TSN4.ca@SD">
+    <title lang="en">2026 Memorial Cup Hockey</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33001110_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260529040000 +0000" stop="20260529050000 +0000" channel="TSN4.ca@SD">
     <title lang="en">SC With Jay Onrait</title>
@@ -5604,17 +5604,11 @@
     <category lang="en">Basketball</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
   </programme>
-  <programme start="20260528020000 +0000" stop="20260528030000 +0000" channel="tsn5-hd/13770">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260528020000 +0000" stop="20260528040000 +0000" channel="tsn5-hd/13770">
+    <title lang="en">WNBA Basketball</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
-  </programme>
-  <programme start="20260528030000 +0000" stop="20260528040000 +0000" channel="tsn5-hd/13770">
-    <title lang="en">SportsCentre</title>
-    <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Basketball</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
   </programme>
   <programme start="20260528040000 +0000" stop="20260528050000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SC With Jay Onrait</title>
@@ -5677,28 +5671,28 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
   <programme start="20260528233000 +0000" stop="20260529000000 +0000" channel="tsn5-hd/13770">
-    <title lang="en">SC</title>
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Anthology</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
-  <programme start="20260529000000 +0000" stop="20260529020000 +0000" channel="tsn5-hd/13770">
-    <title lang="en">WNBA Basketball</title>
+  <programme start="20260529000000 +0000" stop="20260529003000 +0000" channel="tsn5-hd/13770">
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
-  <programme start="20260529020000 +0000" stop="20260529030000 +0000" channel="tsn5-hd/13770">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529003000 +0000" stop="20260529010000 +0000" channel="tsn5-hd/13770">
+    <title lang="en">2026 Memorial Cup Pregame Show</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33037069_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529030000 +0000" stop="20260529040000 +0000" channel="tsn5-hd/13770">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529010000 +0000" stop="20260529040000 +0000" channel="tsn5-hd/13770">
+    <title lang="en">2026 Memorial Cup Hockey</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33001110_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260529040000 +0000" stop="20260529050000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SC With Jay Onrait</title>
@@ -5850,17 +5844,11 @@
     <category lang="en">Basketball</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
   </programme>
-  <programme start="20260528020000 +0000" stop="20260528030000 +0000" channel="TSN5.ca@SD">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260528020000 +0000" stop="20260528040000 +0000" channel="TSN5.ca@SD">
+    <title lang="en">WNBA Basketball</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
-  </programme>
-  <programme start="20260528030000 +0000" stop="20260528040000 +0000" channel="TSN5.ca@SD">
-    <title lang="en">SportsCentre</title>
-    <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Basketball</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
   </programme>
   <programme start="20260528040000 +0000" stop="20260528050000 +0000" channel="TSN5.ca@SD">
     <title lang="en">SC With Jay Onrait</title>
@@ -5923,28 +5911,28 @@
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
   </programme>
   <programme start="20260528233000 +0000" stop="20260529000000 +0000" channel="TSN5.ca@SD">
-    <title lang="en">SC</title>
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Anthology</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11413944_b_v8_aa.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
-  <programme start="20260529000000 +0000" stop="20260529020000 +0000" channel="TSN5.ca@SD">
-    <title lang="en">WNBA Basketball</title>
+  <programme start="20260529000000 +0000" stop="20260529003000 +0000" channel="TSN5.ca@SD">
+    <title lang="en">FIFA World Cup 26 Preview Series</title>
     <category lang="en">Sports</category>
-    <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p191289_b_v12_ah.jpg</image>
+    <category lang="en">Soccer</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32943892_b_v12_ab.jpg</image>
   </programme>
-  <programme start="20260529020000 +0000" stop="20260529030000 +0000" channel="TSN5.ca@SD">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529003000 +0000" stop="20260529010000 +0000" channel="TSN5.ca@SD">
+    <title lang="en">2026 Memorial Cup Pregame Show</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33037069_b_v8_aa.jpg</image>
   </programme>
-  <programme start="20260529030000 +0000" stop="20260529040000 +0000" channel="TSN5.ca@SD">
-    <title lang="en">SportsCentre</title>
+  <programme start="20260529010000 +0000" stop="20260529040000 +0000" channel="TSN5.ca@SD">
+    <title lang="en">2026 Memorial Cup Hockey</title>
     <category lang="en">Sports</category>
-    <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p492912_b_v8_ae.jpg</image>
+    <category lang="en">Hockey</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33001110_b_v8_aa.jpg</image>
   </programme>
   <programme start="20260529040000 +0000" stop="20260529050000 +0000" channel="TSN5.ca@SD">
     <title lang="en">SC With Jay Onrait</title>
