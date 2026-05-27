@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260527203337 +0000">
+<tv generator-info-name="custom-epg" date="20260527225910 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -376,18 +378,16 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <programme start="20260527055500 +0000" stop="20260527080500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El libro de los secretos</title>
@@ -664,14 +664,14 @@
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_yo-frankenstein-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260529040000 +0000" stop="20260529061500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260529040000 +0000" stop="20260529050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Bad Boys para siempre</title>
     <title lang="en">Bad Boys for Life</title>
     <category lang="es">Acción</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_bad-boys-para-siempre-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260529040000 +0000" stop="20260529050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260529040000 +0000" stop="20260529061500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Bad Boys para siempre</title>
     <title lang="en">Bad Boys for Life</title>
     <category lang="es">Acción</category>
@@ -12362,7 +12362,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260528051400 +0000" stop="20260528060600 +0000" channel="mx#animal-planet">
+  <programme start="20260528051400 +0000" stop="20260528061400 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Sin licencia</sub-title>
     <category lang="es">Serie</category>
@@ -12370,7 +12370,7 @@
     <episode-num system="onscreen">S06E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guardianes-de-texas-s06e11-masacre-en-el-pantano_l_m.jpg</image>
   </programme>
-  <programme start="20260528051400 +0000" stop="20260528061400 +0000" channel="mx#animal-planet">
+  <programme start="20260528051400 +0000" stop="20260528060600 +0000" channel="mx#animal-planet">
     <title lang="es">Guardianes de Texas</title>
     <sub-title lang="es">Sin licencia</sub-title>
     <category lang="es">Serie</category>
@@ -41250,7 +41250,7 @@
   </programme>
   <programme start="20260528095500 +0000" stop="20260528102000 +0000" channel="mx#nickelodeon">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">Estresada por el papel</sub-title>
+    <sub-title lang="es">No te vayas de casa</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">5.0.0/1</episode-num>
     <episode-num system="onscreen">S06E01</episode-num>
@@ -41298,7 +41298,7 @@
   </programme>
   <programme start="20260528120000 +0000" stop="20260528122000 +0000" channel="mx#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Mar-Espía</sub-title>
+    <sub-title lang="es">Caos en la cafetería</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -41362,7 +41362,7 @@
   </programme>
   <programme start="20260528145000 +0000" stop="20260528150000 +0000" channel="mx#nickelodeon">
     <title lang="es">Wylde Pak</title>
-    <sub-title lang="es">Campamento Chuck</sub-title>
+    <sub-title lang="es">El café boba / Sé tú mismo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -41394,7 +41394,7 @@
   </programme>
   <programme start="20260528155500 +0000" stop="20260528160500 +0000" channel="mx#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">El concurso picante</sub-title>
+    <sub-title lang="es">Confusión en la excavación</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -41570,7 +41570,7 @@
   </programme>
   <programme start="20260528234000 +0000" stop="20260528235000 +0000" channel="mx#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">El concurso picante</sub-title>
+    <sub-title lang="es">Confusión en la excavación</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -41578,7 +41578,7 @@
   </programme>
   <programme start="20260528235000 +0000" stop="20260529000000 +0000" channel="mx#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Mar-Espía</sub-title>
+    <sub-title lang="es">Caos en la cafetería</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
