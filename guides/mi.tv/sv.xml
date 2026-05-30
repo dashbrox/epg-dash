@@ -1,21 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260530141139 +0000">
+<tv generator-info-name="custom-epg" date="20260530162150 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
   </channel>
-  <channel id="sv#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="sv#a-e-mundo">
+    <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="VTVCanal35.sv@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/RSVzyzp.png"/>
+  <channel id="sv#amc">
+    <display-name>AMC</display-name>
+  </channel>
+  <channel id="sv#az-corazon">
+    <display-name>Az Corazón</display-name>
+  </channel>
+  <channel id="Canal2.sv@SD">
+    <display-name>Canal 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/960px-Canal_2_TCS.png"/>
+  </channel>
+  <channel id="sv#cine-latino">
+    <display-name>Cinelatino</display-name>
+  </channel>
+  <channel id="sv#espn">
+    <display-name>ESPN</display-name>
   </channel>
   <channel id="sv#vh1">
     <display-name>VH1</display-name>
   </channel>
   <channel id="sv#ve-plus-tv">
     <display-name>Ve Plus TV</display-name>
+  </channel>
+  <channel id="sv#cartoon-network">
+    <display-name>Cartoon Network</display-name>
+  </channel>
+  <channel id="sv#entertainment">
+    <display-name>E!</display-name>
   </channel>
   <channel id="sv#universal-channel">
     <display-name>Universal TV</display-name>
@@ -141,12 +159,6 @@
   <channel id="sv#espn-2">
     <display-name>ESPN 2</display-name>
   </channel>
-  <channel id="sv#espn">
-    <display-name>ESPN</display-name>
-  </channel>
-  <channel id="sv#entertainment">
-    <display-name>E!</display-name>
-  </channel>
   <channel id="sv#enlace-tbn">
     <display-name>Enlace</display-name>
   </channel>
@@ -204,11 +216,11 @@
   <channel id="sv#cinecanal">
     <display-name>Cinecanal</display-name>
   </channel>
-  <channel id="sv#cine-latino">
-    <display-name>Cinelatino</display-name>
+  <channel id="sv#axn">
+    <display-name>AXN</display-name>
   </channel>
-  <channel id="sv#cartoon-network">
-    <display-name>Cartoon Network</display-name>
+  <channel id="sv#boomerang-cartoon">
+    <display-name>Cartoonito</display-name>
   </channel>
   <channel id="sv#canal-de-las-estrellas">
     <display-name>Las Estrellas</display-name>
@@ -245,13 +257,6 @@
     <display-name>Canal 4</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/960px-Canal_4_TCS.png"/>
   </channel>
-  <channel id="Canal2.sv@SD">
-    <display-name>Canal 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/960px-Canal_2_TCS.png"/>
-  </channel>
-  <channel id="sv#boomerang-cartoon">
-    <display-name>Cartoonito</display-name>
-  </channel>
   <channel id="sv#bbc-world">
     <display-name>BBC World</display-name>
   </channel>
@@ -261,20 +266,15 @@
   <channel id="sv#azteca-13">
     <display-name>Azteca 13</display-name>
   </channel>
-  <channel id="sv#az-corazon">
-    <display-name>Az Corazón</display-name>
-  </channel>
-  <channel id="sv#axn">
-    <display-name>AXN</display-name>
-  </channel>
   <channel id="sv#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="sv#amc">
-    <display-name>AMC</display-name>
+  <channel id="sv#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="sv#a-e-mundo">
-    <display-name>A&amp;E</display-name>
+  <channel id="VTVCanal35.sv@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/RSVzyzp.png"/>
   </channel>
   <programme start="20260530060000 +0000" stop="20260530070000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Lo que la vida me robó</title>
@@ -377,14 +377,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/sv_swat_l_m.jpg</image>
   </programme>
-  <programme start="20260601050000 +0000" stop="20260601070000 +0000" channel="Canal2.sv@SD">
+  <programme start="20260601050000 +0000" stop="20260601060000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Los mercenarios</title>
     <title lang="en">Hard Kill</title>
     <category lang="es">Acción</category>
     <rating><value>3.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260601050000 +0000" stop="20260601060000 +0000" channel="Canal2.sv@SD">
+  <programme start="20260601050000 +0000" stop="20260601070000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Los mercenarios</title>
     <title lang="en">Hard Kill</title>
     <category lang="es">Acción</category>
@@ -3542,7 +3542,7 @@
     <episode-num system="onscreen">S15E335</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-da-ma-s15e335-nos-prometieron-diversion_l_m.jpg</image>
   </programme>
-  <programme start="20260531055500 +0000" stop="20260531061500 +0000" channel="sv#a-e-mundo">
+  <programme start="20260531055500 +0000" stop="20260531065500 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Toda fiesta necesita un aguafiestas</sub-title>
     <category lang="es">Serie</category>
@@ -3550,7 +3550,7 @@
     <episode-num system="onscreen">S15E336</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-da-ma-s15e336-toda-fiesta-necesita-un-aguafiestas_l_m.jpg</image>
   </programme>
-  <programme start="20260531055500 +0000" stop="20260531065500 +0000" channel="sv#a-e-mundo">
+  <programme start="20260531055500 +0000" stop="20260531061500 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Toda fiesta necesita un aguafiestas</sub-title>
     <category lang="es">Serie</category>
@@ -4373,14 +4373,14 @@
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_robocop-2014-1_l_m.jpg</image>
   </programme>
-  <programme start="20260601040000 +0000" stop="20260601062500 +0000" channel="sv#amc">
+  <programme start="20260601040000 +0000" stop="20260601050000 +0000" channel="sv#amc">
     <title lang="es">Creed II: Defendiendo el legado</title>
     <title lang="en">Creed II</title>
     <category lang="es">Drama</category>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_creed-ii-defendiendo-el-legado-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260601040000 +0000" stop="20260601050000 +0000" channel="sv#amc">
+  <programme start="20260601040000 +0000" stop="20260601062500 +0000" channel="sv#amc">
     <title lang="es">Creed II: Defendiendo el legado</title>
     <title lang="en">Creed II</title>
     <category lang="es">Drama</category>
@@ -6112,14 +6112,14 @@
     <episode-num system="onscreen">S01E78</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quererte-asi-s00e78_l_m.jpg</image>
   </programme>
-  <programme start="20260531052400 +0000" stop="20260531061200 +0000" channel="sv#az-corazon">
+  <programme start="20260531052400 +0000" stop="20260531062400 +0000" channel="sv#az-corazon">
     <title lang="es">Quererte así</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.78.0/1</episode-num>
     <episode-num system="onscreen">S01E79</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quererte-asi-s00e79_l_m.jpg</image>
   </programme>
-  <programme start="20260531052400 +0000" stop="20260531062400 +0000" channel="sv#az-corazon">
+  <programme start="20260531052400 +0000" stop="20260531061200 +0000" channel="sv#az-corazon">
     <title lang="es">Quererte así</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.78.0/1</episode-num>
@@ -14756,12 +14756,12 @@
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260531050000 +0000" stop="20260531064000 +0000" channel="sv#cine-latino">
+  <programme start="20260531050000 +0000" stop="20260531060000 +0000" channel="sv#cine-latino">
     <title lang="es">Las movidas de Juan Pérez</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260531050000 +0000" stop="20260531060000 +0000" channel="sv#cine-latino">
+  <programme start="20260531050000 +0000" stop="20260531064000 +0000" channel="sv#cine-latino">
     <title lang="es">Las movidas de Juan Pérez</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
@@ -28862,13 +28862,13 @@
     <category lang="es">Final - Ida, Estadio Tamaulipas</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260601050000 +0000" stop="20260601070000 +0000" channel="sv#espn">
+  <programme start="20260601050000 +0000" stop="20260601060000 +0000" channel="sv#espn">
     <title lang="es">Brighton vs. Manchester City</title>
     <title lang="en">Final</title>
     <category lang="es">Final</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260601050000 +0000" stop="20260601060000 +0000" channel="sv#espn">
+  <programme start="20260601050000 +0000" stop="20260601070000 +0000" channel="sv#espn">
     <title lang="es">Brighton vs. Manchester City</title>
     <title lang="en">Final</title>
     <category lang="es">Final</category>
@@ -47213,7 +47213,7 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s01e17-the-tangerine-factor_l_m.jpg</image>
   </programme>
-  <programme start="20260531055900 +0000" stop="20260531062300 +0000" channel="sv#warner">
+  <programme start="20260531055900 +0000" stop="20260531065900 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El paradigma del pescado malo</sub-title>
     <category lang="es">Serie</category>
@@ -47221,7 +47221,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s02e01-the-bad-fish-paradigm_l_m.jpg</image>
   </programme>
-  <programme start="20260531055900 +0000" stop="20260531065900 +0000" channel="sv#warner">
+  <programme start="20260531055900 +0000" stop="20260531062300 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El paradigma del pescado malo</sub-title>
     <category lang="es">Serie</category>
