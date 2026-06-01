@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260601121235 +0000">
+<tv generator-info-name="custom-epg" date="20260601182202 +0000">
   <channel id="co#a-e-mundo">
     <display-name>A&amp;E</display-name>
+  </channel>
+  <channel id="co#a-e-mundo-hd">
+    <display-name>A&amp;E Mundo HD</display-name>
   </channel>
   <channel id="co#zoom">
     <display-name>Zoom</display-name>
@@ -688,9 +691,6 @@
   <channel id="AlientoVision.us@SD">
     <display-name>Aliento Vision</display-name>
     <icon src="https://i.imgur.com/xT10iqB.png"/>
-  </channel>
-  <channel id="co#a-e-mundo-hd">
-    <display-name>A&amp;E Mundo HD</display-name>
   </channel>
   <programme start="20260601060000 +0000" stop="20260601063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En forma</title>
@@ -7363,20 +7363,20 @@
     <episode-num system="onscreen">S03E38</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260602095500 +0000" stop="20260602102000 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">Clientes en furia</title>
-    <sub-title lang="es">Espuma y salpicaduras</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.38.0/1</episode-num>
-    <episode-num system="onscreen">S03E39</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
   <programme start="20260602095500 +0000" stop="20260602104500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Dime como me morí</title>
     <sub-title lang="es">Encerrado</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260602095500 +0000" stop="20260602102000 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">Clientes en furia</title>
+    <sub-title lang="es">Espuma y salpicaduras</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.38.0/1</episode-num>
+    <episode-num system="onscreen">S03E39</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260602102000 +0000" stop="20260602104000 +0000" channel="co#a-e-mundo-hd">
@@ -7421,25 +7421,19 @@
   </programme>
   <programme start="20260602114000 +0000" stop="20260602120000 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">¿Quién da má$?</title>
-    <sub-title lang="es">Depósitos en el centro y sueños por las nubes</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">8.3.0/1</episode-num>
-    <episode-num system="onscreen">S09E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t09e04-depositos-en-el-centro-y-suenos-por-las-nubes_l_m.jpg</image>
-  </programme>
-  <programme start="20260602114000 +0000" stop="20260602120000 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">El desierto</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">7.4.0/1</episode-num>
     <episode-num system="onscreen">S08E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t08e05-el-desierto_l_m.jpg</image>
   </programme>
-  <programme start="20260602120000 +0000" stop="20260603010000 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
+  <programme start="20260602114000 +0000" stop="20260602120000 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">¿Quién da má$?</title>
+    <sub-title lang="es">Depósitos en el centro y sueños por las nubes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">8.3.0/1</episode-num>
+    <episode-num system="onscreen">S09E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t09e04-depositos-en-el-centro-y-suenos-por-las-nubes_l_m.jpg</image>
   </programme>
   <programme start="20260602120000 +0000" stop="20260602122500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">¿Quién da má$?</title>
@@ -7448,6 +7442,12 @@
     <episode-num system="xmltv_ns">7.5.0/1</episode-num>
     <episode-num system="onscreen">S08E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t08e06-subastas-y-alianzas_l_m.jpg</image>
+  </programme>
+  <programme start="20260602120000 +0000" stop="20260603010000 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">Infomerciales</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
+    <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
   </programme>
   <programme start="20260602122500 +0000" stop="20260602125000 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">¿Quién da má$?</title>
@@ -7485,14 +7485,6 @@
     <episode-num system="onscreen">S05E90</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260603020000 +0000" stop="20260603025000 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">Acumuladores compulsivos</title>
-    <sub-title lang="es">Forrest - Parte 1</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">11.1.0/1</episode-num>
-    <episode-num system="onscreen">S12E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_acumuladores-compulsivos-t12e02-forrest_l_m.jpg</image>
-  </programme>
   <programme start="20260603020000 +0000" stop="20260603022500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Patrulla policial</title>
     <sub-title lang="es">Brasil / Sudáfrica</sub-title>
@@ -7500,6 +7492,14 @@
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_patrulla-policial-t01e01-brasil-sudafrica_l_m.jpg</image>
+  </programme>
+  <programme start="20260603020000 +0000" stop="20260603025000 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">Acumuladores compulsivos</title>
+    <sub-title lang="es">Forrest - Parte 1</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">11.1.0/1</episode-num>
+    <episode-num system="onscreen">S12E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_acumuladores-compulsivos-t12e02-forrest_l_m.jpg</image>
   </programme>
   <programme start="20260603022500 +0000" stop="20260603024500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Patrulla policial</title>
@@ -7533,14 +7533,6 @@
     <episode-num system="onscreen">S03E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260603033500 +0000" stop="20260603040000 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">¿Quién da má$?</title>
-    <sub-title lang="es">¿Por qué el pollo cruzó la calle?</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">14.336.0/1</episode-num>
-    <episode-num system="onscreen">S15E337</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t15e337-por-que-el-pollo-cruzo-la-calle_l_m.jpg</image>
-  </programme>
   <programme start="20260603033500 +0000" stop="20260603035500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Ira en el camino</title>
     <sub-title lang="es">Guard Rail Fail</sub-title>
@@ -7548,6 +7540,14 @@
     <episode-num system="xmltv_ns">2.10.0/1</episode-num>
     <episode-num system="onscreen">S03E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260603033500 +0000" stop="20260603040000 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">¿Quién da má$?</title>
+    <sub-title lang="es">¿Por qué el pollo cruzó la calle?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.336.0/1</episode-num>
+    <episode-num system="onscreen">S15E337</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t15e337-por-que-el-pollo-cruzo-la-calle_l_m.jpg</image>
   </programme>
   <programme start="20260603035500 +0000" stop="20260603042000 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Ira en el camino</title>
@@ -57243,7 +57243,7 @@
   </programme>
   <programme start="20260601055500 +0000" stop="20260601062000 +0000" channel="co#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá / El Cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">The Birth / The Revelation</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -57299,7 +57299,7 @@
   </programme>
   <programme start="20260601083500 +0000" stop="20260601084000 +0000" channel="co#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">La vaquita lunar / El nebulizador / El bicho espacial</sub-title>
+    <sub-title lang="es">La vaquita lunar</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -57307,7 +57307,7 @@
   </programme>
   <programme start="20260601084000 +0000" stop="20260601085000 +0000" channel="co#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">La vaquita lunar / El nebulizador / El bicho espacial</sub-title>
+    <sub-title lang="es">La vaquita lunar</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -57443,7 +57443,7 @@
   </programme>
   <programme start="20260602023500 +0000" stop="20260602025000 +0000" channel="co#nick-jr">
     <title lang="es">Dora: ¡Di Hello a la aventura!</title>
-    <sub-title lang="es">Aventura de amigo-aniversario</sub-title>
+    <sub-title lang="es">Pequeña bailarina / El sol dormilón</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <episode-num system="onscreen">S01E09</episode-num>
@@ -58227,7 +58227,7 @@
   </programme>
   <programme start="20260603083000 +0000" stop="20260603084000 +0000" channel="co#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Pista espacial</sub-title>
+    <sub-title lang="es">Mamut</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -58699,7 +58699,7 @@
   </programme>
   <programme start="20260604055500 +0000" stop="20260604065500 +0000" channel="co#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Barbapapás de las cavernas / Los pequeños monstruos</sub-title>
+    <sub-title lang="es">The Barbapapa Family / The House of Barbapapa</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -59819,7 +59819,7 @@
   </programme>
   <programme start="20260603045000 +0000" stop="20260603050000 +0000" channel="co#nickelodeon">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">La actuación de Stella</sub-title>
+    <sub-title lang="es">Salven los últimos pantalones / La actuación de Stella</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">5.14.0/1</episode-num>
     <episode-num system="onscreen">S06E15</episode-num>
@@ -83738,26 +83738,26 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260602063000 +0000" stop="20260602070000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
-  </programme>
-  <programme start="20260602063000 +0000" stop="20260602070000 +0000" channel="co#zoom">
     <title lang="es">Viva la U</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viva-la-u_l_m.jpg</image>
+  </programme>
+  <programme start="20260602063000 +0000" stop="20260602070000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
+  <programme start="20260602070000 +0000" stop="20260602080000 +0000" channel="co#zoom">
+    <title lang="es">Una historia de Vasconia</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_una-historia-de-vasconia_l_m.jpg</image>
   </programme>
   <programme start="20260602070000 +0000" stop="20260602073000 +0000" channel="co#zoom">
     <title lang="es">NCC Salud</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
-  </programme>
-  <programme start="20260602070000 +0000" stop="20260602080000 +0000" channel="co#zoom">
-    <title lang="es">Una historia de Vasconia</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_una-historia-de-vasconia_l_m.jpg</image>
   </programme>
   <programme start="20260602073000 +0000" stop="20260602080000 +0000" channel="co#zoom">
     <title lang="es">Visión futuro</title>
@@ -83766,20 +83766,15 @@
     <image>https://cdn.mitvstatic.com/programs/co_vision-futuro_l_m.jpg</image>
   </programme>
   <programme start="20260602080000 +0000" stop="20260602083000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
+  <programme start="20260602080000 +0000" stop="20260602083000 +0000" channel="co#zoom">
     <title lang="es">Global Es</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260602080000 +0000" stop="20260602083000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
-  </programme>
-  <programme start="20260602083000 +0000" stop="20260602090000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20260602083000 +0000" stop="20260602090000 +0000" channel="co#zoom">
     <title lang="es">La raíz doble. Sabores periféricos</title>
@@ -83787,7 +83782,7 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260602090000 +0000" stop="20260602093000 +0000" channel="co#zoom">
+  <programme start="20260602083000 +0000" stop="20260602090000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
@@ -83797,10 +83792,10 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
-  <programme start="20260602093000 +0000" stop="20260602103000 +0000" channel="co#zoom">
-    <title lang="es">Encuadre Iberoamericano</title>
+  <programme start="20260602090000 +0000" stop="20260602093000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_encuadre-iberoamericano_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20260602093000 +0000" stop="20260602100000 +0000" channel="co#zoom">
     <title lang="es">México biocultural</title>
@@ -83808,10 +83803,20 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
+  <programme start="20260602093000 +0000" stop="20260602103000 +0000" channel="co#zoom">
+    <title lang="es">Encuadre Iberoamericano</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_encuadre-iberoamericano_l_m.jpg</image>
+  </programme>
   <programme start="20260602100000 +0000" stop="20260602103000 +0000" channel="co#zoom">
     <title lang="es">Otros caminos</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_otros-caminos_l_m.jpg</image>
+  </programme>
+  <programme start="20260602103000 +0000" stop="20260602110000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20260602103000 +0000" stop="20260602110000 +0000" channel="co#zoom">
     <title lang="es">Viva la U</title>
@@ -83819,28 +83824,18 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viva-la-u_l_m.jpg</image>
   </programme>
-  <programme start="20260602103000 +0000" stop="20260602110000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
-  </programme>
-  <programme start="20260602110000 +0000" stop="20260602120000 +0000" channel="co#zoom">
-    <title lang="es">Una historia de Vasconia</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_una-historia-de-vasconia_l_m.jpg</image>
-  </programme>
   <programme start="20260602110000 +0000" stop="20260602113000 +0000" channel="co#zoom">
     <title lang="es">NCC - Noticias científicas culturales</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-noticias-cientificas-culturales_l_m.jpg</image>
   </programme>
-  <programme start="20260602113000 +0000" stop="20260602120000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
+  <programme start="20260602110000 +0000" stop="20260602120000 +0000" channel="co#zoom">
+    <title lang="es">Una historia de Vasconia</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_una-historia-de-vasconia_l_m.jpg</image>
   </programme>
-  <programme start="20260602120000 +0000" stop="20260602123000 +0000" channel="co#zoom">
+  <programme start="20260602113000 +0000" stop="20260602120000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
@@ -83851,11 +83846,10 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260602123000 +0000" stop="20260603010000 +0000" channel="co#zoom">
-    <title lang="es">La raíz doble. Sabores periféricos</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260602120000 +0000" stop="20260602123000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20260602123000 +0000" stop="20260603010000 +0000" channel="co#zoom">
     <title lang="es">NCC Climático</title>
@@ -83863,11 +83857,11 @@
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-climatico_l_m.jpg</image>
   </programme>
-  <programme start="20260603010000 +0000" stop="20260603013000 +0000" channel="co#zoom">
-    <title lang="es">NCC Salud</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
+  <programme start="20260602123000 +0000" stop="20260603010000 +0000" channel="co#zoom">
+    <title lang="es">La raíz doble. Sabores periféricos</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260603010000 +0000" stop="20260603013000 +0000" channel="co#zoom">
     <title lang="es">Cuente a ver</title>
@@ -83875,11 +83869,11 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/co_cuente-a-ver_l_m.jpg</image>
   </programme>
-  <programme start="20260603013000 +0000" stop="20260603014500 +0000" channel="co#zoom">
-    <title lang="es">JC informa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_jc-informa_l_m.jpg</image>
+  <programme start="20260603010000 +0000" stop="20260603013000 +0000" channel="co#zoom">
+    <title lang="es">NCC Salud</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
   </programme>
   <programme start="20260603013000 +0000" stop="20260603014500 +0000" channel="co#zoom">
     <title lang="es">Charlas universidad militar Nueva Granada</title>
@@ -83887,17 +83881,23 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260603014500 +0000" stop="20260603020000 +0000" channel="co#zoom">
-    <title lang="es">Exploramundos</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260603013000 +0000" stop="20260603014500 +0000" channel="co#zoom">
+    <title lang="es">JC informa</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_jc-informa_l_m.jpg</image>
   </programme>
   <programme start="20260603014500 +0000" stop="20260603015000 +0000" channel="co#zoom">
     <title lang="es">Este es mi cuento colombiano</title>
     <title lang="en">Cultural</title>
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/co_este-es-mi-cuento-colombiano_l_m.jpg</image>
+  </programme>
+  <programme start="20260603014500 +0000" stop="20260603020000 +0000" channel="co#zoom">
+    <title lang="es">Exploramundos</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260603015000 +0000" stop="20260603020000 +0000" channel="co#zoom">
     <title lang="es">Inteligencia animal</title>
@@ -83906,35 +83906,35 @@
     <image>https://cdn.mitvstatic.com/programs/co_inteligencia-animal_l_m.jpg</image>
   </programme>
   <programme start="20260603020000 +0000" stop="20260603023000 +0000" channel="co#zoom">
-    <title lang="es">NCC - Noticias científicas culturales</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc-noticias-cientificas-culturales_l_m.jpg</image>
-  </programme>
-  <programme start="20260603020000 +0000" stop="20260603023000 +0000" channel="co#zoom">
     <title lang="es">Rodando caminos</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
   </programme>
-  <programme start="20260603023000 +0000" stop="20260603030000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  <programme start="20260603020000 +0000" stop="20260603023000 +0000" channel="co#zoom">
+    <title lang="es">NCC - Noticias científicas culturales</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc-noticias-cientificas-culturales_l_m.jpg</image>
   </programme>
   <programme start="20260603023000 +0000" stop="20260603030000 +0000" channel="co#zoom">
     <title lang="es">Valor argentino</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260603030000 +0000" stop="20260603033000 +0000" channel="co#zoom">
-    <title lang="es">Rodando caminos</title>
+  <programme start="20260603023000 +0000" stop="20260603030000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20260603030000 +0000" stop="20260603040000 +0000" channel="co#zoom">
     <title lang="es">Una historia de Vasconia</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_una-historia-de-vasconia_l_m.jpg</image>
+  </programme>
+  <programme start="20260603030000 +0000" stop="20260603033000 +0000" channel="co#zoom">
+    <title lang="es">Rodando caminos</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
   </programme>
   <programme start="20260603033000 +0000" stop="20260603040000 +0000" channel="co#zoom">
     <title lang="es">Charlas en la U</title>
@@ -83943,20 +83943,15 @@
     <image>https://cdn.mitvstatic.com/programs/co_charlas-en-la-u_l_m.jpg</image>
   </programme>
   <programme start="20260603040000 +0000" stop="20260603043000 +0000" channel="co#zoom">
-    <title lang="es">Visión futuro</title>
-    <title lang="en">Educativo</title>
-    <category lang="es">Educativo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_vision-futuro_l_m.jpg</image>
-  </programme>
-  <programme start="20260603040000 +0000" stop="20260603043000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
-  <programme start="20260603043000 +0000" stop="20260603050000 +0000" channel="co#zoom">
-    <title lang="es">Fuerza latina</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
+  <programme start="20260603040000 +0000" stop="20260603043000 +0000" channel="co#zoom">
+    <title lang="es">Visión futuro</title>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_vision-futuro_l_m.jpg</image>
   </programme>
   <programme start="20260603043000 +0000" stop="20260603050000 +0000" channel="co#zoom">
     <title lang="es">Global Es</title>
@@ -83964,16 +83959,21 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260603050000 +0000" stop="20260603060000 +0000" channel="co#zoom">
-    <title lang="es">En contacto</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_en-contacto_l_m.jpg</image>
+  <programme start="20260603043000 +0000" stop="20260603050000 +0000" channel="co#zoom">
+    <title lang="es">Fuerza latina</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
   </programme>
   <programme start="20260603050000 +0000" stop="20260603053000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
+  <programme start="20260603050000 +0000" stop="20260603060000 +0000" channel="co#zoom">
+    <title lang="es">En contacto</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_en-contacto_l_m.jpg</image>
   </programme>
   <programme start="20260603053000 +0000" stop="20260603063000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>

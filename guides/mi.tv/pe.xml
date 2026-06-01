@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260601121407 +0000">
+<tv generator-info-name="custom-epg" date="20260601182552 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
+  <channel id="pe#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="pe#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="pe#america-television">
-    <display-name>América Televisión</display-name>
+  <channel id="pe#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
   <channel id="pe#universal-channel">
     <display-name>Universal TV</display-name>
@@ -353,15 +351,17 @@
     <display-name>ATV</display-name>
     <icon src="https://i.imgur.com/eUzYZfg.png"/>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="pe#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="pe#america-television">
+    <display-name>América Televisión</display-name>
   </channel>
-  <channel id="pe#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
+  </channel>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
   </channel>
   <programme start="20260601103000 +0000" stop="20260601113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -5501,7 +5501,7 @@
   </programme>
   <programme start="20260601165000 +0000" stop="20260601170000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">La actuación de Stella</sub-title>
+    <sub-title lang="es">Salven los últimos pantalones / La actuación de Stella</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">5.14.0/1</episode-num>
     <episode-num system="onscreen">S06E15</episode-num>
@@ -8408,14 +8408,14 @@
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260602035500 +0000" stop="20260602045500 +0000" channel="pe#amc">
+  <programme start="20260602035500 +0000" stop="20260602061000 +0000" channel="pe#amc">
     <title lang="es">Sicario: día del soldado</title>
     <title lang="en">Sicario: Day of the Soldado</title>
     <category lang="es">Acción</category>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_sicario-dia-del-soldado-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260602035500 +0000" stop="20260602061000 +0000" channel="pe#amc">
+  <programme start="20260602035500 +0000" stop="20260602045500 +0000" channel="pe#amc">
     <title lang="es">Sicario: día del soldado</title>
     <title lang="en">Sicario: Day of the Soldado</title>
     <category lang="es">Acción</category>
@@ -10103,7 +10103,7 @@
     <episode-num system="onscreen">S05E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-zoologico-del-bronx-s05e08-amor-de-lemur_l_m.jpg</image>
   </programme>
-  <programme start="20260602052200 +0000" stop="20260602062200 +0000" channel="pe#animal-planet">
+  <programme start="20260602052200 +0000" stop="20260602061000 +0000" channel="pe#animal-planet">
     <title lang="es">Guardianes al rescate</title>
     <sub-title lang="es">No todo es lo que parece</sub-title>
     <category lang="es">Serie</category>
@@ -10111,7 +10111,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_guardianes-al-rescate-s01e04-no-todo-es-lo-que-parece_l_m.jpg</image>
   </programme>
-  <programme start="20260602052200 +0000" stop="20260602061000 +0000" channel="pe#animal-planet">
+  <programme start="20260602052200 +0000" stop="20260602062200 +0000" channel="pe#animal-planet">
     <title lang="es">Guardianes al rescate</title>
     <sub-title lang="es">No todo es lo que parece</sub-title>
     <category lang="es">Serie</category>
@@ -44781,7 +44781,7 @@
   </programme>
   <programme start="20260601055500 +0000" stop="20260601062000 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El árbol de Barbapapá / El Cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">The Birth / The Revelation</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -44837,7 +44837,7 @@
   </programme>
   <programme start="20260601083500 +0000" stop="20260601084000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">La vaquita lunar / El nebulizador / El bicho espacial</sub-title>
+    <sub-title lang="es">La vaquita lunar</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -44845,7 +44845,7 @@
   </programme>
   <programme start="20260601084000 +0000" stop="20260601085000 +0000" channel="pe#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">La vaquita lunar / El nebulizador / El bicho espacial</sub-title>
+    <sub-title lang="es">La vaquita lunar</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -44981,7 +44981,7 @@
   </programme>
   <programme start="20260601143500 +0000" stop="20260601145000 +0000" channel="pe#nick-jr">
     <title lang="es">Dora: ¡Di Hello a la aventura!</title>
-    <sub-title lang="es">Aventura de amigo-aniversario</sub-title>
+    <sub-title lang="es">Pequeña bailarina / El sol dormilón</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <episode-num system="onscreen">S01E09</episode-num>
@@ -54669,7 +54669,7 @@
     <episode-num system="onscreen">S06E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260602052000 +0000" stop="20260602062000 +0000" channel="pe#universal-channel">
+  <programme start="20260602052000 +0000" stop="20260602061000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Petiso y gordo</sub-title>
     <category lang="es">Serie</category>
@@ -54677,7 +54677,7 @@
     <episode-num system="onscreen">S04E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_chicago-fire-s04e09-petiso-y-gordo_l_m.jpg</image>
   </programme>
-  <programme start="20260602052000 +0000" stop="20260602061000 +0000" channel="pe#universal-channel">
+  <programme start="20260602052000 +0000" stop="20260602062000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Petiso y gordo</sub-title>
     <category lang="es">Serie</category>
@@ -56084,13 +56084,13 @@
     <rating><value>8.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_guason-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260603050700 +0000" stop="20260603060700 +0000" channel="pe#warner">
+  <programme start="20260603050700 +0000" stop="20260603064000 +0000" channel="pe#warner">
     <title lang="es">El juego del miedo 2</title>
     <title lang="en">Saw 2</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-juego-del-miedo-2-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260603050700 +0000" stop="20260603064000 +0000" channel="pe#warner">
+  <programme start="20260603050700 +0000" stop="20260603060700 +0000" channel="pe#warner">
     <title lang="es">El juego del miedo 2</title>
     <title lang="en">Saw 2</title>
     <category lang="es">Terror</category>
@@ -57866,13 +57866,13 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260603053500 +0000" stop="20260603063500 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260603053500 +0000" stop="20260603103000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
-  <programme start="20260603053500 +0000" stop="20260603103000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260603053500 +0000" stop="20260603063500 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
