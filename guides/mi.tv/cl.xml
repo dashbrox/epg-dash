@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260603112622 +0000">
+<tv generator-info-name="custom-epg" date="20260603172241 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -633,19 +635,17 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <programme start="20260603060000 +0000" stop="20260603070000 +0000" channel="13C.cl@SD">
     <title lang="es">Maravillas del mundo</title>
@@ -2720,13 +2720,13 @@
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/cl_el-juego-del-miedo-2-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260605054500 +0000" stop="20260605074000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260605054500 +0000" stop="20260605064500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Rambo III</title>
     <title lang="en">Acción</title>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_rambo-iii-1988_l_m.jpg</image>
   </programme>
-  <programme start="20260605054500 +0000" stop="20260605064500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260605054500 +0000" stop="20260605074000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Rambo III</title>
     <title lang="en">Acción</title>
     <rating><value>5.7</value></rating>
@@ -18338,7 +18338,7 @@
     <episode-num system="onscreen">S05E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_veterinarios-de-texas-s05e03-el-pequeno-cerdo-tiene-acaros_l_m.jpg</image>
   </programme>
-  <programme start="20260604054900 +0000" stop="20260604063500 +0000" channel="cl#animal-planet">
+  <programme start="20260604054900 +0000" stop="20260604064900 +0000" channel="cl#animal-planet">
     <title lang="es">Dr. Jeff, veterinario</title>
     <sub-title lang="es">Pequeña alma gemela</sub-title>
     <category lang="es">Serie</category>
@@ -18346,7 +18346,7 @@
     <episode-num system="onscreen">S06E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_dr-jeff-veterinario-s06e07-el-pequeno-rescatista_l_m.jpg</image>
   </programme>
-  <programme start="20260604054900 +0000" stop="20260604064900 +0000" channel="cl#animal-planet">
+  <programme start="20260604054900 +0000" stop="20260604063500 +0000" channel="cl#animal-planet">
     <title lang="es">Dr. Jeff, veterinario</title>
     <sub-title lang="es">Pequeña alma gemela</sub-title>
     <category lang="es">Serie</category>
@@ -37483,7 +37483,7 @@
   </programme>
   <programme start="20260604120000 +0000" stop="20260604122500 +0000" channel="cl#disney-channel">
     <title lang="es">Kiff</title>
-    <sub-title lang="es">El sombrero / Objetos perdidos</sub-title>
+    <sub-title lang="es">No Thank You / Love Ed</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.27.0/1</episode-num>
     <episode-num system="onscreen">S02E28</episode-num>
@@ -88574,14 +88574,14 @@
     <category lang="es">Entrevista</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260605042800 +0000" stop="20260605060300 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260605042800 +0000" stop="20260605052800 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">El juego del miedo IV</title>
     <title lang="en">Saw IV</title>
     <category lang="es">Terror</category>
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-juego-del-miedo-iv-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260605042800 +0000" stop="20260605052800 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260605042800 +0000" stop="20260605060300 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">El juego del miedo IV</title>
     <title lang="en">Saw IV</title>
     <category lang="es">Terror</category>
