@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260608203841 +0000">
+<tv generator-info-name="custom-epg" date="20260608225348 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
-  </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
   <channel id="ZonaLatina.cl@SD">
     <display-name>Zona Latina</display-name>
@@ -85,18 +78,6 @@
   </channel>
   <channel id="cl#tnt-series">
     <display-name>TNT Series</display-name>
-  </channel>
-  <channel id="cl#animal-planet-hd">
-    <display-name>Animal Planet HD</display-name>
-  </channel>
-  <channel id="cl#az-corazon">
-    <display-name>Az Corazón</display-name>
-  </channel>
-  <channel id="cl#canal-de-las-estrellas">
-    <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="cl#de-pelicula">
-    <display-name>De Película</display-name>
   </channel>
   <channel id="TNTLatinAmerica.us@Chile">
     <display-name>TNT</display-name>
@@ -518,6 +499,9 @@
   <channel id="cl#deutsche-welle-amerika">
     <display-name>DW (Español)</display-name>
   </channel>
+  <channel id="cl#de-pelicula">
+    <display-name>De Película</display-name>
+  </channel>
   <channel id="ConcertChannel.us@SD">
     <display-name>Concert Channel</display-name>
     <icon src="https://i.imgur.com/u2irADf.png"/>
@@ -589,6 +573,9 @@
     <display-name>Canal del Sur</display-name>
     <icon src="https://i.imgur.com/NVLJBzy.png"/>
   </channel>
+  <channel id="cl#canal-de-las-estrellas">
+    <display-name>Las Estrellas</display-name>
+  </channel>
   <channel id="24Horas.es@SD">
     <display-name>Canal 24hs España</display-name>
     <icon src="https://i.ibb.co/21sXZ3GT/24h.png"/>
@@ -626,8 +613,8 @@
     <display-name>Azteca 13</display-name>
     <icon src="https://i.imgur.com/rRxgBtI.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="cl#az-corazon">
+    <display-name>Az Corazón</display-name>
   </channel>
   <channel id="AzCinema.mx@SD">
     <display-name>Az Cinema</display-name>
@@ -643,9 +630,22 @@
   <channel id="cl#antena-3">
     <display-name>Antena 3</display-name>
   </channel>
+  <channel id="cl#animal-planet-hd">
+    <display-name>Animal Planet HD</display-name>
+  </channel>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
   <channel id="AmericaSports.ar@SD">
     <display-name>América Sports</display-name>
     <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  </channel>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260608060000 +0000" stop="20260608070000 +0000" channel="13C.cl@SD">
     <title lang="es">Maravillas del mundo</title>
@@ -2686,13 +2686,13 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260610040000 +0000" stop="20260610050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260610040000 +0000" stop="20260610061000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Los juegos del hambre: Sinsajo - Parte 1</title>
     <title lang="en">The Hunger Games: Mockingjay - Part 1</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/cl_los-juegos-del-hambre-sinsajo-parte-1-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260610040000 +0000" stop="20260610061000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260610040000 +0000" stop="20260610050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Los juegos del hambre: Sinsajo - Parte 1</title>
     <title lang="en">The Hunger Games: Mockingjay - Part 1</title>
     <category lang="es">Aventura</category>
@@ -4241,12 +4241,12 @@
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/cl_el-rapto-de-las-sabinas-1962_l_m.jpg</image>
   </programme>
-  <programme start="20260609053000 +0000" stop="20260609063000 +0000" channel="AzCinema.mx@SD">
+  <programme start="20260609053000 +0000" stop="20260609071500 +0000" channel="AzCinema.mx@SD">
     <title lang="es">El fuego de mi ahijada</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/cl_el-fuego-de-mi-ahijada-1979_l_m.jpg</image>
   </programme>
-  <programme start="20260609053000 +0000" stop="20260609071500 +0000" channel="AzCinema.mx@SD">
+  <programme start="20260609053000 +0000" stop="20260609063000 +0000" channel="AzCinema.mx@SD">
     <title lang="es">El fuego de mi ahijada</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/cl_el-fuego-de-mi-ahijada-1979_l_m.jpg</image>
@@ -19125,7 +19125,7 @@
     <episode-num system="onscreen">S05E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_el-zoologico-del-bronx-s05e06-la-danza-de-la-jirafa_l_m.jpg</image>
   </programme>
-  <programme start="20260609051700 +0000" stop="20260609061700 +0000" channel="cl#animal-planet-hd">
+  <programme start="20260609051700 +0000" stop="20260609060700 +0000" channel="cl#animal-planet-hd">
     <title lang="es">Guardianes al rescate</title>
     <sub-title lang="es">Pesadilla en el campamento</sub-title>
     <category lang="es">Serie</category>
@@ -19133,7 +19133,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_guardianes-al-rescate-s01e05-pesadilla-en-el-campamento_l_m.jpg</image>
   </programme>
-  <programme start="20260609051700 +0000" stop="20260609060700 +0000" channel="cl#animal-planet-hd">
+  <programme start="20260609051700 +0000" stop="20260609061700 +0000" channel="cl#animal-planet-hd">
     <title lang="es">Guardianes al rescate</title>
     <sub-title lang="es">Pesadilla en el campamento</sub-title>
     <category lang="es">Serie</category>
@@ -27748,13 +27748,13 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260610051900 +0000" stop="20260610061900 +0000" channel="cl#de-pelicula">
+  <programme start="20260610051900 +0000" stop="20260610072500 +0000" channel="cl#de-pelicula">
     <title lang="es">Las tentadoras</title>
     <title lang="en">Drama</title>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_las-tentadoras-1980_l_m.jpg</image>
   </programme>
-  <programme start="20260610051900 +0000" stop="20260610072500 +0000" channel="cl#de-pelicula">
+  <programme start="20260610051900 +0000" stop="20260610061900 +0000" channel="cl#de-pelicula">
     <title lang="es">Las tentadoras</title>
     <title lang="en">Drama</title>
     <rating><value>6.6</value></rating>
@@ -84860,14 +84860,14 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_atomica-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260609055000 +0000" stop="20260609065000 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260609055000 +0000" stop="20260609072300 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">Clínica zombie</title>
     <title lang="en">Yummy</title>
     <category lang="es">Terror</category>
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_clinica-zombie-2019-1_l_m.jpg</image>
   </programme>
-  <programme start="20260609055000 +0000" stop="20260609072300 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260609055000 +0000" stop="20260609065000 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">Clínica zombie</title>
     <title lang="en">Yummy</title>
     <category lang="es">Terror</category>
