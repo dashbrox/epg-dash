@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260609153207 +0000">
+<tv generator-info-name="custom-epg" date="20260609202430 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -635,17 +633,19 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260609060000 +0000" stop="20260609070000 +0000" channel="13C.cl@SD">
     <title lang="es">Maravillas del mundo</title>
@@ -2650,14 +2650,14 @@
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_cazafantasmas-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260611041500 +0000" stop="20260611051500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260611041500 +0000" stop="20260611061500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El apocalipsis</title>
     <title lang="en">Left Behind</title>
     <category lang="es">Acción</category>
     <rating><value>3.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-apocalipsis-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260611041500 +0000" stop="20260611061500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260611041500 +0000" stop="20260611051500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El apocalipsis</title>
     <title lang="en">Left Behind</title>
     <category lang="es">Acción</category>
@@ -18427,7 +18427,7 @@
     <episode-num system="onscreen">S11E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_pesca-mortal-s11e16-perdidas-y-desatinos_l_m.jpg</image>
   </programme>
-  <programme start="20260610053000 +0000" stop="20260610063000 +0000" channel="cl#animal-planet">
+  <programme start="20260610053000 +0000" stop="20260610061800 +0000" channel="cl#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Yo soy el capitán</sub-title>
     <category lang="es">Serie</category>
@@ -18435,7 +18435,7 @@
     <episode-num system="onscreen">S11E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_pesca-mortal-s11e17-yo-soy-el-capitan_l_m.jpg</image>
   </programme>
-  <programme start="20260610053000 +0000" stop="20260610061800 +0000" channel="cl#animal-planet">
+  <programme start="20260610053000 +0000" stop="20260610063000 +0000" channel="cl#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Yo soy el capitán</sub-title>
     <category lang="es">Serie</category>
@@ -57262,6 +57262,7 @@
   </programme>
   <programme start="20260610064500 +0000" stop="20260610073500 +0000" channel="cl#sony">
     <title lang="es">Anatomía según Grey</title>
+    <sub-title lang="es">Take Me To the River</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">21.14.0/1</episode-num>
     <episode-num system="onscreen">S22E15</episode-num>
@@ -70816,10 +70817,7 @@
   </programme>
   <programme start="20260609120300 +0000" stop="20260609122700 +0000" channel="ETCTV.cl@SD">
     <title lang="es">El fantástico Jaspion</title>
-    <sub-title lang="es">Robots en el hogar</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260609122700 +0000" stop="20260609130200 +0000" channel="ETCTV.cl@SD">
@@ -71034,10 +71032,7 @@
   </programme>
   <programme start="20260610030300 +0000" stop="20260610032700 +0000" channel="ETCTV.cl@SD">
     <title lang="es">El fantástico Jaspion</title>
-    <sub-title lang="es">Robots en el hogar</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260610032700 +0000" stop="20260610040400 +0000" channel="ETCTV.cl@SD">
@@ -79314,7 +79309,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_solo-contra-el-mundo-s01e08-dentro-de-aguas-violentas_l_m.jpg</image>
   </programme>
-  <programme start="20260610175400 +0000" stop="20260610185500 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260610175400 +0000" stop="20260610185400 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Mayday: catástrofes aéreas</title>
     <sub-title lang="es">Desastre en Portugal</sub-title>
     <category lang="es">Serie</category>
@@ -79322,7 +79317,7 @@
     <episode-num system="onscreen">S22E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mayday-catastrofes-aereas-s22e02-desastre-en-portugal_l_m.jpg</image>
   </programme>
-  <programme start="20260610185500 +0000" stop="20260610195800 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260610185400 +0000" stop="20260610195800 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Leyendas de la Atlántida</sub-title>
     <category lang="es">Serie</category>
@@ -79354,7 +79349,7 @@
     <episode-num system="onscreen">S08E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_alerta-aeropuerto-s08e06-el-show-debe-continuar_l_m.jpg</image>
   </programme>
-  <programme start="20260610225900 +0000" stop="20260611000000 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260610225900 +0000" stop="20260610235900 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Alerta aeropuerto</title>
     <sub-title lang="es">Los paquetes de la abuela</sub-title>
     <category lang="es">Serie</category>
@@ -79362,7 +79357,7 @@
     <episode-num system="onscreen">S03E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_alerta-aeropuerto-s03e13-los-paquetes-de-la-abuela_l_m.jpg</image>
   </programme>
-  <programme start="20260611000000 +0000" stop="20260611010100 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260610235900 +0000" stop="20260611010100 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Alerta aeropuerto</title>
     <sub-title lang="es">Blancas aventuras</sub-title>
     <category lang="es">Serie</category>
@@ -79370,7 +79365,7 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_alerta-aeropuerto-s06e02_l_m.jpg</image>
   </programme>
-  <programme start="20260611010100 +0000" stop="20260611020300 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260611010100 +0000" stop="20260611020200 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Mayday: catástrofes aéreas</title>
     <sub-title lang="es">Encubrimiento letal</sub-title>
     <category lang="es">Serie</category>
@@ -79378,7 +79373,7 @@
     <episode-num system="onscreen">S25E73</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mayday-catastrofes-aereas-s25e73-encubrimiento-letal_l_m.jpg</image>
   </programme>
-  <programme start="20260611020300 +0000" stop="20260611030400 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260611020200 +0000" stop="20260611030300 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Traficantes</title>
     <sub-title lang="es">Brillante, blanca y letal</sub-title>
     <category lang="es">Serie</category>
@@ -79386,7 +79381,7 @@
     <episode-num system="onscreen">S10E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260611030400 +0000" stop="20260611040500 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260611030300 +0000" stop="20260611040500 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Gordon Ramsay: sabores extremos</title>
     <sub-title lang="es">India</sub-title>
     <category lang="es">Serie</category>
@@ -79394,7 +79389,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_gordon-ramsay-sabores-extremos-s02e05-india-s-spice-capital_l_m.jpg</image>
   </programme>
-  <programme start="20260611040500 +0000" stop="20260611050900 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260611040500 +0000" stop="20260611050800 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Salvajemente famosos</title>
     <sub-title lang="es">Dave Bautista en el Cañón de Glen</sub-title>
     <category lang="es">Serie</category>
@@ -79402,7 +79397,7 @@
     <episode-num system="onscreen">S05E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_salvajemente-famosos-s05e06-dave-bautista-en-el-canon-de-glen_l_m.jpg</image>
   </programme>
-  <programme start="20260611050900 +0000" stop="20260611055300 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260611050800 +0000" stop="20260611055200 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Mayday: catástrofes aéreas</title>
     <sub-title lang="es">Colisión catastrófica</sub-title>
     <category lang="es">Serie</category>
@@ -79418,7 +79413,7 @@
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_secreto-en-los-oceanos-s02e12-historia-secreta-de-londres_l_m.jpg</image>
   </programme>
-  <programme start="20260611055300 +0000" stop="20260611065300 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
+  <programme start="20260611055200 +0000" stop="20260611065200 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Historia secreta de Londres</sub-title>
     <category lang="es">Serie</category>
@@ -85033,19 +85028,49 @@
     <category lang="es">Copa Mundial de la FIFA 26</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260610133000 +0000" stop="20260610170000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+  <programme start="20260610133000 +0000" stop="20260610150000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
     <title lang="es">Copa Mundial de la FIFA 26</title>
     <title lang="en">Copa Mundial de la FIFA 26</title>
     <category lang="es">Copa Mundial de la FIFA 26</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260610170000 +0000" stop="20260610223000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+  <programme start="20260610150000 +0000" stop="20260610170000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
     <title lang="es">Copa Mundial de la FIFA 26</title>
     <title lang="en">Copa Mundial de la FIFA 26</title>
     <category lang="es">Copa Mundial de la FIFA 26</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260610223000 +0000" stop="20260611030000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+  <programme start="20260610170000 +0000" stop="20260610190000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+    <title lang="es">Copa Mundial de la FIFA 26</title>
+    <title lang="en">Copa Mundial de la FIFA 26</title>
+    <category lang="es">Copa Mundial de la FIFA 26</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260610190000 +0000" stop="20260610203000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+    <title lang="es">Copa Mundial de la FIFA 26</title>
+    <title lang="en">Copa Mundial de la FIFA 26</title>
+    <category lang="es">Copa Mundial de la FIFA 26</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260610203000 +0000" stop="20260610223000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+    <title lang="es">Copa Mundial de la FIFA 26</title>
+    <title lang="en">Copa Mundial de la FIFA 26</title>
+    <category lang="es">Copa Mundial de la FIFA 26</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260610223000 +0000" stop="20260611000000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+    <title lang="es">Copa Mundial de la FIFA 26</title>
+    <title lang="en">Copa Mundial de la FIFA 26</title>
+    <category lang="es">Copa Mundial de la FIFA 26</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260611000000 +0000" stop="20260611013000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
+    <title lang="es">Copa Mundial de la FIFA 26</title>
+    <title lang="en">Copa Mundial de la FIFA 26</title>
+    <category lang="es">Copa Mundial de la FIFA 26</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260611013000 +0000" stop="20260611030000 +0000" channel="TyCSportsLatinAmerica.ar@Panregional">
     <title lang="es">Copa Mundial de la FIFA 26</title>
     <title lang="en">Copa Mundial de la FIFA 26</title>
     <category lang="es">Copa Mundial de la FIFA 26</category>
@@ -87694,7 +87719,7 @@
     <episode-num system="onscreen">S04E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s04e23-the-engagement-reaction_l_m.jpg</image>
   </programme>
-  <programme start="20260611054600 +0000" stop="20260611064600 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260611054600 +0000" stop="20260611060800 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La gran transmogrificación</sub-title>
     <category lang="es">Serie</category>
@@ -87702,7 +87727,7 @@
     <episode-num system="onscreen">S04E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s04e24-the-roomate-transmorgrification_l_m.jpg</image>
   </programme>
-  <programme start="20260611054600 +0000" stop="20260611060800 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260611054600 +0000" stop="20260611064600 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La gran transmogrificación</sub-title>
     <category lang="es">Serie</category>
