@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260620200325 +0000">
+<tv generator-info-name="custom-epg" date="20260620224247 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
@@ -119,12 +119,46 @@
   <channel id="sv#cnn-en-espanol">
     <display-name>CNN en Español</display-name>
   </channel>
+  <channel id="Genteve.sv@SD">
+    <display-name>Gentevé</display-name>
+    <icon src="https://i.imgur.com/SjNj3N5.png"/>
+  </channel>
+  <channel id="sv#fx-movies">
+    <display-name>FX Movies</display-name>
+  </channel>
   <channel id="Canal6.sv@SD">
     <display-name>Canal 6</display-name>
     <icon src="https://i.imgur.com/M4muPLK.png"/>
   </channel>
   <channel id="sv#cnn">
     <display-name>CNN</display-name>
+  </channel>
+  <channel id="sv#fx">
+    <display-name>FX</display-name>
+  </channel>
+  <channel id="sv#fox-sports-3">
+    <display-name>FOX Sports 3</display-name>
+  </channel>
+  <channel id="sv#fox-sports-2">
+    <display-name>FOX Sports 2</display-name>
+  </channel>
+  <channel id="sv#fox-sports">
+    <display-name>FOX Sports</display-name>
+  </channel>
+  <channel id="sv#fox-life">
+    <display-name>Star Life</display-name>
+  </channel>
+  <channel id="sv#fox">
+    <display-name>Star Channel</display-name>
+  </channel>
+  <channel id="sv#ewtn">
+    <display-name>EWTN</display-name>
+  </channel>
+  <channel id="sv#espn-hd">
+    <display-name>ESPN+ HD</display-name>
+  </channel>
+  <channel id="sv#espn-2">
+    <display-name>ESPN 2</display-name>
   </channel>
   <channel id="sv#cinemax">
     <display-name>Cinemax</display-name>
@@ -138,52 +172,6 @@
   </channel>
   <channel id="sv#cinecanal">
     <display-name>Cinecanal</display-name>
-  </channel>
-  <channel id="sv#espn-2">
-    <display-name>ESPN 2</display-name>
-  </channel>
-  <channel id="sv#espn-hd">
-    <display-name>ESPN+ HD</display-name>
-  </channel>
-  <channel id="sv#fox-sports">
-    <display-name>FOX Sports</display-name>
-  </channel>
-  <channel id="sv#fox-life">
-    <display-name>Star Life</display-name>
-  </channel>
-  <channel id="sv#warner">
-    <display-name>Warner Channel</display-name>
-  </channel>
-  <channel id="VTVCanal35.sv@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/RSVzyzp.png"/>
-  </channel>
-  <channel id="sv#vh1">
-    <display-name>VH1</display-name>
-  </channel>
-  <channel id="sv#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
-  </channel>
-  <channel id="sv#tvn-chile">
-    <display-name>TVN Chile</display-name>
-  </channel>
-  <channel id="sv#tve">
-    <display-name>TVE</display-name>
-  </channel>
-  <channel id="sv#tnt-series">
-    <display-name>TNT Series</display-name>
-  </channel>
-  <channel id="sv#tnt">
-    <display-name>TNT</display-name>
-  </channel>
-  <channel id="sv#telesur">
-    <display-name>teleSUR</display-name>
-  </channel>
-  <channel id="sv#telemundo">
-    <display-name>Telemundo</display-name>
-  </channel>
-  <channel id="sv#tdn">
-    <display-name>TDN</display-name>
   </channel>
   <channel id="sv#tcm">
     <display-name>TCM</display-name>
@@ -230,39 +218,54 @@
   <channel id="sv#history">
     <display-name>History</display-name>
   </channel>
-  <channel id="sv#hbo">
-    <display-name>HBO</display-name>
-  </channel>
   <channel id="sv#h2">
     <display-name>History 2</display-name>
   </channel>
   <channel id="sv#golden">
     <display-name>Golden</display-name>
   </channel>
-  <channel id="Genteve.sv@SD">
-    <display-name>Gentevé</display-name>
-    <icon src="https://i.imgur.com/SjNj3N5.png"/>
+  <channel id="sv#hbo">
+    <display-name>HBO</display-name>
   </channel>
-  <channel id="sv#fx-movies">
-    <display-name>FX Movies</display-name>
+  <channel id="sv#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="sv#fx">
-    <display-name>FX</display-name>
+  <channel id="sv#vh1">
+    <display-name>VH1</display-name>
   </channel>
-  <channel id="sv#fox-sports-3">
-    <display-name>FOX Sports 3</display-name>
+  <channel id="sv#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
-  <channel id="sv#fox-sports-2">
-    <display-name>FOX Sports 2</display-name>
+  <channel id="sv#tvn-chile">
+    <display-name>TVN Chile</display-name>
   </channel>
-  <channel id="sv#fox">
-    <display-name>Star Channel</display-name>
+  <channel id="sv#tnt-series">
+    <display-name>TNT Series</display-name>
+  </channel>
+  <channel id="sv#tnt">
+    <display-name>TNT</display-name>
+  </channel>
+  <channel id="sv#telesur">
+    <display-name>teleSUR</display-name>
+  </channel>
+  <channel id="VTVCanal35.sv@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/RSVzyzp.png"/>
   </channel>
   <channel id="sv#universal-channel">
     <display-name>Universal TV</display-name>
   </channel>
+  <channel id="sv#tve">
+    <display-name>TVE</display-name>
+  </channel>
   <channel id="sv#tlnovelas">
     <display-name>TLNovelas</display-name>
+  </channel>
+  <channel id="sv#telemundo">
+    <display-name>Telemundo</display-name>
+  </channel>
+  <channel id="sv#tdn">
+    <display-name>TDN</display-name>
   </channel>
   <channel id="sv#mas-chic">
     <display-name>Más Chic</display-name>
@@ -272,9 +275,6 @@
   </channel>
   <channel id="sv#rai">
     <display-name>Rai Italia</display-name>
-  </channel>
-  <channel id="sv#ewtn">
-    <display-name>EWTN</display-name>
   </channel>
   <programme start="20260620060000 +0000" stop="20260620070000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Lo que la vida me robó</title>
@@ -30471,13 +30471,13 @@
     <category lang="es">La última palabra</category>
     <image>https://cdn.mitvstatic.com/programs/sv_futbol-la-ultima-palabra_l_m.jpg</image>
   </programme>
-  <programme start="20260621053000 +0000" stop="20260621063000 +0000" channel="sv#fox-sports">
+  <programme start="20260621053000 +0000" stop="20260621070000 +0000" channel="sv#fox-sports">
     <title lang="es">La última palabra</title>
     <title lang="en">La última palabra</title>
     <category lang="es">La última palabra</category>
     <image>https://cdn.mitvstatic.com/programs/sv_futbol-la-ultima-palabra_l_m.jpg</image>
   </programme>
-  <programme start="20260621053000 +0000" stop="20260621070000 +0000" channel="sv#fox-sports">
+  <programme start="20260621053000 +0000" stop="20260621063000 +0000" channel="sv#fox-sports">
     <title lang="es">La última palabra</title>
     <title lang="en">La última palabra</title>
     <category lang="es">La última palabra</category>
@@ -31606,12 +31606,12 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260622053700 +0000" stop="20260622063700 +0000" channel="sv#fx">
+  <programme start="20260622053700 +0000" stop="20260622072800 +0000" channel="sv#fx">
     <title lang="es">Dolor y gloria</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/sv_dolor-y-gloria-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260622053700 +0000" stop="20260622072800 +0000" channel="sv#fx">
+  <programme start="20260622053700 +0000" stop="20260622063700 +0000" channel="sv#fx">
     <title lang="es">Dolor y gloria</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/sv_dolor-y-gloria-2019_l_m.jpg</image>
@@ -31771,13 +31771,13 @@
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_un-detective-en-el-kinder-1990_l_m.jpg</image>
   </programme>
-  <programme start="20260621054200 +0000" stop="20260621064200 +0000" channel="sv#golden">
+  <programme start="20260621054200 +0000" stop="20260621075500 +0000" channel="sv#golden">
     <title lang="es">No se aceptan devoluciones</title>
     <title lang="en">Instructions Not Included</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/sv_no-se-aceptan-devoluciones-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260621054200 +0000" stop="20260621075500 +0000" channel="sv#golden">
+  <programme start="20260621054200 +0000" stop="20260621064200 +0000" channel="sv#golden">
     <title lang="es">No se aceptan devoluciones</title>
     <title lang="en">Instructions Not Included</title>
     <category lang="es">Comedia</category>
@@ -32284,7 +32284,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_embajadores-de-la-mafia-s01e03-virginia-hill_l_m.jpg</image>
   </programme>
-  <programme start="20260622053000 +0000" stop="20260622063000 +0000" channel="sv#h2">
+  <programme start="20260622053000 +0000" stop="20260622062000 +0000" channel="sv#h2">
     <title lang="es">Embajadores de la mafia</title>
     <sub-title lang="es">Meyer Lansky</sub-title>
     <category lang="es">Serie</category>
@@ -32292,7 +32292,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_embajadores-de-la-mafia-s01e04-meyer-lansky_l_m.jpg</image>
   </programme>
-  <programme start="20260622053000 +0000" stop="20260622062000 +0000" channel="sv#h2">
+  <programme start="20260622053000 +0000" stop="20260622063000 +0000" channel="sv#h2">
     <title lang="es">Embajadores de la mafia</title>
     <sub-title lang="es">Meyer Lansky</sub-title>
     <category lang="es">Serie</category>
@@ -32581,13 +32581,13 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260621053800 +0000" stop="20260621075600 +0000" channel="sv#hbo">
+  <programme start="20260621053800 +0000" stop="20260621063800 +0000" channel="sv#hbo">
     <title lang="es">Juego de ladrones 2</title>
     <title lang="en">Den of Thieves 2: Pantera</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260621053800 +0000" stop="20260621063800 +0000" channel="sv#hbo">
+  <programme start="20260621053800 +0000" stop="20260621075600 +0000" channel="sv#hbo">
     <title lang="es">Juego de ladrones 2</title>
     <title lang="en">Den of Thieves 2: Pantera</title>
     <category lang="es">Acción</category>
@@ -41283,14 +41283,14 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260622035000 +0000" stop="20260622071400 +0000" channel="sv#tcm">
+  <programme start="20260622035000 +0000" stop="20260622045000 +0000" channel="sv#tcm">
     <title lang="es">Gigante</title>
     <title lang="en">Giant</title>
     <category lang="es">Drama</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260622035000 +0000" stop="20260622045000 +0000" channel="sv#tcm">
+  <programme start="20260622035000 +0000" stop="20260622071400 +0000" channel="sv#tcm">
     <title lang="es">Gigante</title>
     <title lang="en">Giant</title>
     <category lang="es">Drama</category>
@@ -43208,14 +43208,14 @@
     <category lang="es">Thriller</category>
     <image>https://cdn.mitvstatic.com/programs/sv_el-contador-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260621051600 +0000" stop="20260621072600 +0000" channel="sv#tnt">
+  <programme start="20260621051600 +0000" stop="20260621061600 +0000" channel="sv#tnt">
     <title lang="es">Bad Boys para siempre</title>
     <title lang="en">Bad Boys for Life</title>
     <category lang="es">Acción</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_bad-boys-para-siempre-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260621051600 +0000" stop="20260621061600 +0000" channel="sv#tnt">
+  <programme start="20260621051600 +0000" stop="20260621072600 +0000" channel="sv#tnt">
     <title lang="es">Bad Boys para siempre</title>
     <title lang="en">Bad Boys for Life</title>
     <category lang="es">Acción</category>
@@ -43318,13 +43318,13 @@
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_bad-boys-para-siempre-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260622051100 +0000" stop="20260622061100 +0000" channel="sv#tnt">
+  <programme start="20260622051100 +0000" stop="20260622072300 +0000" channel="sv#tnt">
     <title lang="es">El contador</title>
     <title lang="en">The Accountant</title>
     <category lang="es">Thriller</category>
     <image>https://cdn.mitvstatic.com/programs/sv_el-contador-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260622051100 +0000" stop="20260622072300 +0000" channel="sv#tnt">
+  <programme start="20260622051100 +0000" stop="20260622061100 +0000" channel="sv#tnt">
     <title lang="es">El contador</title>
     <title lang="en">The Accountant</title>
     <category lang="es">Thriller</category>
