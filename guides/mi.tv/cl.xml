@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260624172349 +0000">
+<tv generator-info-name="custom-epg" date="20260624201353 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -633,19 +635,17 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <programme start="20260624060000 +0000" stop="20260624070000 +0000" channel="13C.cl@SD">
     <title lang="es">Maravillas del mundo</title>
@@ -2686,13 +2686,13 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260626042000 +0000" stop="20260626062500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260626042000 +0000" stop="20260626052000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">La batalla de Los Ángeles</title>
     <title lang="en">Battle: Los Angeles</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_la-batalla-de-los-angeles-2011_l_m.jpg</image>
   </programme>
-  <programme start="20260626042000 +0000" stop="20260626052000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260626042000 +0000" stop="20260626062500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">La batalla de Los Ángeles</title>
     <title lang="en">Battle: Los Angeles</title>
     <category lang="es">Acción</category>
@@ -18270,7 +18270,7 @@
     <episode-num system="onscreen">S05E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_guardianes-de-texas-s05e16-mentirosos-e-invasores_l_m.jpg</image>
   </programme>
-  <programme start="20260625055800 +0000" stop="20260625065000 +0000" channel="cl#animal-planet">
+  <programme start="20260625055800 +0000" stop="20260625065800 +0000" channel="cl#animal-planet">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">El perro se comió mis pantalones</sub-title>
     <category lang="es">Serie</category>
@@ -18278,7 +18278,7 @@
     <episode-num system="onscreen">S05E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_veterinarios-de-texas-s05e01-el-perro-se-comio-mis-pantalones_l_m.jpg</image>
   </programme>
-  <programme start="20260625055800 +0000" stop="20260625065800 +0000" channel="cl#animal-planet">
+  <programme start="20260625055800 +0000" stop="20260625065000 +0000" channel="cl#animal-planet">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">El perro se comió mis pantalones</sub-title>
     <category lang="es">Serie</category>
@@ -84350,13 +84350,13 @@
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_pearl-harbor-2001_l_m.jpg</image>
   </programme>
-  <programme start="20260625163600 +0000" stop="20260625185600 +0000" channel="StarChannel.cl@SD">
+  <programme start="20260625163600 +0000" stop="20260625185500 +0000" channel="StarChannel.cl@SD">
     <title lang="es">Jojo Rabbit</title>
     <title lang="en">Comedia</title>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_jojo-rabbit-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260625185600 +0000" stop="20260625212700 +0000" channel="StarChannel.cl@SD">
+  <programme start="20260625185500 +0000" stop="20260625212700 +0000" channel="StarChannel.cl@SD">
     <title lang="es">Cowboys y Aliens</title>
     <title lang="en">Cowboys and Aliens</title>
     <category lang="es">Acción</category>
@@ -84383,7 +84383,7 @@
     <episode-num system="onscreen">S23E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_los-simpson-s23e17-ellos-robot_l_m.jpg</image>
   </programme>
-  <programme start="20260626022800 +0000" stop="20260626030000 +0000" channel="StarChannel.cl@SD">
+  <programme start="20260626022800 +0000" stop="20260626025900 +0000" channel="StarChannel.cl@SD">
     <title lang="es">Los Simpson</title>
     <sub-title lang="es">Cuidado con Bart</sub-title>
     <category lang="es">Serie</category>
@@ -84398,7 +84398,7 @@
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_gorrion-rojo-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260626030000 +0000" stop="20260626040000 +0000" channel="StarChannel.cl@SD">
+  <programme start="20260626025900 +0000" stop="20260626035900 +0000" channel="StarChannel.cl@SD">
     <title lang="es">Gorrión rojo</title>
     <title lang="en">Red Sparrow</title>
     <category lang="es">Drama</category>
@@ -85229,62 +85229,90 @@
     <episode-num system="onscreen">S14E230</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_tnt-buzz-s14e230_l_m.jpg</image>
   </programme>
-  <programme start="20260624100000 +0000" stop="20260624113300 +0000" channel="TNTLatinAmerica.us@Chile">
-    <title lang="es">Enemigo inmortal</title>
-    <title lang="en">Bleeding Steel</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/cl_enemigo-inmortal-2017_l_m.jpg</image>
+  <programme start="20260624100000 +0000" stop="20260624103700 +0000" channel="TNTLatinAmerica.us@Chile">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.39.0/1</episode-num>
+    <episode-num system="onscreen">S01E40</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e40_l_m.jpg</image>
   </programme>
-  <programme start="20260624113300 +0000" stop="20260624134200 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624103700 +0000" stop="20260624111400 +0000" channel="TNTLatinAmerica.us@Chile">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.40.0/1</episode-num>
+    <episode-num system="onscreen">S01E41</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e41_l_m.jpg</image>
+  </programme>
+  <programme start="20260624111400 +0000" stop="20260624113100 +0000" channel="TNTLatinAmerica.us@Chile">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.132.0/1</episode-num>
+    <episode-num system="onscreen">S01E133</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_hollywood-one-on-one-s00e133_l_m.jpg</image>
+  </programme>
+  <programme start="20260624113100 +0000" stop="20260624113300 +0000" channel="TNTLatinAmerica.us@Chile">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.246.0/1</episode-num>
+    <episode-num system="onscreen">S14E247</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_tnt-buzz-s14e247_l_m.jpg</image>
+  </programme>
+  <programme start="20260624113300 +0000" stop="20260624113500 +0000" channel="TNTLatinAmerica.us@Chile">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.247.0/1</episode-num>
+    <episode-num system="onscreen">S14E248</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_tnt-buzz-s14e248_l_m.jpg</image>
+  </programme>
+  <programme start="20260624113500 +0000" stop="20260624134400 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">Spider-Man: Un nuevo universo</title>
     <title lang="en">Spider-Man: Into the Spider-Verse</title>
     <category lang="es">Animación</category>
     <rating><value>8.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_spider-man-un-nuevo-universo-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260624134200 +0000" stop="20260624152000 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624134400 +0000" stop="20260624152300 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">El gato con botas</title>
     <title lang="en">Puss in Boots</title>
     <category lang="es">Animación</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-gato-con-botas-2011_l_m.jpg</image>
   </programme>
-  <programme start="20260624152000 +0000" stop="20260624170700 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624152300 +0000" stop="20260624171300 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">Peter Rabbit 2: A la fuga</title>
     <title lang="en">Peter Rabbit 2: The Runaway</title>
     <category lang="es">Animación</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260624170700 +0000" stop="20260624185300 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624171300 +0000" stop="20260624185700 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">La vida secreta de las mascotas</title>
     <title lang="en">The Secret Life of Pets</title>
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/cl_la-vida-secreta-de-las-mascotas-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260624185300 +0000" stop="20260624211900 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624185700 +0000" stop="20260624212100 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">El destino de Júpiter</title>
     <title lang="en">Jupiter Ascending</title>
     <category lang="es">C.Ficción</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-destino-de-jupiter-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260624211900 +0000" stop="20260624230500 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624212100 +0000" stop="20260624230700 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">Blumhouse. Jóvenes y brujas</title>
     <title lang="en">The Craft: Legacy</title>
     <category lang="es">Drama</category>
     <rating><value>4.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_blumhouse-jovenes-y-brujas-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260624230500 +0000" stop="20260625020000 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260624230700 +0000" stop="20260625020000 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">El sorprendente Hombre Araña 2: La venganza de Electro</title>
     <title lang="en">The Amazing Spider-Man 2</title>
     <category lang="es">Acción</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_el-sorprendente-hombre-arana-2-la-venganza-de-electro-2014-1_l_m.jpg</image>
   </programme>
-  <programme start="20260625020000 +0000" stop="20260625042600 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260625020000 +0000" stop="20260625042500 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">La liga de la justicia</title>
     <title lang="en">Justice League</title>
     <category lang="es">Acción</category>
@@ -85298,7 +85326,7 @@
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260625042600 +0000" stop="20260625052600 +0000" channel="TNTLatinAmerica.us@Chile">
+  <programme start="20260625042500 +0000" stop="20260625052500 +0000" channel="TNTLatinAmerica.us@Chile">
     <title lang="es">Venom: Carnage liberado</title>
     <title lang="en">Venom: Let There Be Carnage</title>
     <category lang="es">Acción</category>
@@ -88515,7 +88543,7 @@
     <episode-num system="onscreen">S08E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s08e16-the-intimacy-acceleration_l_m.jpg</image>
   </programme>
-  <programme start="20260626055600 +0000" stop="20260626061600 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260626055600 +0000" stop="20260626065600 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La solicitud de colonización</sub-title>
     <category lang="es">Serie</category>
@@ -88523,7 +88551,7 @@
     <episode-num system="onscreen">S08E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s08e17-the-colonization-application_l_m.jpg</image>
   </programme>
-  <programme start="20260626055600 +0000" stop="20260626065600 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260626055600 +0000" stop="20260626061600 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La solicitud de colonización</sub-title>
     <category lang="es">Serie</category>
