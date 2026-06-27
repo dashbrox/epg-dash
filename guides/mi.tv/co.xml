@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260627194913 +0000">
+<tv generator-info-name="custom-epg" date="20260627222113 +0000">
   <channel id="co#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="co#zoom">
-    <display-name>Zoom</display-name>
+  <channel id="co#a-e-mundo-hd">
+    <display-name>A&amp;E Mundo HD</display-name>
   </channel>
-  <channel id="WinSports.co@SD">
-    <display-name>Win Sports HD</display-name>
-    <icon src="https://i.imgur.com/DuSSrHV.png"/>
+  <channel id="AlientoVision.us@SD">
+    <display-name>Aliento Vision</display-name>
+    <icon src="https://i.imgur.com/xT10iqB.png"/>
   </channel>
-  <channel id="co#win-sports">
-    <display-name>Win Sports</display-name>
+  <channel id="co#amc">
+    <display-name>AMC</display-name>
   </channel>
   <channel id="co#warner">
     <display-name>Warner Channel</display-name>
@@ -682,15 +682,15 @@
   <channel id="co#amc-hd">
     <display-name>AMC HD</display-name>
   </channel>
-  <channel id="co#amc">
-    <display-name>AMC</display-name>
+  <channel id="WinSports.co@SD">
+    <display-name>Win Sports HD</display-name>
+    <icon src="https://i.imgur.com/DuSSrHV.png"/>
   </channel>
-  <channel id="AlientoVision.us@SD">
-    <display-name>Aliento Vision</display-name>
-    <icon src="https://i.imgur.com/xT10iqB.png"/>
+  <channel id="co#win-sports">
+    <display-name>Win Sports</display-name>
   </channel>
-  <channel id="co#a-e-mundo-hd">
-    <display-name>A&amp;E Mundo HD</display-name>
+  <channel id="co#zoom">
+    <display-name>Zoom</display-name>
   </channel>
   <programme start="20260627060000 +0000" stop="20260627063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Club 700 hoy</title>
@@ -1118,12 +1118,18 @@
     <image>https://cdn.mitvstatic.com/programs/co_club-700-hoy_l_m.jpg</image>
   </programme>
   <programme start="20260629060000 +0000" stop="20260629063000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Catedral de la Fe</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_catedral-de-la-fe-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260629060000 +0000" stop="20260629063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En forma</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_en-forma_l_m.jpg</image>
   </programme>
-  <programme start="20260629060000 +0000" stop="20260629063000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629063000 +0000" stop="20260629070000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Catedral de la Fe</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -1135,24 +1141,13 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-pasos-del-maestro_l_m.jpg</image>
   </programme>
-  <programme start="20260629063000 +0000" stop="20260629070000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Catedral de la Fe</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_catedral-de-la-fe-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260629070000 +0000" stop="20260629073000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Cine de Aliento Visión</title>
-    <category lang="es">Película</category>
-    <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
-  </programme>
   <programme start="20260629070000 +0000" stop="20260629073000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">The Torchlighters</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260629073000 +0000" stop="20260629080000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629070000 +0000" stop="20260629073000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Cine de Aliento Visión</title>
     <category lang="es">Película</category>
     <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
@@ -1163,7 +1158,7 @@
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/co_super-libro-1_l_m.jpg</image>
   </programme>
-  <programme start="20260629080000 +0000" stop="20260629083000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629073000 +0000" stop="20260629080000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Cine de Aliento Visión</title>
     <category lang="es">Película</category>
     <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
@@ -1174,7 +1169,7 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260629083000 +0000" stop="20260629090000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629080000 +0000" stop="20260629083000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Cine de Aliento Visión</title>
     <category lang="es">Película</category>
     <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
@@ -1184,6 +1179,17 @@
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260629083000 +0000" stop="20260629090000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Cine de Aliento Visión</title>
+    <category lang="es">Película</category>
+    <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260629090000 +0000" stop="20260629093000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">En defensa de la Fe</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_en-defensa-de-la-fe-1_l_m.jpg</image>
   </programme>
   <programme start="20260629090000 +0000" stop="20260629093000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Club 700 hoy</title>
@@ -1191,7 +1197,7 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_club-700-hoy_l_m.jpg</image>
   </programme>
-  <programme start="20260629090000 +0000" stop="20260629093000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629093000 +0000" stop="20260629100000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En defensa de la Fe</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -1203,11 +1209,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_club-700-hoy_l_m.jpg</image>
   </programme>
-  <programme start="20260629093000 +0000" stop="20260629100000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">En defensa de la Fe</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_en-defensa-de-la-fe-1_l_m.jpg</image>
+  <programme start="20260629100000 +0000" stop="20260629103000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Journal Noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
   </programme>
   <programme start="20260629100000 +0000" stop="20260629103000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Restauración espiritual</title>
@@ -1215,11 +1221,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_restauracion-espiritual-1_l_m.jpg</image>
   </programme>
-  <programme start="20260629100000 +0000" stop="20260629103000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Journal Noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
+  <programme start="20260629103000 +0000" stop="20260629110000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Mundo cristiano</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
   </programme>
   <programme start="20260629103000 +0000" stop="20260629110000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Lectura pública de la Biblia</title>
@@ -1227,11 +1233,10 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260629103000 +0000" stop="20260629110000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Mundo cristiano</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
+  <programme start="20260629110000 +0000" stop="20260629113000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Cine de Aliento Visión</title>
+    <category lang="es">Película</category>
+    <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
   </programme>
   <programme start="20260629110000 +0000" stop="20260629113000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
@@ -1239,7 +1244,7 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260629110000 +0000" stop="20260629113000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629113000 +0000" stop="20260629120000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Cine de Aliento Visión</title>
     <category lang="es">Película</category>
     <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
@@ -1250,24 +1255,13 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260629113000 +0000" stop="20260629120000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Cine de Aliento Visión</title>
-    <category lang="es">Película</category>
-    <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260629120000 +0000" stop="20260629123000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Tiempo de oración</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-oracion_l_m.jpg</image>
-  </programme>
   <programme start="20260629120000 +0000" stop="20260629123000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260629123000 +0000" stop="20260630010000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20260629120000 +0000" stop="20260629123000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Tiempo de oración</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -1279,11 +1273,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260630010000 +0000" stop="20260630013000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Reflexión espiritual</title>
+  <programme start="20260629123000 +0000" stop="20260630010000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Tiempo de oración</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_reflexion-espiritual-1_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-oracion_l_m.jpg</image>
   </programme>
   <programme start="20260630010000 +0000" stop="20260630013000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Controversial</title>
@@ -1291,22 +1285,22 @@
     <category lang="es">Talk Show</category>
     <image>https://cdn.mitvstatic.com/programs/co_controversial_l_m.jpg</image>
   </programme>
-  <programme start="20260630013000 +0000" stop="20260630020000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">The Torchlighters</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260630010000 +0000" stop="20260630013000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Reflexión espiritual</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_reflexion-espiritual-1_l_m.jpg</image>
   </programme>
   <programme start="20260630013000 +0000" stop="20260630020000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Música</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/co_musica_l_m.jpg</image>
   </programme>
-  <programme start="20260630020000 +0000" stop="20260630023000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Aliento de vida</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
+  <programme start="20260630013000 +0000" stop="20260630020000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">The Torchlighters</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260630020000 +0000" stop="20260630023000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
@@ -1314,11 +1308,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260630023000 +0000" stop="20260630030000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Ciencia, diseño y creación</title>
+  <programme start="20260630020000 +0000" stop="20260630023000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ciencia-diseno-y-creacion_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
   <programme start="20260630023000 +0000" stop="20260630030000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Journal Noticias</title>
@@ -1326,6 +1320,12 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
   </programme>
+  <programme start="20260630023000 +0000" stop="20260630030000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Ciencia, diseño y creación</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ciencia-diseno-y-creacion_l_m.jpg</image>
+  </programme>
   <programme start="20260630030000 +0000" stop="20260630033000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
     <title lang="en">Religioso</title>
@@ -1337,6 +1337,12 @@
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
+  </programme>
+  <programme start="20260630033000 +0000" stop="20260630040000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Billy Graham Classics</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260630033000 +0000" stop="20260630040000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En forma</title>
@@ -1344,12 +1350,6 @@
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_en-forma_l_m.jpg</image>
   </programme>
-  <programme start="20260630033000 +0000" stop="20260630040000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Billy Graham Classics</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260630040000 +0000" stop="20260630043000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Vida dura</title>
     <title lang="en">Religioso</title>
@@ -1361,12 +1361,6 @@
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_vida-dura_l_m.jpg</image>
-  </programme>
-  <programme start="20260630043000 +0000" stop="20260630050000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Lectura pública de la Biblia</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260630043000 +0000" stop="20260630050000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
@@ -1374,11 +1368,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
   </programme>
-  <programme start="20260630050000 +0000" stop="20260630053000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Viviendo con sentido común</title>
+  <programme start="20260630043000 +0000" stop="20260630050000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Lectura pública de la Biblia</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_viviendo-con-sentido-comun_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260630050000 +0000" stop="20260630053000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Billy Graham Classics</title>
@@ -1386,17 +1380,23 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260630053000 +0000" stop="20260630060000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Tiempo de Dios</title>
+  <programme start="20260630050000 +0000" stop="20260630053000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Viviendo con sentido común</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-dios_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_viviendo-con-sentido-comun_l_m.jpg</image>
   </programme>
   <programme start="20260630053000 +0000" stop="20260630063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
+  </programme>
+  <programme start="20260630053000 +0000" stop="20260630060000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Tiempo de Dios</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-dios_l_m.jpg</image>
   </programme>
   <programme start="20260630060000 +0000" stop="20260630063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
@@ -4668,9 +4668,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260628080000 +0000" stop="20260628093000 +0000" channel="CanalRCN.co@SD">
-    <title lang="es">Tardes de película</title>
-    <category lang="es">Película</category>
-    <image>https://cdn.mitvstatic.com/programs/co_tardes-de-pelicula_l_m.jpg</image>
+    <title lang="es">Algo azul</title>
+    <title lang="en">Romántica</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260628085000 +0000" stop="20260628100000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">Fin de transmisión</title>
@@ -4690,7 +4690,13 @@
     <category lang="es">D.Animados</category>
     <image>https://cdn.mitvstatic.com/programs/co_el-chavo-animado_l_m.jpg</image>
   </programme>
-  <programme start="20260628110000 +0000" stop="20260628120000 +0000" channel="CanalRCN.co@SD">
+  <programme start="20260628110000 +0000" stop="20260628113000 +0000" channel="CanalRCN.co@SD">
+    <title lang="es">Las aventuras del profesor Yarumo</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_las-aventuras-del-profesor-yarumo_l_m.jpg</image>
+  </programme>
+  <programme start="20260628113000 +0000" stop="20260628120000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">El Chavo animado</title>
     <title lang="en">D.Animados</title>
     <category lang="es">D.Animados</category>
@@ -4703,16 +4709,15 @@
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
   <programme start="20260628120000 +0000" stop="20260629010000 +0000" channel="CanalRCN.co@SD">
-    <title lang="es">Los pitufos</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/co_los-pitufos_l_m.jpg</image>
-  </programme>
-  <programme start="20260629010000 +0000" stop="20260629020000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">Nuestra Santa Misa</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260629010000 +0000" stop="20260629020000 +0000" channel="CanalRCN.co@SD">
+    <title lang="es">El Chavo</title>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/co_el-chavo_l_m.jpg</image>
   </programme>
   <programme start="20260629013000 +0000" stop="20260629030000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">Retrato hablado</title>
@@ -4772,9 +4777,11 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260629080000 +0000" stop="20260629100000 +0000" channel="CanalRCN.co@SD">
-    <title lang="es">Tardes de película</title>
-    <category lang="es">Película</category>
-    <image>https://cdn.mitvstatic.com/programs/co_tardes-de-pelicula_l_m.jpg</image>
+    <title lang="es">Campamento en familia</title>
+    <title lang="en">Family Camp</title>
+    <category lang="es">Comedia</category>
+    <rating><value>5.0</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260629085000 +0000" stop="20260629100000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">Fin de transmisión</title>
@@ -4939,11 +4946,19 @@
     <episode-num system="onscreen">S01E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260627063000 +0000" stop="20260627073000 +0000" channel="CanalTRO.co@SD">
+  <programme start="20260627063000 +0000" stop="20260627070000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Atrapa sueños</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260627070000 +0000" stop="20260627073000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">Territorios y voces indígenas</title>
+    <sub-title lang="es">Kamejeya Yaaleji cantos del pueblo Yucuna</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260627073000 +0000" stop="20260627083000 +0000" channel="CanalTRO.co@SD">
@@ -5016,40 +5031,30 @@
     <episode-num system="onscreen">S01E25</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_control-tv-t00e25-1_l_m.jpg</image>
   </programme>
-  <programme start="20260628010000 +0000" stop="20260628011500 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Pa las que sea</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260628011500 +0000" stop="20260628013000 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Pa las que sea</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  <programme start="20260628010000 +0000" stop="20260628013000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">El zoológico de Tina</title>
+    <title lang="en">- Cap 1, 2, 3 y 4</title>
+    <category lang="es">- Cap 1, 2, 3 y 4</category>
+    <image>https://cdn.mitvstatic.com/programs/co_el-zoologico-de-tina-cap-1-2-3-y-4_l_m.jpg</image>
   </programme>
   <programme start="20260628013000 +0000" stop="20260628020000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">El combo de Max</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
-    <episode-num system="onscreen">S01E05</episode-num>
+    <episode-num system="xmltv_ns">0.17.0/1</episode-num>
+    <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260628020000 +0000" stop="20260628021000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Tomás, Alba y Edison</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
-    <episode-num system="onscreen">S01E13</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_tomas-alba-y-edison-t00e13_l_m.jpg</image>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/co_tomas-alba-y-edison_l_m.jpg</image>
   </programme>
   <programme start="20260628021000 +0000" stop="20260628022000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Tomás, Alba y Edison</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
-    <episode-num system="onscreen">S01E14</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/co_tomas-alba-y-edison_l_m.jpg</image>
   </programme>
   <programme start="20260628022000 +0000" stop="20260628023000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Tomás, Alba y Edison</title>
@@ -5079,19 +5084,19 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260628043000 +0000" stop="20260628053000 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Sabor a región</title>
+  <programme start="20260628043000 +0000" stop="20260628050000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">El fogón de mi tierra</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260628053000 +0000" stop="20260628060000 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Atrapa sueños</title>
+  <programme start="20260628050000 +0000" stop="20260628060000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">A fondo</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
-    <episode-num system="onscreen">S01E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_a-fondo-t00e04_l_m.jpg</image>
   </programme>
   <programme start="20260628060000 +0000" stop="20260628063000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">El buen vivir</title>
@@ -5259,12 +5264,11 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_oro-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260629010000 +0000" stop="20260629011500 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Pa las que sea</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  <programme start="20260629010000 +0000" stop="20260629013000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">El zoológico de Tina</title>
+    <title lang="en">- Cap 5, 6, 7 y 8</title>
+    <category lang="es">- Cap 5, 6, 7 y 8</category>
+    <image>https://cdn.mitvstatic.com/programs/co_el-zoologico-de-tina-cap-5-6-7-y-8_l_m.jpg</image>
   </programme>
   <programme start="20260629010000 +0000" stop="20260629013000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Código táctico</title>
@@ -5272,18 +5276,11 @@
     <category lang="es">Código táctico</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260629011500 +0000" stop="20260629013000 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Pa las que sea</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
   <programme start="20260629013000 +0000" stop="20260629020000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">El combo de Max</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
-    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260629013000 +0000" stop="20260629020000 +0000" channel="CanalTRO.co@SD">
@@ -5295,10 +5292,9 @@
   </programme>
   <programme start="20260629020000 +0000" stop="20260629021000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Tomás, Alba y Edison</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
-    <episode-num system="onscreen">S01E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/co_tomas-alba-y-edison_l_m.jpg</image>
   </programme>
   <programme start="20260629020000 +0000" stop="20260629023000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">El show del mundial</title>
@@ -5308,10 +5304,9 @@
   </programme>
   <programme start="20260629021000 +0000" stop="20260629022000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Tomás, Alba y Edison</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.16.0/1</episode-num>
-    <episode-num system="onscreen">S01E17</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/co_tomas-alba-y-edison_l_m.jpg</image>
   </programme>
   <programme start="20260629022000 +0000" stop="20260629023000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Tomás, Alba y Edison</title>
@@ -5370,11 +5365,11 @@
     <episode-num system="onscreen">S01E25</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_control-tv-t00e25-1_l_m.jpg</image>
   </programme>
-  <programme start="20260629043000 +0000" stop="20260629053000 +0000" channel="CanalTRO.co@SD">
-    <title lang="es">Sabor a región</title>
+  <programme start="20260629043000 +0000" stop="20260629050000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">El fogón de mi tierra</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260629043000 +0000" stop="20260629050000 +0000" channel="CanalTRO.co@SD">
@@ -5386,9 +5381,17 @@
   </programme>
   <programme start="20260629050000 +0000" stop="20260629053000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Atrapa sueños</title>
+    <sub-title lang="es">Coproducciones cinematográficas que trascienden fronteras</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
-    <episode-num system="onscreen">S01E06</episode-num>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260629050000 +0000" stop="20260629053000 +0000" channel="CanalTRO.co@SD">
+    <title lang="es">Atrapa sueños</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260629053000 +0000" stop="20260629054500 +0000" channel="CanalTRO.co@SD">
@@ -5524,8 +5527,8 @@
   <programme start="20260629103000 +0000" stop="20260629110000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Buscando el muerto arriba</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260629110000 +0000" stop="20260629120000 +0000" channel="CanalTRO.co@SD">
@@ -5587,9 +5590,9 @@
   <programme start="20260630013000 +0000" stop="20260630020000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">Edición especial</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.55.0/1</episode-num>
-    <episode-num system="onscreen">S01E56</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_edicion-especial-t00e56_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.54.0/1</episode-num>
+    <episode-num system="onscreen">S01E55</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_edicion-especial-t00e55_l_m.jpg</image>
   </programme>
   <programme start="20260630020000 +0000" stop="20260630023000 +0000" channel="CanalTRO.co@SD">
     <title lang="es">El show del mundial</title>
@@ -7178,6 +7181,13 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
   </programme>
+  <programme start="20260629020000 +0000" stop="20260629033500 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">Amenaza en las profundidades</title>
+    <title lang="en">Depth Charge</title>
+    <category lang="es">Suspenso</category>
+    <rating><value>4.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/co_amenaza-en-las-profundidades-2008_l_m.jpg</image>
+  </programme>
   <programme start="20260629020000 +0000" stop="20260629024500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Star Trek: Picard</title>
     <sub-title lang="es">Mapas y leyendas</sub-title>
@@ -7185,13 +7195,6 @@
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629020000 +0000" stop="20260629033500 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">Amenaza en las profundidades</title>
-    <title lang="en">Depth Charge</title>
-    <category lang="es">Suspenso</category>
-    <rating><value>4.4</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/co_amenaza-en-las-profundidades-2008_l_m.jpg</image>
   </programme>
   <programme start="20260629024500 +0000" stop="20260629033500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Star Trek: Picard</title>
@@ -7201,14 +7204,6 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260629033500 +0000" stop="20260629042500 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">Star Trek: Picard</title>
-    <sub-title lang="es">Candor absoluto</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
   <programme start="20260629033500 +0000" stop="20260629040000 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Una liebre hoy, un arma mañana</sub-title>
@@ -7216,6 +7211,14 @@
     <episode-num system="xmltv_ns">9.17.0/1</episode-num>
     <episode-num system="onscreen">S10E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t10e18-una-liebre-hoy-un-arma-manana_l_m.jpg</image>
+  </programme>
+  <programme start="20260629033500 +0000" stop="20260629042500 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">Star Trek: Picard</title>
+    <sub-title lang="es">Candor absoluto</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260629040000 +0000" stop="20260629042000 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">¿Quién da má$?</title>
@@ -7286,13 +7289,6 @@
     <episode-num system="onscreen">S10E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t10e23-yo-mismo-y-ivy_l_m.jpg</image>
   </programme>
-  <programme start="20260629055500 +0000" stop="20260629062500 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">¡Alto! Frontera: Chile</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
   <programme start="20260629055500 +0000" stop="20260629065500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">666: el número de la ganancia</sub-title>
@@ -7300,6 +7296,13 @@
     <episode-num system="xmltv_ns">9.23.0/1</episode-num>
     <episode-num system="onscreen">S10E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_quien-da-ma-t10e24-666-el-numero-de-la-ganancia_l_m.jpg</image>
+  </programme>
+  <programme start="20260629055500 +0000" stop="20260629062500 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">¡Alto! Frontera: Chile</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260629061000 +0000" stop="20260629065500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Secretos de Playboy</title>
@@ -8014,18 +8017,18 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
   </programme>
-  <programme start="20260630010000 +0000" stop="20260630013000 +0000" channel="co#amc">
-    <title lang="es">Infomerciales</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
-  </programme>
   <programme start="20260630010000 +0000" stop="20260630031000 +0000" channel="co#amc">
     <title lang="es">Tomb Raider: Las aventuras de Lara Croft</title>
     <title lang="en">Tomb Raider</title>
     <category lang="es">Acción</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/co_tomb-raider-las-aventuras-de-lara-croft-2018_l_m.jpg</image>
+  </programme>
+  <programme start="20260630010000 +0000" stop="20260630013000 +0000" channel="co#amc">
+    <title lang="es">Infomerciales</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
+    <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
   </programme>
   <programme start="20260630013000 +0000" stop="20260630020000 +0000" channel="co#amc">
     <title lang="es">Infomerciales</title>
@@ -33595,7 +33598,7 @@
   </programme>
   <programme start="20260629062600 +0000" stop="20260629063400 +0000" channel="co#disney-jr-norte">
     <title lang="es">Morphle y las mascotas mágicas</title>
-    <sub-title lang="es">Robopet</sub-title>
+    <sub-title lang="es">Bebé Zurtle</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.24.0/1</episode-num>
     <episode-num system="onscreen">S01E25</episode-num>
@@ -34716,7 +34719,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260629022900 +0000" stop="20260629030000 +0000" channel="co#disney-multicountry">
+  <programme start="20260629022900 +0000" stop="20260629025900 +0000" channel="co#disney-multicountry">
     <title lang="es">Electric Bloom: La mejor banda del mundo</title>
     <sub-title lang="es">Cómo cometimos un pequeño error</sub-title>
     <category lang="es">Serie</category>
@@ -34732,7 +34735,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_kick-buttowski-medio-doble-de-riesgo-t02e01-mas-dinero-el-amor-apesta_l_m.jpg</image>
   </programme>
-  <programme start="20260629030000 +0000" stop="20260629043300 +0000" channel="co#disney-multicountry">
+  <programme start="20260629025900 +0000" stop="20260629043300 +0000" channel="co#disney-multicountry">
     <title lang="es">La vida es ruda</title>
     <title lang="en">Life Is Ruff</title>
     <category lang="es">Comedia</category>
@@ -34771,7 +34774,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_kick-buttowski-medio-doble-de-riesgo-t02e05-la-piscina-la-vida-con-wade_l_m.jpg</image>
   </programme>
-  <programme start="20260629043300 +0000" stop="20260629050000 +0000" channel="co#disney-multicountry">
+  <programme start="20260629043300 +0000" stop="20260629045900 +0000" channel="co#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Juego de banderas / Salida de chicas</sub-title>
     <category lang="es">Serie</category>
@@ -34787,7 +34790,7 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_kick-buttowski-medio-doble-de-riesgo-t02e06-vendido-estrellados_l_m.jpg</image>
   </programme>
-  <programme start="20260629050000 +0000" stop="20260629052900 +0000" channel="co#disney-multicountry">
+  <programme start="20260629045900 +0000" stop="20260629052900 +0000" channel="co#disney-multicountry">
     <title lang="es">Phineas y Ferb</title>
     <sub-title lang="es">Irritante del ascensor / Amo del destino</sub-title>
     <category lang="es">Serie</category>
@@ -34843,7 +34846,7 @@
     <episode-num system="onscreen">S01E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_prodigiosa-las-aventuras-de-ladybug-t01e21-kung-food_l_m.jpg</image>
   </programme>
-  <programme start="20260629062900 +0000" stop="20260629070000 +0000" channel="co#disney-multicountry">
+  <programme start="20260629062900 +0000" stop="20260629065900 +0000" channel="co#disney-multicountry">
     <title lang="es">The Owl House - La Casa Búho</title>
     <sub-title lang="es">Oh, Titán, ¿dónde estás?</sub-title>
     <category lang="es">Serie</category>
@@ -34867,7 +34870,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_anfibilandia-t01e04-inundacion-sudor-y-lagrimas_l_m.jpg</image>
   </programme>
-  <programme start="20260629070000 +0000" stop="20260629072900 +0000" channel="co#disney-multicountry">
+  <programme start="20260629065900 +0000" stop="20260629072900 +0000" channel="co#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">La venganza de Chip</sub-title>
     <category lang="es">Serie</category>
@@ -35039,7 +35042,7 @@
     <episode-num system="onscreen">S03E66</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_los-green-en-la-gran-ciudad-t03e66-noche-de-trivia-en-problemas_l_m.jpg</image>
   </programme>
-  <programme start="20260629124300 +0000" stop="20260630011500 +0000" channel="co#disney-multicountry">
+  <programme start="20260629124300 +0000" stop="20260630011400 +0000" channel="co#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">La guía del Sr. Candle / Cinta roja</sub-title>
     <category lang="es">Serie</category>
@@ -35055,7 +35058,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260630011500 +0000" stop="20260630014300 +0000" channel="co#disney-multicountry">
+  <programme start="20260630011400 +0000" stop="20260630014300 +0000" channel="co#disney-multicountry">
     <title lang="es">La casa de Raven</title>
     <sub-title lang="es">Chalecos de moda</sub-title>
     <category lang="es">Serie</category>
@@ -35180,7 +35183,7 @@
     <episode-num system="onscreen">S01E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_programa-de-talentos-t01e23-america-necesita-talentos-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260630043600 +0000" stop="20260630050000 +0000" channel="co#disney-multicountry">
+  <programme start="20260630043600 +0000" stop="20260630045900 +0000" channel="co#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">La venganza de Chip</sub-title>
     <category lang="es">Serie</category>
@@ -35196,7 +35199,7 @@
     <episode-num system="onscreen">S03E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_los-hechiceros-de-waverly-place-t03e17-el-logotipo-de-alex_l_m.jpg</image>
   </programme>
-  <programme start="20260630050000 +0000" stop="20260630052300 +0000" channel="co#disney-multicountry">
+  <programme start="20260630045900 +0000" stop="20260630052300 +0000" channel="co#disney-multicountry">
     <title lang="es">ZOMBIES: La serie re-animada</title>
     <sub-title lang="es">Juego sucio / Atrapa la carne si puedes</sub-title>
     <category lang="es">Serie</category>
@@ -72903,8 +72906,8 @@
   </programme>
   <programme start="20260628065800 +0000" stop="20260628070700 +0000" channel="co#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - La carrera más helada del siglo</title>
-    <category lang="es">Temporada 1 - La carrera más helada del siglo</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260628065800 +0000" stop="20260628070800 +0000" channel="co#tooncast">
@@ -72915,8 +72918,8 @@
   </programme>
   <programme start="20260628070700 +0000" stop="20260628071800 +0000" channel="co#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - La carrera más helada del siglo</title>
-    <category lang="es">Temporada 1 - La carrera más helada del siglo</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260628070800 +0000" stop="20260628071800 +0000" channel="co#tooncast">
@@ -72927,8 +72930,8 @@
   </programme>
   <programme start="20260628071800 +0000" stop="20260628072800 +0000" channel="co#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - La carrera más helada del siglo</title>
-    <category lang="es">Temporada 1 - La carrera más helada del siglo</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260628071800 +0000" stop="20260628072800 +0000" channel="co#tooncast">
@@ -73369,7 +73372,7 @@
   </programme>
   <programme start="20260629010600 +0000" stop="20260629010800 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Oxymoron Detergent</sub-title>
+    <sub-title lang="es">Les Is More Store</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -73435,7 +73438,7 @@
   </programme>
   <programme start="20260629011700 +0000" stop="20260629011800 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Wool Ewe Ever Change (Chapter 1)</sub-title>
+    <sub-title lang="es">Angora Get You Sucker</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -73451,7 +73454,7 @@
   </programme>
   <programme start="20260629011800 +0000" stop="20260629011900 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Vote for Ham Sandwich</sub-title>
+    <sub-title lang="es">Vote for Buddy Commercial</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -73459,7 +73462,7 @@
   </programme>
   <programme start="20260629011900 +0000" stop="20260629012300 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Rescuing a Woman on the RR Tracks</sub-title>
+    <sub-title lang="es">Oxymoron Roach Suits</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -73823,8 +73826,8 @@
   </programme>
   <programme start="20260629065100 +0000" stop="20260629070000 +0000" channel="co#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - La carrera más helada del siglo</title>
-    <category lang="es">Temporada 1 - La carrera más helada del siglo</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260629070000 +0000" stop="20260629071000 +0000" channel="co#tooncast">
@@ -73851,8 +73854,8 @@
   </programme>
   <programme start="20260629071000 +0000" stop="20260629072000 +0000" channel="co#tooncast">
     <title lang="es">Los autos locos</title>
-    <title lang="en">Temporada 1 - La carrera más helada del siglo</title>
-    <category lang="es">Temporada 1 - La carrera más helada del siglo</category>
+    <title lang="en">Temporada 1 - La invasión yankee</title>
+    <category lang="es">Temporada 1 - La invasión yankee</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-autos-locos-t01e00-juntos-podemos_l_m.jpg</image>
   </programme>
   <programme start="20260629072000 +0000" stop="20260629073000 +0000" channel="co#tooncast">
@@ -74297,7 +74300,7 @@
   </programme>
   <programme start="20260630010600 +0000" stop="20260630010800 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Oxymoron Detergent</sub-title>
+    <sub-title lang="es">Les Is More Store</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -74349,7 +74352,7 @@
   </programme>
   <programme start="20260630011700 +0000" stop="20260630011800 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Wool Ewe Ever Change (Chapter 1)</sub-title>
+    <sub-title lang="es">Angora Get You Sucker</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -74365,7 +74368,7 @@
   </programme>
   <programme start="20260630011800 +0000" stop="20260630011900 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Vote for Ham Sandwich</sub-title>
+    <sub-title lang="es">Vote for Buddy Commercial</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -74373,7 +74376,7 @@
   </programme>
   <programme start="20260630011900 +0000" stop="20260630012300 +0000" channel="co#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Rescuing a Woman on the RR Tracks</sub-title>
+    <sub-title lang="es">Oxymoron Roach Suits</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -96641,17 +96644,17 @@
     <category lang="es">Win Noticias</category>
     <image>https://cdn.mitvstatic.com/programs/co_noticiero-win-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20260628073000 +0000" stop="20260628080000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Especiales ocasionales Nacionales: Luis Díaz</title>
-    <title lang="en">Especiales ocasionales Nacionales: Luis Díaz</title>
-    <category lang="es">Especiales ocasionales Nacionales: Luis Díaz</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
   <programme start="20260628073000 +0000" stop="20260628103000 +0000" channel="WinSports.co@SD">
     <title lang="es">Saque largo</title>
     <title lang="en">Saque largo</title>
     <category lang="es">Saque largo</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260628073000 +0000" stop="20260628080000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Especiales ocasionales Nacionales: Luis Díaz</title>
+    <title lang="en">Especiales ocasionales Nacionales: Luis Díaz</title>
+    <category lang="es">Especiales ocasionales Nacionales: Luis Díaz</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260628080000 +0000" stop="20260628100000 +0000" channel="WinSports.co@SD">
     <title lang="es">Túnez vs. Países Bajos</title>
@@ -96691,17 +96694,17 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260629010000 +0000" stop="20260629053000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Despierta Win</title>
-    <title lang="en">Despierta Win</title>
-    <category lang="es">Despierta Win</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
   <programme start="20260629010000 +0000" stop="20260629013000 +0000" channel="WinSports.co@SD">
     <title lang="es">Jordania vs. Argentina</title>
     <title lang="en">Fecha 3 - Grupo J, AT&amp;T Stadium</title>
     <category lang="es">Fecha 3 - Grupo J, AT&amp;T Stadium</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20260629010000 +0000" stop="20260629053000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Despierta Win</title>
+    <title lang="en">Despierta Win</title>
+    <category lang="es">Despierta Win</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260629013000 +0000" stop="20260629020000 +0000" channel="WinSports.co@SD">
     <title lang="es">Planeta fútbol</title>
