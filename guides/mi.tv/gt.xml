@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260629161640 +0000">
+<tv generator-info-name="custom-epg" date="20260629202001 +0000">
   <channel id="gt#3abn">
     <display-name>3ABN</display-name>
   </channel>
@@ -53,6 +53,9 @@
   </channel>
   <channel id="gt#canal-de-las-estrellas">
     <display-name>Las Estrellas</display-name>
+  </channel>
+  <channel id="gt#discovery-world-hd">
+    <display-name>Discovery World</display-name>
   </channel>
   <channel id="gt#canal-antigua-deportes">
     <display-name>Canal Antigua Deportes</display-name>
@@ -215,11 +218,12 @@
   <channel id="gt#disney">
     <display-name>Disney Channel</display-name>
   </channel>
-  <channel id="gt#discovery-world-hd">
-    <display-name>Discovery World</display-name>
-  </channel>
   <channel id="gt#tnt-hd">
     <display-name>TNT HD</display-name>
+  </channel>
+  <channel id="TNTSeriesLatinAmerica.us@Panregional">
+    <display-name>TNT</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png"/>
   </channel>
   <channel id="gt#televisiete">
     <display-name>Canal 7 - Televisiete</display-name>
@@ -234,8 +238,9 @@
   <channel id="gt#telemundo">
     <display-name>Telemundo</display-name>
   </channel>
-  <channel id="gt#telemedellin">
-    <display-name>Telemedellín</display-name>
+  <channel id="TelemicroInternacional.do@SD">
+    <display-name>Telemicro</display-name>
+    <icon src="https://i.imgur.com/507tvMY.png"/>
   </channel>
   <channel id="gt#telehit">
     <display-name>Telehit</display-name>
@@ -249,9 +254,6 @@
   <channel id="TDNMexico.mx@SD">
     <display-name>TDN</display-name>
     <icon src="https://i.imgur.com/NtuBmQC.png"/>
-  </channel>
-  <channel id="gt#tcm">
-    <display-name>TCM</display-name>
   </channel>
   <channel id="gt#tbs-veryfunny-pan">
     <display-name>TBS</display-name>
@@ -294,13 +296,11 @@
   <channel id="gt#tnt-series">
     <display-name>TNT Series</display-name>
   </channel>
-  <channel id="TNTSeriesLatinAmerica.us@Panregional">
-    <display-name>TNT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png"/>
+  <channel id="gt#tcm">
+    <display-name>TCM</display-name>
   </channel>
-  <channel id="TelemicroInternacional.do@SD">
-    <display-name>Telemicro</display-name>
-    <icon src="https://i.imgur.com/507tvMY.png"/>
+  <channel id="gt#ritmoson-latino">
+    <display-name>RMS</display-name>
   </channel>
   <channel id="gt#tyc-sports">
     <display-name>TyC Sports</display-name>
@@ -308,8 +308,8 @@
   <channel id="gt#tooncast">
     <display-name>Tooncast</display-name>
   </channel>
-  <channel id="gt#ritmoson-latino">
-    <display-name>RMS</display-name>
+  <channel id="gt#telemedellin">
+    <display-name>Telemedellín</display-name>
   </channel>
   <programme start="20260629060000 +0000" stop="20260629063000 +0000" channel="Cablenoticias.co@SD">
     <title lang="es">Testigo directo</title>
@@ -12529,36 +12529,6 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260701060000 +0000" stop="20260701100000 +0000" channel="gt#canal-nu">
-    <title lang="es">Canal Nu</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260701100000 +0000" stop="20260701140000 +0000" channel="gt#canal-nu">
-    <title lang="es">Canal Nu</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260701140000 +0000" stop="20260701180000 +0000" channel="gt#canal-nu">
-    <title lang="es">Canal Nu</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260701180000 +0000" stop="20260701220000 +0000" channel="gt#canal-nu">
-    <title lang="es">Canal Nu</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260701220000 +0000" stop="20260702020000 +0000" channel="gt#canal-nu">
-    <title lang="es">Canal Nu</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260702020000 +0000" stop="20260702030000 +0000" channel="gt#canal-nu">
-    <title lang="es">Canal Nu</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260629060000 +0000" stop="20260629070000 +0000" channel="gt#caracol-internacional">
     <title lang="es">Los informantes</title>
     <title lang="en">Interés general</title>
@@ -14752,25 +14722,7 @@
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260701055500 +0000" stop="20260701170000 +0000" channel="gt#dhe">
-    <title lang="es">DHE</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_dhe_l_m.jpg</image>
-  </programme>
   <programme start="20260701055500 +0000" stop="20260701065500 +0000" channel="gt#dhe">
-    <title lang="es">DHE</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_dhe_l_m.jpg</image>
-  </programme>
-  <programme start="20260701170000 +0000" stop="20260702050000 +0000" channel="gt#dhe">
-    <title lang="es">DHE</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_dhe_l_m.jpg</image>
-  </programme>
-  <programme start="20260702050000 +0000" stop="20260702060000 +0000" channel="gt#dhe">
     <title lang="es">DHE</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -18307,7 +18259,7 @@
     <episode-num system="onscreen">S15E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/gt_4-esposas-1-marido-s15e11-todo-esta-al-reves_l_m.jpg</image>
   </programme>
-  <programme start="20260701052400 +0000" stop="20260701062400 +0000" channel="gt#discovery-tlc">
+  <programme start="20260701052400 +0000" stop="20260701061200 +0000" channel="gt#discovery-tlc">
     <title lang="es">Mi gran boda gitana</title>
     <sub-title lang="es">Las hermanas no se casan con sus excuñados</sub-title>
     <category lang="es">Serie</category>
@@ -18315,7 +18267,7 @@
     <episode-num system="onscreen">S06E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/gt_mi-gran-boda-gitana-s06e08-las-hermanas-no-se-casan-con-sus-excunados_l_m.jpg</image>
   </programme>
-  <programme start="20260701052400 +0000" stop="20260701061200 +0000" channel="gt#discovery-tlc">
+  <programme start="20260701052400 +0000" stop="20260701062400 +0000" channel="gt#discovery-tlc">
     <title lang="es">Mi gran boda gitana</title>
     <sub-title lang="es">Las hermanas no se casan con sus excuñados</sub-title>
     <category lang="es">Serie</category>
@@ -18953,7 +18905,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260630054800 +0000" stop="20260630061200 +0000" channel="gt#discovery-world-hd">
+  <programme start="20260630054800 +0000" stop="20260630064800 +0000" channel="gt#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Casa pantanosa</sub-title>
     <category lang="es">Serie</category>
@@ -18961,7 +18913,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/gt_pantano-se-vende-s01e11-casa-pantanosa_l_m.jpg</image>
   </programme>
-  <programme start="20260630054800 +0000" stop="20260630064800 +0000" channel="gt#discovery-world-hd">
+  <programme start="20260630054800 +0000" stop="20260630061200 +0000" channel="gt#discovery-world-hd">
     <title lang="es">Pantano: se vende</title>
     <sub-title lang="es">Casa pantanosa</sub-title>
     <category lang="es">Serie</category>
@@ -19773,462 +19725,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/gt_pantano-se-vende-s01e12-bebe-del-pantano_l_m.jpg</image>
   </programme>
-  <programme start="20260629053000 +0000" stop="20260629060100 +0000" channel="gt#disney">
-    <title lang="es">Secretos en Sulphur Springs</title>
-    <sub-title lang="es">No hay tiempo como el presente</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629060100 +0000" stop="20260629063000 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">El ataque de la gigante Candace / El acuario de Phineas</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
-    <episode-num system="onscreen">S02E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s02e03-el-ataque-de-la-gigante-candace-el-acuario-de-phineas_l_m.jpg</image>
-  </programme>
-  <programme start="20260629063000 +0000" stop="20260629065800 +0000" channel="gt#disney">
-    <title lang="es">Anfibilandia</title>
-    <sub-title lang="es">¡Hechizados! / La clave del éxito</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.16.0/1</episode-num>
-    <episode-num system="onscreen">S01E17</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_anfibilandia-s01e17-de-lirio-tailandes_l_m.jpg</image>
-  </programme>
-  <programme start="20260629065800 +0000" stop="20260629072100 +0000" channel="gt#disney">
-    <title lang="es">Kiff</title>
-    <sub-title lang="es">El DJ del almuerzo / Feria laboral</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629072100 +0000" stop="20260629074400 +0000" channel="gt#disney">
-    <title lang="es">The Owl House - La Casa Búho</title>
-    <sub-title lang="es">Oh, Titán, ¿dónde estás?</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.18.0/1</episode-num>
-    <episode-num system="onscreen">S02E19</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_the-owl-house-la-casa-buho-s02e19-oh-titan-donde-estas_l_m.jpg</image>
-  </programme>
-  <programme start="20260629074400 +0000" stop="20260629080700 +0000" channel="gt#disney">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">La venganza de Chip</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.20.0/1</episode-num>
-    <episode-num system="onscreen">S04E21</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_los-green-en-la-gran-ciudad-s04e21-la-venganza-de-chip_l_m.jpg</image>
-  </programme>
-  <programme start="20260629080700 +0000" stop="20260629083100 +0000" channel="gt#disney">
-    <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">Juego sucio / Atrapa la carne si puedes</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
-    <episode-num system="onscreen">S01E07</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629083100 +0000" stop="20260629085400 +0000" channel="gt#disney">
-    <title lang="es">Acampados</title>
-    <sub-title lang="es">Intercambio con Barb</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.28.0/1</episode-num>
-    <episode-num system="onscreen">S04E29</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_acampados-s04e29-breaking-barb_l_m.jpg</image>
-  </programme>
-  <programme start="20260629085400 +0000" stop="20260629091700 +0000" channel="gt#disney">
-    <title lang="es">Jessie</title>
-    <sub-title lang="es">Falso karma</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_jessie-s01e02-falso-karma_l_m.jpg</image>
-  </programme>
-  <programme start="20260629091700 +0000" stop="20260629094000 +0000" channel="gt#disney">
-    <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
-    <sub-title lang="es">Kung Food</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
-    <episode-num system="onscreen">S01E21</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_prodigiosa-las-aventuras-de-ladybug-s01e21-kung-food_l_m.jpg</image>
-  </programme>
-  <programme start="20260629094000 +0000" stop="20260629100300 +0000" channel="gt#disney">
-    <title lang="es">Star vs. Las fuerzas del mal</title>
-    <sub-title lang="es">Mamá Star / Preparados, apunten, ¡Fuego!</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.17.0/1</episode-num>
-    <episode-num system="onscreen">S04E18</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_star-vs-las-fuerzas-del-mal-s04e18-mama-star-preparados-apunten-fuego_l_m.jpg</image>
-  </programme>
-  <programme start="20260629100300 +0000" stop="20260629102600 +0000" channel="gt#disney">
-    <title lang="es">Anfibilandia</title>
-    <sub-title lang="es">El efecto dominó / La pura verdad</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_anfibilandia-s01e04-inundacion-sudor-y-lagrimas_l_m.jpg</image>
-  </programme>
-  <programme start="20260629102600 +0000" stop="20260629104900 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">La entrega del destino / ¡A rebotar!</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.87.0/1</episode-num>
-    <episode-num system="onscreen">S03E88</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s03e88-la-entrega-del-destino-a-rebotar_l_m.jpg</image>
-  </programme>
-  <programme start="20260629104900 +0000" stop="20260629111100 +0000" channel="gt#disney">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">Mal padre / Adicto a las porquerías</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.2.0/1</episode-num>
-    <episode-num system="onscreen">S04E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_los-green-en-la-gran-ciudad-s04e03-mal-padre-adicto-a-las-porquerias_l_m.jpg</image>
-  </programme>
-  <programme start="20260629111100 +0000" stop="20260629113500 +0000" channel="gt#disney">
-    <title lang="es">Gravity Falls: un verano de misterios</title>
-    <sub-title lang="es">Fuga de ensueño</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.18.0/1</episode-num>
-    <episode-num system="onscreen">S01E19</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_gravity-falls-un-verano-de-misterios-s01e19-fuga-de-ensueno_l_m.jpg</image>
-  </programme>
-  <programme start="20260629113500 +0000" stop="20260629115800 +0000" channel="gt#disney">
-    <title lang="es">Star vs. Las fuerzas del mal</title>
-    <sub-title lang="es">Trampa Butterfly / Ludo, ¿dónde estás?</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.15.0/1</episode-num>
-    <episode-num system="onscreen">S03E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_star-vs-las-fuerzas-del-mal-s03e16-butterfly-trap-ludo-where-art-thou_l_m.jpg</image>
-  </programme>
-  <programme start="20260629115800 +0000" stop="20260629122000 +0000" channel="gt#disney">
-    <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
-    <sub-title lang="es">Rockero Rufián</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
-    <episode-num system="onscreen">S01E20</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_prodigiosa-las-aventuras-de-ladybug-s01e20-rockero-rufian_l_m.jpg</image>
-  </programme>
-  <programme start="20260629122000 +0000" stop="20260629124300 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">Gracias, pero no gracias / La historia de Troya</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.13.0/1</episode-num>
-    <episode-num system="onscreen">S04E14</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s04e14-gracias-pero-no-gracias-la-historia-de-troya_l_m.jpg</image>
-  </programme>
-  <programme start="20260629124300 +0000" stop="20260629130000 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">Viaje al centro de Candace</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
-    <episode-num system="onscreen">S01E22</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s01e22-viaje-al-centro-de-candace_l_m.jpg</image>
-  </programme>
-  <programme start="20260629130000 +0000" stop="20260629131500 +0000" channel="gt#disney">
-    <title lang="es">Las aventuras de Pilar</title>
-    <sub-title lang="es">Hefestos</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
-    <episode-num system="onscreen">S01E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_las-aventuras-de-pilar-s01e08-hefestos_l_m.jpg</image>
-  </programme>
-  <programme start="20260629131500 +0000" stop="20260629133000 +0000" channel="gt#disney">
-    <title lang="es">Cortos Mickey Mouse</title>
-    <sub-title lang="es">Una abeja que inspira / La Poza / El año del perro</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">3.2.0/1</episode-num>
-    <episode-num system="onscreen">S04E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_cortos-mickey-mouse-s04e03-bee-inspired-swimmin-hole-year-of-the-dog_l_m.jpg</image>
-  </programme>
-  <programme start="20260629133000 +0000" stop="20260629140000 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">La entrega del destino / ¡A rebotar!</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.87.0/1</episode-num>
-    <episode-num system="onscreen">S03E88</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s03e88-la-entrega-del-destino-a-rebotar_l_m.jpg</image>
-  </programme>
-  <programme start="20260629140000 +0000" stop="20260629143000 +0000" channel="gt#disney">
-    <title lang="es">Gravity Falls: un verano de misterios</title>
-    <sub-title lang="es">Atracciones de carretera</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
-    <episode-num system="onscreen">S02E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_gravity-falls-un-verano-de-misterios-s02e16-atracciones-de-carretera_l_m.jpg</image>
-  </programme>
-  <programme start="20260629143000 +0000" stop="20260629150000 +0000" channel="gt#disney">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">La gallina espacial / Noche de filetes</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_los-green-en-la-gran-ciudad-s01e01-la-gallina-espacial-noche-de-filetes_l_m.jpg</image>
-  </programme>
-  <programme start="20260629150000 +0000" stop="20260629153000 +0000" channel="gt#disney">
-    <title lang="es">Kiff</title>
-    <sub-title lang="es">Cada día, un acertijo / La vida por dentro</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.16.0/1</episode-num>
-    <episode-num system="onscreen">S01E17</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629153000 +0000" stop="20260629155900 +0000" channel="gt#disney">
-    <title lang="es">Anfibilandia</title>
-    <sub-title lang="es">El Sr. X / El cumpleaños de Sprig</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
-    <episode-num system="onscreen">S03E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_anfibilandia-s03e06-pelea-en-el-museo_l_m.jpg</image>
-  </programme>
-  <programme start="20260629155900 +0000" stop="20260629163000 +0000" channel="gt#disney">
-    <title lang="es">Hamster &amp; Gretel</title>
-    <sub-title lang="es">Receta de un desastre / Golpe matemático</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629163000 +0000" stop="20260629170000 +0000" channel="gt#disney">
-    <title lang="es">El fantasma y Molly McGee</title>
-    <sub-title lang="es">Granja del valle sonriente / El gran gesto</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.15.0/1</episode-num>
-    <episode-num system="onscreen">S02E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629170000 +0000" stop="20260629172900 +0000" channel="gt#disney">
-    <title lang="es">StuGo</title>
-    <sub-title lang="es">El lobo de la envidia / La criatura pestilente</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629172900 +0000" stop="20260629180000 +0000" channel="gt#disney">
-    <title lang="es">La familia Proud</title>
-    <sub-title lang="es">El campamento</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
-    <episode-num system="onscreen">S02E07</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629180000 +0000" stop="20260629183000 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">Attack of the Candace Suit / Book Flub</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.10.0/1</episode-num>
-    <episode-num system="onscreen">S05E11</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s05e11-attack-of-the-candace-suit-book-flub_l_m.jpg</image>
-  </programme>
-  <programme start="20260629183000 +0000" stop="20260629184500 +0000" channel="gt#disney">
-    <title lang="es">Soy Luna</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_soy-luna_l_m.jpg</image>
-  </programme>
-  <programme start="20260629184500 +0000" stop="20260629190000 +0000" channel="gt#disney">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">Vida de jefe</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.2.0/1</episode-num>
-    <episode-num system="onscreen">S03E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_los-green-en-la-gran-ciudad-s03e03-el-amigo-menor-el-jardin-zen_l_m.jpg</image>
-  </programme>
-  <programme start="20260629190000 +0000" stop="20260629192900 +0000" channel="gt#disney">
-    <title lang="es">Liv y Maddie</title>
-    <sub-title lang="es">Rooney cerámica</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
-    <episode-num system="onscreen">S02E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_liv-y-maddie-s02e02-rooney-ceramica_l_m.jpg</image>
-  </programme>
-  <programme start="20260629192900 +0000" stop="20260629195800 +0000" channel="gt#disney">
-    <title lang="es">Programa de talentos</title>
-    <sub-title lang="es">Patente pendiente</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
-    <episode-num system="onscreen">S01E23</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_programa-de-talentos-s01e23-america-necesita-talentos-parte-2_l_m.jpg</image>
-  </programme>
-  <programme start="20260629195800 +0000" stop="20260629203000 +0000" channel="gt#disney">
-    <title lang="es">Los hechiceros de Waverly Place</title>
-    <sub-title lang="es">El logotipo de Alex</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.16.0/1</episode-num>
-    <episode-num system="onscreen">S03E17</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_los-hechiceros-de-waverly-place-s03e17-el-logotipo-de-alex_l_m.jpg</image>
-  </programme>
-  <programme start="20260629203000 +0000" stop="20260629204400 +0000" channel="gt#disney">
-    <title lang="es">Soy Luna</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_soy-luna_l_m.jpg</image>
-  </programme>
-  <programme start="20260629204400 +0000" stop="20260629205900 +0000" channel="gt#disney">
-    <title lang="es">Tara Duncan</title>
-    <sub-title lang="es">El árbol maldito</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629205900 +0000" stop="20260629213200 +0000" channel="gt#disney">
-    <title lang="es">Los hechiceros más allá de Waverly Place</title>
-    <sub-title lang="es">Nada es lo que parece</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629213200 +0000" stop="20260629220100 +0000" channel="gt#disney">
-    <title lang="es">Kiff</title>
-    <sub-title lang="es">Sed por brillar / El cuarto turno</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629220100 +0000" stop="20260629223000 +0000" channel="gt#disney">
-    <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">Re- último año / Quiero una zoda</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629223000 +0000" stop="20260629225800 +0000" channel="gt#disney">
-    <title lang="es">Moon Girl y Devil, el dinosaurio</title>
-    <sub-title lang="es">¡Al éxito, no al fracaso!</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
-    <episode-num system="onscreen">S02E07</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629225800 +0000" stop="20260629232900 +0000" channel="gt#disney">
-    <title lang="es">Moon Girl y Devil, el dinosaurio</title>
-    <sub-title lang="es">El devil que conoces</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.24.0/1</episode-num>
-    <episode-num system="onscreen">S02E25</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260629232900 +0000" stop="20260630000000 +0000" channel="gt#disney">
-    <title lang="es">Gravity Falls: un verano de misterios</title>
-    <sub-title lang="es">Visita al refugio</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
-    <episode-num system="onscreen">S02E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_gravity-falls-un-verano-de-misterios-s02e02-los-cazadores-de-cabezas_l_m.jpg</image>
-  </programme>
-  <programme start="20260630000000 +0000" stop="20260630001400 +0000" channel="gt#disney">
-    <title lang="es">Soy Luna</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_soy-luna_l_m.jpg</image>
-  </programme>
-  <programme start="20260630001400 +0000" stop="20260630003000 +0000" channel="gt#disney">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">Papaganda</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.1.0/1</episode-num>
-    <episode-num system="onscreen">S03E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_los-green-en-la-gran-ciudad-s03e02-vida-de-jefe-papa-ganda_l_m.jpg</image>
-  </programme>
-  <programme start="20260630003000 +0000" stop="20260630010100 +0000" channel="gt#disney">
-    <title lang="es">Dragon Striker</title>
-    <sub-title lang="es">Welcome to Kal Asterock - Part 2</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630010100 +0000" stop="20260630012900 +0000" channel="gt#disney">
-    <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
-    <sub-title lang="es">Problemática</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.30.0/1</episode-num>
-    <episode-num system="onscreen">S02E31</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_prodigiosa-las-aventuras-de-ladybug-s02e31_l_m.jpg</image>
-  </programme>
-  <programme start="20260630012900 +0000" stop="20260630020000 +0000" channel="gt#disney">
-    <title lang="es">Los hechiceros más allá de Waverly Place</title>
-    <sub-title lang="es">¡Aquí y ahora!</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
-    <episode-num system="onscreen">S01E21</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630020000 +0000" stop="20260630023000 +0000" channel="gt#disney">
-    <title lang="es">Vampirina: una vampirina adolescente</title>
-    <sub-title lang="es">El primer baile</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630023000 +0000" stop="20260630030000 +0000" channel="gt#disney">
-    <title lang="es">Jessie</title>
-    <sub-title lang="es">Audiciones y paredes tenebrosas</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.23.0/1</episode-num>
-    <episode-num system="onscreen">S01E24</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_jessie-s01e24-la-isla-de-los-monstruos_l_m.jpg</image>
-  </programme>
-  <programme start="20260630030000 +0000" stop="20260630032400 +0000" channel="gt#disney">
-    <title lang="es">20.000 leguas de viaje submarino</title>
-    <sub-title lang="es">Buscando a Nemo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630032400 +0000" stop="20260630034900 +0000" channel="gt#disney">
-    <title lang="es">20.000 leguas de viaje submarino</title>
-    <sub-title lang="es">La captura</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630034900 +0000" stop="20260630040100 +0000" channel="gt#disney">
-    <title lang="es">Phineas y Ferb</title>
-    <sub-title lang="es">La balada de Barba Fea</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.25.0/1</episode-num>
-    <episode-num system="onscreen">S01E26</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_phineas-y-ferb-s01e26-la-balada-de-barba-fea_l_m.jpg</image>
-  </programme>
-  <programme start="20260630040100 +0000" stop="20260630042900 +0000" channel="gt#disney">
-    <title lang="es">Hannah Montana</title>
-    <sub-title lang="es">Dos hermanos y un baño</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
-    <episode-num system="onscreen">S02E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_hannah-montana-s02e06-dos-hermanos-y-un-bano_l_m.jpg</image>
-  </programme>
-  <programme start="20260630042900 +0000" stop="20260630050200 +0000" channel="gt#disney">
-    <title lang="es">Electric Bloom: La mejor banda del mundo</title>
-    <sub-title lang="es">Cómo comenzó</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630050200 +0000" stop="20260630053000 +0000" channel="gt#disney">
-    <title lang="es">Acampados</title>
-    <sub-title lang="es">Cruzando la frontera</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.20.0/1</episode-num>
-    <episode-num system="onscreen">S02E21</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_acampados-s02e21-cruzando-la-frontera_l_m.jpg</image>
-  </programme>
   <programme start="20260630053000 +0000" stop="20260630060800 +0000" channel="gt#disney">
-    <title lang="es">Champeta: el ritmo de la Tierra</title>
-    <sub-title lang="es">Bailando con el enemigo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
-    <episode-num system="onscreen">S02E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260630053000 +0000" stop="20260630063000 +0000" channel="gt#disney">
     <title lang="es">Champeta: el ritmo de la Tierra</title>
     <sub-title lang="es">Bailando con el enemigo</sub-title>
     <category lang="es">Serie</category>
@@ -24136,150 +23633,6 @@
     <title lang="en">All Elite Wrestling</title>
     <category lang="es">All Elite Wrestling</category>
     <image>https://cdn.mitvstatic.com/programs/gt_lucha-all-elite-wrestling_l_m.jpg</image>
-  </programme>
-  <programme start="20260630060000 +0000" stop="20260630080000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Budapest, Hungary - Women&apos;s Final Session</title>
-    <title lang="en">UIPM Pentathlon World Cup</title>
-    <category lang="es">UIPM Pentathlon World Cup</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260630080000 +0000" stop="20260630093000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">La última palabra</title>
-    <title lang="en">La última palabra</title>
-    <category lang="es">La última palabra</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_futbol-la-ultima-palabra_l_m.jpg</image>
-  </programme>
-  <programme start="20260630093000 +0000" stop="20260630100000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Monster Jam</title>
-    <title lang="en">Monster Jam</title>
-    <category lang="es">Monster Jam</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260630100000 +0000" stop="20260630110000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">All Elite Wrestling</title>
-    <title lang="en">All Elite Wrestling</title>
-    <category lang="es">All Elite Wrestling</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_lucha-all-elite-wrestling_l_m.jpg</image>
-  </programme>
-  <programme start="20260630110000 +0000" stop="20260630120000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Central Fox</title>
-    <title lang="en">Central Fox</title>
-    <category lang="es">Central Fox</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_noticiero-central-fox_l_m.jpg</image>
-  </programme>
-  <programme start="20260630120000 +0000" stop="20260630123000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Gearing Up</title>
-    <title lang="en">Gearing Up</title>
-    <category lang="es">Gearing Up</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-gearing-up_l_m.jpg</image>
-  </programme>
-  <programme start="20260630123000 +0000" stop="20260630140000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">La última palabra</title>
-    <title lang="en">La última palabra</title>
-    <category lang="es">La última palabra</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_futbol-la-ultima-palabra_l_m.jpg</image>
-  </programme>
-  <programme start="20260630140000 +0000" stop="20260630143000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Fox Fit</title>
-    <title lang="en">Fox Fit</title>
-    <category lang="es">Fox Fit</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-fox-fit_l_m.jpg</image>
-  </programme>
-  <programme start="20260630143000 +0000" stop="20260630150000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Fox Fit</title>
-    <title lang="en">Fox Fit</title>
-    <category lang="es">Fox Fit</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-fox-fit_l_m.jpg</image>
-  </programme>
-  <programme start="20260630150000 +0000" stop="20260630160000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Central Fox</title>
-    <title lang="en">Central Fox</title>
-    <category lang="es">Central Fox</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_noticiero-central-fox_l_m.jpg</image>
-  </programme>
-  <programme start="20260630160000 +0000" stop="20260630193000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Budapest Hungary Men&apos;s Semi-Final A y B</title>
-    <title lang="en">UIPM Pentathlon World Cup</title>
-    <category lang="es">UIPM Pentathlon World Cup</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260630193000 +0000" stop="20260630213000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Budapest, Hungary - Men&apos;s Final Session</title>
-    <title lang="en">UIPM Pentathlon World Cup</title>
-    <category lang="es">UIPM Pentathlon World Cup</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260630213000 +0000" stop="20260630220000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Monster Jam</title>
-    <title lang="en">Monster Jam</title>
-    <category lang="es">Monster Jam</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260630220000 +0000" stop="20260630230000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">All Elite Wrestling</title>
-    <title lang="en">All Elite Wrestling</title>
-    <category lang="es">All Elite Wrestling</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_lucha-all-elite-wrestling_l_m.jpg</image>
-  </programme>
-  <programme start="20260630230000 +0000" stop="20260701000000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Budo Combat</title>
-    <title lang="en">Budo Combat</title>
-    <category lang="es">Budo Combat</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260701000000 +0000" stop="20260701003000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Fox Fight Club</title>
-    <title lang="en">Fox Fight Club</title>
-    <category lang="es">Fox Fight Club</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_lucha-fox-fight-club_l_m.jpg</image>
-  </programme>
-  <programme start="20260701003000 +0000" stop="20260701010000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Mediterranean Games</title>
-    <title lang="en">Mediterranean Games</title>
-    <category lang="es">Mediterranean Games</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260701010000 +0000" stop="20260701013000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Gearing Up</title>
-    <title lang="en">Gearing Up</title>
-    <category lang="es">Gearing Up</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-gearing-up_l_m.jpg</image>
-  </programme>
-  <programme start="20260701013000 +0000" stop="20260701020000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Gearing Up</title>
-    <title lang="en">Gearing Up</title>
-    <category lang="es">Gearing Up</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-gearing-up_l_m.jpg</image>
-  </programme>
-  <programme start="20260701020000 +0000" stop="20260701023000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Gearing Up</title>
-    <title lang="en">Gearing Up</title>
-    <category lang="es">Gearing Up</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-gearing-up_l_m.jpg</image>
-  </programme>
-  <programme start="20260701023000 +0000" stop="20260701030000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Gearing Up</title>
-    <title lang="en">Gearing Up</title>
-    <category lang="es">Gearing Up</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-gearing-up_l_m.jpg</image>
-  </programme>
-  <programme start="20260701030000 +0000" stop="20260701033000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">Gearing Up</title>
-    <title lang="en">Gearing Up</title>
-    <category lang="es">Gearing Up</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_deportivo-gearing-up_l_m.jpg</image>
-  </programme>
-  <programme start="20260701033000 +0000" stop="20260701053000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">All Elite Wrestling: Collision</title>
-    <title lang="en">All Elite Wrestling: Collision</title>
-    <category lang="es">All Elite Wrestling: Collision</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260701053000 +0000" stop="20260701063000 +0000" channel="gt#fox-sports-2">
-    <title lang="es">The Outdoor Sports Show</title>
-    <title lang="en">The Outdoor Sports Show</title>
-    <category lang="es">The Outdoor Sports Show</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260701060000 +0000" stop="20260701080000 +0000" channel="gt#fox-sports-2">
     <title lang="es">Budapest, Hungary - Men&apos;s Final Session</title>
@@ -29255,101 +28608,12 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260701043300 +0000" stop="20260701064500 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">El rey Arturo: la leyenda de la espada</title>
-    <title lang="en">King Arthur: Legend of the Sword</title>
-    <category lang="es">Fantasía</category>
-    <rating><value>6.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_el-rey-arturo-la-leyenda-de-la-espada-2017_l_m.jpg</image>
-  </programme>
   <programme start="20260701043300 +0000" stop="20260701053300 +0000" channel="gt#max-prime-mexico">
     <title lang="es">El rey Arturo: la leyenda de la espada</title>
     <title lang="en">King Arthur: Legend of the Sword</title>
     <category lang="es">Fantasía</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_el-rey-arturo-la-leyenda-de-la-espada-2017_l_m.jpg</image>
-  </programme>
-  <programme start="20260701064500 +0000" stop="20260701090100 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Corazones de hierro</title>
-    <title lang="en">Fury</title>
-    <category lang="es">Drama</category>
-    <rating><value>7.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_corazones-de-hierro-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260701090100 +0000" stop="20260701103100 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Sed de venganza 2</title>
-    <title lang="en">Kill &apos;Em All 2</title>
-    <category lang="es">Acción</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260701103100 +0000" stop="20260701115900 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Amor explosivo</title>
-    <title lang="en">Love Hurts</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.3</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260701115900 +0000" stop="20260701134900 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Más rápido y más furioso</title>
-    <title lang="en">2 Fast 2 Furious</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_mas-rapido-y-mas-furioso-2003_l_m.jpg</image>
-  </programme>
-  <programme start="20260701134900 +0000" stop="20260701154700 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Baby: el aprendiz del crimen</title>
-    <title lang="en">Baby Driver</title>
-    <category lang="es">Acción</category>
-    <rating><value>7.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_baby-el-aprendiz-del-crimen-2017_l_m.jpg</image>
-  </programme>
-  <programme start="20260701154700 +0000" stop="20260701180100 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">El plan perfecto</title>
-    <title lang="en">Inside Man</title>
-    <category lang="es">Thriller</category>
-    <rating><value>7.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_el-plan-perfecto-2006_l_m.jpg</image>
-  </programme>
-  <programme start="20260701180100 +0000" stop="20260701201600 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">El justiciero</title>
-    <title lang="en">The Equalizer</title>
-    <category lang="es">Acción</category>
-    <rating><value>7.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_el-justiciero-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260701201600 +0000" stop="20260701223600 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Baby: el aprendiz del crimen</title>
-    <title lang="en">Baby Driver</title>
-    <category lang="es">Acción</category>
-    <rating><value>7.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_baby-el-aprendiz-del-crimen-2017_l_m.jpg</image>
-  </programme>
-  <programme start="20260701223600 +0000" stop="20260702004700 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Rápidos y furiosos 5in control</title>
-    <title lang="en">Fast Five</title>
-    <category lang="es">Acción</category>
-    <rating><value>7.3</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_rapidos-y-furiosos-5in-control-2011_l_m.jpg</image>
-  </programme>
-  <programme start="20260702004700 +0000" stop="20260702030100 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Rápidos y furiosos 6</title>
-    <title lang="en">Fast &amp; Furious 6</title>
-    <category lang="es">Acción</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_rapidos-y-furiosos-6-2013-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260702030100 +0000" stop="20260702051600 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">El justiciero</title>
-    <title lang="en">The Equalizer</title>
-    <category lang="es">Acción</category>
-    <rating><value>7.2</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_el-justiciero-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260702051600 +0000" stop="20260702061600 +0000" channel="gt#max-prime-mexico">
-    <title lang="es">Protegiendo al enemigo</title>
-    <title lang="en">Safe House</title>
-    <category lang="es">Acción</category>
-    <rating><value>6.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_protegiendo-al-enemigo-2012_l_m.jpg</image>
   </programme>
   <programme start="20260629053000 +0000" stop="20260629063000 +0000" channel="gt#nbc">
     <title lang="es">Joint Relief Revolution</title>
@@ -35029,14 +34293,14 @@
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_la-liga-de-la-justicia-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260630052000 +0000" stop="20260630062000 +0000" channel="gt#sony">
+  <programme start="20260630052000 +0000" stop="20260630075500 +0000" channel="gt#sony">
     <title lang="es">Ángeles y demonios</title>
     <title lang="en">Angels and Demons</title>
     <category lang="es">Thriller</category>
     <rating><value>4.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_angeles-y-demonios-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260630052000 +0000" stop="20260630075500 +0000" channel="gt#sony">
+  <programme start="20260630052000 +0000" stop="20260630062000 +0000" channel="gt#sony">
     <title lang="es">Ángeles y demonios</title>
     <title lang="en">Angels and Demons</title>
     <category lang="es">Thriller</category>
@@ -35232,14 +34496,14 @@
     <rating><value>8.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_el-perfecto-asesino-1994_l_m.jpg</image>
   </programme>
-  <programme start="20260701050000 +0000" stop="20260701070500 +0000" channel="gt#sony">
+  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="gt#sony">
     <title lang="es">Charlie y la fábrica de chocolate</title>
     <title lang="en">Charlie and the Chocolate Factory</title>
     <category lang="es">Aventura</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_charlie-y-la-fabrica-de-chocolate-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="gt#sony">
+  <programme start="20260701050000 +0000" stop="20260701070500 +0000" channel="gt#sony">
     <title lang="es">Charlie y la fábrica de chocolate</title>
     <title lang="en">Charlie and the Chocolate Factory</title>
     <category lang="es">Aventura</category>
@@ -35492,14 +34756,14 @@
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_cobra-el-brazo-fuerte-de-la-ley-1986_l_m.jpg</image>
   </programme>
-  <programme start="20260630043800 +0000" stop="20260630053800 +0000" channel="gt#space">
+  <programme start="20260630043800 +0000" stop="20260630061400 +0000" channel="gt#space">
     <title lang="es">Destino final 3</title>
     <title lang="en">Final Destination 3</title>
     <category lang="es">Thriller</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_destino-final-3-2006_l_m.jpg</image>
   </programme>
-  <programme start="20260630043800 +0000" stop="20260630061400 +0000" channel="gt#space">
+  <programme start="20260630043800 +0000" stop="20260630053800 +0000" channel="gt#space">
     <title lang="es">Destino final 3</title>
     <title lang="en">Final Destination 3</title>
     <category lang="es">Thriller</category>
@@ -35909,14 +35173,14 @@
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/gt_el-abrazo-partido-2004_l_m.jpg</image>
   </programme>
-  <programme start="20260701053800 +0000" stop="20260701063800 +0000" channel="gt#tcm">
+  <programme start="20260701053800 +0000" stop="20260701073800 +0000" channel="gt#tcm">
     <title lang="es">El cartero llama dos veces</title>
     <title lang="en">The Postman Always Rings Twice</title>
     <category lang="es">Drama</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_el-cartero-llama-dos-veces-1946_l_m.jpg</image>
   </programme>
-  <programme start="20260701053800 +0000" stop="20260701073800 +0000" channel="gt#tcm">
+  <programme start="20260701053800 +0000" stop="20260701063800 +0000" channel="gt#tcm">
     <title lang="es">El cartero llama dos veces</title>
     <title lang="en">The Postman Always Rings Twice</title>
     <category lang="es">Drama</category>
@@ -36379,12 +35643,12 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/gt_la-hora-del-amor_l_m.jpg</image>
   </programme>
-  <programme start="20260630020000 +0000" stop="20260630030000 +0000" channel="gt#tele-nostalgia">
+  <programme start="20260630020000 +0000" stop="20260630140000 +0000" channel="gt#tele-nostalgia">
     <title lang="es">Programación videos</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/gt_programacion-videos_l_m.jpg</image>
   </programme>
-  <programme start="20260630020000 +0000" stop="20260630140000 +0000" channel="gt#tele-nostalgia">
+  <programme start="20260630020000 +0000" stop="20260630030000 +0000" channel="gt#tele-nostalgia">
     <title lang="es">Programación videos</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/gt_programacion-videos_l_m.jpg</image>
@@ -37262,12 +36526,12 @@
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/gt_nos-cogio-la-noche_l_m.jpg</image>
   </programme>
-  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="gt#telemedellin">
+  <programme start="20260701050000 +0000" stop="20260701105700 +0000" channel="gt#telemedellin">
     <title lang="es">Claroscuro</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260701050000 +0000" stop="20260701105700 +0000" channel="gt#telemedellin">
+  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="gt#telemedellin">
     <title lang="es">Claroscuro</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -37892,237 +37156,6 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701053000 +0000" stop="20260701062000 +0000" channel="gt#telemundo">
-    <title lang="es">El fantasma de Elena</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701062000 +0000" stop="20260701071000 +0000" channel="gt#telemundo">
-    <title lang="es">12 corazones</title>
-    <sub-title lang="es">Especial del lejano oeste</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.596.0/1</episode-num>
-    <episode-num system="onscreen">S01E597</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_12-corazones-s01e597-especial-del-lejano-oeste_l_m.jpg</image>
-  </programme>
-  <programme start="20260701071000 +0000" stop="20260701080000 +0000" channel="gt#telemundo">
-    <title lang="es">12 corazones</title>
-    <sub-title lang="es">Especial de hombres</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.736.0/1</episode-num>
-    <episode-num system="onscreen">S01E737</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_12-corazones-s01e737-especial-de-hombres_l_m.jpg</image>
-  </programme>
-  <programme start="20260701080000 +0000" stop="20260701090000 +0000" channel="gt#telemundo">
-    <title lang="es">La mujer de mi vida</title>
-    <sub-title lang="es">Proyectos de vida</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.100.0/1</episode-num>
-    <episode-num system="onscreen">S01E101</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701090000 +0000" stop="20260701100000 +0000" channel="gt#telemundo">
-    <title lang="es">La mujer de mi vida</title>
-    <sub-title lang="es">Loco por Daniela</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
-    <episode-num system="onscreen">S01E102</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701100000 +0000" stop="20260701110000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Meditación hot / Preso y sin opción</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.243.0/1</episode-num>
-    <episode-num system="onscreen">S02E244</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e244-meditacion-hot-preso-y-sin-opcion_l_m.jpg</image>
-  </programme>
-  <programme start="20260701110000 +0000" stop="20260701120000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Autista depredador / Que pague el asesino</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.44.0/1</episode-num>
-    <episode-num system="onscreen">S02E45</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e45-autista-depredador-que-pague-el-asesino_l_m.jpg</image>
-  </programme>
-  <programme start="20260701120000 +0000" stop="20260701125000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Si cruzas la frontera te mato / Piratería en la industria musical</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.245.0/1</episode-num>
-    <episode-num system="onscreen">S02E246</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e246-si-cruzas-la-frontera-te-mato-pirateria-en-la-industria-musical_l_m.jpg</image>
-  </programme>
-  <programme start="20260701125000 +0000" stop="20260701134000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">No me dejes aquí / Niño de alquiler</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.246.0/1</episode-num>
-    <episode-num system="onscreen">S02E247</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e247-no-me-dejes-aqui-nino-de-alquiler_l_m.jpg</image>
-  </programme>
-  <programme start="20260701134000 +0000" stop="20260701143000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Mexicano humillado / Buchonas</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.248.0/1</episode-num>
-    <episode-num system="onscreen">S02E249</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e249-mexicano-humillado-buchonas_l_m.jpg</image>
-  </programme>
-  <programme start="20260701143000 +0000" stop="20260701152000 +0000" channel="gt#telemundo">
-    <title lang="es">La mujer de mi vida</title>
-    <sub-title lang="es">Soñar no cuesta nada</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.102.0/1</episode-num>
-    <episode-num system="onscreen">S01E103</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701152000 +0000" stop="20260701161000 +0000" channel="gt#telemundo">
-    <title lang="es">Decisiones: unos ganan, otros pierden</title>
-    <sub-title lang="es">El marido perfecto</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.15.0/1</episode-num>
-    <episode-num system="onscreen">S01E16</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701161000 +0000" stop="20260701170000 +0000" channel="gt#telemundo">
-    <title lang="es">Decisiones extremas</title>
-    <sub-title lang="es">Cibersexo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.42.0/1</episode-num>
-    <episode-num system="onscreen">S01E43</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_decisiones-extremas-s01e43-cibersexo_l_m.jpg</image>
-  </programme>
-  <programme start="20260701170000 +0000" stop="20260701172500 +0000" channel="gt#telemundo">
-    <title lang="es">Decisiones: unos ganan, otros pierden</title>
-    <title lang="en">- Un macho no muy barón</title>
-    <category lang="es">- Un macho no muy barón</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701172500 +0000" stop="20260701175000 +0000" channel="gt#telemundo">
-    <title lang="es">Decisiones: unos ganan, otros pierden</title>
-    <title lang="en">- Profesora de química</title>
-    <category lang="es">- Profesora de química</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701175000 +0000" stop="20260701184000 +0000" channel="gt#telemundo">
-    <title lang="es">Vuelve a mí</title>
-    <sub-title lang="es">El dolor de una madre</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.88.0/1</episode-num>
-    <episode-num system="onscreen">S01E89</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701184000 +0000" stop="20260701193000 +0000" channel="gt#telemundo">
-    <title lang="es">Vuelve a mí</title>
-    <sub-title lang="es">Caín y Abel</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.89.0/1</episode-num>
-    <episode-num system="onscreen">S01E90</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701193000 +0000" stop="20260701202000 +0000" channel="gt#telemundo">
-    <title lang="es">El fantasma de Elena</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
-    <episode-num system="onscreen">S01E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701202000 +0000" stop="20260701211000 +0000" channel="gt#telemundo">
-    <title lang="es">El fantasma de Elena</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
-    <episode-num system="onscreen">S01E10</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701211000 +0000" stop="20260701220000 +0000" channel="gt#telemundo">
-    <title lang="es">Decisiones: unos ganan, otros pierden</title>
-    <sub-title lang="es">Condenada a ser bella</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.18.0/1</episode-num>
-    <episode-num system="onscreen">S01E19</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701220000 +0000" stop="20260701225000 +0000" channel="gt#telemundo">
-    <title lang="es">Decisiones: unos ganan, otros pierden</title>
-    <sub-title lang="es">Regalo de vida</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260701225000 +0000" stop="20260701234000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">El que se raja pierde / American First</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.249.0/1</episode-num>
-    <episode-num system="onscreen">S02E250</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e250-dieta-vegana-amor-presidiario_l_m.jpg</image>
-  </programme>
-  <programme start="20260701234000 +0000" stop="20260702003000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Lo amo con todo mi odio / Amore de estudiantes</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.250.0/1</episode-num>
-    <episode-num system="onscreen">S02E251</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e251-mi-golpiza-en-evidencia-sex-in-the-air_l_m.jpg</image>
-  </programme>
-  <programme start="20260702003000 +0000" stop="20260702012000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Adolescente malvada / Mesero maldito</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.51.0/1</episode-num>
-    <episode-num system="onscreen">S02E52</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e52-adolescente-malvada-mesero-maldito_l_m.jpg</image>
-  </programme>
-  <programme start="20260702012000 +0000" stop="20260702021000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Lola esteroides / Un cuadro doloroso</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.52.0/1</episode-num>
-    <episode-num system="onscreen">S02E53</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e53-lola-esteroides-un-cuadro-doloroso_l_m.jpg</image>
-  </programme>
-  <programme start="20260702021000 +0000" stop="20260702030000 +0000" channel="gt#telemundo">
-    <title lang="es">Caso cerrado</title>
-    <sub-title lang="es">Enamorados y suicidas / Cocinera ardiente</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.53.0/1</episode-num>
-    <episode-num system="onscreen">S02E54</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/gt_caso-cerrado-s02e54-enamorados-y-suicidas-cocinera-ardiente_l_m.jpg</image>
-  </programme>
-  <programme start="20260702030000 +0000" stop="20260702035000 +0000" channel="gt#telemundo">
-    <title lang="es">Vuelve a mí</title>
-    <sub-title lang="es">Fuego que purifica</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.90.0/1</episode-num>
-    <episode-num system="onscreen">S01E91</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260702035000 +0000" stop="20260702044000 +0000" channel="gt#telemundo">
-    <title lang="es">Vuelve a mí</title>
-    <sub-title lang="es">Una familia a la fuerza</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.91.0/1</episode-num>
-    <episode-num system="onscreen">S01E92</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260702044000 +0000" stop="20260702053000 +0000" channel="gt#telemundo">
-    <title lang="es">El fantasma de Elena</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260702053000 +0000" stop="20260702063000 +0000" channel="gt#telemundo">
-    <title lang="es">El fantasma de Elena</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.11.0/1</episode-num>
-    <episode-num system="onscreen">S01E12</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
   <programme start="20260629050000 +0000" stop="20260629070000 +0000" channel="gt#teleonce-canal-11">
     <title lang="es">El comisario Montalbano</title>
     <sub-title lang="es">Ardores de agosto</sub-title>
@@ -38390,14 +37423,14 @@
     <category lang="es">Área grande</category>
     <image>https://cdn.mitvstatic.com/programs/gt_deportivo-area-grande_l_m.jpg</image>
   </programme>
-  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="gt#teleonce-canal-11">
+  <programme start="20260701050000 +0000" stop="20260701070000 +0000" channel="gt#teleonce-canal-11">
     <title lang="es">Gemelos</title>
     <title lang="en">Twins</title>
     <category lang="es">Comedia</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_gemelos-1988_l_m.jpg</image>
   </programme>
-  <programme start="20260701050000 +0000" stop="20260701070000 +0000" channel="gt#teleonce-canal-11">
+  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="gt#teleonce-canal-11">
     <title lang="es">Gemelos</title>
     <title lang="en">Twins</title>
     <category lang="es">Comedia</category>
@@ -38893,14 +37926,14 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_el-protector-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260630045300 +0000" stop="20260630055300 +0000" channel="gt#tnt-hd">
+  <programme start="20260630045300 +0000" stop="20260630062400 +0000" channel="gt#tnt-hd">
     <title lang="es">La huida</title>
     <title lang="en">Shoot &apos;em Up</title>
     <category lang="es">Acción</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_la-huida-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260630045300 +0000" stop="20260630062400 +0000" channel="gt#tnt-hd">
+  <programme start="20260630045300 +0000" stop="20260630055300 +0000" channel="gt#tnt-hd">
     <title lang="es">La huida</title>
     <title lang="en">Shoot &apos;em Up</title>
     <category lang="es">Acción</category>
@@ -49770,156 +48803,11 @@
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_devorador-de-pecados-2003_l_m.jpg</image>
   </programme>
-  <programme start="20260630050000 +0000" stop="20260630062700 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La cebolla</title>
-    <title lang="en">The Onion Movie</title>
-    <category lang="es">Comedia</category>
-    <rating><value>6.3</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_la-cebolla-2008_l_m.jpg</image>
-  </programme>
   <programme start="20260630050000 +0000" stop="20260630060000 +0000" channel="XTimeChannel.us@SD">
     <title lang="es">La cebolla</title>
     <title lang="en">The Onion Movie</title>
     <category lang="es">Comedia</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/gt_la-cebolla-2008_l_m.jpg</image>
-  </programme>
-  <programme start="20260630062700 +0000" stop="20260630080300 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La pirámide</title>
-    <title lang="en">The Pyramid</title>
-    <category lang="es">Terror</category>
-    <rating><value>4.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_la-piramide-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260630080300 +0000" stop="20260630095200 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La piscina</title>
-    <title lang="en">Swimming Pool</title>
-    <category lang="es">Suspenso</category>
-    <rating><value>6.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260630095200 +0000" stop="20260630113800 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Yoko</title>
-    <title lang="en">Aventura</title>
-    <image>https://cdn.mitvstatic.com/programs/gt_yoko-2012_l_m.jpg</image>
-  </programme>
-  <programme start="20260630113800 +0000" stop="20260630133200 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Winter, el delfín 2</title>
-    <title lang="en">Dolphin Tale 2</title>
-    <category lang="es">Familiar</category>
-    <rating><value>6.4</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_winter-el-delfin-2-2014-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260630133200 +0000" stop="20260630151100 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Alvin y las ardillas: Fiesta sobre ruedas</title>
-    <title lang="en">Alvin and the Chipmunks: The Road Chip</title>
-    <category lang="es">Animación</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_alvin-y-las-ardillas-fiesta-sobre-ruedas-2015_l_m.jpg</image>
-  </programme>
-  <programme start="20260630151100 +0000" stop="20260630170000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Zathura: una aventura fuera de este mundo</title>
-    <title lang="en">Zathura: A Space Adventure</title>
-    <category lang="es">Aventura</category>
-    <rating><value>6.1</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_zathura-una-aventura-fuera-de-este-mundo-2005_l_m.jpg</image>
-  </programme>
-  <programme start="20260630170000 +0000" stop="20260630184300 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">En el tornado</title>
-    <title lang="en">Into the Storm</title>
-    <category lang="es">Acción</category>
-    <rating><value>5.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_en-el-tornado-2014_l_m.jpg</image>
-  </programme>
-  <programme start="20260630184300 +0000" stop="20260630203700 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">En el nombre del honor</title>
-    <title lang="en">Catch a Fire</title>
-    <category lang="es">Drama</category>
-    <rating><value>6.7</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_en-el-nombre-del-honor-2006_l_m.jpg</image>
-  </programme>
-  <programme start="20260630203700 +0000" stop="20260630223800 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Enemigo mío</title>
-    <title lang="en">Enemy Mine</title>
-    <category lang="es">C.Ficción</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_enemigo-mio-1985_l_m.jpg</image>
-  </programme>
-  <programme start="20260630223800 +0000" stop="20260701010900 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Enrique V</title>
-    <title lang="en">Henry V</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_enrique-v-1989_l_m.jpg</image>
-  </programme>
-  <programme start="20260701010900 +0000" stop="20260701032100 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La playa</title>
-    <title lang="en">The Beach</title>
-    <category lang="es">Drama</category>
-    <rating><value>6.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_la-playa-2000_l_m.jpg</image>
-  </programme>
-  <programme start="20260701032100 +0000" stop="20260701050000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La primera vez de Mini</title>
-    <title lang="en">Mini&apos;s First Time</title>
-    <category lang="es">Comedia</category>
-    <rating><value>5.9</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_la-primera-vez-de-mini-2006_l_m.jpg</image>
-  </programme>
-  <programme start="20260701050000 +0000" stop="20260701063200 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La puerta</title>
-    <title lang="en">The Gate</title>
-    <category lang="es">Terror</category>
-    <rating><value>6.0</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260701050000 +0000" stop="20260701060000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La puerta</title>
-    <title lang="en">The Gate</title>
-    <category lang="es">Terror</category>
-    <rating><value>6.0</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260701063200 +0000" stop="20260701075700 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La reina del espacio sideral</title>
-    <title lang="en">Queen of Outer Space</title>
-    <category lang="es">C.Ficción</category>
-    <rating><value>4.6</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260701075700 +0000" stop="20260701103000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">La reina en el palacio de las corrientes de aire</title>
-    <title lang="en">Luftslottet som sprängdes</title>
-    <category lang="es">Crimen</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_la-reina-en-el-palacio-de-las-corrientes-de-aire-2009_l_m.jpg</image>
-  </programme>
-  <programme start="20260701103000 +0000" stop="20260701123600 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Mi pobre angelito 2</title>
-    <title lang="en">Home Alone 2: Lost in N. Y.</title>
-    <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_mi-pobre-angelito-2-1992_l_m.jpg</image>
-  </programme>
-  <programme start="20260701123600 +0000" stop="20260701151200 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Contacto</title>
-    <title lang="en">Contact</title>
-    <category lang="es">Drama</category>
-    <rating><value>7.4</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_contacto-1997_l_m.jpg</image>
-  </programme>
-  <programme start="20260701151200 +0000" stop="20260701170000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">Mi pobre angelito 3</title>
-    <title lang="en">Home Alone 3</title>
-    <category lang="es">Comedia</category>
-    <rating><value>4.3</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/gt_mi-pobre-angelito-3-1997_l_m.jpg</image>
-  </programme>
-  <programme start="20260701170000 +0000" stop="20260702040000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">X-Time</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_x-time_l_m.jpg</image>
-  </programme>
-  <programme start="20260702040000 +0000" stop="20260702050000 +0000" channel="XTimeChannel.us@SD">
-    <title lang="es">X-Time</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/gt_x-time_l_m.jpg</image>
   </programme>
 </tv>
