@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260630101224 +0000">
+<tv generator-info-name="custom-epg" date="20260630145308 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
   </channel>
-  <channel id="pe#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
   </channel>
-  <channel id="pe#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
+  <channel id="pe#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="pe#america-television">
+    <display-name>América Televisión</display-name>
   </channel>
   <channel id="pe#universal-channel">
     <display-name>Universal TV</display-name>
@@ -351,17 +353,15 @@
     <display-name>ATV</display-name>
     <icon src="https://i.imgur.com/eUzYZfg.png"/>
   </channel>
-  <channel id="pe#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
-  <channel id="pe#america-television">
-    <display-name>América Televisión</display-name>
+  <channel id="pe#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
-  </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="pe#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
   <programme start="20260630103000 +0000" stop="20260630113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -8168,14 +8168,14 @@
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_sicario-dia-del-soldado-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260701053000 +0000" stop="20260701073000 +0000" channel="pe#amc">
+  <programme start="20260701053000 +0000" stop="20260701063000 +0000" channel="pe#amc">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_el-protector-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260701053000 +0000" stop="20260701063000 +0000" channel="pe#amc">
+  <programme start="20260701053000 +0000" stop="20260701073000 +0000" channel="pe#amc">
     <title lang="es">El protector</title>
     <title lang="en">The Marksman</title>
     <category lang="es">Drama</category>
@@ -9828,7 +9828,7 @@
     <episode-num system="onscreen">S12E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_pesca-mortal-s12e03-no-hay-buenas-obras_l_m.jpg</image>
   </programme>
-  <programme start="20260701052500 +0000" stop="20260701061400 +0000" channel="pe#animal-planet">
+  <programme start="20260701052500 +0000" stop="20260701062500 +0000" channel="pe#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Gemelos suizos</sub-title>
     <category lang="es">Serie</category>
@@ -9836,7 +9836,7 @@
     <episode-num system="onscreen">S12E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_pesca-mortal-s12e04-gemelos-suizos_l_m.jpg</image>
   </programme>
-  <programme start="20260701052500 +0000" stop="20260701062500 +0000" channel="pe#animal-planet">
+  <programme start="20260701052500 +0000" stop="20260701061400 +0000" channel="pe#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Gemelos suizos</sub-title>
     <category lang="es">Serie</category>
@@ -11157,78 +11157,154 @@
     <episode-num system="onscreen">S01E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_lo-que-la-gente-cuenta-s00e41_l_m.jpg</image>
   </programme>
+  <programme start="20260701060000 +0000" stop="20260701070000 +0000" channel="pe#az-corazon">
+    <title lang="es">Rutas de la vida</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.41.0/1</episode-num>
+    <episode-num system="onscreen">S01E42</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
   <programme start="20260701070000 +0000" stop="20260701080000 +0000" channel="pe#az-corazon">
     <title lang="es">Un día cualquiera</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_un-dia-cualquiera_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_un-dia-cualquiera-s00e11_l_m.jpg</image>
   </programme>
   <programme start="20260701080000 +0000" stop="20260701090000 +0000" channel="pe#az-corazon">
     <title lang="es">Mujeres rompiendo el silencio</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_mujeres-rompiendo-el-silencio_l_m.jpg</image>
+    <sub-title lang="es">Si fuera tu papá ¿Qué harías?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.18.0/1</episode-num>
+    <episode-num system="onscreen">S01E19</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_mujeres-rompiendo-el-silencio-s01e19-si-fuera-tu-papa-que-harias_l_m.jpg</image>
   </programme>
-  <programme start="20260701090000 +0000" stop="20260701130000 +0000" channel="pe#az-corazon">
+  <programme start="20260701090000 +0000" stop="20260701120000 +0000" channel="pe#az-corazon">
     <title lang="es">Cosas de la vida</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.35.0/1</episode-num>
+    <episode-num system="onscreen">S01E36</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701130000 +0000" stop="20260701150000 +0000" channel="pe#az-corazon">
+  <programme start="20260701120000 +0000" stop="20260701130000 +0000" channel="pe#az-corazon">
+    <title lang="es">La otra cara del alma</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.81.0/1</episode-num>
+    <episode-num system="onscreen">S01E82</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_la-otra-cara-del-alma-s01e82_l_m.jpg</image>
+  </programme>
+  <programme start="20260701130000 +0000" stop="20260701140000 +0000" channel="pe#az-corazon">
     <title lang="es">UEPA - Un escenario para amar</title>
-    <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_uepa-un-escenario-para-amar_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_uepa-un-escenario-para-amar-s00e37_l_m.jpg</image>
+  </programme>
+  <programme start="20260701140000 +0000" stop="20260701150000 +0000" channel="pe#az-corazon">
+    <title lang="es">Así en el barrio como en el Cielo</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
+    <episode-num system="onscreen">S01E102</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_asi-en-el-barrio-como-en-el-cielo-s01e102_l_m.jpg</image>
   </programme>
   <programme start="20260701150000 +0000" stop="20260701160000 +0000" channel="pe#az-corazon">
     <title lang="es">Bajo el alma</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_bajo-el-alma_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_bajo-el-alma-s00e22_l_m.jpg</image>
   </programme>
-  <programme start="20260701160000 +0000" stop="20260701200000 +0000" channel="pe#az-corazon">
+  <programme start="20260701160000 +0000" stop="20260701170000 +0000" channel="pe#az-corazon">
     <title lang="es">Huérfanas</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_huerfanas_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
+    <episode-num system="onscreen">S01E102</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_huerfanas-s01e102_l_m.jpg</image>
+  </programme>
+  <programme start="20260701170000 +0000" stop="20260701180000 +0000" channel="pe#az-corazon">
+    <title lang="es">La loba</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
+    <episode-num system="onscreen">S01E102</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_la-loba-s01e102_l_m.jpg</image>
+  </programme>
+  <programme start="20260701180000 +0000" stop="20260701190000 +0000" channel="pe#az-corazon">
+    <title lang="es">Lo que la gente cuenta</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.2.0/1</episode-num>
+    <episode-num system="onscreen">S06E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_lo-que-la-gente-cuenta-s06e03_l_m.jpg</image>
+  </programme>
+  <programme start="20260701190000 +0000" stop="20260701200000 +0000" channel="pe#az-corazon">
+    <title lang="es">La otra cara del alma</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.82.0/1</episode-num>
+    <episode-num system="onscreen">S01E83</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_la-otra-cara-del-alma-s01e83_l_m.jpg</image>
   </programme>
   <programme start="20260701200000 +0000" stop="20260701210000 +0000" channel="pe#az-corazon">
     <title lang="es">Bajo el alma</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_bajo-el-alma_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
+    <episode-num system="onscreen">S01E23</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_bajo-el-alma-s00e23_l_m.jpg</image>
   </programme>
-  <programme start="20260701210000 +0000" stop="20260702000000 +0000" channel="pe#az-corazon">
+  <programme start="20260701210000 +0000" stop="20260701230000 +0000" channel="pe#az-corazon">
     <title lang="es">Cosas de la vida</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.37.0/1</episode-num>
+    <episode-num system="onscreen">S01E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260701230000 +0000" stop="20260702000000 +0000" channel="pe#az-corazon">
+    <title lang="es">Así en el barrio como en el Cielo</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.102.0/1</episode-num>
+    <episode-num system="onscreen">S01E103</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_asi-en-el-barrio-como-en-el-cielo-s01e103_l_m.jpg</image>
   </programme>
   <programme start="20260702000000 +0000" stop="20260702010000 +0000" channel="pe#az-corazon">
     <title lang="es">Mujeres rompiendo el silencio</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_mujeres-rompiendo-el-silencio_l_m.jpg</image>
+    <sub-title lang="es">#Ladylinchadora</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_mujeres-rompiendo-el-silencio-s01e21-ladylinchadora_l_m.jpg</image>
   </programme>
   <programme start="20260702010000 +0000" stop="20260702020000 +0000" channel="pe#az-corazon">
     <title lang="es">UEPA - Un escenario para amar</title>
-    <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_uepa-un-escenario-para-amar_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.37.0/1</episode-num>
+    <episode-num system="onscreen">S01E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_uepa-un-escenario-para-amar-s00e38_l_m.jpg</image>
   </programme>
-  <programme start="20260702020000 +0000" stop="20260702040000 +0000" channel="pe#az-corazon">
+  <programme start="20260702020000 +0000" stop="20260702030000 +0000" channel="pe#az-corazon">
     <title lang="es">Un día cualquiera</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_un-dia-cualquiera_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_un-dia-cualquiera-s00e13_l_m.jpg</image>
+  </programme>
+  <programme start="20260702030000 +0000" stop="20260702040000 +0000" channel="pe#az-corazon">
+    <title lang="es">La loba</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.102.0/1</episode-num>
+    <episode-num system="onscreen">S01E103</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_la-loba-s01e103_l_m.jpg</image>
   </programme>
   <programme start="20260702040000 +0000" stop="20260702050000 +0000" channel="pe#az-corazon">
     <title lang="es">Huérfanas</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_huerfanas_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.102.0/1</episode-num>
+    <episode-num system="onscreen">S01E103</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_huerfanas-s01e103_l_m.jpg</image>
   </programme>
   <programme start="20260702050000 +0000" stop="20260702060000 +0000" channel="pe#az-corazon">
     <title lang="es">Lo que la gente cuenta</title>
-    <category lang="es">Terror</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_lo-que-la-gente-cuenta_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.41.0/1</episode-num>
+    <episode-num system="onscreen">S01E42</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_lo-que-la-gente-cuenta-s00e42_l_m.jpg</image>
   </programme>
   <programme start="20260702060000 +0000" stop="20260702070000 +0000" channel="pe#az-corazon">
     <title lang="es">Rutas de la vida</title>
@@ -13371,7 +13447,7 @@
   </programme>
   <programme start="20260630060100 +0000" stop="20260630061700 +0000" channel="pe#boomerang-cartoon">
     <title lang="es">Blippi</title>
-    <sub-title lang="es">Blippi mira al espacio</sub-title>
+    <sub-title lang="es">Blippi mira hacia el espacio</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.18.0/1</episode-num>
     <episode-num system="onscreen">S02E19</episode-num>
@@ -13411,7 +13487,7 @@
   </programme>
   <programme start="20260630064000 +0000" stop="20260630064300 +0000" channel="pe#boomerang-cartoon">
     <title lang="es">Blippi quiere saber</title>
-    <sub-title lang="es">Planetas</sub-title>
+    <sub-title lang="es">Copo de nieve</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -14187,7 +14263,7 @@
   </programme>
   <programme start="20260630195300 +0000" stop="20260630200000 +0000" channel="pe#boomerang-cartoon">
     <title lang="es">Pocoyó</title>
-    <sub-title lang="es">Porquería en la tubería</sub-title>
+    <sub-title lang="es">Cortocircuito</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.6.0/1</episode-num>
     <episode-num system="onscreen">S04E07</episode-num>
@@ -54364,7 +54440,7 @@
     <episode-num system="onscreen">S09E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701052000 +0000" stop="20260701061000 +0000" channel="pe#universal-channel">
+  <programme start="20260701052000 +0000" stop="20260701062000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Esto no es caridad</sub-title>
     <category lang="es">Serie</category>
@@ -54372,7 +54448,7 @@
     <episode-num system="onscreen">S07E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_chicago-fire-s07e04-esto-no-es-caridad_l_m.jpg</image>
   </programme>
-  <programme start="20260701052000 +0000" stop="20260701062000 +0000" channel="pe#universal-channel">
+  <programme start="20260701052000 +0000" stop="20260701061000 +0000" channel="pe#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Esto no es caridad</sub-title>
     <category lang="es">Serie</category>
@@ -55830,7 +55906,7 @@
     <episode-num system="onscreen">S10E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e02-the-military-miniaturization_l_m.jpg</image>
   </programme>
-  <programme start="20260702054200 +0000" stop="20260702060300 +0000" channel="pe#warner">
+  <programme start="20260702054200 +0000" stop="20260702064200 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La trascendencia de la dependencia</sub-title>
     <category lang="es">Serie</category>
@@ -55838,7 +55914,7 @@
     <episode-num system="onscreen">S10E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e03-the-dependence-transcendence_l_m.jpg</image>
   </programme>
-  <programme start="20260702054200 +0000" stop="20260702064200 +0000" channel="pe#warner">
+  <programme start="20260702054200 +0000" stop="20260702060300 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La trascendencia de la dependencia</sub-title>
     <category lang="es">Serie</category>
@@ -57168,12 +57244,12 @@
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/pe_la-batidora_l_m.jpg</image>
   </programme>
-  <programme start="20260630143000 +0000" stop="20260630163000 +0000" channel="UnitelSantaCruz.bo@SD">
+  <programme start="20260630143000 +0000" stop="20260630160000 +0000" channel="UnitelSantaCruz.bo@SD">
     <title lang="es">Los Simpson</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_los-simpson_l_m.jpg</image>
   </programme>
-  <programme start="20260630163000 +0000" stop="20260630180000 +0000" channel="UnitelSantaCruz.bo@SD">
+  <programme start="20260630160000 +0000" stop="20260630180000 +0000" channel="UnitelSantaCruz.bo@SD">
     <title lang="es">Telepaís - Edición meridiana</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -57185,28 +57261,21 @@
     <image>https://cdn.mitvstatic.com/programs/pe_hercai_l_m.jpg</image>
   </programme>
   <programme start="20260630190000 +0000" stop="20260630200000 +0000" channel="UnitelSantaCruz.bo@SD">
-    <title lang="es">Caso cerrado</title>
-    <title lang="en">Talk Show</title>
-    <category lang="es">Talk Show</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_caso-cerrado_l_m.jpg</image>
+    <title lang="es">Melissa</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260630200000 +0000" stop="20260630210000 +0000" channel="UnitelSantaCruz.bo@SD">
+  <programme start="20260630200000 +0000" stop="20260630204000 +0000" channel="UnitelSantaCruz.bo@SD">
     <title lang="es">Corazón Negro</title>
     <title lang="en">Telenovela</title>
     <category lang="es">Telenovela</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260630210000 +0000" stop="20260630220000 +0000" channel="UnitelSantaCruz.bo@SD">
-    <title lang="es">La hija del embajador</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_la-hija-del-embajador_l_m.jpg</image>
-  </programme>
-  <programme start="20260630220000 +0000" stop="20260630230000 +0000" channel="UnitelSantaCruz.bo@SD">
-    <title lang="es">Telepaís - Edición tarde</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260630204000 +0000" stop="20260630230000 +0000" channel="UnitelSantaCruz.bo@SD">
+    <title lang="es">Francia vs. Suecia</title>
+    <title lang="en">16vos de final, Meadowlands Stadium</title>
+    <category lang="es">16vos de final, Meadowlands Stadium</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260630230000 +0000" stop="20260701010000 +0000" channel="UnitelSantaCruz.bo@SD">
     <title lang="es">Telepaís - Edición central</title>
@@ -57679,13 +57748,13 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260702053500 +0000" stop="20260702103000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260702053500 +0000" stop="20260702063500 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
-  <programme start="20260702053500 +0000" stop="20260702063500 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260702053500 +0000" stop="20260702103000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
