@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260630202630 +0000">
+<tv generator-info-name="custom-epg" date="20260630224755 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
+  </channel>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="mx#axn">
+    <display-name>AXN</display-name>
+  </channel>
+  <channel id="CartoonitoLatinAmerica.us@Mexico">
+    <display-name>Cartoonito</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png"/>
+  </channel>
+  <channel id="mx#cinecanal-hd">
+    <display-name>Cinecanal HD</display-name>
   </channel>
   <channel id="Canal5.mx@SD">
     <display-name>Canal 5</display-name>
@@ -121,12 +135,17 @@
   <channel id="mx#national-geographic">
     <display-name>National Geographic</display-name>
   </channel>
+  <channel id="mx#espn">
+    <display-name>ESPN</display-name>
+  </channel>
   <channel id="mx#muchmusic">
     <display-name>MuchMusic</display-name>
   </channel>
-  <channel id="MilenioTelevision.mx@SD">
-    <display-name>Milenio TV</display-name>
-    <icon src="https://i.imgur.com/TG1T5Oh.png"/>
+  <channel id="mx#cinecanal">
+    <display-name>Cinecanal</display-name>
+  </channel>
+  <channel id="mx#entertainment">
+    <display-name>E!</display-name>
   </channel>
   <channel id="mx#max-prime-mexico">
     <display-name>Max Prime México</display-name>
@@ -251,14 +270,9 @@
   <channel id="mx#espn-2">
     <display-name>ESPN 2</display-name>
   </channel>
-  <channel id="mx#espn">
-    <display-name>ESPN</display-name>
-  </channel>
-  <channel id="mx#entertainment">
-    <display-name>E!</display-name>
-  </channel>
-  <channel id="mx#el-gourmet">
-    <display-name>El Gourmet</display-name>
+  <channel id="MilenioTelevision.mx@SD">
+    <display-name>Milenio TV</display-name>
+    <icon src="https://i.imgur.com/TG1T5Oh.png"/>
   </channel>
   <channel id="ElFinancieroBloombergTV.mx@SD">
     <display-name>El Financiero Bloomberg</display-name>
@@ -318,11 +332,14 @@
   <channel id="mx#cinemax">
     <display-name>Cinemax</display-name>
   </channel>
-  <channel id="mx#cinecanal-hd">
-    <display-name>Cinecanal HD</display-name>
+  <channel id="mx#el-gourmet">
+    <display-name>El Gourmet</display-name>
   </channel>
-  <channel id="mx#cinecanal">
-    <display-name>Cinecanal</display-name>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#bandamax">
+    <display-name>Bandamax</display-name>
   </channel>
   <channel id="CartoonNetworkLatinAmerica.us@Mexico">
     <display-name>Cartoon Network</display-name>
@@ -356,13 +373,6 @@
   <channel id="mx#cadenatres">
     <display-name>Excelsior TV</display-name>
   </channel>
-  <channel id="CartoonitoLatinAmerica.us@Mexico">
-    <display-name>Cartoonito</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Cartoonito_-_Logo_2021.svg/960px-Cartoonito_-_Logo_2021.svg.png"/>
-  </channel>
-  <channel id="mx#bandamax">
-    <display-name>Bandamax</display-name>
-  </channel>
   <channel id="mx#azteca-13">
     <display-name>Azteca 13</display-name>
   </channel>
@@ -373,21 +383,11 @@
   <channel id="mx#az-corazon">
     <display-name>Az Corazón</display-name>
   </channel>
-  <channel id="mx#axn">
-    <display-name>AXN</display-name>
-  </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
   <channel id="mx#amc-hd">
     <display-name>AMC HD</display-name>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
   <programme start="20260630045000 +0000" stop="20260630070500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Riddick, el amo de la oscuridad</title>
@@ -677,14 +677,14 @@
     <rating><value>8.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_blade-runner-2049-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260702040000 +0000" stop="20260702060500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260702040000 +0000" stop="20260702050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Terminator: La salvación</title>
     <title lang="en">Terminator Salvation</title>
     <category lang="es">Acción</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_terminator-la-salvacion-2009-1_l_m.jpg</image>
   </programme>
-  <programme start="20260702040000 +0000" stop="20260702050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260702040000 +0000" stop="20260702060500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Terminator: La salvación</title>
     <title lang="en">Terminator Salvation</title>
     <category lang="es">Acción</category>
@@ -1129,19 +1129,79 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/mx_inova_l_m.jpg</image>
   </programme>
-  <programme start="20260702110000 +0000" stop="20260702230000 +0000" channel="Azteca7.mx@SD">
+  <programme start="20260702110000 +0000" stop="20260702111500 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Barras de ajuste</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_barras-de-ajuste_l_m.jpg</image>
+  </programme>
+  <programme start="20260702111500 +0000" stop="20260702113000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">RTC</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_rtc_l_m.jpg</image>
+  </programme>
+  <programme start="20260702113000 +0000" stop="20260702120000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Inova</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_inova_l_m.jpg</image>
+  </programme>
+  <programme start="20260702120000 +0000" stop="20260702123000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">44 gatos</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_44-gatos_l_m.jpg</image>
+  </programme>
+  <programme start="20260702123000 +0000" stop="20260702130000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Daniel Tigre</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_daniel-tigre_l_m.jpg</image>
+  </programme>
+  <programme start="20260702130000 +0000" stop="20260702133000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Gigantosaurus</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_gigantosaurus_l_m.jpg</image>
+  </programme>
+  <programme start="20260702133000 +0000" stop="20260702140000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">LEGO Friends: el siguiente capítulo</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260702140000 +0000" stop="20260702143000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">Masha y el oso</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/mx_masha-y-el-oso_l_m.jpg</image>
+  </programme>
+  <programme start="20260702143000 +0000" stop="20260702184500 +0000" channel="Azteca7.mx@SD">
     <title lang="es">A confirmar</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/mx_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260702230000 +0000" stop="20260703030000 +0000" channel="Azteca7.mx@SD">
+  <programme start="20260702184500 +0000" stop="20260702210000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">España vs. Austria</title>
+    <title lang="en">16vos de final, SoFi Stadium</title>
+    <category lang="es">16vos de final, SoFi Stadium</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260702210000 +0000" stop="20260702220000 +0000" channel="Azteca7.mx@SD">
+    <title lang="es">DeporTV</title>
+    <title lang="en">DeporTV</title>
+    <category lang="es">DeporTV</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260702220000 +0000" stop="20260703033000 +0000" channel="Azteca7.mx@SD">
     <title lang="es">A confirmar</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/mx_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260703030000 +0000" stop="20260703050000 +0000" channel="Azteca7.mx@SD">
+  <programme start="20260703033000 +0000" stop="20260703050000 +0000" channel="Azteca7.mx@SD">
     <title lang="es">Los protagonistas</title>
     <title lang="en">Los protagonistas</title>
     <category lang="es">Los protagonistas</category>
@@ -13096,7 +13156,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701054600 +0000" stop="20260701063600 +0000" channel="mx#axn">
+  <programme start="20260701054600 +0000" stop="20260701064600 +0000" channel="mx#axn">
     <title lang="es">Criminal Minds</title>
     <sub-title lang="es">Luke</sub-title>
     <category lang="es">Serie</category>
@@ -13104,7 +13164,7 @@
     <episode-num system="onscreen">S14E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_criminal-minds-s14e06-luke_l_m.jpg</image>
   </programme>
-  <programme start="20260701054600 +0000" stop="20260701064600 +0000" channel="mx#axn">
+  <programme start="20260701054600 +0000" stop="20260701063600 +0000" channel="mx#axn">
     <title lang="es">Criminal Minds</title>
     <sub-title lang="es">Luke</sub-title>
     <category lang="es">Serie</category>
@@ -13308,9 +13368,9 @@
     <title lang="es">NCIS</title>
     <sub-title lang="es">Sons and Daughters</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">22.22.0/1</episode-num>
-    <episode-num system="onscreen">S23E23</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_ncis-s23e23-sons-and-daughters_l_m.jpg</image>
+    <episode-num system="xmltv_ns">22.19.0/1</episode-num>
+    <episode-num system="onscreen">S23E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_ncis-s23e20-sons-and-daughters_l_m.jpg</image>
   </programme>
   <programme start="20260702035000 +0000" stop="20260702044000 +0000" channel="mx#axn">
     <title lang="es">NCIS: Origins</title>
@@ -16908,14 +16968,14 @@
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_en-sus-zapatos-2005_l_m.jpg</image>
   </programme>
-  <programme start="20260701055200 +0000" stop="20260701074100 +0000" channel="mx#cinecanal-hd">
+  <programme start="20260701055200 +0000" stop="20260701065200 +0000" channel="mx#cinecanal-hd">
     <title lang="es">Una noche fuera de serie</title>
     <title lang="en">Date Night</title>
     <category lang="es">Comedia</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_una-noche-fuera-de-serie-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260701055200 +0000" stop="20260701065200 +0000" channel="mx#cinecanal-hd">
+  <programme start="20260701055200 +0000" stop="20260701074100 +0000" channel="mx#cinecanal-hd">
     <title lang="es">Una noche fuera de serie</title>
     <title lang="en">Date Night</title>
     <category lang="es">Comedia</category>
@@ -18371,6 +18431,14 @@
     <episode-num system="onscreen">S27E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s27e01_l_m.jpg</image>
   </programme>
+  <programme start="20260701055000 +0000" stop="20260701061000 +0000" channel="mx#comedy-central">
+    <title lang="es">South Park</title>
+    <sub-title lang="es">La cuota</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">26.1.0/1</episode-num>
+    <episode-num system="onscreen">S27E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_south-park-s27e02_l_m.jpg</image>
+  </programme>
   <programme start="20260701055000 +0000" stop="20260701065000 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">La cuota</sub-title>
@@ -18379,7 +18447,7 @@
     <episode-num system="onscreen">S27E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s27e02_l_m.jpg</image>
   </programme>
-  <programme start="20260701055500 +0000" stop="20260701062000 +0000" channel="mx#comedy-central">
+  <programme start="20260701061000 +0000" stop="20260701063500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">Lisonjería</sub-title>
     <category lang="es">Serie</category>
@@ -18387,7 +18455,7 @@
     <episode-num system="onscreen">S27E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s27e03_l_m.jpg</image>
   </programme>
-  <programme start="20260701062000 +0000" stop="20260701064500 +0000" channel="mx#comedy-central">
+  <programme start="20260701063500 +0000" stop="20260701070000 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">El Wok murió</sub-title>
     <category lang="es">Serie</category>
@@ -18395,7 +18463,7 @@
     <episode-num system="onscreen">S27E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s27e04_l_m.jpg</image>
   </programme>
-  <programme start="20260701064500 +0000" stop="20260701070500 +0000" channel="mx#comedy-central">
+  <programme start="20260701070000 +0000" stop="20260701072000 +0000" channel="mx#comedy-central">
     <title lang="es">Reno 911!</title>
     <sub-title lang="es">Fuerza especial</sub-title>
     <category lang="es">Serie</category>
@@ -18403,7 +18471,7 @@
     <episode-num system="onscreen">S07E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_reno-911-s07e06-space-force_l_m.jpg</image>
   </programme>
-  <programme start="20260701070500 +0000" stop="20260701073000 +0000" channel="mx#comedy-central">
+  <programme start="20260701072000 +0000" stop="20260701074500 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">Charla a espaldas</sub-title>
     <category lang="es">Serie</category>
@@ -18411,7 +18479,7 @@
     <episode-num system="onscreen">S07E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701073000 +0000" stop="20260701075500 +0000" channel="mx#comedy-central">
+  <programme start="20260701074500 +0000" stop="20260701081000 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">RDWRER</sub-title>
     <category lang="es">Serie</category>
@@ -18419,7 +18487,7 @@
     <episode-num system="onscreen">S07E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701075500 +0000" stop="20260701081500 +0000" channel="mx#comedy-central">
+  <programme start="20260701081000 +0000" stop="20260701083500 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">Están tocando nuestra canción</sub-title>
     <category lang="es">Serie</category>
@@ -18427,7 +18495,7 @@
     <episode-num system="onscreen">S07E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701081500 +0000" stop="20260701084000 +0000" channel="mx#comedy-central">
+  <programme start="20260701083500 +0000" stop="20260701090000 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">Un Crane grande en el campus</sub-title>
     <category lang="es">Serie</category>
@@ -18435,7 +18503,7 @@
     <episode-num system="onscreen">S07E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701084000 +0000" stop="20260701090000 +0000" channel="mx#comedy-central">
+  <programme start="20260701090000 +0000" stop="20260701092000 +0000" channel="mx#comedy-central">
     <title lang="es">Key &amp; Peele</title>
     <sub-title lang="es">Marioneta de libertad condicional</sub-title>
     <category lang="es">Serie</category>
@@ -18443,7 +18511,7 @@
     <episode-num system="onscreen">S04E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_key-peele-s04e02-marioneta-de-libertad-condicional_l_m.jpg</image>
   </programme>
-  <programme start="20260701090000 +0000" stop="20260701092000 +0000" channel="mx#comedy-central">
+  <programme start="20260701092000 +0000" stop="20260701094500 +0000" channel="mx#comedy-central">
     <title lang="es">Key &amp; Peele</title>
     <sub-title lang="es">Viejas y Satanás</sub-title>
     <category lang="es">Serie</category>
@@ -18451,7 +18519,7 @@
     <episode-num system="onscreen">S04E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_key-peele-s04e03-viejas-y-satanas_l_m.jpg</image>
   </programme>
-  <programme start="20260701092000 +0000" stop="20260701094500 +0000" channel="mx#comedy-central">
+  <programme start="20260701094500 +0000" stop="20260701101000 +0000" channel="mx#comedy-central">
     <title lang="es">Awkwafina Is Nora from Queens</title>
     <sub-title lang="es">Atlantic City</sub-title>
     <category lang="es">Serie</category>
@@ -18459,7 +18527,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701094500 +0000" stop="20260701101000 +0000" channel="mx#comedy-central">
+  <programme start="20260701101000 +0000" stop="20260701104000 +0000" channel="mx#comedy-central">
     <title lang="es">Beavis y Butt-Head</title>
     <sub-title lang="es">Juego de escape / El especial</sub-title>
     <category lang="es">Serie</category>
@@ -18467,7 +18535,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701101000 +0000" stop="20260701103000 +0000" channel="mx#comedy-central">
+  <programme start="20260701104000 +0000" stop="20260701110500 +0000" channel="mx#comedy-central">
     <title lang="es">Beavis y Butt-Head</title>
     <sub-title lang="es">Almacenados / Apicultores</sub-title>
     <category lang="es">Serie</category>
@@ -18475,7 +18543,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701103000 +0000" stop="20260701105500 +0000" channel="mx#comedy-central">
+  <programme start="20260701110500 +0000" stop="20260701113500 +0000" channel="mx#comedy-central">
     <title lang="es">Beavis y Butt-Head</title>
     <sub-title lang="es">El techo / El río</sub-title>
     <category lang="es">Serie</category>
@@ -18483,7 +18551,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701105500 +0000" stop="20260701112000 +0000" channel="mx#comedy-central">
+  <programme start="20260701113500 +0000" stop="20260701120000 +0000" channel="mx#comedy-central">
     <title lang="es">Beavis y Butt-Head</title>
     <sub-title lang="es">El nuevo enemigo / Doppelganger</sub-title>
     <category lang="es">Serie</category>
@@ -18491,23 +18559,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701112000 +0000" stop="20260701114000 +0000" channel="mx#comedy-central">
-    <title lang="es">Un papá en apuros</title>
-    <sub-title lang="es">Un papá en apuros se pone rudo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
-    <episode-num system="onscreen">S03E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_un-papa-en-apuros-s03e06-un-papa-en-apuros-ve-escaparse-a-janie_l_m.jpg</image>
-  </programme>
-  <programme start="20260701114000 +0000" stop="20260701120000 +0000" channel="mx#comedy-central">
-    <title lang="es">Un papá en apuros</title>
-    <sub-title lang="es">Un papa en apuros se encuentra con el sobrino de Marcus</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
-    <episode-num system="onscreen">S03E05</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_un-papa-en-apuros-s03e05-un-papa-en-apuros-en-vivo_l_m.jpg</image>
-  </programme>
-  <programme start="20260701120000 +0000" stop="20260701122000 +0000" channel="mx#comedy-central">
+  <programme start="20260701120000 +0000" stop="20260701122500 +0000" channel="mx#comedy-central">
     <title lang="es">El rey del barrio</title>
     <sub-title lang="es">El recuerdo</sub-title>
     <category lang="es">Serie</category>
@@ -18515,7 +18567,7 @@
     <episode-num system="onscreen">S04E25</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701122000 +0000" stop="20260701124500 +0000" channel="mx#comedy-central">
+  <programme start="20260701122500 +0000" stop="20260701125000 +0000" channel="mx#comedy-central">
     <title lang="es">El rey del barrio</title>
     <sub-title lang="es">El dentista</sub-title>
     <category lang="es">Serie</category>
@@ -18523,7 +18575,7 @@
     <episode-num system="onscreen">S04E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701124500 +0000" stop="20260701130500 +0000" channel="mx#comedy-central">
+  <programme start="20260701125000 +0000" stop="20260701131000 +0000" channel="mx#comedy-central">
     <title lang="es">El rey del barrio</title>
     <sub-title lang="es">Sufriendo con las ventanas</sub-title>
     <category lang="es">Serie</category>
@@ -18531,7 +18583,7 @@
     <episode-num system="onscreen">S05E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701130500 +0000" stop="20260701133000 +0000" channel="mx#comedy-central">
+  <programme start="20260701131000 +0000" stop="20260701133500 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">Charla a espaldas</sub-title>
     <category lang="es">Serie</category>
@@ -18539,7 +18591,7 @@
     <episode-num system="onscreen">S07E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701133000 +0000" stop="20260701135000 +0000" channel="mx#comedy-central">
+  <programme start="20260701133500 +0000" stop="20260701140000 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">RDWRER</sub-title>
     <category lang="es">Serie</category>
@@ -18547,7 +18599,7 @@
     <episode-num system="onscreen">S07E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701135000 +0000" stop="20260701142000 +0000" channel="mx#comedy-central">
+  <programme start="20260701140000 +0000" stop="20260701142000 +0000" channel="mx#comedy-central">
     <title lang="es">Frasier</title>
     <sub-title lang="es">Están tocando nuestra canción</sub-title>
     <category lang="es">Serie</category>
@@ -18595,7 +18647,7 @@
     <episode-num system="onscreen">S01E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701161500 +0000" stop="20260701163500 +0000" channel="mx#comedy-central">
+  <programme start="20260701161500 +0000" stop="20260701164000 +0000" channel="mx#comedy-central">
     <title lang="es">El vecindario</title>
     <sub-title lang="es">Bienvenidos al gran pago</sub-title>
     <category lang="es">Serie</category>
@@ -18603,7 +18655,7 @@
     <episode-num system="onscreen">S01E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701163500 +0000" stop="20260701170000 +0000" channel="mx#comedy-central">
+  <programme start="20260701164000 +0000" stop="20260701170000 +0000" channel="mx#comedy-central">
     <title lang="es">Póquer de reinas</title>
     <sub-title lang="es">Di sí al caos</sub-title>
     <category lang="es">Serie</category>
@@ -18611,7 +18663,7 @@
     <episode-num system="onscreen">S06E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701170000 +0000" stop="20260701172000 +0000" channel="mx#comedy-central">
+  <programme start="20260701170000 +0000" stop="20260701172500 +0000" channel="mx#comedy-central">
     <title lang="es">Póquer de reinas</title>
     <sub-title lang="es">A algunos les gusta caliente</sub-title>
     <category lang="es">Serie</category>
@@ -18619,7 +18671,7 @@
     <episode-num system="onscreen">S03E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701172000 +0000" stop="20260701174500 +0000" channel="mx#comedy-central">
+  <programme start="20260701172500 +0000" stop="20260701174500 +0000" channel="mx#comedy-central">
     <title lang="es">Idiotas por accidente</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">5.6.0/1</episode-num>
@@ -18634,7 +18686,7 @@
     <episode-num system="onscreen">S04E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_becker-s04e12-expediente-ex_l_m.jpg</image>
   </programme>
-  <programme start="20260701181000 +0000" stop="20260701183000 +0000" channel="mx#comedy-central">
+  <programme start="20260701181000 +0000" stop="20260701183500 +0000" channel="mx#comedy-central">
     <title lang="es">Becker</title>
     <sub-title lang="es">Canjes</sub-title>
     <category lang="es">Serie</category>
@@ -18642,7 +18694,7 @@
     <episode-num system="onscreen">S04E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_becker-s04e13-canjes_l_m.jpg</image>
   </programme>
-  <programme start="20260701183000 +0000" stop="20260701190000 +0000" channel="mx#comedy-central">
+  <programme start="20260701183500 +0000" stop="20260701185500 +0000" channel="mx#comedy-central">
     <title lang="es">Ren y Stimpy</title>
     <sub-title lang="es">Los inventos de Stimpy / El hoyo negro</sub-title>
     <category lang="es">Serie</category>
@@ -18650,7 +18702,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_ren-y-stimpy-s01e06_l_m.jpg</image>
   </programme>
-  <programme start="20260701190000 +0000" stop="20260701192000 +0000" channel="mx#comedy-central">
+  <programme start="20260701185500 +0000" stop="20260701192000 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">La codicia del hombre de piel roja</sub-title>
     <category lang="es">Serie</category>
@@ -18658,7 +18710,7 @@
     <episode-num system="onscreen">S07E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s07e07-la-codicia-del-hombre-de-piel-roja_l_m.jpg</image>
   </programme>
-  <programme start="20260701192000 +0000" stop="20260701194000 +0000" channel="mx#comedy-central">
+  <programme start="20260701192000 +0000" stop="20260701194500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">HombreOsoCerdo</sub-title>
     <category lang="es">Serie</category>
@@ -18666,7 +18718,7 @@
     <episode-num system="onscreen">S10E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s10e06-manbearpig_l_m.jpg</image>
   </programme>
-  <programme start="20260701194000 +0000" stop="20260701200500 +0000" channel="mx#comedy-central">
+  <programme start="20260701194500 +0000" stop="20260701200500 +0000" channel="mx#comedy-central">
     <title lang="es">El vecindario</title>
     <sub-title lang="es">Bienvenidos al abusador</sub-title>
     <category lang="es">Serie</category>
@@ -18690,7 +18742,7 @@
     <episode-num system="onscreen">S04E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_las-reglas-del-amor-s04e10-la-sustituta_l_m.jpg</image>
   </programme>
-  <programme start="20260701205000 +0000" stop="20260701211000 +0000" channel="mx#comedy-central">
+  <programme start="20260701205000 +0000" stop="20260701211500 +0000" channel="mx#comedy-central">
     <title lang="es">Las reglas del amor</title>
     <sub-title lang="es">La reunión</sub-title>
     <category lang="es">Serie</category>
@@ -18698,7 +18750,7 @@
     <episode-num system="onscreen">S04E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_las-reglas-del-amor-s04e11-la-reunion_l_m.jpg</image>
   </programme>
-  <programme start="20260701211000 +0000" stop="20260701213500 +0000" channel="mx#comedy-central">
+  <programme start="20260701211500 +0000" stop="20260701213500 +0000" channel="mx#comedy-central">
     <title lang="es">Becker</title>
     <sub-title lang="es">Días de perros</sub-title>
     <category lang="es">Serie</category>
@@ -18754,7 +18806,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701235000 +0000" stop="20260702001000 +0000" channel="mx#comedy-central">
+  <programme start="20260701235000 +0000" stop="20260702001500 +0000" channel="mx#comedy-central">
     <title lang="es">El vecindario</title>
     <sub-title lang="es">Bienvenidos a la comida sureña</sub-title>
     <category lang="es">Serie</category>
@@ -18762,7 +18814,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260702001000 +0000" stop="20260702003500 +0000" channel="mx#comedy-central">
+  <programme start="20260702001500 +0000" stop="20260702003500 +0000" channel="mx#comedy-central">
     <title lang="es">Las reglas del amor</title>
     <sub-title lang="es">Acoso</sub-title>
     <category lang="es">Serie</category>
@@ -18770,7 +18822,7 @@
     <episode-num system="onscreen">S04E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_las-reglas-del-amor-s04e12-acoso_l_m.jpg</image>
   </programme>
-  <programme start="20260702003500 +0000" stop="20260702005500 +0000" channel="mx#comedy-central">
+  <programme start="20260702003500 +0000" stop="20260702010000 +0000" channel="mx#comedy-central">
     <title lang="es">Las reglas del amor</title>
     <sub-title lang="es">¿Se casarán?</sub-title>
     <category lang="es">Serie</category>
@@ -18778,7 +18830,7 @@
     <episode-num system="onscreen">S04E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_las-reglas-del-amor-s04e13-se-casaran_l_m.jpg</image>
   </programme>
-  <programme start="20260702005500 +0000" stop="20260702012000 +0000" channel="mx#comedy-central">
+  <programme start="20260702010000 +0000" stop="20260702012000 +0000" channel="mx#comedy-central">
     <title lang="es">Póquer de reinas</title>
     <sub-title lang="es">Acabo de conocer al hombre con el que me casaré</sub-title>
     <category lang="es">Serie</category>
@@ -18786,7 +18838,7 @@
     <episode-num system="onscreen">S05E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260702012000 +0000" stop="20260702014500 +0000" channel="mx#comedy-central">
+  <programme start="20260702012000 +0000" stop="20260702014000 +0000" channel="mx#comedy-central">
     <title lang="es">Póquer de reinas</title>
     <sub-title lang="es">Unos ayudando a otros</sub-title>
     <category lang="es">Serie</category>
@@ -18794,7 +18846,7 @@
     <episode-num system="onscreen">S05E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260702014500 +0000" stop="20260702020500 +0000" channel="mx#comedy-central">
+  <programme start="20260702014000 +0000" stop="20260702020500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">Aquí viene el vecindario</sub-title>
     <category lang="es">Serie</category>
@@ -18818,7 +18870,7 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s06e02-jared-esta-con-aids_l_m.jpg</image>
   </programme>
-  <programme start="20260702025000 +0000" stop="20260702031000 +0000" channel="mx#comedy-central">
+  <programme start="20260702025000 +0000" stop="20260702031500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">El profesor Caos</sub-title>
     <category lang="es">Serie</category>
@@ -18826,7 +18878,7 @@
     <episode-num system="onscreen">S06E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s06e06-el-profesor-caos_l_m.jpg</image>
   </programme>
-  <programme start="20260702031000 +0000" stop="20260702033500 +0000" channel="mx#comedy-central">
+  <programme start="20260702031500 +0000" stop="20260702033500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">Liberen a Sombrero</sub-title>
     <category lang="es">Serie</category>
@@ -18842,7 +18894,7 @@
     <episode-num system="onscreen">S06E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s06e12-a-ladder-to-heaven_l_m.jpg</image>
   </programme>
-  <programme start="20260702040000 +0000" stop="20260702042000 +0000" channel="mx#comedy-central">
+  <programme start="20260702040000 +0000" stop="20260702042500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">Conflicto de intereses</sub-title>
     <category lang="es">Serie</category>
@@ -18850,7 +18902,7 @@
     <episode-num system="onscreen">S27E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s27e05_l_m.jpg</image>
   </programme>
-  <programme start="20260702042000 +0000" stop="20260702044500 +0000" channel="mx#comedy-central">
+  <programme start="20260702042500 +0000" stop="20260702044500 +0000" channel="mx#comedy-central">
     <title lang="es">South Park</title>
     <sub-title lang="es">Cristiano retorcido</sub-title>
     <category lang="es">Serie</category>
@@ -34443,10 +34495,10 @@
   </programme>
   <programme start="20260702030000 +0000" stop="20260702034600 +0000" channel="mx#history">
     <title lang="es">Gigantes de la industria: Mega marcas</title>
-    <sub-title lang="es">Crise de credibilidade</sub-title>
+    <sub-title lang="es">Crisis de credibilidad</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.16.0/1</episode-num>
-    <episode-num system="onscreen">S03E17</episode-num>
+    <episode-num system="xmltv_ns">2.7.0/1</episode-num>
+    <episode-num system="onscreen">S03E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260702034600 +0000" stop="20260702043300 +0000" channel="mx#history">
@@ -37212,14 +37264,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/mx_el-justiciero-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260702051500 +0000" stop="20260702071300 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260702051500 +0000" stop="20260702061500 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Protegiendo al enemigo</title>
     <title lang="en">Safe House</title>
     <category lang="es">Acción</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_protegiendo-al-enemigo-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260702051500 +0000" stop="20260702061500 +0000" channel="mx#max-prime-mexico">
+  <programme start="20260702051500 +0000" stop="20260702071300 +0000" channel="mx#max-prime-mexico">
     <title lang="es">Protegiendo al enemigo</title>
     <title lang="en">Safe House</title>
     <category lang="es">Acción</category>
@@ -37515,7 +37567,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260701055300 +0000" stop="20260701065300 +0000" channel="mx#national-geographic">
+  <programme start="20260701055400 +0000" stop="20260701065400 +0000" channel="mx#national-geographic">
     <title lang="es">Gordon Ramsay: sabores extremos</title>
     <sub-title lang="es">Descubriendo los Cayos de la Florida</sub-title>
     <category lang="es">Serie</category>
@@ -37530,14 +37582,6 @@
     <episode-num system="xmltv_ns">3.0.0/1</episode-num>
     <episode-num system="onscreen">S04E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_gordon-ramsay-sabores-extremos-s04e01-descubriendo-los-cayos-de-la-florida_l_m.jpg</image>
-  </programme>
-  <programme start="20260701065300 +0000" stop="20260701065400 +0000" channel="mx#national-geographic">
-    <title lang="es">Salvajemente famosos</title>
-    <sub-title lang="es">Cara Delevingne en las montañas de Cerdeña</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.3.0/1</episode-num>
-    <episode-num system="onscreen">S05E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_salvajemente-famosos-s05e04-cara-delevingne-en-las-montanas-de-cerdena_l_m.jpg</image>
   </programme>
   <programme start="20260701065400 +0000" stop="20260701075700 +0000" channel="mx#national-geographic">
     <title lang="es">Salvajemente famosos</title>
