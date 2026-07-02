@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260702200250 +0000">
+<tv generator-info-name="custom-epg" date="20260702223800 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
+  </channel>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
+  </channel>
+  <channel id="ATV.pe@SD">
+    <display-name>ATV</display-name>
+    <icon src="https://i.imgur.com/eUzYZfg.png"/>
   </channel>
   <channel id="pe#warner">
     <display-name>Warner Channel</display-name>
@@ -98,8 +104,14 @@
   <channel id="pe#pfc">
     <display-name>PFC</display-name>
   </channel>
-  <channel id="pe#pat">
-    <display-name>PAT</display-name>
+  <channel id="pe#azteca-13">
+    <display-name>Azteca 13</display-name>
+  </channel>
+  <channel id="pe#cinecanal">
+    <display-name>Cinecanal</display-name>
+  </channel>
+  <channel id="pe#enlace-tbn">
+    <display-name>Enlace TBN</display-name>
   </channel>
   <channel id="pe#paramount-channel">
     <display-name>Paramount Network</display-name>
@@ -231,8 +243,8 @@
   <channel id="pe#espn">
     <display-name>ESPN</display-name>
   </channel>
-  <channel id="pe#enlace-tbn">
-    <display-name>Enlace TBN</display-name>
+  <channel id="pe#pat">
+    <display-name>PAT</display-name>
   </channel>
   <channel id="pe#el-gourmet">
     <display-name>El Gourmet</display-name>
@@ -296,9 +308,6 @@
   <channel id="pe#cinema">
     <display-name>Cinema+</display-name>
   </channel>
-  <channel id="pe#cinecanal">
-    <display-name>Cinecanal</display-name>
-  </channel>
   <channel id="pe#cine-latino">
     <display-name>Cinelatino</display-name>
   </channel>
@@ -330,8 +339,8 @@
   <channel id="pe#bbc-world">
     <display-name>BBC World</display-name>
   </channel>
-  <channel id="pe#azteca-13">
-    <display-name>Azteca 13</display-name>
+  <channel id="pe#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
   <channel id="pe#az-corazon">
     <display-name>Az Corazón</display-name>
@@ -347,21 +356,12 @@
     <display-name>ATV +</display-name>
     <icon src="https://i.imgur.com/fY9256H.png"/>
   </channel>
-  <channel id="ATV.pe@SD">
-    <display-name>ATV</display-name>
-    <icon src="https://i.imgur.com/eUzYZfg.png"/>
-  </channel>
-  <channel id="pe#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
   <channel id="pe#america-television">
     <display-name>América Televisión</display-name>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
-  </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
   <programme start="20260702103000 +0000" stop="20260702113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -8187,14 +8187,14 @@
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_los-senores-de-la-mafia-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260703052000 +0000" stop="20260703072500 +0000" channel="pe#amc">
+  <programme start="20260703052000 +0000" stop="20260703062000 +0000" channel="pe#amc">
     <title lang="es">Fuera de la ley</title>
     <title lang="en">Black and Blue</title>
     <category lang="es">Acción</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_fuera-de-la-ley-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260703052000 +0000" stop="20260703062000 +0000" channel="pe#amc">
+  <programme start="20260703052000 +0000" stop="20260703072500 +0000" channel="pe#amc">
     <title lang="es">Fuera de la ley</title>
     <title lang="en">Black and Blue</title>
     <category lang="es">Acción</category>
@@ -22100,13 +22100,13 @@
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_musica-glamour-y-fama-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260703052600 +0000" stop="20260703073400 +0000" channel="pe#cinecanal">
+  <programme start="20260703052600 +0000" stop="20260703062600 +0000" channel="pe#cinecanal">
     <title lang="es">Bad Hair: Belleza maldita</title>
     <title lang="en">Bad Hair</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260703052600 +0000" stop="20260703062600 +0000" channel="pe#cinecanal">
+  <programme start="20260703052600 +0000" stop="20260703073400 +0000" channel="pe#cinecanal">
     <title lang="es">Bad Hair: Belleza maldita</title>
     <title lang="en">Bad Hair</title>
     <category lang="es">Terror</category>
@@ -57829,13 +57829,13 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260703053000 +0000" stop="20260703103000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260703053000 +0000" stop="20260703063000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
-  <programme start="20260703053000 +0000" stop="20260703063000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260703053000 +0000" stop="20260703103000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
