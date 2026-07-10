@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260710095537 +0000">
+<tv generator-info-name="custom-epg" date="20260710150511 +0000">
   <channel id="247CanaldeNoticias.ar@SD">
     <display-name>24/7 Canal de Noticias</display-name>
     <icon src="https://i.imgur.com/4hDCB1M.png"/>
   </channel>
-  <channel id="Canal26.ar@SD">
-    <display-name>Canal 26</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
+  <channel id="ZooMoo.sg@SD">
+    <display-name>ZooMoo</display-name>
+    <icon src="https://i.imgur.com/ciTJrnl.png"/>
   </channel>
-  <channel id="Atrescine.es@SD">
-    <display-name>Atrescine</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
+  <channel id="WarnerChannel.us@South">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="AELatinAmerica.us@South">
-    <display-name>A&amp;E</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
+  <channel id="VTV.uy@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/SiImXjJ.png"/>
   </channel>
   <channel id="Volver.ar@SD">
     <display-name>Volver</display-name>
@@ -772,17 +768,21 @@
     <display-name>América TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"/>
   </channel>
-  <channel id="ZooMoo.sg@SD">
-    <display-name>ZooMoo</display-name>
-    <icon src="https://i.imgur.com/ciTJrnl.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="WarnerChannel.us@South">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="AELatinAmerica.us@South">
+    <display-name>A&amp;E</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
   </channel>
-  <channel id="VTV.uy@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/SiImXjJ.png"/>
+  <channel id="Atrescine.es@SD">
+    <display-name>Atrescine</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
+  </channel>
+  <channel id="Canal26.ar@SD">
+    <display-name>Canal 26</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
   </channel>
   <programme start="20260710010000 +0000" stop="20260710090000 +0000" channel="247CanaldeNoticias.ar@SD">
     <title lang="es">Trasnoche de 24/7</title>
@@ -1281,14 +1281,14 @@
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_sicario-dia-del-soldado-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260711051000 +0000" stop="20260711061000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260711051000 +0000" stop="20260711070500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Vivero</title>
     <title lang="en">Vivarium</title>
     <category lang="es">Terror</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260711051000 +0000" stop="20260711070500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260711051000 +0000" stop="20260711061000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Vivero</title>
     <title lang="en">Vivarium</title>
     <category lang="es">Terror</category>
@@ -13338,10 +13338,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_infomercial_l_m.jpg</image>
   </programme>
   <programme start="20260711123000 +0000" stop="20260711130000 +0000" channel="ar#tvn-chile">
-    <title lang="es">Destinos turísticos</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="es">Aires de Chile</title>
+    <title lang="en">- Chilenos en el mundo</title>
+    <category lang="es">- Chilenos en el mundo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260711130000 +0000" stop="20260711133000 +0000" channel="ar#tvn-chile">
     <title lang="es">Frutos del país</title>
@@ -13350,10 +13350,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_entrevista-frutos-del-pais_l_m.jpg</image>
   </programme>
   <programme start="20260711133000 +0000" stop="20260711144500 +0000" channel="ar#tvn-chile">
-    <title lang="es">Había una vez</title>
-    <title lang="en">Había una vez</title>
-    <category lang="es">Había una vez</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_deportivo-habia-una-vez_l_m.jpg</image>
+    <title lang="es">Chile conectado</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_chile-conectado_l_m.jpg</image>
   </programme>
   <programme start="20260711144500 +0000" stop="20260711163000 +0000" channel="ar#tvn-chile">
     <title lang="es">Rejappening, el Ja que todos llevamos dentro</title>
@@ -13362,16 +13362,22 @@
     <image>https://cdn.mitvstatic.com/programs/ar_rejappening-el-ja-que-todos-llevamos-dentro_l_m.jpg</image>
   </programme>
   <programme start="20260711163000 +0000" stop="20260711173000 +0000" channel="ar#tvn-chile">
-    <title lang="es">Chile conectado</title>
+    <title lang="es">Selva viva - Patagonia</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_chile-conectado_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260711173000 +0000" stop="20260711193000 +0000" channel="ar#tvn-chile">
+  <programme start="20260711173000 +0000" stop="20260711190000 +0000" channel="ar#tvn-chile">
     <title lang="es">24 horas al día</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/ar_24-horas-al-dia_l_m.jpg</image>
+  </programme>
+  <programme start="20260711190000 +0000" stop="20260711193000 +0000" channel="ar#tvn-chile">
+    <title lang="es">Especialista responde</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_especialista-responde_l_m.jpg</image>
   </programme>
   <programme start="20260711193000 +0000" stop="20260711200000 +0000" channel="ar#tvn-chile">
     <title lang="es">Infomercial</title>
@@ -13386,10 +13392,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_chile-conectado_l_m.jpg</image>
   </programme>
   <programme start="20260712003000 +0000" stop="20260712010000 +0000" channel="ar#tvn-chile">
-    <title lang="es">Mamá por siempre</title>
-    <title lang="en">Talk Show</title>
-    <category lang="es">Talk Show</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="es">Aires de Chile</title>
+    <title lang="en">- Chilenos en el mundo</title>
+    <category lang="es">- Chilenos en el mundo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260712010000 +0000" stop="20260712023500 +0000" channel="ar#tvn-chile">
     <title lang="es">24 Horas Central</title>
@@ -13397,24 +13403,31 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260712023500 +0000" stop="20260712040000 +0000" channel="ar#tvn-chile">
-    <title lang="es">Selva viva</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260712040000 +0000" stop="20260712043000 +0000" channel="ar#tvn-chile">
-    <title lang="es">Chile conectado con el mundo</title>
+  <programme start="20260712023500 +0000" stop="20260712033000 +0000" channel="ar#tvn-chile">
+    <title lang="es">Selva viva - Patagonia</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260712043000 +0000" stop="20260712053000 +0000" channel="ar#tvn-chile">
+  <programme start="20260712033000 +0000" stop="20260712040000 +0000" channel="ar#tvn-chile">
+    <title lang="es">Entre viñas</title>
+    <title lang="en">Turismo</title>
+    <category lang="es">Turismo</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entre-vinas_l_m.jpg</image>
+  </programme>
+  <programme start="20260712040000 +0000" stop="20260712044500 +0000" channel="ar#tvn-chile">
+    <title lang="es">Aires de Chile</title>
+    <title lang="en">- Chilenos en el mundo</title>
+    <category lang="es">- Chilenos en el mundo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260712044500 +0000" stop="20260712054500 +0000" channel="ar#tvn-chile">
     <title lang="es">El hacedor de hambre</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260712053000 +0000" stop="20260712063000 +0000" channel="ar#tvn-chile">
+  <programme start="20260712054500 +0000" stop="20260712064500 +0000" channel="ar#tvn-chile">
     <title lang="es">Chile conectado</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -13896,13 +13909,13 @@
     <rating><value>4.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712054500 +0000" stop="20260712064500 +0000" channel="Atrescine.es@SD">
+  <programme start="20260712054500 +0000" stop="20260712074000 +0000" channel="Atrescine.es@SD">
     <title lang="es">El diputado</title>
     <title lang="en">Drama</title>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712054500 +0000" stop="20260712074000 +0000" channel="Atrescine.es@SD">
+  <programme start="20260712054500 +0000" stop="20260712064500 +0000" channel="Atrescine.es@SD">
     <title lang="es">El diputado</title>
     <title lang="en">Drama</title>
     <rating><value>6.8</value></rating>
@@ -23852,19 +23865,19 @@
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_la-increible-vida-de-walter-mitty-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260712204800 +0000" stop="20260712223500 +0000" channel="Cinecanal.us@Panregional">
+  <programme start="20260712204800 +0000" stop="20260712223400 +0000" channel="Cinecanal.us@Panregional">
     <title lang="es">Cuesta abajo</title>
     <title lang="en">Downhill</title>
     <category lang="es">Comedia</category>
     <rating><value>4.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_cuesta-abajo-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260712223500 +0000" stop="20260713010000 +0000" channel="Cinecanal.us@Panregional">
+  <programme start="20260712223400 +0000" stop="20260713005900 +0000" channel="Cinecanal.us@Panregional">
     <title lang="es">Emma</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/ar_emma-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260713010000 +0000" stop="20260713033500 +0000" channel="Cinecanal.us@Panregional">
+  <programme start="20260713005900 +0000" stop="20260713033500 +0000" channel="Cinecanal.us@Panregional">
     <title lang="es">Talentos ocultos</title>
     <title lang="en">Hidden Figures</title>
     <category lang="es">Drama</category>
@@ -31529,7 +31542,7 @@
     <episode-num system="onscreen">S06E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s06e01-en-la-linea-de-fuego_l_m.jpg</image>
   </programme>
-  <programme start="20260711090000 +0000" stop="20260711092500 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711090000 +0000" stop="20260711092400 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Aeropuerto 24/7 Miami</title>
     <sub-title lang="es">Seguridad nacional</sub-title>
     <category lang="es">Serie</category>
@@ -31537,7 +31550,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_aeropuerto-24-7-miami-s02e07-seguridad-nacional_l_m.jpg</image>
   </programme>
-  <programme start="20260711092500 +0000" stop="20260711101300 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711092400 +0000" stop="20260711100900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Diecisiete puntadas</sub-title>
     <category lang="es">Serie</category>
@@ -31545,7 +31558,7 @@
     <episode-num system="onscreen">S18E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-s18e04-diecisiete-puntadas_l_m.jpg</image>
   </programme>
-  <programme start="20260711101300 +0000" stop="20260711110100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711100900 +0000" stop="20260711105100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Operación Alaska</title>
     <sub-title lang="es">El equilibrio</sub-title>
     <category lang="es">Serie</category>
@@ -31553,7 +31566,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_operacion-alaska-s03e06-el-equilibrio_l_m.jpg</image>
   </programme>
-  <programme start="20260711110100 +0000" stop="20260711114900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711105100 +0000" stop="20260711114100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Mexicánicos</title>
     <sub-title lang="es">Edén Muñoz &amp; Carrozas Expo</sub-title>
     <category lang="es">Serie</category>
@@ -31561,7 +31574,7 @@
     <episode-num system="onscreen">S10E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_mexicanicos-s10e03-chicago_l_m.jpg</image>
   </programme>
-  <programme start="20260711114900 +0000" stop="20260711123800 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711114100 +0000" stop="20260711123000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Desgastado</sub-title>
     <category lang="es">Serie</category>
@@ -31569,7 +31582,7 @@
     <episode-num system="onscreen">S07E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-s07e02-problemas-con-monos_l_m.jpg</image>
   </programme>
-  <programme start="20260711123800 +0000" stop="20260711132700 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711123000 +0000" stop="20260711132000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">África</title>
     <sub-title lang="es">El Cabo</sub-title>
     <category lang="es">Serie</category>
@@ -31577,7 +31590,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_africa-s01e04-el-cabo_l_m.jpg</image>
   </programme>
-  <programme start="20260711132700 +0000" stop="20260711141600 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711132000 +0000" stop="20260711140900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">África</title>
     <sub-title lang="es">El Sahara</sub-title>
     <category lang="es">Serie</category>
@@ -31585,7 +31598,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_africa-s01e05-el-sahara_l_m.jpg</image>
   </programme>
-  <programme start="20260711141600 +0000" stop="20260711150500 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711140900 +0000" stop="20260711145900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">África</title>
     <sub-title lang="es">África en Close Up</sub-title>
     <category lang="es">Serie</category>
@@ -31593,7 +31606,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_africa-s01e06-africa-en-close-up_l_m.jpg</image>
   </programme>
-  <programme start="20260711150500 +0000" stop="20260711155400 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711145900 +0000" stop="20260711155000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Ed Stafford al extremo</title>
     <sub-title lang="es">Laos</sub-title>
     <category lang="es">Serie</category>
@@ -31601,7 +31614,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ed-stafford-al-extremo-s01e04-laos_l_m.jpg</image>
   </programme>
-  <programme start="20260711155400 +0000" stop="20260711164300 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711155000 +0000" stop="20260711164000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Ed Stafford al extremo</title>
     <sub-title lang="es">Bolivia</sub-title>
     <category lang="es">Serie</category>
@@ -31609,7 +31622,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ed-stafford-al-extremo-s01e05-bolivia_l_m.jpg</image>
   </programme>
-  <programme start="20260711164300 +0000" stop="20260711173200 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711164000 +0000" stop="20260711173100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Ed Stafford al extremo</title>
     <sub-title lang="es">Panamá</sub-title>
     <category lang="es">Serie</category>
@@ -31617,7 +31630,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ed-stafford-al-extremo-s01e06-panama_l_m.jpg</image>
   </programme>
-  <programme start="20260711173200 +0000" stop="20260711182100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711173100 +0000" stop="20260711182000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: edición extrema</title>
     <sub-title lang="es">Hombres de fuego</sub-title>
     <category lang="es">Serie</category>
@@ -31625,7 +31638,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-edicion-extrema-s00e12_l_m.jpg</image>
   </programme>
-  <programme start="20260711182100 +0000" stop="20260711191000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711182000 +0000" stop="20260711191000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: edición extrema</title>
     <sub-title lang="es">Presa humana</sub-title>
     <category lang="es">Serie</category>
@@ -31633,7 +31646,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-edicion-extrema-s02e03_l_m.jpg</image>
   </programme>
-  <programme start="20260711191000 +0000" stop="20260711200000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711191000 +0000" stop="20260711200100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: edición extrema</title>
     <sub-title lang="es">Demasiados jefes</sub-title>
     <category lang="es">Serie</category>
@@ -31641,7 +31654,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-edicion-extrema-s00e14-demasiados-jefes_l_m.jpg</image>
   </programme>
-  <programme start="20260711200000 +0000" stop="20260711205000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711200100 +0000" stop="20260711205200 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: edición extrema</title>
     <sub-title lang="es">Aumenta el frenesí</sub-title>
     <category lang="es">Serie</category>
@@ -31649,7 +31662,7 @@
     <episode-num system="onscreen">S04E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-edicion-extrema-s04e09-adios-mundo-acuatico-cruel_l_m.jpg</image>
   </programme>
-  <programme start="20260711205000 +0000" stop="20260711214000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711205200 +0000" stop="20260711214200 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: edición extrema</title>
     <sub-title lang="es">12 veteranos</sub-title>
     <category lang="es">Serie</category>
@@ -31657,7 +31670,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supervivencia-al-desnudo-edicion-extrema-s01e11-12-veteranos_l_m.jpg</image>
   </programme>
-  <programme start="20260711214000 +0000" stop="20260711232000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711214200 +0000" stop="20260711232100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: el último en pie</title>
     <sub-title lang="es">Evacuación de emergencia</sub-title>
     <category lang="es">Serie</category>
@@ -31665,7 +31678,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711232000 +0000" stop="20260712010000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260711232100 +0000" stop="20260712010000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: el último en pie</title>
     <sub-title lang="es">Capricho de Gary en el lago</sub-title>
     <category lang="es">Serie</category>
@@ -31673,7 +31686,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712010000 +0000" stop="20260712023800 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712010000 +0000" stop="20260712023900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Supervivencia al desnudo: el último en pie</title>
     <sub-title lang="es">Destripar de cerca</sub-title>
     <category lang="es">Serie</category>
@@ -31681,7 +31694,7 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712023800 +0000" stop="20260712032700 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712023900 +0000" stop="20260712032800 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Ed Stafford: rituales del mundo</title>
     <sub-title lang="es">Brasil</sub-title>
     <category lang="es">Serie</category>
@@ -31689,12 +31702,12 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712032700 +0000" stop="20260712041600 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712032800 +0000" stop="20260712041900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Detrás del engaño: Michael Jackson</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260712041600 +0000" stop="20260712050500 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712041900 +0000" stop="20260712050800 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Falsa alarma</sub-title>
     <category lang="es">Serie</category>
@@ -31702,7 +31715,7 @@
     <episode-num system="onscreen">S05E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e11-falsa-alarma_l_m.jpg</image>
   </programme>
-  <programme start="20260712050500 +0000" stop="20260712055200 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712050800 +0000" stop="20260712055500 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Llamas e inundaciones</sub-title>
     <category lang="es">Serie</category>
@@ -31710,7 +31723,7 @@
     <episode-num system="onscreen">S10E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s10e07-llamas-e-inundaciones_l_m.jpg</image>
   </programme>
-  <programme start="20260712055200 +0000" stop="20260712063900 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712055500 +0000" stop="20260712064100 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">En la línea de fuego</sub-title>
     <category lang="es">Serie</category>
@@ -31718,7 +31731,7 @@
     <episode-num system="onscreen">S06E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s06e01-en-la-linea-de-fuego_l_m.jpg</image>
   </programme>
-  <programme start="20260712055200 +0000" stop="20260712065200 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712055500 +0000" stop="20260712065500 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">En la línea de fuego</sub-title>
     <category lang="es">Serie</category>
@@ -31726,7 +31739,7 @@
     <episode-num system="onscreen">S06E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s06e01-en-la-linea-de-fuego_l_m.jpg</image>
   </programme>
-  <programme start="20260712063900 +0000" stop="20260712072600 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712064100 +0000" stop="20260712072700 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Imprudente</sub-title>
     <category lang="es">Serie</category>
@@ -31734,7 +31747,7 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s06e02-imprudente_l_m.jpg</image>
   </programme>
-  <programme start="20260712072600 +0000" stop="20260712081300 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712072700 +0000" stop="20260712081200 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Háblame</sub-title>
     <category lang="es">Serie</category>
@@ -31742,7 +31755,7 @@
     <episode-num system="onscreen">S06E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s06e03-hablame_l_m.jpg</image>
   </programme>
-  <programme start="20260712081300 +0000" stop="20260712090000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
+  <programme start="20260712081200 +0000" stop="20260712090000 +0000" channel="DiscoveryChannelLatinAmerica.us@South">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Buscando problemas</sub-title>
     <category lang="es">Serie</category>
@@ -32207,7 +32220,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_rescatando-propiedades-s01e01-renovacion-fracasada_l_m.jpg</image>
   </programme>
-  <programme start="20260711090000 +0000" stop="20260711095000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711090000 +0000" stop="20260711095700 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Mi nariz gigante me está matando</sub-title>
     <category lang="es">Serie</category>
@@ -32215,7 +32228,7 @@
     <episode-num system="onscreen">S03E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s03e19-mi-nariz-gigante-me-esta-matando_l_m.jpg</image>
   </programme>
-  <programme start="20260711095000 +0000" stop="20260711104000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711095700 +0000" stop="20260711104300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Especial de Navidad</sub-title>
     <category lang="es">Serie</category>
@@ -32223,7 +32236,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s03e20-especial-de-navidad_l_m.jpg</image>
   </programme>
-  <programme start="20260711104000 +0000" stop="20260711113000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711104300 +0000" stop="20260711113000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">El psíquico de los lipomas</sub-title>
     <category lang="es">Serie</category>
@@ -32243,13 +32256,13 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260711123000 +0000" stop="20260711130000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711123000 +0000" stop="20260711133800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">A confirmar</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260711130000 +0000" stop="20260711132500 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711133800 +0000" stop="20260711140200 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Tacaños extremos</title>
     <sub-title lang="es">Rick y Karissa / Torski</sub-title>
     <category lang="es">Serie</category>
@@ -32257,7 +32270,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_tacanos-extremos-s02e01_l_m.jpg</image>
   </programme>
-  <programme start="20260711132500 +0000" stop="20260711141000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711140200 +0000" stop="20260711144500 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Iberville - Parte 1</sub-title>
     <category lang="es">Serie</category>
@@ -32265,7 +32278,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e01-restaurante-iberville-parte-1_l_m.jpg</image>
   </programme>
-  <programme start="20260711141000 +0000" stop="20260711145400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711144500 +0000" stop="20260711152800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Iberville - Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -32273,7 +32286,7 @@
     <episode-num system="onscreen">S09E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e02-restaurante-iberville-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260711145400 +0000" stop="20260711153800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711152800 +0000" stop="20260711161100 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Voleo&apos;s</sub-title>
     <category lang="es">Serie</category>
@@ -32281,7 +32294,7 @@
     <episode-num system="onscreen">S09E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e03-restaurante-voleo-s_l_m.jpg</image>
   </programme>
-  <programme start="20260711153800 +0000" stop="20260711162200 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711161100 +0000" stop="20260711165400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Kindred</sub-title>
     <category lang="es">Serie</category>
@@ -32289,7 +32302,7 @@
     <episode-num system="onscreen">S09E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e04-restaurante-kindred_l_m.jpg</image>
   </programme>
-  <programme start="20260711162200 +0000" stop="20260711170600 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711165400 +0000" stop="20260711173800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Southern Girls</sub-title>
     <category lang="es">Serie</category>
@@ -32297,7 +32310,7 @@
     <episode-num system="onscreen">S09E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e05-restaurante-southern-girls_l_m.jpg</image>
   </programme>
-  <programme start="20260711170600 +0000" stop="20260711175000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711173800 +0000" stop="20260711182100 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Kings Blu Jam</sub-title>
     <category lang="es">Serie</category>
@@ -32305,7 +32318,7 @@
     <episode-num system="onscreen">S09E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e06-restaurante-kings-blu-jam_l_m.jpg</image>
   </programme>
-  <programme start="20260711175000 +0000" stop="20260711183400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711182100 +0000" stop="20260711190400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Verdict</sub-title>
     <category lang="es">Serie</category>
@@ -32313,7 +32326,7 @@
     <episode-num system="onscreen">S09E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e07-restaurante-verdict_l_m.jpg</image>
   </programme>
-  <programme start="20260711183400 +0000" stop="20260711192300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711190400 +0000" stop="20260711194900 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Grumpy George</sub-title>
     <category lang="es">Serie</category>
@@ -32321,7 +32334,7 @@
     <episode-num system="onscreen">S09E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e08-restaurante-grumpy-george_l_m.jpg</image>
   </programme>
-  <programme start="20260711192300 +0000" stop="20260711201100 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711194900 +0000" stop="20260711203300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Leo&apos;s</sub-title>
     <category lang="es">Serie</category>
@@ -32329,7 +32342,7 @@
     <episode-num system="onscreen">S09E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e09-restaurante-leo-s_l_m.jpg</image>
   </programme>
-  <programme start="20260711201100 +0000" stop="20260711205900 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711203300 +0000" stop="20260711211700 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Blakes Place</sub-title>
     <category lang="es">Serie</category>
@@ -32337,7 +32350,7 @@
     <episode-num system="onscreen">S09E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e10-restaurante-blakes-place_l_m.jpg</image>
   </programme>
-  <programme start="20260711205900 +0000" stop="20260711214900 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711211700 +0000" stop="20260711220400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Campeonato de reposteros: delicias de primavera</title>
     <sub-title lang="es">Celebraciones para el día del Derby</sub-title>
     <category lang="es">Serie</category>
@@ -32345,7 +32358,7 @@
     <episode-num system="onscreen">S10E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_campeonato-de-reposteros-delicias-de-primavera-s10e08-celebraciones-para-el-dia-del-derby_l_m.jpg</image>
   </programme>
-  <programme start="20260711214900 +0000" stop="20260711223700 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711220400 +0000" stop="20260711224900 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Yes, Chef!</title>
     <sub-title lang="es">Sweet Revenge</sub-title>
     <category lang="es">Serie</category>
@@ -32353,7 +32366,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711223700 +0000" stop="20260711232600 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711224900 +0000" stop="20260711233400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Un chef de otro nivel</title>
     <sub-title lang="es">Un cajún muy especial</sub-title>
     <category lang="es">Serie</category>
@@ -32361,7 +32374,7 @@
     <episode-num system="onscreen">S04E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711232600 +0000" stop="20260712001300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260711233400 +0000" stop="20260712001800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Un chef de otro nivel</title>
     <sub-title lang="es">Tapas</sub-title>
     <category lang="es">Serie</category>
@@ -32369,7 +32382,7 @@
     <episode-num system="onscreen">S04E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712001300 +0000" stop="20260712010000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712001800 +0000" stop="20260712010000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadilla en la cocina</title>
     <sub-title lang="es">Restaurante Voleo&apos;s</sub-title>
     <category lang="es">Serie</category>
@@ -32377,7 +32390,7 @@
     <episode-num system="onscreen">S09E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_pesadilla-en-la-cocina-s09e03-restaurante-voleo-s_l_m.jpg</image>
   </programme>
-  <programme start="20260712010000 +0000" stop="20260712022700 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712010000 +0000" stop="20260712022300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Pesadelo na cozinha</title>
     <sub-title lang="es">Najjah</sub-title>
     <category lang="es">Serie</category>
@@ -32385,7 +32398,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712022700 +0000" stop="20260712031700 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712022300 +0000" stop="20260712031000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Superpasteles</title>
     <sub-title lang="es">Dibujos animados clásicos</sub-title>
     <category lang="es">Serie</category>
@@ -32393,7 +32406,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712031700 +0000" stop="20260712040400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712031000 +0000" stop="20260712035300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: datos explosivos</title>
     <sub-title lang="es">El extraño caso del quiste</sub-title>
     <category lang="es">Serie</category>
@@ -32401,7 +32414,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712040400 +0000" stop="20260712045400 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712035300 +0000" stop="20260712044000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Adormecido</sub-title>
     <category lang="es">Serie</category>
@@ -32409,7 +32422,7 @@
     <episode-num system="onscreen">S06E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s06e15-adormecido_l_m.jpg</image>
   </programme>
-  <programme start="20260712045400 +0000" stop="20260712054200 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712044000 +0000" stop="20260712052500 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Paseando a la señorita bultos</sub-title>
     <category lang="es">Serie</category>
@@ -32417,7 +32430,7 @@
     <episode-num system="onscreen">S06E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s06e05-paseando-a-la-senorita-bultos_l_m.jpg</image>
   </programme>
-  <programme start="20260712054200 +0000" stop="20260712062900 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712052500 +0000" stop="20260712060800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Piel de cocodrilo</sub-title>
     <category lang="es">Serie</category>
@@ -32425,7 +32438,7 @@
     <episode-num system="onscreen">S06E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s06e09-piel-de-cocodrilo_l_m.jpg</image>
   </programme>
-  <programme start="20260712054200 +0000" stop="20260712064200 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712052500 +0000" stop="20260712062500 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Piel de cocodrilo</sub-title>
     <category lang="es">Serie</category>
@@ -32433,7 +32446,7 @@
     <episode-num system="onscreen">S06E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s06e09-piel-de-cocodrilo_l_m.jpg</image>
   </programme>
-  <programme start="20260712062900 +0000" stop="20260712071600 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712060800 +0000" stop="20260712065100 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Mi cuerpo, mi desafío</title>
     <sub-title lang="es">Milagro quirúrgico</sub-title>
     <category lang="es">Serie</category>
@@ -32441,7 +32454,7 @@
     <episode-num system="onscreen">S06E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_mi-cuerpo-mi-desafio-s06e18-milagro-quirurgico_l_m.jpg</image>
   </programme>
-  <programme start="20260712071600 +0000" stop="20260712080600 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712065100 +0000" stop="20260712073500 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Dra. Sandra Lee: especialista en piel</title>
     <sub-title lang="es">Las hermanas bulto</sub-title>
     <category lang="es">Serie</category>
@@ -32449,7 +32462,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dra-sandra-lee-especialista-en-piel-s02e04-el-bulto-se-fue-no-volvera_l_m.jpg</image>
   </programme>
-  <programme start="20260712080600 +0000" stop="20260712083300 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712073500 +0000" stop="20260712083800 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Rescatando propiedades</title>
     <sub-title lang="es">Lo viejo es nuevo</sub-title>
     <category lang="es">Serie</category>
@@ -32457,7 +32470,7 @@
     <episode-num system="onscreen">S07E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_rescatando-propiedades-s07e10-lo-viejo-es-nuevo_l_m.jpg</image>
   </programme>
-  <programme start="20260712083300 +0000" stop="20260712090000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
+  <programme start="20260712083800 +0000" stop="20260712090000 +0000" channel="DiscoveryHomeHealthLatinAmerica.mx@South">
     <title lang="es">Rescatando propiedades</title>
     <sub-title lang="es">Renovación bajo el agua</sub-title>
     <category lang="es">Serie</category>
@@ -36304,7 +36317,7 @@
     <episode-num system="onscreen">S07E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_maquinas-renovadas-s07e06-de-furgoneta-normal-a-espectacular-parte-3_l_m.jpg</image>
   </programme>
-  <programme start="20260710081800 +0000" stop="20260710090500 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260710081800 +0000" stop="20260710090300 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Diesel Dave</title>
     <sub-title lang="es">Camiones monstruo</sub-title>
     <category lang="es">Serie</category>
@@ -36312,7 +36325,7 @@
     <episode-num system="onscreen">S02E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_diesel-dave-s02e06-camiones-monstruo_l_m.jpg</image>
   </programme>
-  <programme start="20260710090500 +0000" stop="20260710101200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260710090300 +0000" stop="20260710101200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Misfit Garage</title>
     <sub-title lang="es">Pelea callejera y un Camaro 70 1/2</sub-title>
     <category lang="es">Serie</category>
@@ -36568,7 +36581,7 @@
     <episode-num system="onscreen">S07E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s07e08-un-mercury-comet-de-1965_l_m.jpg</image>
   </programme>
-  <programme start="20260711110000 +0000" stop="20260711115000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711110000 +0000" stop="20260711114900 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Joyas sobre ruedas</title>
     <sub-title lang="es">1985 Maserati Biturbo</sub-title>
     <category lang="es">Serie</category>
@@ -36576,7 +36589,7 @@
     <episode-num system="onscreen">S13E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_joyas-sobre-ruedas-s13e13-1985-maserati-biturbo_l_m.jpg</image>
   </programme>
-  <programme start="20260711115000 +0000" stop="20260711124000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711114900 +0000" stop="20260711124000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">Una camioneta de exhibición</sub-title>
     <category lang="es">Serie</category>
@@ -36584,7 +36597,7 @@
     <episode-num system="onscreen">S04E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-duo-mecanico-s04e03_l_m.jpg</image>
   </programme>
-  <programme start="20260711124000 +0000" stop="20260711133000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711124000 +0000" stop="20260711133400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Texas Metal</title>
     <sub-title lang="es">El C10 definitivo</sub-title>
     <category lang="es">Serie</category>
@@ -36592,7 +36605,7 @@
     <episode-num system="onscreen">S05E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_texas-metal-s05e11-el-c10-definitivo_l_m.jpg</image>
   </programme>
-  <programme start="20260711133000 +0000" stop="20260711142200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711133400 +0000" stop="20260711142800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">Fairlane descompuesto</sub-title>
     <category lang="es">Serie</category>
@@ -36600,7 +36613,7 @@
     <episode-num system="onscreen">S04E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s04e03-fairlane-descompuesto_l_m.jpg</image>
   </programme>
-  <programme start="20260711142200 +0000" stop="20260711151400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711142800 +0000" stop="20260711152100 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Misfit Garage</title>
     <sub-title lang="es">Pelea callejera y un Camaro 70 1/2</sub-title>
     <category lang="es">Serie</category>
@@ -36608,7 +36621,7 @@
     <episode-num system="onscreen">S03E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_misfit-garage-s03e05-pelea-callejera-y-un-camaro-70-1-2_l_m.jpg</image>
   </programme>
-  <programme start="20260711151400 +0000" stop="20260711160600 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711152100 +0000" stop="20260711161000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Mexicánicos: Estado de México</title>
     <sub-title lang="es">Ford 1956 Juan Cantú + Jeep Mojave 2022 chica superpoderosa + Cumple Effi...</sub-title>
     <category lang="es">Serie</category>
@@ -36616,7 +36629,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711160600 +0000" stop="20260711165800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711161000 +0000" stop="20260711170500 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">El regreso del Camaro</sub-title>
     <category lang="es">Serie</category>
@@ -36624,7 +36637,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s04e04-el-regreso-del-camaro_l_m.jpg</image>
   </programme>
-  <programme start="20260711165800 +0000" stop="20260711175000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711170500 +0000" stop="20260711180000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Overhaulin&apos;</title>
     <sub-title lang="es">El Raptor de todos los días</sub-title>
     <category lang="es">Serie</category>
@@ -36632,7 +36645,7 @@
     <episode-num system="onscreen">S10E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_overhaulin-s10e11-el-raptor-de-todos-los-dias_l_m.jpg</image>
   </programme>
-  <programme start="20260711175000 +0000" stop="20260711184200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711180000 +0000" stop="20260711185200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Acumuladores sobre ruedas</title>
     <sub-title lang="es">Reforma doble</sub-title>
     <category lang="es">Serie</category>
@@ -36640,7 +36653,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_acumuladores-sobre-ruedas-s01e05-reforma-doble_l_m.jpg</image>
   </programme>
-  <programme start="20260711184200 +0000" stop="20260711193400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711185200 +0000" stop="20260711194300 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Misfit Garage</title>
     <sub-title lang="es">GTO y Ford de 1941, parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -36648,7 +36661,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_misfit-garage-s03e20-gto-y-ford-de-1941-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260711193400 +0000" stop="20260711202600 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711194300 +0000" stop="20260711203400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Al estilo Kindig: detrás de las cámaras</title>
     <sub-title lang="es">50 sombras de blanco</sub-title>
     <category lang="es">Serie</category>
@@ -36656,7 +36669,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_al-estilo-kindig-detras-de-las-camaras-s00e06-50-sombras-de-blanco_l_m.jpg</image>
   </programme>
-  <programme start="20260711202600 +0000" stop="20260711211800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711203400 +0000" stop="20260711212800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">Cumplir un sueño</sub-title>
     <category lang="es">Serie</category>
@@ -36664,7 +36677,7 @@
     <episode-num system="onscreen">S07E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s07e07-cumplir-un-sueno_l_m.jpg</image>
   </programme>
-  <programme start="20260711211800 +0000" stop="20260711221000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711212800 +0000" stop="20260711222000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">Máquina única</sub-title>
     <category lang="es">Serie</category>
@@ -36672,7 +36685,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-duo-mecanico-s01e12-maquina-unica_l_m.jpg</image>
   </programme>
-  <programme start="20260711221000 +0000" stop="20260711230200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711222000 +0000" stop="20260711231300 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">Ford Fairmont del 78</sub-title>
     <category lang="es">Serie</category>
@@ -36680,7 +36693,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-duo-mecanico-s01e11-maquina-unica_l_m.jpg</image>
   </programme>
-  <programme start="20260711230200 +0000" stop="20260711235400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260711231300 +0000" stop="20260712000500 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Máquinas renovadas</title>
     <sub-title lang="es">De furgoneta normal a espectacular - Parte 3</sub-title>
     <category lang="es">Serie</category>
@@ -36688,7 +36701,7 @@
     <episode-num system="onscreen">S07E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_maquinas-renovadas-s07e06-de-furgoneta-normal-a-espectacular-parte-3_l_m.jpg</image>
   </programme>
-  <programme start="20260711235400 +0000" stop="20260712004600 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712000500 +0000" stop="20260712005800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Chatarra de oro</title>
     <sub-title lang="es">El proyecto del Jeep</sub-title>
     <category lang="es">Serie</category>
@@ -36696,7 +36709,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_chatarra-de-oro-s02e03-el-proyecto-del-jeep_l_m.jpg</image>
   </programme>
-  <programme start="20260712004600 +0000" stop="20260712013800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712005800 +0000" stop="20260712015000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Joyas sobre ruedas</title>
     <sub-title lang="es">1976 Porsche 912E</sub-title>
     <category lang="es">Serie</category>
@@ -36704,7 +36717,7 @@
     <episode-num system="onscreen">S13E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_joyas-sobre-ruedas-s13e10-1963-sunbeam-alpine_l_m.jpg</image>
   </programme>
-  <programme start="20260712013800 +0000" stop="20260712023000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712015000 +0000" stop="20260712024200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">La modificación del Pantera</sub-title>
     <category lang="es">Serie</category>
@@ -36712,7 +36725,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-duo-mecanico-s04e04_l_m.jpg</image>
   </programme>
-  <programme start="20260712023000 +0000" stop="20260712032200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712024200 +0000" stop="20260712033500 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Texas Metal</title>
     <sub-title lang="es">El Buggy de Bill de 1500 caballos de fuerza</sub-title>
     <category lang="es">Serie</category>
@@ -36720,7 +36733,7 @@
     <episode-num system="onscreen">S05E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_texas-metal-s05e12-el-buggy-de-bill-de-1500-caballos-de-fuerza_l_m.jpg</image>
   </programme>
-  <programme start="20260712032200 +0000" stop="20260712041400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712033500 +0000" stop="20260712043000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">La liberación de la Ford F3</sub-title>
     <category lang="es">Serie</category>
@@ -36728,7 +36741,7 @@
     <episode-num system="onscreen">S04E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s04e05-la-liberacion-de-la-ford-f3_l_m.jpg</image>
   </programme>
-  <programme start="20260712041400 +0000" stop="20260712050600 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712043000 +0000" stop="20260712052200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">GT Oh, no</sub-title>
     <category lang="es">Serie</category>
@@ -36736,7 +36749,7 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s04e06-gt-oh-no_l_m.jpg</image>
   </programme>
-  <programme start="20260712050600 +0000" stop="20260712055800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712052200 +0000" stop="20260712061100 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Mexicánicos: Estado de México</title>
     <sub-title lang="es">Cheyenne 1990 Pepe Aguilar + International 74 Paulo Orozco + Hormiga maneja</sub-title>
     <category lang="es">Serie</category>
@@ -36744,7 +36757,15 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712055800 +0000" stop="20260712065000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712052200 +0000" stop="20260712062200 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+    <title lang="es">Mexicánicos: Estado de México</title>
+    <sub-title lang="es">Cheyenne 1990 Pepe Aguilar + International 74 Paulo Orozco + Hormiga maneja</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260712061100 +0000" stop="20260712065900 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Joyas sobre ruedas</title>
     <sub-title lang="es">1976 Porsche 912E</sub-title>
     <category lang="es">Serie</category>
@@ -36752,15 +36773,7 @@
     <episode-num system="onscreen">S13E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_joyas-sobre-ruedas-s13e10-1963-sunbeam-alpine_l_m.jpg</image>
   </programme>
-  <programme start="20260712055800 +0000" stop="20260712065800 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
-    <title lang="es">Joyas sobre ruedas</title>
-    <sub-title lang="es">1976 Porsche 912E</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">12.9.0/1</episode-num>
-    <episode-num system="onscreen">S13E10</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_joyas-sobre-ruedas-s13e10-1963-sunbeam-alpine_l_m.jpg</image>
-  </programme>
-  <programme start="20260712065000 +0000" stop="20260712074000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712065900 +0000" stop="20260712074600 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">El dúo mecánico</title>
     <sub-title lang="es">La modificación del Pantera</sub-title>
     <category lang="es">Serie</category>
@@ -36768,7 +36781,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-duo-mecanico-s04e04_l_m.jpg</image>
   </programme>
-  <programme start="20260712074000 +0000" stop="20260712083000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712074600 +0000" stop="20260712083400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Texas Metal</title>
     <sub-title lang="es">El Buggy de Bill de 1500 caballos de fuerza</sub-title>
     <category lang="es">Serie</category>
@@ -36776,7 +36789,7 @@
     <episode-num system="onscreen">S05E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_texas-metal-s05e12-el-buggy-de-bill-de-1500-caballos-de-fuerza_l_m.jpg</image>
   </programme>
-  <programme start="20260712083000 +0000" stop="20260712092000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712083400 +0000" stop="20260712092400 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">La liberación de la Ford F3</sub-title>
     <category lang="es">Serie</category>
@@ -36784,7 +36797,7 @@
     <episode-num system="onscreen">S04E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s04e05-la-liberacion-de-la-ford-f3_l_m.jpg</image>
   </programme>
-  <programme start="20260712092000 +0000" stop="20260712101000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712092400 +0000" stop="20260712101300 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Invasión de garajes</title>
     <sub-title lang="es">GT Oh, no</sub-title>
     <category lang="es">Serie</category>
@@ -36792,7 +36805,7 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_invasion-de-garajes-s04e06-gt-oh-no_l_m.jpg</image>
   </programme>
-  <programme start="20260712101000 +0000" stop="20260712110000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
+  <programme start="20260712101300 +0000" stop="20260712110000 +0000" channel="DiscoveryTurboLatinAmerica.us@Panregional">
     <title lang="es">Mexicánicos: Estado de México</title>
     <sub-title lang="es">Cheyenne 1990 Pepe Aguilar + International 74 Paulo Orozco + Hormiga maneja</sub-title>
     <category lang="es">Serie</category>
@@ -42906,7 +42919,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_guerra-de-pasteles-s04e04-los-locos-addams_l_m.jpg</image>
   </programme>
-  <programme start="20260711090000 +0000" stop="20260711094400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711090000 +0000" stop="20260711094600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Chopped Junior</title>
     <sub-title lang="es">Los dulces</sub-title>
     <category lang="es">Serie</category>
@@ -42914,7 +42927,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_chopped-junior-s01e12-los-dulces_l_m.jpg</image>
   </programme>
-  <programme start="20260711094400 +0000" stop="20260711100600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711094600 +0000" stop="20260711101100 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Delicias de la playa con Katie Lee</title>
     <sub-title lang="es">La costa de Carolina del Sur</sub-title>
     <category lang="es">Serie</category>
@@ -42922,7 +42935,7 @@
     <episode-num system="onscreen">S03E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_delicias-de-la-playa-con-katie-lee-s03e05-la-costa-de-carolina-del-sur_l_m.jpg</image>
   </programme>
-  <programme start="20260711100600 +0000" stop="20260711102800 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711101100 +0000" stop="20260711103700 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Sabores de Italia</title>
     <sub-title lang="es">Favoritos venecianos</sub-title>
     <category lang="es">Serie</category>
@@ -42930,7 +42943,7 @@
     <episode-num system="onscreen">S11E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_sabores-de-italia-s11e20-favoritos-venecianos_l_m.jpg</image>
   </programme>
-  <programme start="20260711102800 +0000" stop="20260711111200 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711103700 +0000" stop="20260711112500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El mejor pastelero</title>
     <sub-title lang="es">El chocolate</sub-title>
     <category lang="es">Serie</category>
@@ -42938,7 +42951,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-mejor-pastelero-s02e07-chocolate-crescendo_l_m.jpg</image>
   </programme>
-  <programme start="20260711111200 +0000" stop="20260711115600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711112500 +0000" stop="20260711121500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Comidas exóticas</title>
     <sub-title lang="es">El Bronx</sub-title>
     <category lang="es">Serie</category>
@@ -42946,7 +42959,7 @@
     <episode-num system="onscreen">S08E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_comidas-exoticas-s08e06-el-bronx_l_m.jpg</image>
   </programme>
-  <programme start="20260711115600 +0000" stop="20260711124000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711121500 +0000" stop="20260711130400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Alex vs. América</title>
     <sub-title lang="es">Alex vs. Japón</sub-title>
     <category lang="es">Serie</category>
@@ -42954,7 +42967,7 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711124000 +0000" stop="20260711133000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711130400 +0000" stop="20260711135900 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Bobby Flay: triple desafío</title>
     <sub-title lang="es">Titans vs. Michael Symon</sub-title>
     <category lang="es">Serie</category>
@@ -42962,7 +42975,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711133000 +0000" stop="20260711142000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711135900 +0000" stop="20260711145400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Guerra de pasteles</title>
     <sub-title lang="es">¿Cómo entrenar a tu dragón?</sub-title>
     <category lang="es">Serie</category>
@@ -42970,7 +42983,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_guerra-de-pasteles-s03e04-como-entrenar-a-tu-dragon_l_m.jpg</image>
   </programme>
-  <programme start="20260711142000 +0000" stop="20260711144500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711145400 +0000" stop="20260711151900 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Las recetas de Daphne</title>
     <sub-title lang="es">Una cena para papá</sub-title>
     <category lang="es">Serie</category>
@@ -42978,7 +42991,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_las-recetas-de-daphne-s02e03-una-cena-para-papa_l_m.jpg</image>
   </programme>
-  <programme start="20260711144500 +0000" stop="20260711151000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711151900 +0000" stop="20260711154400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El pastel ideal</title>
     <sub-title lang="es">Doble problema</sub-title>
     <category lang="es">Serie</category>
@@ -42986,7 +42999,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711151000 +0000" stop="20260711153500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711154400 +0000" stop="20260711160900 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Kitchen Boss</title>
     <sub-title lang="es">Mercado campesino</sub-title>
     <category lang="es">Serie</category>
@@ -42994,7 +43007,7 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_kitchen-boss-s01e13-mercado-campesino_l_m.jpg</image>
   </programme>
-  <programme start="20260711153500 +0000" stop="20260711162500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711160900 +0000" stop="20260711170200 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Cupcake Wars</title>
     <sub-title lang="es">El festejo de las novias</sub-title>
     <category lang="es">Serie</category>
@@ -43002,7 +43015,7 @@
     <episode-num system="onscreen">S09E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_cupcake-wars-s09e06_l_m.jpg</image>
   </programme>
-  <programme start="20260711162500 +0000" stop="20260711165000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711170200 +0000" stop="20260711172700 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Derrota a Bobby Flay</title>
     <sub-title lang="es">El corte</sub-title>
     <category lang="es">Serie</category>
@@ -43010,7 +43023,7 @@
     <episode-num system="onscreen">S07E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_derrota-a-bobby-flay-s07e01-a-cut-above_l_m.jpg</image>
   </programme>
-  <programme start="20260711165000 +0000" stop="20260711174000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711172700 +0000" stop="20260711182100 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El mejor pastelero</title>
     <sub-title lang="es">Pastel, glorioso pastel</sub-title>
     <category lang="es">Serie</category>
@@ -43018,7 +43031,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-mejor-pastelero-s02e01-pastel-glorioso-pastel_l_m.jpg</image>
   </programme>
-  <programme start="20260711174000 +0000" stop="20260711183000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711182100 +0000" stop="20260711190600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Cupcake Wars</title>
     <sub-title lang="es">El parque embrujado de Rob Zombie</sub-title>
     <category lang="es">Serie</category>
@@ -43026,7 +43039,7 @@
     <episode-num system="onscreen">S09E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_cupcake-wars-s09e08_l_m.jpg</image>
   </programme>
-  <programme start="20260711183000 +0000" stop="20260711192000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711190600 +0000" stop="20260711195400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">En la cocina</title>
     <sub-title lang="es">Últimos días de verano</sub-title>
     <category lang="es">Serie</category>
@@ -43034,7 +43047,7 @@
     <episode-num system="onscreen">S18E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_en-la-cocina-s18e06-ultimos-dias-de-verano_l_m.jpg</image>
   </programme>
-  <programme start="20260711192000 +0000" stop="20260711201000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711195400 +0000" stop="20260711204100 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El mejor pastelero</title>
     <sub-title lang="es">El chocolate</sub-title>
     <category lang="es">Serie</category>
@@ -43042,7 +43055,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-mejor-pastelero-s02e07-chocolate-crescendo_l_m.jpg</image>
   </programme>
-  <programme start="20260711201000 +0000" stop="20260711210000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711204100 +0000" stop="20260711212700 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Guerra de pasteles</title>
     <sub-title lang="es">Willy Wonka</sub-title>
     <category lang="es">Serie</category>
@@ -43050,7 +43063,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_guerra-de-pasteles-s02e10-willy-wonka_l_m.jpg</image>
   </programme>
-  <programme start="20260711210000 +0000" stop="20260711215000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711212700 +0000" stop="20260711221600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Bobby Flay: triple desafío</title>
     <sub-title lang="es">Titans vs. Katsuji Tanabe</sub-title>
     <category lang="es">Serie</category>
@@ -43058,7 +43071,7 @@
     <episode-num system="onscreen">S03E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711215000 +0000" stop="20260711224000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711221600 +0000" stop="20260711230400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Alex vs. América</title>
     <sub-title lang="es">Alex vs. El suroeste</sub-title>
     <category lang="es">Serie</category>
@@ -43066,7 +43079,7 @@
     <episode-num system="onscreen">S04E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260711224000 +0000" stop="20260711230500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711230400 +0000" stop="20260711232800 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Rodando por América</title>
     <sub-title lang="es">Un sabroso viaje en el tiempo</sub-title>
     <category lang="es">Serie</category>
@@ -43074,7 +43087,7 @@
     <episode-num system="onscreen">S37E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_rodando-por-america-s37e12-un-sabroso-viaje-en-el-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20260711230500 +0000" stop="20260711233000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711232800 +0000" stop="20260711235300 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Hornea como Buddy</title>
     <sub-title lang="es">Pasteles de jengibre</sub-title>
     <category lang="es">Serie</category>
@@ -43082,7 +43095,7 @@
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_hornea-como-buddy-s01e18-pasteles-de-jengibre_l_m.jpg</image>
   </programme>
-  <programme start="20260711233000 +0000" stop="20260711235500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260711235300 +0000" stop="20260712001600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Comida casera con Ayesha</title>
     <sub-title lang="es">Almuerzo de chicas</sub-title>
     <category lang="es">Serie</category>
@@ -43090,7 +43103,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_comida-casera-con-ayesha-s02e04-ladies-lunch_l_m.jpg</image>
   </programme>
-  <programme start="20260711235500 +0000" stop="20260712005000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712001600 +0000" stop="20260712010100 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Food Truck: la gran carrera</title>
     <sub-title lang="es">Pelea de hamburguesas</sub-title>
     <category lang="es">Serie</category>
@@ -43098,7 +43111,7 @@
     <episode-num system="onscreen">S10E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_food-truck-la-gran-carrera-s10e05-pelea-de-hamburguesas_l_m.jpg</image>
   </programme>
-  <programme start="20260712005000 +0000" stop="20260712014000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712010100 +0000" stop="20260712015000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Alex vs. América</title>
     <sub-title lang="es">Alex vs. México</sub-title>
     <category lang="es">Serie</category>
@@ -43106,7 +43119,7 @@
     <episode-num system="onscreen">S05E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712014000 +0000" stop="20260712023000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712015000 +0000" stop="20260712023600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El pastel imbatible</title>
     <sub-title lang="es">Una princesa de Broadway</sub-title>
     <category lang="es">Serie</category>
@@ -43114,7 +43127,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-pastel-imbatible-s01e05-una-princesa-de-broadway_l_m.jpg</image>
   </programme>
-  <programme start="20260712023000 +0000" stop="20260712025500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712023600 +0000" stop="20260712025800 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Sabores de Italia</title>
     <sub-title lang="es">Napolitano</sub-title>
     <category lang="es">Serie</category>
@@ -43122,7 +43135,7 @@
     <episode-num system="onscreen">S11E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_sabores-de-italia-s11e19-napolitano_l_m.jpg</image>
   </programme>
-  <programme start="20260712025500 +0000" stop="20260712032000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712025800 +0000" stop="20260712032200 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Kitchen Boss</title>
     <sub-title lang="es">Fiesta de los 7 peces</sub-title>
     <category lang="es">Serie</category>
@@ -43130,7 +43143,7 @@
     <episode-num system="onscreen">S02E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_kitchen-boss-s02e24_l_m.jpg</image>
   </programme>
-  <programme start="20260712032000 +0000" stop="20260712034500 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712032200 +0000" stop="20260712034600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Selena + restaurante</title>
     <sub-title lang="es">Selena + Girl &amp; the Goat</sub-title>
     <category lang="es">Serie</category>
@@ -43138,7 +43151,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260712034500 +0000" stop="20260712041000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712034600 +0000" stop="20260712040800 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Man vs. Food</title>
     <sub-title lang="es">Charlotte, Carolina del Norte</sub-title>
     <category lang="es">Serie</category>
@@ -43146,7 +43159,7 @@
     <episode-num system="onscreen">S08E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_man-vs-food-s08e04-charlotte-carolina-del-norte_l_m.jpg</image>
   </programme>
-  <programme start="20260712041000 +0000" stop="20260712045400 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712040800 +0000" stop="20260712045300 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Cupcake Wars</title>
     <sub-title lang="es">Cupcakes mágicos</sub-title>
     <category lang="es">Serie</category>
@@ -43154,7 +43167,7 @@
     <episode-num system="onscreen">S07E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_cupcake-wars-s07e04_l_m.jpg</image>
   </programme>
-  <programme start="20260712045400 +0000" stop="20260712054200 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712045300 +0000" stop="20260712053800 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El mejor parrilero</title>
     <sub-title lang="es">Los parrileros de Kentucky</sub-title>
     <category lang="es">Serie</category>
@@ -43162,7 +43175,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-mejor-parrilero-s01e12-los-parrileros-de-kentucky_l_m.jpg</image>
   </programme>
-  <programme start="20260712054200 +0000" stop="20260712062600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712053800 +0000" stop="20260712063800 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Dulce genio</title>
     <sub-title lang="es">El susto</sub-title>
     <category lang="es">Serie</category>
@@ -43170,7 +43183,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dulce-genio-s02e10-el-susto_l_m.jpg</image>
   </programme>
-  <programme start="20260712054200 +0000" stop="20260712064200 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20260712054200 +0000" stop="20260712062600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Dulce genio</title>
     <sub-title lang="es">El susto</sub-title>
     <category lang="es">Serie</category>
@@ -61525,7 +61538,7 @@
   </programme>
   <programme start="20260711150000 +0000" stop="20260711152000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">El concurso picante / Confusión en la excavación</sub-title>
+    <sub-title lang="es">Confusión en la excavación</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -69022,7 +69035,7 @@
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/ar_sin-rodeos-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260711114900 +0000" stop="20260711130000 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260711114900 +0000" stop="20260711125900 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Castle</title>
     <sub-title lang="es">XX</sub-title>
     <category lang="es">Serie</category>
@@ -69030,7 +69043,7 @@
     <episode-num system="onscreen">S08E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_castle-s08e02-xx_l_m.jpg</image>
   </programme>
-  <programme start="20260711130000 +0000" stop="20260711134600 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260711125900 +0000" stop="20260711134600 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">3 Minutos - Chocolate</title>
     <sub-title lang="es">Pascua</sub-title>
     <category lang="es">Serie</category>
@@ -69079,34 +69092,34 @@
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260711225000 +0000" stop="20260712010000 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260711225000 +0000" stop="20260712005900 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Sexto sentido</title>
     <title lang="en">The Sixth Sense</title>
     <category lang="es">Thriller</category>
     <rating><value>8.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_sexto-sentido-1999_l_m.jpg</image>
   </programme>
-  <programme start="20260712010000 +0000" stop="20260712031500 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260712005900 +0000" stop="20260712031500 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">El menú</title>
     <title lang="en">The Menu</title>
     <category lang="es">Comedia</category>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712031500 +0000" stop="20260712053700 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260712031500 +0000" stop="20260712053600 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Luce</title>
     <title lang="en">Drama</title>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_luce-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260712053700 +0000" stop="20260712074200 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260712053600 +0000" stop="20260712074200 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Queen y Slim: los fugitivos</title>
     <title lang="en">Queen &amp; Slim</title>
     <category lang="es">Drama</category>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_queen-y-slim-los-fugitivos-2019-1_l_m.jpg</image>
   </programme>
-  <programme start="20260712053700 +0000" stop="20260712063700 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260712053600 +0000" stop="20260712063600 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Queen y Slim: los fugitivos</title>
     <title lang="en">Queen &amp; Slim</title>
     <category lang="es">Drama</category>
@@ -69194,7 +69207,7 @@
     <episode-num system="onscreen">S20E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_los-simpson-s20e19-waverly-hills-9021-d-oh_l_m.jpg</image>
   </programme>
-  <programme start="20260713002900 +0000" stop="20260713010000 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260713002900 +0000" stop="20260713005900 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Los Simpson</title>
     <sub-title lang="es">Cuatro grandes mujeres y manicures</sub-title>
     <category lang="es">Serie</category>
@@ -69202,7 +69215,7 @@
     <episode-num system="onscreen">S20E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_los-simpson-s20e20-four-great-women-and-manicures_l_m.jpg</image>
   </programme>
-  <programme start="20260713010000 +0000" stop="20260713032300 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260713005900 +0000" stop="20260713032300 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Free Guy: tomando el control</title>
     <title lang="en">Free Guy</title>
     <category lang="es">Acción</category>
@@ -69838,74 +69851,109 @@
     <episode-num system="onscreen">S01E44</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e44_l_m.jpg</image>
   </programme>
-  <programme start="20260712095200 +0000" stop="20260712113200 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712095200 +0000" stop="20260712100000 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Hollywood One on One</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.125.0/1</episode-num>
     <episode-num system="onscreen">S01E126</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e126_l_m.jpg</image>
   </programme>
-  <programme start="20260712113200 +0000" stop="20260712132700 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712100000 +0000" stop="20260712103700 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.45.0/1</episode-num>
+    <episode-num system="onscreen">S01E46</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e46_l_m.jpg</image>
+  </programme>
+  <programme start="20260712103700 +0000" stop="20260712111400 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.46.0/1</episode-num>
+    <episode-num system="onscreen">S01E47</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e47_l_m.jpg</image>
+  </programme>
+  <programme start="20260712111400 +0000" stop="20260712114900 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.47.0/1</episode-num>
+    <episode-num system="onscreen">S01E48</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e48_l_m.jpg</image>
+  </programme>
+  <programme start="20260712114900 +0000" stop="20260712115900 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e02_l_m.jpg</image>
+  </programme>
+  <programme start="20260712115900 +0000" stop="20260712120000 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.1.0/1</episode-num>
+    <episode-num system="onscreen">S15E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e02_l_m.jpg</image>
+  </programme>
+  <programme start="20260712120000 +0000" stop="20260712135200 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Estafa telefónica</title>
     <title lang="en">Boiseu</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712132700 +0000" stop="20260712152900 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712135200 +0000" stop="20260712155000 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Cita en San Luis</title>
     <title lang="en">Meet Me in St. Louis</title>
     <category lang="es">Musical</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712152900 +0000" stop="20260712174200 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712155000 +0000" stop="20260712175800 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Batman</title>
     <title lang="en">Acción</title>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_batman-1989_l_m.jpg</image>
   </programme>
-  <programme start="20260712174200 +0000" stop="20260712200900 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712175800 +0000" stop="20260712202200 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Con la muerte en los talones</title>
     <title lang="en">North by Northwest</title>
     <category lang="es">Aventura</category>
     <rating><value>8.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712200900 +0000" stop="20260712220200 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712202200 +0000" stop="20260712221000 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Desfile de Pascua</title>
     <title lang="en">Easter Parade</title>
     <category lang="es">Musical</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260712220200 +0000" stop="20260712234800 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712221000 +0000" stop="20260712235100 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Europe Raiders</title>
     <title lang="en">Ou Zhou gong lue</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_europe-raiders-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260712234800 +0000" stop="20260713020000 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260712235100 +0000" stop="20260713020000 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Ámame o déjame</title>
     <title lang="en">Love Me or Leave Me</title>
     <category lang="es">Drama</category>
     <rating><value>7.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_amame-o-dejame-1955_l_m.jpg</image>
   </programme>
-  <programme start="20260713020000 +0000" stop="20260713035300 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260713020000 +0000" stop="20260713034900 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Fuga de Pretoria</title>
     <title lang="en">Escape from Pretoria</title>
     <category lang="es">Thriller</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_fuga-de-pretoria-2020_l_m.jpg</image>
   </programme>
-  <programme start="20260713035300 +0000" stop="20260713055400 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260713034900 +0000" stop="20260713054600 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Historias de Filadelfia</title>
     <title lang="en">The Philadelphia Story</title>
     <category lang="es">Comedia</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260713055400 +0000" stop="20260713065400 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260713054600 +0000" stop="20260713064600 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Río Bravo</title>
     <title lang="en">Western</title>
     <rating><value>8.0</value></rating>
