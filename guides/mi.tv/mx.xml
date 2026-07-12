@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260712140622 +0000">
+<tv generator-info-name="custom-epg" date="20260712162301 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -376,18 +378,16 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <programme start="20260712055500 +0000" stop="20260712065000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Parish</title>
@@ -684,14 +684,14 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_alfa-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260714040000 +0000" stop="20260714061500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260714040000 +0000" stop="20260714050000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Los ángeles de Charlie</title>
     <title lang="en">Charlie&apos;s Angels</title>
     <category lang="es">Acción</category>
     <rating><value>4.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_los-angeles-de-charlie-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260714040000 +0000" stop="20260714050000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260714040000 +0000" stop="20260714061500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Los ángeles de Charlie</title>
     <title lang="en">Charlie&apos;s Angels</title>
     <category lang="es">Acción</category>
@@ -3753,7 +3753,7 @@
   </programme>
   <programme start="20260714035200 +0000" stop="20260714040400 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Skips&apos; Luau</sub-title>
+    <sub-title lang="es">Arregla esa cinta</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -4577,7 +4577,7 @@
   </programme>
   <programme start="20260715035000 +0000" stop="20260715040000 +0000" channel="CartoonNetworkLatinAmerica.us@Mexico">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Skips&apos; Luau</sub-title>
+    <sub-title lang="es">Arregla esa cinta</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -12225,14 +12225,6 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260713051400 +0000" stop="20260713060600 +0000" channel="mx#animal-planet">
-    <title lang="es">Cazadores de dinosaurios</title>
-    <sub-title lang="es">Esta cosa es un monstruo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
-    <episode-num system="onscreen">S02E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
   <programme start="20260713055700 +0000" stop="20260713065700 +0000" channel="mx#animal-planet">
     <title lang="es">Animales en riesgo: Houston</title>
     <category lang="es">Serie</category>
@@ -12240,14 +12232,14 @@
     <episode-num system="onscreen">S19E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_animales-en-riesgo-houston-s19e06_l_m.jpg</image>
   </programme>
-  <programme start="20260713060600 +0000" stop="20260713065800 +0000" channel="mx#animal-planet">
+  <programme start="20260713055700 +0000" stop="20260713064900 +0000" channel="mx#animal-planet">
     <title lang="es">Animales en riesgo: Houston</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">18.5.0/1</episode-num>
     <episode-num system="onscreen">S19E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_animales-en-riesgo-houston-s19e06_l_m.jpg</image>
   </programme>
-  <programme start="20260713065800 +0000" stop="20260713075000 +0000" channel="mx#animal-planet">
+  <programme start="20260713064900 +0000" stop="20260713073700 +0000" channel="mx#animal-planet">
     <title lang="es">Piscinas increíbles</title>
     <sub-title lang="es">Los patios más paradisíacos</sub-title>
     <category lang="es">Serie</category>
@@ -12255,7 +12247,7 @@
     <episode-num system="onscreen">S03E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_piscinas-increibles-s03e01-en-la-cima-de-la-montana_l_m.jpg</image>
   </programme>
-  <programme start="20260713075000 +0000" stop="20260713084000 +0000" channel="mx#animal-planet">
+  <programme start="20260713073700 +0000" stop="20260713082500 +0000" channel="mx#animal-planet">
     <title lang="es">Guaridas con estilo</title>
     <sub-title lang="es">La guarida del dragón</sub-title>
     <category lang="es">Serie</category>
@@ -12263,7 +12255,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guaridas-con-estilo-s02e09-la-guarida-del-dragon_l_m.jpg</image>
   </programme>
-  <programme start="20260713084000 +0000" stop="20260713093000 +0000" channel="mx#animal-planet">
+  <programme start="20260713082500 +0000" stop="20260713091300 +0000" channel="mx#animal-planet">
     <title lang="es">Guaridas con estilo</title>
     <sub-title lang="es">Centro de rescate renovado</sub-title>
     <category lang="es">Serie</category>
@@ -12271,7 +12263,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guaridas-con-estilo-s02e10-centro-de-rescate-renovado_l_m.jpg</image>
   </programme>
-  <programme start="20260713093000 +0000" stop="20260713102000 +0000" channel="mx#animal-planet">
+  <programme start="20260713091300 +0000" stop="20260713101900 +0000" channel="mx#animal-planet">
     <title lang="es">Cazadores de dinosaurios</title>
     <sub-title lang="es">Mortalidad masiva de mamuts</sub-title>
     <category lang="es">Serie</category>
@@ -12279,7 +12271,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260713102000 +0000" stop="20260713111000 +0000" channel="mx#animal-planet">
+  <programme start="20260713101900 +0000" stop="20260713110700 +0000" channel="mx#animal-planet">
     <title lang="es">Cazadores de dinosaurios</title>
     <sub-title lang="es">Esta cosa es un monstruo</sub-title>
     <category lang="es">Serie</category>
@@ -12287,14 +12279,14 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260713111000 +0000" stop="20260713120000 +0000" channel="mx#animal-planet">
+  <programme start="20260713110700 +0000" stop="20260713120000 +0000" channel="mx#animal-planet">
     <title lang="es">Animales en riesgo: Houston</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">18.5.0/1</episode-num>
     <episode-num system="onscreen">S19E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_animales-en-riesgo-houston-s19e06_l_m.jpg</image>
   </programme>
-  <programme start="20260713120000 +0000" stop="20260713125000 +0000" channel="mx#animal-planet">
+  <programme start="20260713120000 +0000" stop="20260713125700 +0000" channel="mx#animal-planet">
     <title lang="es">Los Irwin</title>
     <sub-title lang="es">Oscar el podargo</sub-title>
     <category lang="es">Serie</category>
@@ -12302,7 +12294,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_los-irwin-s02e03-oscar-el-podargo_l_m.jpg</image>
   </programme>
-  <programme start="20260713125000 +0000" stop="20260713134000 +0000" channel="mx#animal-planet">
+  <programme start="20260713125700 +0000" stop="20260713134900 +0000" channel="mx#animal-planet">
     <title lang="es">Veterinarios de Texas</title>
     <sub-title lang="es">Renovación de votos</sub-title>
     <category lang="es">Serie</category>
@@ -12310,7 +12302,7 @@
     <episode-num system="onscreen">S02E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_veterinarios-de-texas-s02e11-renovacion-de-votos_l_m.jpg</image>
   </programme>
-  <programme start="20260713134000 +0000" stop="20260713143000 +0000" channel="mx#animal-planet">
+  <programme start="20260713134900 +0000" stop="20260713144100 +0000" channel="mx#animal-planet">
     <title lang="es">Mascotas revoltosas</title>
     <sub-title lang="es">Aficionados a la comida</sub-title>
     <category lang="es">Serie</category>
@@ -12318,7 +12310,7 @@
     <episode-num system="onscreen">S03E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mascotas-revoltosas-s03e08-aficionados-a-la-comida_l_m.jpg</image>
   </programme>
-  <programme start="20260713143000 +0000" stop="20260713152200 +0000" channel="mx#animal-planet">
+  <programme start="20260713144100 +0000" stop="20260713153300 +0000" channel="mx#animal-planet">
     <title lang="es">El zoológico del Bronx</title>
     <sub-title lang="es">Un jabalí verrugoso llamado Peaches</sub-title>
     <category lang="es">Serie</category>
@@ -12326,7 +12318,7 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-zoologico-del-bronx-s03e07-un-jabali-verrugoso-llamado-peaches_l_m.jpg</image>
   </programme>
-  <programme start="20260713152200 +0000" stop="20260713161400 +0000" channel="mx#animal-planet">
+  <programme start="20260713153300 +0000" stop="20260713162500 +0000" channel="mx#animal-planet">
     <title lang="es">El zoológico del Bronx</title>
     <sub-title lang="es">Canguros en los árboles</sub-title>
     <category lang="es">Serie</category>
@@ -12334,7 +12326,7 @@
     <episode-num system="onscreen">S05E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-zoologico-del-bronx-s05e10-tormenta-en-bronx_l_m.jpg</image>
   </programme>
-  <programme start="20260713161400 +0000" stop="20260713170600 +0000" channel="mx#animal-planet">
+  <programme start="20260713162500 +0000" stop="20260713171700 +0000" channel="mx#animal-planet">
     <title lang="es">Mascotas revoltosas</title>
     <sub-title lang="es">Enemigos de la comida</sub-title>
     <category lang="es">Serie</category>
@@ -12342,7 +12334,7 @@
     <episode-num system="onscreen">S03E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mascotas-revoltosas-s03e03-enemigos-de-la-comida_l_m.jpg</image>
   </programme>
-  <programme start="20260713170600 +0000" stop="20260713175800 +0000" channel="mx#animal-planet">
+  <programme start="20260713171700 +0000" stop="20260713180600 +0000" channel="mx#animal-planet">
     <title lang="es">Piscinas increíbles</title>
     <sub-title lang="es">Los patios más paradisíacos</sub-title>
     <category lang="es">Serie</category>
@@ -12350,7 +12342,7 @@
     <episode-num system="onscreen">S03E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_piscinas-increibles-s03e01-en-la-cima-de-la-montana_l_m.jpg</image>
   </programme>
-  <programme start="20260713175800 +0000" stop="20260713185000 +0000" channel="mx#animal-planet">
+  <programme start="20260713180600 +0000" stop="20260713185500 +0000" channel="mx#animal-planet">
     <title lang="es">Guaridas con estilo</title>
     <sub-title lang="es">La guarida del dragón</sub-title>
     <category lang="es">Serie</category>
@@ -12358,7 +12350,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guaridas-con-estilo-s02e09-la-guarida-del-dragon_l_m.jpg</image>
   </programme>
-  <programme start="20260713185000 +0000" stop="20260713194200 +0000" channel="mx#animal-planet">
+  <programme start="20260713185500 +0000" stop="20260713194400 +0000" channel="mx#animal-planet">
     <title lang="es">Guaridas con estilo</title>
     <sub-title lang="es">Centro de rescate renovado</sub-title>
     <category lang="es">Serie</category>
@@ -12366,7 +12358,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_guaridas-con-estilo-s02e10-centro-de-rescate-renovado_l_m.jpg</image>
   </programme>
-  <programme start="20260713194200 +0000" stop="20260713203400 +0000" channel="mx#animal-planet">
+  <programme start="20260713194400 +0000" stop="20260713203300 +0000" channel="mx#animal-planet">
     <title lang="es">Cazadores de dinosaurios</title>
     <sub-title lang="es">Mortalidad masiva de mamuts</sub-title>
     <category lang="es">Serie</category>
@@ -12374,7 +12366,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260713203400 +0000" stop="20260713212600 +0000" channel="mx#animal-planet">
+  <programme start="20260713203300 +0000" stop="20260713212200 +0000" channel="mx#animal-planet">
     <title lang="es">Cazadores de dinosaurios</title>
     <sub-title lang="es">Esta cosa es un monstruo</sub-title>
     <category lang="es">Serie</category>
@@ -12382,14 +12374,14 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260713212600 +0000" stop="20260713221800 +0000" channel="mx#animal-planet">
+  <programme start="20260713212200 +0000" stop="20260713221400 +0000" channel="mx#animal-planet">
     <title lang="es">Animales en riesgo: Houston</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">18.5.0/1</episode-num>
     <episode-num system="onscreen">S19E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_animales-en-riesgo-houston-s19e06_l_m.jpg</image>
   </programme>
-  <programme start="20260713221800 +0000" stop="20260713231000 +0000" channel="mx#animal-planet">
+  <programme start="20260713221400 +0000" stop="20260713230700 +0000" channel="mx#animal-planet">
     <title lang="es">Crikey! It&apos;s the Irwins: Extra Bites</title>
     <sub-title lang="es">La jirafa más alta</sub-title>
     <category lang="es">Serie</category>
@@ -12397,7 +12389,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260713231000 +0000" stop="20260714000200 +0000" channel="mx#animal-planet">
+  <programme start="20260713230700 +0000" stop="20260714000000 +0000" channel="mx#animal-planet">
     <title lang="es">Criaturas misteriosas</title>
     <sub-title lang="es">El demonio de Perú</sub-title>
     <category lang="es">Serie</category>
@@ -12405,7 +12397,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260714000200 +0000" stop="20260714005400 +0000" channel="mx#animal-planet">
+  <programme start="20260714000000 +0000" stop="20260714005300 +0000" channel="mx#animal-planet">
     <title lang="es">Dra. Dee: veterinaria de Alaska</title>
     <sub-title lang="es">Las cuarenta serpientes</sub-title>
     <category lang="es">Serie</category>
@@ -12413,7 +12405,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_dra-dee-veterinaria-de-alaska-s02e09_l_m.jpg</image>
   </programme>
-  <programme start="20260714005400 +0000" stop="20260714012000 +0000" channel="mx#animal-planet">
+  <programme start="20260714005300 +0000" stop="20260714011900 +0000" channel="mx#animal-planet">
     <title lang="es">Los secretos del reino animal</title>
     <sub-title lang="es">Rinocerontes cariñosos y narices extrañas</sub-title>
     <category lang="es">Serie</category>
@@ -12421,7 +12413,7 @@
     <episode-num system="onscreen">S01E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_los-secretos-del-reino-animal-s01e29-rinocerontes-carinosos-y-narices-extranas_l_m.jpg</image>
   </programme>
-  <programme start="20260714012000 +0000" stop="20260714014600 +0000" channel="mx#animal-planet">
+  <programme start="20260714011900 +0000" stop="20260714014500 +0000" channel="mx#animal-planet">
     <title lang="es">Los secretos del reino animal</title>
     <sub-title lang="es">Caballitos de mar y pájaros</sub-title>
     <category lang="es">Serie</category>
@@ -12429,7 +12421,7 @@
     <episode-num system="onscreen">S01E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_los-secretos-del-reino-animal-s01e30-caballitos-de-mar-y-pajaros_l_m.jpg</image>
   </programme>
-  <programme start="20260714014600 +0000" stop="20260714023800 +0000" channel="mx#animal-planet">
+  <programme start="20260714014500 +0000" stop="20260714023800 +0000" channel="mx#animal-planet">
     <title lang="es">Los Irwin</title>
     <sub-title lang="es">Un gran día para el pequeño rinoceronte</sub-title>
     <category lang="es">Serie</category>
