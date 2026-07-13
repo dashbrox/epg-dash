@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260713172946 +0000">
+<tv generator-info-name="custom-epg" date="20260713195726 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -57,9 +57,6 @@
     <display-name>BYUtv</display-name>
     <icon src="https://i.imgur.com/mruGyuu.png"/>
   </channel>
-  <channel id="pe#de-pelicula">
-    <display-name>De Película</display-name>
-  </channel>
   <channel id="ATVPlus.pe@SD">
     <display-name>ATV +</display-name>
     <icon src="https://i.imgur.com/fY9256H.png"/>
@@ -91,6 +88,9 @@
   </channel>
   <channel id="pe#cinema">
     <display-name>Cinema+</display-name>
+  </channel>
+  <channel id="pe#rt-tv-russia-today">
+    <display-name>Russia Today</display-name>
   </channel>
   <channel id="pe#ritmoson-latino">
     <display-name>RMS</display-name>
@@ -277,14 +277,14 @@
   <channel id="pe#destinos-tv">
     <display-name>Destinos TV</display-name>
   </channel>
-  <channel id="pe#tlnovelas">
-    <display-name>TLNovelas</display-name>
+  <channel id="pe#de-pelicula">
+    <display-name>De Película</display-name>
   </channel>
   <channel id="pe#televen">
     <display-name>Televen</display-name>
   </channel>
-  <channel id="pe#telesur">
-    <display-name>Telesur</display-name>
+  <channel id="pe#telenostalgia">
+    <display-name>Telenostalgia</display-name>
   </channel>
   <channel id="pe#telemundo">
     <display-name>Telemundo</display-name>
@@ -296,8 +296,8 @@
     <display-name>Telefuturo</display-name>
     <icon src="https://i.imgur.com/6lVrFvb.png"/>
   </channel>
-  <channel id="pe#tcm">
-    <display-name>TCM</display-name>
+  <channel id="pe#tbs-veryfunny-pan">
+    <display-name>TBS</display-name>
   </channel>
   <channel id="pe#syfy">
     <display-name>Syfy</display-name>
@@ -307,10 +307,6 @@
   </channel>
   <channel id="pe#sony">
     <display-name>Sony</display-name>
-  </channel>
-  <channel id="RumbaTV.co@SD">
-    <display-name>Rumba TV</display-name>
-    <icon src="https://i.imgur.com/WtVpWwI.png"/>
   </channel>
   <channel id="WillaxTV.pe@SD">
     <display-name>Willax</display-name>
@@ -347,11 +343,15 @@
   <channel id="pe#tnt">
     <display-name>TNT</display-name>
   </channel>
-  <channel id="pe#tbs-veryfunny-pan">
-    <display-name>TBS</display-name>
+  <channel id="pe#tlnovelas">
+    <display-name>TLNovelas</display-name>
   </channel>
-  <channel id="pe#rt-tv-russia-today">
-    <display-name>Russia Today</display-name>
+  <channel id="pe#tcm">
+    <display-name>TCM</display-name>
+  </channel>
+  <channel id="RumbaTV.co@SD">
+    <display-name>Rumba TV</display-name>
+    <icon src="https://i.imgur.com/WtVpWwI.png"/>
   </channel>
   <channel id="UnitelSantaCruz.bo@SD">
     <display-name>Unitel</display-name>
@@ -360,8 +360,8 @@
   <channel id="pe#tv-agro">
     <display-name>Tv Agro</display-name>
   </channel>
-  <channel id="pe#telenostalgia">
-    <display-name>Telenostalgia</display-name>
+  <channel id="pe#telesur">
+    <display-name>Telesur</display-name>
   </channel>
   <programme start="20260713103000 +0000" stop="20260713113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -24089,12 +24089,12 @@
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/pe_el-padrecito-1964_l_m.jpg</image>
   </programme>
-  <programme start="20260714043800 +0000" stop="20260714053800 +0000" channel="pe#de-pelicula">
+  <programme start="20260714043800 +0000" stop="20260714063900 +0000" channel="pe#de-pelicula">
     <title lang="es">Frida, naturaleza viva</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/pe_frida-naturaleza-viva-1983_l_m.jpg</image>
   </programme>
-  <programme start="20260714043800 +0000" stop="20260714063900 +0000" channel="pe#de-pelicula">
+  <programme start="20260714043800 +0000" stop="20260714053800 +0000" channel="pe#de-pelicula">
     <title lang="es">Frida, naturaleza viva</title>
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/pe_frida-naturaleza-viva-1983_l_m.jpg</image>
@@ -47983,13 +47983,13 @@
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_kung-fusion-2004_l_m.jpg</image>
   </programme>
-  <programme start="20260715055900 +0000" stop="20260715073800 +0000" channel="pe#space">
+  <programme start="20260715055900 +0000" stop="20260715065900 +0000" channel="pe#space">
     <title lang="es">¿Por qué no te mueres?</title>
     <title lang="en">Papa, sdokhni</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/pe_por-que-no-te-mueres-2018_l_m.jpg</image>
   </programme>
-  <programme start="20260715055900 +0000" stop="20260715065900 +0000" channel="pe#space">
+  <programme start="20260715055900 +0000" stop="20260715073800 +0000" channel="pe#space">
     <title lang="es">¿Por qué no te mueres?</title>
     <title lang="en">Papa, sdokhni</title>
     <category lang="es">Drama</category>
@@ -48271,14 +48271,14 @@
     <title lang="en">Crimen</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260715051600 +0000" stop="20260715061600 +0000" channel="pe#tcm">
+  <programme start="20260715051600 +0000" stop="20260715072800 +0000" channel="pe#tcm">
     <title lang="es">Un tranvía llamado deseo</title>
     <title lang="en">A Streetcar Named Desire</title>
     <category lang="es">Drama</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_un-tranvia-llamado-deseo-1951_l_m.jpg</image>
   </programme>
-  <programme start="20260715051600 +0000" stop="20260715072800 +0000" channel="pe#tcm">
+  <programme start="20260715051600 +0000" stop="20260715061600 +0000" channel="pe#tcm">
     <title lang="es">Un tranvía llamado deseo</title>
     <title lang="en">A Streetcar Named Desire</title>
     <category lang="es">Drama</category>
