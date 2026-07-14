@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260714195419 +0000">
+<tv generator-info-name="custom-epg" date="20260714221903 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
   </channel>
-  <channel id="pe#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
   </channel>
-  <channel id="pe#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
+  <channel id="pe#america-television">
+    <display-name>América Televisión</display-name>
   </channel>
   <channel id="pe#universal-channel">
     <display-name>Universal TV</display-name>
@@ -354,14 +353,15 @@
   <channel id="pe#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="pe#america-television">
-    <display-name>América Televisión</display-name>
+  <channel id="pe#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
+  <channel id="pe#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
   <programme start="20260714103000 +0000" stop="20260714113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -3275,9 +3275,9 @@
     <image>https://cdn.mitvstatic.com/programs/pe_nutrissa_l_m.jpg</image>
   </programme>
   <programme start="20260714183000 +0000" stop="20260714190000 +0000" channel="LaTele.pe@SD">
-    <title lang="es">Cámara loca</title>
-    <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_camara-loca_l_m.jpg</image>
+    <title lang="es">Popcorn TV</title>
+    <category lang="es">Cine</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_popcorn-tv_l_m.jpg</image>
   </programme>
   <programme start="20260714190000 +0000" stop="20260714200000 +0000" channel="LaTele.pe@SD">
     <title lang="es">Nutrissa</title>
@@ -3306,10 +3306,15 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/pe_revenge_l_m.jpg</image>
   </programme>
-  <programme start="20260714230000 +0000" stop="20260715030000 +0000" channel="LaTele.pe@SD">
+  <programme start="20260714230000 +0000" stop="20260715020000 +0000" channel="LaTele.pe@SD">
     <title lang="es">Érase una vez</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/pe_erase-una-vez_l_m.jpg</image>
+  </programme>
+  <programme start="20260715020000 +0000" stop="20260715030000 +0000" channel="LaTele.pe@SD">
+    <title lang="es">Isabel</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_isabel_l_m.jpg</image>
   </programme>
   <programme start="20260715030000 +0000" stop="20260715040000 +0000" channel="LaTele.pe@SD">
     <title lang="es">Bandolera</title>
@@ -8300,13 +8305,13 @@
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260715045500 +0000" stop="20260715070000 +0000" channel="pe#amc">
+  <programme start="20260715045500 +0000" stop="20260715055500 +0000" channel="pe#amc">
     <title lang="es">Un paseo por las tumbas</title>
     <title lang="en">A Walk Among the Tombstones</title>
     <category lang="es">Misterio</category>
     <image>https://cdn.mitvstatic.com/programs/pe_un-paseo-por-las-tumbas-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260715045500 +0000" stop="20260715055500 +0000" channel="pe#amc">
+  <programme start="20260715045500 +0000" stop="20260715070000 +0000" channel="pe#amc">
     <title lang="es">Un paseo por las tumbas</title>
     <title lang="en">A Walk Among the Tombstones</title>
     <category lang="es">Misterio</category>
@@ -55576,7 +55581,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s01e09-cooper-hofstadter-polarization_l_m.jpg</image>
   </programme>
-  <programme start="20260715055600 +0000" stop="20260715061800 +0000" channel="pe#warner">
+  <programme start="20260715055600 +0000" stop="20260715065600 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La resultante de Loobenfeld</sub-title>
     <category lang="es">Serie</category>
@@ -55584,7 +55589,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s01e10-the-loobenfeld-decay_l_m.jpg</image>
   </programme>
-  <programme start="20260715055600 +0000" stop="20260715065600 +0000" channel="pe#warner">
+  <programme start="20260715055600 +0000" stop="20260715061800 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La resultante de Loobenfeld</sub-title>
     <category lang="es">Serie</category>
