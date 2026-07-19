@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260719035945 +0000">
+<tv generator-info-name="custom-epg" date="20260719083628 +0000">
   <channel id="247CanaldeNoticias.ar@SD">
     <display-name>24/7 Canal de Noticias</display-name>
     <icon src="https://i.imgur.com/4hDCB1M.png"/>
-  </channel>
-  <channel id="Canal26.ar@SD">
-    <display-name>Canal 26</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
   </channel>
   <channel id="ZooMoo.sg@SD">
     <display-name>ZooMoo</display-name>
@@ -783,6 +779,10 @@
   <channel id="Atrescine.es@SD">
     <display-name>Atrescine</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
+  </channel>
+  <channel id="Canal26.ar@SD">
+    <display-name>Canal 26</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
   </channel>
   <programme start="20260719030000 +0000" stop="20260719090000 +0000" channel="247CanaldeNoticias.ar@SD">
     <title lang="es">Trasnoche de 24/7</title>
@@ -2317,17 +2317,17 @@
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/ar_el-superagente-86_l_m.jpg</image>
   </programme>
-  <programme start="20260719191500 +0000" stop="20260719213000 +0000" channel="AmericaTV.ar@SD">
+  <programme start="20260719191500 +0000" stop="20260719220000 +0000" channel="AmericaTV.ar@SD">
     <title lang="es">Secretos verdaderos de colección</title>
     <title lang="en">Especial</title>
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/ar_secretos-verdaderos-de-coleccion-1_l_m.jpg</image>
   </programme>
-  <programme start="20260719213000 +0000" stop="20260720030000 +0000" channel="AmericaTV.ar@SD">
+  <programme start="20260719220000 +0000" stop="20260720030000 +0000" channel="AmericaTV.ar@SD">
     <title lang="es">América noticias - Edición especial</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Gran cobertura desde Nueva York, la argentina y el mundo</title>
+    <category lang="es">- Gran cobertura desde Nueva York, la argentina y el mundo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260720030000 +0000" stop="20260720040000 +0000" channel="AmericaTV.ar@SD">
     <title lang="es">Modo Selfie</title>
@@ -4980,14 +4980,6 @@
     <episode-num system="onscreen">S05E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e14-fuego-y-furia_l_m.jpg</image>
   </programme>
-  <programme start="20260721055200 +0000" stop="20260721063900 +0000" channel="ar#discovery-hd-charvz">
-    <title lang="es">Cámara policial</title>
-    <sub-title lang="es">Pelear, huir o correr</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.14.0/1</episode-num>
-    <episode-num system="onscreen">S05E15</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e15-pelear-huir-o-correr_l_m.jpg</image>
-  </programme>
   <programme start="20260721055200 +0000" stop="20260721065200 +0000" channel="ar#discovery-hd-charvz">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Pelear, huir o correr</sub-title>
@@ -4996,7 +4988,15 @@
     <episode-num system="onscreen">S05E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e15-pelear-huir-o-correr_l_m.jpg</image>
   </programme>
-  <programme start="20260721063900 +0000" stop="20260721072600 +0000" channel="ar#discovery-hd-charvz">
+  <programme start="20260721055400 +0000" stop="20260721064100 +0000" channel="ar#discovery-hd-charvz">
+    <title lang="es">Cámara policial</title>
+    <sub-title lang="es">Pelear, huir o correr</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.14.0/1</episode-num>
+    <episode-num system="onscreen">S05E15</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e15-pelear-huir-o-correr_l_m.jpg</image>
+  </programme>
+  <programme start="20260721064100 +0000" stop="20260721072600 +0000" channel="ar#discovery-hd-charvz">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Ayuda, ayuda</sub-title>
     <category lang="es">Serie</category>
@@ -5004,7 +5004,7 @@
     <episode-num system="onscreen">S05E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e16-ayuda-ayuda_l_m.jpg</image>
   </programme>
-  <programme start="20260721072600 +0000" stop="20260721081300 +0000" channel="ar#discovery-hd-charvz">
+  <programme start="20260721072600 +0000" stop="20260721081200 +0000" channel="ar#discovery-hd-charvz">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Ayuda, ayuda</sub-title>
     <category lang="es">Serie</category>
@@ -5012,7 +5012,7 @@
     <episode-num system="onscreen">S05E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_camara-policial-s05e16-ayuda-ayuda_l_m.jpg</image>
   </programme>
-  <programme start="20260721081300 +0000" stop="20260721090000 +0000" channel="ar#discovery-hd-charvz">
+  <programme start="20260721081200 +0000" stop="20260721090000 +0000" channel="ar#discovery-hd-charvz">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Cumplir el deber</sub-title>
     <category lang="es">Serie</category>
@@ -17021,23 +17021,30 @@
     <category lang="es">Deportes 5</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260721170000 +0000" stop="20260721193000 +0000" channel="Canal5.uy@SD">
+  <programme start="20260721170000 +0000" stop="20260721190000 +0000" channel="Canal5.uy@SD">
     <title lang="es">Buscadores</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/ar_buscadores_l_m.jpg</image>
   </programme>
-  <programme start="20260721193000 +0000" stop="20260721203000 +0000" channel="Canal5.uy@SD">
+  <programme start="20260721190000 +0000" stop="20260721193000 +0000" channel="Canal5.uy@SD">
+    <title lang="es">En forma</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260721193000 +0000" stop="20260721200000 +0000" channel="Canal5.uy@SD">
     <title lang="es">El canal de la niñez</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260721203000 +0000" stop="20260721213000 +0000" channel="Canal5.uy@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20260721200000 +0000" stop="20260721213000 +0000" channel="Canal5.uy@SD">
+    <title lang="es">Como estamos hoy</title>
+    <title lang="en">Magazine</title>
+    <category lang="es">Magazine</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260721213000 +0000" stop="20260721233000 +0000" channel="Canal5.uy@SD">
     <title lang="es">Noticias 5 - Edición central</title>
@@ -17051,11 +17058,26 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/ar_epa_l_m.jpg</image>
   </programme>
-  <programme start="20260722000000 +0000" stop="20260722020000 +0000" channel="Canal5.uy@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20260722000000 +0000" stop="20260722010000 +0000" channel="Canal5.uy@SD">
+    <title lang="es">Mentores</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.0.0/1</episode-num>
+    <episode-num system="onscreen">S02E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260722010000 +0000" stop="20260722013000 +0000" channel="Canal5.uy@SD">
+    <title lang="es">De que las hay, las hay</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260722013000 +0000" stop="20260722020000 +0000" channel="Canal5.uy@SD">
+    <title lang="es">En forma</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">25.1.0/1</episode-num>
+    <episode-num system="onscreen">S26E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260722020000 +0000" stop="20260722030000 +0000" channel="Canal5.uy@SD">
     <title lang="es">Las voces del fútbol</title>
@@ -17517,13 +17539,13 @@
     <category lang="es">Turismo</category>
     <image>https://cdn.mitvstatic.com/programs/ar_el-turismo-y-la-hospitalidad_l_m.jpg</image>
   </programme>
-  <programme start="20260720040000 +0000" stop="20260720050000 +0000" channel="Canal26.ar@SD">
+  <programme start="20260720040000 +0000" stop="20260720090000 +0000" channel="Canal26.ar@SD">
     <title lang="es">Resumen 26</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/ar_resumen-26_l_m.jpg</image>
   </programme>
-  <programme start="20260720040000 +0000" stop="20260720090000 +0000" channel="Canal26.ar@SD">
+  <programme start="20260720040000 +0000" stop="20260720050000 +0000" channel="Canal26.ar@SD">
     <title lang="es">Resumen 26</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
@@ -26076,10 +26098,10 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260721053000 +0000" stop="20260721070000 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">Tolerancia 0</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tolerancia-0_l_m.jpg</image>
+    <title lang="es">Tolerancia cero</title>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_tolerancia-cero_l_m.jpg</image>
   </programme>
   <programme start="20260721053000 +0000" stop="20260721063000 +0000" channel="CNNChile.cl@SD">
     <title lang="es">Tolerancia 0</title>
@@ -26094,7 +26116,7 @@
     <image>https://cdn.mitvstatic.com/programs/ar_ultima-mirada_l_m.jpg</image>
   </programme>
   <programme start="20260721073000 +0000" stop="20260721083000 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">Pares e impares</title>
+    <title lang="es">Pares impares</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -26112,16 +26134,16 @@
     <image>https://cdn.mitvstatic.com/programs/ar_ultima-mirada_l_m.jpg</image>
   </programme>
   <programme start="20260721093000 +0000" stop="20260721100000 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">Tolerancia 0</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tolerancia-0_l_m.jpg</image>
+    <title lang="es">Tolerancia cero</title>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_tolerancia-cero_l_m.jpg</image>
   </programme>
   <programme start="20260721100000 +0000" stop="20260721110000 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">Tolerancia 0</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tolerancia-0_l_m.jpg</image>
+    <title lang="es">Tolerancia cero</title>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_tolerancia-cero_l_m.jpg</image>
   </programme>
   <programme start="20260721110000 +0000" stop="20260721120000 +0000" channel="CNNChile.cl@SD">
     <title lang="es">CNN AM</title>
@@ -26153,32 +26175,32 @@
     <category lang="es">Tecnología</category>
     <image>https://cdn.mitvstatic.com/programs/ar_futuro-360_l_m.jpg</image>
   </programme>
-  <programme start="20260721170000 +0000" stop="20260721183000 +0000" channel="CNNChile.cl@SD">
+  <programme start="20260721170000 +0000" stop="20260721184500 +0000" channel="CNNChile.cl@SD">
     <title lang="es">CNN Tarde</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260721183000 +0000" stop="20260721190000 +0000" channel="CNNChile.cl@SD">
+  <programme start="20260721184500 +0000" stop="20260721190000 +0000" channel="CNNChile.cl@SD">
+    <title lang="es">CNN Tiempo tarde</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260721190000 +0000" stop="20260721193000 +0000" channel="CNNChile.cl@SD">
     <title lang="es">CNN Deportes</title>
     <title lang="en">CNN Deportes</title>
     <category lang="es">CNN Deportes</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260721190000 +0000" stop="20260721190500 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">El tiempo</title>
-    <title lang="en">Clima</title>
-    <category lang="es">Clima</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_el-tiempo_l_m.jpg</image>
-  </programme>
-  <programme start="20260721190500 +0000" stop="20260721200000 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">CNN íntimo</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-intimo_l_m.jpg</image>
+  <programme start="20260721193000 +0000" stop="20260721200000 +0000" channel="CNNChile.cl@SD">
+    <title lang="es">La entrevista de CNN Chile</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_la-entrevista-de-cnn-chile_l_m.jpg</image>
   </programme>
   <programme start="20260721200000 +0000" stop="20260721210000 +0000" channel="CNNChile.cl@SD">
-    <title lang="es">Pares e impares</title>
+    <title lang="es">Pares impares</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -67669,47 +67691,57 @@
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260721060000 +0000" stop="20260721070000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20260721060000 +0000" stop="20260721063000 +0000" channel="RTenEspanol.ru@SD">
+    <title lang="es">La otra mirada italiana</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260721063000 +0000" stop="20260721070000 +0000" channel="RTenEspanol.ru@SD">
+    <title lang="es">La otra mirada italiana</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260721070000 +0000" stop="20260721073000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Carlos Nobre, climatólogo brasileño</title>
+    <category lang="es">- Carlos Nobre, climatólogo brasileño</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-carlos-nobre-climatologo-brasileno_l_m.jpg</image>
   </programme>
   <programme start="20260721073000 +0000" stop="20260721080000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Zoom+</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
+    <category lang="es">- Narcotráfico y terrorismo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260721080000 +0000" stop="20260721083000 +0000" channel="RTenEspanol.ru@SD">
+    <title lang="es">Siria: Saqueadores de tesoros</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260721080000 +0000" stop="20260721090000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20260721083000 +0000" stop="20260721090000 +0000" channel="RTenEspanol.ru@SD">
+    <title lang="es">El mar fantasma</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260721090000 +0000" stop="20260721093000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Carlos Nobre, climatólogo brasileño</title>
+    <category lang="es">- Carlos Nobre, climatólogo brasileño</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-carlos-nobre-climatologo-brasileno_l_m.jpg</image>
   </programme>
   <programme start="20260721093000 +0000" stop="20260721100000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Zoom+</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
+    <category lang="es">- Narcotráfico y terrorismo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260721100000 +0000" stop="20260721103000 +0000" channel="RTenEspanol.ru@SD">
+    <title lang="es">La otra mirada italiana</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260721100000 +0000" stop="20260721110000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20260721103000 +0000" stop="20260721110000 +0000" channel="RTenEspanol.ru@SD">
+    <title lang="es">La otra mirada italiana</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260721110000 +0000" stop="20260721113000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67719,9 +67751,11 @@
   </programme>
   <programme start="20260721113000 +0000" stop="20260721120000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721120000 +0000" stop="20260721123000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67731,21 +67765,22 @@
   </programme>
   <programme start="20260721123000 +0000" stop="20260721130000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260721130000 +0000" stop="20260721133000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">RT reporta</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_rt-reporta-1_l_m.jpg</image>
+    <title lang="es">Planeando el último adiós</title>
+    <title lang="en">Documental</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260721133000 +0000" stop="20260721140000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721140000 +0000" stop="20260721143000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67755,9 +67790,9 @@
   </programme>
   <programme start="20260721143000 +0000" stop="20260721150000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260721150000 +0000" stop="20260721153000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67766,10 +67801,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_noticias_l_m.jpg</image>
   </programme>
   <programme start="20260721153000 +0000" stop="20260721160000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">RT reporta</title>
+    <title lang="en">- Recetas ancestrales, aplicaciones actuales</title>
+    <category lang="es">- Recetas ancestrales, aplicaciones actuales</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721160000 +0000" stop="20260721163000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67779,9 +67814,11 @@
   </programme>
   <programme start="20260721163000 +0000" stop="20260721170000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721170000 +0000" stop="20260721173000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67791,9 +67828,9 @@
   </programme>
   <programme start="20260721173000 +0000" stop="20260721180000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260721180000 +0000" stop="20260721183000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67802,10 +67839,9 @@
     <image>https://cdn.mitvstatic.com/programs/ar_noticias_l_m.jpg</image>
   </programme>
   <programme start="20260721183000 +0000" stop="20260721190000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">RT reporta</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_rt-reporta-1_l_m.jpg</image>
+    <title lang="es">Planeando el último adiós</title>
+    <title lang="en">Documental</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260721190000 +0000" stop="20260721193000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67815,9 +67851,11 @@
   </programme>
   <programme start="20260721193000 +0000" stop="20260721200000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721200000 +0000" stop="20260721203000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67827,9 +67865,9 @@
   </programme>
   <programme start="20260721203000 +0000" stop="20260721210000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260721210000 +0000" stop="20260721213000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67838,10 +67876,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_noticias_l_m.jpg</image>
   </programme>
   <programme start="20260721213000 +0000" stop="20260721220000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">RT reporta</title>
+    <title lang="en">- Recetas ancestrales, aplicaciones actuales</title>
+    <category lang="es">- Recetas ancestrales, aplicaciones actuales</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721220000 +0000" stop="20260721223000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67851,9 +67889,11 @@
   </programme>
   <programme start="20260721223000 +0000" stop="20260721230000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260721230000 +0000" stop="20260721233000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67863,9 +67903,9 @@
   </programme>
   <programme start="20260721233000 +0000" stop="20260722000000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260722000000 +0000" stop="20260722003000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67874,10 +67914,9 @@
     <image>https://cdn.mitvstatic.com/programs/ar_noticias_l_m.jpg</image>
   </programme>
   <programme start="20260722003000 +0000" stop="20260722010000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">RT reporta</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_rt-reporta-1_l_m.jpg</image>
+    <title lang="es">Planeando el último adiós</title>
+    <title lang="en">Documental</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260722010000 +0000" stop="20260722013000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67887,9 +67926,11 @@
   </programme>
   <programme start="20260722013000 +0000" stop="20260722020000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260722020000 +0000" stop="20260722023000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67899,9 +67940,9 @@
   </programme>
   <programme start="20260722023000 +0000" stop="20260722030000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260722030000 +0000" stop="20260722033000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Noticias</title>
@@ -67910,34 +67951,35 @@
     <image>https://cdn.mitvstatic.com/programs/ar_noticias_l_m.jpg</image>
   </programme>
   <programme start="20260722033000 +0000" stop="20260722040000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">RT reporta</title>
+    <title lang="en">- Recetas ancestrales, aplicaciones actuales</title>
+    <category lang="es">- Recetas ancestrales, aplicaciones actuales</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260722040000 +0000" stop="20260722043000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260722043000 +0000" stop="20260722050000 +0000" channel="RTenEspanol.ru@SD">
-    <title lang="es">RT reporta</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_rt-reporta-1_l_m.jpg</image>
+    <title lang="es">Planeando el último adiós</title>
+    <title lang="en">Documental</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260722050000 +0000" stop="20260722053000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Cartas sobre la mesa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cartas-sobre-la-mesa_l_m.jpg</image>
+    <sub-title lang="es">Turismo y costo de vida: ¿Quién se beneficia del &apos;boom&apos; dominicano?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.408.0/1</episode-num>
+    <episode-num system="onscreen">S01E409</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260722053000 +0000" stop="20260722063000 +0000" channel="RTenEspanol.ru@SD">
     <title lang="es">Entrevista</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_entrevista_l_m.jpg</image>
+    <title lang="en">- Pascual González, activista del pueblo triqui</title>
+    <category lang="es">- Pascual González, activista del pueblo triqui</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_entrevista-pascual-gonzalez-activista-del-pueblo-triqui_l_m.jpg</image>
   </programme>
   <programme start="20260719055000 +0000" stop="20260719062500 +0000" channel="SonyChannelAndes.us@SD">
     <title lang="es">La niñera</title>
@@ -78261,7 +78303,7 @@
   </programme>
   <programme start="20260721103600 +0000" stop="20260721104600 +0000" channel="Tooncast.us@SD">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">Sansón super estrella</sub-title>
+    <sub-title lang="es">Ganando peso</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.27.0/1</episode-num>
     <episode-num system="onscreen">S03E28</episode-num>
@@ -78309,7 +78351,7 @@
   </programme>
   <programme start="20260721114600 +0000" stop="20260721115900 +0000" channel="Tooncast.us@SD">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">El programón de Jake</sub-title>
+    <sub-title lang="es">Presión porristica</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.14.0/1</episode-num>
     <episode-num system="onscreen">S02E15</episode-num>
@@ -78413,7 +78455,7 @@
   </programme>
   <programme start="20260721130700 +0000" stop="20260721131400 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Ain&apos;t Mutton Better</sub-title>
+    <sub-title lang="es">About Don&apos;t Walk Signs</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -78739,7 +78781,7 @@
   </programme>
   <programme start="20260721224300 +0000" stop="20260721225300 +0000" channel="Tooncast.us@SD">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">Sansón super estrella</sub-title>
+    <sub-title lang="es">Ganando peso</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.27.0/1</episode-num>
     <episode-num system="onscreen">S03E28</episode-num>
@@ -78787,7 +78829,7 @@
   </programme>
   <programme start="20260721235300 +0000" stop="20260722000600 +0000" channel="Tooncast.us@SD">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">El programón de Jake</sub-title>
+    <sub-title lang="es">Presión porristica</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.14.0/1</episode-num>
     <episode-num system="onscreen">S02E15</episode-num>
@@ -78891,7 +78933,7 @@
   </programme>
   <programme start="20260722011200 +0000" stop="20260722011900 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Ain&apos;t Mutton Better</sub-title>
+    <sub-title lang="es">About Don&apos;t Walk Signs</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -80967,7 +81009,7 @@
   </programme>
   <programme start="20260722014000 +0000" stop="20260722034000 +0000" channel="TVEInternacionalAmerica.es@SD">
     <title lang="es">Dog House</title>
-    <category lang="es">Serie</category>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260722034000 +0000" stop="20260722052500 +0000" channel="TVEInternacionalAmerica.es@SD">
@@ -81437,6 +81479,7 @@
   </programme>
   <programme start="20260721204500 +0000" stop="20260721215500 +0000" channel="TVGloboInternacionalAmericas.br@SD">
     <title lang="es">Avenida Brasil</title>
+    <sub-title lang="es">El mismo idioma</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.68.0/1</episode-num>
     <episode-num system="onscreen">S01E69</episode-num>
@@ -81883,14 +81926,8 @@
     <category lang="es">Copa Mundial de la FIFA 26</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260719150000 +0000" stop="20260719160000 +0000" channel="TyCSports.ar@SD">
+  <programme start="20260719150000 +0000" stop="20260719163000 +0000" channel="TyCSports.ar@SD">
     <title lang="es">Se le pone pimienta a la previa de la final del Mundial</title>
-    <title lang="en">Copa Mundial de la FIFA 26</title>
-    <category lang="es">Copa Mundial de la FIFA 26</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260719160000 +0000" stop="20260719163000 +0000" channel="TyCSports.ar@SD">
-    <title lang="es">La previa de Argentina</title>
     <title lang="en">Copa Mundial de la FIFA 26</title>
     <category lang="es">Copa Mundial de la FIFA 26</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
@@ -86596,17 +86633,17 @@
     <title lang="es">Leo, el explorador</title>
     <sub-title lang="pt">Pegado a ti</sub-title>
     <category lang="pt">Serie</category>
-    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
-    <episode-num system="onscreen">S02E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s02e04-platypus_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.3.0/1</episode-num>
+    <episode-num system="onscreen">S04E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s04e04-pegado-a-ti_l_m.jpg</image>
   </programme>
   <programme start="20260721131500 +0000" stop="20260721133000 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Leo, el explorador</title>
-    <sub-title lang="pt">Saltarín de fango moteado azul</sub-title>
+    <sub-title lang="pt">Cam-u-flaje</sub-title>
     <category lang="pt">Serie</category>
-    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
-    <episode-num system="onscreen">S02E05</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s02e05-emu_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s04e05-cam-u-flaje_l_m.jpg</image>
   </programme>
   <programme start="20260721133000 +0000" stop="20260721134500 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Leo, el explorador</title>
@@ -86804,17 +86841,17 @@
     <title lang="es">Leo, el explorador</title>
     <sub-title lang="pt">Pegado a ti</sub-title>
     <category lang="pt">Serie</category>
-    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
-    <episode-num system="onscreen">S02E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s02e04-platypus_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.3.0/1</episode-num>
+    <episode-num system="onscreen">S04E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s04e04-pegado-a-ti_l_m.jpg</image>
   </programme>
   <programme start="20260721181500 +0000" stop="20260721183000 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Leo, el explorador</title>
-    <sub-title lang="pt">Saltarín de fango moteado azul</sub-title>
+    <sub-title lang="pt">Cam-u-flaje</sub-title>
     <category lang="pt">Serie</category>
-    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
-    <episode-num system="onscreen">S02E05</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s02e05-emu_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_leo-el-explorador-s04e05-cam-u-flaje_l_m.jpg</image>
   </programme>
   <programme start="20260721183000 +0000" stop="20260721184500 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Leo, el explorador</title>
