@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260721164620 +0000">
+<tv generator-info-name="custom-epg" date="20260721195732 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -635,17 +633,19 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260721060000 +0000" stop="20260721070000 +0000" channel="13C.cl@SD">
     <title lang="es">Sueño americano</title>
@@ -1607,22 +1607,16 @@
     <image>https://cdn.mitvstatic.com/programs/cl_24-cuadros_l_m.jpg</image>
   </programme>
   <programme start="20260722191500 +0000" stop="20260722193000 +0000" channel="24Horas.cl@SD">
+    <title lang="es">Entrevistas 24 horas</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_entrevistas-24-horas_l_m.jpg</image>
+  </programme>
+  <programme start="20260722193000 +0000" stop="20260722200000 +0000" channel="24Horas.cl@SD">
     <title lang="es">Chile al día</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/cl_chile-al-dia_l_m.jpg</image>
-  </programme>
-  <programme start="20260722193000 +0000" stop="20260722194500 +0000" channel="24Horas.cl@SD">
-    <title lang="es">Chile al día</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_chile-al-dia_l_m.jpg</image>
-  </programme>
-  <programme start="20260722194500 +0000" stop="20260722200000 +0000" channel="24Horas.cl@SD">
-    <title lang="es">24 horas a la hora</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_24-horas-a-la-hora_l_m.jpg</image>
   </programme>
   <programme start="20260722200000 +0000" stop="20260722203000 +0000" channel="24Horas.cl@SD">
     <title lang="es">Más motor</title>
@@ -1630,25 +1624,19 @@
     <category lang="es">Más motor</category>
     <image>https://cdn.mitvstatic.com/programs/cl_automovilismo-mas-motor_l_m.jpg</image>
   </programme>
-  <programme start="20260722203000 +0000" stop="20260722210000 +0000" channel="24Horas.cl@SD">
-    <title lang="es">Más motor</title>
-    <title lang="en">Más motor</title>
-    <category lang="es">Más motor</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_automovilismo-mas-motor_l_m.jpg</image>
-  </programme>
-  <programme start="20260722210000 +0000" stop="20260722230000 +0000" channel="24Horas.cl@SD">
+  <programme start="20260722203000 +0000" stop="20260722230000 +0000" channel="24Horas.cl@SD">
     <title lang="es">Noticias 24</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_noticias-24_l_m.jpg</image>
   </programme>
-  <programme start="20260722230000 +0000" stop="20260722234500 +0000" channel="24Horas.cl@SD">
+  <programme start="20260722230000 +0000" stop="20260723000000 +0000" channel="24Horas.cl@SD">
     <title lang="es">Noticias 24</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_noticias-24_l_m.jpg</image>
   </programme>
-  <programme start="20260722234500 +0000" stop="20260723010000 +0000" channel="24Horas.cl@SD">
+  <programme start="20260723000000 +0000" stop="20260723010000 +0000" channel="24Horas.cl@SD">
     <title lang="es">24 Horas deportes</title>
     <title lang="en">24 Horas deportes</title>
     <category lang="es">24 Horas deportes</category>
@@ -2837,14 +2825,14 @@
     <rating><value>4.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_despues-de-la-tierra-2013_l_m.jpg</image>
   </programme>
-  <programme start="20260723052000 +0000" stop="20260723062000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260723052000 +0000" stop="20260723071500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Loco por ella</title>
     <title lang="en">The Switch</title>
     <category lang="es">Comedia</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_loco-por-ella-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260723052000 +0000" stop="20260723071500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260723052000 +0000" stop="20260723062000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Loco por ella</title>
     <title lang="en">The Switch</title>
     <category lang="es">Comedia</category>
@@ -18681,7 +18669,7 @@
     <episode-num system="onscreen">S12E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_pesca-mortal-s12e09_l_m.jpg</image>
   </programme>
-  <programme start="20260722053000 +0000" stop="20260722063000 +0000" channel="cl#animal-planet">
+  <programme start="20260722053000 +0000" stop="20260722061800 +0000" channel="cl#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Batalla en el mar</sub-title>
     <category lang="es">Serie</category>
@@ -18689,7 +18677,7 @@
     <episode-num system="onscreen">S12E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_pesca-mortal-s12e10_l_m.jpg</image>
   </programme>
-  <programme start="20260722053000 +0000" stop="20260722061800 +0000" channel="cl#animal-planet">
+  <programme start="20260722053000 +0000" stop="20260722063000 +0000" channel="cl#animal-planet">
     <title lang="es">Pesca mortal</title>
     <sub-title lang="es">Batalla en el mar</sub-title>
     <category lang="es">Serie</category>
@@ -39752,7 +39740,7 @@
   </programme>
   <programme start="20260721230000 +0000" stop="20260721233000 +0000" channel="cl#disney-jr">
     <title lang="es">¡Hola, AJ!</title>
-    <sub-title lang="es">Padre del mes / ¿Te gusta?</sub-title>
+    <sub-title lang="es">Abran paso al juego / Y cosas por el estilo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -39864,7 +39852,7 @@
   </programme>
   <programme start="20260722053100 +0000" stop="20260722055500 +0000" channel="cl#disney-jr">
     <title lang="es">PJ Masks: héroes en pijamas</title>
-    <sub-title lang="es">Ululette y el salto de Flash / Gat-uno y el brinco-excavador</sub-title>
+    <sub-title lang="es">Catboy y la brigada mariposa / Ululette es la ganadora</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -40014,7 +40002,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260722133000 +0000" stop="20260722134500 +0000" channel="cl#disney-jr">
+  <programme start="20260722133000 +0000" stop="20260722134600 +0000" channel="cl#disney-jr">
     <title lang="es">PJ Masks: héroes en pijamas</title>
     <sub-title lang="es">Llegó An Yu - Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -40022,7 +40010,7 @@
     <episode-num system="onscreen">S03E118</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_pj-masks-heroes-en-pijamas-s03e118-llego-an-yu-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260722134500 +0000" stop="20260722140000 +0000" channel="cl#disney-jr">
+  <programme start="20260722134600 +0000" stop="20260722140200 +0000" channel="cl#disney-jr">
     <title lang="es">Kiya y los héroes de Kimoja</title>
     <sub-title lang="es">¿Quién toca la Kora?</sub-title>
     <category lang="es">Serie</category>
@@ -40030,7 +40018,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260722140000 +0000" stop="20260722143000 +0000" channel="cl#disney-jr">
+  <programme start="20260722140200 +0000" stop="20260722143000 +0000" channel="cl#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Fin de semana / Parrillada / Murciélago</sub-title>
     <category lang="es">Serie</category>
@@ -40078,7 +40066,7 @@
     <episode-num system="onscreen">S01E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260722170000 +0000" stop="20260722173000 +0000" channel="cl#disney-jr">
+  <programme start="20260722170000 +0000" stop="20260722172500 +0000" channel="cl#disney-jr">
     <title lang="es">Mickey: aventuras sobre ruedas</title>
     <sub-title lang="es">El final de fotografía de Daisy / El gran gol de Daisy</sub-title>
     <category lang="es">Serie</category>
@@ -40086,7 +40074,7 @@
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mickey-aventuras-sobre-ruedas-s02e12-super-charged-super-charged-mickey-s-monster-rally_l_m.jpg</image>
   </programme>
-  <programme start="20260722173000 +0000" stop="20260722180000 +0000" channel="cl#disney-jr">
+  <programme start="20260722172500 +0000" stop="20260722175000 +0000" channel="cl#disney-jr">
     <title lang="es">Mickey: aventuras sobre ruedas</title>
     <sub-title lang="es">Supercargado: Ayudantes de la estrella pop / Los 500 de Chip y Dale</sub-title>
     <category lang="es">Serie</category>
@@ -40094,7 +40082,7 @@
     <episode-num system="onscreen">S02E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mickey-aventuras-sobre-ruedas-s02e13-super-charged-pop-star-helpers-the-chip-n-dale-500_l_m.jpg</image>
   </programme>
-  <programme start="20260722180000 +0000" stop="20260722183000 +0000" channel="cl#disney-jr">
+  <programme start="20260722175000 +0000" stop="20260722181500 +0000" channel="cl#disney-jr">
     <title lang="es">Mickey: aventuras sobre ruedas</title>
     <sub-title lang="es">El festival de ukelele de Mickey / Abuelo contra abuelo</sub-title>
     <category lang="es">Serie</category>
@@ -40102,13 +40090,21 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mickey-aventuras-sobre-ruedas-s02e10-el-festival-de-ukelele-de-mickey-abuelo-contra-abuelo_l_m.jpg</image>
   </programme>
-  <programme start="20260722183000 +0000" stop="20260722190000 +0000" channel="cl#disney-jr">
+  <programme start="20260722181500 +0000" stop="20260722184400 +0000" channel="cl#disney-jr">
     <title lang="es">Mickey: aventuras sobre ruedas</title>
     <sub-title lang="es">El final de fotografía de Daisy / El gran gol de Daisy</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.11.0/1</episode-num>
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mickey-aventuras-sobre-ruedas-s02e12-super-charged-super-charged-mickey-s-monster-rally_l_m.jpg</image>
+  </programme>
+  <programme start="20260722184400 +0000" stop="20260722190000 +0000" channel="cl#disney-jr">
+    <title lang="es">Doctora Juguetes</title>
+    <sub-title lang="es">Kirby y el rey / A sonarse la nariz, mona burbuja</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.8.0/1</episode-num>
+    <episode-num system="onscreen">S02E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_doctora-juguetes-s02e09-kirby-y-el-rey-a-sonarse-la-nariz-mona-burbuja_l_m.jpg</image>
   </programme>
   <programme start="20260722190000 +0000" stop="20260722193000 +0000" channel="cl#disney-jr">
     <title lang="es">Cachorros a la obra</title>
@@ -40120,7 +40116,7 @@
   </programme>
   <programme start="20260722193000 +0000" stop="20260722200000 +0000" channel="cl#disney-jr">
     <title lang="es">¡Hola, AJ!</title>
-    <sub-title lang="es">Padre del mes / ¿Te gusta?</sub-title>
+    <sub-title lang="es">Abran paso al juego / Y cosas por el estilo</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -40134,7 +40130,7 @@
     <episode-num system="onscreen">S01E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mis-amigos-tigger-y-pooh-s01e20-siguiendo-el-arcoiris-de-pooh-lumpy-mezcla-un-misterio_l_m.jpg</image>
   </programme>
-  <programme start="20260722203000 +0000" stop="20260722210000 +0000" channel="cl#disney-jr">
+  <programme start="20260722203000 +0000" stop="20260722210100 +0000" channel="cl#disney-jr">
     <title lang="es">Mis amigos Tigger y Pooh</title>
     <sub-title lang="es">Lumpy se queda a dormir / Buenas Noches a Pooh</sub-title>
     <category lang="es">Serie</category>
@@ -40142,7 +40138,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mis-amigos-tigger-y-pooh-s01e05-el-diente-de-darby-ha-desaparecido-misterio-en-la-nieve_l_m.jpg</image>
   </programme>
-  <programme start="20260722210000 +0000" stop="20260722211000 +0000" channel="cl#disney-jr">
+  <programme start="20260722210100 +0000" stop="20260722210800 +0000" channel="cl#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Granny Mobile</sub-title>
     <category lang="es">Serie</category>
@@ -40150,7 +40146,7 @@
     <episode-num system="onscreen">S03E33</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_bluey-s03e33-granny-mobile_l_m.jpg</image>
   </programme>
-  <programme start="20260722211000 +0000" stop="20260722212000 +0000" channel="cl#disney-jr">
+  <programme start="20260722210800 +0000" stop="20260722211500 +0000" channel="cl#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Space</sub-title>
     <category lang="es">Serie</category>
@@ -40158,7 +40154,7 @@
     <episode-num system="onscreen">S03E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_bluey-s03e34-space_l_m.jpg</image>
   </programme>
-  <programme start="20260722212000 +0000" stop="20260722213000 +0000" channel="cl#disney-jr">
+  <programme start="20260722211500 +0000" stop="20260722213000 +0000" channel="cl#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Dirt</sub-title>
     <category lang="es">Serie</category>
@@ -40206,7 +40202,7 @@
     <episode-num system="onscreen">S01E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723000000 +0000" stop="20260723003000 +0000" channel="cl#disney-jr">
+  <programme start="20260723000000 +0000" stop="20260723002700 +0000" channel="cl#disney-jr">
     <title lang="es">Vampirina</title>
     <sub-title lang="es">Truco o trato / Tócala de nuevo, Vampi</sub-title>
     <category lang="es">Serie</category>
@@ -40214,7 +40210,7 @@
     <episode-num system="onscreen">S02E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_vampirina-s02e15-trick-or-treaters-play-it-again-vee_l_m.jpg</image>
   </programme>
-  <programme start="20260723003000 +0000" stop="20260723010000 +0000" channel="cl#disney-jr">
+  <programme start="20260723002700 +0000" stop="20260723005900 +0000" channel="cl#disney-jr">
     <title lang="es">Vampirina</title>
     <sub-title lang="es">Vampi pierde la voz / La clase va de excursión</sub-title>
     <category lang="es">Serie</category>
@@ -40222,7 +40218,7 @@
     <episode-num system="onscreen">S02E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_vampirina-s02e17-bat-got-your-tongue-haunted-theater_l_m.jpg</image>
   </programme>
-  <programme start="20260723010000 +0000" stop="20260723013000 +0000" channel="cl#disney-jr">
+  <programme start="20260723005900 +0000" stop="20260723013000 +0000" channel="cl#disney-jr">
     <title lang="es">Vampirina</title>
     <sub-title lang="es">El consejo susto / A ocuparse de los a-sustos</sub-title>
     <category lang="es">Serie</category>
@@ -40254,7 +40250,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723030000 +0000" stop="20260723033000 +0000" channel="cl#disney-jr">
+  <programme start="20260723030000 +0000" stop="20260723032800 +0000" channel="cl#disney-jr">
     <title lang="es">Mickey Mouse Funhouse</title>
     <sub-title lang="es">¡La limpieza de Daisy y Goofy! / ¡Mundo de crayones!</sub-title>
     <category lang="es">Serie</category>
@@ -40262,7 +40258,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723033000 +0000" stop="20260723040000 +0000" channel="cl#disney-jr">
+  <programme start="20260723032800 +0000" stop="20260723035200 +0000" channel="cl#disney-jr">
     <title lang="es">Mickey Mouse Funhouse</title>
     <sub-title lang="es">¡Encerrada! / ¡El cuento de hadas de Minnie!</sub-title>
     <category lang="es">Serie</category>
@@ -40270,7 +40266,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723040000 +0000" stop="20260723043000 +0000" channel="cl#disney-jr">
+  <programme start="20260723035200 +0000" stop="20260723041600 +0000" channel="cl#disney-jr">
     <title lang="es">La maravillosa pastelería de Alicia</title>
     <sub-title lang="es">El día libre de Cookie / Foto perfecta</sub-title>
     <category lang="es">Serie</category>
@@ -40278,7 +40274,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723043000 +0000" stop="20260723050000 +0000" channel="cl#disney-jr">
+  <programme start="20260723041600 +0000" stop="20260723044100 +0000" channel="cl#disney-jr">
     <title lang="es">Kiya y los héroes de Kimoja</title>
     <sub-title lang="es">La cena a la canasta de Kiya / Mezcla musical</sub-title>
     <category lang="es">Serie</category>
@@ -40286,7 +40282,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723050000 +0000" stop="20260723053000 +0000" channel="cl#disney-jr">
+  <programme start="20260723044100 +0000" stop="20260723050500 +0000" channel="cl#disney-jr">
     <title lang="es">Mis amigos Tigger y Pooh</title>
     <sub-title lang="es">El diente de Darby ha desaparecido / Misterio en la nieve</sub-title>
     <category lang="es">Serie</category>
@@ -40294,7 +40290,7 @@
     <episode-num system="onscreen">S01E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mis-amigos-tigger-y-pooh-s01e20-siguiendo-el-arcoiris-de-pooh-lumpy-mezcla-un-misterio_l_m.jpg</image>
   </programme>
-  <programme start="20260723053000 +0000" stop="20260723063000 +0000" channel="cl#disney-jr">
+  <programme start="20260723050500 +0000" stop="20260723053000 +0000" channel="cl#disney-jr">
     <title lang="es">Mis amigos Tigger y Pooh</title>
     <sub-title lang="es">Lumpy se queda a dormir / Buenas Noches a Pooh</sub-title>
     <category lang="es">Serie</category>
@@ -40302,7 +40298,23 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mis-amigos-tigger-y-pooh-s01e05-el-diente-de-darby-ha-desaparecido-misterio-en-la-nieve_l_m.jpg</image>
   </programme>
+  <programme start="20260723053000 +0000" stop="20260723055400 +0000" channel="cl#disney-jr">
+    <title lang="es">PJ Masks: héroes en pijamas</title>
+    <sub-title lang="es">Catboy y el rayo reductor / Ululette y el balón lunar</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_pj-masks-heroes-en-pijamas-s01e04-gat-uno-y-el-brinco-excavador_l_m.jpg</image>
+  </programme>
   <programme start="20260723055400 +0000" stop="20260723061800 +0000" channel="cl#disney-jr">
+    <title lang="es">Star Wars: aventuras de jóvenes Jedi</title>
+    <sub-title lang="es">La gran búsqueda de las giga-bazas / Una situación pegajosa</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.7.0/1</episode-num>
+    <episode-num system="onscreen">S02E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260723055400 +0000" stop="20260723065400 +0000" channel="cl#disney-jr">
     <title lang="es">Star Wars: aventuras de jóvenes Jedi</title>
     <sub-title lang="es">La gran búsqueda de las giga-bazas / Una situación pegajosa</sub-title>
     <category lang="es">Serie</category>
@@ -60438,7 +60450,7 @@
   </programme>
   <programme start="20260721130000 +0000" stop="20260721130200 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Es una época de felicidad</sub-title>
+    <sub-title lang="es">About Refrigerators</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -60446,7 +60458,7 @@
   </programme>
   <programme start="20260721130200 +0000" stop="20260721130500 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Touched by a Ninja</sub-title>
+    <sub-title lang="es">Toma el carnero y corre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -60470,7 +60482,7 @@
   </programme>
   <programme start="20260721131400 +0000" stop="20260721131500 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">El milagro de Kashmir</sub-title>
+    <sub-title lang="es">Photosynthesis in Our Schools</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.21.0/1</episode-num>
     <episode-num system="onscreen">S01E22</episode-num>
@@ -60478,7 +60490,7 @@
   </programme>
   <programme start="20260721131500 +0000" stop="20260721132000 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Touched by a Ninja</sub-title>
+    <sub-title lang="es">Toma el carnero y corre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -60494,7 +60506,7 @@
   </programme>
   <programme start="20260721132500 +0000" stop="20260721132600 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Es una época de felicidad</sub-title>
+    <sub-title lang="es">About Refrigerators</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -60510,7 +60522,7 @@
   </programme>
   <programme start="20260721132900 +0000" stop="20260721134100 +0000" channel="cl#tooncast">
     <title lang="es">Escuadrón del tiempo</title>
-    <sub-title lang="es">Un primer ministro indecente</sub-title>
+    <sub-title lang="es">Maniático</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -60916,7 +60928,7 @@
   </programme>
   <programme start="20260722010500 +0000" stop="20260722010700 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Es una época de felicidad</sub-title>
+    <sub-title lang="es">About Refrigerators</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -60924,7 +60936,7 @@
   </programme>
   <programme start="20260722010700 +0000" stop="20260722011100 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Touched by a Ninja</sub-title>
+    <sub-title lang="es">Toma el carnero y corre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -60948,7 +60960,7 @@
   </programme>
   <programme start="20260722011900 +0000" stop="20260722012000 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">El milagro de Kashmir</sub-title>
+    <sub-title lang="es">Photosynthesis in Our Schools</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.21.0/1</episode-num>
     <episode-num system="onscreen">S01E22</episode-num>
@@ -60956,7 +60968,7 @@
   </programme>
   <programme start="20260722012000 +0000" stop="20260722012500 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Touched by a Ninja</sub-title>
+    <sub-title lang="es">Toma el carnero y corre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -60972,7 +60984,7 @@
   </programme>
   <programme start="20260722013000 +0000" stop="20260722013200 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Es una época de felicidad</sub-title>
+    <sub-title lang="es">About Refrigerators</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.5.0/1</episode-num>
     <episode-num system="onscreen">S01E06</episode-num>
@@ -60988,7 +61000,7 @@
   </programme>
   <programme start="20260722013300 +0000" stop="20260722014400 +0000" channel="cl#tooncast">
     <title lang="es">Escuadrón del tiempo</title>
-    <sub-title lang="es">Un primer ministro indecente</sub-title>
+    <sub-title lang="es">Maniático</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -61290,7 +61302,7 @@
   </programme>
   <programme start="20260722111000 +0000" stop="20260722112100 +0000" channel="cl#tooncast">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">Guano en 60 segundos</sub-title>
+    <sub-title lang="es">Política animal</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -61306,7 +61318,7 @@
   </programme>
   <programme start="20260722113400 +0000" stop="20260722114500 +0000" channel="cl#tooncast">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">Compinche</sub-title>
+    <sub-title lang="es">Locura diplomática</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.30.0/1</episode-num>
     <episode-num system="onscreen">S03E31</episode-num>
@@ -61322,7 +61334,7 @@
   </programme>
   <programme start="20260722115900 +0000" stop="20260722120500 +0000" channel="cl#tooncast">
     <title lang="es">Hi Hi Puffy AmiYumi</title>
-    <sub-title lang="es">Siesta gatuna</sub-title>
+    <sub-title lang="es">La maldición</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -61386,7 +61398,7 @@
   </programme>
   <programme start="20260722130400 +0000" stop="20260722130500 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Shave the Whales</sub-title>
+    <sub-title lang="es">Lana puede detenerme</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.15.0/1</episode-num>
     <episode-num system="onscreen">S01E16</episode-num>
@@ -61418,7 +61430,7 @@
   </programme>
   <programme start="20260722131600 +0000" stop="20260722131700 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Advertisement for Money</sub-title>
+    <sub-title lang="es">About Buffalo Plaid</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -61426,7 +61438,7 @@
   </programme>
   <programme start="20260722131700 +0000" stop="20260722132100 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">¿Lana logrará?</sub-title>
+    <sub-title lang="es">Hasty Rent a Car</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -61434,7 +61446,7 @@
   </programme>
   <programme start="20260722132100 +0000" stop="20260722132200 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Touched by a Ninja</sub-title>
+    <sub-title lang="es">Toma el carnero y corre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -61458,7 +61470,7 @@
   </programme>
   <programme start="20260722133000 +0000" stop="20260722134100 +0000" channel="cl#tooncast">
     <title lang="es">Escuadrón del tiempo</title>
-    <sub-title lang="es">Barbanegra, corazón tierno</sub-title>
+    <sub-title lang="es">El deshonesto Abe</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -61750,7 +61762,7 @@
   </programme>
   <programme start="20260722231700 +0000" stop="20260722232800 +0000" channel="cl#tooncast">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">Guano en 60 segundos</sub-title>
+    <sub-title lang="es">Política animal</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -61766,7 +61778,7 @@
   </programme>
   <programme start="20260722234100 +0000" stop="20260722235200 +0000" channel="cl#tooncast">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">Compinche</sub-title>
+    <sub-title lang="es">Locura diplomática</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.30.0/1</episode-num>
     <episode-num system="onscreen">S03E31</episode-num>
@@ -61782,7 +61794,7 @@
   </programme>
   <programme start="20260723000500 +0000" stop="20260723001200 +0000" channel="cl#tooncast">
     <title lang="es">Hi Hi Puffy AmiYumi</title>
-    <sub-title lang="es">Siesta gatuna</sub-title>
+    <sub-title lang="es">La maldición</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -61838,7 +61850,7 @@
   </programme>
   <programme start="20260723010400 +0000" stop="20260723010500 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Shave the Whales</sub-title>
+    <sub-title lang="es">Lana puede detenerme</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.15.0/1</episode-num>
     <episode-num system="onscreen">S01E16</episode-num>
@@ -61870,7 +61882,7 @@
   </programme>
   <programme start="20260723011600 +0000" stop="20260723011700 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Advertisement for Money</sub-title>
+    <sub-title lang="es">About Buffalo Plaid</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -61878,7 +61890,7 @@
   </programme>
   <programme start="20260723011700 +0000" stop="20260723012100 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">¿Lana logrará?</sub-title>
+    <sub-title lang="es">Hasty Rent a Car</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -61886,7 +61898,7 @@
   </programme>
   <programme start="20260723012100 +0000" stop="20260723012200 +0000" channel="cl#tooncast">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">Touched by a Ninja</sub-title>
+    <sub-title lang="es">Toma el carnero y corre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -61910,7 +61922,7 @@
   </programme>
   <programme start="20260723013000 +0000" stop="20260723014100 +0000" channel="cl#tooncast">
     <title lang="es">Escuadrón del tiempo</title>
-    <sub-title lang="es">Barbanegra, corazón tierno</sub-title>
+    <sub-title lang="es">El deshonesto Abe</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -87686,14 +87698,14 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723053000 +0000" stop="20260723063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260723053000 +0000" stop="20260723070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.84.0/1</episode-num>
     <episode-num system="onscreen">S01E85</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260723053000 +0000" stop="20260723070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260723053000 +0000" stop="20260723063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.84.0/1</episode-num>
@@ -88397,7 +88409,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s03e20-the-spaghetti-catalysis_l_m.jpg</image>
   </programme>
-  <programme start="20260723055700 +0000" stop="20260723065700 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260723055700 +0000" stop="20260723062000 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Vibrando con tu mágico error</sub-title>
     <category lang="es">Serie</category>
@@ -88405,7 +88417,7 @@
     <episode-num system="onscreen">S08E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_dos-hombres-y-medio-s08e06-vibrando-con-tu-magico-error_l_m.jpg</image>
   </programme>
-  <programme start="20260723055700 +0000" stop="20260723062000 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260723055700 +0000" stop="20260723065700 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Vibrando con tu mágico error</sub-title>
     <category lang="es">Serie</category>
