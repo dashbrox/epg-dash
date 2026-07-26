@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260726035957 +0000">
+<tv generator-info-name="custom-epg" date="20260726084402 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="ViaX.cl@SD">
     <display-name>Vía X</display-name>
@@ -636,16 +639,13 @@
   <channel id="cl#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
   <programme start="20260726060000 +0000" stop="20260726070000 +0000" channel="13C.cl@SD">
     <title lang="es">Sueño americano</title>
@@ -3014,12 +3014,12 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_fuera-de-la-ley-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260728052000 +0000" stop="20260728072000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260728052000 +0000" stop="20260728062000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Machete</title>
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/cl_machete-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260728052000 +0000" stop="20260728062000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260728052000 +0000" stop="20260728072000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Machete</title>
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/cl_machete-2010_l_m.jpg</image>
@@ -13176,7 +13176,7 @@
   </programme>
   <programme start="20260728041100 +0000" stop="20260728042500 +0000" channel="CartoonNetwork.us@West">
     <title lang="es">Un show más</title>
-    <sub-title lang="es">Descanso de almuerzo</sub-title>
+    <sub-title lang="es">No es la mejor cita doble</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">5.26.0/1</episode-num>
     <episode-num system="onscreen">S06E27</episode-num>
@@ -15312,17 +15312,47 @@
     <category lang="es">Replay</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260727100000 +0000" stop="20260727162000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
+  <programme start="20260727100000 +0000" stop="20260727120000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Deportes Puerto Montt vs. Deportes Antofagasta</title>
+    <title lang="en">Fecha 17, Estadio Regional de Chinquihue</title>
+    <category lang="es">Fecha 17, Estadio Regional de Chinquihue</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260727162000 +0000" stop="20260727210000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
+  <programme start="20260727120000 +0000" stop="20260727140000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Santiago Wanderers vs. Unión San Felipe</title>
+    <title lang="en">Fecha 17, Estadio Elías Figueroa Brander</title>
+    <category lang="es">Fecha 17, Estadio Elías Figueroa Brander</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260727140000 +0000" stop="20260727143000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Fecha 16</title>
+    <title lang="en">Replay</title>
+    <category lang="es">Replay</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260727143000 +0000" stop="20260727150000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">COPEC Rallymobil</title>
+    <title lang="en">Más motor</title>
+    <category lang="es">Más motor</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_automovilismo-copec-rallymobil-2_l_m.jpg</image>
+  </programme>
+  <programme start="20260727150000 +0000" stop="20260727170000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Deportes Concepción vs. O&apos;Higgins</title>
+    <title lang="en">Fecha 1, Estadio Municipal Alcaldesa Rebolledo</title>
+    <category lang="es">Fecha 1, Estadio Municipal Alcaldesa Rebolledo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260727170000 +0000" stop="20260727190000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Colo Colo vs. Limache</title>
+    <title lang="en">Fecha 16, Estadio Monumental David Arellano</title>
+    <category lang="es">Fecha 16, Estadio Monumental David Arellano</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260727190000 +0000" stop="20260727210000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Todos somos técnicos</title>
+    <title lang="en">Todos somos técnicos</title>
+    <category lang="es">Todos somos técnicos</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_futbol-todos-somos-tecnicos_l_m.jpg</image>
   </programme>
   <programme start="20260727210000 +0000" stop="20260727223000 +0000" channel="CDFPremium.cl@SD">
     <title lang="es">TNT Data Sports - Primera edición</title>
@@ -15330,19 +15360,43 @@
     <category lang="es">TNT Data Sports - Primera edición</category>
     <image>https://cdn.mitvstatic.com/programs/cl_deportivo-tnt-data-sports-primera-edicion_l_m.jpg</image>
   </programme>
-  <programme start="20260727223000 +0000" stop="20260728012000 +0000" channel="CDFPremium.cl@SD">
+  <programme start="20260727223000 +0000" stop="20260727230000 +0000" channel="CDFPremium.cl@SD">
     <title lang="es">Unión La Calera vs. Everton</title>
     <title lang="en">Fecha 16, Estadio Municipal Nicolás Chahuán</title>
     <category lang="es">Fecha 16, Estadio Municipal Nicolás Chahuán</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260728012000 +0000" stop="20260728022000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
+  <programme start="20260727230000 +0000" stop="20260728010000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Unión La Calera vs. Everton</title>
+    <title lang="en">Fecha 16, Estadio Municipal Nicolás Chahuán</title>
+    <category lang="es">Fecha 16, Estadio Municipal Nicolás Chahuán</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260728010000 +0000" stop="20260728012000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Unión La Calera vs. Everton</title>
+    <title lang="en">Fecha 16, Estadio Municipal Nicolás Chahuán</title>
+    <category lang="es">Fecha 16, Estadio Municipal Nicolás Chahuán</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260728012000 +0000" stop="20260728032000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Unión Española vs. Deportes Recoleta</title>
+    <title lang="en">Fecha 17, Estadio Santa Laura</title>
+    <category lang="es">Fecha 17, Estadio Santa Laura</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260728032000 +0000" stop="20260728052000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Todos somos técnicos</title>
+    <title lang="en">Todos somos técnicos</title>
+    <category lang="es">Todos somos técnicos</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_futbol-todos-somos-tecnicos_l_m.jpg</image>
   </programme>
   <programme start="20260728052000 +0000" stop="20260728065000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">TNT Data Sports</title>
+    <title lang="en">TNT Data Sports</title>
+    <category lang="es">TNT Data Sports</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_noticiero-tnt-data-sports_l_m.jpg</image>
+  </programme>
+  <programme start="20260728052000 +0000" stop="20260728062000 +0000" channel="CDFPremium.cl@SD">
     <title lang="es">TNT Data Sports</title>
     <title lang="en">TNT Data Sports</title>
     <category lang="es">TNT Data Sports</category>
@@ -15772,12 +15826,6 @@
     <category lang="es">Resumen en 10&apos;</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260727000000 +0000" stop="20260727120000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
-  </programme>
   <programme start="20260727000000 +0000" stop="20260727023000 +0000" channel="CDOPremium.cl@SD">
     <title lang="es">CD Valdivia vs. Las Animas</title>
     <title lang="en">Liga Nacional de básquetbol</title>
@@ -15796,17 +15844,46 @@
     <category lang="es">Resúmenes en 30</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
+  <programme start="20260727050000 +0000" stop="20260727070000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Sergio Ceppi vs. Sportiva Italiana</title>
+    <title lang="en">Final Zonal, Playoff</title>
+    <category lang="es">Final Zonal, Playoff</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
   <programme start="20260727050000 +0000" stop="20260727060000 +0000" channel="CDOPremium.cl@SD">
     <title lang="es">Sergio Ceppi vs. Sportiva Italiana</title>
     <title lang="en">Final Zonal, Playoff</title>
     <category lang="es">Final Zonal, Playoff</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260727120000 +0000" stop="20260727170000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260727070000 +0000" stop="20260727090000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">ABA Ancud vs. Las Animas</title>
+    <title lang="en">Liga Nacional de básquetbol</title>
+    <category lang="es">Liga Nacional de básquetbol</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-aba-ancud-vs-las-animas_l_m.jpg</image>
+  </programme>
+  <programme start="20260727090000 +0000" stop="20260727110000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Sportiva Italiana vs. Sergio Ceppi</title>
+    <title lang="en">Final Zonal, Playoff</title>
+    <category lang="es">Final Zonal, Playoff</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260727110000 +0000" stop="20260727130000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Pto Varas vs. CD Valdivia</title>
+    <title lang="en">Liga Nacional de básquetbol</title>
+    <category lang="es">Liga Nacional de básquetbol</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-pto-varas-vs-cd-valdivia_l_m.jpg</image>
+  </programme>
+  <programme start="20260727130000 +0000" stop="20260727150000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Old Boys vs. DOBS</title>
+    <category lang="es">Rugby TOP10 Arusa 2026</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260727150000 +0000" stop="20260727170000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Omega Concepción vs. Huachipato</title>
+    <title lang="en">Final Zonal, Playoff</title>
+    <category lang="es">Final Zonal, Playoff</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260727170000 +0000" stop="20260727190000 +0000" channel="CDOPremium.cl@SD">
     <title lang="es">Metrópolis</title>
@@ -15815,21 +15892,20 @@
     <image>https://cdn.mitvstatic.com/programs/cl_deportivo-metropolis_l_m.jpg</image>
   </programme>
   <programme start="20260727190000 +0000" stop="20260727193000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">Resúmenes en 30</title>
+    <title lang="es">Ancud vs. Castro - Liga Chery by Cecinas Llanquihue - Clausura 2026</title>
     <title lang="en">Resúmenes en 30</title>
     <category lang="es">Resúmenes en 30</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260727193000 +0000" stop="20260727213000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+    <title lang="es">CD Valdivia vs. Las Animas</title>
+    <title lang="en">Liga Nacional de básquetbol</title>
+    <category lang="es">Liga Nacional de básquetbol</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-cd-valdivia-vs-las-animas-1_l_m.jpg</image>
   </programme>
   <programme start="20260727213000 +0000" stop="20260727220000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">Resúmenes en 30</title>
-    <title lang="en">Resúmenes en 30</title>
-    <category lang="es">Resúmenes en 30</category>
+    <title lang="es">Sportiva Italiana vs. Sergio Ceppi</title>
+    <category lang="es">Final Zonal, Playoff - Liga DOS 2026</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260727220000 +0000" stop="20260727233000 +0000" channel="CDOPremium.cl@SD">
@@ -15839,24 +15915,24 @@
     <image>https://cdn.mitvstatic.com/programs/cl_deportivo-hola-deportes_l_m.jpg</image>
   </programme>
   <programme start="20260727233000 +0000" stop="20260728000000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">Resúmenes en 30</title>
+    <title lang="es">Pto Varas vs. CD Valdivia - Liga Chery by Cecinas Llanquihue - Clausura 2026</title>
     <title lang="en">Resúmenes en 30</title>
     <category lang="es">Resúmenes en 30</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260728000000 +0000" stop="20260728040000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">CDO Premium</title>
-    <title lang="en">CDO Premium</title>
-    <category lang="es">CDO Premium</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-cdo-premium_l_m.jpg</image>
+  <programme start="20260728000000 +0000" stop="20260728020000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Sergio Ceppi vs. Sportiva Italiana</title>
+    <title lang="en">Final Zonal, Playoff</title>
+    <category lang="es">Final Zonal, Playoff</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260728040000 +0000" stop="20260728043000 +0000" channel="CDOPremium.cl@SD">
-    <title lang="es">Hola deportes</title>
-    <title lang="en">Hola deportes</title>
-    <category lang="es">Hola deportes</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-hola-deportes_l_m.jpg</image>
+  <programme start="20260728020000 +0000" stop="20260728040000 +0000" channel="CDOPremium.cl@SD">
+    <title lang="es">Ancud vs. Castro</title>
+    <title lang="en">Liga Nacional de básquetbol</title>
+    <category lang="es">Liga Nacional de básquetbol</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-ancud-vs-castro_l_m.jpg</image>
   </programme>
-  <programme start="20260728043000 +0000" stop="20260728053000 +0000" channel="CDOPremium.cl@SD">
+  <programme start="20260728040000 +0000" stop="20260728053000 +0000" channel="CDOPremium.cl@SD">
     <title lang="es">Hola deportes</title>
     <title lang="en">Hola deportes</title>
     <category lang="es">Hola deportes</category>
@@ -61931,7 +62007,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260727073500 +0000" stop="20260727090000 +0000" channel="cl#tv-5">
-    <title lang="es">Gotha spéciale fête nationale</title>
+    <title lang="es">Gotha - Spéciale fête nationale</title>
     <title lang="en">Especial</title>
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -61985,7 +62061,7 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260727141400 +0000" stop="20260727141800 +0000" channel="cl#tv-5">
-    <title lang="es">Magazine maison et jardin</title>
+    <title lang="es">Magazine Maison et jardin</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -62259,7 +62335,7 @@
   </programme>
   <programme start="20260728213000 +0000" stop="20260728230000 +0000" channel="cl#tv-5">
     <title lang="es">À l&apos;école des vétos</title>
-    <sub-title lang="es">It&apos;s his birthday, but he&apos;s in hospital</sub-title>
+    <sub-title lang="es">Es su cumpleaños, pero está en el hospital</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -62345,11 +62421,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260726114500 +0000" stop="20260726123000 +0000" channel="cl#tv-globo">
-    <title lang="es">Vai que cola</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.158.0/1</episode-num>
-    <episode-num system="onscreen">S01E159</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/cl_vai-que-cola-s00e159_l_m.jpg</image>
+    <title lang="es">Mejores momentos - Vai que cola</title>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_mejores-momentos-vai-que-cola_l_m.jpg</image>
   </programme>
   <programme start="20260726123000 +0000" stop="20260726132000 +0000" channel="cl#tv-globo">
     <title lang="es">Globo repórter</title>
@@ -62488,11 +62562,9 @@
     <image>https://cdn.mitvstatic.com/programs/cl_globo-reporter-s00e1923_l_m.jpg</image>
   </programme>
   <programme start="20260727115000 +0000" stop="20260727123000 +0000" channel="cl#tv-globo">
-    <title lang="es">Vai que cola</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.151.0/1</episode-num>
-    <episode-num system="onscreen">S01E152</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/cl_vai-que-cola-s00e152_l_m.jpg</image>
+    <title lang="es">Mejores momentos - Vai que cola</title>
+    <category lang="es">Comedia</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_mejores-momentos-vai-que-cola_l_m.jpg</image>
   </programme>
   <programme start="20260727123000 +0000" stop="20260727130000 +0000" channel="cl#tv-globo">
     <title lang="es">A grande família</title>
@@ -62595,12 +62667,19 @@
     <episode-num system="onscreen">S01E60</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260728012500 +0000" stop="20260728025500 +0000" channel="cl#tv-globo">
+  <programme start="20260728012500 +0000" stop="20260728021000 +0000" channel="cl#tv-globo">
     <title lang="es">Verdades secretas</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.36.0/1</episode-num>
     <episode-num system="onscreen">S01E37</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_verdades-secretas-s01e37_l_m.jpg</image>
+  </programme>
+  <programme start="20260728021000 +0000" stop="20260728025500 +0000" channel="cl#tv-globo">
+    <title lang="es">Verdades secretas</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.37.0/1</episode-num>
+    <episode-num system="onscreen">S01E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_verdades-secretas-s01e38_l_m.jpg</image>
   </programme>
   <programme start="20260728025500 +0000" stop="20260728041000 +0000" channel="cl#tv-globo">
     <title lang="es">Papo de segunda</title>
@@ -62624,14 +62703,14 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260728053000 +0000" stop="20260728061500 +0000" channel="cl#tv-globo">
-    <title lang="es">Vai que cola</title>
+    <title lang="es">Mejores momentos - Vai que cola</title>
     <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_vai-que-cola_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/cl_mejores-momentos-vai-que-cola_l_m.jpg</image>
   </programme>
   <programme start="20260728053000 +0000" stop="20260728063000 +0000" channel="cl#tv-globo">
-    <title lang="es">Vai que cola</title>
+    <title lang="es">Mejores momentos - Vai que cola</title>
     <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_vai-que-cola_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/cl_mejores-momentos-vai-que-cola_l_m.jpg</image>
   </programme>
   <programme start="20260728061500 +0000" stop="20260728072000 +0000" channel="cl#tv-globo">
     <title lang="es">Encontro</title>
@@ -62673,9 +62752,9 @@
     <image>https://cdn.mitvstatic.com/programs/cl_pequenas-empresas-grandes-negocios-s00e1758_l_m.jpg</image>
   </programme>
   <programme start="20260728113500 +0000" stop="20260728122000 +0000" channel="cl#tv-globo">
-    <title lang="es">Vai que cola</title>
+    <title lang="es">Mejores momentos - Vai que cola</title>
     <category lang="es">Comedia</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_vai-que-cola_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/cl_mejores-momentos-vai-que-cola_l_m.jpg</image>
   </programme>
   <programme start="20260728122000 +0000" stop="20260728130000 +0000" channel="cl#tv-globo">
     <title lang="es">A grande família</title>
@@ -62818,7 +62897,7 @@
     <episode-num system="onscreen">S01E162</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726052000 +0000" stop="20260726063000 +0000" channel="cl#tve">
+  <programme start="20260726053500 +0000" stop="20260726063000 +0000" channel="cl#tve">
     <title lang="es">Tendido cero</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.419.0/1</episode-num>
@@ -62833,48 +62912,60 @@
   </programme>
   <programme start="20260726093000 +0000" stop="20260726094500 +0000" channel="cl#tve">
     <title lang="es">Medina en TVE</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_medina-en-tve_l_m.jpg</image>
+    <sub-title lang="es">Casa Árabe Melodías de Argelia</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.457.0/1</episode-num>
+    <episode-num system="onscreen">S01E458</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260726094500 +0000" stop="20260726100000 +0000" channel="cl#tve">
     <title lang="es">Buenas noticias. TV</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_buenas-noticias-tv_l_m.jpg</image>
+    <sub-title lang="es">Valores que transforman el mundo empresarial</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.442.0/1</episode-num>
+    <episode-num system="onscreen">S01E443</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_buenas-noticias-tv-s00e443-valores-que-transforman-el-mundo-empresarial_l_m.jpg</image>
   </programme>
   <programme start="20260726100000 +0000" stop="20260726101500 +0000" channel="cl#tve">
     <title lang="es">Shalom</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_shalom_l_m.jpg</image>
+    <sub-title lang="es">Educando con la fundación Yehudi Menujin</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.448.0/1</episode-num>
+    <episode-num system="onscreen">S01E449</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_shalom-s00e449-educando-con-la-fundacion-yehudi-menujin_l_m.jpg</image>
   </programme>
   <programme start="20260726101500 +0000" stop="20260726104000 +0000" channel="cl#tve">
     <title lang="es">Últimas preguntas</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_ultimas-preguntas_l_m.jpg</image>
+    <sub-title lang="es">Madres</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.443.0/1</episode-num>
+    <episode-num system="onscreen">S01E444</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_ultimas-preguntas-s00e444-madres_l_m.jpg</image>
   </programme>
   <programme start="20260726104000 +0000" stop="20260726104500 +0000" channel="cl#tve">
     <title lang="es">Testimonio</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_testimonio_l_m.jpg</image>
+    <sub-title lang="es">Incarnatus</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.444.0/1</episode-num>
+    <episode-num system="onscreen">S01E445</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_testimonio-s00e445-incarnatus_l_m.jpg</image>
   </programme>
-  <programme start="20260726104500 +0000" stop="20260726111500 +0000" channel="cl#tve">
+  <programme start="20260726104500 +0000" stop="20260726112000 +0000" channel="cl#tve">
     <title lang="es">Pueblo de Dios</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_pueblo-de-dios_l_m.jpg</image>
+    <sub-title lang="es">Nacala, Refugio Para los Olvidados</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.363.0/1</episode-num>
+    <episode-num system="onscreen">S01E364</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_pueblo-de-dios-s00e364-nacala-refugio-para-los-olvidados_l_m.jpg</image>
   </programme>
-  <programme start="20260726111500 +0000" stop="20260726114000 +0000" channel="cl#tve">
+  <programme start="20260726112000 +0000" stop="20260726113500 +0000" channel="cl#tve">
     <title lang="es">Zoom tendencias</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.104.0/1</episode-num>
     <episode-num system="onscreen">S01E105</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_zoom-tendencias-s00e105_l_m.jpg</image>
   </programme>
-  <programme start="20260726114000 +0000" stop="20260726122500 +0000" channel="cl#tve">
+  <programme start="20260726113500 +0000" stop="20260726122000 +0000" channel="cl#tve">
     <title lang="es">De tapas por España</title>
     <sub-title lang="es">Barcelona, ciudad modernista e innovadora</sub-title>
     <category lang="es">Serie</category>
@@ -62882,7 +62973,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726122500 +0000" stop="20260726125500 +0000" channel="cl#tve">
+  <programme start="20260726122000 +0000" stop="20260726125500 +0000" channel="cl#tve">
     <title lang="es">Conversatorios en Casa de América</title>
     <sub-title lang="es">Alejandro Amenábar</sub-title>
     <category lang="es">Serie</category>
@@ -62918,7 +63009,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726144000 +0000" stop="20260726153500 +0000" channel="cl#tve">
+  <programme start="20260726144000 +0000" stop="20260726153000 +0000" channel="cl#tve">
     <title lang="es">Hoteles con alma</title>
     <sub-title lang="es">Hotel Palace - Madrid</sub-title>
     <category lang="es">Serie</category>
@@ -62926,7 +63017,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726153500 +0000" stop="20260726160000 +0000" channel="cl#tve">
+  <programme start="20260726153000 +0000" stop="20260726160000 +0000" channel="cl#tve">
     <title lang="es">Flash moda</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.61.0/1</episode-num>
@@ -62941,52 +63032,58 @@
     <episode-num system="onscreen">S01E258</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726175500 +0000" stop="20260726185500 +0000" channel="cl#tve">
+  <programme start="20260726175500 +0000" stop="20260726184000 +0000" channel="cl#tve">
     <title lang="es">Saber y ganar - Fin de semana</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.545.0/1</episode-num>
     <episode-num system="onscreen">S01E546</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726185500 +0000" stop="20260726194000 +0000" channel="cl#tve">
+  <programme start="20260726184000 +0000" stop="20260726185500 +0000" channel="cl#tve">
+    <title lang="es">Zoom tendencias</title>
+    <sub-title lang="es">Cantabria</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.119.0/1</episode-num>
+    <episode-num system="onscreen">S01E120</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/cl_zoom-tendencias-s00e120_l_m.jpg</image>
+  </programme>
+  <programme start="20260726185500 +0000" stop="20260726195000 +0000" channel="cl#tve">
     <title lang="es">Telediario 2</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260726194000 +0000" stop="20260726194500 +0000" channel="cl#tve">
+  <programme start="20260726195000 +0000" stop="20260726195500 +0000" channel="cl#tve">
     <title lang="es">Teledeporte 2</title>
     <title lang="en">Teledeporte 2</title>
     <category lang="es">Teledeporte 2</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260726194500 +0000" stop="20260726234500 +0000" channel="cl#tve">
-    <title lang="es">El Grand Prix del verano</title>
+  <programme start="20260726195500 +0000" stop="20260726220500 +0000" channel="cl#tve">
+    <title lang="es">Dog House</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.26.0/1</episode-num>
-    <episode-num system="onscreen">S01E27</episode-num>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260726234500 +0000" stop="20260727000000 +0000" channel="cl#tve">
+  <programme start="20260726220500 +0000" stop="20260726233500 +0000" channel="cl#tve">
+    <title lang="es">Carola de día, Carola de noche</title>
+    <title lang="en">Comedia</title>
+    <rating><value>5.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260726233500 +0000" stop="20260727000000 +0000" channel="cl#tve">
     <title lang="es">Aquí la tierra</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.783.0/1</episode-num>
     <episode-num system="onscreen">S01E784</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_aqui-la-tierra-s00e784_l_m.jpg</image>
   </programme>
-  <programme start="20260727000000 +0000" stop="20260727002000 +0000" channel="cl#tve">
+  <programme start="20260727000000 +0000" stop="20260727003000 +0000" channel="cl#tve">
     <title lang="es">TD Internacional 24 Horas</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_td-internacional-24-horas_l_m.jpg</image>
-  </programme>
-  <programme start="20260727002000 +0000" stop="20260727003000 +0000" channel="cl#tve">
-    <title lang="es">De tapas por España</title>
-    <sub-title lang="es">Jaén. Ciudad Plateada.</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260727003000 +0000" stop="20260727003500 +0000" channel="cl#tve">
     <title lang="es">La suerte en tus manos</title>
@@ -79085,10 +79182,12 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260729020100 +0000" stop="20260729030300 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
-    <title lang="es">El rescate de Notre Dame</title>
-    <title lang="en">Rebuilding Notre Dame</title>
-    <category lang="es">Cortometrajes</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+    <title lang="es">Rebuilding Notre Dame</title>
+    <sub-title lang="es">The Next Chapter</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260729030300 +0000" stop="20260729040100 +0000" channel="NationalGeographicLatinAmerica.us@Panregional">
     <title lang="es">Gordon Ramsay: sabores extremos</title>
@@ -86648,14 +86747,14 @@
     <category lang="es">Político</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260727053000 +0000" stop="20260727070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260727053000 +0000" stop="20260727063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.86.0/1</episode-num>
     <episode-num system="onscreen">S01E87</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260727053000 +0000" stop="20260727063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260727053000 +0000" stop="20260727070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.86.0/1</episode-num>
@@ -87422,13 +87521,13 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_mad-max-furia-en-el-camino-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260728041400 +0000" stop="20260728063100 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260728041400 +0000" stop="20260728051400 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">Gloria</title>
     <title lang="en">Biográfico</title>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/cl_gloria-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260728041400 +0000" stop="20260728051400 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260728041400 +0000" stop="20260728063100 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">Gloria</title>
     <title lang="en">Biográfico</title>
     <rating><value>6.5</value></rating>
