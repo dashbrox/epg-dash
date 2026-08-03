@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260803101108 +0000">
+<tv generator-info-name="custom-epg" date="20260803152216 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -633,19 +635,17 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
-  </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <programme start="20260803060000 +0000" stop="20260803070000 +0000" channel="13C.cl@SD">
     <title lang="es">Sueño americano</title>
@@ -2772,14 +2772,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_los-indestructibles-2-2012_l_m.jpg</image>
   </programme>
-  <programme start="20260805044000 +0000" stop="20260805070500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260805044000 +0000" stop="20260805054000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Hasta los huesos</title>
     <title lang="en">Bones and All</title>
     <category lang="es">Drama</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260805044000 +0000" stop="20260805054000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260805044000 +0000" stop="20260805070500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Hasta los huesos</title>
     <title lang="en">Bones and All</title>
     <category lang="es">Drama</category>
@@ -12257,7 +12257,7 @@
   </programme>
   <programme start="20260803194700 +0000" stop="20260803195900 +0000" channel="CartoonNetwork.us@West">
     <title lang="es">Clarence</title>
-    <sub-title lang="es">El problema de la pizza</sub-title>
+    <sub-title lang="es">Parque acuático</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.46.0/1</episode-num>
     <episode-num system="onscreen">S01E47</episode-num>
@@ -18294,7 +18294,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260804052000 +0000" stop="20260804060900 +0000" channel="cl#animal-planet">
+  <programme start="20260804052000 +0000" stop="20260804062000 +0000" channel="cl#animal-planet">
     <title lang="es">Mascotas revoltosas</title>
     <sub-title lang="es">Mascotas hiperactivas</sub-title>
     <category lang="es">Serie</category>
@@ -18302,7 +18302,7 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mascotas-revoltosas-s03e07-mascotas-hiperactivas_l_m.jpg</image>
   </programme>
-  <programme start="20260804052000 +0000" stop="20260804062000 +0000" channel="cl#animal-planet">
+  <programme start="20260804052000 +0000" stop="20260804060900 +0000" channel="cl#animal-planet">
     <title lang="es">Mascotas revoltosas</title>
     <sub-title lang="es">Mascotas hiperactivas</sub-title>
     <category lang="es">Serie</category>
@@ -42348,7 +42348,7 @@
   </programme>
   <programme start="20260804143000 +0000" stop="20260804150000 +0000" channel="cl#disney-hd">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">Juego sucio</sub-title>
+    <sub-title lang="es">Atrapa la carne si puedes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -56077,7 +56077,7 @@
   </programme>
   <programme start="20260803104000 +0000" stop="20260803110000 +0000" channel="cl#nick-jr">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">Un desastre persona</sub-title>
+    <sub-title lang="es">Misión: mudanza / Una entrenadora muy Loud</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.4.0/1</episode-num>
     <episode-num system="onscreen">S10E05</episode-num>
@@ -56378,7 +56378,7 @@
   </programme>
   <programme start="20260803235000 +0000" stop="20260804000000 +0000" channel="cl#nick-jr">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Una situación de pelos</sub-title>
+    <sub-title lang="es">El campamento del caos / Una situación de pelos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -56618,7 +56618,7 @@
   </programme>
   <programme start="20260804104000 +0000" stop="20260804110000 +0000" channel="cl#nick-jr">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">Un desastre persona</sub-title>
+    <sub-title lang="es">Misión: mudanza / Una entrenadora muy Loud</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.4.0/1</episode-num>
     <episode-num system="onscreen">S10E05</episode-num>
@@ -56658,7 +56658,7 @@
   </programme>
   <programme start="20260804122000 +0000" stop="20260804124500 +0000" channel="cl#nick-jr">
     <title lang="es">El show de Patricio Estrella</title>
-    <sub-title lang="es">Las mascotas de la tetera / El vengador parcial</sub-title>
+    <sub-title lang="es">Las mascotas de la tetera</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.3.0/1</episode-num>
     <episode-num system="onscreen">S04E04</episode-num>
@@ -56923,7 +56923,7 @@
   </programme>
   <programme start="20260804235000 +0000" stop="20260805000000 +0000" channel="cl#nick-jr">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Una situación de pelos</sub-title>
+    <sub-title lang="es">El campamento del caos / Una situación de pelos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -57163,7 +57163,7 @@
   </programme>
   <programme start="20260805104000 +0000" stop="20260805110000 +0000" channel="cl#nick-jr">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">El hombre para mis planes</sub-title>
+    <sub-title lang="es">Mi falso Valentín / El hombre para mis planes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.7.0/1</episode-num>
     <episode-num system="onscreen">S10E08</episode-num>
@@ -57711,7 +57711,7 @@
   </programme>
   <programme start="20260803104000 +0000" stop="20260803110000 +0000" channel="cl#nickelodeon">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">Un desastre persona</sub-title>
+    <sub-title lang="es">Misión: mudanza / Una entrenadora muy Loud</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.4.0/1</episode-num>
     <episode-num system="onscreen">S10E05</episode-num>
@@ -58030,7 +58030,7 @@
   </programme>
   <programme start="20260803235000 +0000" stop="20260804000000 +0000" channel="cl#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Una situación de pelos</sub-title>
+    <sub-title lang="es">El campamento del caos / Una situación de pelos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -58270,7 +58270,7 @@
   </programme>
   <programme start="20260804104000 +0000" stop="20260804110000 +0000" channel="cl#nickelodeon">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">Un desastre persona</sub-title>
+    <sub-title lang="es">Misión: mudanza / Una entrenadora muy Loud</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.4.0/1</episode-num>
     <episode-num system="onscreen">S10E05</episode-num>
@@ -58310,7 +58310,7 @@
   </programme>
   <programme start="20260804122000 +0000" stop="20260804124500 +0000" channel="cl#nickelodeon">
     <title lang="es">El show de Patricio Estrella</title>
-    <sub-title lang="es">Las mascotas de la tetera / El vengador parcial</sub-title>
+    <sub-title lang="es">Las mascotas de la tetera</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.3.0/1</episode-num>
     <episode-num system="onscreen">S04E04</episode-num>
@@ -58590,7 +58590,7 @@
   </programme>
   <programme start="20260804235000 +0000" stop="20260805000000 +0000" channel="cl#nickelodeon">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Una situación de pelos</sub-title>
+    <sub-title lang="es">El campamento del caos / Una situación de pelos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -58830,7 +58830,7 @@
   </programme>
   <programme start="20260805104000 +0000" stop="20260805110000 +0000" channel="cl#nickelodeon">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">El hombre para mis planes</sub-title>
+    <sub-title lang="es">Mi falso Valentín / El hombre para mis planes</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.7.0/1</episode-num>
     <episode-num system="onscreen">S10E08</episode-num>
@@ -63107,7 +63107,7 @@
   </programme>
   <programme start="20260803103500 +0000" stop="20260803104600 +0000" channel="cl#tooncast">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">La llama exploradora</sub-title>
+    <sub-title lang="es">Ojos de serpiente</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -63569,7 +63569,7 @@
   </programme>
   <programme start="20260803224200 +0000" stop="20260803225300 +0000" channel="cl#tooncast">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">La llama exploradora</sub-title>
+    <sub-title lang="es">Ojos de serpiente</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.7.0/1</episode-num>
     <episode-num system="onscreen">S01E08</episode-num>
@@ -64947,7 +64947,7 @@
   </programme>
   <programme start="20260805103500 +0000" stop="20260805104600 +0000" channel="cl#tooncast">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">El gran queso</sub-title>
+    <sub-title lang="es">El campamento se baja los pantalones</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -65019,7 +65019,7 @@
   </programme>
   <programme start="20260805121100 +0000" stop="20260805121900 +0000" channel="cl#tooncast">
     <title lang="es">Hi Hi Puffy AmiYumi</title>
-    <sub-title lang="es">Número por favor</sub-title>
+    <sub-title lang="es">Un desastre de casa</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.11.0/1</episode-num>
     <episode-num system="onscreen">S03E12</episode-num>
@@ -65435,7 +65435,7 @@
   </programme>
   <programme start="20260805224200 +0000" stop="20260805225300 +0000" channel="cl#tooncast">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">El gran queso</sub-title>
+    <sub-title lang="es">El campamento se baja los pantalones</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -65499,7 +65499,7 @@
   </programme>
   <programme start="20260806001200 +0000" stop="20260806001900 +0000" channel="cl#tooncast">
     <title lang="es">Hi Hi Puffy AmiYumi</title>
-    <sub-title lang="es">Número por favor</sub-title>
+    <sub-title lang="es">Un desastre de casa</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.11.0/1</episode-num>
     <episode-num system="onscreen">S03E12</episode-num>
@@ -71469,7 +71469,7 @@
   </programme>
   <programme start="20260805225500 +0000" stop="20260805232200 +0000" channel="DiscoveryKidsLatinAmerica.us@Chile">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">La nube / Una cucharada de metal / Armonía entre hermanos / Una visión rockera / Pinta tu mú...</sub-title>
+    <sub-title lang="es">Superfiesta de superdisfraces / El jurado / El reemplazo / La samba tiene la culpa / ¡Otra v...</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.2.0/1</episode-num>
     <episode-num system="onscreen">S03E03</episode-num>
@@ -89939,14 +89939,14 @@
     <episode-num system="onscreen">S03E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260805053000 +0000" stop="20260805070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260805053000 +0000" stop="20260805063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.93.0/1</episode-num>
     <episode-num system="onscreen">S01E94</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260805053000 +0000" stop="20260805063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260805053000 +0000" stop="20260805070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.93.0/1</episode-num>
@@ -90606,7 +90606,7 @@
     <episode-num system="onscreen">S07E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s07e01-the-hofstadter-insufficiency_l_m.jpg</image>
   </programme>
-  <programme start="20260805055800 +0000" stop="20260805062100 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260805055800 +0000" stop="20260805065800 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La verificación del engaño</sub-title>
     <category lang="es">Serie</category>
@@ -90614,7 +90614,7 @@
     <episode-num system="onscreen">S07E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s07e02-the-deception-verification_l_m.jpg</image>
   </programme>
-  <programme start="20260805055800 +0000" stop="20260805065800 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260805055800 +0000" stop="20260805062100 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La verificación del engaño</sub-title>
     <category lang="es">Serie</category>
