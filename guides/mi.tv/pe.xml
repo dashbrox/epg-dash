@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260806091414 +0000">
+<tv generator-info-name="custom-epg" date="20260806114600 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
+  </channel>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
   </channel>
   <channel id="pe#warner">
     <display-name>Warner Channel</display-name>
@@ -357,11 +359,9 @@
   <channel id="pe#america-television">
     <display-name>América Televisión</display-name>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
-  </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
   <programme start="20260806103000 +0000" stop="20260806113000 +0000" channel="ATV.pe@SD">
     <title lang="es">ATV Noticias - Edición matinal</title>
@@ -2489,9 +2489,9 @@
     <image>https://cdn.mitvstatic.com/programs/pe_citynoticias-de-las-8_l_m.jpg</image>
   </programme>
   <programme start="20260807050000 +0000" stop="20260807053000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">Programación comercial</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
+    <title lang="es">JGH</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260807053000 +0000" stop="20260807063000 +0000" channel="CitytvBogota.co@SD">
@@ -2500,11 +2500,17 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260807060000 +0000" stop="20260807083000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">Bravissimo</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_bravissimo_l_m.jpg</image>
+  <programme start="20260807060000 +0000" stop="20260807063000 +0000" channel="CitytvBogota.co@SD">
+    <title lang="es">Programación comercial</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260807063000 +0000" stop="20260807083000 +0000" channel="CitytvBogota.co@SD">
+    <title lang="es">Arriba Bogotá</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_arriba-bogota_l_m.jpg</image>
   </programme>
   <programme start="20260807083000 +0000" stop="20260807100000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Fuera del aire</title>
@@ -2543,24 +2549,18 @@
     <image>https://cdn.mitvstatic.com/programs/pe_citynoticias-fin-de-semana_l_m.jpg</image>
   </programme>
   <programme start="20260807190000 +0000" stop="20260807200000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">Popeye</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_popeye_l_m.jpg</image>
+    <title lang="es">Posesión presidencial</title>
+    <title lang="en">Político</title>
+    <category lang="es">Político</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260807200000 +0000" stop="20260807213000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">Candy Candy</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_candy-candy_l_m.jpg</image>
+  <programme start="20260807200000 +0000" stop="20260807230000 +0000" channel="CitytvBogota.co@SD">
+    <title lang="es">Ceremonia - Posesión Presidencial</title>
+    <title lang="en">Político</title>
+    <category lang="es">Político</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260807213000 +0000" stop="20260807233000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">Los padrinos mágicos</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_los-padrinos-magicos_l_m.jpg</image>
-  </programme>
-  <programme start="20260807233000 +0000" stop="20260808010000 +0000" channel="CitytvBogota.co@SD">
+  <programme start="20260807230000 +0000" stop="20260808010000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Degrassi: la nueva generación</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/pe_degrassi-la-nueva-generacion_l_m.jpg</image>
@@ -2579,9 +2579,9 @@
   </programme>
   <programme start="20260808023000 +0000" stop="20260808033000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Bravissimo sin tapujos</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Alejandro Estrada</title>
+    <category lang="es">- Alejandro Estrada</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260808033000 +0000" stop="20260808040000 +0000" channel="CitytvBogota.co@SD">
     <title lang="es">Los Simpson</title>
@@ -6491,7 +6491,7 @@
   </programme>
   <programme start="20260808235000 +0000" stop="20260809000000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Mar-Smoothie-Lamie</sub-title>
+    <sub-title lang="es">Misión Cazacriaturas / El extraño mejor amigo de Mica</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.16.0/1</episode-num>
     <episode-num system="onscreen">S01E17</episode-num>
@@ -7430,14 +7430,14 @@
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/pe_2012-2009_l_m.jpg</image>
   </programme>
-  <programme start="20260807054500 +0000" stop="20260807080500 +0000" channel="pe#amc">
+  <programme start="20260807054500 +0000" stop="20260807064500 +0000" channel="pe#amc">
     <title lang="es">Hasta los huesos</title>
     <title lang="en">Bones and All</title>
     <category lang="es">Drama</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260807054500 +0000" stop="20260807064500 +0000" channel="pe#amc">
+  <programme start="20260807054500 +0000" stop="20260807080500 +0000" channel="pe#amc">
     <title lang="es">Hasta los huesos</title>
     <title lang="en">Bones and All</title>
     <category lang="es">Drama</category>
@@ -8457,13 +8457,13 @@
     <category lang="es">Telenovela</category>
     <image>https://cdn.mitvstatic.com/programs/pe_destilando-amor_l_m.jpg</image>
   </programme>
-  <programme start="20260806184000 +0000" stop="20260806210000 +0000" channel="pe#america-television">
+  <programme start="20260806184000 +0000" stop="20260806211500 +0000" channel="pe#america-television">
     <title lang="es">Mande quien mande</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/pe_mande-quien-mande_l_m.jpg</image>
   </programme>
-  <programme start="20260806210000 +0000" stop="20260806220000 +0000" channel="pe#america-television">
+  <programme start="20260806211500 +0000" stop="20260806220000 +0000" channel="pe#america-television">
     <title lang="es">Corazón de oro</title>
     <title lang="en">Telenovela</title>
     <category lang="es">Telenovela</category>
@@ -8474,17 +8474,11 @@
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-chavo_l_m.jpg</image>
   </programme>
-  <programme start="20260806230000 +0000" stop="20260806235000 +0000" channel="pe#america-television">
+  <programme start="20260806230000 +0000" stop="20260807003000 +0000" channel="pe#america-television">
     <title lang="es">Los milagros de la rosa</title>
     <title lang="en">Telenovela</title>
     <category lang="es">Telenovela</category>
     <image>https://cdn.mitvstatic.com/programs/pe_los-milagros-de-la-rosa_l_m.jpg</image>
-  </programme>
-  <programme start="20260806235000 +0000" stop="20260807003000 +0000" channel="pe#america-television">
-    <title lang="es">Los milagros de la rosa: Perú</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260807003000 +0000" stop="20260807030000 +0000" channel="pe#america-television">
     <title lang="es">Esto es guerra</title>
@@ -8763,23 +8757,24 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/pe_solamente-milagros_l_m.jpg</image>
   </programme>
-  <programme start="20260808190000 +0000" stop="20260808193000 +0000" channel="pe#america-television">
+  <programme start="20260808190000 +0000" stop="20260808194500 +0000" channel="pe#america-television">
     <title lang="es">El Chavo</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-chavo_l_m.jpg</image>
   </programme>
-  <programme start="20260808193000 +0000" stop="20260808211500 +0000" channel="pe#america-television">
-    <title lang="es">Mini espías 2: La isla de los sueños perdidos</title>
-    <title lang="en">Spy Kids 2 - The Island of Lost Dreams</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_mini-espias-2-la-isla-de-los-suenos-perdidos-2002_l_m.jpg</image>
-  </programme>
-  <programme start="20260808211500 +0000" stop="20260808231500 +0000" channel="pe#america-television">
+  <programme start="20260808194500 +0000" stop="20260808214500 +0000" channel="pe#america-television">
     <title lang="es">Spider-Man: Lejos de casa</title>
     <title lang="en">Spider-Man: Far from Home</title>
     <category lang="es">Aventura</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_spider-man-lejos-de-casa-2019_l_m.jpg</image>
+  </programme>
+  <programme start="20260808214500 +0000" stop="20260808231500 +0000" channel="pe#america-television">
+    <title lang="es">Minions: nace un villano</title>
+    <title lang="en">Minions: The Rise of Gru</title>
+    <category lang="es">Animación</category>
+    <rating><value>6.6</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260808231500 +0000" stop="20260809001500 +0000" channel="pe#america-television">
     <title lang="es">Los milagros de la rosa</title>
@@ -46660,52 +46655,59 @@
     <episode-num system="onscreen">S15E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_tnt-buzz-s15e11_l_m.jpg</image>
   </programme>
-  <programme start="20260806100000 +0000" stop="20260806122000 +0000" channel="pe#space">
+  <programme start="20260806100000 +0000" stop="20260806101000 +0000" channel="pe#space">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.131.0/1</episode-num>
+    <episode-num system="onscreen">S01E132</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e132_l_m.jpg</image>
+  </programme>
+  <programme start="20260806101000 +0000" stop="20260806121500 +0000" channel="pe#space">
     <title lang="es">Godzilla vs. Kong</title>
     <title lang="en">C.Ficción</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_godzilla-vs-kong-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260806122000 +0000" stop="20260806140600 +0000" channel="pe#space">
+  <programme start="20260806121500 +0000" stop="20260806140500 +0000" channel="pe#space">
     <title lang="es">Los renegados</title>
     <title lang="en">The Misfits</title>
     <category lang="es">Acción</category>
     <rating><value>4.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260806140600 +0000" stop="20260806163100 +0000" channel="pe#space">
+  <programme start="20260806140500 +0000" stop="20260806163100 +0000" channel="pe#space">
     <title lang="es">Gran Torino</title>
     <title lang="en">Drama</title>
     <rating><value>8.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_gran-torino-2008_l_m.jpg</image>
   </programme>
-  <programme start="20260806163100 +0000" stop="20260806185100 +0000" channel="pe#space">
+  <programme start="20260806163100 +0000" stop="20260806185500 +0000" channel="pe#space">
     <title lang="es">Dos inútiles en patrulla</title>
     <title lang="en">Cop Out</title>
     <category lang="es">Acción</category>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-inutiles-en-patrulla-2010_l_m.jpg</image>
   </programme>
-  <programme start="20260806185100 +0000" stop="20260806210000 +0000" channel="pe#space">
+  <programme start="20260806185500 +0000" stop="20260806205500 +0000" channel="pe#space">
     <title lang="es">Punto de quiebre</title>
     <title lang="en">Point Break</title>
     <category lang="es">Acción</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_punto-de-quiebre-2015_l_m.jpg</image>
   </programme>
-  <programme start="20260806210000 +0000" stop="20260806225900 +0000" channel="pe#space">
+  <programme start="20260806205500 +0000" stop="20260806225100 +0000" channel="pe#space">
     <title lang="es">Un golpe con estilo</title>
     <title lang="en">Going in Style</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_un-golpe-con-estilo-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260806225900 +0000" stop="20260807011700 +0000" channel="pe#space">
+  <programme start="20260806225100 +0000" stop="20260807011000 +0000" channel="pe#space">
     <title lang="es">El súper agente 86</title>
     <title lang="en">Get Smart</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-super-agente-86-2008_l_m.jpg</image>
   </programme>
-  <programme start="20260807011700 +0000" stop="20260807035000 +0000" channel="pe#space">
+  <programme start="20260807011000 +0000" stop="20260807035000 +0000" channel="pe#space">
     <title lang="es">¡Shazam! La furia de los dioses</title>
     <title lang="en">Shazam! Fury of the Gods</title>
     <category lang="es">Acción</category>
@@ -46713,26 +46715,26 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260807035000 +0000" stop="20260807040500 +0000" channel="pe#space">
-    <title lang="es">Highlights - Poker</title>
+    <title lang="es">Final Table</title>
     <title lang="en">Highlights - Poker</title>
     <category lang="es">Highlights - Poker</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260807040500 +0000" stop="20260807054600 +0000" channel="pe#space">
+  <programme start="20260807040500 +0000" stop="20260807054500 +0000" channel="pe#space">
     <title lang="es">Posesión infernal: El despertar</title>
     <title lang="en">Evil Dead Rise</title>
     <category lang="es">Terror</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260807054600 +0000" stop="20260807074100 +0000" channel="pe#space">
+  <programme start="20260807054500 +0000" stop="20260807064500 +0000" channel="pe#space">
     <title lang="es">El conjuro 3</title>
     <title lang="en">The Conjuring: The Devil Made Me Do It</title>
     <category lang="es">Terror</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_el-conjuro-3-2021_l_m.jpg</image>
   </programme>
-  <programme start="20260807054600 +0000" stop="20260807064600 +0000" channel="pe#space">
+  <programme start="20260807054600 +0000" stop="20260807074100 +0000" channel="pe#space">
     <title lang="es">El conjuro 3</title>
     <title lang="en">The Conjuring: The Devil Made Me Do It</title>
     <category lang="es">Terror</category>
@@ -54233,7 +54235,7 @@
     <episode-num system="onscreen">S07E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s07e12-the-hesitation-ramification_l_m.jpg</image>
   </programme>
-  <programme start="20260807055800 +0000" stop="20260807062000 +0000" channel="pe#warner">
+  <programme start="20260807055800 +0000" stop="20260807065800 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La reorganización de la profesión</sub-title>
     <category lang="es">Serie</category>
@@ -54241,7 +54243,7 @@
     <episode-num system="onscreen">S07E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s07e13-the-occupation-recalibration_l_m.jpg</image>
   </programme>
-  <programme start="20260807055800 +0000" stop="20260807065800 +0000" channel="pe#warner">
+  <programme start="20260807055800 +0000" stop="20260807062000 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La reorganización de la profesión</sub-title>
     <category lang="es">Serie</category>
@@ -56164,13 +56166,13 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260807053000 +0000" stop="20260807103000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260807053000 +0000" stop="20260807063000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
-  <programme start="20260807053000 +0000" stop="20260807063000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20260807053000 +0000" stop="20260807103000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
