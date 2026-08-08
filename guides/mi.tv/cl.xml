@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260808190322 +0000">
+<tv generator-info-name="custom-epg" date="20260808215057 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="cl#al-jazeera">
-    <display-name>Al Jazeera</display-name>
+  <channel id="ZonaLatina.cl@SD">
+    <display-name>Zona Latina</display-name>
+    <icon src="https://i.imgur.com/lMyZZtk.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="WarnerChannel.us@Panregional">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="cl#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="AmericaSports.ar@SD">
-    <display-name>América Sports</display-name>
-    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
+  <channel id="ViaX.cl@SD">
+    <display-name>Vía X</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
   </channel>
   <channel id="cl#vh1-mega-hits">
     <display-name>VH1 Mega Hits</display-name>
@@ -635,17 +633,19 @@
   <channel id="cl#animal-planet-hd">
     <display-name>Animal Planet HD</display-name>
   </channel>
-  <channel id="ZonaLatina.cl@SD">
-    <display-name>Zona Latina</display-name>
-    <icon src="https://i.imgur.com/lMyZZtk.png"/>
+  <channel id="cl#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WarnerChannel.us@Panregional">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="AmericaSports.ar@SD">
+    <display-name>América Sports</display-name>
+    <icon src="https://i.imgur.com/GOQ9zOI.png"/>
   </channel>
-  <channel id="ViaX.cl@SD">
-    <display-name>Vía X</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="cl#al-jazeera">
+    <display-name>Al Jazeera</display-name>
   </channel>
   <programme start="20260808060000 +0000" stop="20260808070000 +0000" channel="13C.cl@SD">
     <title lang="es">City Tour</title>
@@ -3108,14 +3108,14 @@
     <rating><value>4.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260810051000 +0000" stop="20260810061000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260810051000 +0000" stop="20260810070000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Alice</title>
     <title lang="en">Subservience</title>
     <category lang="es">C.Ficción</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260810051000 +0000" stop="20260810070000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260810051000 +0000" stop="20260810061000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Alice</title>
     <title lang="en">Subservience</title>
     <category lang="es">C.Ficción</category>
@@ -15291,65 +15291,89 @@
     <category lang="es">Fecha 18, Estadio El Teniente</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260810100000 +0000" stop="20260810120500 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">Todos somos técnicos</title>
-    <title lang="en">Todos somos técnicos</title>
-    <category lang="es">Todos somos técnicos</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-todos-somos-tecnicos_l_m.jpg</image>
-  </programme>
-  <programme start="20260810120500 +0000" stop="20260810125500 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">Replay</title>
-    <title lang="en">Replay</title>
-    <category lang="es">Replay</category>
+  <programme start="20260810100000 +0000" stop="20260810120000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Deportes Temuco vs. Magallanes</title>
+    <title lang="en">Fecha 19, Estadio Municipal Germán Becker</title>
+    <category lang="es">Fecha 19, Estadio Municipal Germán Becker</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260810125500 +0000" stop="20260810162000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
+  <programme start="20260810120000 +0000" stop="20260810133500 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Vozinha Day</title>
+    <title lang="en">Especial</title>
+    <category lang="es">Especial</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260810162000 +0000" stop="20260810193000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
+  <programme start="20260810133500 +0000" stop="20260810140500 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">COPEC Rallymobil</title>
+    <title lang="en">Más motor</title>
+    <category lang="es">Más motor</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_automovilismo-copec-rallymobil-2_l_m.jpg</image>
   </programme>
-  <programme start="20260810193000 +0000" stop="20260810210000 +0000" channel="CDFPremium.cl@SD">
+  <programme start="20260810140500 +0000" stop="20260810162000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">CD Las Animas vs. CD ABA Ancud</title>
+    <title lang="en">Liga Nacional de básquetbol</title>
+    <category lang="es">Liga Nacional de básquetbol</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_basquet-cd-las-animas-vs-cd-aba-ancud-2_l_m.jpg</image>
+  </programme>
+  <programme start="20260810162000 +0000" stop="20260810182000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">O&apos;Higgins vs. Limache</title>
+    <title lang="en">Fecha 18, Estadio El Teniente</title>
+    <category lang="es">Fecha 18, Estadio El Teniente</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260810182000 +0000" stop="20260810202000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Unión La Calera vs. Colo Colo</title>
+    <title lang="en">Fecha 18, Estadio Municipal Nicolás Chahuán</title>
+    <category lang="es">Fecha 18, Estadio Municipal Nicolás Chahuán</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260810202000 +0000" stop="20260810220000 +0000" channel="CDFPremium.cl@SD">
     <title lang="es">Todos somos técnicos</title>
     <title lang="en">Todos somos técnicos</title>
     <category lang="es">Todos somos técnicos</category>
     <image>https://cdn.mitvstatic.com/programs/cl_futbol-todos-somos-tecnicos_l_m.jpg</image>
   </programme>
-  <programme start="20260810210000 +0000" stop="20260810213000 +0000" channel="CDFPremium.cl@SD">
+  <programme start="20260810220000 +0000" stop="20260810233000 +0000" channel="CDFPremium.cl@SD">
     <title lang="es">TNT Data Sports - Primera edición</title>
     <title lang="en">TNT Data Sports - Primera edición</title>
     <category lang="es">TNT Data Sports - Primera edición</category>
     <image>https://cdn.mitvstatic.com/programs/cl_deportivo-tnt-data-sports-primera-edicion_l_m.jpg</image>
   </programme>
-  <programme start="20260810213000 +0000" stop="20260810223000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Data Sports - Primera edición</title>
-    <title lang="en">TNT Data Sports - Primera edición</title>
-    <category lang="es">TNT Data Sports - Primera edición</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_deportivo-tnt-data-sports-primera-edicion_l_m.jpg</image>
-  </programme>
-  <programme start="20260810223000 +0000" stop="20260810233000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
-  </programme>
-  <programme start="20260810233000 +0000" stop="20260811022000 +0000" channel="CDFPremium.cl@SD">
+  <programme start="20260810233000 +0000" stop="20260811000000 +0000" channel="CDFPremium.cl@SD">
     <title lang="es">Audax Italiano vs. Ñublense</title>
     <title lang="en">Fecha 18, Estadio Municipal de La Florida</title>
     <category lang="es">Fecha 18, Estadio Municipal de La Florida</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260811022000 +0000" stop="20260811032000 +0000" channel="CDFPremium.cl@SD">
-    <title lang="es">TNT Sports HD</title>
-    <title lang="en">TNT Sports HD</title>
-    <category lang="es">TNT Sports HD</category>
-    <image>https://cdn.mitvstatic.com/programs/cl_futbol-tnt-sports-hd_l_m.jpg</image>
+  <programme start="20260811000000 +0000" stop="20260811020000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Audax Italiano vs. Ñublense</title>
+    <title lang="en">Fecha 18, Estadio Municipal de La Florida</title>
+    <category lang="es">Fecha 18, Estadio Municipal de La Florida</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260811020000 +0000" stop="20260811022000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Audax Italiano vs. Ñublense</title>
+    <title lang="en">Fecha 18, Estadio Municipal de La Florida</title>
+    <category lang="es">Fecha 18, Estadio Municipal de La Florida</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20260811022000 +0000" stop="20260811042000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">Todos somos técnicos</title>
+    <title lang="en">Todos somos técnicos</title>
+    <category lang="es">Todos somos técnicos</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_futbol-todos-somos-tecnicos_l_m.jpg</image>
+  </programme>
+  <programme start="20260811042000 +0000" stop="20260811055000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">TNT Data Sports</title>
+    <title lang="en">TNT Data Sports</title>
+    <category lang="es">TNT Data Sports</category>
+    <image>https://cdn.mitvstatic.com/programs/cl_noticiero-tnt-data-sports_l_m.jpg</image>
+  </programme>
+  <programme start="20260811055000 +0000" stop="20260811065000 +0000" channel="CDFPremium.cl@SD">
+    <title lang="es">#NoEsParaTanto</title>
+    <title lang="en">#NoEsParaTanto</title>
+    <category lang="es">#NoEsParaTanto</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260808050000 +0000" stop="20260808070000 +0000" channel="CDOBasico.cl@SD">
     <title lang="es">CDO</title>
@@ -17347,7 +17371,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260809051800 +0000" stop="20260809061800 +0000" channel="cl#animal-planet">
+  <programme start="20260809051800 +0000" stop="20260809060600 +0000" channel="cl#animal-planet">
     <title lang="es">Mascotas revoltosas</title>
     <sub-title lang="es">¡No lo toque!</sub-title>
     <category lang="es">Serie</category>
@@ -17355,7 +17379,7 @@
     <episode-num system="onscreen">S03E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_mascotas-revoltosas-s03e02-no-lo-toque_l_m.jpg</image>
   </programme>
-  <programme start="20260809051800 +0000" stop="20260809060600 +0000" channel="cl#animal-planet">
+  <programme start="20260809051800 +0000" stop="20260809061800 +0000" channel="cl#animal-planet">
     <title lang="es">Mascotas revoltosas</title>
     <sub-title lang="es">¡No lo toque!</sub-title>
     <category lang="es">Serie</category>
@@ -82610,7 +82634,15 @@
     <episode-num system="onscreen">S04E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260809070000 +0000" stop="20260809120000 +0000" channel="Mega.cl@SD">
+  <programme start="20260809054500 +0000" stop="20260809064500 +0000" channel="Mega.cl@SD">
+    <title lang="es">Nuestras fiestas</title>
+    <sub-title lang="es">Fiesta del Santo del Niche</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260809064500 +0000" stop="20260809120000 +0000" channel="Mega.cl@SD">
     <title lang="es">Meganoticias ahora</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -82622,40 +82654,55 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260809170000 +0000" stop="20260809195500 +0000" channel="Mega.cl@SD">
+  <programme start="20260809170000 +0000" stop="20260809185500 +0000" channel="Mega.cl@SD">
     <title lang="es">Meganoticias actualiza</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_meganoticias-actualiza-1_l_m.jpg</image>
   </programme>
-  <programme start="20260809195500 +0000" stop="20260809220000 +0000" channel="Mega.cl@SD">
+  <programme start="20260809185500 +0000" stop="20260809200000 +0000" channel="Mega.cl@SD">
     <title lang="es">El tiempo</title>
     <title lang="en">Clima</title>
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/cl_el-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20260809220000 +0000" stop="20260810000000 +0000" channel="Mega.cl@SD">
+  <programme start="20260809200000 +0000" stop="20260809210000 +0000" channel="Mega.cl@SD">
+    <title lang="es">¿A qué costo?</title>
+    <sub-title lang="es">¿A qué costo nos alimentamos?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260809210000 +0000" stop="20260810000000 +0000" channel="Mega.cl@SD">
     <title lang="es">Lo mejor - Detrás del muro</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260810000000 +0000" stop="20260810020500 +0000" channel="Mega.cl@SD">
+  <programme start="20260810000000 +0000" stop="20260810012500 +0000" channel="Mega.cl@SD">
     <title lang="es">Meganoticias Prime</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_meganoticias-prime_l_m.jpg</image>
   </programme>
-  <programme start="20260810020500 +0000" stop="20260810021000 +0000" channel="Mega.cl@SD">
+  <programme start="20260810012500 +0000" stop="20260810013000 +0000" channel="Mega.cl@SD">
     <title lang="es">El tiempo</title>
     <title lang="en">Clima</title>
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/cl_el-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20260810021000 +0000" stop="20260810043000 +0000" channel="Mega.cl@SD">
-    <title lang="es">Miss Universo Chile 2026</title>
-    <title lang="en">Especial</title>
-    <category lang="es">Especial</category>
+  <programme start="20260810013000 +0000" stop="20260810021500 +0000" channel="Mega.cl@SD">
+    <title lang="es">Atrapados! 133</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260810021500 +0000" stop="20260810043000 +0000" channel="Mega.cl@SD">
+    <title lang="es">Coliseo. Un humorista para Viña</title>
+    <sub-title lang="es">Los primeros candidatos se ponen a prueba</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260810043000 +0000" stop="20260810053000 +0000" channel="Mega.cl@SD">
     <title lang="es">Dale play</title>
@@ -82681,35 +82728,37 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/cl_mucho-gusto_l_m.jpg</image>
   </programme>
-  <programme start="20260810170000 +0000" stop="20260810185500 +0000" channel="Mega.cl@SD">
+  <programme start="20260810170000 +0000" stop="20260810190000 +0000" channel="Mega.cl@SD">
     <title lang="es">Meganoticias alerta</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_meganoticias-alerta_l_m.jpg</image>
   </programme>
-  <programme start="20260810185500 +0000" stop="20260810190000 +0000" channel="Mega.cl@SD">
+  <programme start="20260810190000 +0000" stop="20260810194500 +0000" channel="Mega.cl@SD">
     <title lang="es">El tiempo</title>
     <title lang="en">Clima</title>
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/cl_el-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20260810190000 +0000" stop="20260810203500 +0000" channel="Mega.cl@SD">
+  <programme start="20260810194500 +0000" stop="20260810204500 +0000" channel="Mega.cl@SD">
     <title lang="es">Carmen Gloria: Fuerte y claro</title>
     <title lang="en">Talk Show</title>
     <category lang="es">Talk Show</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260810203500 +0000" stop="20260810213000 +0000" channel="Mega.cl@SD">
+  <programme start="20260810204500 +0000" stop="20260810213000 +0000" channel="Mega.cl@SD">
     <title lang="es">El jardín de Olivia</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.351.0/1</episode-num>
+    <episode-num system="onscreen">S01E352</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260810213000 +0000" stop="20260810221500 +0000" channel="Mega.cl@SD">
     <title lang="es">El jardín de Olivia</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.352.0/1</episode-num>
+    <episode-num system="onscreen">S01E353</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260810221500 +0000" stop="20260811000000 +0000" channel="Mega.cl@SD">
     <title lang="es">Dale play</title>
@@ -82723,11 +82772,18 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/cl_meganoticias-prime_l_m.jpg</image>
   </programme>
-  <programme start="20260811012500 +0000" stop="20260811022000 +0000" channel="Mega.cl@SD">
+  <programme start="20260811012500 +0000" stop="20260811013000 +0000" channel="Mega.cl@SD">
     <title lang="es">El tiempo</title>
     <title lang="en">Clima</title>
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/cl_el-tiempo_l_m.jpg</image>
+  </programme>
+  <programme start="20260811013000 +0000" stop="20260811022000 +0000" channel="Mega.cl@SD">
+    <title lang="es">Reunión de superados</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.173.0/1</episode-num>
+    <episode-num system="onscreen">S01E174</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260811022000 +0000" stop="20260811050000 +0000" channel="Mega.cl@SD">
     <title lang="es">¿Volverías con tu ex? 2</title>
@@ -91420,14 +91476,14 @@
     <category lang="es">Político</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260810053000 +0000" stop="20260810063000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260810053000 +0000" stop="20260810070000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.96.0/1</episode-num>
     <episode-num system="onscreen">S01E97</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260810053000 +0000" stop="20260810070000 +0000" channel="ViaX.cl@SD">
+  <programme start="20260810053000 +0000" stop="20260810063000 +0000" channel="ViaX.cl@SD">
     <title lang="es">Cadena Nacional</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.96.0/1</episode-num>
@@ -91970,7 +92026,7 @@
     <category lang="es">C.Ficción</category>
     <image>https://cdn.mitvstatic.com/programs/cl_exterminio-ii-2007_l_m.jpg</image>
   </programme>
-  <programme start="20260810054600 +0000" stop="20260810064600 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260810054600 +0000" stop="20260810060700 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La reverberación del enrollamiento</sub-title>
     <category lang="es">Serie</category>
@@ -91978,7 +92034,7 @@
     <episode-num system="onscreen">S08E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/cl_the-big-bang-theory-s08e04-the-hook-up-reverberation_l_m.jpg</image>
   </programme>
-  <programme start="20260810054600 +0000" stop="20260810060700 +0000" channel="WarnerChannel.us@Panregional">
+  <programme start="20260810054600 +0000" stop="20260810064600 +0000" channel="WarnerChannel.us@Panregional">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La reverberación del enrollamiento</sub-title>
     <category lang="es">Serie</category>
