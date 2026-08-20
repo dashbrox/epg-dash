@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260820071120 +0000">
+<tv generator-info-name="custom-epg" date="20260820095501 +0000">
   <channel id="co#a-e-mundo">
     <display-name>A&amp;E</display-name>
-  </channel>
-  <channel id="co#a-e-mundo-hd">
-    <display-name>A&amp;E Mundo HD</display-name>
   </channel>
   <channel id="co#zoom">
     <display-name>Zoom</display-name>
@@ -691,6 +688,9 @@
   <channel id="AlientoVision.us@SD">
     <display-name>Aliento Vision</display-name>
     <icon src="https://i.imgur.com/xT10iqB.png"/>
+  </channel>
+  <channel id="co#a-e-mundo-hd">
+    <display-name>A&amp;E Mundo HD</display-name>
   </channel>
   <programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
@@ -7093,6 +7093,13 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
+  <programme start="20260822020000 +0000" stop="20260822033200 +0000" channel="co#a-e-mundo-hd">
+    <title lang="es">Acumuladores compulsivos</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">15.156.0/1</episode-num>
+    <episode-num system="onscreen">S16E157</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_acumuladores-compulsivos-t16e157_l_m.jpg</image>
+  </programme>
   <programme start="20260822020000 +0000" stop="20260822025500 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Las primeras 48: minutos críticos</title>
     <sub-title lang="es">Amistad fatal</sub-title>
@@ -7100,13 +7107,6 @@
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260822020000 +0000" stop="20260822033200 +0000" channel="co#a-e-mundo-hd">
-    <title lang="es">Acumuladores compulsivos</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">15.156.0/1</episode-num>
-    <episode-num system="onscreen">S16E157</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_acumuladores-compulsivos-t16e157_l_m.jpg</image>
   </programme>
   <programme start="20260822025500 +0000" stop="20260822035100 +0000" channel="co#a-e-mundo-hd">
     <title lang="es">Las primeras 48: minutos críticos</title>
@@ -82462,17 +82462,17 @@
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260821063000 +0000" stop="20260821070000 +0000" channel="co#zoom">
-    <title lang="es">Entrevista RT</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/co_entrevista-rt_l_m.jpg</image>
-  </programme>
   <programme start="20260821063000 +0000" stop="20260821073000 +0000" channel="co#zoom">
     <title lang="es">Signos vitales</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260821063000 +0000" stop="20260821070000 +0000" channel="co#zoom">
+    <title lang="es">Entrevista RT</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/co_entrevista-rt_l_m.jpg</image>
   </programme>
   <programme start="20260821070000 +0000" stop="20260821073000 +0000" channel="co#zoom">
     <title lang="es">Zoom+</title>
@@ -82481,22 +82481,16 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260821073000 +0000" stop="20260821080000 +0000" channel="co#zoom">
-    <title lang="es">Universo U</title>
-    <title lang="en">Educativo</title>
-    <category lang="es">Educativo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_universo-u_l_m.jpg</image>
-  </programme>
-  <programme start="20260821073000 +0000" stop="20260821080000 +0000" channel="co#zoom">
     <title lang="es">Vive la vida</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260821080000 +0000" stop="20260821081500 +0000" channel="co#zoom">
-    <title lang="es">UTP lo hace posible</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260821073000 +0000" stop="20260821080000 +0000" channel="co#zoom">
+    <title lang="es">Universo U</title>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_universo-u_l_m.jpg</image>
   </programme>
   <programme start="20260821080000 +0000" stop="20260821083000 +0000" channel="co#zoom">
     <title lang="es">La lista de Erick</title>
@@ -82504,15 +82498,15 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_la-lista-de-erick_l_m.jpg</image>
   </programme>
+  <programme start="20260821080000 +0000" stop="20260821081500 +0000" channel="co#zoom">
+    <title lang="es">UTP lo hace posible</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20260821081500 +0000" stop="20260821083000 +0000" channel="co#zoom">
     <title lang="es">Sello Unipacífico</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260821083000 +0000" stop="20260821090000 +0000" channel="co#zoom">
-    <title lang="es">La raíz doble. Sabores periféricos</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260821083000 +0000" stop="20260821090000 +0000" channel="co#zoom">
@@ -82520,10 +82514,10 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
   </programme>
-  <programme start="20260821090000 +0000" stop="20260821093000 +0000" channel="co#zoom">
-    <title lang="es">Hablando claro con Clara</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
+  <programme start="20260821083000 +0000" stop="20260821090000 +0000" channel="co#zoom">
+    <title lang="es">La raíz doble. Sabores periféricos</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260821090000 +0000" stop="20260821093000 +0000" channel="co#zoom">
@@ -82532,10 +82526,11 @@
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-climatico_l_m.jpg</image>
   </programme>
-  <programme start="20260821093000 +0000" stop="20260821100000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  <programme start="20260821090000 +0000" stop="20260821093000 +0000" channel="co#zoom">
+    <title lang="es">Hablando claro con Clara</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260821093000 +0000" stop="20260821101500 +0000" channel="co#zoom">
     <title lang="es">A fondo</title>
@@ -82543,8 +82538,19 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-fondo_l_m.jpg</image>
   </programme>
+  <programme start="20260821093000 +0000" stop="20260821100000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
   <programme start="20260821100000 +0000" stop="20260821101500 +0000" channel="co#zoom">
     <title lang="es">¡Acción!</title>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260821101500 +0000" stop="20260821103000 +0000" channel="co#zoom">
+    <title lang="es">Gatipedia</title>
     <title lang="en">Educativo</title>
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -82555,23 +82561,17 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260821101500 +0000" stop="20260821103000 +0000" channel="co#zoom">
-    <title lang="es">Gatipedia</title>
-    <title lang="en">Educativo</title>
-    <category lang="es">Educativo</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260821103000 +0000" stop="20260821110000 +0000" channel="co#zoom">
+    <title lang="es">Entrevista RT</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/co_entrevista-rt_l_m.jpg</image>
   </programme>
   <programme start="20260821103000 +0000" stop="20260821104500 +0000" channel="co#zoom">
     <title lang="es">La UIS que queremos</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_la-uis-que-queremos_l_m.jpg</image>
-  </programme>
-  <programme start="20260821103000 +0000" stop="20260821110000 +0000" channel="co#zoom">
-    <title lang="es">Entrevista RT</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/co_entrevista-rt_l_m.jpg</image>
   </programme>
   <programme start="20260821104500 +0000" stop="20260821110000 +0000" channel="co#zoom">
     <title lang="es">Pa allá vamos</title>
@@ -82580,21 +82580,16 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260821110000 +0000" stop="20260821113000 +0000" channel="co#zoom">
-    <title lang="es">NCC Climático</title>
-    <title lang="en">Clima</title>
-    <category lang="es">Clima</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc-climatico_l_m.jpg</image>
-  </programme>
-  <programme start="20260821110000 +0000" stop="20260821113000 +0000" channel="co#zoom">
     <title lang="es">Zoom+</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260821113000 +0000" stop="20260821120000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  <programme start="20260821110000 +0000" stop="20260821113000 +0000" channel="co#zoom">
+    <title lang="es">NCC Climático</title>
+    <title lang="en">Clima</title>
+    <category lang="es">Clima</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc-climatico_l_m.jpg</image>
   </programme>
   <programme start="20260821113000 +0000" stop="20260821120000 +0000" channel="co#zoom">
     <title lang="es">Universo U</title>
@@ -82602,7 +82597,7 @@
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/co_universo-u_l_m.jpg</image>
   </programme>
-  <programme start="20260821120000 +0000" stop="20260821123000 +0000" channel="co#zoom">
+  <programme start="20260821113000 +0000" stop="20260821120000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
@@ -82613,13 +82608,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
+  <programme start="20260821120000 +0000" stop="20260821123000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
   <programme start="20260821121500 +0000" stop="20260821123000 +0000" channel="co#zoom">
     <title lang="es">Sello Unipacífico</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260821123000 +0000" stop="20260822010000 +0000" channel="co#zoom">
-    <title lang="es">Revolucionar-IA</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
@@ -82629,22 +82624,21 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260822010000 +0000" stop="20260822013000 +0000" channel="co#zoom">
-    <title lang="es">Cuente a ver</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
-    <image>https://cdn.mitvstatic.com/programs/co_cuente-a-ver_l_m.jpg</image>
+  <programme start="20260821123000 +0000" stop="20260822010000 +0000" channel="co#zoom">
+    <title lang="es">Revolucionar-IA</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260822010000 +0000" stop="20260822013000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
-  <programme start="20260822013000 +0000" stop="20260822020000 +0000" channel="co#zoom">
-    <title lang="es">Estación universitaria</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260822010000 +0000" stop="20260822013000 +0000" channel="co#zoom">
+    <title lang="es">Cuente a ver</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
+    <image>https://cdn.mitvstatic.com/programs/co_cuente-a-ver_l_m.jpg</image>
   </programme>
   <programme start="20260822013000 +0000" stop="20260822020000 +0000" channel="co#zoom">
     <title lang="es">NCC Salud</title>
@@ -82652,15 +82646,27 @@
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
   </programme>
+  <programme start="20260822013000 +0000" stop="20260822020000 +0000" channel="co#zoom">
+    <title lang="es">Estación universitaria</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260822020000 +0000" stop="20260822023000 +0000" channel="co#zoom">
+    <title lang="es">Valor argentino</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20260822020000 +0000" stop="20260822023000 +0000" channel="co#zoom">
     <title lang="es">Visión futuro</title>
     <title lang="en">Educativo</title>
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/co_vision-futuro_l_m.jpg</image>
   </programme>
-  <programme start="20260822020000 +0000" stop="20260822023000 +0000" channel="co#zoom">
-    <title lang="es">Valor argentino</title>
-    <category lang="es">Documental</category>
+  <programme start="20260822023000 +0000" stop="20260822030000 +0000" channel="co#zoom">
+    <title lang="es">México biocultural</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260822023000 +0000" stop="20260822030000 +0000" channel="co#zoom">
@@ -82669,11 +82675,10 @@
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/co_el-campus-tv_l_m.jpg</image>
   </programme>
-  <programme start="20260822023000 +0000" stop="20260822030000 +0000" channel="co#zoom">
-    <title lang="es">México biocultural</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260822030000 +0000" stop="20260822033000 +0000" channel="co#zoom">
+    <title lang="es">Fuerza latina</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
   </programme>
   <programme start="20260822030000 +0000" stop="20260822033000 +0000" channel="co#zoom">
     <title lang="es">Global Es</title>
@@ -82681,43 +82686,38 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260822030000 +0000" stop="20260822033000 +0000" channel="co#zoom">
-    <title lang="es">Fuerza latina</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
-  </programme>
-  <programme start="20260822033000 +0000" stop="20260822040000 +0000" channel="co#zoom">
-    <title lang="es">Historias de mujeres</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_historias-de-mujeres_l_m.jpg</image>
-  </programme>
   <programme start="20260822033000 +0000" stop="20260822040000 +0000" channel="co#zoom">
     <title lang="es">Vive la vida</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260822040000 +0000" stop="20260822050000 +0000" channel="co#zoom">
-    <title lang="es">Encuadre Iberoamericano</title>
+  <programme start="20260822033000 +0000" stop="20260822040000 +0000" channel="co#zoom">
+    <title lang="es">Historias de mujeres</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_encuadre-iberoamericano_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_historias-de-mujeres_l_m.jpg</image>
   </programme>
   <programme start="20260822040000 +0000" stop="20260822050000 +0000" channel="co#zoom">
     <title lang="es">Encuadre Iberoamericano</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_encuadre-iberoamericano_l_m.jpg</image>
   </programme>
-  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="co#zoom">
-    <title lang="es">NCC Salud</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
+  <programme start="20260822040000 +0000" stop="20260822050000 +0000" channel="co#zoom">
+    <title lang="es">Encuadre Iberoamericano</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_encuadre-iberoamericano_l_m.jpg</image>
   </programme>
   <programme start="20260822050000 +0000" stop="20260822060000 +0000" channel="co#zoom">
     <title lang="es">Foros Andina Link 2026</title>
     <title lang="en">Tecnología</title>
     <category lang="es">Tecnología</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260822050000 +0000" stop="20260822053000 +0000" channel="co#zoom">
+    <title lang="es">NCC Salud</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
   </programme>
   <programme start="20260822053000 +0000" stop="20260822054500 +0000" channel="co#zoom">
     <title lang="es">JC informa</title>
