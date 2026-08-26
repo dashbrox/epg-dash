@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260826071406 +0000">
+<tv generator-info-name="custom-epg" date="20260826100148 +0000">
   <channel id="cl#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -192,6 +192,9 @@
   <channel id="cl#disney-channel">
     <display-name>Disney Channel</display-name>
   </channel>
+  <channel id="cl#hbo-signature">
+    <display-name>HBO Signature</display-name>
+  </channel>
   <channel id="cl#bloomberg">
     <display-name>Bloomberg</display-name>
   </channel>
@@ -202,8 +205,20 @@
   <channel id="cl#discovery-world-hd">
     <display-name>Discovery World</display-name>
   </channel>
+  <channel id="cl#hbo-plus-pan-regional">
+    <display-name>HBO Plus Panregional</display-name>
+  </channel>
+  <channel id="cl#hbo-plus-este">
+    <display-name>HBO Plus Este</display-name>
+  </channel>
   <channel id="cl#discovery-turbo">
     <display-name>Discovery Turbo</display-name>
+  </channel>
+  <channel id="cl#hbo-family">
+    <display-name>HBO Family</display-name>
+  </channel>
+  <channel id="cl#hbo-2">
+    <display-name>HBO 2</display-name>
   </channel>
   <channel id="cl#cdf-hd">
     <display-name>CDF HD</display-name>
@@ -322,26 +337,12 @@
   <channel id="cl#fox-premium-classics-hd">
     <display-name>Star Classics HD</display-name>
   </channel>
-  <channel id="cl#discovery-hd-charvz">
-    <display-name>Discovery HD</display-name>
-  </channel>
   <channel id="StarClassics.us@SD">
     <display-name>Star Classics</display-name>
     <icon src="https://i.imgur.com/cv2XIQQ.png"/>
   </channel>
   <channel id="cl#fox-premium-cinema-hd">
     <display-name>Star Cinema HD</display-name>
-  </channel>
-  <channel id="AztecaUno.mx@SD">
-    <display-name>Azteca 13</display-name>
-    <icon src="https://i.imgur.com/rRxgBtI.png"/>
-  </channel>
-  <channel id="ETBBasque.es@SD">
-    <display-name>Canal Vasco</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/>
-  </channel>
-  <channel id="cl#discovery-civilization">
-    <display-name>Discovery Civilization</display-name>
   </channel>
   <channel id="StarCinema.us@SD">
     <display-name>Star Cinema</display-name>
@@ -350,13 +351,13 @@
   <channel id="cl#fox-news-internacional">
     <display-name>FOX News Internacional</display-name>
   </channel>
-  <channel id="DiscoveryChannelLatinAmerica.us@Chile">
-    <display-name>Discovery Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
-  </channel>
   <channel id="StarHits.us@SD">
     <display-name>Star Hits</display-name>
     <icon src="https://i.imgur.com/CDiPL5d.png"/>
+  </channel>
+  <channel id="StarLifeLatinAmerica.us@Panregional">
+    <display-name>Star Life</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Star_Life_2021.svg/960px-Star_Life_2021.svg.png"/>
   </channel>
   <channel id="cl#fox-hd">
     <display-name>Star Channel HD</display-name>
@@ -377,9 +378,23 @@
   <channel id="cl#fox-action-oeste">
     <display-name>Star Action (Oeste)</display-name>
   </channel>
-  <channel id="StarLifeLatinAmerica.us@Panregional">
-    <display-name>Star Life</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Star_Life_2021.svg/960px-Star_Life_2021.svg.png"/>
+  <channel id="cl#discovery-hd-charvz">
+    <display-name>Discovery HD</display-name>
+  </channel>
+  <channel id="AztecaUno.mx@SD">
+    <display-name>Azteca 13</display-name>
+    <icon src="https://i.imgur.com/rRxgBtI.png"/>
+  </channel>
+  <channel id="ETBBasque.es@SD">
+    <display-name>Canal Vasco</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/ETB_Basque_2022_logo.svg/960px-ETB_Basque_2022_logo.svg.png"/>
+  </channel>
+  <channel id="cl#discovery-civilization">
+    <display-name>Discovery Civilization</display-name>
+  </channel>
+  <channel id="DiscoveryChannelLatinAmerica.us@Chile">
+    <display-name>Discovery Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png"/>
   </channel>
   <channel id="CanaldelSur.cl@SD">
     <display-name>Canal del Sur</display-name>
@@ -393,36 +408,6 @@
   </channel>
   <channel id="cl#deutsche-welle-amerika">
     <display-name>DW (Español)</display-name>
-  </channel>
-  <channel id="cl#tv-globo">
-    <display-name>TV Globo</display-name>
-  </channel>
-  <channel id="DiputadosTV.ar@SD">
-    <display-name>TV Diputados</display-name>
-    <icon src="https://i.imgur.com/UscKOIc.png"/>
-  </channel>
-  <channel id="cl#tv-5">
-    <display-name>TV 5</display-name>
-  </channel>
-  <channel id="cl#tru-tv-hd">
-    <display-name>truTV HD</display-name>
-  </channel>
-  <channel id="cl#tru-tv">
-    <display-name>TruTV</display-name>
-  </channel>
-  <channel id="cl#tnt-series">
-    <display-name>TNT Series</display-name>
-  </channel>
-  <channel id="TNTLatinAmerica.us@Chile">
-    <display-name>TNT</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png"/>
-  </channel>
-  <channel id="cl#tlnovelas">
-    <display-name>TLNovelas</display-name>
-  </channel>
-  <channel id="TeletrakTV.cl@SD">
-    <display-name>Teletrak</display-name>
-    <icon src="https://i.imgur.com/NoJvlig.png"/>
   </channel>
   <channel id="cl#telefe-internacional">
     <display-name>Telefe Internacional</display-name>
@@ -498,9 +483,6 @@
   <channel id="cl#nat-geo-wild-hd">
     <display-name>Nat Geo Wild HD</display-name>
   </channel>
-  <channel id="cl#nat-geo-wild">
-    <display-name>National Geographic Wild</display-name>
-  </channel>
   <channel id="cl#nat-geo-kids">
     <display-name>Nat Geo Kids</display-name>
   </channel>
@@ -519,12 +501,11 @@
   <channel id="cl#mtv">
     <display-name>MTV</display-name>
   </channel>
-  <channel id="Mega.cl@SD">
-    <display-name>Mega</display-name>
-    <icon src="https://i.imgur.com/RlZfR84.png"/>
-  </channel>
   <channel id="cl#max-up">
     <display-name>HBO Pop</display-name>
+  </channel>
+  <channel id="cl#max-prime-o">
+    <display-name>HBO Xtreme (Oeste)</display-name>
   </channel>
   <channel id="cl#max-prime">
     <display-name>HBO Xtreme</display-name>
@@ -539,13 +520,12 @@
   <channel id="cl#lifetime">
     <display-name>Lifetime</display-name>
   </channel>
-  <channel id="LaRed.cl@SD">
-    <display-name>La Red</display-name>
-    <icon src="https://i.imgur.com/nJOVM6e.png"/>
-  </channel>
   <channel id="CanalISB.cl@SD">
     <display-name>ISB TV</display-name>
     <icon src="https://i.imgur.com/cQ4ggTw.png"/>
+  </channel>
+  <channel id="cl#i-sat">
+    <display-name>I.Sat</display-name>
   </channel>
   <channel id="cl#htv">
     <display-name>HTV</display-name>
@@ -553,20 +533,15 @@
   <channel id="cl#history">
     <display-name>History</display-name>
   </channel>
-  <channel id="cl#hbo-plus-pan-regional">
-    <display-name>HBO Plus Panregional</display-name>
+  <channel id="cl#nat-geo-wild">
+    <display-name>National Geographic Wild</display-name>
   </channel>
-  <channel id="cl#hbo-plus-este">
-    <display-name>HBO Plus Este</display-name>
+  <channel id="cl#mas-chic">
+    <display-name>Más Chic</display-name>
   </channel>
-  <channel id="cl#hbo-2">
-    <display-name>HBO 2</display-name>
-  </channel>
-  <channel id="cl#i-sat">
-    <display-name>I.Sat</display-name>
-  </channel>
-  <channel id="cl#mtv-hits">
-    <display-name>MTV Hits</display-name>
+  <channel id="LaRed.cl@SD">
+    <display-name>La Red</display-name>
+    <icon src="https://i.imgur.com/nJOVM6e.png"/>
   </channel>
   <channel id="ZonaLatina.cl@SD">
     <display-name>Zona Latina</display-name>
@@ -586,10 +561,6 @@
     <display-name>Universal TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png"/>
   </channel>
-  <channel id="Unicable.mx@SD">
-    <display-name>Unicable</display-name>
-    <icon src="https://i.imgur.com/MnH8XKh.png"/>
-  </channel>
   <channel id="Ufrovision.cl@SD">
     <display-name>Ufrovisión</display-name>
     <icon src="https://i.imgur.com/x8el6tE.png"/>
@@ -598,6 +569,28 @@
     <display-name>TyC Sports</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png"/>
   </channel>
+  <channel id="cl#tvu">
+    <display-name>TVU</display-name>
+  </channel>
+  <channel id="cl#tvn">
+    <display-name>TVN</display-name>
+  </channel>
+  <channel id="cl#tve">
+    <display-name>TVE</display-name>
+  </channel>
+  <channel id="cl#tv-globo">
+    <display-name>TV Globo</display-name>
+  </channel>
+  <channel id="DiputadosTV.ar@SD">
+    <display-name>TV Diputados</display-name>
+    <icon src="https://i.imgur.com/UscKOIc.png"/>
+  </channel>
+  <channel id="cl#tru-tv-hd">
+    <display-name>truTV HD</display-name>
+  </channel>
+  <channel id="cl#tnt-series">
+    <display-name>TNT Series</display-name>
+  </channel>
   <channel id="cl#vh1">
     <display-name>VH1</display-name>
   </channel>
@@ -605,18 +598,23 @@
     <display-name>UCV TV</display-name>
     <icon src="https://i.postimg.cc/jjGpZf4T/UCV-Logo.png"/>
   </channel>
-  <channel id="cl#tvu">
-    <display-name>TVU</display-name>
-  </channel>
   <channel id="24Horas.cl@SD">
     <display-name>24 Horas</display-name>
     <icon src="https://i.imgur.com/CEE9zPe.png"/>
   </channel>
-  <channel id="cl#tvn">
-    <display-name>TVN</display-name>
+  <channel id="cl#tv-5">
+    <display-name>TV 5</display-name>
   </channel>
-  <channel id="cl#tve">
-    <display-name>TVE</display-name>
+  <channel id="cl#tru-tv">
+    <display-name>TruTV</display-name>
+  </channel>
+  <channel id="TNTLatinAmerica.us@Chile">
+    <display-name>TNT</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png"/>
+  </channel>
+  <channel id="TeletrakTV.cl@SD">
+    <display-name>Teletrak</display-name>
+    <icon src="https://i.imgur.com/NoJvlig.png"/>
   </channel>
   <channel id="cl#telesur-chile">
     <display-name>teleSUR Chile</display-name>
@@ -625,27 +623,29 @@
     <display-name>Studio Universal</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png"/>
   </channel>
-  <channel id="cl#max-prime-o">
-    <display-name>HBO Xtreme (Oeste)</display-name>
+  <channel id="Mega.cl@SD">
+    <display-name>Mega</display-name>
+    <icon src="https://i.imgur.com/RlZfR84.png"/>
   </channel>
-  <channel id="cl#mas-chic">
-    <display-name>Más Chic</display-name>
-  </channel>
-  <channel id="cl#hbo-family">
-    <display-name>HBO Family</display-name>
+  <channel id="Unicable.mx@SD">
+    <display-name>Unicable</display-name>
+    <icon src="https://i.imgur.com/MnH8XKh.png"/>
   </channel>
   <channel id="ViaX.cl@SD">
     <display-name>Vía X</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/d/d3/VIAX-oficial.png"/>
+  </channel>
+  <channel id="cl#tlnovelas">
+    <display-name>TLNovelas</display-name>
+  </channel>
+  <channel id="cl#mtv-hits">
+    <display-name>MTV Hits</display-name>
   </channel>
   <channel id="cl#tooncast">
     <display-name>Tooncast</display-name>
   </channel>
   <channel id="cl#paramount-channel-hd">
     <display-name>Paramount Network</display-name>
-  </channel>
-  <channel id="cl#hbo-signature">
-    <display-name>HBO Signature</display-name>
   </channel>
   <programme start="20260826003100 +0000" stop="20260826013100 +0000" channel="ARTV.cl@SD">
     <title lang="es">A confirmar</title>
