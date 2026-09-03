@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260903163153 +0000">
+<tv generator-info-name="custom-epg" date="20260903210754 +0000">
   <channel id="co#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -139,10 +139,6 @@
     <display-name>RCN HD</display-name>
     <icon src="https://i.imgur.com/5PhTaHp.png"/>
   </channel>
-  <channel id="Cristovision.co@SD">
-    <display-name>Cristovisión</display-name>
-    <icon src="https://i.imgur.com/XIhCUY9.png"/>
-  </channel>
   <channel id="co#canal-de-las-estrellas-hd">
     <display-name>Canal de las Estrellas HD</display-name>
   </channel>
@@ -155,6 +151,9 @@
   </channel>
   <channel id="co#concert-channel-hd">
     <display-name>Concert Channel HD</display-name>
+  </channel>
+  <channel id="co#tbs-veryfunny-pan">
+    <display-name>TBS</display-name>
   </channel>
   <channel id="co#sun-channel-hd">
     <display-name>Sun Channel HD</display-name>
@@ -545,11 +544,18 @@
   <channel id="co#deutsche-welle-amerika">
     <display-name>DW (Español)</display-name>
   </channel>
+  <channel id="Cristovision.co@SD">
+    <display-name>Cristovisión</display-name>
+    <icon src="https://i.imgur.com/XIhCUY9.png"/>
+  </channel>
   <channel id="co#telehit-hd">
     <display-name>Telehit HD</display-name>
   </channel>
   <channel id="co#telecaribe">
     <display-name>Telecaribe</display-name>
+  </channel>
+  <channel id="co#telecafe">
+    <display-name>Telecafé</display-name>
   </channel>
   <channel id="Teleantioquia.co@SD">
     <display-name>Teleantioquia HD</display-name>
@@ -666,12 +672,6 @@
   <channel id="co#telemedellin">
     <display-name>Telemedellín</display-name>
   </channel>
-  <channel id="co#telecafe">
-    <display-name>Telecafé</display-name>
-  </channel>
-  <channel id="co#tcm">
-    <display-name>TCM</display-name>
-  </channel>
   <channel id="co#vmas-tv">
     <display-name>VMASTV</display-name>
   </channel>
@@ -685,12 +685,12 @@
   <channel id="co#tigo-music">
     <display-name>Tigo Music</display-name>
   </channel>
+  <channel id="co#tcm">
+    <display-name>TCM</display-name>
+  </channel>
   <channel id="CanalTRO.co@SD">
     <display-name>Canal TRO</display-name>
     <icon src="https://i.imgur.com/bdBduvj.png"/>
-  </channel>
-  <channel id="co#tbs-veryfunny-pan">
-    <display-name>TBS</display-name>
   </channel>
   <programme start="20260903060000 +0000" stop="20260903063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
@@ -66511,22 +66511,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260904060000 +0000" stop="20260904070000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
-  </programme>
-  <programme start="20260904060000 +0000" stop="20260904070000 +0000" channel="co#teleamiga">
     <title lang="es">Viviendo la vida</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260904070000 +0000" stop="20260904080000 +0000" channel="co#teleamiga">
-    <title lang="es">Salud para todos</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
+  <programme start="20260904060000 +0000" stop="20260904070000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
   <programme start="20260904070000 +0000" stop="20260904080000 +0000" channel="co#teleamiga">
     <title lang="es">Salud para todos</title>
@@ -66534,17 +66528,23 @@
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
   </programme>
-  <programme start="20260904080000 +0000" stop="20260904083000 +0000" channel="co#teleamiga">
-    <title lang="es">Rosario de la misericordia - Adoración al Santísimo</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_rosario-de-la-misericordia-adoracion-al-santisimo-3_l_m.jpg</image>
+  <programme start="20260904070000 +0000" stop="20260904080000 +0000" channel="co#teleamiga">
+    <title lang="es">Salud para todos</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
   </programme>
   <programme start="20260904080000 +0000" stop="20260904081000 +0000" channel="co#teleamiga">
     <title lang="es">Coronilla de la misericordia</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_coronilla-de-la-misericordia_l_m.jpg</image>
+  </programme>
+  <programme start="20260904080000 +0000" stop="20260904083000 +0000" channel="co#teleamiga">
+    <title lang="es">Rosario de la misericordia - Adoración al Santísimo</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_rosario-de-la-misericordia-adoracion-al-santisimo-3_l_m.jpg</image>
   </programme>
   <programme start="20260904081000 +0000" stop="20260904083000 +0000" channel="co#teleamiga">
     <title lang="es">Cápsulas Fe - UGC</title>
@@ -66553,16 +66553,21 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904083000 +0000" stop="20260904093000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
+  </programme>
+  <programme start="20260904083000 +0000" stop="20260904093000 +0000" channel="co#teleamiga">
     <title lang="es">Viviendo la vida</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260904083000 +0000" stop="20260904093000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
+  <programme start="20260904093000 +0000" stop="20260904100000 +0000" channel="co#teleamiga">
+    <title lang="es">Civitas</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904093000 +0000" stop="20260904100000 +0000" channel="co#teleamiga">
     <title lang="es">Adoración al Santísimo - Para mi cura</title>
@@ -66570,7 +66575,7 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_adoracion-al-santisimo-para-mi-cura-1_l_m.jpg</image>
   </programme>
-  <programme start="20260904093000 +0000" stop="20260904100000 +0000" channel="co#teleamiga">
+  <programme start="20260904100000 +0000" stop="20260904103000 +0000" channel="co#teleamiga">
     <title lang="es">Civitas</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -66581,11 +66586,6 @@
     <category lang="es">Arte</category>
     <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
-  <programme start="20260904100000 +0000" stop="20260904103000 +0000" channel="co#teleamiga">
-    <title lang="es">Civitas</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260904103000 +0000" stop="20260904110000 +0000" channel="co#teleamiga">
     <title lang="es">Santo Rosario - Luminosos</title>
     <title lang="en">Religioso</title>
@@ -66593,22 +66593,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_santo-rosario-luminosos-1_l_m.jpg</image>
   </programme>
   <programme start="20260904110000 +0000" stop="20260904113000 +0000" channel="co#teleamiga">
+    <title lang="es">Santa misa</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260904110000 +0000" stop="20260904113000 +0000" channel="co#teleamiga">
     <title lang="es">Ángelus - Santo Rosario dolorosos - Adoración al Santísimo</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260904110000 +0000" stop="20260904113000 +0000" channel="co#teleamiga">
-    <title lang="es">Santa misa</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260904113000 +0000" stop="20260904120000 +0000" channel="co#teleamiga">
-    <title lang="es">Santa misa</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260904113000 +0000" stop="20260904120000 +0000" channel="co#teleamiga">
     <title lang="es">¿Qué tal ellas?</title>
@@ -66616,16 +66610,22 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260904120000 +0000" stop="20260904123000 +0000" channel="co#teleamiga">
-    <title lang="es">Cibernítidos</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260904113000 +0000" stop="20260904120000 +0000" channel="co#teleamiga">
+    <title lang="es">Santa misa</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260904120000 +0000" stop="20260905010000 +0000" channel="co#teleamiga">
     <title lang="es">LIVExTeleamiga</title>
     <title lang="en">Especial</title>
     <category lang="es">Especial</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260904120000 +0000" stop="20260904123000 +0000" channel="co#teleamiga">
+    <title lang="es">Cibernítidos</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904123000 +0000" stop="20260905010000 +0000" channel="co#teleamiga">
@@ -66635,22 +66635,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_insignia_l_m.jpg</image>
   </programme>
   <programme start="20260905010000 +0000" stop="20260905013000 +0000" channel="co#teleamiga">
-    <title lang="es">En tu cocina</title>
-    <title lang="en">Cocina</title>
-    <category lang="es">Cocina</category>
-    <image>https://cdn.mitvstatic.com/programs/co_en-tu-cocina_l_m.jpg</image>
-  </programme>
-  <programme start="20260905010000 +0000" stop="20260905013000 +0000" channel="co#teleamiga">
     <title lang="es">Diálogo de saberes</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_dialogo-de-saberes_l_m.jpg</image>
   </programme>
-  <programme start="20260905013000 +0000" stop="20260905020000 +0000" channel="co#teleamiga">
-    <title lang="es">Redes abiertas</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260905010000 +0000" stop="20260905013000 +0000" channel="co#teleamiga">
+    <title lang="es">En tu cocina</title>
+    <title lang="en">Cocina</title>
+    <category lang="es">Cocina</category>
+    <image>https://cdn.mitvstatic.com/programs/co_en-tu-cocina_l_m.jpg</image>
   </programme>
   <programme start="20260905013000 +0000" stop="20260905020000 +0000" channel="co#teleamiga">
     <title lang="es">Enlaces</title>
@@ -66658,17 +66652,23 @@
     <category lang="es">Tecnología</category>
     <image>https://cdn.mitvstatic.com/programs/co_enlaces_l_m.jpg</image>
   </programme>
-  <programme start="20260905020000 +0000" stop="20260905030000 +0000" channel="co#teleamiga">
-    <title lang="es">Viviendo la vida</title>
+  <programme start="20260905013000 +0000" stop="20260905020000 +0000" channel="co#teleamiga">
+    <title lang="es">Redes abiertas</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905020000 +0000" stop="20260905023000 +0000" channel="co#teleamiga">
     <title lang="es">¿Qué tal ellas?</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905020000 +0000" stop="20260905030000 +0000" channel="co#teleamiga">
+    <title lang="es">Viviendo la vida</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
   <programme start="20260905023000 +0000" stop="20260905030000 +0000" channel="co#teleamiga">
     <title lang="es">Santa misa</title>
@@ -66677,22 +66677,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260905030000 +0000" stop="20260905040000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
+  </programme>
+  <programme start="20260905030000 +0000" stop="20260905040000 +0000" channel="co#teleamiga">
     <title lang="es">Salud para todos</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
-  </programme>
-  <programme start="20260905030000 +0000" stop="20260905040000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
-  </programme>
-  <programme start="20260905040000 +0000" stop="20260905050000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
   <programme start="20260905040000 +0000" stop="20260905050000 +0000" channel="co#teleamiga">
     <title lang="es">Viviendo la vida</title>
@@ -66700,13 +66694,25 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
+  <programme start="20260905040000 +0000" stop="20260905050000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
+  </programme>
+  <programme start="20260905050000 +0000" stop="20260905053000 +0000" channel="co#teleamiga">
+    <title lang="es">Dios con nosotros - Rosario</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_dios-con-nosotros-rosario-1_l_m.jpg</image>
+  </programme>
   <programme start="20260905050000 +0000" stop="20260905053000 +0000" channel="co#teleamiga">
     <title lang="es">En tu cocina</title>
     <title lang="en">Cocina</title>
     <category lang="es">Cocina</category>
     <image>https://cdn.mitvstatic.com/programs/co_en-tu-cocina_l_m.jpg</image>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905053000 +0000" channel="co#teleamiga">
+  <programme start="20260905053000 +0000" stop="20260905063000 +0000" channel="co#teleamiga">
     <title lang="es">Dios con nosotros - Rosario</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -66718,11 +66724,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
-  <programme start="20260905053000 +0000" stop="20260905063000 +0000" channel="co#teleamiga">
-    <title lang="es">Dios con nosotros - Rosario</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_dios-con-nosotros-rosario-1_l_m.jpg</image>
+  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
   <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="co#teleamiga">
     <title lang="es">Viviendo la vida</title>
@@ -66730,12 +66736,6 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
-  </programme>
   <programme start="20260905070000 +0000" stop="20260905080000 +0000" channel="co#teleamiga">
     <title lang="es">Salud para todos</title>
     <title lang="en">Salud</title>
@@ -66747,18 +66747,18 @@
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
-  </programme>
-  <programme start="20260905080000 +0000" stop="20260905081000 +0000" channel="co#teleamiga">
-    <title lang="es">Coronilla de la misericordia</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_coronilla-de-la-misericordia_l_m.jpg</image>
   </programme>
   <programme start="20260905080000 +0000" stop="20260905083000 +0000" channel="co#teleamiga">
     <title lang="es">Rosario de la Divina Misericordia - Adoración al Santísimo</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_rosario-de-la-divina-misericordia-adoracion-al-santisimo-4_l_m.jpg</image>
+  </programme>
+  <programme start="20260905080000 +0000" stop="20260905081000 +0000" channel="co#teleamiga">
+    <title lang="es">Coronilla de la misericordia</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_coronilla-de-la-misericordia_l_m.jpg</image>
   </programme>
   <programme start="20260905081000 +0000" stop="20260905083000 +0000" channel="co#teleamiga">
     <title lang="es">Cápsulas Fe - UGC</title>
@@ -66767,22 +66767,16 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905083000 +0000" stop="20260905093000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
-  </programme>
-  <programme start="20260905083000 +0000" stop="20260905093000 +0000" channel="co#teleamiga">
     <title lang="es">Viviendo la vida</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260905093000 +0000" stop="20260905100000 +0000" channel="co#teleamiga">
-    <title lang="es">La U en su casa</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_la-u-en-su-casa_l_m.jpg</image>
+  <programme start="20260905083000 +0000" stop="20260905093000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
   <programme start="20260905093000 +0000" stop="20260905100000 +0000" channel="co#teleamiga">
     <title lang="es">Adoración al Santísimo - Para mi cura</title>
@@ -66790,17 +66784,23 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_adoracion-al-santisimo-para-mi-cura-1_l_m.jpg</image>
   </programme>
-  <programme start="20260905100000 +0000" stop="20260905103000 +0000" channel="co#teleamiga">
-    <title lang="es">Plantas y jardines</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_plantas-y-jardines_l_m.jpg</image>
+  <programme start="20260905093000 +0000" stop="20260905100000 +0000" channel="co#teleamiga">
+    <title lang="es">La U en su casa</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_la-u-en-su-casa_l_m.jpg</image>
   </programme>
   <programme start="20260905100000 +0000" stop="20260905110000 +0000" channel="co#teleamiga">
     <title lang="es">Aprenda y venda</title>
     <title lang="en">Arte</title>
     <category lang="es">Arte</category>
     <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
+  </programme>
+  <programme start="20260905100000 +0000" stop="20260905103000 +0000" channel="co#teleamiga">
+    <title lang="es">Plantas y jardines</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_plantas-y-jardines_l_m.jpg</image>
   </programme>
   <programme start="20260905103000 +0000" stop="20260905110000 +0000" channel="co#teleamiga">
     <title lang="es">Santo Rosario - Dolorosos</title>
@@ -66809,16 +66809,22 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="co#teleamiga">
+    <title lang="es">Ángelus - Santo Rosario - Misterios gozosos - Adoración al Santísimo</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="co#teleamiga">
     <title lang="es">Santa misa</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="co#teleamiga">
-    <title lang="es">Ángelus - Santo Rosario - Misterios gozosos - Adoración al Santísimo</title>
+  <programme start="20260905113000 +0000" stop="20260905120000 +0000" channel="co#teleamiga">
+    <title lang="es">Santa misa</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260905113000 +0000" stop="20260905120000 +0000" channel="co#teleamiga">
     <title lang="es">Redes abiertas</title>
@@ -66826,11 +66832,11 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905113000 +0000" stop="20260905120000 +0000" channel="co#teleamiga">
-    <title lang="es">Santa misa</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
+  <programme start="20260905120000 +0000" stop="20260905123000 +0000" channel="co#teleamiga">
+    <title lang="es">Salud para todos</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
   </programme>
   <programme start="20260905120000 +0000" stop="20260905123000 +0000" channel="co#teleamiga">
     <title lang="es">La palabra</title>
@@ -66838,7 +66844,7 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_la-palabra_l_m.jpg</image>
   </programme>
-  <programme start="20260905120000 +0000" stop="20260905123000 +0000" channel="co#teleamiga">
+  <programme start="20260905123000 +0000" stop="20260906010000 +0000" channel="co#teleamiga">
     <title lang="es">Salud para todos</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
@@ -66850,11 +66856,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905123000 +0000" stop="20260906010000 +0000" channel="co#teleamiga">
-    <title lang="es">Salud para todos</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
+  <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="co#teleamiga">
+    <title lang="es">Redes abiertas</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906010000 +0000" stop="20260906020000 +0000" channel="co#teleamiga">
     <title lang="es">A fondo</title>
@@ -66862,20 +66868,8 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-fondo_l_m.jpg</image>
   </programme>
-  <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="co#teleamiga">
-    <title lang="es">Redes abiertas</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="co#teleamiga">
     <title lang="es">Preguntamos por usted</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260906020000 +0000" stop="20260906023000 +0000" channel="co#teleamiga">
-    <title lang="es">Redes abiertas</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -66886,6 +66880,12 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/co_espacio-comercial_l_m.jpg</image>
   </programme>
+  <programme start="20260906020000 +0000" stop="20260906023000 +0000" channel="co#teleamiga">
+    <title lang="es">Redes abiertas</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20260906023000 +0000" stop="20260906030000 +0000" channel="co#teleamiga">
     <title lang="es">Santa misa</title>
     <title lang="en">Religioso</title>
@@ -66893,16 +66893,22 @@
     <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260906030000 +0000" stop="20260906040000 +0000" channel="co#teleamiga">
+    <title lang="es">Salud para todos</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
+  </programme>
+  <programme start="20260906030000 +0000" stop="20260906040000 +0000" channel="co#teleamiga">
     <title lang="es">Aprenda y venda</title>
     <title lang="en">Arte</title>
     <category lang="es">Arte</category>
     <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
-  <programme start="20260906030000 +0000" stop="20260906040000 +0000" channel="co#teleamiga">
-    <title lang="es">Salud para todos</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_salud-para-todos_l_m.jpg</image>
+  <programme start="20260906040000 +0000" stop="20260906050000 +0000" channel="co#teleamiga">
+    <title lang="es">Aprenda y venda</title>
+    <title lang="en">Arte</title>
+    <category lang="es">Arte</category>
+    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
   </programme>
   <programme start="20260906040000 +0000" stop="20260906050000 +0000" channel="co#teleamiga">
     <title lang="es">Viviendo la vida</title>
@@ -66910,11 +66916,11 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viviendo-la-vida_l_m.jpg</image>
   </programme>
-  <programme start="20260906040000 +0000" stop="20260906050000 +0000" channel="co#teleamiga">
-    <title lang="es">Aprenda y venda</title>
-    <title lang="en">Arte</title>
-    <category lang="es">Arte</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aprenda-y-venda_l_m.jpg</image>
+  <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="co#teleamiga">
+    <title lang="es">Santo Rosario - Misterios gozosos</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_santo-rosario-misterios-gozosos-1_l_m.jpg</image>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="co#teleamiga">
     <title lang="es">Dios con nosotros - Rosario - Adoración al Santísimo</title>
@@ -66922,23 +66928,17 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_dios-con-nosotros-rosario-adoracion-al-santisimo-5_l_m.jpg</image>
   </programme>
-  <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="co#teleamiga">
-    <title lang="es">Santo Rosario - Misterios gozosos</title>
+  <programme start="20260906053000 +0000" stop="20260906060000 +0000" channel="co#teleamiga">
+    <title lang="es">Santa misa</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_santo-rosario-misterios-gozosos-1_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260906053000 +0000" stop="20260906063000 +0000" channel="co#teleamiga">
     <title lang="es">Dios con nosotros - Adoración al Santísimo</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_dios-con-nosotros-adoracion-al-santisimo-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260906053000 +0000" stop="20260906060000 +0000" channel="co#teleamiga">
-    <title lang="es">Santa misa</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260906060000 +0000" stop="20260906063000 +0000" channel="co#teleamiga">
     <title lang="es">Cátedra Gran Colombiana</title>
@@ -67179,28 +67179,28 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904060000 +0000" stop="20260904070000 +0000" channel="co#teleantioquia">
+    <title lang="es">Teleantioquia noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260904060000 +0000" stop="20260904070000 +0000" channel="co#teleantioquia">
     <title lang="es">Tener la razón no es suficiente</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260904060000 +0000" stop="20260904070000 +0000" channel="co#teleantioquia">
-    <title lang="es">Teleantioquia noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
-  </programme>
-  <programme start="20260904070000 +0000" stop="20260904080000 +0000" channel="co#teleantioquia">
-    <title lang="es">Teleantioquia noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
   </programme>
   <programme start="20260904070000 +0000" stop="20260904070500 +0000" channel="co#teleantioquia">
     <title lang="es">Lo más bello</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260904070000 +0000" stop="20260904080000 +0000" channel="co#teleantioquia">
+    <title lang="es">Teleantioquia noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
   </programme>
   <programme start="20260904070500 +0000" stop="20260904083000 +0000" channel="co#teleantioquia">
     <title lang="es">Las tres gracias</title>
@@ -67215,22 +67215,16 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904083000 +0000" stop="20260904090000 +0000" channel="co#teleantioquia">
-    <title lang="es">Ladran, Sancho</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260904083000 +0000" stop="20260904090000 +0000" channel="co#teleantioquia">
     <title lang="es">Antioquia asombrosa</title>
     <title lang="en">Turismo</title>
     <category lang="es">Turismo</category>
     <image>https://cdn.mitvstatic.com/programs/co_antioquia-asombrosa_l_m.jpg</image>
   </programme>
-  <programme start="20260904090000 +0000" stop="20260904093000 +0000" channel="co#teleantioquia">
-    <title lang="es">La sartén por el mango</title>
-    <title lang="en">Cocina</title>
-    <category lang="es">Cocina</category>
-    <image>https://cdn.mitvstatic.com/programs/co_la-sarten-por-el-mango_l_m.jpg</image>
+  <programme start="20260904083000 +0000" stop="20260904090000 +0000" channel="co#teleantioquia">
+    <title lang="es">Ladran, Sancho</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904090000 +0000" stop="20260904093000 +0000" channel="co#teleantioquia">
     <title lang="es">Euromaxx</title>
@@ -67238,16 +67232,22 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_euromaxx_l_m.jpg</image>
   </programme>
-  <programme start="20260904093000 +0000" stop="20260904100000 +0000" channel="co#teleantioquia">
-    <title lang="es">Doc una consultica</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260904090000 +0000" stop="20260904093000 +0000" channel="co#teleantioquia">
+    <title lang="es">La sartén por el mango</title>
+    <title lang="en">Cocina</title>
+    <category lang="es">Cocina</category>
+    <image>https://cdn.mitvstatic.com/programs/co_la-sarten-por-el-mango_l_m.jpg</image>
   </programme>
   <programme start="20260904093000 +0000" stop="20260904115500 +0000" channel="co#teleantioquia">
     <title lang="es">Te hacemos la tarde</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260904093000 +0000" stop="20260904100000 +0000" channel="co#teleantioquia">
+    <title lang="es">Doc una consultica</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260904100000 +0000" stop="20260904110000 +0000" channel="co#teleantioquia">
@@ -67304,17 +67304,17 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_herencia-y-tradicion_l_m.jpg</image>
   </programme>
-  <programme start="20260905013000 +0000" stop="20260905020000 +0000" channel="co#teleantioquia">
-    <title lang="es">La Canasta</title>
-    <title lang="en">Cocina</title>
-    <category lang="es">Cocina</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905013000 +0000" stop="20260905030000 +0000" channel="co#teleantioquia">
     <title lang="es">Especiales Teleantioquia</title>
     <title lang="en">Especial</title>
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/co_especiales-teleantioquia-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260905013000 +0000" stop="20260905020000 +0000" channel="co#teleantioquia">
+    <title lang="es">La Canasta</title>
+    <title lang="en">Cocina</title>
+    <category lang="es">Cocina</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905020000 +0000" stop="20260905040000 +0000" channel="co#teleantioquia">
     <title lang="es">Mañanas en casa</title>
@@ -67328,17 +67328,17 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905040000 +0000" stop="20260905043000 +0000" channel="co#teleantioquia">
-    <title lang="es">Creativadores</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905040000 +0000" stop="20260905050000 +0000" channel="co#teleantioquia">
     <title lang="es">Teleantioquia noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260905040000 +0000" stop="20260905043000 +0000" channel="co#teleantioquia">
+    <title lang="es">Creativadores</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905043000 +0000" stop="20260905050000 +0000" channel="co#teleantioquia">
     <title lang="es">10 años para cambiar el mundo</title>
@@ -67346,15 +67346,15 @@
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/co_10-anos-para-cambiar-el-mundo_l_m.jpg</image>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905053000 +0000" channel="co#teleantioquia">
-    <title lang="es">¡No es cuento!</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905050000 +0000" stop="20260905060000 +0000" channel="co#teleantioquia">
     <title lang="es">Nocturnos</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905050000 +0000" stop="20260905053000 +0000" channel="co#teleantioquia">
+    <title lang="es">¡No es cuento!</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905053000 +0000" stop="20260905060000 +0000" channel="co#teleantioquia">
@@ -67861,12 +67861,6 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905043000 +0000" stop="20260905110000 +0000" channel="co#telecafe">
-    <title lang="es">Telecafé noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_telecafe-noticias_l_m.jpg</image>
-  </programme>
   <programme start="20260905043000 +0000" stop="20260905050000 +0000" channel="co#telecafe">
     <title lang="es">La senda del agua</title>
     <title lang="en">Cultural</title>
@@ -67874,6 +67868,12 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905043000 +0000" stop="20260905053000 +0000" channel="co#telecafe">
+    <title lang="es">Telecafé noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_telecafe-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260905043000 +0000" stop="20260905110000 +0000" channel="co#telecafe">
     <title lang="es">Telecafé noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -67932,16 +67932,16 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_noticiero-del-senado_l_m.jpg</image>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="co#telecafe">
-    <title lang="es">Las aventuras de Medialuna</title>
-    <category lang="es">Animación</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905110000 +0000" stop="20260905120000 +0000" channel="co#telecafe">
     <title lang="es">Conexión vital</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_conexion-vital_l_m.jpg</image>
+  </programme>
+  <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="co#telecafe">
+    <title lang="es">Las aventuras de Medialuna</title>
+    <category lang="es">Animación</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905113000 +0000" stop="20260905120000 +0000" channel="co#telecafe">
     <title lang="es">Manita y Manota</title>
@@ -67949,17 +67949,17 @@
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905120000 +0000" stop="20260905123000 +0000" channel="co#telecafe">
-    <title lang="es">Santa misa</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
-  </programme>
   <programme start="20260905120000 +0000" stop="20260906010000 +0000" channel="co#telecafe">
     <title lang="es">Telecafé noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_telecafe-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260905120000 +0000" stop="20260905123000 +0000" channel="co#telecafe">
+    <title lang="es">Santa misa</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_santa-misa-1_l_m.jpg</image>
   </programme>
   <programme start="20260905123000 +0000" stop="20260906010000 +0000" channel="co#telecafe">
     <title lang="es">Colórico</title>
@@ -67968,21 +67968,15 @@
     <image>https://cdn.mitvstatic.com/programs/co_colorico-1_l_m.jpg</image>
   </programme>
   <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="co#telecafe">
-    <title lang="es">Telecafé TV</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="co#telecafe">
     <title lang="es">Economía y bolsillo</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="co#telecafe">
-    <title lang="es">Exploramundos</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
+  <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="co#telecafe">
+    <title lang="es">Telecafé TV</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="co#telecafe">
@@ -67991,8 +67985,8 @@
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/co_especiales-telecafe_l_m.jpg</image>
   </programme>
-  <programme start="20260906020000 +0000" stop="20260906050000 +0000" channel="co#telecafe">
-    <title lang="es">Tru Kids</title>
+  <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="co#telecafe">
+    <title lang="es">Exploramundos</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -68001,6 +67995,12 @@
     <title lang="es">El precio del paraíso</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260906020000 +0000" stop="20260906050000 +0000" channel="co#telecafe">
+    <title lang="es">Tru Kids</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906023000 +0000" stop="20260906030000 +0000" channel="co#telecafe">
@@ -68482,20 +68482,15 @@
     <image>https://cdn.mitvstatic.com/programs/co_sorteo-la-fantastica_l_m.jpg</image>
   </programme>
   <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="co#telecaribe">
-    <title lang="es">La ventana</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="co#telecaribe">
     <title lang="es">Trópicos</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_tropicos_l_m.jpg</image>
   </programme>
-  <programme start="20260905070000 +0000" stop="20260905073000 +0000" channel="co#telecaribe">
-    <title lang="es">Atlántico para el mundo: Embajadores del Atlántico</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_atlantico-para-el-mundo-embajadores-del-atlantico_l_m.jpg</image>
+  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="co#telecaribe">
+    <title lang="es">La ventana</title>
+    <title lang="en">Turismo</title>
+    <category lang="es">Turismo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905070000 +0000" stop="20260905073000 +0000" channel="co#telecaribe">
     <title lang="es">A confirmar</title>
@@ -68503,17 +68498,22 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260905073000 +0000" stop="20260905073300 +0000" channel="co#telecaribe">
-    <title lang="es">Sorteo el Sinuano</title>
-    <title lang="en">Juegos</title>
-    <category lang="es">Juegos</category>
-    <image>https://cdn.mitvstatic.com/programs/co_sorteo-el-sinuano_l_m.jpg</image>
+  <programme start="20260905070000 +0000" stop="20260905073000 +0000" channel="co#telecaribe">
+    <title lang="es">Atlántico para el mundo: Embajadores del Atlántico</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_atlantico-para-el-mundo-embajadores-del-atlantico_l_m.jpg</image>
   </programme>
   <programme start="20260905073000 +0000" stop="20260905080000 +0000" channel="co#telecaribe">
     <title lang="es">El colectivo</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_el-colectivo_l_m.jpg</image>
+  </programme>
+  <programme start="20260905073000 +0000" stop="20260905073300 +0000" channel="co#telecaribe">
+    <title lang="es">Sorteo el Sinuano</title>
+    <title lang="en">Juegos</title>
+    <category lang="es">Juegos</category>
+    <image>https://cdn.mitvstatic.com/programs/co_sorteo-el-sinuano_l_m.jpg</image>
   </programme>
   <programme start="20260905073300 +0000" stop="20260905073600 +0000" channel="co#telecaribe">
     <title lang="es">Sorteo la Caribeña</title>
@@ -68527,16 +68527,16 @@
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905080000 +0000" stop="20260905090000 +0000" channel="co#telecaribe">
-    <title lang="es">Grandes del vallenato</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/co_grandes-del-vallenato_l_m.jpg</image>
-  </programme>
   <programme start="20260905080000 +0000" stop="20260905100000 +0000" channel="co#telecaribe">
     <title lang="es">A confirmar</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-confirmar_l_m.jpg</image>
+  </programme>
+  <programme start="20260905080000 +0000" stop="20260905090000 +0000" channel="co#telecaribe">
+    <title lang="es">Grandes del vallenato</title>
+    <category lang="es">Musical</category>
+    <image>https://cdn.mitvstatic.com/programs/co_grandes-del-vallenato_l_m.jpg</image>
   </programme>
   <programme start="20260905090000 +0000" stop="20260905100000 +0000" channel="co#telecaribe">
     <title lang="es">A confirmar</title>
@@ -68544,15 +68544,15 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260905100000 +0000" stop="20260905110000 +0000" channel="co#telecaribe">
-    <title lang="es">Dale Play Music</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905100000 +0000" stop="20260905103000 +0000" channel="co#telecaribe">
     <title lang="es">Cocos club</title>
     <title lang="en">Cultural</title>
     <category lang="es">Cultural</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905100000 +0000" stop="20260905110000 +0000" channel="co#telecaribe">
+    <title lang="es">Dale Play Music</title>
+    <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905103000 +0000" stop="20260905110000 +0000" channel="co#telecaribe">
@@ -68561,17 +68561,17 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260905120000 +0000" channel="co#telecaribe">
-    <title lang="es">Noticias Telecaribe regional - Las noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="co#telecaribe">
     <title lang="es">Valores</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_valores_l_m.jpg</image>
+  </programme>
+  <programme start="20260905110000 +0000" stop="20260905120000 +0000" channel="co#telecaribe">
+    <title lang="es">Noticias Telecaribe regional - Las noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905113000 +0000" stop="20260905120000 +0000" channel="co#telecaribe">
     <title lang="es">Dios Fuente de Poder</title>
@@ -68579,17 +68579,17 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_dios-fuente-de-poder_l_m.jpg</image>
   </programme>
-  <programme start="20260905120000 +0000" stop="20260905120200 +0000" channel="co#telecaribe">
-    <title lang="es">Intervención partidos políticos</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/co_intervencion-partidos-politicos_l_m.jpg</image>
-  </programme>
   <programme start="20260905120000 +0000" stop="20260905123000 +0000" channel="co#telecaribe">
     <title lang="es">Alza tus ojos</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_alza-tus-ojos_l_m.jpg</image>
+  </programme>
+  <programme start="20260905120000 +0000" stop="20260905120200 +0000" channel="co#telecaribe">
+    <title lang="es">Intervención partidos políticos</title>
+    <title lang="en">Político</title>
+    <category lang="es">Político</category>
+    <image>https://cdn.mitvstatic.com/programs/co_intervencion-partidos-politicos_l_m.jpg</image>
   </programme>
   <programme start="20260905120200 +0000" stop="20260905123000 +0000" channel="co#telecaribe">
     <title lang="es">A confirmar</title>
@@ -68597,16 +68597,16 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260905123000 +0000" stop="20260906013000 +0000" channel="co#telecaribe">
-    <title lang="es">Noticias Telecaribe regional - CV noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905123000 +0000" stop="20260906010000 +0000" channel="co#telecaribe">
     <title lang="es">Vivir en plenitud</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905123000 +0000" stop="20260906013000 +0000" channel="co#telecaribe">
+    <title lang="es">Noticias Telecaribe regional - CV noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="co#telecaribe">
@@ -68615,16 +68615,16 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_rios-y-mar-adentro-1_l_m.jpg</image>
   </programme>
+  <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="co#telecaribe">
+    <title lang="es">El mosaico de la vida</title>
+    <title lang="en">Cortometrajes</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
   <programme start="20260906013000 +0000" stop="20260906013300 +0000" channel="co#telecaribe">
     <title lang="es">Sorteo La Fantástica</title>
     <title lang="en">Juegos</title>
     <category lang="es">Juegos</category>
     <image>https://cdn.mitvstatic.com/programs/co_sorteo-la-fantastica_l_m.jpg</image>
-  </programme>
-  <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="co#telecaribe">
-    <title lang="es">El mosaico de la vida</title>
-    <title lang="en">Cortometrajes</title>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260906013300 +0000" stop="20260906013500 +0000" channel="co#telecaribe">
     <title lang="es">El boletín del consumidor</title>
@@ -68643,15 +68643,15 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_caribenautas_l_m.jpg</image>
   </programme>
-  <programme start="20260906023000 +0000" stop="20260906030000 +0000" channel="co#telecaribe">
-    <title lang="es">La búsqueda: Más allá de la historia</title>
-    <category lang="es">Acción</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260906023000 +0000" stop="20260906043000 +0000" channel="co#telecaribe">
     <title lang="es">4, 8 y 12</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260906023000 +0000" stop="20260906030000 +0000" channel="co#telecaribe">
+    <title lang="es">La búsqueda: Más allá de la historia</title>
+    <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906030000 +0000" stop="20260906033000 +0000" channel="co#telecaribe">
@@ -68679,27 +68679,27 @@
     <image>https://cdn.mitvstatic.com/programs/co_a-confirmar_l_m.jpg</image>
   </programme>
   <programme start="20260906043000 +0000" stop="20260906050000 +0000" channel="co#telecaribe">
-    <title lang="es">La hora del milagro</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_la-hora-del-milagro_l_m.jpg</image>
-  </programme>
-  <programme start="20260906043000 +0000" stop="20260906050000 +0000" channel="co#telecaribe">
     <title lang="es">Semblanzas con Toño Sánchez</title>
     <title lang="en">Entrevista</title>
     <category lang="es">Entrevista</category>
     <image>https://cdn.mitvstatic.com/programs/co_semblanzas-con-tono-sanchez_l_m.jpg</image>
   </programme>
-  <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="co#telecaribe">
-    <title lang="es">El patio</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260906043000 +0000" stop="20260906050000 +0000" channel="co#telecaribe">
+    <title lang="es">La hora del milagro</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_la-hora-del-milagro_l_m.jpg</image>
   </programme>
   <programme start="20260906050000 +0000" stop="20260906055800 +0000" channel="co#telecaribe">
     <title lang="es">A confirmar</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/co_a-confirmar_l_m.jpg</image>
+  </programme>
+  <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="co#telecaribe">
+    <title lang="es">El patio</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906053000 +0000" stop="20260906063000 +0000" channel="co#telecaribe">
     <title lang="es">El patio</title>
@@ -86146,14 +86146,14 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905060000 +0000" stop="20260905062000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Novena al Divino Niño Jesús</title>
+  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Taller de oración - Hora santa vocacional</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Taller de oración - Hora santa vocacional</title>
+  <programme start="20260905060000 +0000" stop="20260905062000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Novena al Divino Niño Jesús</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -86164,17 +86164,17 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905070000 +0000" stop="20260905080000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">La danza de la colibrí</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905070000 +0000" stop="20260905090000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Entre amigos</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_entre-amigos_l_m.jpg</image>
+  </programme>
+  <programme start="20260905070000 +0000" stop="20260905080000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">La danza de la colibrí</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905080000 +0000" stop="20260905084000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Coronilla</title>
@@ -86188,17 +86188,17 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905090000 +0000" stop="20260905100000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">A la mesa con Dios</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260905090000 +0000" stop="20260905093000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Reflexiones CTV</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_reflexiones-ctv_l_m.jpg</image>
+  </programme>
+  <programme start="20260905090000 +0000" stop="20260905100000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">A la mesa con Dios</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905093000 +0000" stop="20260905095000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Noticiero Cristovisión</title>
@@ -86225,21 +86225,15 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905104000 +0000" stop="20260905110000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Pauta comercial</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260905104000 +0000" stop="20260905110000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Liturgia de las Horas - Laudes</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Liturgia de las horas - Vísperas</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
+  <programme start="20260905104000 +0000" stop="20260905110000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Pauta comercial</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="Cristovision.co@SD">
@@ -86248,17 +86242,23 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_coronilla_l_m.jpg</image>
   </programme>
-  <programme start="20260905113000 +0000" stop="20260905114000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Noticiero Cristovisión</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_noticiero-cristovision_l_m.jpg</image>
+  <programme start="20260905110000 +0000" stop="20260905113000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Liturgia de las horas - Vísperas</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905113000 +0000" stop="20260905120000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Rosario de tierra santa</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905113000 +0000" stop="20260905114000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Noticiero Cristovisión</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_noticiero-cristovision_l_m.jpg</image>
   </programme>
   <programme start="20260905114000 +0000" stop="20260905120000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Pauta comercial</title>
@@ -86268,21 +86268,15 @@
   </programme>
   <programme start="20260905120000 +0000" stop="20260905124000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Sagrada eucaristía</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_sagrada-eucaristia_l_m.jpg</image>
-  </programme>
-  <programme start="20260905120000 +0000" stop="20260905124000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Sagrada eucaristía</title>
     <title lang="en">- P. Manuel Acevedo</title>
     <category lang="es">- P. Manuel Acevedo</category>
     <image>https://cdn.mitvstatic.com/programs/co_sagrada-eucaristia-p-manuel-acevedo_l_m.jpg</image>
   </programme>
-  <programme start="20260905124000 +0000" stop="20260906010000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Novena al Divino Niño Jesús</title>
+  <programme start="20260905120000 +0000" stop="20260905124000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Sagrada eucaristía</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_sagrada-eucaristia_l_m.jpg</image>
   </programme>
   <programme start="20260905124000 +0000" stop="20260906010000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Pauta comercial</title>
@@ -86290,14 +86284,20 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906010000 +0000" stop="20260906020000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">La nocturna - Prácticas con el señor</title>
+  <programme start="20260905124000 +0000" stop="20260906010000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Novena al Divino Niño Jesús</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906010000 +0000" stop="20260906040000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Taller de oración y vida</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260906010000 +0000" stop="20260906020000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">La nocturna - Prácticas con el señor</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -86321,22 +86321,16 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906040000 +0000" stop="20260906041000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Liturgia de las horas - Completas</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260906040000 +0000" stop="20260906041000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Novena al Divino Niño Jesús</title>
     <title lang="en">- 20 Julio - Día 2</title>
     <category lang="es">- 20 Julio - Día 2</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260906041000 +0000" stop="20260906043000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Reflexiones CTV</title>
+  <programme start="20260906040000 +0000" stop="20260906041000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Liturgia de las horas - Completas</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_reflexiones-ctv_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906041000 +0000" stop="20260906050000 +0000" channel="Cristovision.co@SD">
     <title lang="es">El escándalo de envejecer</title>
@@ -86344,23 +86338,29 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
+  <programme start="20260906041000 +0000" stop="20260906043000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Reflexiones CTV</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_reflexiones-ctv_l_m.jpg</image>
+  </programme>
   <programme start="20260906043000 +0000" stop="20260906050000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Noticiero Cristovisión</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_noticiero-cristovision_l_m.jpg</image>
   </programme>
-  <programme start="20260906050000 +0000" stop="20260906060000 +0000" channel="Cristovision.co@SD">
-    <title lang="es">Llena tu día de Dios</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_llena-tu-dia-de-dios_l_m.jpg</image>
-  </programme>
   <programme start="20260906050000 +0000" stop="20260906054000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Sagrada eucaristía</title>
     <title lang="en">- P. Manuel Acevedo</title>
     <category lang="es">- P. Manuel Acevedo</category>
     <image>https://cdn.mitvstatic.com/programs/co_sagrada-eucaristia-p-manuel-acevedo_l_m.jpg</image>
+  </programme>
+  <programme start="20260906050000 +0000" stop="20260906060000 +0000" channel="Cristovision.co@SD">
+    <title lang="es">Llena tu día de Dios</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_llena-tu-dia-de-dios_l_m.jpg</image>
   </programme>
   <programme start="20260906054000 +0000" stop="20260906060000 +0000" channel="Cristovision.co@SD">
     <title lang="es">Pauta comercial</title>
@@ -92197,28 +92197,28 @@
     <image>https://cdn.mitvstatic.com/programs/co_especiales-teleantioquia-1_l_m.jpg</image>
   </programme>
   <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Teleantioquia noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Tener la razón no es suficiente</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260905060000 +0000" stop="20260905070000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Teleantioquia noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
-  </programme>
-  <programme start="20260905070000 +0000" stop="20260905080000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Teleantioquia noticias</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
   </programme>
   <programme start="20260905070000 +0000" stop="20260905083000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Las tres gracias</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/co_las-tres-gracias_l_m.jpg</image>
+  </programme>
+  <programme start="20260905070000 +0000" stop="20260905080000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Teleantioquia noticias</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
   </programme>
   <programme start="20260905080000 +0000" stop="20260905083000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Cazador de cascadas</title>
@@ -92227,13 +92227,19 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905083000 +0000" stop="20260905090000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Clave de retiro</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260905083000 +0000" stop="20260905090000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Ladran, Sancho</title>
     <title lang="en">Entrevista</title>
     <category lang="es">Entrevista</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905083000 +0000" stop="20260905090000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Clave de retiro</title>
+  <programme start="20260905090000 +0000" stop="20260905093000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Cómo nos afecta</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -92244,22 +92250,16 @@
     <category lang="es">Cocina</category>
     <image>https://cdn.mitvstatic.com/programs/co_la-sarten-por-el-mango_l_m.jpg</image>
   </programme>
-  <programme start="20260905090000 +0000" stop="20260905093000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Cómo nos afecta</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
+  <programme start="20260905093000 +0000" stop="20260905115500 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Te hacemos la tarde</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905093000 +0000" stop="20260905100000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Doc una consultica</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260905093000 +0000" stop="20260905115500 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Te hacemos la tarde</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260905100000 +0000" stop="20260905110000 +0000" channel="Teleantioquia.co@SD">
@@ -92286,17 +92286,17 @@
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260905120000 +0000" stop="20260905125000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Encuentro</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_encuentro_l_m.jpg</image>
-  </programme>
   <programme start="20260905120000 +0000" stop="20260905124500 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Teleantioquia noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_teleantioquia-noticias_l_m.jpg</image>
+  </programme>
+  <programme start="20260905120000 +0000" stop="20260905125000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Encuentro</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_encuentro_l_m.jpg</image>
   </programme>
   <programme start="20260905124500 +0000" stop="20260906010000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Teleantioquia deportes</title>
@@ -92310,13 +92310,19 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Rutas, llamado a la aventura</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Las aventuras de Medialuna</title>
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906010000 +0000" stop="20260906013000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Rutas, llamado a la aventura</title>
-    <category lang="es">Documental</category>
+  <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Medellín Music Lab, la serie</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="Teleantioquia.co@SD">
@@ -92324,25 +92330,13 @@
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/co_zoonadores_l_m.jpg</image>
   </programme>
-  <programme start="20260906013000 +0000" stop="20260906020000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Medellín Music Lab, la serie</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260906020000 +0000" stop="20260906023000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Betito</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260906020000 +0000" stop="20260906023000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Medellín Music Lab, la serie</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906023000 +0000" stop="20260906030000 +0000" channel="Teleantioquia.co@SD">
+  <programme start="20260906020000 +0000" stop="20260906023000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Betito</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
@@ -92353,10 +92347,10 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906030000 +0000" stop="20260906033000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">Chaski, el investigador</title>
-    <title lang="en">Educativo</title>
-    <category lang="es">Educativo</category>
+  <programme start="20260906023000 +0000" stop="20260906030000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Betito</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906030000 +0000" stop="20260906040000 +0000" channel="Teleantioquia.co@SD">
@@ -92365,13 +92359,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906033000 +0000" stop="20260906040000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">La banda de Andy</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
+  <programme start="20260906030000 +0000" stop="20260906033000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">Chaski, el investigador</title>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906040000 +0000" stop="20260906043000 +0000" channel="Teleantioquia.co@SD">
+  <programme start="20260906033000 +0000" stop="20260906040000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">La banda de Andy</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
@@ -92381,6 +92375,12 @@
     <title lang="es">Sorteo lotería de Medellín</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260906040000 +0000" stop="20260906043000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">La banda de Andy</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260906040500 +0000" stop="20260906050000 +0000" channel="Teleantioquia.co@SD">
@@ -92395,17 +92395,17 @@
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="Teleantioquia.co@SD">
-    <title lang="es">La posta</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_la-posta_l_m.jpg</image>
-  </programme>
   <programme start="20260906050000 +0000" stop="20260906060000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Nocturnos</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260906050000 +0000" stop="20260906053000 +0000" channel="Teleantioquia.co@SD">
+    <title lang="es">La posta</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_la-posta_l_m.jpg</image>
   </programme>
   <programme start="20260906053000 +0000" stop="20260906060000 +0000" channel="Teleantioquia.co@SD">
     <title lang="es">Todos somos Itagüi</title>
@@ -93009,15 +93009,15 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/co_programacion-videos_l_m.jpg</image>
   </programme>
-  <programme start="20260905050000 +0000" stop="20260905060000 +0000" channel="TeleNostalgia.co@SD">
-    <title lang="es">El mano a mano</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/co_el-mano-a-mano_l_m.jpg</image>
-  </programme>
   <programme start="20260905050000 +0000" stop="20260906030000 +0000" channel="TeleNostalgia.co@SD">
     <title lang="es">Programación videos</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/co_programacion-videos_l_m.jpg</image>
+  </programme>
+  <programme start="20260905050000 +0000" stop="20260905060000 +0000" channel="TeleNostalgia.co@SD">
+    <title lang="es">El mano a mano</title>
+    <category lang="es">Musical</category>
+    <image>https://cdn.mitvstatic.com/programs/co_el-mano-a-mano_l_m.jpg</image>
   </programme>
   <programme start="20260905060000 +0000" stop="20260906010000 +0000" channel="TeleNostalgia.co@SD">
     <title lang="es">Programación videos</title>
@@ -93034,15 +93034,15 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/co_programacion-videos_l_m.jpg</image>
   </programme>
-  <programme start="20260906030000 +0000" stop="20260906050000 +0000" channel="TeleNostalgia.co@SD">
-    <title lang="es">Programación de videos populares</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/co_programacion-de-videos-populares_l_m.jpg</image>
-  </programme>
   <programme start="20260906030000 +0000" stop="20260906040000 +0000" channel="TeleNostalgia.co@SD">
     <title lang="es">La hora del amor</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/co_la-hora-del-amor_l_m.jpg</image>
+  </programme>
+  <programme start="20260906030000 +0000" stop="20260906050000 +0000" channel="TeleNostalgia.co@SD">
+    <title lang="es">Programación de videos populares</title>
+    <category lang="es">Musical</category>
+    <image>https://cdn.mitvstatic.com/programs/co_programacion-de-videos-populares_l_m.jpg</image>
   </programme>
   <programme start="20260906040000 +0000" stop="20260906070000 +0000" channel="TeleNostalgia.co@SD">
     <title lang="es">Programación videos</title>
