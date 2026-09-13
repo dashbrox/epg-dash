@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260913120131 +0000">
+<tv generator-info-name="custom-epg" date="20260913162731 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
   </channel>
-  <channel id="sv#a-e-mundo">
-    <display-name>A&amp;E</display-name>
+  <channel id="sv#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
   <channel id="VTVCanal35.sv@SD">
     <display-name>VTV</display-name>
@@ -273,8 +273,8 @@
   <channel id="sv#amc">
     <display-name>AMC</display-name>
   </channel>
-  <channel id="sv#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="sv#a-e-mundo">
+    <display-name>A&amp;E</display-name>
   </channel>
   <programme start="20260913050000 +0000" stop="20260913070000 +0000" channel="Canal2.sv@SD">
     <title lang="es">El misterio del dragón</title>
@@ -299,11 +299,17 @@
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260913200000 +0000" stop="20260914000000 +0000" channel="Canal2.sv@SD">
+  <programme start="20260913200000 +0000" stop="20260913204500 +0000" channel="Canal2.sv@SD">
     <title lang="es">Cuéntamelo ya, al fin</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/sv_cuentamelo-ya-al-fin-1_l_m.jpg</image>
+  </programme>
+  <programme start="20260913204500 +0000" stop="20260914000000 +0000" channel="Canal2.sv@SD">
+    <title lang="es">Fuerte San Francisco vs. Municipal Limeño</title>
+    <title lang="en">Fecha 10, Estadio Luis Amílcar Moreno</title>
+    <category lang="es">Fecha 10, Estadio Luis Amílcar Moreno</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260914000000 +0000" stop="20260914010000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Sorteo de Loto</title>
@@ -1056,10 +1062,11 @@
     <image>https://cdn.mitvstatic.com/programs/sv_el-noticiero-estelar_l_m.jpg</image>
   </programme>
   <programme start="20260915030000 +0000" stop="20260915050000 +0000" channel="Canal6.sv@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_a-confirmar_l_m.jpg</image>
+    <title lang="es">El callejón de las almas perdidas</title>
+    <title lang="en">Nightmare Alley</title>
+    <category lang="es">Drama</category>
+    <rating><value>7.0</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20260915050000 +0000" stop="20260915060000 +0000" channel="Canal6.sv@SD">
     <title lang="es">El noticiero - Estelar</title>
@@ -3700,7 +3707,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-mato-a-tupac-s01e01-asesinato-en-las-vegas_l_m.jpg</image>
   </programme>
-  <programme start="20260914054400 +0000" stop="20260914064400 +0000" channel="sv#a-e-mundo">
+  <programme start="20260914054400 +0000" stop="20260914063000 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién mató a Tupac?</title>
     <sub-title lang="es">Pandilla vs. Sangre</sub-title>
     <category lang="es">Serie</category>
@@ -3708,7 +3715,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-mato-a-tupac-s01e02-pandilla-vs-sangre_l_m.jpg</image>
   </programme>
-  <programme start="20260914054400 +0000" stop="20260914063000 +0000" channel="sv#a-e-mundo">
+  <programme start="20260914054400 +0000" stop="20260914064400 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién mató a Tupac?</title>
     <sub-title lang="es">Pandilla vs. Sangre</sub-title>
     <category lang="es">Serie</category>
@@ -3998,7 +4005,7 @@
     <episode-num system="onscreen">S03E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915055000 +0000" stop="20260915065000 +0000" channel="sv#a-e-mundo">
+  <programme start="20260915055000 +0000" stop="20260915061200 +0000" channel="sv#a-e-mundo">
     <title lang="es">Clientes en furia</title>
     <sub-title lang="es">Volador mal hablado</sub-title>
     <category lang="es">Serie</category>
@@ -4006,7 +4013,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915055000 +0000" stop="20260915061200 +0000" channel="sv#a-e-mundo">
+  <programme start="20260915055000 +0000" stop="20260915065000 +0000" channel="sv#a-e-mundo">
     <title lang="es">Clientes en furia</title>
     <sub-title lang="es">Volador mal hablado</sub-title>
     <category lang="es">Serie</category>
@@ -13151,7 +13158,7 @@
   </programme>
   <programme start="20260914012900 +0000" stop="20260914014000 +0000" channel="sv#cartoon-network">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Skips&apos; Luau</sub-title>
+    <sub-title lang="es">Arregla esa cinta</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -13670,7 +13677,7 @@
   </programme>
   <programme start="20260914160200 +0000" stop="20260914161600 +0000" channel="sv#cartoon-network">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Skips&apos; Luau</sub-title>
+    <sub-title lang="es">Arregla esa cinta</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -18232,7 +18239,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913053800 +0000" stop="20260913062700 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913053800 +0000" stop="20260913062600 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Supervivencia Categoría 5</sub-title>
     <category lang="es">Serie</category>
@@ -18240,7 +18247,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s09e01-supervivencia-categoria-5_l_m.jpg</image>
   </programme>
-  <programme start="20260913062700 +0000" stop="20260913071500 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913062600 +0000" stop="20260913071400 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Se siente el calor</sub-title>
     <category lang="es">Serie</category>
@@ -18248,7 +18255,7 @@
     <episode-num system="onscreen">S05E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s05e13-se-siente-el-calor_l_m.jpg</image>
   </programme>
-  <programme start="20260913071500 +0000" stop="20260913080000 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913071400 +0000" stop="20260913080000 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Desolado con Ed Stafford</title>
     <sub-title lang="es">Namibia</sub-title>
     <category lang="es">Serie</category>
@@ -18304,7 +18311,7 @@
     <episode-num system="onscreen">S04E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_camara-policial-s04e13-conductor-bebe_l_m.jpg</image>
   </programme>
-  <programme start="20260913121400 +0000" stop="20260913125900 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913121400 +0000" stop="20260913130100 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Extraídos</title>
     <sub-title lang="es">Hundirse o nadar</sub-title>
     <category lang="es">Serie</category>
@@ -18312,7 +18319,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913125900 +0000" stop="20260913134700 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913130100 +0000" stop="20260913134900 +0000" channel="sv#discovery-channel-1">
     <title lang="es">El camino de los espíritus</title>
     <sub-title lang="es">La caja de los cuerpos</sub-title>
     <category lang="es">Serie</category>
@@ -18320,7 +18327,7 @@
     <episode-num system="onscreen">S04E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_el-camino-de-los-espiritus-s04e13-la-caja-de-los-cuerpos_l_m.jpg</image>
   </programme>
-  <programme start="20260913134700 +0000" stop="20260913143500 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913134900 +0000" stop="20260913143700 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Desafío de fanáticos</sub-title>
     <category lang="es">Serie</category>
@@ -18328,7 +18335,7 @@
     <episode-num system="onscreen">S04E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s04e14-desafio-de-fanaticos_l_m.jpg</image>
   </programme>
-  <programme start="20260913143500 +0000" stop="20260913152200 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913143700 +0000" stop="20260913152500 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Tortura texana</sub-title>
     <category lang="es">Serie</category>
@@ -18336,7 +18343,7 @@
     <episode-num system="onscreen">S08E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s08e18-tortura-texana_l_m.jpg</image>
   </programme>
-  <programme start="20260913152200 +0000" stop="20260913160900 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913152500 +0000" stop="20260913161400 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">El ojo de la tormenta</sub-title>
     <category lang="es">Serie</category>
@@ -18344,7 +18351,7 @@
     <episode-num system="onscreen">S03E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s03e02_l_m.jpg</image>
   </programme>
-  <programme start="20260913160900 +0000" stop="20260913170200 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913161400 +0000" stop="20260913170700 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Reino de la sabana</title>
     <sub-title lang="es">Olimba&apos;s Last Chance</sub-title>
     <category lang="es">Serie</category>
@@ -18352,7 +18359,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913170200 +0000" stop="20260913174900 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913170700 +0000" stop="20260913175800 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo: a solas</title>
     <sub-title lang="es">En llamas y confundido</sub-title>
     <category lang="es">Serie</category>
@@ -18360,7 +18367,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-a-solas-s01e09-en-llamas-y-confundido_l_m.jpg</image>
   </programme>
-  <programme start="20260913174900 +0000" stop="20260913183800 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913175800 +0000" stop="20260913184800 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Carrera contra el tiempo</sub-title>
     <category lang="es">Serie</category>
@@ -18368,7 +18375,7 @@
     <episode-num system="onscreen">S02E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_camara-policial-s02e15-carrera-contra-el-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20260913183800 +0000" stop="20260913192500 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913184800 +0000" stop="20260913193800 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Buscando problemas</sub-title>
     <category lang="es">Serie</category>
@@ -18376,7 +18383,7 @@
     <episode-num system="onscreen">S05E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_camara-policial-s05e05-buscando-problemas_l_m.jpg</image>
   </programme>
-  <programme start="20260913192500 +0000" stop="20260913201200 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913193800 +0000" stop="20260913202600 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Cámara policial</title>
     <sub-title lang="es">Medidas desesperadas</sub-title>
     <category lang="es">Serie</category>
@@ -18384,7 +18391,7 @@
     <episode-num system="onscreen">S05E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_camara-policial-s05e06-medidas-desesperadas_l_m.jpg</image>
   </programme>
-  <programme start="20260913201200 +0000" stop="20260913205900 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913202600 +0000" stop="20260913211600 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Historias de fantasmas</title>
     <sub-title lang="es">La casa del asesinato en Los Feliz - Parte 1</sub-title>
     <category lang="es">Serie</category>
@@ -18392,7 +18399,7 @@
     <episode-num system="onscreen">S19E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_historias-de-fantasmas-s19e20-la-casa-del-asesinato-en-los-feliz-parte-1_l_m.jpg</image>
   </programme>
-  <programme start="20260913205900 +0000" stop="20260913214600 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913211600 +0000" stop="20260913220500 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Historias de fantasmas</title>
     <sub-title lang="es">La casa del asesinato en Los Feliz - Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -18400,7 +18407,7 @@
     <episode-num system="onscreen">S19E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_historias-de-fantasmas-s19e21-la-casa-del-asesinato-en-los-feliz-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20260913214600 +0000" stop="20260913223400 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913220500 +0000" stop="20260913225400 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Historias de fantasmas</title>
     <sub-title lang="es">La casa del infierno Henderson</sub-title>
     <category lang="es">Serie</category>
@@ -18408,7 +18415,7 @@
     <episode-num system="onscreen">S19E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_historias-de-fantasmas-s19e18-la-casa-del-infierno-henderson_l_m.jpg</image>
   </programme>
-  <programme start="20260913223400 +0000" stop="20260913232100 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913225400 +0000" stop="20260913234300 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
     <sub-title lang="es">Superfanáticos</sub-title>
     <category lang="es">Serie</category>
@@ -18416,7 +18423,7 @@
     <episode-num system="onscreen">S11E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s11e12-superfanaticos_l_m.jpg</image>
   </programme>
-  <programme start="20260913232100 +0000" stop="20260914005600 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260913234300 +0000" stop="20260914012200 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo: conquista mundial</title>
     <sub-title lang="es">Entra en la zona de muerte</sub-title>
     <category lang="es">Serie</category>
@@ -18424,7 +18431,7 @@
     <episode-num system="onscreen">S01E33</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914005600 +0000" stop="20260914023200 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260914012200 +0000" stop="20260914030000 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo: conquista mundial</title>
     <sub-title lang="es">Enfrenta o abandona</sub-title>
     <category lang="es">Serie</category>
@@ -18432,35 +18439,27 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914023200 +0000" stop="20260914032000 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260914030000 +0000" stop="20260914035000 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Ed Stafford: campamento salvaje</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914032000 +0000" stop="20260914040800 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260914035000 +0000" stop="20260914044100 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Ed Stafford: campamento salvaje</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914040800 +0000" stop="20260914045600 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260914044100 +0000" stop="20260914053200 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo: naufragio</title>
     <sub-title lang="es">Vuelve el asesinato</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260914045600 +0000" stop="20260914054200 +0000" channel="sv#discovery-channel-1">
-    <title lang="es">Supervivencia al desnudo</title>
-    <sub-title lang="es">Atacados por sorpresa</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">8.12.0/1</episode-num>
-    <episode-num system="onscreen">S09E13</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s09e13-atacados-por-sorpresa_l_m.jpg</image>
   </programme>
   <programme start="20260914053200 +0000" stop="20260914062100 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
@@ -18470,13 +18469,13 @@
     <episode-num system="onscreen">S09E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s09e13-atacados-por-sorpresa_l_m.jpg</image>
   </programme>
-  <programme start="20260914054200 +0000" stop="20260914064200 +0000" channel="sv#discovery-channel-1">
+  <programme start="20260914053200 +0000" stop="20260914063200 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
-    <sub-title lang="es">Supervivencia al desnudo: edición Shark Week</sub-title>
+    <sub-title lang="es">Atacados por sorpresa</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">4.0.0/1</episode-num>
-    <episode-num system="onscreen">S05E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s05e01-alasquena-cocinada_l_m.jpg</image>
+    <episode-num system="xmltv_ns">8.12.0/1</episode-num>
+    <episode-num system="onscreen">S09E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_supervivencia-al-desnudo-s09e13-atacados-por-sorpresa_l_m.jpg</image>
   </programme>
   <programme start="20260914062100 +0000" stop="20260914071000 +0000" channel="sv#discovery-channel-1">
     <title lang="es">Supervivencia al desnudo</title>
@@ -20448,7 +20447,7 @@
     <episode-num system="onscreen">S08E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s08e06-castillos-relajantes_l_m.jpg</image>
   </programme>
-  <programme start="20260913123200 +0000" stop="20260913125700 +0000" channel="sv#discovery-kids">
+  <programme start="20260913123200 +0000" stop="20260913130100 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El carro de carreras / El botecito / El arenero / Animales nocturnos / Vacaciones</sub-title>
     <category lang="es">Serie</category>
@@ -20456,7 +20455,7 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s06e02-el-carro-de-carreras-el-botecito-el-arenero-animales-nocturnos-vacaciones_l_m.jpg</image>
   </programme>
-  <programme start="20260913125700 +0000" stop="20260913130200 +0000" channel="sv#discovery-kids">
+  <programme start="20260913130100 +0000" stop="20260913130600 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La presa de los castores</sub-title>
     <category lang="es">Serie</category>
@@ -20464,7 +20463,7 @@
     <episode-num system="onscreen">S11E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913130200 +0000" stop="20260913130700 +0000" channel="sv#discovery-kids">
+  <programme start="20260913130600 +0000" stop="20260913131100 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La tierra de las hadas</sub-title>
     <category lang="es">Serie</category>
@@ -20472,7 +20471,7 @@
     <episode-num system="onscreen">S11E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913130700 +0000" stop="20260913133100 +0000" channel="sv#discovery-kids">
+  <programme start="20260913131100 +0000" stop="20260913133700 +0000" channel="sv#discovery-kids">
     <title lang="es">Jorge, el curioso</title>
     <sub-title lang="es">Aprendiendo a esquiar / El efecto invernadero</sub-title>
     <category lang="es">Serie</category>
@@ -20480,7 +20479,7 @@
     <episode-num system="onscreen">S13E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_jorge-el-curioso-s13e11-aprendiendo-a-esquiar-el-efecto-invernadero_l_m.jpg</image>
   </programme>
-  <programme start="20260913133100 +0000" stop="20260913134300 +0000" channel="sv#discovery-kids">
+  <programme start="20260913133700 +0000" stop="20260913134900 +0000" channel="sv#discovery-kids">
     <title lang="es">44 gatos</title>
     <sub-title lang="es">Misión apestosa</sub-title>
     <category lang="es">Serie</category>
@@ -20488,7 +20487,7 @@
     <episode-num system="onscreen">S02E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_44-gatos-s02e31-el-gato-volador_l_m.jpg</image>
   </programme>
-  <programme start="20260913134300 +0000" stop="20260913135500 +0000" channel="sv#discovery-kids">
+  <programme start="20260913134900 +0000" stop="20260913140100 +0000" channel="sv#discovery-kids">
     <title lang="es">44 gatos</title>
     <sub-title lang="es">Blondie, la gata espía</sub-title>
     <category lang="es">Serie</category>
@@ -20496,7 +20495,7 @@
     <episode-num system="onscreen">S02E33</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_44-gatos-s02e33-el-gran-rescate-de-robin_l_m.jpg</image>
   </programme>
-  <programme start="20260913135500 +0000" stop="20260913141700 +0000" channel="sv#discovery-kids">
+  <programme start="20260913140100 +0000" stop="20260913142300 +0000" channel="sv#discovery-kids">
     <title lang="es">Mermicorno: lluvia de estrellas</title>
     <sub-title lang="es">Réplicas</sub-title>
     <category lang="es">Serie</category>
@@ -20504,7 +20503,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913141700 +0000" stop="20260913144000 +0000" channel="sv#discovery-kids">
+  <programme start="20260913142300 +0000" stop="20260913144600 +0000" channel="sv#discovery-kids">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">El grupo incorrecto</sub-title>
     <category lang="es">Serie</category>
@@ -20512,14 +20511,14 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913144000 +0000" stop="20260913155900 +0000" channel="sv#discovery-kids">
+  <programme start="20260913144600 +0000" stop="20260913160500 +0000" channel="sv#discovery-kids">
     <title lang="es">Cigüeñas: la historia que no te contaron</title>
     <title lang="en">Storks</title>
     <category lang="es">Animación</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_ciguenas-la-historia-que-no-te-contaron-2016-1_l_m.jpg</image>
   </programme>
-  <programme start="20260913155900 +0000" stop="20260913160400 +0000" channel="sv#discovery-kids">
+  <programme start="20260913160500 +0000" stop="20260913161000 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Vacaciones con Suzy</sub-title>
     <category lang="es">Serie</category>
@@ -20527,7 +20526,7 @@
     <episode-num system="onscreen">S11E27</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913160400 +0000" stop="20260913160900 +0000" channel="sv#discovery-kids">
+  <programme start="20260913161000 +0000" stop="20260913161500 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Paseo en el bosque</sub-title>
     <category lang="es">Serie</category>
@@ -20535,7 +20534,7 @@
     <episode-num system="onscreen">S11E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913160900 +0000" stop="20260913162000 +0000" channel="sv#discovery-kids">
+  <programme start="20260913161500 +0000" stop="20260913162600 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">Río, el atrevido</sub-title>
     <category lang="es">Serie</category>
@@ -20543,7 +20542,7 @@
     <episode-num system="onscreen">S01E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913162000 +0000" stop="20260913163100 +0000" channel="sv#discovery-kids">
+  <programme start="20260913162600 +0000" stop="20260913163700 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">¡A jugar en equipo!</sub-title>
     <category lang="es">Serie</category>
@@ -20551,7 +20550,7 @@
     <episode-num system="onscreen">S01E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913163100 +0000" stop="20260913165300 +0000" channel="sv#discovery-kids">
+  <programme start="20260913163700 +0000" stop="20260913165900 +0000" channel="sv#discovery-kids">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">Misterio en el Expreso Woohp</sub-title>
     <category lang="es">Serie</category>
@@ -20559,7 +20558,7 @@
     <episode-num system="onscreen">S07E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_tres-espias-sin-limite-s07e14-misterio-en-el-expreso-woohp_l_m.jpg</image>
   </programme>
-  <programme start="20260913165300 +0000" stop="20260913170500 +0000" channel="sv#discovery-kids">
+  <programme start="20260913165900 +0000" stop="20260913171300 +0000" channel="sv#discovery-kids">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Aventuras burbujeantes</sub-title>
     <category lang="es">Serie</category>
@@ -20567,7 +20566,7 @@
     <episode-num system="onscreen">S01E27</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913170500 +0000" stop="20260913171700 +0000" channel="sv#discovery-kids">
+  <programme start="20260913171300 +0000" stop="20260913172500 +0000" channel="sv#discovery-kids">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Mal comportamiento</sub-title>
     <category lang="es">Serie</category>
@@ -20575,7 +20574,7 @@
     <episode-num system="onscreen">S01E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913171700 +0000" stop="20260913174100 +0000" channel="sv#discovery-kids">
+  <programme start="20260913172500 +0000" stop="20260913174900 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Superfiesta de superdisfraces / El jurado / El reemplazo / La samba tiene la culpa / ¡Otra v...</sub-title>
     <category lang="es">Serie</category>
@@ -20583,7 +20582,7 @@
     <episode-num system="onscreen">S03E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e03-jugosa-limonada_l_m.jpg</image>
   </programme>
-  <programme start="20260913174100 +0000" stop="20260913174600 +0000" channel="sv#discovery-kids">
+  <programme start="20260913174900 +0000" stop="20260913175400 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Sonidos misteriosos</sub-title>
     <category lang="es">Serie</category>
@@ -20591,7 +20590,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s04e04-sonidos-misteriosos_l_m.jpg</image>
   </programme>
-  <programme start="20260913174600 +0000" stop="20260913181200 +0000" channel="sv#discovery-kids">
+  <programme start="20260913175400 +0000" stop="20260913182200 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Juegos en el jardín / A navegar / La tetera del señor Toribio / Fruta / El globo de George</sub-title>
     <category lang="es">Serie</category>
@@ -20599,7 +20598,7 @@
     <episode-num system="onscreen">S06E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s06e04-juegos-en-el-jardin-a-navegar-la-tetera-del-senor-toribio-fruta-el-globo-de-george_l_m.jpg</image>
   </programme>
-  <programme start="20260913181200 +0000" stop="20260913183300 +0000" channel="sv#discovery-kids">
+  <programme start="20260913182200 +0000" stop="20260913184300 +0000" channel="sv#discovery-kids">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">Canciones de la neblina</sub-title>
     <category lang="es">Serie</category>
@@ -20607,7 +20606,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913183300 +0000" stop="20260913185500 +0000" channel="sv#discovery-kids">
+  <programme start="20260913184300 +0000" stop="20260913190600 +0000" channel="sv#discovery-kids">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">La prueba final - Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -20615,7 +20614,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913185500 +0000" stop="20260913191700 +0000" channel="sv#discovery-kids">
+  <programme start="20260913190600 +0000" stop="20260913192800 +0000" channel="sv#discovery-kids">
     <title lang="es">100% lobo: la leyenda del anillo lunar</title>
     <sub-title lang="es">Gato Corp</sub-title>
     <category lang="es">Serie</category>
@@ -20623,7 +20622,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913191700 +0000" stop="20260913194200 +0000" channel="sv#discovery-kids">
+  <programme start="20260913192800 +0000" stop="20260913195500 +0000" channel="sv#discovery-kids">
     <title lang="es">Shasha y Milo</title>
     <sub-title lang="es">El origen (Gato al futuro)</sub-title>
     <category lang="es">Serie</category>
@@ -20631,7 +20630,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913194200 +0000" stop="20260913194700 +0000" channel="sv#discovery-kids">
+  <programme start="20260913195500 +0000" stop="20260913200000 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Paseo en el bosque</sub-title>
     <category lang="es">Serie</category>
@@ -20639,7 +20638,7 @@
     <episode-num system="onscreen">S11E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913194700 +0000" stop="20260913201300 +0000" channel="sv#discovery-kids">
+  <programme start="20260913200000 +0000" stop="20260913202800 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">The Castle / Parachute Jump / Gerald Giraffe / Ms Rabbit&apos;s Taxi / Playing Pretend</sub-title>
     <category lang="es">Serie</category>
@@ -20647,14 +20646,14 @@
     <episode-num system="onscreen">S07E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s07e01-el-castillo_l_m.jpg</image>
   </programme>
-  <programme start="20260913201300 +0000" stop="20260913214000 +0000" channel="sv#discovery-kids">
+  <programme start="20260913202800 +0000" stop="20260913215500 +0000" channel="sv#discovery-kids">
     <title lang="es">Cigüeñas: la historia que no te contaron</title>
     <title lang="en">Storks</title>
     <category lang="es">Animación</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_ciguenas-la-historia-que-no-te-contaron-2016-1_l_m.jpg</image>
   </programme>
-  <programme start="20260913214000 +0000" stop="20260913214500 +0000" channel="sv#discovery-kids">
+  <programme start="20260913215500 +0000" stop="20260913220000 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Bob, el lodoso</sub-title>
     <category lang="es">Serie</category>
@@ -20662,7 +20661,7 @@
     <episode-num system="onscreen">S11E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913214500 +0000" stop="20260913215000 +0000" channel="sv#discovery-kids">
+  <programme start="20260913220000 +0000" stop="20260913220500 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Pijamada en el hospital</sub-title>
     <category lang="es">Serie</category>
@@ -20670,7 +20669,7 @@
     <episode-num system="onscreen">S11E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s11e16-pijamada-en-el-hospital_l_m.jpg</image>
   </programme>
-  <programme start="20260913215000 +0000" stop="20260913220100 +0000" channel="sv#discovery-kids">
+  <programme start="20260913220500 +0000" stop="20260913221600 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">¡Qué empiecen los juegos!</sub-title>
     <category lang="es">Serie</category>
@@ -20678,7 +20677,7 @@
     <episode-num system="onscreen">S01E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913220100 +0000" stop="20260913221200 +0000" channel="sv#discovery-kids">
+  <programme start="20260913221600 +0000" stop="20260913222700 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">Super Badtz</sub-title>
     <category lang="es">Serie</category>
@@ -20686,7 +20685,7 @@
     <episode-num system="onscreen">S01E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913221200 +0000" stop="20260913223800 +0000" channel="sv#discovery-kids">
+  <programme start="20260913222700 +0000" stop="20260913225500 +0000" channel="sv#discovery-kids">
     <title lang="es">Shasha y Milo</title>
     <sub-title lang="es">Diversión en el festival</sub-title>
     <category lang="es">Serie</category>
@@ -20694,7 +20693,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913223800 +0000" stop="20260913230000 +0000" channel="sv#discovery-kids">
+  <programme start="20260913225500 +0000" stop="20260913231700 +0000" channel="sv#discovery-kids">
     <title lang="es">Shasha y Milo</title>
     <sub-title lang="es">Competencia de perros</sub-title>
     <category lang="es">Serie</category>
@@ -20702,7 +20701,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913230000 +0000" stop="20260913231300 +0000" channel="sv#discovery-kids">
+  <programme start="20260913231700 +0000" stop="20260913233100 +0000" channel="sv#discovery-kids">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">No es día de mostrar y contar</sub-title>
     <category lang="es">Serie</category>
@@ -20710,23 +20709,23 @@
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913231300 +0000" stop="20260913232500 +0000" channel="sv#discovery-kids">
+  <programme start="20260913233100 +0000" stop="20260913234300 +0000" channel="sv#discovery-kids">
     <title lang="es">44 gatos</title>
-    <sub-title lang="es">El gato policía en acción</sub-title>
+    <sub-title lang="es">Limpieza submarina</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.35.0/1</episode-num>
     <episode-num system="onscreen">S02E36</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_44-gatos-s02e36-el-gato-policia-en-accion_l_m.jpg</image>
   </programme>
-  <programme start="20260913232500 +0000" stop="20260913234000 +0000" channel="sv#discovery-kids">
+  <programme start="20260913234300 +0000" stop="20260913235700 +0000" channel="sv#discovery-kids">
     <title lang="es">44 gatos</title>
-    <sub-title lang="es">Sir Archibald</sub-title>
+    <sub-title lang="es">Un bocadillo en la granja</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.36.0/1</episode-num>
     <episode-num system="onscreen">S02E37</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_44-gatos-s02e37-sir-archibald_l_m.jpg</image>
   </programme>
-  <programme start="20260913234000 +0000" stop="20260913235200 +0000" channel="sv#discovery-kids">
+  <programme start="20260913235700 +0000" stop="20260914000900 +0000" channel="sv#discovery-kids">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">Como un gato / Juegos MULVE</sub-title>
     <category lang="es">Serie</category>
@@ -20734,7 +20733,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_agente-binky-al-rescate-s01e05-pulgosos_l_m.jpg</image>
   </programme>
-  <programme start="20260913235200 +0000" stop="20260914000300 +0000" channel="sv#discovery-kids">
+  <programme start="20260914000900 +0000" stop="20260914002000 +0000" channel="sv#discovery-kids">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">La vuelta invertida</sub-title>
     <category lang="es">Serie</category>
@@ -20742,7 +20741,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_agente-binky-al-rescate-s02e01-la-vuelta-invertida_l_m.jpg</image>
   </programme>
-  <programme start="20260914000300 +0000" stop="20260914002900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914002000 +0000" stop="20260914004800 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Nubes</sub-title>
     <category lang="es">Serie</category>
@@ -20750,7 +20749,7 @@
     <episode-num system="onscreen">S10E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s10e03-nubes_l_m.jpg</image>
   </programme>
-  <programme start="20260914002900 +0000" stop="20260914003400 +0000" channel="sv#discovery-kids">
+  <programme start="20260914004800 +0000" stop="20260914005300 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">¡Corre, papá, corre!</sub-title>
     <category lang="es">Serie</category>
@@ -20758,7 +20757,7 @@
     <episode-num system="onscreen">S11E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914003400 +0000" stop="20260914004500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914005300 +0000" stop="20260914010400 +0000" channel="sv#discovery-kids">
     <title lang="es">Hermanos constructores: fábrica de sueños</title>
     <sub-title lang="es">Baila-bots</sub-title>
     <category lang="es">Serie</category>
@@ -20766,7 +20765,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914004500 +0000" stop="20260914005800 +0000" channel="sv#discovery-kids">
+  <programme start="20260914010400 +0000" stop="20260914011700 +0000" channel="sv#discovery-kids">
     <title lang="es">Hermanos constructores: fábrica de sueños</title>
     <sub-title lang="es">Las cajas misteriosas</sub-title>
     <category lang="es">Serie</category>
@@ -20774,7 +20773,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914005800 +0000" stop="20260914010900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914011700 +0000" stop="20260914012800 +0000" channel="sv#discovery-kids">
     <title lang="es">Hermanos constructores: fábrica de sueños</title>
     <sub-title lang="es">Cisne-cóptero</sub-title>
     <category lang="es">Serie</category>
@@ -20782,7 +20781,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914010900 +0000" stop="20260914013500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914012800 +0000" stop="20260914015500 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El padre del rock / Instrumento de emergencia / Palabras mágicas / Mi estación favorita / Ac...</sub-title>
     <category lang="es">Serie</category>
@@ -20790,7 +20789,7 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e07-despeja-tu-mente_l_m.jpg</image>
   </programme>
-  <programme start="20260914013500 +0000" stop="20260914015900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914015500 +0000" stop="20260914021900 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El poder de la música / Duelo de guitarras / Sorpresa primaveral / Carlos y los clones / Los...</sub-title>
     <category lang="es">Serie</category>
@@ -20798,7 +20797,7 @@
     <episode-num system="onscreen">S02E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s02e08-el-monstruo-del-cereal_l_m.jpg</image>
   </programme>
-  <programme start="20260914015900 +0000" stop="20260914022500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914021900 +0000" stop="20260914024600 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Vamos de viaje / El restaurante / Visitemos el cañón / Hollywood / La motocicleta</sub-title>
     <category lang="es">Serie</category>
@@ -20806,7 +20805,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s09e01-vamos-de-viaje_l_m.jpg</image>
   </programme>
-  <programme start="20260914022500 +0000" stop="20260914023000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914024600 +0000" stop="20260914025100 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Festival de rompecabezas</sub-title>
     <category lang="es">Serie</category>
@@ -20814,7 +20813,7 @@
     <episode-num system="onscreen">S11E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s11e05-festival-de-rompecabezas_l_m.jpg</image>
   </programme>
-  <programme start="20260914023000 +0000" stop="20260914023500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914025100 +0000" stop="20260914025600 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Hobbies</sub-title>
     <category lang="es">Serie</category>
@@ -20822,7 +20821,7 @@
     <episode-num system="onscreen">S11E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s11e06-hobbies_l_m.jpg</image>
   </programme>
-  <programme start="20260914023500 +0000" stop="20260914024900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914025600 +0000" stop="20260914031000 +0000" channel="sv#discovery-kids">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">Piñatalandia</sub-title>
     <category lang="es">Serie</category>
@@ -20830,7 +20829,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914024900 +0000" stop="20260914031500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914031000 +0000" stop="20260914033700 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Solas tu y yo / Música enmascarada / ¡Adios, osito! / Melodía inolvidable / Un día de rodeo</sub-title>
     <category lang="es">Serie</category>
@@ -20838,7 +20837,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e04-pio-pio_l_m.jpg</image>
   </programme>
-  <programme start="20260914031500 +0000" stop="20260914032000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914033700 +0000" stop="20260914034200 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">¿Cuánto falta?</sub-title>
     <category lang="es">Serie</category>
@@ -20846,7 +20845,7 @@
     <episode-num system="onscreen">S05E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s05e07-cuanto-falta_l_m.jpg</image>
   </programme>
-  <programme start="20260914032000 +0000" stop="20260914032500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914034200 +0000" stop="20260914034600 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">¿Un día relajado?</sub-title>
     <category lang="es">Serie</category>
@@ -20854,7 +20853,7 @@
     <episode-num system="onscreen">S05E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s05e08-un-dia-relajado_l_m.jpg</image>
   </programme>
-  <programme start="20260914032500 +0000" stop="20260914033600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914034600 +0000" stop="20260914035800 +0000" channel="sv#discovery-kids">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Canción estrés</sub-title>
     <category lang="es">Serie</category>
@@ -20862,7 +20861,7 @@
     <episode-num system="onscreen">S01E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914033600 +0000" stop="20260914035100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914035800 +0000" stop="20260914041200 +0000" channel="sv#discovery-kids">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Ni una pista</sub-title>
     <category lang="es">Serie</category>
@@ -20870,7 +20869,7 @@
     <episode-num system="onscreen">S01E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914035100 +0000" stop="20260914040200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914041200 +0000" stop="20260914042300 +0000" channel="sv#discovery-kids">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">Viaje a Marte</sub-title>
     <category lang="es">Serie</category>
@@ -20878,7 +20877,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914040200 +0000" stop="20260914041300 +0000" channel="sv#discovery-kids">
+  <programme start="20260914042300 +0000" stop="20260914043400 +0000" channel="sv#discovery-kids">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">La clase de judo</sub-title>
     <category lang="es">Serie</category>
@@ -20886,7 +20885,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914041300 +0000" stop="20260914043700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914043400 +0000" stop="20260914045800 +0000" channel="sv#discovery-kids">
     <title lang="es">100% lobo: la leyenda del anillo lunar</title>
     <sub-title lang="es">Viajeros del tiempo</sub-title>
     <category lang="es">Serie</category>
@@ -20894,7 +20893,7 @@
     <episode-num system="onscreen">S02E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914043700 +0000" stop="20260914044900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914045800 +0000" stop="20260914051000 +0000" channel="sv#discovery-kids">
     <title lang="es">44 gatos</title>
     <sub-title lang="es">El desafío del mejor perro</sub-title>
     <category lang="es">Serie</category>
@@ -20902,7 +20901,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_44-gatos-s02e14-el-desafio-del-mejor-perro_l_m.jpg</image>
   </programme>
-  <programme start="20260914044900 +0000" stop="20260914051300 +0000" channel="sv#discovery-kids">
+  <programme start="20260914051000 +0000" stop="20260914053400 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Regalo misterioso / El pasito de Wat / Espionaje en la guardería / Día del Legado / Mundo A</sub-title>
     <category lang="es">Serie</category>
@@ -20910,7 +20909,7 @@
     <episode-num system="onscreen">S03E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e19-melodia-inolvidable_l_m.jpg</image>
   </programme>
-  <programme start="20260914051300 +0000" stop="20260914053700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914053400 +0000" stop="20260914055800 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El corazón de Myo / El misterio de los objetos desaparecidos / Día de spa / Una fantasía de...</sub-title>
     <category lang="es">Serie</category>
@@ -20918,7 +20917,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e20-un-dia-de-rodeo_l_m.jpg</image>
   </programme>
-  <programme start="20260914053700 +0000" stop="20260914060100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914055800 +0000" stop="20260914062200 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Mi hermano mayor</sub-title>
     <category lang="es">Serie</category>
@@ -20926,7 +20925,7 @@
     <episode-num system="onscreen">S02E101</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s02e101-mi-hermano-mayor_l_m.jpg</image>
   </programme>
-  <programme start="20260914053700 +0000" stop="20260914063700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914055800 +0000" stop="20260914065800 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Mi hermano mayor</sub-title>
     <category lang="es">Serie</category>
@@ -20934,7 +20933,7 @@
     <episode-num system="onscreen">S02E101</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s02e101-mi-hermano-mayor_l_m.jpg</image>
   </programme>
-  <programme start="20260914060100 +0000" stop="20260914061100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914062200 +0000" stop="20260914063300 +0000" channel="sv#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Batalla por el trono</sub-title>
     <category lang="es">Serie</category>
@@ -20942,7 +20941,7 @@
     <episode-num system="onscreen">S01E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914061100 +0000" stop="20260914062200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914063300 +0000" stop="20260914064400 +0000" channel="sv#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Todo el conocimiento</sub-title>
     <category lang="es">Serie</category>
@@ -20950,7 +20949,7 @@
     <episode-num system="onscreen">S01E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914062200 +0000" stop="20260914063300 +0000" channel="sv#discovery-kids">
+  <programme start="20260914064400 +0000" stop="20260914065500 +0000" channel="sv#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Poder pepinillo</sub-title>
     <category lang="es">Serie</category>
@@ -20958,7 +20957,7 @@
     <episode-num system="onscreen">S01E42</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914063300 +0000" stop="20260914064400 +0000" channel="sv#discovery-kids">
+  <programme start="20260914065500 +0000" stop="20260914070600 +0000" channel="sv#discovery-kids">
     <title lang="es">Las aventuras de Dog y Pony</title>
     <sub-title lang="es">Los silbidos de Trixie</sub-title>
     <category lang="es">Serie</category>
@@ -20966,7 +20965,7 @@
     <episode-num system="onscreen">S01E36</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_las-aventuras-de-dog-y-pony-s01e36-una-navidad-diferente_l_m.jpg</image>
   </programme>
-  <programme start="20260914064400 +0000" stop="20260914065600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914070600 +0000" stop="20260914072000 +0000" channel="sv#discovery-kids">
     <title lang="es">Las aventuras de Dog y Pony</title>
     <sub-title lang="es">Una desaparición mágica</sub-title>
     <category lang="es">Serie</category>
@@ -20974,7 +20973,7 @@
     <episode-num system="onscreen">S01E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_las-aventuras-de-dog-y-pony-s01e41-una-desaparicion-magica_l_m.jpg</image>
   </programme>
-  <programme start="20260914065600 +0000" stop="20260914070700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914072000 +0000" stop="20260914073200 +0000" channel="sv#discovery-kids">
     <title lang="es">Las aventuras de Dog y Pony</title>
     <sub-title lang="es">Un día arenoso</sub-title>
     <category lang="es">Serie</category>
@@ -20982,7 +20981,7 @@
     <episode-num system="onscreen">S01E42</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_las-aventuras-de-dog-y-pony-s01e42-un-dia-arenoso_l_m.jpg</image>
   </programme>
-  <programme start="20260914070700 +0000" stop="20260914071800 +0000" channel="sv#discovery-kids">
+  <programme start="20260914073200 +0000" stop="20260914074300 +0000" channel="sv#discovery-kids">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">La piedra del destino</sub-title>
     <category lang="es">Serie</category>
@@ -20990,7 +20989,7 @@
     <episode-num system="onscreen">S01E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914071800 +0000" stop="20260914073000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914074300 +0000" stop="20260914075400 +0000" channel="sv#discovery-kids">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">Mi amigo Benny</sub-title>
     <category lang="es">Serie</category>
@@ -20998,7 +20997,7 @@
     <episode-num system="onscreen">S01E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914073000 +0000" stop="20260914074100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914075400 +0000" stop="20260914080500 +0000" channel="sv#discovery-kids">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">Un York en el nido</sub-title>
     <category lang="es">Serie</category>
@@ -21006,7 +21005,7 @@
     <episode-num system="onscreen">S01E42</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914074100 +0000" stop="20260914075200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914080500 +0000" stop="20260914081900 +0000" channel="sv#discovery-kids">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">Siesta para todos</sub-title>
     <category lang="es">Serie</category>
@@ -21014,7 +21013,7 @@
     <episode-num system="onscreen">S01E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914075200 +0000" stop="20260914080300 +0000" channel="sv#discovery-kids">
+  <programme start="20260914081900 +0000" stop="20260914083000 +0000" channel="sv#discovery-kids">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">Buscando un nuevo deporte</sub-title>
     <category lang="es">Serie</category>
@@ -21022,7 +21021,7 @@
     <episode-num system="onscreen">S01E42</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914080300 +0000" stop="20260914081400 +0000" channel="sv#discovery-kids">
+  <programme start="20260914083000 +0000" stop="20260914084100 +0000" channel="sv#discovery-kids">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">El arcade - Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -21030,7 +21029,7 @@
     <episode-num system="onscreen">S01E44</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914081400 +0000" stop="20260914083800 +0000" channel="sv#discovery-kids">
+  <programme start="20260914084100 +0000" stop="20260914090600 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Superfiesta de superdisfraces / El jurado / El reemplazo / La samba tiene la culpa / ¡Otra v...</sub-title>
     <category lang="es">Serie</category>
@@ -21038,7 +21037,7 @@
     <episode-num system="onscreen">S03E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e03-jugosa-limonada_l_m.jpg</image>
   </programme>
-  <programme start="20260914083800 +0000" stop="20260914090000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914090600 +0000" stop="20260914092800 +0000" channel="sv#discovery-kids">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">Pulgosos / Liberen a peludito</sub-title>
     <category lang="es">Serie</category>
@@ -21046,7 +21045,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_agente-binky-al-rescate-s01e03-adios-mariposa_l_m.jpg</image>
   </programme>
-  <programme start="20260914090000 +0000" stop="20260914092200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914092800 +0000" stop="20260914094900 +0000" channel="sv#discovery-kids">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">El rescate / Ataque a la comida</sub-title>
     <category lang="es">Serie</category>
@@ -21054,7 +21053,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_agente-binky-al-rescate-s01e10-el-rescate-ataque-a-la-comida_l_m.jpg</image>
   </programme>
-  <programme start="20260914092200 +0000" stop="20260914094500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914094900 +0000" stop="20260914101200 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El día romano / Avistamiento de aves / Peppa en el cine / El juego de pelota / El tesoro enterrado</sub-title>
     <category lang="es">Serie</category>
@@ -21062,7 +21061,7 @@
     <episode-num system="onscreen">S08E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s08e05-la-flauta-dulce_l_m.jpg</image>
   </programme>
-  <programme start="20260914094500 +0000" stop="20260914100700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914101200 +0000" stop="20260914103600 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Navidad en el hospital / El Día de San Valentín / El día perfecto / Listos para desayunar /</sub-title>
     <category lang="es">Serie</category>
@@ -21070,7 +21069,7 @@
     <episode-num system="onscreen">S08E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s08e06-castillos-relajantes_l_m.jpg</image>
   </programme>
-  <programme start="20260914100700 +0000" stop="20260914110000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914103600 +0000" stop="20260914110000 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Vamos de viaje / El restaurante / Visitemos el cañón / Hollywood / La motocicleta</sub-title>
     <category lang="es">Serie</category>
@@ -21078,7 +21077,7 @@
     <episode-num system="onscreen">S09E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s09e01-vamos-de-viaje_l_m.jpg</image>
   </programme>
-  <programme start="20260914110000 +0000" stop="20260914112500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914110000 +0000" stop="20260914112400 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">La mudanza de Wat / El twist de los piojos / El bebé más hermoso del mundo</sub-title>
     <category lang="es">Serie</category>
@@ -21086,7 +21085,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s01e06-gira-mundial_l_m.jpg</image>
   </programme>
-  <programme start="20260914112500 +0000" stop="20260914113700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914112400 +0000" stop="20260914113700 +0000" channel="sv#discovery-kids">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">Aventura en el centro de la Tierra</sub-title>
     <category lang="es">Serie</category>
@@ -21094,7 +21093,7 @@
     <episode-num system="onscreen">S07E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_el-mundo-de-luna-s07e09-uma-aventura-no-centro-da-terra_l_m.jpg</image>
   </programme>
-  <programme start="20260914113700 +0000" stop="20260914115200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914113700 +0000" stop="20260914115100 +0000" channel="sv#discovery-kids">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">¡Superpoderosos!</sub-title>
     <category lang="es">Serie</category>
@@ -21102,7 +21101,7 @@
     <episode-num system="onscreen">S08E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_el-mundo-de-luna-s08e24-superpoderosos_l_m.jpg</image>
   </programme>
-  <programme start="20260914115200 +0000" stop="20260914121700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914115100 +0000" stop="20260914121800 +0000" channel="sv#discovery-kids">
     <title lang="es">Jorge, el curioso</title>
     <sub-title lang="es">Jorge hace una pizza / ¡Mariquitas!</sub-title>
     <category lang="es">Serie</category>
@@ -21110,7 +21109,7 @@
     <episode-num system="onscreen">S14E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_jorge-el-curioso-s14e01-jorge-hace-una-pizza-mariquitas_l_m.jpg</image>
   </programme>
-  <programme start="20260914121700 +0000" stop="20260914123200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914121800 +0000" stop="20260914123200 +0000" channel="sv#discovery-kids">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Aguafiestas</sub-title>
     <category lang="es">Serie</category>
@@ -21126,7 +21125,7 @@
     <episode-num system="onscreen">S01E49</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914124400 +0000" stop="20260914125600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914124400 +0000" stop="20260914125500 +0000" channel="sv#discovery-kids">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">El libro de los juegos de cumpleaños</sub-title>
     <category lang="es">Serie</category>
@@ -21134,7 +21133,7 @@
     <episode-num system="onscreen">S01E50</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914125600 +0000" stop="20260914131100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914125500 +0000" stop="20260914130900 +0000" channel="sv#discovery-kids">
     <title lang="es">Polly Pocket</title>
     <sub-title lang="es">Amigos peludos</sub-title>
     <category lang="es">Serie</category>
@@ -21142,7 +21141,7 @@
     <episode-num system="onscreen">S05E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_polly-pocket-s05e16-amigos-peludos_l_m.jpg</image>
   </programme>
-  <programme start="20260914131100 +0000" stop="20260914132200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914130900 +0000" stop="20260914132200 +0000" channel="sv#discovery-kids">
     <title lang="es">Hermanos constructores: fábrica de sueños</title>
     <sub-title lang="es">El fantasma de la escuela Steamport</sub-title>
     <category lang="es">Serie</category>
@@ -21174,7 +21173,7 @@
     <episode-num system="onscreen">S01E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914141900 +0000" stop="20260914143100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914141900 +0000" stop="20260914143000 +0000" channel="sv#discovery-kids">
     <title lang="es">Open Season: la naturaleza llama</title>
     <sub-title lang="es">El atrevimiento</sub-title>
     <category lang="es">Serie</category>
@@ -21182,7 +21181,7 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914143100 +0000" stop="20260914145300 +0000" channel="sv#discovery-kids">
+  <programme start="20260914143000 +0000" stop="20260914145200 +0000" channel="sv#discovery-kids">
     <title lang="es">Mermicorno: lluvia de estrellas</title>
     <sub-title lang="es">El regreso de Sharkicorno</sub-title>
     <category lang="es">Serie</category>
@@ -21190,7 +21189,7 @@
     <episode-num system="onscreen">S02E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914145300 +0000" stop="20260914150500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914145200 +0000" stop="20260914150300 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">¡Qué empiecen los juegos!</sub-title>
     <category lang="es">Serie</category>
@@ -21198,7 +21197,7 @@
     <episode-num system="onscreen">S01E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914150500 +0000" stop="20260914152900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914150300 +0000" stop="20260914152700 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Por la izquierda / Cumpleaños virtual / El rey Carlos / Hipo y Scat / El pulgar de Baby Div...</sub-title>
     <category lang="es">Serie</category>
@@ -21206,7 +21205,7 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e10-yo-puedo-hacerlo_l_m.jpg</image>
   </programme>
-  <programme start="20260914152900 +0000" stop="20260914155600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914152700 +0000" stop="20260914155600 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Superfiesta de superdisfraces / El jurado / El reemplazo / La samba tiene la culpa / ¡Otra v...</sub-title>
     <category lang="es">Serie</category>
@@ -21214,7 +21213,7 @@
     <episode-num system="onscreen">S03E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e03-jugosa-limonada_l_m.jpg</image>
   </programme>
-  <programme start="20260914155600 +0000" stop="20260914161100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914155600 +0000" stop="20260914160900 +0000" channel="sv#discovery-kids">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">La historia de dos héroes</sub-title>
     <category lang="es">Serie</category>
@@ -21222,7 +21221,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914161100 +0000" stop="20260914163600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914160900 +0000" stop="20260914163600 +0000" channel="sv#discovery-kids">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">El soñador digno</sub-title>
     <category lang="es">Serie</category>
@@ -21238,7 +21237,7 @@
     <episode-num system="onscreen">S11E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914164100 +0000" stop="20260914170600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914164100 +0000" stop="20260914170500 +0000" channel="sv#discovery-kids">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">Espionaje tecnológico</sub-title>
     <category lang="es">Serie</category>
@@ -21246,7 +21245,7 @@
     <episode-num system="onscreen">S07E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_tres-espias-sin-limite-s07e21-espionaje-tecnologico_l_m.jpg</image>
   </programme>
-  <programme start="20260914170600 +0000" stop="20260914172900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914170500 +0000" stop="20260914172800 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Revisión médica / La patineta / Escalando montañas / El barco de la policía / El tractor</sub-title>
     <category lang="es">Serie</category>
@@ -21254,7 +21253,7 @@
     <episode-num system="onscreen">S09E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s09e05-la-motocicleta_l_m.jpg</image>
   </programme>
-  <programme start="20260914172900 +0000" stop="20260914175500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914172800 +0000" stop="20260914175700 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Juegos de papel</sub-title>
     <category lang="es">Serie</category>
@@ -21262,7 +21261,7 @@
     <episode-num system="onscreen">S10E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s10e02-juegos-de-papel_l_m.jpg</image>
   </programme>
-  <programme start="20260914175500 +0000" stop="20260914180000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914175700 +0000" stop="20260914180200 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Duelo de gatos</sub-title>
     <category lang="es">Serie</category>
@@ -21270,7 +21269,7 @@
     <episode-num system="onscreen">S05E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s05e02-duelo-de-gatos_l_m.jpg</image>
   </programme>
-  <programme start="20260914180000 +0000" stop="20260914182600 +0000" channel="sv#discovery-kids">
+  <programme start="20260914180200 +0000" stop="20260914182700 +0000" channel="sv#discovery-kids">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">La gema rota</sub-title>
     <category lang="es">Serie</category>
@@ -21278,7 +21277,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914182600 +0000" stop="20260914183800 +0000" channel="sv#discovery-kids">
+  <programme start="20260914182700 +0000" stop="20260914183800 +0000" channel="sv#discovery-kids">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">Romeo Bob y Julieta</sub-title>
     <category lang="es">Serie</category>
@@ -21302,7 +21301,7 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914190500 +0000" stop="20260914192000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914190500 +0000" stop="20260914191900 +0000" channel="sv#discovery-kids">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">Agente Binky no puede parar</sub-title>
     <category lang="es">Serie</category>
@@ -21310,7 +21309,7 @@
     <episode-num system="onscreen">S02E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_agente-binky-al-rescate-s02e29-agente-binky-no-puede-parar_l_m.jpg</image>
   </programme>
-  <programme start="20260914192000 +0000" stop="20260914193200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914191900 +0000" stop="20260914193000 +0000" channel="sv#discovery-kids">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">Súper como un héroe</sub-title>
     <category lang="es">Serie</category>
@@ -21318,7 +21317,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914193200 +0000" stop="20260914195700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914193000 +0000" stop="20260914195500 +0000" channel="sv#discovery-kids">
     <title lang="es">Winx Club: Vuelve la magia</title>
     <sub-title lang="es">Hadas del rock</sub-title>
     <category lang="es">Serie</category>
@@ -21326,7 +21325,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914195700 +0000" stop="20260914200900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914195500 +0000" stop="20260914200900 +0000" channel="sv#discovery-kids">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">La carrera del lodo</sub-title>
     <category lang="es">Serie</category>
@@ -21342,15 +21341,15 @@
     <episode-num system="onscreen">S01E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914202000 +0000" stop="20260914204700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914202000 +0000" stop="20260914205000 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">¡Apágalo! / Fuz, el rebelde / Jugosa limonada / Pio-Pio / Rockeando el silencio</sub-title>
+    <sub-title lang="es">¡Yo no fui! / Canta conmigo / El día de los deportes / Baby Divo / Myo y el cachorro</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.0.0/1</episode-num>
     <episode-num system="onscreen">S03E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e01-apagalo_l_m.jpg</image>
   </programme>
-  <programme start="20260914204700 +0000" stop="20260914210900 +0000" channel="sv#discovery-kids">
+  <programme start="20260914205000 +0000" stop="20260914211100 +0000" channel="sv#discovery-kids">
     <title lang="es">Magia de sirenas</title>
     <sub-title lang="es">La atracción embrujada</sub-title>
     <category lang="es">Serie</category>
@@ -21358,7 +21357,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914210900 +0000" stop="20260914212100 +0000" channel="sv#discovery-kids">
+  <programme start="20260914211100 +0000" stop="20260914212300 +0000" channel="sv#discovery-kids">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Mal comportamiento</sub-title>
     <category lang="es">Serie</category>
@@ -21366,7 +21365,7 @@
     <episode-num system="onscreen">S01E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914212100 +0000" stop="20260914214400 +0000" channel="sv#discovery-kids">
+  <programme start="20260914212300 +0000" stop="20260914214600 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">¡Aventura espacial! / La estación de bomberos / Sr. Toribio, el profesor / El juego de busc</sub-title>
     <category lang="es">Serie</category>
@@ -21374,7 +21373,7 @@
     <episode-num system="onscreen">S08E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s08e09-musica-divertida_l_m.jpg</image>
   </programme>
-  <programme start="20260914214400 +0000" stop="20260914220700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914214600 +0000" stop="20260914220900 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Iglú</sub-title>
     <category lang="es">Serie</category>
@@ -21382,7 +21381,7 @@
     <episode-num system="onscreen">S10E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s10e11-iglu_l_m.jpg</image>
   </programme>
-  <programme start="20260914220700 +0000" stop="20260914223000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914220900 +0000" stop="20260914223200 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La reina / La isla desierta / Perfume / La fiesta de los niños / El acuario</sub-title>
     <category lang="es">Serie</category>
@@ -21390,7 +21389,7 @@
     <episode-num system="onscreen">S06E27</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s06e27-la-reina-la-isla-desierta-perfume-la-fiesta-de-los-ninos-el-acuario_l_m.jpg</image>
   </programme>
-  <programme start="20260914223000 +0000" stop="20260914223500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914223200 +0000" stop="20260914223700 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Piano Lesson</sub-title>
     <category lang="es">Serie</category>
@@ -21398,7 +21397,7 @@
     <episode-num system="onscreen">S11E32</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914223500 +0000" stop="20260914224000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914223700 +0000" stop="20260914224200 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Los sonidos favoritos</sub-title>
     <category lang="es">Serie</category>
@@ -21406,7 +21405,7 @@
     <episode-num system="onscreen">S11E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s11e15-los-sonidos-favoritos_l_m.jpg</image>
   </programme>
-  <programme start="20260914224000 +0000" stop="20260914224500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914224200 +0000" stop="20260914224700 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La fiesta de Penny Osa Polar</sub-title>
     <category lang="es">Serie</category>
@@ -21414,7 +21413,7 @@
     <episode-num system="onscreen">S11E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s11e18-la-fiesta-de-penny-osa-polar_l_m.jpg</image>
   </programme>
-  <programme start="20260914224500 +0000" stop="20260914225000 +0000" channel="sv#discovery-kids">
+  <programme start="20260914224700 +0000" stop="20260914225200 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">¡Despierta, Carlos!</sub-title>
     <category lang="es">Serie</category>
@@ -21422,7 +21421,7 @@
     <episode-num system="onscreen">S04E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s04e20-despierta-carlos_l_m.jpg</image>
   </programme>
-  <programme start="20260914225000 +0000" stop="20260914225500 +0000" channel="sv#discovery-kids">
+  <programme start="20260914225200 +0000" stop="20260914225700 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Un día animado</sub-title>
     <category lang="es">Serie</category>
@@ -21430,7 +21429,7 @@
     <episode-num system="onscreen">S04E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s04e18-un-dia-animado_l_m.jpg</image>
   </programme>
-  <programme start="20260914225500 +0000" stop="20260914232200 +0000" channel="sv#discovery-kids">
+  <programme start="20260914225700 +0000" stop="20260914232300 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El príncipe y el baterista / Un viaje al presente / Problemas en 8 bit / Bebés en Bollywood</sub-title>
     <category lang="es">Serie</category>
@@ -21438,7 +21437,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s02e04-baby-divo_l_m.jpg</image>
   </programme>
-  <programme start="20260914232200 +0000" stop="20260914234700 +0000" channel="sv#discovery-kids">
+  <programme start="20260914232300 +0000" stop="20260914234700 +0000" channel="sv#discovery-kids">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">Desempeño de altura</sub-title>
     <category lang="es">Serie</category>
@@ -21454,7 +21453,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915001200 +0000" stop="20260915002400 +0000" channel="sv#discovery-kids">
+  <programme start="20260915001200 +0000" stop="20260915002300 +0000" channel="sv#discovery-kids">
     <title lang="es">Defensores Petronix</title>
     <sub-title lang="es">Misión: rescate jabalí</sub-title>
     <category lang="es">Serie</category>
@@ -21462,7 +21461,7 @@
     <episode-num system="onscreen">S01E27</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915002400 +0000" stop="20260915004900 +0000" channel="sv#discovery-kids">
+  <programme start="20260915002300 +0000" stop="20260915004800 +0000" channel="sv#discovery-kids">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">La era de hielo</sub-title>
     <category lang="es">Serie</category>
@@ -21470,7 +21469,7 @@
     <episode-num system="onscreen">S07E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_tres-espias-sin-limite-s07e09-la-era-de-hielo_l_m.jpg</image>
   </programme>
-  <programme start="20260915004900 +0000" stop="20260915011500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915004800 +0000" stop="20260915011500 +0000" channel="sv#discovery-kids">
     <title lang="es">Magia de sirenas</title>
     <sub-title lang="es">Peligro en el centro de rescate</sub-title>
     <category lang="es">Serie</category>
@@ -21478,7 +21477,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915011500 +0000" stop="20260915013000 +0000" channel="sv#discovery-kids">
+  <programme start="20260915011500 +0000" stop="20260915012900 +0000" channel="sv#discovery-kids">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">Una tarde especial</sub-title>
     <category lang="es">Serie</category>
@@ -21486,7 +21485,7 @@
     <episode-num system="onscreen">S01E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915013000 +0000" stop="20260915013500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915012900 +0000" stop="20260915013400 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El viaje de trabajo de Mamá Cerdita</sub-title>
     <category lang="es">Serie</category>
@@ -21494,7 +21493,7 @@
     <episode-num system="onscreen">S11E36</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915013500 +0000" stop="20260915014000 +0000" channel="sv#discovery-kids">
+  <programme start="20260915013400 +0000" stop="20260915013900 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Art Class</sub-title>
     <category lang="es">Serie</category>
@@ -21502,7 +21501,7 @@
     <episode-num system="onscreen">S11E37</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915014000 +0000" stop="20260915020200 +0000" channel="sv#discovery-kids">
+  <programme start="20260915013900 +0000" stop="20260915020100 +0000" channel="sv#discovery-kids">
     <title lang="es">Jorge, el curioso</title>
     <sub-title lang="es">Jorge hace una pizza / ¡Mariquitas!</sub-title>
     <category lang="es">Serie</category>
@@ -21510,7 +21509,7 @@
     <episode-num system="onscreen">S14E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_jorge-el-curioso-s14e01-jorge-hace-una-pizza-mariquitas_l_m.jpg</image>
   </programme>
-  <programme start="20260915020200 +0000" stop="20260915020700 +0000" channel="sv#discovery-kids">
+  <programme start="20260915020100 +0000" stop="20260915020600 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Batalla de aplausos</sub-title>
     <category lang="es">Serie</category>
@@ -21518,7 +21517,7 @@
     <episode-num system="onscreen">S05E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s05e04-batalla-de-aplausos_l_m.jpg</image>
   </programme>
-  <programme start="20260915020700 +0000" stop="20260915021200 +0000" channel="sv#discovery-kids">
+  <programme start="20260915020600 +0000" stop="20260915021100 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">¡Sacude el árbol!</sub-title>
     <category lang="es">Serie</category>
@@ -21526,7 +21525,7 @@
     <episode-num system="onscreen">S05E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s05e17-sacude-el-arbol_l_m.jpg</image>
   </programme>
-  <programme start="20260915021200 +0000" stop="20260915021700 +0000" channel="sv#discovery-kids">
+  <programme start="20260915021100 +0000" stop="20260915021500 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Baby Retro a todo color</sub-title>
     <category lang="es">Serie</category>
@@ -21534,7 +21533,7 @@
     <episode-num system="onscreen">S05E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s05e18-baby-retro-a-todo-color_l_m.jpg</image>
   </programme>
-  <programme start="20260915021700 +0000" stop="20260915024300 +0000" channel="sv#discovery-kids">
+  <programme start="20260915021500 +0000" stop="20260915024300 +0000" channel="sv#discovery-kids">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">El grupo incorrecto</sub-title>
     <category lang="es">Serie</category>
@@ -21542,7 +21541,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915024300 +0000" stop="20260915025500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915024300 +0000" stop="20260915025600 +0000" channel="sv#discovery-kids">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">De repente, súper mejorado</sub-title>
     <category lang="es">Serie</category>
@@ -21550,7 +21549,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915025500 +0000" stop="20260915031000 +0000" channel="sv#discovery-kids">
+  <programme start="20260915025600 +0000" stop="20260915030900 +0000" channel="sv#discovery-kids">
     <title lang="es">Polly Pocket</title>
     <sub-title lang="es">Juegos de mascotas de Littleton</sub-title>
     <category lang="es">Serie</category>
@@ -21558,7 +21557,7 @@
     <episode-num system="onscreen">S05E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_polly-pocket-s05e23-juegos-de-mascotas-de-littleton_l_m.jpg</image>
   </programme>
-  <programme start="20260915031000 +0000" stop="20260915032200 +0000" channel="sv#discovery-kids">
+  <programme start="20260915030900 +0000" stop="20260915032000 +0000" channel="sv#discovery-kids">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">La InterGigio</sub-title>
     <category lang="es">Serie</category>
@@ -21566,7 +21565,7 @@
     <episode-num system="onscreen">S02E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915032200 +0000" stop="20260915034800 +0000" channel="sv#discovery-kids">
+  <programme start="20260915032000 +0000" stop="20260915034600 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El carro de carreras / El botecito / El arenero / Animales nocturnos / Vacaciones</sub-title>
     <category lang="es">Serie</category>
@@ -21574,7 +21573,7 @@
     <episode-num system="onscreen">S06E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s06e02-el-carro-de-carreras-el-botecito-el-arenero-animales-nocturnos-vacaciones_l_m.jpg</image>
   </programme>
-  <programme start="20260915034800 +0000" stop="20260915041500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915034600 +0000" stop="20260915041400 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El cumpleaños de Mandy Ratona / El castillo de arena</sub-title>
     <category lang="es">Serie</category>
@@ -21582,7 +21581,7 @@
     <episode-num system="onscreen">S08E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s08e11-carrera-de-canicas_l_m.jpg</image>
   </programme>
-  <programme start="20260915041500 +0000" stop="20260915042000 +0000" channel="sv#discovery-kids">
+  <programme start="20260915041400 +0000" stop="20260915041900 +0000" channel="sv#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Preparándose para el bebé</sub-title>
     <category lang="es">Serie</category>
@@ -21590,7 +21589,7 @@
     <episode-num system="onscreen">S11E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_peppa-pig-s11e10-preparandose-para-el-bebe_l_m.jpg</image>
   </programme>
-  <programme start="20260915042000 +0000" stop="20260915042500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915041900 +0000" stop="20260915042400 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Batalla de bandas</sub-title>
     <category lang="es">Serie</category>
@@ -21598,7 +21597,7 @@
     <episode-num system="onscreen">S04E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s04e29-batalla-de-bandas_l_m.jpg</image>
   </programme>
-  <programme start="20260915042500 +0000" stop="20260915043000 +0000" channel="sv#discovery-kids">
+  <programme start="20260915042400 +0000" stop="20260915042900 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Una canción en altura</sub-title>
     <category lang="es">Serie</category>
@@ -21606,7 +21605,7 @@
     <episode-num system="onscreen">S04E39</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s04e39-una-cancion-en-altura_l_m.jpg</image>
   </programme>
-  <programme start="20260915043000 +0000" stop="20260915043500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915042900 +0000" stop="20260915043400 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Las niñelimpíadas</sub-title>
     <category lang="es">Serie</category>
@@ -21614,7 +21613,7 @@
     <episode-num system="onscreen">S04E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s04e40-las-ninelimpiadas_l_m.jpg</image>
   </programme>
-  <programme start="20260915043500 +0000" stop="20260915044700 +0000" channel="sv#discovery-kids">
+  <programme start="20260915043400 +0000" stop="20260915044700 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">Un puente entre castores</sub-title>
     <category lang="es">Serie</category>
@@ -21622,7 +21621,7 @@
     <episode-num system="onscreen">S01E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915044700 +0000" stop="20260915050200 +0000" channel="sv#discovery-kids">
+  <programme start="20260915044700 +0000" stop="20260915050100 +0000" channel="sv#discovery-kids">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">Buenas noches, Zing</sub-title>
     <category lang="es">Serie</category>
@@ -21630,7 +21629,7 @@
     <episode-num system="onscreen">S01E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915050200 +0000" stop="20260915052600 +0000" channel="sv#discovery-kids">
+  <programme start="20260915050100 +0000" stop="20260915052500 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">La planta cancionívora / Sigan al líder / Ritmo de gol / Carlos invisible / Nuestra primera</sub-title>
     <category lang="es">Serie</category>
@@ -21638,7 +21637,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e06-no-te-rindas-wat_l_m.jpg</image>
   </programme>
-  <programme start="20260915052600 +0000" stop="20260915055000 +0000" channel="sv#discovery-kids">
+  <programme start="20260915052500 +0000" stop="20260915054900 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El padre del rock / Instrumento de emergencia / Palabras mágicas / Mi estación favorita / Ac...</sub-title>
     <category lang="es">Serie</category>
@@ -21646,7 +21645,7 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_mini-beat-power-rockers-s03e07-despeja-tu-mente_l_m.jpg</image>
   </programme>
-  <programme start="20260915055000 +0000" stop="20260915055500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915054900 +0000" stop="20260915055300 +0000" channel="sv#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Carlos navideño</sub-title>
     <category lang="es">Serie</category>
@@ -21662,7 +21661,7 @@
     <episode-num system="onscreen">S01E36</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260915055500 +0000" stop="20260915065500 +0000" channel="sv#discovery-kids">
+  <programme start="20260915055300 +0000" stop="20260915065300 +0000" channel="sv#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Los reyes de la cafetería</sub-title>
     <category lang="es">Serie</category>
@@ -43462,54 +43461,74 @@
     <episode-num system="onscreen">S07E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_csi-miami-s07e11-tipping-point_l_m.jpg</image>
   </programme>
-  <programme start="20260913060000 +0000" stop="20260913093000 +0000" channel="sv#tve">
+  <programme start="20260913053500 +0000" stop="20260913063000 +0000" channel="sv#tve">
+    <title lang="es">Tendido cero</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.426.0/1</episode-num>
+    <episode-num system="onscreen">S01E427</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_tendido-cero-s00e427_l_m.jpg</image>
+  </programme>
+  <programme start="20260913063000 +0000" stop="20260913093000 +0000" channel="sv#tve">
     <title lang="es">Noticias 24 h</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/sv_noticias-24-h_l_m.jpg</image>
   </programme>
-  <programme start="20260913093000 +0000" stop="20260913094500 +0000" channel="sv#tve">
+  <programme start="20260913093000 +0000" stop="20260913093500 +0000" channel="sv#tve">
     <title lang="es">Esto es España</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Playa del Papagayo</title>
+    <category lang="es">- Playa del Papagayo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913094500 +0000" stop="20260913100000 +0000" channel="sv#tve">
+  <programme start="20260913093500 +0000" stop="20260913095000 +0000" channel="sv#tve">
     <title lang="es">Medina en TVE</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_medina-en-tve_l_m.jpg</image>
+    <sub-title lang="es">La guia del ayunante</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.450.0/1</episode-num>
+    <episode-num system="onscreen">S01E451</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913100000 +0000" stop="20260913101500 +0000" channel="sv#tve">
+  <programme start="20260913095000 +0000" stop="20260913100500 +0000" channel="sv#tve">
     <title lang="es">Buenas noticias. TV</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_buenas-noticias-tv_l_m.jpg</image>
+    <sub-title lang="es">50 Años del Campamento Monteluz</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.449.0/1</episode-num>
+    <episode-num system="onscreen">S01E450</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_buenas-noticias-tv-s00e450-50-anos-del-campamento-monteluz_l_m.jpg</image>
   </programme>
-  <programme start="20260913101500 +0000" stop="20260913103000 +0000" channel="sv#tve">
+  <programme start="20260913100500 +0000" stop="20260913102000 +0000" channel="sv#tve">
     <title lang="es">Shalom</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_shalom_l_m.jpg</image>
+    <sub-title lang="es">Rosh Hashana, Renovación y Esperanza</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.456.0/1</episode-num>
+    <episode-num system="onscreen">S01E457</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_shalom-s00e457-rosh-hashana-renovacion-y-esperanza_l_m.jpg</image>
   </programme>
-  <programme start="20260913103000 +0000" stop="20260913105500 +0000" channel="sv#tve">
+  <programme start="20260913102000 +0000" stop="20260913104500 +0000" channel="sv#tve">
     <title lang="es">Últimas preguntas</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_ultimas-preguntas_l_m.jpg</image>
+    <sub-title lang="es">Magnífica Humanidad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.442.0/1</episode-num>
+    <episode-num system="onscreen">S01E443</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_ultimas-preguntas-s00e443-magnifica-humanidad_l_m.jpg</image>
   </programme>
-  <programme start="20260913105500 +0000" stop="20260913110000 +0000" channel="sv#tve">
+  <programme start="20260913104500 +0000" stop="20260913105000 +0000" channel="sv#tve">
     <title lang="es">Testimonio</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_testimonio_l_m.jpg</image>
+    <sub-title lang="es">Fundación Antezana</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.451.0/1</episode-num>
+    <episode-num system="onscreen">S01E452</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_testimonio-s00e452-fundacion-antezana_l_m.jpg</image>
   </programme>
-  <programme start="20260913110000 +0000" stop="20260913112500 +0000" channel="sv#tve">
+  <programme start="20260913105000 +0000" stop="20260913112000 +0000" channel="sv#tve">
     <title lang="es">Pueblo de Dios</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_pueblo-de-dios_l_m.jpg</image>
+    <sub-title lang="es">Los guardianes del Purús</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.360.0/1</episode-num>
+    <episode-num system="onscreen">S01E361</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pueblo-de-dios-s00e361-los-guardianes-del-purus_l_m.jpg</image>
   </programme>
-  <programme start="20260913112500 +0000" stop="20260913122500 +0000" channel="sv#tve">
+  <programme start="20260913112000 +0000" stop="20260913122000 +0000" channel="sv#tve">
     <title lang="es">Imprescindibles</title>
     <sub-title lang="es">Enrique Urquijo</sub-title>
     <category lang="es">Serie</category>
@@ -43517,7 +43536,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_imprescindibles-s00e06-enrique-urquijo_l_m.jpg</image>
   </programme>
-  <programme start="20260913122500 +0000" stop="20260913125500 +0000" channel="sv#tve">
+  <programme start="20260913122000 +0000" stop="20260913125500 +0000" channel="sv#tve">
     <title lang="es">Conversatorios en Casa de América</title>
     <sub-title lang="es">Jose María Pou</sub-title>
     <category lang="es">Serie</category>
@@ -43553,12 +43572,25 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_caminando-sobre-las-olas-s00e08-etapa-de-poo-de-llanes-hasta-gijon_l_m.jpg</image>
   </programme>
-  <programme start="20260913144000 +0000" stop="20260913145000 +0000" channel="sv#tve">
+  <programme start="20260913144000 +0000" stop="20260913144300 +0000" channel="sv#tve">
     <title lang="es">Esto es España</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Picos de Europa / Janovas / Timanfaya</title>
+    <category lang="es">- Picos de Europa / Janovas / Timanfaya</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913145000 +0000" stop="20260913154000 +0000" channel="sv#tve">
+  <programme start="20260913144300 +0000" stop="20260913144700 +0000" channel="sv#tve">
+    <title lang="es">Esto es España</title>
+    <title lang="en">- Salinas de Santa Pola / Janovas</title>
+    <category lang="es">- Salinas de Santa Pola / Janovas</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260913144700 +0000" stop="20260913145000 +0000" channel="sv#tve">
+    <title lang="es">Esto es España</title>
+    <title lang="en">- Timanfaya</title>
+    <category lang="es">- Timanfaya</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260913145000 +0000" stop="20260913154500 +0000" channel="sv#tve">
     <title lang="es">Hoteles con alma</title>
     <sub-title lang="es">Hotel Wellington - Madrid</sub-title>
     <category lang="es">Serie</category>
@@ -43566,41 +43598,42 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913154000 +0000" stop="20260913161000 +0000" channel="sv#tve">
+  <programme start="20260913154500 +0000" stop="20260913161000 +0000" channel="sv#tve">
     <title lang="es">Flash moda</title>
+    <sub-title lang="es">Hotel Santo Mauro</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.65.0/1</episode-num>
-    <episode-num system="onscreen">S01E66</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/sv_flash-moda-s00e66_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.292.0/1</episode-num>
+    <episode-num system="onscreen">S01E293</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_flash-moda-s00e293-hotel-santo-mauro_l_m.jpg</image>
   </programme>
-  <programme start="20260913161000 +0000" stop="20260913181000 +0000" channel="sv#tve">
+  <programme start="20260913161000 +0000" stop="20260913180500 +0000" channel="sv#tve">
     <title lang="es">D corazón</title>
-    <sub-title lang="es">Sabado 5 de septiembre</sub-title>
+    <sub-title lang="es">Sabado 12 de septiembre</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.268.0/1</episode-num>
-    <episode-num system="onscreen">S01E269</episode-num>
+    <episode-num system="xmltv_ns">0.270.0/1</episode-num>
+    <episode-num system="onscreen">S01E271</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913181000 +0000" stop="20260913185500 +0000" channel="sv#tve">
+  <programme start="20260913180500 +0000" stop="20260913185500 +0000" channel="sv#tve">
     <title lang="es">Saber y ganar - Fin de semana</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.473.0/1</episode-num>
     <episode-num system="onscreen">S01E474</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913185500 +0000" stop="20260913195000 +0000" channel="sv#tve">
+  <programme start="20260913185500 +0000" stop="20260913194500 +0000" channel="sv#tve">
     <title lang="es">Telediario 2</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260913195000 +0000" stop="20260913204200 +0000" channel="sv#tve">
-    <title lang="es">Teledeporte 2</title>
+  <programme start="20260913194500 +0000" stop="20260913195000 +0000" channel="sv#tve">
+    <title lang="es">Deportes 2</title>
     <title lang="en">Teledeporte 2</title>
     <category lang="es">Teledeporte 2</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260913204200 +0000" stop="20260913204500 +0000" channel="sv#tve">
+  <programme start="20260913195000 +0000" stop="20260913204000 +0000" channel="sv#tve">
     <title lang="es">La vuelta al mundo en 80 likes</title>
     <sub-title lang="es">Medellín</sub-title>
     <category lang="es">Serie</category>
@@ -43608,20 +43641,17 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913204500 +0000" stop="20260913211200 +0000" channel="sv#tve">
-    <title lang="es">Cine de barrio</title>
-    <sub-title lang="es">Don Erre Que Erre</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.407.0/1</episode-num>
-    <episode-num system="onscreen">S01E408</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260913211200 +0000" stop="20260913224000 +0000" channel="sv#tve">
+  <programme start="20260913204000 +0000" stop="20260913205000 +0000" channel="sv#tve">
     <title lang="es">Don Erre que erre</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/sv_don-erre-que-erre-1970_l_m.jpg</image>
   </programme>
-  <programme start="20260913224000 +0000" stop="20260913233000 +0000" channel="sv#tve">
+  <programme start="20260913205000 +0000" stop="20260913223000 +0000" channel="sv#tve">
+    <title lang="es">Don Erre que erre</title>
+    <title lang="en">Comedia</title>
+    <image>https://cdn.mitvstatic.com/programs/sv_don-erre-que-erre-1970_l_m.jpg</image>
+  </programme>
+  <programme start="20260913223000 +0000" stop="20260913232500 +0000" channel="sv#tve">
     <title lang="es">De tapas por España</title>
     <sub-title lang="es">Lugo. Descubre la Belleza del Verde Paisaje Gallego</sub-title>
     <category lang="es">Serie</category>
@@ -43629,7 +43659,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260913233000 +0000" stop="20260914000000 +0000" channel="sv#tve">
+  <programme start="20260913232500 +0000" stop="20260914000000 +0000" channel="sv#tve">
     <title lang="es">Aquí la tierra</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.825.0/1</episode-num>
@@ -43649,13 +43679,13 @@
     <episode-num system="onscreen">S01E367</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_la-suerte-en-tus-manos-s00e367_l_m.jpg</image>
   </programme>
-  <programme start="20260914003500 +0000" stop="20260914013000 +0000" channel="sv#tve">
-    <title lang="es">La corte de Ana</title>
-    <title lang="en">Documental</title>
-    <rating><value>7.1</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  <programme start="20260914003500 +0000" stop="20260914013500 +0000" channel="sv#tve">
+    <title lang="es">Imprescindibles</title>
+    <title lang="en">- Mario Camus Según el Cine</title>
+    <category lang="es">- Mario Camus Según el Cine</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914013000 +0000" stop="20260914022000 +0000" channel="sv#tve">
+  <programme start="20260914013500 +0000" stop="20260914022000 +0000" channel="sv#tve">
     <title lang="es">Captcha: No soy un robot</title>
     <sub-title lang="es">Benita y los Robots del Futuro</sub-title>
     <category lang="es">Serie</category>
@@ -43695,32 +43725,26 @@
     <episode-num system="onscreen">S01E198</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914034500 +0000" stop="20260914040500 +0000" channel="sv#tve">
-    <title lang="es">Metrópolis</title>
-    <sub-title lang="es">Maider Lopez</sub-title>
+  <programme start="20260914034500 +0000" stop="20260914035000 +0000" channel="sv#tve">
+    <title lang="es">Version española</title>
+    <sub-title lang="es">Coloquio</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.325.0/1</episode-num>
-    <episode-num system="onscreen">S01E326</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/sv_metropolis-s00e326-maider-lopez_l_m.jpg</image>
-  </programme>
-  <programme start="20260914040500 +0000" stop="20260914042000 +0000" channel="sv#tve">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_a-confirmar_l_m.jpg</image>
-  </programme>
-  <programme start="20260914042000 +0000" stop="20260914053000 +0000" channel="sv#tve">
-    <title lang="es">Días de cine</title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.472.0/1</episode-num>
-    <episode-num system="onscreen">S01E473</episode-num>
+    <episode-num system="xmltv_ns">0.340.0/1</episode-num>
+    <episode-num system="onscreen">S01E341</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260914053000 +0000" stop="20260914055000 +0000" channel="sv#tve">
-    <title lang="es">Telediario matinal</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260914035000 +0000" stop="20260914051500 +0000" channel="sv#tve">
+    <title lang="es">Sentimental</title>
+    <title lang="en">Comedia</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260914051500 +0000" stop="20260914055000 +0000" channel="sv#tve">
+    <title lang="es">Version española</title>
+    <sub-title lang="es">Coloquio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.340.0/1</episode-num>
+    <episode-num system="onscreen">S01E341</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260914055000 +0000" stop="20260914083500 +0000" channel="sv#tve">
     <title lang="es">La hora de la 1</title>
@@ -46161,7 +46185,7 @@
     <episode-num system="onscreen">S07E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_all-american-s07e05-i-got-a-story-to-tell_l_m.jpg</image>
   </programme>
-  <programme start="20260915055800 +0000" stop="20260915065800 +0000" channel="sv#warner">
+  <programme start="20260915055800 +0000" stop="20260915062300 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La hipótesis de la recombinación</sub-title>
     <category lang="es">Serie</category>
@@ -46169,7 +46193,7 @@
     <episode-num system="onscreen">S05E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s05e13-the-recombination-hypothesis_l_m.jpg</image>
   </programme>
-  <programme start="20260915055800 +0000" stop="20260915062300 +0000" channel="sv#warner">
+  <programme start="20260915055800 +0000" stop="20260915065800 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La hipótesis de la recombinación</sub-title>
     <category lang="es">Serie</category>
