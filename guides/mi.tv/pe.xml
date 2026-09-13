@@ -1,34 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260913163031 +0000">
+<tv generator-info-name="custom-epg" date="20260913205817 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="pe#amc">
-    <display-name>AMC</display-name>
+  <channel id="WillaxTV.pe@SD">
+    <display-name>Willax</display-name>
+    <icon src="https://i.imgur.com/bZnDDPH.png"/>
   </channel>
-  <channel id="pe#america-sports">
-    <display-name>América Sports</display-name>
+  <channel id="pe#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="ATV.pe@SD">
-    <display-name>ATV</display-name>
-    <icon src="https://i.imgur.com/eUzYZfg.png"/>
+  <channel id="pe#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
-  <channel id="pe#animal-planet">
-    <display-name>Animal Planet</display-name>
+  <channel id="pe#universal-channel">
+    <display-name>Universal TV</display-name>
   </channel>
-  <channel id="pe#axn">
-    <display-name>AXN</display-name>
+  <channel id="UnitelSantaCruz.bo@SD">
+    <display-name>Unitel</display-name>
   </channel>
-  <channel id="pe#america-television">
-    <display-name>América Televisión</display-name>
+  <channel id="pe#tyc-sports">
+    <display-name>TyC Sports</display-name>
   </channel>
-  <channel id="ATVSur.pe@SD">
-    <display-name>ATV Sur</display-name>
-    <icon src="https://i.imgur.com/LnyVa5H.png"/>
+  <channel id="pe#tvn-chile">
+    <display-name>TVN Chile</display-name>
   </channel>
-  <channel id="ATVPlus.pe@SD">
-    <display-name>ATV +</display-name>
-    <icon src="https://i.imgur.com/fY9256H.png"/>
+  <channel id="pe#tve">
+    <display-name>TVE</display-name>
   </channel>
   <channel id="TVPeru.pe@SD">
     <display-name>TV Perú</display-name>
@@ -337,30 +335,32 @@
   <channel id="pe#az-corazon">
     <display-name>Az Corazón</display-name>
   </channel>
-  <channel id="pe#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="pe#axn">
+    <display-name>AXN</display-name>
   </channel>
-  <channel id="pe#universal-channel">
-    <display-name>Universal TV</display-name>
+  <channel id="ATVSur.pe@SD">
+    <display-name>ATV Sur</display-name>
+    <icon src="https://i.imgur.com/LnyVa5H.png"/>
   </channel>
-  <channel id="UnitelSantaCruz.bo@SD">
-    <display-name>Unitel</display-name>
+  <channel id="ATVPlus.pe@SD">
+    <display-name>ATV +</display-name>
+    <icon src="https://i.imgur.com/fY9256H.png"/>
   </channel>
-  <channel id="pe#tyc-sports">
-    <display-name>TyC Sports</display-name>
+  <channel id="ATV.pe@SD">
+    <display-name>ATV</display-name>
+    <icon src="https://i.imgur.com/eUzYZfg.png"/>
   </channel>
-  <channel id="pe#tvn-chile">
-    <display-name>TVN Chile</display-name>
+  <channel id="pe#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="WillaxTV.pe@SD">
-    <display-name>Willax</display-name>
-    <icon src="https://i.imgur.com/bZnDDPH.png"/>
+  <channel id="pe#america-television">
+    <display-name>América Televisión</display-name>
   </channel>
-  <channel id="pe#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
+  <channel id="pe#america-sports">
+    <display-name>América Sports</display-name>
   </channel>
-  <channel id="pe#tve">
-    <display-name>TVE</display-name>
+  <channel id="pe#amc">
+    <display-name>AMC</display-name>
   </channel>
   <programme start="20260913060000 +0000" stop="20260913110000 +0000" channel="ATV.pe@SD">
     <title lang="es">Los hombres de Paco</title>
@@ -1541,7 +1541,10 @@
   </programme>
   <programme start="20260913153000 +0000" stop="20260913160000 +0000" channel="BYUTV.us@SD">
     <title lang="es">Latter-Day Profiles</title>
+    <sub-title lang="es">Jordan Abrams</sub-title>
     <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">53.9.0/1</episode-num>
+    <episode-num system="onscreen">S54E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260913160000 +0000" stop="20260913163500 +0000" channel="BYUTV.us@SD">
@@ -1560,9 +1563,11 @@
   </programme>
   <programme start="20260913170000 +0000" stop="20260913173000 +0000" channel="BYUTV.us@SD">
     <title lang="es">Artful</title>
-    <sub-title lang="es">Sunny Taylor Jack Baumgartner</sub-title>
+    <sub-title lang="es">Sunny Taylor / Jack Baumgartner</sub-title>
     <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_artful-s03e00-sunny-taylor-jack-baumgartner_l_m.jpg</image>
+    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
+    <episode-num system="onscreen">S03E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_artful-s03e06-sunny-taylor-jack-baumgartner_l_m.jpg</image>
   </programme>
   <programme start="20260913173000 +0000" stop="20260913180000 +0000" channel="BYUTV.us@SD">
     <title lang="es">Grace Notes</title>
@@ -1588,14 +1593,19 @@
   </programme>
   <programme start="20260913200000 +0000" stop="20260913210700 +0000" channel="BYUTV.us@SD">
     <title lang="es">Los elegidos</title>
+    <sub-title lang="es">La calma previa</sub-title>
     <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.3.0/1</episode-num>
+    <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260913210700 +0000" stop="20260913213300 +0000" channel="BYUTV.us@SD">
     <title lang="es">Artful</title>
-    <sub-title lang="es">Sunny Taylor Jack Baumgartner</sub-title>
+    <sub-title lang="es">Sunny Taylor / Jack Baumgartner</sub-title>
     <category lang="es">Serie</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_artful-s03e00-sunny-taylor-jack-baumgartner_l_m.jpg</image>
+    <episode-num system="xmltv_ns">2.5.0/1</episode-num>
+    <episode-num system="onscreen">S03E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_artful-s03e06-sunny-taylor-jack-baumgartner_l_m.jpg</image>
   </programme>
   <programme start="20260913213300 +0000" stop="20260913230000 +0000" channel="BYUTV.us@SD">
     <title lang="es">Come Follow Up</title>
@@ -1605,7 +1615,10 @@
   </programme>
   <programme start="20260913230000 +0000" stop="20260914000900 +0000" channel="BYUTV.us@SD">
     <title lang="es">Los elegidos</title>
+    <sub-title lang="es">Sitting, Serving, Scheming</sub-title>
     <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.4.0/1</episode-num>
+    <episode-num system="onscreen">S04E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260914000900 +0000" stop="20260914003700 +0000" channel="BYUTV.us@SD">
@@ -8020,14 +8033,14 @@
     <title lang="en">Suspenso</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260914045000 +0000" stop="20260914055000 +0000" channel="pe#amc">
+  <programme start="20260914045000 +0000" stop="20260914070500 +0000" channel="pe#amc">
     <title lang="es">Ciudad de asfalto</title>
     <title lang="en">Asphalt City</title>
     <category lang="es">Thriller</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260914045000 +0000" stop="20260914070500 +0000" channel="pe#amc">
+  <programme start="20260914045000 +0000" stop="20260914055000 +0000" channel="pe#amc">
     <title lang="es">Ciudad de asfalto</title>
     <title lang="en">Asphalt City</title>
     <category lang="es">Thriller</category>
@@ -10458,7 +10471,7 @@
     <episode-num system="onscreen">S11E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_csi-s11e06-cold-blooded_l_m.jpg</image>
   </programme>
-  <programme start="20260915052500 +0000" stop="20260915062500 +0000" channel="pe#axn">
+  <programme start="20260915052500 +0000" stop="20260915062000 +0000" channel="pe#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">El largo adiós</sub-title>
     <category lang="es">Serie</category>
@@ -10466,7 +10479,7 @@
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_hawaii-five-o-s01e18-na-me-e-laua-na-paio-heores-villains_l_m.jpg</image>
   </programme>
-  <programme start="20260915052500 +0000" stop="20260915062000 +0000" channel="pe#axn">
+  <programme start="20260915052500 +0000" stop="20260915062500 +0000" channel="pe#axn">
     <title lang="es">Hawaii-Five-O</title>
     <sub-title lang="es">El largo adiós</sub-title>
     <category lang="es">Serie</category>
@@ -53671,13 +53684,13 @@
     <category lang="es">Carburando - PGM</category>
     <image>https://cdn.mitvstatic.com/programs/pe_automovilismo-carburando-pgm_l_m.jpg</image>
   </programme>
-  <programme start="20260915053000 +0000" stop="20260915063000 +0000" channel="pe#tyc-sports">
+  <programme start="20260915053000 +0000" stop="20260915073000 +0000" channel="pe#tyc-sports">
     <title lang="es">Banfield vs. Barracas Central</title>
     <title lang="en">Fecha 9 - Grupo B, Estadio Florencio Sola</title>
     <category lang="es">Fecha 9 - Grupo B, Estadio Florencio Sola</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260915053000 +0000" stop="20260915073000 +0000" channel="pe#tyc-sports">
+  <programme start="20260915053000 +0000" stop="20260915063000 +0000" channel="pe#tyc-sports">
     <title lang="es">Banfield vs. Barracas Central</title>
     <title lang="en">Fecha 9 - Grupo B, Estadio Florencio Sola</title>
     <category lang="es">Fecha 9 - Grupo B, Estadio Florencio Sola</category>
@@ -55422,7 +55435,7 @@
     <episode-num system="onscreen">S07E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_all-american-s07e05-i-got-a-story-to-tell_l_m.jpg</image>
   </programme>
-  <programme start="20260915055800 +0000" stop="20260915065800 +0000" channel="pe#warner">
+  <programme start="20260915055800 +0000" stop="20260915062300 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La hipótesis de la recombinación</sub-title>
     <category lang="es">Serie</category>
@@ -55430,7 +55443,7 @@
     <episode-num system="onscreen">S05E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s05e13-the-recombination-hypothesis_l_m.jpg</image>
   </programme>
-  <programme start="20260915055800 +0000" stop="20260915062300 +0000" channel="pe#warner">
+  <programme start="20260915055800 +0000" stop="20260915065800 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La hipótesis de la recombinación</sub-title>
     <category lang="es">Serie</category>
@@ -56467,9 +56480,9 @@
   </programme>
   <programme start="20260914070000 +0000" stop="20260914080000 +0000" channel="TVPeru.pe@SD">
     <title lang="es">Con sabor a Perú</title>
-    <title lang="en">Cocina</title>
-    <category lang="es">Cocina</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_con-sabor-a-peru_l_m.jpg</image>
+    <title lang="en">- La charcuteria</title>
+    <category lang="es">- La charcuteria</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_con-sabor-a-peru-la-charcuteria_l_m.jpg</image>
   </programme>
   <programme start="20260914080000 +0000" stop="20260914100000 +0000" channel="TVPeru.pe@SD">
     <title lang="es">Goles en acción</title>
