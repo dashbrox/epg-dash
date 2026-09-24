@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260924115438 +0000">
+<tv generator-info-name="custom-epg" date="20260924171752 +0000">
   <channel id="247CanaldeNoticias.ar@SD">
     <display-name>24/7 Canal de Noticias</display-name>
     <icon src="https://i.imgur.com/4hDCB1M.png"/>
   </channel>
-  <channel id="ZooMoo.sg@SD">
-    <display-name>ZooMoo</display-name>
-    <icon src="https://i.imgur.com/ciTJrnl.png"/>
+  <channel id="Canal26.ar@SD">
+    <display-name>Canal 26</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
   </channel>
-  <channel id="WarnerChannel.us@South">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="Atrescine.es@SD">
+    <display-name>Atrescine</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
   </channel>
-  <channel id="VTV.uy@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/SiImXjJ.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="AELatinAmerica.us@South">
+    <display-name>A&amp;E</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
   </channel>
   <channel id="Volver.ar@SD">
     <display-name>Volver</display-name>
@@ -767,21 +771,17 @@
     <display-name>América TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="ZooMoo.sg@SD">
+    <display-name>ZooMoo</display-name>
+    <icon src="https://i.imgur.com/ciTJrnl.png"/>
   </channel>
-  <channel id="AELatinAmerica.us@South">
-    <display-name>A&amp;E</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
+  <channel id="WarnerChannel.us@South">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="Atrescine.es@SD">
-    <display-name>Atrescine</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
-  </channel>
-  <channel id="Canal26.ar@SD">
-    <display-name>Canal 26</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
+  <channel id="VTV.uy@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/SiImXjJ.png"/>
   </channel>
   <programme start="20260924010000 +0000" stop="20260924090000 +0000" channel="247CanaldeNoticias.ar@SD">
     <title lang="es">Trasnoche de 24/7</title>
@@ -1346,14 +1346,14 @@
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260925044500 +0000" stop="20260925062500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260925044500 +0000" stop="20260925054500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Inmersión</title>
     <title lang="en">The Dive</title>
     <category lang="es">Thriller</category>
     <rating><value>5.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260925044500 +0000" stop="20260925054500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20260925044500 +0000" stop="20260925062500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Inmersión</title>
     <title lang="en">The Dive</title>
     <category lang="es">Thriller</category>
@@ -4495,7 +4495,7 @@
     <rating><value>8.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_doce-monos-1995_l_m.jpg</image>
   </programme>
-  <programme start="20260925055600 +0000" stop="20260925081000 +0000" channel="ar#cinemax-sur">
+  <programme start="20260925054400 +0000" stop="20260925075700 +0000" channel="ar#cinemax-sur">
     <title lang="es">Corazones de hierro</title>
     <title lang="en">Fury</title>
     <category lang="es">Drama</category>
@@ -4509,11 +4509,33 @@
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_corazones-de-hierro-2014_l_m.jpg</image>
   </programme>
-  <programme start="20260925081000 +0000" stop="20260925090000 +0000" channel="ar#cinemax-sur">
-    <title lang="es">Heretiks: el convento</title>
-    <title lang="en">Heretiks</title>
-    <category lang="es">Terror</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_heretiks-el-convento-2018_l_m.jpg</image>
+  <programme start="20260925075700 +0000" stop="20260925083500 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e13_l_m.jpg</image>
+  </programme>
+  <programme start="20260925083500 +0000" stop="20260925084900 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e37_l_m.jpg</image>
+  </programme>
+  <programme start="20260925084900 +0000" stop="20260925085700 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.38.0/1</episode-num>
+    <episode-num system="onscreen">S01E39</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e39_l_m.jpg</image>
+  </programme>
+  <programme start="20260925085700 +0000" stop="20260925090000 +0000" channel="ar#cinemax-sur">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.73.0/1</episode-num>
+    <episode-num system="onscreen">S15E74</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e74_l_m.jpg</image>
   </programme>
   <programme start="20260925090000 +0000" stop="20260925092800 +0000" channel="ar#cinemax-sur">
     <title lang="es">El nuevo traje nuevo del emperador</title>
@@ -9831,7 +9853,7 @@
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260925042400 +0000" stop="20260925063600 +0000" channel="ar#hbo-2-hd">
+  <programme start="20260925042300 +0000" stop="20260925063500 +0000" channel="ar#hbo-2-hd">
     <title lang="es">La hora de la desaparición</title>
     <title lang="en">Weapons</title>
     <category lang="es">Terror</category>
@@ -9845,7 +9867,7 @@
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260925063600 +0000" stop="20260925090100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20260925063500 +0000" stop="20260925090100 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Mujer Maravilla</title>
     <title lang="en">Wonder Woman</title>
     <category lang="es">Acción</category>
@@ -14160,13 +14182,13 @@
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260926054500 +0000" stop="20260926073500 +0000" channel="Atrescine.es@SD">
+  <programme start="20260926054500 +0000" stop="20260926064500 +0000" channel="Atrescine.es@SD">
     <title lang="es">La Lola se va a los puertos</title>
     <title lang="en">Drama</title>
     <rating><value>4.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260926054500 +0000" stop="20260926064500 +0000" channel="Atrescine.es@SD">
+  <programme start="20260926054500 +0000" stop="20260926073500 +0000" channel="Atrescine.es@SD">
     <title lang="es">La Lola se va a los puertos</title>
     <title lang="en">Drama</title>
     <rating><value>4.6</value></rating>
@@ -20638,10 +20660,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-technology_l_m.jpg</image>
   </programme>
   <programme start="20260925160000 +0000" stop="20260925170000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">Bloomberg Money</title>
+    <title lang="en">Economía</title>
+    <category lang="es">Economía</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260925170000 +0000" stop="20260925180000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg Balance of Power</title>
@@ -20674,16 +20696,35 @@
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-wall-street-week_l_m.jpg</image>
   </programme>
   <programme start="20260925230000 +0000" stop="20260925233000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">Bloomberg Next Africa</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260925233000 +0000" stop="20260926013000 +0000" channel="BloombergTV.us@US">
+  <programme start="20260925233000 +0000" stop="20260926000000 +0000" channel="BloombergTV.us@US">
     <title lang="es">The Mishal Husain Show</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <sub-title lang="es">Mohammed Bin Abdulrahman Al Thani</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.49.0/1</episode-num>
+    <episode-num system="onscreen">S01E50</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260926000000 +0000" stop="20260926010000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Post Credits</title>
+    <sub-title lang="es">Why Women&apos;s Sports Are Winning at the Content Game</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260926010000 +0000" stop="20260926013000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The David Rubenstein Show</title>
+    <sub-title lang="es">Peer to Peer Conversations: David Booth</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">11.1.0/1</episode-num>
+    <episode-num system="onscreen">S12E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260926013000 +0000" stop="20260926020000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg Originals</title>
@@ -20697,16 +20738,39 @@
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-wall-street-week_l_m.jpg</image>
   </programme>
-  <programme start="20260926030000 +0000" stop="20260926050000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20260926030000 +0000" stop="20260926033000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Leaders with Francine Lacqua: The Podcast</title>
+    <sub-title lang="es">Kristalina Georgieva on the IMF&apos;s Role as Global Truth Teller</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260926033000 +0000" stop="20260926040000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Prolific: How Larry Ellison Built His Empire</title>
+    <title lang="en">Especial</title>
+    <category lang="es">Especial</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20260926040000 +0000" stop="20260926043000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Bloomberg Primer</title>
+    <sub-title lang="es">AI Is Pushing Chipmaking to Its Limits</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20260926043000 +0000" stop="20260926050000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Bloomberg Primer</title>
+    <sub-title lang="es">Making New Nuclear Fuel for an Atomic Renaissance</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
+    <episode-num system="onscreen">S02E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260926050000 +0000" stop="20260926060000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">Bloomberg Investigates</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
+    <title lang="es">The Amazon Divide</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260926060000 +0000" stop="20260926063000 +0000" channel="BloombergTV.us@US">
@@ -28142,7 +28206,7 @@
   </programme>
   <programme start="20260926155000 +0000" stop="20260926160000 +0000" channel="CartoonNetworkLatinAmerica.us@SouthAtlantic">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Arregla esa cinta</sub-title>
+    <sub-title lang="es">Skips&apos; Luau</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -28401,7 +28465,7 @@
   </programme>
   <programme start="20260927013000 +0000" stop="20260927014000 +0000" channel="CartoonNetworkLatinAmerica.us@SouthAtlantic">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Arregla esa cinta</sub-title>
+    <sub-title lang="es">Skips&apos; Luau</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -28409,7 +28473,7 @@
   </programme>
   <programme start="20260927014000 +0000" stop="20260927015000 +0000" channel="CartoonNetworkLatinAmerica.us@SouthAtlantic">
     <title lang="es">Un show más: Las cintas perdidas</title>
-    <sub-title lang="es">Arregla esa cinta</sub-title>
+    <sub-title lang="es">Skips&apos; Luau</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -38739,7 +38803,7 @@
   </programme>
   <programme start="20260926061900 +0000" stop="20260926063100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Héroes y hermanos</title>
-    <sub-title lang="es">Anuncio publicitario</sub-title>
+    <sub-title lang="es">Lenny es un superhéroe</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.19.0/1</episode-num>
     <episode-num system="onscreen">S01E20</episode-num>
@@ -66760,7 +66824,7 @@
   </programme>
   <programme start="20260926104000 +0000" stop="20260926110000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">The Loud House</title>
-    <sub-title lang="es">Cambiando de grado / Viaje auto-tástico</sub-title>
+    <sub-title lang="es">Ganando parches</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.5.0/1</episode-num>
     <episode-num system="onscreen">S02E06</episode-num>
@@ -66800,7 +66864,7 @@
   </programme>
   <programme start="20260926122000 +0000" stop="20260926124500 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Caos Musical / Punch el gato</sub-title>
+    <sub-title lang="es">No toques el cucharón</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -73887,13 +73951,13 @@
     <episode-num system="onscreen">S07E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260926105200 +0000" stop="20260926130000 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260926105200 +0000" stop="20260926125900 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">La boda de Rosa</title>
     <title lang="en">Rosa&apos;s Wedding</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260926130000 +0000" stop="20260926134800 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260926125900 +0000" stop="20260926134800 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">3 minutos con Santiago</title>
     <sub-title lang="es">Un domingo cualquiera</sub-title>
     <category lang="es">Serie</category>
@@ -73952,14 +74016,14 @@
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260926230900 +0000" stop="20260927010000 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260926230900 +0000" stop="20260927005900 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Mike y Dave: Los busca novias</title>
     <title lang="en">Mike and Dave Need Wedding Dates</title>
     <category lang="es">Comedia</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mike-y-dave-los-busca-novias-2016_l_m.jpg</image>
   </programme>
-  <programme start="20260927010000 +0000" stop="20260927041100 +0000" channel="StarChannelLatinAmerica.us@South">
+  <programme start="20260927005900 +0000" stop="20260927041100 +0000" channel="StarChannelLatinAmerica.us@South">
     <title lang="es">Contra lo imposible</title>
     <title lang="en">Ford v Ferrari</title>
     <category lang="es">Deportivo</category>
@@ -74375,23 +74439,44 @@
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_la-maquina-del-tiempo-1960_l_m.jpg</image>
   </programme>
-  <programme start="20260925043000 +0000" stop="20260925063100 +0000" channel="TCMLatinAmerica.us@South">
-    <title lang="es">The Looming Storm</title>
-    <title lang="en">Bao xue jiang zhi</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
   <programme start="20260925043000 +0000" stop="20260925053000 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">The Looming Storm</title>
     <title lang="en">Bao xue jiang zhi</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260925063100 +0000" stop="20260925104100 +0000" channel="TCMLatinAmerica.us@South">
+  <programme start="20260925043200 +0000" stop="20260925063000 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">The Looming Storm</title>
+    <title lang="en">Bao xue jiang zhi</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260925063000 +0000" stop="20260925084100 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Proyecto Gutenberg</title>
     <title lang="en">Mou Seung</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_proyecto-gutenberg-2018_l_m.jpg</image>
+  </programme>
+  <programme start="20260925084100 +0000" stop="20260925085500 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e37_l_m.jpg</image>
+  </programme>
+  <programme start="20260925085500 +0000" stop="20260925085700 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.61.0/1</episode-num>
+    <episode-num system="onscreen">S15E62</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e62_l_m.jpg</image>
+  </programme>
+  <programme start="20260925085700 +0000" stop="20260925104100 +0000" channel="TCMLatinAmerica.us@South">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.63.0/1</episode-num>
+    <episode-num system="onscreen">S15E64</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e64_l_m.jpg</image>
   </programme>
   <programme start="20260925104100 +0000" stop="20260925125100 +0000" channel="TCMLatinAmerica.us@South">
     <title lang="es">Julio César</title>
@@ -84305,12 +84390,6 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260926053200 +0000" stop="20260926063900 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">C dans l&apos;air</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20260926053200 +0000" stop="20260926063200 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">C dans l&apos;air</title>
     <title lang="en">Magazine</title>
@@ -84328,16 +84407,16 @@
     <title lang="en">Cortometrajes</title>
     <image>https://cdn.mitvstatic.com/programs/ar_les-indes-galantes-2017_l_m.jpg</image>
   </programme>
-  <programme start="20260926081000 +0000" stop="20260926090000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926081000 +0000" stop="20260926092700 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Anushan</title>
     <title lang="en">Cortometrajes</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260926090000 +0000" stop="20260926103300 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Le téléjournal de Radio-Canada</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20260926092700 +0000" stop="20260926103300 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+    <title lang="es">Télématin</title>
+    <title lang="en">Magazine</title>
+    <category lang="es">Magazine</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_telematin-1_l_m.jpg</image>
   </programme>
   <programme start="20260926103300 +0000" stop="20260926112900 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Loin des villes</title>
@@ -84347,25 +84426,13 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260926112900 +0000" stop="20260926122100 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926112900 +0000" stop="20260926125900 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Silence, ça pousse</title>
     <sub-title lang="es">Marion Guillot</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260926122100 +0000" stop="20260926123000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Outremer l&apos;info</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260926123000 +0000" stop="20260926125900 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Le journal de la RTBF</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_le-journal-de-la-rtbf_l_m.jpg</image>
   </programme>
   <programme start="20260926125900 +0000" stop="20260926130200 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Histoires et leçons</title>
@@ -84487,19 +84554,13 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260926144400 +0000" stop="20260926144900 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926144400 +0000" stop="20260926150000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Les super-pouvoirs du vivant</title>
     <sub-title lang="es">La araña pavo real</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260926144900 +0000" stop="20260926150000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Mission info</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260926150000 +0000" stop="20260926154900 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Bye Bye la Suisse</title>
@@ -84513,37 +84574,19 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260926164500 +0000" stop="20260926170000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926164500 +0000" stop="20260926172300 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Parlons éco</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260926170000 +0000" stop="20260926172300 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">64&apos; Actu</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260926172300 +0000" stop="20260926173000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926172300 +0000" stop="20260926180300 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Terriennes</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260926173000 +0000" stop="20260926175400 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">64&apos; Débat</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260926175400 +0000" stop="20260926180300 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">L&apos;invité</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_l-invite-1_l_m.jpg</image>
   </programme>
   <programme start="20260926180300 +0000" stop="20260926183000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Le match dans le match</title>
@@ -84559,29 +84602,11 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/ar_magazine_l_m.jpg</image>
   </programme>
-  <programme start="20260926190100 +0000" stop="20260926200000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926190100 +0000" stop="20260926213000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">WEC</title>
     <title lang="en">WEC</title>
     <category lang="es">WEC</category>
     <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-wec_l_m.jpg</image>
-  </programme>
-  <programme start="20260926200000 +0000" stop="20260926202700 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">El noticiero de la RTS</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_el-noticiero-de-la-rts-1_l_m.jpg</image>
-  </programme>
-  <programme start="20260926202700 +0000" stop="20260926210000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Questions pour un champion</title>
-    <title lang="en">Juegos</title>
-    <category lang="es">Juegos</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_questions-pour-un-champion_l_m.jpg</image>
-  </programme>
-  <programme start="20260926210000 +0000" stop="20260926213000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">TV5monde, le journal Afrique</title>
-    <title lang="en">Economía</title>
-    <category lang="es">Economía</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tv5monde-le-journal-afrique-2_l_m.jpg</image>
   </programme>
   <programme start="20260926213000 +0000" stop="20260926220000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">La cuisine des mousquetaires</title>
@@ -84591,16 +84616,10 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260926220000 +0000" stop="20260926230000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260926220000 +0000" stop="20260926233000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Tsiganes, le grand silence</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20260926230000 +0000" stop="20260926233000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Le journal de France 2</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_le-journal-de-france-2-1_l_m.jpg</image>
   </programme>
   <programme start="20260926233000 +0000" stop="20260927010500 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">El verdadero amor</title>
@@ -84609,18 +84628,12 @@
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20260927010500 +0000" stop="20260927013000 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260927010500 +0000" stop="20260927015600 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">La Francia que madruga</title>
     <title lang="en">La France qui se lève tôt</title>
     <category lang="es">Cortometrajes</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
-  <programme start="20260927013000 +0000" stop="20260927015600 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">Le journal de la RTBF</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_le-journal-de-la-rtbf_l_m.jpg</image>
   </programme>
   <programme start="20260927015600 +0000" stop="20260927040500 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Taratata 100% en vivo</title>
@@ -84630,19 +84643,13 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_taratata-100-en-vivo-s00e07-ben-mazue-christopher-cross-clou-imany_l_m.jpg</image>
   </programme>
-  <programme start="20260927040500 +0000" stop="20260927055800 +0000" channel="TV5MondeLatinAmerica.fr@SD">
+  <programme start="20260927040500 +0000" stop="20260927050500 +0000" channel="TV5MondeLatinAmerica.fr@SD">
     <title lang="es">Des racines &amp; des ailes</title>
     <sub-title lang="es">Mi isla en bretaña</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20260927055800 +0000" stop="20260927065800 +0000" channel="TV5MondeLatinAmerica.fr@SD">
-    <title lang="es">C dans l&apos;air</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260924060000 +0000" stop="20260924070000 +0000" channel="TVCiudad.uy@SD">
     <title lang="es">Autores en vivo</title>
@@ -86702,8 +86709,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260925180000 +0000" stop="20260925210000 +0000" channel="TyCSports.ar@SD">
-    <title lang="es">Día 14 - 15hs.</title>
-    <category lang="es">XIII Juegos Suramericanos Santa Fe 2026</category>
+    <title lang="es">Argentina vs. Paraguay/Chile</title>
+    <title lang="en">Fútbol masculino</title>
+    <category lang="es">Fútbol masculino</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20260925210000 +0000" stop="20260925223000 +0000" channel="TyCSports.ar@SD">
@@ -89194,7 +89202,7 @@
     <episode-num system="onscreen">S08E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_the-big-bang-theory-s08e11-the-clean-room-infiltration_l_m.jpg</image>
   </programme>
-  <programme start="20260926055700 +0000" stop="20260926061700 +0000" channel="WarnerChannel.us@South">
+  <programme start="20260926055700 +0000" stop="20260926065700 +0000" channel="WarnerChannel.us@South">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La desintegración de la sonda espacial</sub-title>
     <category lang="es">Serie</category>
@@ -89202,7 +89210,7 @@
     <episode-num system="onscreen">S08E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_the-big-bang-theory-s08e12-the-space-probe-disintegration_l_m.jpg</image>
   </programme>
-  <programme start="20260926055700 +0000" stop="20260926065700 +0000" channel="WarnerChannel.us@South">
+  <programme start="20260926055700 +0000" stop="20260926061700 +0000" channel="WarnerChannel.us@South">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La desintegración de la sonda espacial</sub-title>
     <category lang="es">Serie</category>
