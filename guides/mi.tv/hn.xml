@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20260929095807 +0000">
+<tv generator-info-name="custom-epg" date="20260929181047 +0000">
   <channel id="3ABNLatino.us@SD">
     <display-name>3ABN Latino</display-name>
     <icon src="https://i.imgur.com/D580Km9.png"/>
   </channel>
-  <channel id="hn#warner">
-    <display-name>Warner Channel</display-name>
+  <channel id="hn#a-e-mundo">
+    <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="VTV.hn@SD">
-    <display-name>VTV</display-name>
-    <icon src="https://i.imgur.com/CsPkwD5.png"/>
+  <channel id="AlfaOmegaVision.hn@SD">
+    <display-name>Alfa &amp; Omega Vision</display-name>
+    <icon src="https://i.imgur.com/4BSKCQT.png"/>
   </channel>
-  <channel id="hn#vh1-classic-usa">
-    <display-name>VH1 Classic USA</display-name>
+  <channel id="hn#amc">
+    <display-name>AMC</display-name>
   </channel>
   <channel id="hn#vh1">
     <display-name>VH1</display-name>
@@ -404,15 +404,15 @@
   <channel id="hn#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="hn#amc">
-    <display-name>AMC</display-name>
+  <channel id="VTV.hn@SD">
+    <display-name>VTV</display-name>
+    <icon src="https://i.imgur.com/CsPkwD5.png"/>
   </channel>
-  <channel id="AlfaOmegaVision.hn@SD">
-    <display-name>Alfa &amp; Omega Vision</display-name>
-    <icon src="https://i.imgur.com/4BSKCQT.png"/>
+  <channel id="hn#vh1-classic-usa">
+    <display-name>VH1 Classic USA</display-name>
   </channel>
-  <channel id="hn#a-e-mundo">
-    <display-name>A&amp;E</display-name>
+  <channel id="hn#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
   <programme start="20260929060000 +0000" stop="20260929070000 +0000" channel="3ABNLatino.us@SD">
     <title lang="es">Plan de 5 días para dejar de fumar</title>
@@ -2376,26 +2376,8 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261001230000 +0000" stop="20261001233000 +0000" channel="BethelTV.pe@SD">
-    <title lang="es">Mi casa feliz / Musicales / Los mizzu</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261001233000 +0000" stop="20261002000000 +0000" channel="BethelTV.pe@SD">
-    <title lang="es">Mi primera biblia / Promesita VCJ</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261002000000 +0000" stop="20261002010000 +0000" channel="BethelTV.pe@SD">
-    <title lang="es">Informativo</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261002010000 +0000" stop="20261002030000 +0000" channel="BethelTV.pe@SD">
-    <title lang="es">Revive campañas y convenciones</title>
+  <programme start="20261001230000 +0000" stop="20261002030000 +0000" channel="BethelTV.pe@SD">
+    <title lang="es">Convención nacional</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -4403,17 +4385,30 @@
     <rating><value>8.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/hn_1917-2019_l_m.jpg</image>
   </programme>
-  <programme start="20260929015000 +0000" stop="20260929094000 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260929015000 +0000" stop="20260929060000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">A confirmar</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/hn_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20260929094000 +0000" stop="20260929103000 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260929060000 +0000" stop="20260929080000 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">Tom Jones</title>
+    <title lang="en">Aventura</title>
+    <rating><value>6.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260929080000 +0000" stop="20260929094500 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">Rinoceronte</title>
+    <title lang="en">Badak</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260929094500 +0000" stop="20260929103000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Entre aguas</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.35.0/1</episode-num>
+    <episode-num system="onscreen">S01E36</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929103000 +0000" stop="20260929125700 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Revista buenos días</title>
@@ -4429,27 +4424,30 @@
   </programme>
   <programme start="20260929130000 +0000" stop="20260929131500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Reino infantil</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <sub-title lang="es">El semáforo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.43.0/1</episode-num>
+    <episode-num system="onscreen">S01E44</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260929131500 +0000" stop="20260929133000 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260929131500 +0000" stop="20260929134500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">El chiribitil</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_el-chiribitil_l_m.jpg</image>
+    <title lang="en">- Los planetas</title>
+    <category lang="es">- Los planetas</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_el-chiribitil-los-planetas_l_m.jpg</image>
   </programme>
-  <programme start="20260929133000 +0000" stop="20260929140000 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260929134500 +0000" stop="20260929140000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Hi-5</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_hi-5_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.26.0/1</episode-num>
+    <episode-num system="onscreen">S01E27</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/hn_hi-5-s01e27_l_m.jpg</image>
   </programme>
   <programme start="20260929140000 +0000" stop="20260929144500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Ruta 10</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Estudiar con eficiencia, métodos para aprender a estudiar</title>
+    <category lang="es">- Estudiar con eficiencia, métodos para aprender a estudiar</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929144500 +0000" stop="20260929151500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Sin límite</title>
@@ -4458,9 +4456,10 @@
   </programme>
   <programme start="20260929151500 +0000" stop="20260929160000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Entre aguas</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.35.0/1</episode-num>
+    <episode-num system="onscreen">S01E36</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929160000 +0000" stop="20260929170000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Al medio día</title>
@@ -4482,27 +4481,29 @@
   </programme>
   <programme start="20260929180000 +0000" stop="20260929184500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Salir de noche</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.39.0/1</episode-num>
+    <episode-num system="onscreen">S01E40</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929184500 +0000" stop="20260929190000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Cuando una mujer</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_cuando-una-mujer_l_m.jpg</image>
+    <title lang="en">- No es solo asunto de mujeres, el cuidador de las personas adultas mayores</title>
+    <category lang="es">- No es solo asunto de mujeres, el cuidador de las personas adultas mayores</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_cuando-una-mujer-no-es-solo-asunto-de-mujeres-el-cuidador-de-las-personas-adultas-mayores_l_m.jpg</image>
   </programme>
   <programme start="20260929190000 +0000" stop="20260929194500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">El rostro de los días</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_el-rostro-de-los-dias_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.23.0/1</episode-num>
+    <episode-num system="onscreen">S01E24</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/hn_el-rostro-de-los-dias-s00e24_l_m.jpg</image>
   </programme>
   <programme start="20260929194500 +0000" stop="20260929200000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Tomo I</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Rustán</title>
+    <category lang="es">- Rustán</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929200000 +0000" stop="20260929201500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Noticiero ANSOC</title>
@@ -4518,32 +4519,35 @@
   </programme>
   <programme start="20260929204500 +0000" stop="20260929210000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">El chiribitil</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_el-chiribitil_l_m.jpg</image>
+    <title lang="en">- Los planetas</title>
+    <category lang="es">- Los planetas</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_el-chiribitil-los-planetas_l_m.jpg</image>
   </programme>
   <programme start="20260929210000 +0000" stop="20260929211500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">El mundo de Craig</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_el-mundo-de-craig_l_m.jpg</image>
+    <sub-title lang="es">El misterio de la guardiana del tiempo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.38.0/1</episode-num>
+    <episode-num system="onscreen">S01E39</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/hn_el-mundo-de-craig-s01e39-mision-solitaria_l_m.jpg</image>
   </programme>
   <programme start="20260929211500 +0000" stop="20260929213000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Cuentos de siempre</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">- Los niños de la estrella</title>
+    <category lang="es">- Los niños de la estrella</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929213000 +0000" stop="20260929214500 +0000" channel="CubavisionInternacional.cu@SD">
-    <title lang="es">TV alegría</title>
+    <title lang="es">El show de Falco y Fabricio</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20260929214500 +0000" stop="20260929215700 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Lista tope</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_lista-tope_l_m.jpg</image>
+    <title lang="en">- Curiosidades del cerebro</title>
+    <category lang="es">- Curiosidades del cerebro</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260929215700 +0000" stop="20260929220000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Este día</title>
@@ -4551,16 +4555,11 @@
     <category lang="es">Turismo</category>
     <image>https://cdn.mitvstatic.com/programs/hn_este-dia_l_m.jpg</image>
   </programme>
-  <programme start="20260929220000 +0000" stop="20260929223000 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260929220000 +0000" stop="20260929230000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Sala A+</title>
-    <category lang="es">Cine</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_sala-a_l_m.jpg</image>
-  </programme>
-  <programme start="20260929223000 +0000" stop="20260929230000 +0000" channel="CubavisionInternacional.cu@SD">
-    <title lang="es">Noticiero cultural</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_noticiero-cultural_l_m.jpg</image>
+    <title lang="en">- Michael Inside</title>
+    <category lang="es">- Michael Inside</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_sala-a-michael-inside_l_m.jpg</image>
   </programme>
   <programme start="20260929230000 +0000" stop="20260930000000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Mesa redonda</title>
@@ -4580,34 +4579,74 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/hn_en-la-noche-su-cartelera_l_m.jpg</image>
   </programme>
-  <programme start="20260930004500 +0000" stop="20260930013700 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260930004500 +0000" stop="20260930013000 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Manía de ti</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.60.0/1</episode-num>
+    <episode-num system="onscreen">S01E61</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20260930013700 +0000" stop="20260930015500 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260930013000 +0000" stop="20260930014500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Con filo</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260930015500 +0000" stop="20260930024000 +0000" channel="CubavisionInternacional.cu@SD">
+  <programme start="20260930014500 +0000" stop="20260930021500 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Entre manos</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20260930024000 +0000" stop="20260930103000 +0000" channel="CubavisionInternacional.cu@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_a-confirmar_l_m.jpg</image>
+  <programme start="20260930021500 +0000" stop="20260930024500 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">Cuento</title>
+    <title lang="en">- Tonos de verde</title>
+    <category lang="es">- Tonos de verde</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_cuento-tonos-de-verde_l_m.jpg</image>
   </programme>
-  <programme start="20260930024000 +0000" stop="20260930034000 +0000" channel="CubavisionInternacional.cu@SD">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_a-confirmar_l_m.jpg</image>
+  <programme start="20260930024500 +0000" stop="20260930043000 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">Desaparecidos</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/hn_desaparecidos-s00e05_l_m.jpg</image>
+  </programme>
+  <programme start="20260930043000 +0000" stop="20260930045700 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">Resumen 24</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_resumen-24_l_m.jpg</image>
+  </programme>
+  <programme start="20260930045700 +0000" stop="20260930050000 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">En la madrugada su cartelera</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_en-la-madrugada-su-cartelera_l_m.jpg</image>
+  </programme>
+  <programme start="20260930050000 +0000" stop="20260930080000 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">El joven Adan</title>
+    <title lang="en">Young Adam</title>
+    <category lang="es">Drama</category>
+    <rating><value>6.3</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260930050000 +0000" stop="20260930060000 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">El joven Adan</title>
+    <title lang="en">Young Adam</title>
+    <category lang="es">Drama</category>
+    <rating><value>6.3</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260930080000 +0000" stop="20260930094500 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">El tren fantasma</title>
+    <title lang="en">Aventura</title>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20260930094500 +0000" stop="20260930103000 +0000" channel="CubavisionInternacional.cu@SD">
+    <title lang="es">Manía de ti</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.60.0/1</episode-num>
+    <episode-num system="onscreen">S01E61</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20260930103000 +0000" stop="20260930125700 +0000" channel="CubavisionInternacional.cu@SD">
     <title lang="es">Revista buenos días</title>
@@ -5172,7 +5211,7 @@
   </programme>
   <programme start="20260929143000 +0000" stop="20260929150000 +0000" channel="DisneyChannelLatinAmerica.ar@Center">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">No cancelen en reality, por favor / El culpable es Sasquatch</sub-title>
+    <sub-title lang="es">No cancelen en reality, por favor</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -5244,7 +5283,7 @@
   </programme>
   <programme start="20260929190000 +0000" stop="20260929193000 +0000" channel="DisneyChannelLatinAmerica.ar@Center">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">No cancelen en reality, por favor / El culpable es Sasquatch</sub-title>
+    <sub-title lang="es">No cancelen en reality, por favor</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -7851,7 +7890,7 @@
     <episode-num system="onscreen">S15E329</episode-num>
     <image>https://cdn.mitvstatic.com/programs/hn_quien-da-ma-s15e329-cuerdas-y-frijoles_l_m.jpg</image>
   </programme>
-  <programme start="20260930053900 +0000" stop="20260930060400 +0000" channel="hn#a-e-mundo">
+  <programme start="20260930053900 +0000" stop="20260930063900 +0000" channel="hn#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Cómpralo o cállate</sub-title>
     <category lang="es">Serie</category>
@@ -7859,7 +7898,7 @@
     <episode-num system="onscreen">S15E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/hn_quien-da-ma-s15e16-compralo-o-callate_l_m.jpg</image>
   </programme>
-  <programme start="20260930053900 +0000" stop="20260930063900 +0000" channel="hn#a-e-mundo">
+  <programme start="20260930053900 +0000" stop="20260930060400 +0000" channel="hn#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">Cómpralo o cállate</sub-title>
     <category lang="es">Serie</category>
@@ -19062,7 +19101,7 @@
     <episode-num system="onscreen">S05E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/hn_expedicion-a-lo-desconocido-s05e04-la-busqueda-del-buho-dorado_l_m.jpg</image>
   </programme>
-  <programme start="20260930150000 +0000" stop="20260930154800 +0000" channel="hn#discovery-hd-theater">
+  <programme start="20260930150000 +0000" stop="20260930154700 +0000" channel="hn#discovery-hd-theater">
     <title lang="es">Expedición a lo desconocido</title>
     <sub-title lang="es">La nave fantasma de los Grandes Lagos</sub-title>
     <category lang="es">Serie</category>
@@ -19070,7 +19109,7 @@
     <episode-num system="onscreen">S05E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/hn_expedicion-a-lo-desconocido-s05e05-la-nave-fantasma-de-los-grandes-lagos_l_m.jpg</image>
   </programme>
-  <programme start="20260930154800 +0000" stop="20260930163600 +0000" channel="hn#discovery-hd-theater">
+  <programme start="20260930154700 +0000" stop="20260930163600 +0000" channel="hn#discovery-hd-theater">
     <title lang="es">Misterios en el museo</title>
     <sub-title lang="es">Una plaga, Santa y Annie Londonderry</sub-title>
     <category lang="es">Serie</category>
@@ -21350,7 +21389,7 @@
   </programme>
   <programme start="20260929210100 +0000" stop="20260929210400 +0000" channel="hn#discovery-kids">
     <title lang="es">7 chances para...</title>
-    <sub-title lang="es">Pollobol</sub-title>
+    <sub-title lang="es">Apenas un chance más</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -21366,7 +21405,7 @@
   </programme>
   <programme start="20260929213000 +0000" stop="20260929215600 +0000" channel="hn#discovery-kids">
     <title lang="es">Peppa Pig</title>
-    <sub-title lang="es">Emily Elephant / Traffic Jam / George Catches a Cold / Ice Skating / Captain Dad</sub-title>
+    <sub-title lang="es">Mr. Dinosaur Is Lost / Secrets / Treasure Hunt / Camping / At the Beach</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -21566,7 +21605,7 @@
   </programme>
   <programme start="20260930051000 +0000" stop="20260930053600 +0000" channel="hn#discovery-kids">
     <title lang="es">Peppa Pig</title>
-    <sub-title lang="es">Emily Elephant / Traffic Jam / George Catches a Cold / Ice Skating / Captain Dad</sub-title>
+    <sub-title lang="es">Mr. Dinosaur Is Lost / Secrets / Treasure Hunt / Camping / At the Beach</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -21598,7 +21637,7 @@
   </programme>
   <programme start="20260930062800 +0000" stop="20260930065400 +0000" channel="hn#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">El poder de Myo / Percusión dental / Bring it on! / En sus marcas... listos... ¡fuera! / La h...</sub-title>
+    <sub-title lang="es">El día de las profesiones / Conga refrescante / El regreso de Babythoven / Atrapados en una</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.8.0/1</episode-num>
     <episode-num system="onscreen">S03E09</episode-num>
@@ -21718,7 +21757,7 @@
   </programme>
   <programme start="20260930102000 +0000" stop="20260930104600 +0000" channel="hn#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">El poder de Myo / Percusión dental / Bring it on! / En sus marcas... listos... ¡fuera! / La h...</sub-title>
+    <sub-title lang="es">El día de las profesiones / Conga refrescante / El regreso de Babythoven / Atrapados en una</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.8.0/1</episode-num>
     <episode-num system="onscreen">S03E09</episode-num>
@@ -21742,7 +21781,7 @@
   </programme>
   <programme start="20260930113500 +0000" stop="20260930120000 +0000" channel="hn#discovery-kids">
     <title lang="es">Peppa Pig</title>
-    <sub-title lang="es">Emily Elephant / Traffic Jam / George Catches a Cold / Ice Skating / Captain Dad</sub-title>
+    <sub-title lang="es">Mr. Dinosaur Is Lost / Secrets / Treasure Hunt / Camping / At the Beach</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -21758,7 +21797,7 @@
   </programme>
   <programme start="20260930122600 +0000" stop="20260930125000 +0000" channel="hn#discovery-kids">
     <title lang="es">Shasha y Milo</title>
-    <sub-title lang="es">Sé más gato</sub-title>
+    <sub-title lang="es">Día de orden y limpieza</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.1.0/1</episode-num>
     <episode-num system="onscreen">S01E02</episode-num>
@@ -21846,7 +21885,7 @@
   </programme>
   <programme start="20260930162800 +0000" stop="20260930163000 +0000" channel="hn#discovery-kids">
     <title lang="es">7 chances para...</title>
-    <sub-title lang="es">Pollobol</sub-title>
+    <sub-title lang="es">Apenas un chance más</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -22238,7 +22277,7 @@
   </programme>
   <programme start="20261001065400 +0000" stop="20261001072000 +0000" channel="hn#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">El poder de Myo / Percusión dental / Bring it on! / En sus marcas... listos... ¡fuera! / La h...</sub-title>
+    <sub-title lang="es">El día de las profesiones / Conga refrescante / El regreso de Babythoven / Atrapados en una</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.8.0/1</episode-num>
     <episode-num system="onscreen">S03E09</episode-num>
@@ -22358,7 +22397,7 @@
   </programme>
   <programme start="20261001104600 +0000" stop="20261001111000 +0000" channel="hn#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">El poder de Myo / Percusión dental / Bring it on! / En sus marcas... listos... ¡fuera! / La h...</sub-title>
+    <sub-title lang="es">El día de las profesiones / Conga refrescante / El regreso de Babythoven / Atrapados en una</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.8.0/1</episode-num>
     <episode-num system="onscreen">S03E09</episode-num>
@@ -22558,7 +22597,7 @@
   </programme>
   <programme start="20261001190300 +0000" stop="20261001190500 +0000" channel="hn#discovery-kids">
     <title lang="es">7 chances para...</title>
-    <sub-title lang="es">Pollobol</sub-title>
+    <sub-title lang="es">Apenas un chance más</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -24936,7 +24975,7 @@
   </programme>
   <programme start="20260929143000 +0000" stop="20260929150000 +0000" channel="hn#disney-hd">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">No cancelen en reality, por favor / El culpable es Sasquatch</sub-title>
+    <sub-title lang="es">No cancelen en reality, por favor</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -25008,7 +25047,7 @@
   </programme>
   <programme start="20260929190000 +0000" stop="20260929193000 +0000" channel="hn#disney-hd">
     <title lang="es">ZOMBIES: La serie re-animada</title>
-    <sub-title lang="es">No cancelen en reality, por favor / El culpable es Sasquatch</sub-title>
+    <sub-title lang="es">No cancelen en reality, por favor</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -29522,29 +29561,17 @@
     <category lang="es">Equipo fútbol</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260930210000 +0000" stop="20260930220000 +0000" channel="hn#espn-2">
-    <title lang="es">ESPN Enfocados</title>
-    <title lang="en">ESPN Enfocados</title>
-    <category lang="es">ESPN Enfocados</category>
+  <programme start="20260930210000 +0000" stop="20261001000000 +0000" channel="hn#espn-2">
+    <title lang="es">Chicago White Sox vs. Houston Astros</title>
+    <title lang="en">Juego 2 - Wild Card, Daikin Park</title>
+    <category lang="es">Juego 2 - Wild Card, Daikin Park</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20260930220000 +0000" stop="20260930230000 +0000" channel="hn#espn-2">
-    <title lang="es">Generación fútbol</title>
-    <title lang="en">Generación fútbol</title>
-    <category lang="es">Generación fútbol</category>
+  <programme start="20261001000000 +0000" stop="20261001030000 +0000" channel="hn#espn-2">
+    <title lang="es">Boston Red Sox vs. New York Yankees</title>
+    <title lang="en">Juego 2 - Wild Card, Yankee Stadium</title>
+    <category lang="es">Juego 2 - Wild Card, Yankee Stadium</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20260930230000 +0000" stop="20261001020000 +0000" channel="hn#espn-2">
-    <title lang="es">Juego 2 - Wild Card</title>
-    <title lang="en">MLB</title>
-    <category lang="es">MLB</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
-  <programme start="20261001020000 +0000" stop="20261001030000 +0000" channel="hn#espn-2">
-    <title lang="es">SportsCenter</title>
-    <title lang="en">SportsCenter</title>
-    <category lang="es">SportsCenter</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
   <programme start="20261001030000 +0000" stop="20261001040000 +0000" channel="hn#espn-2">
     <title lang="es">SportsCenter</title>
@@ -40216,7 +40243,7 @@
   </programme>
   <programme start="20260929200500 +0000" stop="20260929202500 +0000" channel="hn#nick-jr">
     <title lang="es">Santiago de los mares</title>
-    <sub-title lang="es">La maldición del halcón dorado / La isla de las cosas perdidas</sub-title>
+    <sub-title lang="es">La princesa y el cachorro pirata / La caleta caracol</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -40304,7 +40331,7 @@
   </programme>
   <programme start="20260929234500 +0000" stop="20260930000000 +0000" channel="hn#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Multimillonarios</sub-title>
+    <sub-title lang="es">Cuidado con barbabrillo / Multimillonarios</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.12.0/1</episode-num>
     <episode-num system="onscreen">S02E13</episode-num>
@@ -40440,7 +40467,7 @@
   </programme>
   <programme start="20260930044500 +0000" stop="20260930051000 +0000" channel="hn#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Boris</sub-title>
+    <sub-title lang="es">Nacido para ser libre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -40880,7 +40907,7 @@
   </programme>
   <programme start="20260930234500 +0000" stop="20261001000000 +0000" channel="hn#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Multimillonarios</sub-title>
+    <sub-title lang="es">Cuidado con barbabrillo / Multimillonarios</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.12.0/1</episode-num>
     <episode-num system="onscreen">S02E13</episode-num>
@@ -54076,8 +54103,7 @@
   </programme>
   <programme start="20261001180000 +0000" stop="20261001190000 +0000" channel="Telecadena7y4.hn@SD">
     <title lang="es">Redención</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
+    <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/hn_redencion_l_m.jpg</image>
   </programme>
   <programme start="20261001190000 +0000" stop="20261001210000 +0000" channel="Telecadena7y4.hn@SD">
@@ -54112,8 +54138,7 @@
   </programme>
   <programme start="20261002020000 +0000" stop="20261002030000 +0000" channel="Telecadena7y4.hn@SD">
     <title lang="es">Redención</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
+    <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/hn_redencion_l_m.jpg</image>
   </programme>
   <programme start="20261002030000 +0000" stop="20261002040000 +0000" channel="Telecadena7y4.hn@SD">
@@ -54181,9 +54206,10 @@
     <image>https://cdn.mitvstatic.com/programs/hn_cocina-catracha_l_m.jpg</image>
   </programme>
   <programme start="20260929170000 +0000" stop="20260929180000 +0000" channel="Teleceiba.hn@SD">
-    <title lang="es">Teleceiba Music</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_teleceiba-music-1_l_m.jpg</image>
+    <title lang="es">Teledeportes</title>
+    <title lang="en">Teledeportes</title>
+    <category lang="es">Teledeportes</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_noticiero-teledeportes_l_m.jpg</image>
   </programme>
   <programme start="20260929180000 +0000" stop="20260929200000 +0000" channel="Teleceiba.hn@SD">
     <title lang="es">Línea directa</title>
@@ -54295,9 +54321,10 @@
     <image>https://cdn.mitvstatic.com/programs/hn_cocina-catracha_l_m.jpg</image>
   </programme>
   <programme start="20260930170000 +0000" stop="20260930180000 +0000" channel="Teleceiba.hn@SD">
-    <title lang="es">Teleceiba Music</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_teleceiba-music-1_l_m.jpg</image>
+    <title lang="es">Teledeportes</title>
+    <title lang="en">Teledeportes</title>
+    <category lang="es">Teledeportes</category>
+    <image>https://cdn.mitvstatic.com/programs/hn_noticiero-teledeportes_l_m.jpg</image>
   </programme>
   <programme start="20260930180000 +0000" stop="20260930200000 +0000" channel="Teleceiba.hn@SD">
     <title lang="es">Línea directa</title>
@@ -54315,16 +54342,11 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/hn_ciudad-paraiso_l_m.jpg</image>
   </programme>
-  <programme start="20260930220000 +0000" stop="20261001000000 +0000" channel="Teleceiba.hn@SD">
+  <programme start="20260930220000 +0000" stop="20261001003000 +0000" channel="Teleceiba.hn@SD">
     <title lang="es">El camino antiguo</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/hn_el-camino-antiguo_l_m.jpg</image>
-  </programme>
-  <programme start="20261001000000 +0000" stop="20261001003000 +0000" channel="Teleceiba.hn@SD">
-    <title lang="es">Teleceiba Music</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/hn_teleceiba-music-1_l_m.jpg</image>
   </programme>
   <programme start="20261001003000 +0000" stop="20261001020000 +0000" channel="Teleceiba.hn@SD">
     <title lang="es">Telenoticias</title>
