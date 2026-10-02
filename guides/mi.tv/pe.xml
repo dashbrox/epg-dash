@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261002180331 +0000">
+<tv generator-info-name="custom-epg" date="20261002222547 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -9,33 +9,35 @@
   <channel id="pe#america-sports">
     <display-name>América Sports</display-name>
   </channel>
+  <channel id="ATV.pe@SD">
+    <display-name>ATV</display-name>
+    <icon src="https://i.imgur.com/eUzYZfg.png"/>
+  </channel>
+  <channel id="pe#azteca-13">
+    <display-name>Azteca 13</display-name>
+  </channel>
   <channel id="pe#animal-planet">
     <display-name>Animal Planet</display-name>
+  </channel>
+  <channel id="pe#az-corazon">
+    <display-name>Az Corazón</display-name>
+  </channel>
+  <channel id="pe#axn">
+    <display-name>AXN</display-name>
   </channel>
   <channel id="pe#america-television">
     <display-name>América Televisión</display-name>
   </channel>
-  <channel id="UnitelSantaCruz.bo@SD">
-    <display-name>Unitel</display-name>
+  <channel id="ATVSur.pe@SD">
+    <display-name>ATV Sur</display-name>
+    <icon src="https://i.imgur.com/LnyVa5H.png"/>
   </channel>
-  <channel id="pe#tyc-sports">
-    <display-name>TyC Sports</display-name>
+  <channel id="ATVPlus.pe@SD">
+    <display-name>ATV +</display-name>
+    <icon src="https://i.imgur.com/fY9256H.png"/>
   </channel>
-  <channel id="pe#tvn-chile">
-    <display-name>TVN Chile</display-name>
-  </channel>
-  <channel id="pe#tve">
-    <display-name>TVE</display-name>
-  </channel>
-  <channel id="TVPeru.pe@SD">
-    <display-name>TV Perú</display-name>
-    <icon src="https://i.imgur.com/6io0IrX.png"/>
-  </channel>
-  <channel id="pe#tv-agro">
-    <display-name>Tv Agro</display-name>
-  </channel>
-  <channel id="pe#tru-tv">
-    <display-name>TruTV</display-name>
+  <channel id="pe#bbc-world">
+    <display-name>BBC World</display-name>
   </channel>
   <channel id="pe#tnt-series">
     <display-name>TNT Series</display-name>
@@ -325,29 +327,12 @@
   <channel id="pe#bethel">
     <display-name>Bethel</display-name>
   </channel>
-  <channel id="pe#bbc-world">
-    <display-name>BBC World</display-name>
+  <channel id="TVPeru.pe@SD">
+    <display-name>TV Perú</display-name>
+    <icon src="https://i.imgur.com/6io0IrX.png"/>
   </channel>
-  <channel id="pe#azteca-13">
-    <display-name>Azteca 13</display-name>
-  </channel>
-  <channel id="pe#az-corazon">
-    <display-name>Az Corazón</display-name>
-  </channel>
-  <channel id="pe#axn">
-    <display-name>AXN</display-name>
-  </channel>
-  <channel id="ATVSur.pe@SD">
-    <display-name>ATV Sur</display-name>
-    <icon src="https://i.imgur.com/LnyVa5H.png"/>
-  </channel>
-  <channel id="ATVPlus.pe@SD">
-    <display-name>ATV +</display-name>
-    <icon src="https://i.imgur.com/fY9256H.png"/>
-  </channel>
-  <channel id="ATV.pe@SD">
-    <display-name>ATV</display-name>
-    <icon src="https://i.imgur.com/eUzYZfg.png"/>
+  <channel id="pe#tv-agro">
+    <display-name>Tv Agro</display-name>
   </channel>
   <channel id="WillaxTV.pe@SD">
     <display-name>Willax</display-name>
@@ -361,6 +346,21 @@
   </channel>
   <channel id="pe#universal-channel">
     <display-name>Universal TV</display-name>
+  </channel>
+  <channel id="pe#tyc-sports">
+    <display-name>TyC Sports</display-name>
+  </channel>
+  <channel id="pe#tvn-chile">
+    <display-name>TVN Chile</display-name>
+  </channel>
+  <channel id="pe#tve">
+    <display-name>TVE</display-name>
+  </channel>
+  <channel id="UnitelSantaCruz.bo@SD">
+    <display-name>Unitel</display-name>
+  </channel>
+  <channel id="pe#tru-tv">
+    <display-name>TruTV</display-name>
   </channel>
   <programme start="20261002060000 +0000" stop="20261002103000 +0000" channel="ATV.pe@SD">
     <title lang="es">Los hombres de Paco</title>
@@ -5122,10 +5122,10 @@
     <image>https://cdn.mitvstatic.com/programs/pe_patrimonio-mundial_l_m.jpg</image>
   </programme>
   <programme start="20261003163000 +0000" stop="20261003170000 +0000" channel="PanamericanaTV.pe@SD">
-    <title lang="es">Visión futuro</title>
-    <title lang="en">Educativo</title>
-    <category lang="es">Educativo</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_vision-futuro_l_m.jpg</image>
+    <title lang="es">Dpaso, el legendario caballo peruano</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261003170000 +0000" stop="20261003180000 +0000" channel="PanamericanaTV.pe@SD">
     <title lang="es">¡Escápate!</title>
@@ -8037,7 +8037,7 @@
     <episode-num system="onscreen">S08E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_alaska-la-ultima-frontera-s08e02-un-depredador-al-acecho_l_m.jpg</image>
   </programme>
-  <programme start="20261004052400 +0000" stop="20261004062400 +0000" channel="pe#animal-planet">
+  <programme start="20261004052400 +0000" stop="20261004061200 +0000" channel="pe#animal-planet">
     <title lang="es">El acuario</title>
     <sub-title lang="es">El campamento de verano de las nutrias de mar</sub-title>
     <category lang="es">Serie</category>
@@ -8045,7 +8045,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-acuario-s02e04-el-campamento-de-verano-de-las-nutrias-de-mar_l_m.jpg</image>
   </programme>
-  <programme start="20261004052400 +0000" stop="20261004061200 +0000" channel="pe#animal-planet">
+  <programme start="20261004052400 +0000" stop="20261004062400 +0000" channel="pe#animal-planet">
     <title lang="es">El acuario</title>
     <sub-title lang="es">El campamento de verano de las nutrias de mar</sub-title>
     <category lang="es">Serie</category>
@@ -28412,6 +28412,14 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-owl-house-la-casa-buho-s01e06-hooty-s-moving-hassle-1_l_m.jpg</image>
   </programme>
+  <programme start="20261003053400 +0000" stop="20261003060100 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Los Green en la gran ciudad</title>
+    <sub-title lang="es">En libertad - Partes 1 y 2</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s01e21-amigas-y-gargolas_l_m.jpg</image>
+  </programme>
   <programme start="20261003053400 +0000" stop="20261003063400 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">En libertad - Partes 1 y 2</sub-title>
@@ -28420,15 +28428,7 @@
     <episode-num system="onscreen">S01E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s01e21-amigas-y-gargolas_l_m.jpg</image>
   </programme>
-  <programme start="20261003060000 +0000" stop="20261003063000 +0000" channel="pe#disney-multicountry">
-    <title lang="es">Los Green en la gran ciudad</title>
-    <sub-title lang="es">En libertad - Partes 1 y 2</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
-    <episode-num system="onscreen">S01E21</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s01e21-amigas-y-gargolas_l_m.jpg</image>
-  </programme>
-  <programme start="20261003063000 +0000" stop="20261003070000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003060100 +0000" stop="20261003062600 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">Nublado con posibilidad de chicles</sub-title>
     <category lang="es">Serie</category>
@@ -28436,7 +28436,7 @@
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261003070000 +0000" stop="20261003073000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003062600 +0000" stop="20261003064900 +0000" channel="pe#disney-multicountry">
     <title lang="es">Jessie</title>
     <sub-title lang="es">La isla de los monstruos</sub-title>
     <category lang="es">Serie</category>
@@ -28444,7 +28444,7 @@
     <episode-num system="onscreen">S01E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_jessie-s01e22-excusado-de-munecas_l_m.jpg</image>
   </programme>
-  <programme start="20261003073000 +0000" stop="20261003080000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003064900 +0000" stop="20261003071200 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los hechiceros de Waverly Place</title>
     <sub-title lang="es">La nueva empleada</sub-title>
     <category lang="es">Serie</category>
@@ -28452,7 +28452,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-hechiceros-de-waverly-place-s01e04-casi-me-ahogaba-en-una-fuente-de-chocolate_l_m.jpg</image>
   </programme>
-  <programme start="20261003080000 +0000" stop="20261003083000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003071200 +0000" stop="20261003073400 +0000" channel="pe#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">La guía del Sr. Candle / Cinta roja</sub-title>
     <category lang="es">Serie</category>
@@ -28460,7 +28460,7 @@
     <episode-num system="onscreen">S02E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s02e02-cinta-roja_l_m.jpg</image>
   </programme>
-  <programme start="20261003083000 +0000" stop="20261003090000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003073400 +0000" stop="20261003080300 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">Larga despedida</sub-title>
     <category lang="es">Serie</category>
@@ -28468,7 +28468,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s03e20-larga-despedida_l_m.jpg</image>
   </programme>
-  <programme start="20261003090000 +0000" stop="20261003093000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003080300 +0000" stop="20261003082600 +0000" channel="pe#disney-multicountry">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Oso maloso</sub-title>
     <category lang="es">Serie</category>
@@ -28476,7 +28476,7 @@
     <episode-num system="onscreen">S02E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_prodigiosa-las-aventuras-de-ladybug-s02e30_l_m.jpg</image>
   </programme>
-  <programme start="20261003093000 +0000" stop="20261003095500 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003082600 +0000" stop="20261003084900 +0000" channel="pe#disney-multicountry">
     <title lang="es">Enredados otra vez: la serie</title>
     <sub-title lang="es">La búsqueda de Varian</sub-title>
     <category lang="es">Serie</category>
@@ -28484,13 +28484,37 @@
     <episode-num system="onscreen">S01E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_enredados-otra-vez-la-serie-s01e19_l_m.jpg</image>
   </programme>
-  <programme start="20261003095500 +0000" stop="20261003100000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003084900 +0000" stop="20261003090100 +0000" channel="pe#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Eclipsa total</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.27.0/1</episode-num>
     <episode-num system="onscreen">S03E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s03e28-eclipsa-total_l_m.jpg</image>
+  </programme>
+  <programme start="20261003090100 +0000" stop="20261003091200 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Star vs. Las fuerzas del mal</title>
+    <sub-title lang="es">Star, guerrera / De campamento</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s02e05-star-guerrera_l_m.jpg</image>
+  </programme>
+  <programme start="20261003091200 +0000" stop="20261003093600 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
+    <sub-title lang="es">Escarnio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.13.0/1</episode-num>
+    <episode-num system="onscreen">S05E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_prodigiosa-las-aventuras-de-ladybug-s05e14-escarnio_l_m.jpg</image>
+  </programme>
+  <programme start="20261003093600 +0000" stop="20261003100000 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Phineas y Ferb</title>
+    <sub-title lang="es">La Navidad familiar de Phineas y Ferb - Invierano</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.81.0/1</episode-num>
+    <episode-num system="onscreen">S03E82</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_phineas-y-ferb-s03e82-la-navidad-familiar-de-phineas-y-ferb-invierano_l_m.jpg</image>
   </programme>
   <programme start="20261003100000 +0000" stop="20261003103000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Patoaventuras</title>
@@ -28508,7 +28532,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s01e10-la-fiesta-de-brittney_l_m.jpg</image>
   </programme>
-  <programme start="20261003110000 +0000" stop="20261003113000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003110000 +0000" stop="20261003112900 +0000" channel="pe#disney-multicountry">
     <title lang="es">The Owl House - La Casa Búho</title>
     <sub-title lang="es">El lago Eclipse</sub-title>
     <category lang="es">Serie</category>
@@ -28516,7 +28540,7 @@
     <episode-num system="onscreen">S02E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-owl-house-la-casa-buho-s02e09-el-lago-eclipse_l_m.jpg</image>
   </programme>
-  <programme start="20261003113000 +0000" stop="20261003120000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003112900 +0000" stop="20261003115900 +0000" channel="pe#disney-multicountry">
     <title lang="es">Moon Girl y Devil, el dinosaurio</title>
     <sub-title lang="es">Adiós a los comerciales</sub-title>
     <category lang="es">Serie</category>
@@ -28524,7 +28548,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261003120000 +0000" stop="20261003123000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003115900 +0000" stop="20261003123000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Gravity Falls: un verano de misterios</title>
     <sub-title lang="es">El misterio de la mansión Noroeste</sub-title>
     <category lang="es">Serie</category>
@@ -28532,7 +28556,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_gravity-falls-un-verano-de-misterios-s02e10-northwest-mansion-mystery_l_m.jpg</image>
   </programme>
-  <programme start="20261003123000 +0000" stop="20261003130000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003123000 +0000" stop="20261003125900 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">¡Calabazas!</sub-title>
     <category lang="es">Serie</category>
@@ -28540,7 +28564,7 @@
     <episode-num system="onscreen">S03E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s03e01-alienados_l_m.jpg</image>
   </programme>
-  <programme start="20261003130000 +0000" stop="20261003133000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003125900 +0000" stop="20261003133000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">La Ilustraodiosa</sub-title>
     <category lang="es">Serie</category>
@@ -28556,7 +28580,7 @@
     <episode-num system="onscreen">S02E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_phineas-y-ferb-s02e01-el-monstruo-del-lago-nariz_l_m.jpg</image>
   </programme>
-  <programme start="20261003140000 +0000" stop="20261003143000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003140000 +0000" stop="20261003143300 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">La grieta que no deja de dar sorpresas</sub-title>
     <category lang="es">Serie</category>
@@ -28564,7 +28588,7 @@
     <episode-num system="onscreen">S03E32</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261003143000 +0000" stop="20261003150000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003143300 +0000" stop="20261003150200 +0000" channel="pe#disney-multicountry">
     <title lang="es">Vampirina: una vampirina adolescente</title>
     <sub-title lang="es">La primera pesadilla</sub-title>
     <category lang="es">Serie</category>
@@ -28572,13 +28596,13 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261003150000 +0000" stop="20261003164500 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003150200 +0000" stop="20261003164000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Una aventura de niñeras</title>
     <title lang="en">Adventures in Babysitting</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_una-aventura-de-nineras-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261003164500 +0000" stop="20261003170000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003164000 +0000" stop="20261003170300 +0000" channel="pe#disney-multicountry">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Es otro misterio / Marco Junior</sub-title>
     <category lang="es">Serie</category>
@@ -28586,7 +28610,7 @@
     <episode-num system="onscreen">S03E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s03e17-is-another-mystery-marco-jr_l_m.jpg</image>
   </programme>
-  <programme start="20261003170000 +0000" stop="20261003173000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003170300 +0000" stop="20261003173000 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">El origen / Tal vez sonámbulo</sub-title>
     <category lang="es">Serie</category>
@@ -28594,7 +28618,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e14-atledecamatetlon_l_m.jpg</image>
   </programme>
-  <programme start="20261003173000 +0000" stop="20261003180000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003173000 +0000" stop="20261003175800 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">Excursión en yate / La noche de vuelta a la escuela</sub-title>
     <category lang="es">Serie</category>
@@ -28602,7 +28626,7 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e17-vamos-al-zoologico_l_m.jpg</image>
   </programme>
-  <programme start="20261003180000 +0000" stop="20261003183000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003175800 +0000" stop="20261003182500 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">Un mundo sin Milo / La carrera</sub-title>
     <category lang="es">Serie</category>
@@ -28610,7 +28634,7 @@
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e18-un-mundo-sin-milo-la-carrera_l_m.jpg</image>
   </programme>
-  <programme start="20261003183000 +0000" stop="20261003190000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003182500 +0000" stop="20261003185200 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">El grita-torio de Halloween de Milo Murphy</sub-title>
     <category lang="es">Serie</category>
@@ -28618,7 +28642,7 @@
     <episode-num system="onscreen">S01E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e19-el-grita-torio-de-halloween-de-milo-murphy_l_m.jpg</image>
   </programme>
-  <programme start="20261003190000 +0000" stop="20261003193000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003185200 +0000" stop="20261003191900 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">El tobogán del amor / La isla de los Dakotas perdidos</sub-title>
     <category lang="es">Serie</category>
@@ -28626,7 +28650,7 @@
     <episode-num system="onscreen">S01E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e20-el-tobogan-del-amor-la-isla-de-los-dakotas-perdidos_l_m.jpg</image>
   </programme>
-  <programme start="20261003193000 +0000" stop="20261003200000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003191900 +0000" stop="20261003194700 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">Plantas entre nosotros</sub-title>
     <category lang="es">Serie</category>
@@ -28634,7 +28658,15 @@
     <episode-num system="onscreen">S01E35</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e35-un-mundo-sin-milo_l_m.jpg</image>
   </programme>
-  <programme start="20261003200000 +0000" stop="20261003203000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003194700 +0000" stop="20261003195900 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Los Green en la gran ciudad</title>
+    <sub-title lang="es">Los acres de los Green</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.27.0/1</episode-num>
+    <episode-num system="onscreen">S02E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s02e28-ding-dongers-animation-abomination_l_m.jpg</image>
+  </programme>
+  <programme start="20261003195900 +0000" stop="20261003203000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">Gloria Green / Canción del papá</sub-title>
     <category lang="es">Serie</category>
@@ -28642,7 +28674,7 @@
     <episode-num system="onscreen">S05E111</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_los-green-en-la-gran-ciudad-s05e111-gloria-green-cancion-del-papa_l_m.jpg</image>
   </programme>
-  <programme start="20261003203000 +0000" stop="20261003210000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003203000 +0000" stop="20261003210400 +0000" channel="pe#disney-multicountry">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Conformación: El día final - Parte 1</sub-title>
     <category lang="es">Serie</category>
@@ -28650,21 +28682,29 @@
     <episode-num system="onscreen">S05E25</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_prodigiosa-las-aventuras-de-ladybug-s05e25-conformacion-el-dia-final-parte-1_l_m.jpg</image>
   </programme>
-  <programme start="20261003210000 +0000" stop="20261003230000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003210400 +0000" stop="20261003225900 +0000" channel="pe#disney-multicountry">
     <title lang="es">High School Musical 3: La graduación</title>
     <title lang="en">High School Musical 3: Senior Year</title>
     <category lang="es">Musical</category>
     <rating><value>4.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_high-school-musical-3-la-graduacion-2008_l_m.jpg</image>
   </programme>
-  <programme start="20261003230000 +0000" stop="20261004010000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261003225900 +0000" stop="20261004003600 +0000" channel="pe#disney-multicountry">
     <title lang="es">Intensamente</title>
     <title lang="en">Inside Out</title>
     <category lang="es">Familiar</category>
     <rating><value>8.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_intensamente-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261004010000 +0000" stop="20261004013000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004003600 +0000" stop="20261004005800 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Star vs. Las fuerzas del mal</title>
+    <sub-title lang="es">Star llega a la Tierra / De paseo con un pony</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s01e01-star-llega-a-la-tierra-de-paseo-con-un-pony_l_m.jpg</image>
+  </programme>
+  <programme start="20261004005800 +0000" stop="20261004013000 +0000" channel="pe#disney-multicountry">
     <title lang="es">Dragon Striker</title>
     <sub-title lang="es">El despertar</sub-title>
     <category lang="es">Serie</category>
@@ -28672,23 +28712,23 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261004013000 +0000" stop="20261004014500 +0000" channel="pe#disney-multicountry">
-    <title lang="es">Star vs. Las fuerzas del mal</title>
-    <sub-title lang="es">El modo difícil</sub-title>
+  <programme start="20261004013000 +0000" stop="20261004020300 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Los hechiceros más allá de Waverly Place</title>
+    <sub-title lang="es">Nada es lo que parece</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.34.0/1</episode-num>
-    <episode-num system="onscreen">S02E35</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_star-vs-las-fuerzas-del-mal-s02e35-flechada_l_m.jpg</image>
-  </programme>
-  <programme start="20261004014500 +0000" stop="20261004023000 +0000" channel="pe#disney-multicountry">
-    <title lang="es">Selenkay</title>
-    <sub-title lang="es">¡Bienvenida, Alexia!</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
-    <episode-num system="onscreen">S02E02</episode-num>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261004023000 +0000" stop="20261004030000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004020300 +0000" stop="20261004023300 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Jessie</title>
+    <sub-title lang="es">Nueva York, nueva niñera</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_jessie-s01e01-nueva-york-nueva-ninera_l_m.jpg</image>
+  </programme>
+  <programme start="20261004023300 +0000" stop="20261004030400 +0000" channel="pe#disney-multicountry">
     <title lang="es">Secretos en Sulphur Springs</title>
     <sub-title lang="es">No hay tiempo como el presente</sub-title>
     <category lang="es">Serie</category>
@@ -28696,7 +28736,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261004030000 +0000" stop="20261004033000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004030400 +0000" stop="20261004033200 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">El origen / Tal vez sonámbulo</sub-title>
     <category lang="es">Serie</category>
@@ -28704,7 +28744,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e14-atledecamatetlon_l_m.jpg</image>
   </programme>
-  <programme start="20261004033000 +0000" stop="20261004040000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004033200 +0000" stop="20261004040200 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">Excursión en yate / La noche de vuelta a la escuela</sub-title>
     <category lang="es">Serie</category>
@@ -28712,7 +28752,7 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e17-vamos-al-zoologico_l_m.jpg</image>
   </programme>
-  <programme start="20261004040000 +0000" stop="20261004043000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004040200 +0000" stop="20261004042500 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">Un mundo sin Milo / La carrera</sub-title>
     <category lang="es">Serie</category>
@@ -28720,7 +28760,7 @@
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e18-un-mundo-sin-milo-la-carrera_l_m.jpg</image>
   </programme>
-  <programme start="20261004043000 +0000" stop="20261004050000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004042500 +0000" stop="20261004045400 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">El grita-torio de Halloween de Milo Murphy</sub-title>
     <category lang="es">Serie</category>
@@ -28728,7 +28768,7 @@
     <episode-num system="onscreen">S01E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e19-el-grita-torio-de-halloween-de-milo-murphy_l_m.jpg</image>
   </programme>
-  <programme start="20261004050000 +0000" stop="20261004053000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004045400 +0000" stop="20261004051800 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">El tobogán del amor / La isla de los Dakotas perdidos</sub-title>
     <category lang="es">Serie</category>
@@ -28736,7 +28776,7 @@
     <episode-num system="onscreen">S01E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e20-el-tobogan-del-amor-la-isla-de-los-dakotas-perdidos_l_m.jpg</image>
   </programme>
-  <programme start="20261004053000 +0000" stop="20261004063000 +0000" channel="pe#disney-multicountry">
+  <programme start="20261004051800 +0000" stop="20261004054200 +0000" channel="pe#disney-multicountry">
     <title lang="es">La ley de Milo Murphy</title>
     <sub-title lang="es">Plantas entre nosotros</sub-title>
     <category lang="es">Serie</category>
@@ -28745,6 +28785,14 @@
     <image>https://cdn.mitvstatic.com/programs/pe_la-ley-de-milo-murphy-s01e35-un-mundo-sin-milo_l_m.jpg</image>
   </programme>
   <programme start="20261004054200 +0000" stop="20261004060600 +0000" channel="pe#disney-multicountry">
+    <title lang="es">Acampados</title>
+    <sub-title lang="es">¡Huele a espíritu de campamento!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_acampados-s01e04-las-reglas-del-campamento_l_m.jpg</image>
+  </programme>
+  <programme start="20261004054200 +0000" stop="20261004064200 +0000" channel="pe#disney-multicountry">
     <title lang="es">Acampados</title>
     <sub-title lang="es">¡Huele a espíritu de campamento!</sub-title>
     <category lang="es">Serie</category>
@@ -35763,9 +35811,9 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20261003130000 +0000" stop="20261003153000 +0000" channel="pe#fox-sports-2">
-    <title lang="es">NHL</title>
-    <title lang="en">NHL</title>
-    <category lang="es">NHL</category>
+    <title lang="es">New York Rangers vs. Detroit Red Wings</title>
+    <title lang="en">Temporada regular, Little Caesars Arena</title>
+    <category lang="es">Temporada regular, Little Caesars Arena</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20261003153000 +0000" stop="20261003160000 +0000" channel="pe#fox-sports-2">
@@ -42176,7 +42224,7 @@
   </programme>
   <programme start="20261004185500 +0000" stop="20261004192000 +0000" channel="pe#nick-jr">
     <title lang="es">Patrulla canina</title>
-    <sub-title lang="es">Los cachorros salvan a sus amigos Digi y Tal / Los cachorros salvan el arcoíris</sub-title>
+    <sub-title lang="es">Los cachorros salvan a sus amigos Digi y Tal</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.4.0/1</episode-num>
     <episode-num system="onscreen">S10E05</episode-num>
@@ -42440,7 +42488,7 @@
   </programme>
   <programme start="20261005055500 +0000" stop="20261005065500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">The Barbapapa Family / The House of Barbapapa</sub-title>
+    <sub-title lang="es">Barbapapás de las cavernas / Los pequeños monstruos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.11.0/1</episode-num>
     <episode-num system="onscreen">S01E12</episode-num>
@@ -51561,7 +51609,7 @@
     <episode-num system="onscreen">S07E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261004052000 +0000" stop="20261004061000 +0000" channel="pe#universal-channel">
+  <programme start="20261004052000 +0000" stop="20261004062000 +0000" channel="pe#universal-channel">
     <title lang="es">La ley y el orden</title>
     <sub-title lang="es">Sigue soñando</sub-title>
     <category lang="es">Serie</category>
@@ -51569,7 +51617,7 @@
     <episode-num system="onscreen">S25E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261004052000 +0000" stop="20261004062000 +0000" channel="pe#universal-channel">
+  <programme start="20261004052000 +0000" stop="20261004061000 +0000" channel="pe#universal-channel">
     <title lang="es">La ley y el orden</title>
     <sub-title lang="es">Sigue soñando</sub-title>
     <category lang="es">Serie</category>
@@ -52258,7 +52306,7 @@
     <episode-num system="onscreen">S09E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s09e22-the-fermentation-bifurcation_l_m.jpg</image>
   </programme>
-  <programme start="20261002064500 +0000" stop="20261002070600 +0000" channel="pe#warner">
+  <programme start="20261002064500 +0000" stop="20261002070500 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La solución de la sustitución en la cola</sub-title>
     <category lang="es">Serie</category>
@@ -52266,7 +52314,7 @@
     <episode-num system="onscreen">S09E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s09e23-the-line-substitution-solution_l_m.jpg</image>
   </programme>
-  <programme start="20261002070600 +0000" stop="20261002072700 +0000" channel="pe#warner">
+  <programme start="20261002070500 +0000" stop="20261002072700 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La convergencia de la convergencia</sub-title>
     <category lang="es">Serie</category>
@@ -52306,7 +52354,7 @@
     <episode-num system="onscreen">S03E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e17-salven-a-los-huerfanos_l_m.jpg</image>
   </programme>
-  <programme start="20261002090200 +0000" stop="20261002092600 +0000" channel="pe#warner">
+  <programme start="20261002090200 +0000" stop="20261002092500 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">La tarta cubierta de saliva</sub-title>
     <category lang="es">Serie</category>
@@ -52314,7 +52362,7 @@
     <episode-num system="onscreen">S03E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e18-la-tarta-cubierta-de-saliva_l_m.jpg</image>
   </programme>
-  <programme start="20261002092600 +0000" stop="20261002095000 +0000" channel="pe#warner">
+  <programme start="20261002092500 +0000" stop="20261002095000 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">El bombón se muda a casa</sub-title>
     <category lang="es">Serie</category>
@@ -52351,15 +52399,7 @@
     <episode-num system="onscreen">S02E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261002113400 +0000" stop="20261002120800 +0000" channel="pe#warner">
-    <title lang="es">Cobra Kai</title>
-    <sub-title lang="es">Hielo y fuego</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
-    <episode-num system="onscreen">S02E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20261002120800 +0000" stop="20261002122800 +0000" channel="pe#warner">
+  <programme start="20261002113400 +0000" stop="20261002115400 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El catalizador de la patada fetal</sub-title>
     <category lang="es">Serie</category>
@@ -52367,7 +52407,7 @@
     <episode-num system="onscreen">S10E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e06-the-fetal-kick-catalyst_l_m.jpg</image>
   </programme>
-  <programme start="20261002122800 +0000" stop="20261002125100 +0000" channel="pe#warner">
+  <programme start="20261002115400 +0000" stop="20261002121600 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Siempre la novia, jamás el burro</sub-title>
     <category lang="es">Serie</category>
@@ -52375,7 +52415,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e20-siempre-la-novia-jamas-el-burro_l_m.jpg</image>
   </programme>
-  <programme start="20261002125100 +0000" stop="20261002131200 +0000" channel="pe#warner">
+  <programme start="20261002121600 +0000" stop="20261002123900 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Actividades extracurriculares</sub-title>
     <category lang="es">Serie</category>
@@ -52383,7 +52423,7 @@
     <episode-num system="onscreen">S03E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e21-actividades-extracurriculares_l_m.jpg</image>
   </programme>
-  <programme start="20261002131200 +0000" stop="20261002133500 +0000" channel="pe#warner">
+  <programme start="20261002123900 +0000" stop="20261002130300 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Mi primer amor</sub-title>
     <category lang="es">Serie</category>
@@ -52391,7 +52431,7 @@
     <episode-num system="onscreen">S03E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e22-just-once-with-aunt-sophie_l_m.jpg</image>
   </programme>
-  <programme start="20261002133500 +0000" stop="20261002135800 +0000" channel="pe#warner">
+  <programme start="20261002130300 +0000" stop="20261002132700 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Argumentos para un rapidito</sub-title>
     <category lang="es">Serie</category>
@@ -52399,7 +52439,7 @@
     <episode-num system="onscreen">S03E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e23-argumentos-para-un-rapidito_l_m.jpg</image>
   </programme>
-  <programme start="20261002135800 +0000" stop="20261002142100 +0000" channel="pe#warner">
+  <programme start="20261002132700 +0000" stop="20261002135100 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">¡Que vivan los novios!</sub-title>
     <category lang="es">Serie</category>
@@ -52407,7 +52447,7 @@
     <episode-num system="onscreen">S03E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e24-que-vivan-los-novios_l_m.jpg</image>
   </programme>
-  <programme start="20261002142100 +0000" stop="20261002144400 +0000" channel="pe#warner">
+  <programme start="20261002135100 +0000" stop="20261002141500 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Trabajar para Caligula</sub-title>
     <category lang="es">Serie</category>
@@ -52415,7 +52455,7 @@
     <episode-num system="onscreen">S04E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e01-trabajar-para-caligula_l_m.jpg</image>
   </programme>
-  <programme start="20261002144400 +0000" stop="20261002151400 +0000" channel="pe#warner">
+  <programme start="20261002141500 +0000" stop="20261002144700 +0000" channel="pe#warner">
     <title lang="es">Cobra Kai</title>
     <sub-title lang="es">Temblor</sub-title>
     <category lang="es">Serie</category>
@@ -52423,72 +52463,72 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261002151400 +0000" stop="20261002172500 +0000" channel="pe#warner">
+  <programme start="20261002144700 +0000" stop="20261002170000 +0000" channel="pe#warner">
     <title lang="es">Sherlock Holmes</title>
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/pe_sherlock-holmes-2009_l_m.jpg</image>
   </programme>
-  <programme start="20261002172500 +0000" stop="20261002192300 +0000" channel="pe#warner">
+  <programme start="20261002170000 +0000" stop="20261002190100 +0000" channel="pe#warner">
     <title lang="es">Scott Pilgrim vs. Los ex de la chica de sus sueños</title>
     <title lang="en">Scott Pilgrim vs. The World</title>
     <category lang="es">Aventura</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_scott-pilgrim-vs-los-ex-de-la-chica-de-sus-suenos-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261002192300 +0000" stop="20261002213500 +0000" channel="pe#warner">
+  <programme start="20261002190100 +0000" stop="20261002211700 +0000" channel="pe#warner">
     <title lang="es">Batman y Robin</title>
     <title lang="en">Batman and Robin</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/pe_batman-y-robin-1997_l_m.jpg</image>
   </programme>
-  <programme start="20261002213500 +0000" stop="20261002232400 +0000" channel="pe#warner">
+  <programme start="20261002211700 +0000" stop="20261002230700 +0000" channel="pe#warner">
     <title lang="es">Sin límite</title>
     <title lang="en">Limitless</title>
     <category lang="es">Thriller</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_sin-limite-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261002232400 +0000" stop="20261003010600 +0000" channel="pe#warner">
+  <programme start="20261002230700 +0000" stop="20261003005200 +0000" channel="pe#warner">
     <title lang="es">Sully, hazaña en el Hudson</title>
     <title lang="en">Sully</title>
     <category lang="es">Drama</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_sully-hazana-en-el-hudson-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261003010600 +0000" stop="20261003025000 +0000" channel="pe#warner">
+  <programme start="20261003005200 +0000" stop="20261003024900 +0000" channel="pe#warner">
     <title lang="es">Jumanji</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/pe_jumanji-1995_l_m.jpg</image>
   </programme>
-  <programme start="20261003025000 +0000" stop="20261003030000 +0000" channel="pe#warner">
-    <title lang="es">Inside Warner: Digger</title>
+  <programme start="20261003024900 +0000" stop="20261003030000 +0000" channel="pe#warner">
+    <title lang="es">Hollywood One on One</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
-    <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e20_l_m.jpg</image>
   </programme>
-  <programme start="20261003030000 +0000" stop="20261003050900 +0000" channel="pe#warner">
+  <programme start="20261003030000 +0000" stop="20261003051000 +0000" channel="pe#warner">
     <title lang="es">Jumanji: El siguiente nivel</title>
     <title lang="en">Jumanji: The Next Level</title>
     <category lang="es">Aventura</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_jumanji-el-siguiente-nivel-2019-1_l_m.jpg</image>
   </programme>
-  <programme start="20261003050900 +0000" stop="20261003060900 +0000" channel="pe#warner">
+  <programme start="20261003051000 +0000" stop="20261003070200 +0000" channel="pe#warner">
     <title lang="es">12 horas para sobrevivir: El año de la elección</title>
     <title lang="en">The Purge: Election Year</title>
     <category lang="es">Terror</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_12-horas-para-sobrevivir-el-ano-de-la-eleccion-2016-1_l_m.jpg</image>
   </programme>
-  <programme start="20261003050900 +0000" stop="20261003070000 +0000" channel="pe#warner">
+  <programme start="20261003051000 +0000" stop="20261003061000 +0000" channel="pe#warner">
     <title lang="es">12 horas para sobrevivir: El año de la elección</title>
     <title lang="en">The Purge: Election Year</title>
     <category lang="es">Terror</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_12-horas-para-sobrevivir-el-ano-de-la-eleccion-2016-1_l_m.jpg</image>
   </programme>
-  <programme start="20261003070000 +0000" stop="20261003072300 +0000" channel="pe#warner">
+  <programme start="20261003070200 +0000" stop="20261003072500 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La conjetura conyugal</sub-title>
     <category lang="es">Serie</category>
@@ -52496,7 +52536,7 @@
     <episode-num system="onscreen">S10E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e01-the-conjugal-conjecture_l_m.jpg</image>
   </programme>
-  <programme start="20261003072300 +0000" stop="20261003074100 +0000" channel="pe#warner">
+  <programme start="20261003072500 +0000" stop="20261003074400 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La miniaturización militar</sub-title>
     <category lang="es">Serie</category>
@@ -52504,7 +52544,7 @@
     <episode-num system="onscreen">S10E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e02-the-military-miniaturization_l_m.jpg</image>
   </programme>
-  <programme start="20261003074100 +0000" stop="20261003080200 +0000" channel="pe#warner">
+  <programme start="20261003074400 +0000" stop="20261003080600 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La trascendencia de la dependencia</sub-title>
     <category lang="es">Serie</category>
@@ -52512,7 +52552,7 @@
     <episode-num system="onscreen">S10E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e03-the-dependence-transcendence_l_m.jpg</image>
   </programme>
-  <programme start="20261003080200 +0000" stop="20261003082400 +0000" channel="pe#warner">
+  <programme start="20261003080600 +0000" stop="20261003082700 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La experimentación de la cohabitación</sub-title>
     <category lang="es">Serie</category>
@@ -52520,7 +52560,7 @@
     <episode-num system="onscreen">S10E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e04-the-cohabitation-experimentation_l_m.jpg</image>
   </programme>
-  <programme start="20261003082400 +0000" stop="20261003084400 +0000" channel="pe#warner">
+  <programme start="20261003082700 +0000" stop="20261003084800 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La contaminación del jacuzzi</sub-title>
     <category lang="es">Serie</category>
@@ -52528,7 +52568,7 @@
     <episode-num system="onscreen">S10E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e05-the-hot-tub-contamination_l_m.jpg</image>
   </programme>
-  <programme start="20261003084400 +0000" stop="20261003090300 +0000" channel="pe#warner">
+  <programme start="20261003084800 +0000" stop="20261003090700 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El catalizador de la patada fetal</sub-title>
     <category lang="es">Serie</category>
@@ -52536,7 +52576,7 @@
     <episode-num system="onscreen">S10E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e06-the-fetal-kick-catalyst_l_m.jpg</image>
   </programme>
-  <programme start="20261003090300 +0000" stop="20261003092600 +0000" channel="pe#warner">
+  <programme start="20261003090700 +0000" stop="20261003092900 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Siempre la novia, jamás el burro</sub-title>
     <category lang="es">Serie</category>
@@ -52544,7 +52584,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e20-siempre-la-novia-jamas-el-burro_l_m.jpg</image>
   </programme>
-  <programme start="20261003092600 +0000" stop="20261003094900 +0000" channel="pe#warner">
+  <programme start="20261003092900 +0000" stop="20261003095200 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Actividades extracurriculares</sub-title>
     <category lang="es">Serie</category>
@@ -52552,7 +52592,7 @@
     <episode-num system="onscreen">S03E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e21-actividades-extracurriculares_l_m.jpg</image>
   </programme>
-  <programme start="20261003094900 +0000" stop="20261003101000 +0000" channel="pe#warner">
+  <programme start="20261003095200 +0000" stop="20261003101500 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Mi primer amor</sub-title>
     <category lang="es">Serie</category>
@@ -52560,7 +52600,7 @@
     <episode-num system="onscreen">S03E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e22-just-once-with-aunt-sophie_l_m.jpg</image>
   </programme>
-  <programme start="20261003101000 +0000" stop="20261003103300 +0000" channel="pe#warner">
+  <programme start="20261003101500 +0000" stop="20261003103800 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Argumentos para un rapidito</sub-title>
     <category lang="es">Serie</category>
@@ -52568,22 +52608,21 @@
     <episode-num system="onscreen">S03E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s03e23-argumentos-para-un-rapidito_l_m.jpg</image>
   </programme>
-  <programme start="20261003103300 +0000" stop="20261003110000 +0000" channel="pe#warner">
-    <title lang="es">The Pitt</title>
+  <programme start="20261003103800 +0000" stop="20261003104900 +0000" channel="pe#warner">
+    <title lang="es">Hollywood One on One</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.27.0/1</episode-num>
+    <episode-num system="onscreen">S01E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e28_l_m.jpg</image>
   </programme>
-  <programme start="20261003110000 +0000" stop="20261003113500 +0000" channel="pe#warner">
-    <title lang="es">Cobra Kai</title>
-    <sub-title lang="es">La hora de la verdad</sub-title>
+  <programme start="20261003104900 +0000" stop="20261003110000 +0000" channel="pe#warner">
+    <title lang="es">Hollywood One on One</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.3.0/1</episode-num>
-    <episode-num system="onscreen">S02E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.28.0/1</episode-num>
+    <episode-num system="onscreen">S01E29</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e29_l_m.jpg</image>
   </programme>
-  <programme start="20261003113500 +0000" stop="20261003121400 +0000" channel="pe#warner">
+  <programme start="20261003110000 +0000" stop="20261003113300 +0000" channel="pe#warner">
     <title lang="es">Cobra Kai</title>
     <sub-title lang="es">Darlo todo</sub-title>
     <category lang="es">Serie</category>
@@ -52591,7 +52630,7 @@
     <episode-num system="onscreen">S02E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261003121400 +0000" stop="20261003123300 +0000" channel="pe#warner">
+  <programme start="20261003113300 +0000" stop="20261003115300 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La incubación del cerebro en un bol</sub-title>
     <category lang="es">Serie</category>
@@ -52599,7 +52638,7 @@
     <episode-num system="onscreen">S10E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e08-the-brain-bowl-incubation_l_m.jpg</image>
   </programme>
-  <programme start="20261003123300 +0000" stop="20261003125300 +0000" channel="pe#warner">
+  <programme start="20261003115300 +0000" stop="20261003121400 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La elevación de la geología</sub-title>
     <category lang="es">Serie</category>
@@ -52607,7 +52646,7 @@
     <episode-num system="onscreen">S10E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e09-the-geology-elevation_l_m.jpg</image>
   </programme>
-  <programme start="20261003125300 +0000" stop="20261003131200 +0000" channel="pe#warner">
+  <programme start="20261003121400 +0000" stop="20261003123600 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La colisión de la división de la propiedad</sub-title>
     <category lang="es">Serie</category>
@@ -52615,7 +52654,7 @@
     <episode-num system="onscreen">S10E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e10-the-property-division-collision_l_m.jpg</image>
   </programme>
-  <programme start="20261003131200 +0000" stop="20261003133300 +0000" channel="pe#warner">
+  <programme start="20261003123600 +0000" stop="20261003125800 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La sincronización del cumpleaños</sub-title>
     <category lang="es">Serie</category>
@@ -52623,7 +52662,7 @@
     <episode-num system="onscreen">S10E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e11-the-birthday-synchronicity_l_m.jpg</image>
   </programme>
-  <programme start="20261003133300 +0000" stop="20261003135500 +0000" channel="pe#warner">
+  <programme start="20261003125800 +0000" stop="20261003131900 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El resumen de las fiestas</sub-title>
     <category lang="es">Serie</category>
@@ -52631,7 +52670,7 @@
     <episode-num system="onscreen">S10E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e12-the-holiday-summation_l_m.jpg</image>
   </programme>
-  <programme start="20261003135500 +0000" stop="20261003141900 +0000" channel="pe#warner">
+  <programme start="20261003131900 +0000" stop="20261003134200 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Who&apos;s Vod Kanockers?</sub-title>
     <category lang="es">Serie</category>
@@ -52639,7 +52678,7 @@
     <episode-num system="onscreen">S04E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e02-who-s-vod-kanockers_l_m.jpg</image>
   </programme>
-  <programme start="20261003141900 +0000" stop="20261003144000 +0000" channel="pe#warner">
+  <programme start="20261003134200 +0000" stop="20261003140600 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">La mar es una estricta gobernanta</sub-title>
     <category lang="es">Serie</category>
@@ -52647,7 +52686,7 @@
     <episode-num system="onscreen">S04E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e03-la-mar-es-una-estricta-gobernanta_l_m.jpg</image>
   </programme>
-  <programme start="20261003144000 +0000" stop="20261003150300 +0000" channel="pe#warner">
+  <programme start="20261003140600 +0000" stop="20261003142900 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Un mono emporrado</sub-title>
     <category lang="es">Serie</category>
@@ -52655,7 +52694,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e04-un-mono-emporrado_l_m.jpg</image>
   </programme>
-  <programme start="20261003150300 +0000" stop="20261003152600 +0000" channel="pe#warner">
+  <programme start="20261003142900 +0000" stop="20261003145200 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Una mujer viva de fertilidad probada</sub-title>
     <category lang="es">Serie</category>
@@ -52663,7 +52702,7 @@
     <episode-num system="onscreen">S04E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e05-una-mujer-viva-de-fertilidad-probada_l_m.jpg</image>
   </programme>
-  <programme start="20261003152600 +0000" stop="20261003154700 +0000" channel="pe#warner">
+  <programme start="20261003145200 +0000" stop="20261003151400 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Disculpas por la frivolidad</sub-title>
     <category lang="es">Serie</category>
@@ -52671,7 +52710,7 @@
     <episode-num system="onscreen">S04E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e06-disculpas-por-la-frivolidad_l_m.jpg</image>
   </programme>
-  <programme start="20261003154700 +0000" stop="20261003160800 +0000" channel="pe#warner">
+  <programme start="20261003151400 +0000" stop="20261003153800 +0000" channel="pe#warner">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Repetidos golpes en una cabeza sin formar</sub-title>
     <category lang="es">Serie</category>
@@ -52679,73 +52718,72 @@
     <episode-num system="onscreen">S04E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_dos-hombres-y-medio-s04e07-repetidos-golpes-en-una-cabeza-sin-formar_l_m.jpg</image>
   </programme>
-  <programme start="20261003160800 +0000" stop="20261003175300 +0000" channel="pe#warner">
+  <programme start="20261003153800 +0000" stop="20261003172500 +0000" channel="pe#warner">
     <title lang="es">Sin límite</title>
     <title lang="en">Limitless</title>
     <category lang="es">Thriller</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_sin-limite-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261003175300 +0000" stop="20261003200600 +0000" channel="pe#warner">
+  <programme start="20261003172500 +0000" stop="20261003194000 +0000" channel="pe#warner">
     <title lang="es">Animales fantásticos y dónde encontrarlos</title>
     <title lang="en">Fantastic Beasts and Where to Find Them</title>
     <category lang="es">Fantasía</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_animales-fantasticos-y-donde-encontrarlos-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261003200600 +0000" stop="20261003212700 +0000" channel="pe#warner">
+  <programme start="20261003194000 +0000" stop="20261003210400 +0000" channel="pe#warner">
     <title lang="es">El cadáver de la novia</title>
     <title lang="en">Tim Burton&apos;s Corpse Bride</title>
     <category lang="es">Animación</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-cadaver-de-la-novia-2005_l_m.jpg</image>
   </programme>
-  <programme start="20261003212700 +0000" stop="20261003231300 +0000" channel="pe#warner">
+  <programme start="20261003210400 +0000" stop="20261003225400 +0000" channel="pe#warner">
     <title lang="es">Jumanji</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/pe_jumanji-1995_l_m.jpg</image>
   </programme>
-  <programme start="20261003231300 +0000" stop="20261004011000 +0000" channel="pe#warner">
+  <programme start="20261003225400 +0000" stop="20261004010400 +0000" channel="pe#warner">
     <title lang="es">Jumanji: El siguiente nivel</title>
     <title lang="en">Jumanji: The Next Level</title>
     <category lang="es">Aventura</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_jumanji-el-siguiente-nivel-2019-1_l_m.jpg</image>
   </programme>
-  <programme start="20261004011000 +0000" stop="20261004012000 +0000" channel="pe#warner">
+  <programme start="20261004010400 +0000" stop="20261004011000 +0000" channel="pe#warner">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_hollywood-one-on-one-s00e20_l_m.jpg</image>
+  </programme>
+  <programme start="20261004011000 +0000" stop="20261004011500 +0000" channel="pe#warner">
     <title lang="es">Inside Warner: Digger</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261004012000 +0000" stop="20261004030000 +0000" channel="pe#warner">
+  <programme start="20261004011500 +0000" stop="20261004030000 +0000" channel="pe#warner">
     <title lang="es">El último cazador de brujas</title>
     <title lang="en">The Last Witch Hunter</title>
     <category lang="es">Fantasía</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-ultimo-cazador-de-brujas-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261004030000 +0000" stop="20261004051400 +0000" channel="pe#warner">
+  <programme start="20261004030000 +0000" stop="20261004051800 +0000" channel="pe#warner">
     <title lang="es">Ghostbusters: El legado</title>
     <title lang="en">Ghostbusters: Afterlife</title>
     <category lang="es">Fantasía</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261004051400 +0000" stop="20261004053600 +0000" channel="pe#warner">
+  <programme start="20261004051800 +0000" stop="20261004054100 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La elasticidad de la veracidad</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">9.6.0/1</episode-num>
     <episode-num system="onscreen">S10E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e07-the-veracity-elasticity_l_m.jpg</image>
-  </programme>
-  <programme start="20261004053600 +0000" stop="20261004055600 +0000" channel="pe#warner">
-    <title lang="es">The Big Bang Theory</title>
-    <sub-title lang="es">La incubación del cerebro en un bol</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">9.7.0/1</episode-num>
-    <episode-num system="onscreen">S10E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e08-the-brain-bowl-incubation_l_m.jpg</image>
   </programme>
   <programme start="20261004054100 +0000" stop="20261004060200 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
@@ -52755,13 +52793,13 @@
     <episode-num system="onscreen">S10E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e08-the-brain-bowl-incubation_l_m.jpg</image>
   </programme>
-  <programme start="20261004055600 +0000" stop="20261004065600 +0000" channel="pe#warner">
+  <programme start="20261004054100 +0000" stop="20261004064100 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
-    <sub-title lang="es">La elevación de la geología</sub-title>
+    <sub-title lang="es">La incubación del cerebro en un bol</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">9.8.0/1</episode-num>
-    <episode-num system="onscreen">S10E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e09-the-geology-elevation_l_m.jpg</image>
+    <episode-num system="xmltv_ns">9.7.0/1</episode-num>
+    <episode-num system="onscreen">S10E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/pe_the-big-bang-theory-s10e08-the-brain-bowl-incubation_l_m.jpg</image>
   </programme>
   <programme start="20261004060200 +0000" stop="20261004062300 +0000" channel="pe#warner">
     <title lang="es">The Big Bang Theory</title>
@@ -54435,13 +54473,13 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/pe_la-reina-del-sur_l_m.jpg</image>
   </programme>
-  <programme start="20261004050000 +0000" stop="20261004060000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20261004050000 +0000" stop="20261004100000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
-  <programme start="20261004050000 +0000" stop="20261004100000 +0000" channel="WillaxTV.pe@SD">
+  <programme start="20261004050000 +0000" stop="20261004060000 +0000" channel="WillaxTV.pe@SD">
     <title lang="es">Nutrisa</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
