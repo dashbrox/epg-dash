@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261006160643 +0000">
+<tv generator-info-name="custom-epg" date="20261006224853 +0000">
   <channel id="pe#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -89,9 +89,18 @@
   <channel id="pe#discovery-channel">
     <display-name>Discovery Channel</display-name>
   </channel>
+  <channel id="pe#h2">
+    <display-name>History 2</display-name>
+  </channel>
+  <channel id="pe#golden-edge">
+    <display-name>Golden Edge</display-name>
+  </channel>
   <channel id="DW.de@DeutschPlus">
     <display-name>DW (Español)</display-name>
     <icon src="https://i.imgur.com/MNKkgfa.png"/>
+  </channel>
+  <channel id="pe#golden">
+    <display-name>Golden</display-name>
   </channel>
   <channel id="pe#gol-tv">
     <display-name>GOL TV</display-name>
@@ -190,49 +199,11 @@
   <channel id="pe#espn">
     <display-name>ESPN</display-name>
   </channel>
-  <channel id="NickelodeonLatinAmerica.us@Panregional">
-    <display-name>Nick</display-name>
-    <icon src="https://i.imgur.com/E84jnP8.png"/>
-  </channel>
-  <channel id="pe#nick-jr">
-    <display-name>Nick Jr.</display-name>
-  </channel>
-  <channel id="GlobalTV.pe@SD">
-    <display-name>NexTV</display-name>
-    <icon src="https://i.imgur.com/yuEou9C.png"/>
-  </channel>
-  <channel id="pe#national-geographic">
-    <display-name>National Geographic</display-name>
-  </channel>
-  <channel id="pe#nat-geo-kids">
-    <display-name>Nat Geo Kids</display-name>
-  </channel>
-  <channel id="pe#multipremier">
-    <display-name>Multipremier</display-name>
-  </channel>
-  <channel id="pe#mtv-hits">
-    <display-name>MTV Hits</display-name>
-  </channel>
-  <channel id="MiGenteTV.co@SD">
-    <display-name>Mi Gente TV</display-name>
-    <icon src="https://i.imgur.com/CSbmQlu.png"/>
-  </channel>
-  <channel id="MasChic.ar@Panregional">
-    <display-name>Más Chic</display-name>
-    <icon src="https://i.imgur.com/cJC22gJ.png"/>
-  </channel>
-  <channel id="pe#mariavision">
-    <display-name>Mariavisión</display-name>
-  </channel>
   <channel id="pe#lifetime">
     <display-name>Lifetime</display-name>
   </channel>
   <channel id="pe#las-estrellas">
     <display-name>Las Estrellas</display-name>
-  </channel>
-  <channel id="LaTele.pe@SD">
-    <display-name>La Tele</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png"/>
   </channel>
   <channel id="pe#i-sat">
     <display-name>I.Sat</display-name>
@@ -245,15 +216,6 @@
   </channel>
   <channel id="pe#hbo">
     <display-name>HBO</display-name>
-  </channel>
-  <channel id="pe#h2">
-    <display-name>History 2</display-name>
-  </channel>
-  <channel id="pe#golden-edge">
-    <display-name>Golden Edge</display-name>
-  </channel>
-  <channel id="pe#golden">
-    <display-name>Golden</display-name>
   </channel>
   <channel id="pe#space">
     <display-name>Space</display-name>
@@ -272,6 +234,27 @@
   </channel>
   <channel id="pe#pfc">
     <display-name>PFC</display-name>
+  </channel>
+  <channel id="PanamericanaTV.pe@SD">
+    <display-name>Panamericana TV</display-name>
+    <icon src="https://i.imgur.com/uQhEDES.png"/>
+  </channel>
+  <channel id="NickelodeonLatinAmerica.us@Panregional">
+    <display-name>Nick</display-name>
+    <icon src="https://i.imgur.com/E84jnP8.png"/>
+  </channel>
+  <channel id="pe#nick-jr">
+    <display-name>Nick Jr.</display-name>
+  </channel>
+  <channel id="GlobalTV.pe@SD">
+    <display-name>NexTV</display-name>
+    <icon src="https://i.imgur.com/yuEou9C.png"/>
+  </channel>
+  <channel id="pe#nat-geo-wild">
+    <display-name>National Geographic Wild</display-name>
+  </channel>
+  <channel id="pe#multipremier">
+    <display-name>Multipremier</display-name>
   </channel>
   <channel id="WillaxTV.pe@SD">
     <display-name>Willax</display-name>
@@ -343,8 +326,28 @@
   <channel id="pe#pat">
     <display-name>PAT</display-name>
   </channel>
+  <channel id="pe#nat-geo-kids">
+    <display-name>Nat Geo Kids</display-name>
+  </channel>
+  <channel id="pe#mtv-hits">
+    <display-name>MTV Hits</display-name>
+  </channel>
+  <channel id="MasChic.ar@Panregional">
+    <display-name>Más Chic</display-name>
+    <icon src="https://i.imgur.com/cJC22gJ.png"/>
+  </channel>
+  <channel id="pe#mariavision">
+    <display-name>Mariavisión</display-name>
+  </channel>
+  <channel id="LaTele.pe@SD">
+    <display-name>La Tele</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png"/>
+  </channel>
   <channel id="pe#paramount-channel">
     <display-name>Paramount Network</display-name>
+  </channel>
+  <channel id="pe#national-geographic">
+    <display-name>National Geographic</display-name>
   </channel>
   <channel id="UnitelSantaCruz.bo@SD">
     <display-name>Unitel</display-name>
@@ -352,12 +355,9 @@
   <channel id="pe#tv-agro">
     <display-name>Tv Agro</display-name>
   </channel>
-  <channel id="PanamericanaTV.pe@SD">
-    <display-name>Panamericana TV</display-name>
-    <icon src="https://i.imgur.com/uQhEDES.png"/>
-  </channel>
-  <channel id="pe#nat-geo-wild">
-    <display-name>National Geographic Wild</display-name>
+  <channel id="MiGenteTV.co@SD">
+    <display-name>Mi Gente TV</display-name>
+    <icon src="https://i.imgur.com/CSbmQlu.png"/>
   </channel>
   <channel id="pe#tcm">
     <display-name>TCM</display-name>
@@ -2665,9 +2665,9 @@
     <image>https://cdn.mitvstatic.com/programs/pe_citynoticias-de-las-8_l_m.jpg</image>
   </programme>
   <programme start="20261008044500 +0000" stop="20261008053000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">JGH</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
+    <title lang="es">Programación comercial</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261008053000 +0000" stop="20261008063000 +0000" channel="CitytvBogota.co@SD">
@@ -2776,9 +2776,9 @@
     <image>https://cdn.mitvstatic.com/programs/pe_citynoticias-de-las-8_l_m.jpg</image>
   </programme>
   <programme start="20261009044500 +0000" stop="20261009053000 +0000" channel="CitytvBogota.co@SD">
-    <title lang="es">JGH</title>
-    <title lang="en">Publicidad</title>
-    <category lang="es">Publicidad</category>
+    <title lang="es">Programación comercial</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261009053000 +0000" stop="20261009063000 +0000" channel="CitytvBogota.co@SD">
@@ -3865,10 +3865,9 @@
     <image>https://cdn.mitvstatic.com/programs/pe_nutrisa_l_m.jpg</image>
   </programme>
   <programme start="20261007063000 +0000" stop="20261007073000 +0000" channel="Latina.pe@SD">
-    <title lang="es">El chico de oro</title>
-    <title lang="en">Romántica</title>
-    <category lang="es">Romántica</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="es">Lo que callamos las mujeres</title>
+    <category lang="es">Drama</category>
+    <image>https://cdn.mitvstatic.com/programs/pe_lo-que-callamos-las-mujeres_l_m.jpg</image>
   </programme>
   <programme start="20261007073000 +0000" stop="20261007080000 +0000" channel="Latina.pe@SD">
     <title lang="es">Perdidos de amor</title>
@@ -3876,15 +3875,21 @@
     <category lang="es">Telenovela</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007080000 +0000" stop="20261007090000 +0000" channel="Latina.pe@SD">
-    <title lang="es">Corazón abandonado</title>
+  <programme start="20261007080000 +0000" stop="20261007083000 +0000" channel="Latina.pe@SD">
+    <title lang="es">La luz de mi vida</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007090000 +0000" stop="20261007100000 +0000" channel="Latina.pe@SD">
+  <programme start="20261007083000 +0000" stop="20261007093000 +0000" channel="Latina.pe@SD">
     <title lang="es">Buenas nuevas, malas nuevas</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20261007093000 +0000" stop="20261007100000 +0000" channel="Latina.pe@SD">
+    <title lang="es">Telebrands</title>
+    <title lang="en">Publicidad</title>
+    <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261007100000 +0000" stop="20261007110000 +0000" channel="Latina.pe@SD">
@@ -3923,21 +3928,15 @@
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007210000 +0000" stop="20261007220000 +0000" channel="Latina.pe@SD">
+  <programme start="20261007210000 +0000" stop="20261007223000 +0000" channel="Latina.pe@SD">
     <title lang="es">Las vueltas del amor</title>
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007220000 +0000" stop="20261007223000 +0000" channel="Latina.pe@SD">
-    <title lang="es">Promesa de hermanos</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20261007223000 +0000" stop="20261008010000 +0000" channel="Latina.pe@SD">
     <title lang="es">Circolo vs. Alva</title>
-    <title lang="en">Liga Peruana de Vóley</title>
-    <category lang="es">Liga Peruana de Vóley</category>
+    <title lang="en">Amistosos pre temporada voley</title>
+    <category lang="es">Amistosos pre temporada voley</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20261008010000 +0000" stop="20261008013000 +0000" channel="Latina.pe@SD">
@@ -3946,19 +3945,19 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/pe_latina-noticias-edicion-central_l_m.jpg</image>
   </programme>
-  <programme start="20261008013000 +0000" stop="20261008023000 +0000" channel="Latina.pe@SD">
+  <programme start="20261008013000 +0000" stop="20261008022000 +0000" channel="Latina.pe@SD">
     <title lang="es">Valentina Valiente</title>
     <title lang="en">Telenovela</title>
     <category lang="es">Telenovela</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261008023000 +0000" stop="20261008043000 +0000" channel="Latina.pe@SD">
+  <programme start="20261008022000 +0000" stop="20261008042000 +0000" channel="Latina.pe@SD">
     <title lang="es">Yo soy</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/pe_yo-soy_l_m.jpg</image>
   </programme>
-  <programme start="20261008043000 +0000" stop="20261008050000 +0000" channel="Latina.pe@SD">
+  <programme start="20261008042000 +0000" stop="20261008050000 +0000" channel="Latina.pe@SD">
     <title lang="es">Corazón ajeno</title>
     <title lang="en">Telenovela</title>
     <category lang="es">Telenovela</category>
@@ -4323,7 +4322,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_rectify-s01e03-tiempos-modernos_l_m.jpg</image>
   </programme>
-  <programme start="20261007054000 +0000" stop="20261007063500 +0000" channel="MasChic.ar@Panregional">
+  <programme start="20261007054000 +0000" stop="20261007064000 +0000" channel="MasChic.ar@Panregional">
     <title lang="es">The Walking Dead</title>
     <sub-title lang="es">Silencia a los susurradores</sub-title>
     <category lang="es">Serie</category>
@@ -4331,7 +4330,7 @@
     <episode-num system="onscreen">S10E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_the-walking-dead-s10e04-silence-the-whisperers_l_m.jpg</image>
   </programme>
-  <programme start="20261007054000 +0000" stop="20261007064000 +0000" channel="MasChic.ar@Panregional">
+  <programme start="20261007054000 +0000" stop="20261007063500 +0000" channel="MasChic.ar@Panregional">
     <title lang="es">The Walking Dead</title>
     <sub-title lang="es">Silencia a los susurradores</sub-title>
     <category lang="es">Serie</category>
@@ -4904,12 +4903,12 @@
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/pe_play-list-mi-gente-tv-2_l_m.jpg</image>
   </programme>
-  <programme start="20261007050000 +0000" stop="20261007060000 +0000" channel="MiGenteTV.co@SD">
+  <programme start="20261007050000 +0000" stop="20261007100000 +0000" channel="MiGenteTV.co@SD">
     <title lang="es">Play List - Franjas musicales</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/pe_play-list-franjas-musicales_l_m.jpg</image>
   </programme>
-  <programme start="20261007050000 +0000" stop="20261007100000 +0000" channel="MiGenteTV.co@SD">
+  <programme start="20261007050000 +0000" stop="20261007060000 +0000" channel="MiGenteTV.co@SD">
     <title lang="es">Play List - Franjas musicales</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/pe_play-list-franjas-musicales_l_m.jpg</image>
@@ -5248,13 +5247,13 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007053000 +0000" stop="20261007100000 +0000" channel="PanamericanaTV.pe@SD">
+  <programme start="20261007053000 +0000" stop="20261007063000 +0000" channel="PanamericanaTV.pe@SD">
     <title lang="es">Geoherbal</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007053000 +0000" stop="20261007063000 +0000" channel="PanamericanaTV.pe@SD">
+  <programme start="20261007053000 +0000" stop="20261007100000 +0000" channel="PanamericanaTV.pe@SD">
     <title lang="es">Geoherbal</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
@@ -7474,46 +7473,34 @@
     <category lang="es">Semifinal - Ida</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261006220000 +0000" stop="20261006223000 +0000" channel="pe#america-television">
+  <programme start="20261006220000 +0000" stop="20261006231500 +0000" channel="pe#america-television">
     <title lang="es">El Chavo</title>
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/pe_el-chavo_l_m.jpg</image>
   </programme>
-  <programme start="20261006223000 +0000" stop="20261006230000 +0000" channel="pe#america-television">
+  <programme start="20261006231500 +0000" stop="20261006234500 +0000" channel="pe#america-television">
     <title lang="es">Colombia vs. Perú</title>
     <title lang="en">Previa - Amistoso internacional</title>
     <category lang="es">Previa - Amistoso internacional</category>
     <image>https://cdn.mitvstatic.com/programs/pe_futbol-colombia-vs-peru_l_m.jpg</image>
   </programme>
-  <programme start="20261006230000 +0000" stop="20261007010000 +0000" channel="pe#america-television">
+  <programme start="20261006234500 +0000" stop="20261007014500 +0000" channel="pe#america-television">
     <title lang="es">Colombia vs. Perú</title>
     <title lang="en">Amistoso internacional</title>
     <category lang="es">Amistoso internacional</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261007010000 +0000" stop="20261007025000 +0000" channel="pe#america-television">
+  <programme start="20261007014500 +0000" stop="20261007033000 +0000" channel="pe#america-television">
     <title lang="es">Esto es guerra</title>
     <title lang="en">Reality Show</title>
     <category lang="es">Reality Show</category>
     <image>https://cdn.mitvstatic.com/programs/pe_esto-es-guerra_l_m.jpg</image>
   </programme>
-  <programme start="20261007025000 +0000" stop="20261007030000 +0000" channel="pe#america-television">
+  <programme start="20261007033000 +0000" stop="20261007042000 +0000" channel="pe#america-television">
     <title lang="es">La vida que me robaste</title>
     <title lang="en">Telenovela</title>
     <category lang="es">Telenovela</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261007030000 +0000" stop="20261007040000 +0000" channel="pe#america-television">
-    <title lang="es">La vida que me robaste</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261007040000 +0000" stop="20261007042000 +0000" channel="pe#america-television">
-    <title lang="es">Señora del destino</title>
-    <title lang="en">Telenovela</title>
-    <category lang="es">Telenovela</category>
-    <image>https://cdn.mitvstatic.com/programs/pe_senora-del-destino_l_m.jpg</image>
   </programme>
   <programme start="20261007042000 +0000" stop="20261007050000 +0000" channel="pe#america-television">
     <title lang="es">América noticias - Edición central</title>
@@ -37208,14 +37195,14 @@
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/pe_la-habitacion-azul-2002_l_m.jpg</image>
   </programme>
-  <programme start="20261007053300 +0000" stop="20261007063300 +0000" channel="pe#golden">
+  <programme start="20261007053300 +0000" stop="20261007075600 +0000" channel="pe#golden">
     <title lang="es">El mauritano</title>
     <title lang="en">The Mauritanian</title>
     <category lang="es">Drama</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261007053300 +0000" stop="20261007075600 +0000" channel="pe#golden">
+  <programme start="20261007053300 +0000" stop="20261007063300 +0000" channel="pe#golden">
     <title lang="es">El mauritano</title>
     <title lang="en">The Mauritanian</title>
     <category lang="es">Drama</category>
@@ -38455,13 +38442,13 @@
     <rating><value>4.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261008043300 +0000" stop="20261008070500 +0000" channel="pe#hbo">
+  <programme start="20261008043300 +0000" stop="20261008053300 +0000" channel="pe#hbo">
     <title lang="es">Stray Kids: The dominATE Experience</title>
     <title lang="en">Documental</title>
     <rating><value>8.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261008043300 +0000" stop="20261008053300 +0000" channel="pe#hbo">
+  <programme start="20261008043300 +0000" stop="20261008070500 +0000" channel="pe#hbo">
     <title lang="es">Stray Kids: The dominATE Experience</title>
     <title lang="en">Documental</title>
     <rating><value>8.4</value></rating>
@@ -38784,7 +38771,7 @@
     <episode-num system="onscreen">S15E232</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_alienigenas-ancestrales-s15e232-top-ten-de-piramides_l_m.jpg</image>
   </programme>
-  <programme start="20261007053000 +0000" stop="20261007063000 +0000" channel="pe#history">
+  <programme start="20261007053000 +0000" stop="20261007061500 +0000" channel="pe#history">
     <title lang="es">La evidencia está entre nosotros</title>
     <sub-title lang="es">Dedo de gigante, Pie Grande el 4 de julio y oleada de ovnis</sub-title>
     <category lang="es">Serie</category>
@@ -38792,7 +38779,7 @@
     <episode-num system="onscreen">S05E86</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_la-evidencia-esta-entre-nosotros-s05e86-dedo-de-gigante-pe-grande-no-4-de-julho-e-onda-de-ovnis_l_m.jpg</image>
   </programme>
-  <programme start="20261007053000 +0000" stop="20261007061500 +0000" channel="pe#history">
+  <programme start="20261007053000 +0000" stop="20261007063000 +0000" channel="pe#history">
     <title lang="es">La evidencia está entre nosotros</title>
     <sub-title lang="es">Dedo de gigante, Pie Grande el 4 de julio y oleada de ovnis</sub-title>
     <category lang="es">Serie</category>
@@ -39020,7 +39007,7 @@
     <episode-num system="onscreen">S24E608</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_el-precio-de-la-historia-s24e608-explosion-del-pasado_l_m.jpg</image>
   </programme>
-  <programme start="20261008052500 +0000" stop="20261008061500 +0000" channel="pe#history">
+  <programme start="20261008052500 +0000" stop="20261008062500 +0000" channel="pe#history">
     <title lang="es">Grandes misterios de la historia</title>
     <sub-title lang="es">El jardín del Edén</sub-title>
     <category lang="es">Serie</category>
@@ -39028,7 +39015,7 @@
     <episode-num system="onscreen">S05E51</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_grandes-misterios-de-la-historia-s05e51-el-jardin-del-eden_l_m.jpg</image>
   </programme>
-  <programme start="20261008052500 +0000" stop="20261008062500 +0000" channel="pe#history">
+  <programme start="20261008052500 +0000" stop="20261008061500 +0000" channel="pe#history">
     <title lang="es">Grandes misterios de la historia</title>
     <sub-title lang="es">El jardín del Edén</sub-title>
     <category lang="es">Serie</category>
@@ -39268,13 +39255,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007040000 +0000" stop="20261007050000 +0000" channel="pe#htv">
+  <programme start="20261007040000 +0000" stop="20261007120000 +0000" channel="pe#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007040000 +0000" stop="20261007120000 +0000" channel="pe#htv">
+  <programme start="20261007040000 +0000" stop="20261007050000 +0000" channel="pe#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -39766,13 +39753,13 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261007045900 +0000" stop="20261007062900 +0000" channel="pe#lifetime">
+  <programme start="20261007045900 +0000" stop="20261007055900 +0000" channel="pe#lifetime">
     <title lang="es">A Roommate to Die For</title>
     <title lang="en">Drama</title>
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261007045900 +0000" stop="20261007055900 +0000" channel="pe#lifetime">
+  <programme start="20261007045900 +0000" stop="20261007062900 +0000" channel="pe#lifetime">
     <title lang="es">A Roommate to Die For</title>
     <title lang="en">Drama</title>
     <rating><value>5.6</value></rating>
@@ -39903,14 +39890,14 @@
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_corre-por-tu-vida-2014_l_m.jpg</image>
   </programme>
-  <programme start="20261008050000 +0000" stop="20261008060000 +0000" channel="pe#lifetime">
+  <programme start="20261008050000 +0000" stop="20261008063200 +0000" channel="pe#lifetime">
     <title lang="es">Perfil de un asesino</title>
     <title lang="en">Profile for Murder</title>
     <category lang="es">Drama</category>
     <rating><value>4.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_perfil-de-un-asesino-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261008050000 +0000" stop="20261008063200 +0000" channel="pe#lifetime">
+  <programme start="20261008050000 +0000" stop="20261008060000 +0000" channel="pe#lifetime">
     <title lang="es">Perfil de un asesino</title>
     <title lang="en">Profile for Murder</title>
     <category lang="es">Drama</category>
@@ -40545,14 +40532,14 @@
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/pe_colosal-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261007050000 +0000" stop="20261007065500 +0000" channel="pe#multipremier">
+  <programme start="20261007050000 +0000" stop="20261007060000 +0000" channel="pe#multipremier">
     <title lang="es">Cómo satisfacer a una mujer</title>
     <title lang="en">How to Please a Woman</title>
     <category lang="es">Comedia</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261007050000 +0000" stop="20261007060000 +0000" channel="pe#multipremier">
+  <programme start="20261007050000 +0000" stop="20261007065500 +0000" channel="pe#multipremier">
     <title lang="es">Cómo satisfacer a una mujer</title>
     <title lang="en">How to Please a Woman</title>
     <category lang="es">Comedia</category>
@@ -40635,14 +40622,14 @@
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261008044500 +0000" stop="20261008054500 +0000" channel="pe#multipremier">
+  <programme start="20261008044500 +0000" stop="20261008065500 +0000" channel="pe#multipremier">
     <title lang="es">Algo bonito para variar</title>
     <title lang="en">Einfach mal was Schönes</title>
     <category lang="es">Comedia</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261008044500 +0000" stop="20261008065500 +0000" channel="pe#multipremier">
+  <programme start="20261008044500 +0000" stop="20261008054500 +0000" channel="pe#multipremier">
     <title lang="es">Algo bonito para variar</title>
     <title lang="en">Einfach mal was Schönes</title>
     <category lang="es">Comedia</category>
@@ -41155,7 +41142,7 @@
     <episode-num system="onscreen">S24E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_mayday-catastrofes-aereas-s24e06-volar-para-sobrevivir_l_m.jpg</image>
   </programme>
-  <programme start="20261008054700 +0000" stop="20261008063400 +0000" channel="pe#national-geographic">
+  <programme start="20261008054700 +0000" stop="20261008064700 +0000" channel="pe#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">El último barco de esclavos</sub-title>
     <category lang="es">Serie</category>
@@ -41163,7 +41150,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/pe_secreto-en-los-oceanos-s03e06-el-ultimo-barco-de-esclavos_l_m.jpg</image>
   </programme>
-  <programme start="20261008054700 +0000" stop="20261008064700 +0000" channel="pe#national-geographic">
+  <programme start="20261008054700 +0000" stop="20261008063400 +0000" channel="pe#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">El último barco de esclavos</sub-title>
     <category lang="es">Serie</category>
@@ -41921,7 +41908,7 @@
     <episode-num system="onscreen">S02E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261007055500 +0000" stop="20261007061500 +0000" channel="pe#nick-jr">
+  <programme start="20261007055500 +0000" stop="20261007065500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
     <sub-title lang="es">Paisajes de papel / Vaquera</sub-title>
     <category lang="es">Serie</category>
@@ -41929,7 +41916,7 @@
     <episode-num system="onscreen">S02E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261007055500 +0000" stop="20261007065500 +0000" channel="pe#nick-jr">
+  <programme start="20261007055500 +0000" stop="20261007061500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
     <sub-title lang="es">Paisajes de papel / Vaquera</sub-title>
     <category lang="es">Serie</category>
@@ -42473,7 +42460,7 @@
     <episode-num system="onscreen">S02E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261008055500 +0000" stop="20261008061500 +0000" channel="pe#nick-jr">
+  <programme start="20261008055500 +0000" stop="20261008065500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
     <sub-title lang="es">Ya no soy un bebé / Roboxman</sub-title>
     <category lang="es">Serie</category>
@@ -42481,7 +42468,7 @@
     <episode-num system="onscreen">S02E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261008055500 +0000" stop="20261008065500 +0000" channel="pe#nick-jr">
+  <programme start="20261008055500 +0000" stop="20261008061500 +0000" channel="pe#nick-jr">
     <title lang="es">Barbapapá</title>
     <sub-title lang="es">Ya no soy un bebé / Roboxman</sub-title>
     <category lang="es">Serie</category>
@@ -43147,13 +43134,13 @@
     <category lang="es">Facetas deportivas</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261007041500 +0000" stop="20261007051500 +0000" channel="pe#pat">
+  <programme start="20261007041500 +0000" stop="20261007110000 +0000" channel="pe#pat">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/pe_fin-de-transmision_l_m.jpg</image>
   </programme>
-  <programme start="20261007041500 +0000" stop="20261007110000 +0000" channel="pe#pat">
+  <programme start="20261007041500 +0000" stop="20261007051500 +0000" channel="pe#pat">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -43429,13 +43416,13 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007050000 +0000" stop="20261007060000 +0000" channel="pe#rbc">
+  <programme start="20261007050000 +0000" stop="20261007090000 +0000" channel="pe#rbc">
     <title lang="es">Canal 11</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261007050000 +0000" stop="20261007090000 +0000" channel="pe#rbc">
+  <programme start="20261007050000 +0000" stop="20261007060000 +0000" channel="pe#rbc">
     <title lang="es">Canal 11</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
