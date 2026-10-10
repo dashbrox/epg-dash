@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261010172634 +0000">
+<tv generator-info-name="custom-epg" date="20261010215459 +0000">
   <channel id="co#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="co#zoom">
-    <display-name>Zoom</display-name>
+  <channel id="co#a-e-mundo-hd">
+    <display-name>A&amp;E Mundo HD</display-name>
   </channel>
-  <channel id="WinSports.co@SD">
-    <display-name>Win Sports HD</display-name>
-    <icon src="https://i.imgur.com/DuSSrHV.png"/>
+  <channel id="AlientoVision.us@SD">
+    <display-name>Aliento Vision</display-name>
+    <icon src="https://i.imgur.com/h5EWT2n.png"/>
   </channel>
-  <channel id="co#win-sports">
-    <display-name>Win Sports</display-name>
+  <channel id="co#amc-hd">
+    <display-name>AMC HD</display-name>
+  </channel>
+  <channel id="co#amc">
+    <display-name>AMC</display-name>
   </channel>
   <channel id="co#warner">
     <display-name>Warner Channel</display-name>
@@ -679,18 +682,15 @@
   <channel id="co#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="co#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="co#zoom">
+    <display-name>Zoom</display-name>
   </channel>
-  <channel id="co#amc">
-    <display-name>AMC</display-name>
+  <channel id="WinSports.co@SD">
+    <display-name>Win Sports HD</display-name>
+    <icon src="https://i.imgur.com/DuSSrHV.png"/>
   </channel>
-  <channel id="AlientoVision.us@SD">
-    <display-name>Aliento Vision</display-name>
-    <icon src="https://i.imgur.com/h5EWT2n.png"/>
-  </channel>
-  <channel id="co#a-e-mundo-hd">
-    <display-name>A&amp;E Mundo HD</display-name>
+  <channel id="co#win-sports">
+    <display-name>Win Sports</display-name>
   </channel>
   <programme start="20261010060000 +0000" stop="20261010063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Club 700 hoy</title>
@@ -1112,12 +1112,18 @@
     <image>https://cdn.mitvstatic.com/programs/co_club-700-hoy_l_m.jpg</image>
   </programme>
   <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Catedral de la Fe</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_catedral-de-la-fe-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En forma</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_en-forma_l_m.jpg</image>
   </programme>
-  <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20261012063000 +0000" stop="20261012070000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Catedral de la Fe</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -1129,26 +1135,14 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_los-pasos-del-maestro_l_m.jpg</image>
   </programme>
-  <programme start="20261012063000 +0000" stop="20261012070000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Catedral de la Fe</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_catedral-de-la-fe-1_l_m.jpg</image>
-  </programme>
-  <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Milagros hoy</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">The Torchlighters</title>
     <title lang="en">Infantil</title>
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012073000 +0000" stop="20261012080000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Transformando familias</title>
+  <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Milagros hoy</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -1159,11 +1153,11 @@
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/co_super-libro-1_l_m.jpg</image>
   </programme>
-  <programme start="20261012080000 +0000" stop="20261012090000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Aliento de vida</title>
+  <programme start="20261012073000 +0000" stop="20261012080000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Transformando familias</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012080000 +0000" stop="20261012083000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Tu nueva vida</title>
@@ -1171,13 +1165,13 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012083000 +0000" stop="20261012090000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Tu nueva vida</title>
+  <programme start="20261012080000 +0000" stop="20261012090000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20261012090000 +0000" stop="20261012100000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20261012083000 +0000" stop="20261012090000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Tu nueva vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -1189,6 +1183,12 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_en-defensa-de-la-fe-1_l_m.jpg</image>
   </programme>
+  <programme start="20261012090000 +0000" stop="20261012100000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Tu nueva vida</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20261012093000 +0000" stop="20261012100000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En defensa de la Fe</title>
     <title lang="en">Religioso</title>
@@ -1196,22 +1196,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_en-defensa-de-la-fe-1_l_m.jpg</image>
   </programme>
   <programme start="20261012100000 +0000" stop="20261012103000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Restauración espiritual</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_restauracion-espiritual-1_l_m.jpg</image>
-  </programme>
-  <programme start="20261012100000 +0000" stop="20261012103000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Journal Noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Lectura pública de la Biblia</title>
+  <programme start="20261012100000 +0000" stop="20261012103000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Restauración espiritual</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_restauracion-espiritual-1_l_m.jpg</image>
   </programme>
   <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
@@ -1219,13 +1213,24 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
   </programme>
+  <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Lectura pública de la Biblia</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20261012110000 +0000" stop="20261012113000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Cine de Aliento Visión</title>
+    <category lang="es">Película</category>
+    <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
+  </programme>
   <programme start="20261012110000 +0000" stop="20261012113000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20261012110000 +0000" stop="20261012113000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20261012113000 +0000" stop="20261012120000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Cine de Aliento Visión</title>
     <category lang="es">Película</category>
     <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
@@ -1236,24 +1241,13 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20261012113000 +0000" stop="20261012120000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Cine de Aliento Visión</title>
-    <category lang="es">Película</category>
-    <image>https://cdn.mitvstatic.com/programs/co_cine-de-aliento-vision-1_l_m.jpg</image>
-  </programme>
-  <programme start="20261012120000 +0000" stop="20261012123000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Tiempo de oración</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-oracion_l_m.jpg</image>
-  </programme>
   <programme start="20261012120000 +0000" stop="20261012123000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20261012123000 +0000" stop="20261013010000 +0000" channel="AlientoVision.us@SD">
+  <programme start="20261012120000 +0000" stop="20261012123000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Tiempo de oración</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
@@ -1265,11 +1259,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20261013010000 +0000" stop="20261013013000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Reflexión espiritual</title>
+  <programme start="20261012123000 +0000" stop="20261013010000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Tiempo de oración</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_reflexion-espiritual-1_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-oracion_l_m.jpg</image>
   </programme>
   <programme start="20261013010000 +0000" stop="20261013013000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Milagros hoy</title>
@@ -1277,22 +1271,22 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">The Torchlighters</title>
-    <title lang="en">Infantil</title>
-    <category lang="es">Infantil</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20261013010000 +0000" stop="20261013013000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Reflexión espiritual</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_reflexion-espiritual-1_l_m.jpg</image>
   </programme>
   <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Música</title>
     <category lang="es">Musical</category>
     <image>https://cdn.mitvstatic.com/programs/co_musica_l_m.jpg</image>
   </programme>
-  <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Aliento de vida</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
+  <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">The Torchlighters</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
@@ -1300,11 +1294,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
-  <programme start="20261013023000 +0000" stop="20261013030000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Ciencia, diseño y creación</title>
+  <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ciencia-diseno-y-creacion_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
   </programme>
   <programme start="20261013023000 +0000" stop="20261013030000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Journal Noticias</title>
@@ -1312,6 +1306,12 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_journal-noticias_l_m.jpg</image>
   </programme>
+  <programme start="20261013023000 +0000" stop="20261013030000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Ciencia, diseño y creación</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ciencia-diseno-y-creacion_l_m.jpg</image>
+  </programme>
   <programme start="20261013030000 +0000" stop="20261013033000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
     <title lang="en">Religioso</title>
@@ -1323,6 +1323,12 @@
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
+  </programme>
+  <programme start="20261013033000 +0000" stop="20261013040000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Billy Graham Classics</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261013033000 +0000" stop="20261013040000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">En forma</title>
@@ -1330,12 +1336,6 @@
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_en-forma_l_m.jpg</image>
   </programme>
-  <programme start="20261013033000 +0000" stop="20261013040000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Billy Graham Classics</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
   <programme start="20261013040000 +0000" stop="20261013043000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Vida dura</title>
     <title lang="en">Religioso</title>
@@ -1347,12 +1347,6 @@
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_vida-dura_l_m.jpg</image>
-  </programme>
-  <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Lectura pública de la Biblia</title>
-    <title lang="en">Religioso</title>
-    <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Mundo cristiano</title>
@@ -1360,11 +1354,11 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_mundo-cristiano_l_m.jpg</image>
   </programme>
-  <programme start="20261013050000 +0000" stop="20261013053000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Viviendo con sentido común</title>
+  <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Lectura pública de la Biblia</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_viviendo-con-sentido-comun_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261013050000 +0000" stop="20261013053000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Billy Graham Classics</title>
@@ -1372,17 +1366,23 @@
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261013053000 +0000" stop="20261013060000 +0000" channel="AlientoVision.us@SD">
-    <title lang="es">Tiempo de Dios</title>
+  <programme start="20261013050000 +0000" stop="20261013053000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Viviendo con sentido común</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
-    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-dios_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_viviendo-con-sentido-comun_l_m.jpg</image>
   </programme>
   <programme start="20261013053000 +0000" stop="20261013063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/co_aliento-de-vida_l_m.jpg</image>
+  </programme>
+  <programme start="20261013053000 +0000" stop="20261013060000 +0000" channel="AlientoVision.us@SD">
+    <title lang="es">Tiempo de Dios</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/co_tiempo-de-dios_l_m.jpg</image>
   </programme>
   <programme start="20261013060000 +0000" stop="20261013063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Aliento de vida</title>
@@ -4427,7 +4427,7 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/co_las-detectivas-y-el-victor_l_m.jpg</image>
   </programme>
-  <programme start="20261011080000 +0000" stop="20261011100000 +0000" channel="CanalRCN.co@SD">
+  <programme start="20261011080000 +0000" stop="20261011085000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">RCN Noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -4438,6 +4438,12 @@
     <title lang="en">Acción</title>
     <rating><value>4.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/co_nadie-sabe-para-quien-trabaja-2017_l_m.jpg</image>
+  </programme>
+  <programme start="20261011085000 +0000" stop="20261011100000 +0000" channel="CanalRCN.co@SD">
+    <title lang="es">Cierre de transmisión</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/co_cierre-de-transmision_l_m.jpg</image>
   </programme>
   <programme start="20261011100000 +0000" stop="20261011110000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">El Chavo animado</title>
@@ -4525,7 +4531,7 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/co_las-detectivas-y-el-victor_l_m.jpg</image>
   </programme>
-  <programme start="20261012080000 +0000" stop="20261012100000 +0000" channel="CanalRCN.co@SD">
+  <programme start="20261012080000 +0000" stop="20261012085000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">RCN Noticias</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
@@ -4536,6 +4542,12 @@
     <title lang="en">Drama</title>
     <rating><value>5.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20261012085000 +0000" stop="20261012100000 +0000" channel="CanalRCN.co@SD">
+    <title lang="es">Cierre de transmisión</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/co_cierre-de-transmision_l_m.jpg</image>
   </programme>
   <programme start="20261012100000 +0000" stop="20261012110000 +0000" channel="CanalRCN.co@SD">
     <title lang="es">Noticiero Alerta</title>
@@ -7897,18 +7909,18 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
   </programme>
-  <programme start="20261012010000 +0000" stop="20261012025500 +0000" channel="co#amc-hd">
-    <title lang="es">Dura de ligar</title>
-    <title lang="en">Management</title>
-    <category lang="es">Comedia</category>
-    <rating><value>5.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
-  </programme>
   <programme start="20261012010000 +0000" stop="20261012025000 +0000" channel="co#amc-hd">
     <title lang="es">Alice</title>
     <title lang="en">Subservience</title>
     <category lang="es">C.Ficción</category>
     <rating><value>5.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20261012010000 +0000" stop="20261012025500 +0000" channel="co#amc-hd">
+    <title lang="es">Dura de ligar</title>
+    <title lang="en">Management</title>
+    <category lang="es">Comedia</category>
+    <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
   <programme start="20261012025000 +0000" stop="20261012045500 +0000" channel="co#amc-hd">
@@ -82508,17 +82520,17 @@
     <category lang="es">Copa Tierra Pijao</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="co#win-sports">
-    <title lang="es">Jaguares FC vs. Deportes Tolima</title>
-    <title lang="en">Fecha 14, Estadio Jaraguay</title>
-    <category lang="es">Fecha 14, Estadio Jaraguay</category>
-    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
-  </programme>
   <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="co#win-sports">
     <title lang="es">Post - Torneo BetPlay Dimayor</title>
     <title lang="en">Post - Torneo BetPlay Dimayor</title>
     <category lang="es">Post - Torneo BetPlay Dimayor</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-post-torneo-betplay-dimayor-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="co#win-sports">
+    <title lang="es">Jaguares FC vs. Deportes Tolima</title>
+    <title lang="en">Fecha 14, Estadio Jaraguay</title>
+    <category lang="es">Fecha 14, Estadio Jaraguay</category>
+    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
   <programme start="20261012073000 +0000" stop="20261012083000 +0000" channel="co#win-sports">
     <title lang="es">Win Noticias</title>
@@ -82544,17 +82556,17 @@
     <category lang="es">Fecha 14, Santiago de las Atalayas</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20261012103000 +0000" stop="20261012120000 +0000" channel="co#win-sports">
-    <title lang="es">Mucho + Fútbol</title>
-    <title lang="en">Mucho + Fútbol</title>
-    <category lang="es">Mucho + Fútbol</category>
-    <image>https://cdn.mitvstatic.com/programs/co_futbol-mucho-futbol_l_m.jpg</image>
-  </programme>
   <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="co#win-sports">
     <title lang="es">Boyacá Chicó vs. Cúcuta Deportivo</title>
     <title lang="en">Fecha 14, Estadio La Independencia</title>
     <category lang="es">Fecha 14, Estadio La Independencia</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20261012103000 +0000" stop="20261012120000 +0000" channel="co#win-sports">
+    <title lang="es">Mucho + Fútbol</title>
+    <title lang="en">Mucho + Fútbol</title>
+    <category lang="es">Mucho + Fútbol</category>
+    <image>https://cdn.mitvstatic.com/programs/co_futbol-mucho-futbol_l_m.jpg</image>
   </programme>
   <programme start="20261012110000 +0000" stop="20261013010000 +0000" channel="co#win-sports">
     <title lang="es">Boyacá Chicó vs. Cúcuta Deportivo</title>
@@ -82568,18 +82580,18 @@
     <category lang="es">Planeta fútbol</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261013010000 +0000" stop="20261013030000 +0000" channel="co#win-sports">
-    <title lang="es">Final</title>
-    <title lang="en">Torneo de Las Américas</title>
-    <category lang="es">Torneo de Las Américas</category>
-    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
-  </programme>
   <programme start="20261013010000 +0000" stop="20261013020000 +0000" channel="co#win-sports">
     <title lang="es">Primer Campeón</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013030000 +0000" channel="co#win-sports">
+    <title lang="es">Final</title>
+    <title lang="en">Torneo de Las Américas</title>
+    <category lang="es">Torneo de Las Américas</category>
+    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
   <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="co#win-sports">
     <title lang="es">Primer Campeón</title>
@@ -82607,17 +82619,17 @@
     <category lang="es">Lo mejor de la fecha</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-lo-mejor-de-la-fecha_l_m.jpg</image>
   </programme>
-  <programme start="20261013050000 +0000" stop="20261013070000 +0000" channel="co#win-sports">
-    <title lang="es">Final</title>
-    <title lang="en">Torneo de Las Américas</title>
-    <category lang="es">Torneo de Las Américas</category>
-    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
-  </programme>
   <programme start="20261013050000 +0000" stop="20261013060000 +0000" channel="co#win-sports">
     <title lang="es">El chiringuito de Jugones</title>
     <title lang="en">El chiringuito de Jugones</title>
     <category lang="es">El chiringuito de Jugones</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-el-chiringuito-de-jugones_l_m.jpg</image>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013070000 +0000" channel="co#win-sports">
+    <title lang="es">Final</title>
+    <title lang="en">Torneo de Las Américas</title>
+    <category lang="es">Torneo de Las Américas</category>
+    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
   <programme start="20261013070000 +0000" stop="20261013083000 +0000" channel="co#win-sports">
     <title lang="es">Win Noticias</title>
@@ -83050,19 +83062,13 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="co#zoom">
-    <title lang="es">Valor argentino</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
-  <programme start="20261012063000 +0000" stop="20261012070000 +0000" channel="co#zoom">
-    <title lang="es">México biocultural</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
+  <programme start="20261012060000 +0000" stop="20261012063000 +0000" channel="co#zoom">
+    <title lang="es">Valor argentino</title>
+    <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012063000 +0000" stop="20261012070000 +0000" channel="co#zoom">
@@ -83071,25 +83077,25 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="co#zoom">
-    <title lang="es">NCC Salud</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
+  <programme start="20261012063000 +0000" stop="20261012070000 +0000" channel="co#zoom">
+    <title lang="es">México biocultural</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012070000 +0000" stop="20261012080000 +0000" channel="co#zoom">
     <title lang="es">Agua, aire, tierra, fuego - Cartografía del conflicto ambiental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
+  <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="co#zoom">
+    <title lang="es">NCC Salud</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
+  </programme>
   <programme start="20261012073000 +0000" stop="20261012080000 +0000" channel="co#zoom">
     <title lang="es">Vive la vida</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261012080000 +0000" stop="20261012083000 +0000" channel="co#zoom">
-    <title lang="es">Global Es</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -83100,6 +83106,12 @@
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
+  <programme start="20261012080000 +0000" stop="20261012083000 +0000" channel="co#zoom">
+    <title lang="es">Global Es</title>
+    <title lang="en">Magazine</title>
+    <category lang="es">Magazine</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20261012081500 +0000" stop="20261012083000 +0000" channel="co#zoom">
     <title lang="es">Ecos de gigantes</title>
     <title lang="en">Educativo</title>
@@ -83107,14 +83119,20 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012083000 +0000" stop="20261012090000 +0000" channel="co#zoom">
+    <title lang="es">Otra excursión a los indios Ranqueles</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_otra-excursion-a-los-indios-ranqueles_l_m.jpg</image>
+  </programme>
+  <programme start="20261012083000 +0000" stop="20261012090000 +0000" channel="co#zoom">
     <title lang="es">Fuerza latina</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
   </programme>
-  <programme start="20261012083000 +0000" stop="20261012090000 +0000" channel="co#zoom">
-    <title lang="es">Otra excursión a los indios Ranqueles</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_otra-excursion-a-los-indios-ranqueles_l_m.jpg</image>
+  <programme start="20261012090000 +0000" stop="20261012100000 +0000" channel="co#zoom">
+    <title lang="es">Microbios al aire</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012090000 +0000" stop="20261012100000 +0000" channel="co#zoom">
     <title lang="es">Foros Andina Link 2026</title>
@@ -83122,8 +83140,8 @@
     <category lang="es">Tecnología</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012090000 +0000" stop="20261012100000 +0000" channel="co#zoom">
-    <title lang="es">Microbios al aire</title>
+  <programme start="20261012100000 +0000" stop="20261012101000 +0000" channel="co#zoom">
+    <title lang="es">Región U</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
@@ -83132,12 +83150,6 @@
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
-  </programme>
-  <programme start="20261012100000 +0000" stop="20261012101000 +0000" channel="co#zoom">
-    <title lang="es">Región U</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012101000 +0000" stop="20261012101500 +0000" channel="co#zoom">
     <title lang="es">Este es mi cuento colombiano</title>
@@ -83152,20 +83164,15 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="co#zoom">
-    <title lang="es">La raíz doble. Sabores periféricos</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="co#zoom">
     <title lang="es">¡Escápate!</title>
     <title lang="en">Turismo</title>
     <category lang="es">Turismo</category>
     <image>https://cdn.mitvstatic.com/programs/co_escapate-1_l_m.jpg</image>
   </programme>
-  <programme start="20261012110000 +0000" stop="20261012120000 +0000" channel="co#zoom">
-    <title lang="es">Agua, aire, tierra, fuego - Cartografía del conflicto ambiental</title>
-    <category lang="es">Documental</category>
+  <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="co#zoom">
+    <title lang="es">La raíz doble. Sabores periféricos</title>
+    <title lang="en">Cultural</title>
+    <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261012110000 +0000" stop="20261012113000 +0000" channel="co#zoom">
@@ -83173,22 +83180,27 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_con-olor-a-region_l_m.jpg</image>
   </programme>
+  <programme start="20261012110000 +0000" stop="20261012120000 +0000" channel="co#zoom">
+    <title lang="es">Agua, aire, tierra, fuego - Cartografía del conflicto ambiental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20261012113000 +0000" stop="20261012120000 +0000" channel="co#zoom">
     <title lang="es">Eco Latinoamérica</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_eco-latinoamerica_l_m.jpg</image>
   </programme>
+  <programme start="20261012120000 +0000" stop="20261012124500 +0000" channel="co#zoom">
+    <title lang="es">Hablemos de cine</title>
+    <category lang="es">Cine</category>
+    <image>https://cdn.mitvstatic.com/programs/co_hablemos-de-cine_l_m.jpg</image>
+  </programme>
   <programme start="20261012120000 +0000" stop="20261012121500 +0000" channel="co#zoom">
     <title lang="es">Iberoamérica en órbita - Noticiero</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261012120000 +0000" stop="20261012124500 +0000" channel="co#zoom">
-    <title lang="es">Hablemos de cine</title>
-    <category lang="es">Cine</category>
-    <image>https://cdn.mitvstatic.com/programs/co_hablemos-de-cine_l_m.jpg</image>
   </programme>
   <programme start="20261012121500 +0000" stop="20261012123000 +0000" channel="co#zoom">
     <title lang="es">Ecos de gigantes</title>
@@ -83217,30 +83229,25 @@
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
-  </programme>
-  <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="co#zoom">
     <title lang="es">Estación universitaria</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
+  <programme start="20261013013000 +0000" stop="20261013020000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
+  <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="co#zoom">
+    <title lang="es">Rodando caminos</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
+  </programme>
   <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="co#zoom">
     <title lang="es">Valor argentino</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
-  </programme>
-  <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="co#zoom">
-    <title lang="es">Rodando caminos</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
-  </programme>
-  <programme start="20261013023000 +0000" stop="20261013030000 +0000" channel="co#zoom">
-    <title lang="es">Rodando caminos</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
   </programme>
   <programme start="20261013023000 +0000" stop="20261013030000 +0000" channel="co#zoom">
     <title lang="es">México biocultural</title>
@@ -83248,22 +83255,21 @@
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261013030000 +0000" stop="20261013033000 +0000" channel="co#zoom">
-    <title lang="es">NCC Salud</title>
-    <title lang="en">Salud</title>
-    <category lang="es">Salud</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
+  <programme start="20261013023000 +0000" stop="20261013030000 +0000" channel="co#zoom">
+    <title lang="es">Rodando caminos</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
   </programme>
   <programme start="20261013030000 +0000" stop="20261013033000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
-  <programme start="20261013033000 +0000" stop="20261013040000 +0000" channel="co#zoom">
-    <title lang="es">Visión futuro</title>
-    <title lang="en">Educativo</title>
-    <category lang="es">Educativo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_vision-futuro_l_m.jpg</image>
+  <programme start="20261013030000 +0000" stop="20261013033000 +0000" channel="co#zoom">
+    <title lang="es">NCC Salud</title>
+    <title lang="en">Salud</title>
+    <category lang="es">Salud</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
   </programme>
   <programme start="20261013033000 +0000" stop="20261013040000 +0000" channel="co#zoom">
     <title lang="es">Testigo directo</title>
@@ -83271,23 +83277,24 @@
     <category lang="es">Periodístico</category>
     <image>https://cdn.mitvstatic.com/programs/co_testigo-directo_l_m.jpg</image>
   </programme>
-  <programme start="20261013040000 +0000" stop="20261013043000 +0000" channel="co#zoom">
-    <title lang="es">Global Es</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20261013033000 +0000" stop="20261013040000 +0000" channel="co#zoom">
+    <title lang="es">Visión futuro</title>
+    <title lang="en">Educativo</title>
+    <category lang="es">Educativo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_vision-futuro_l_m.jpg</image>
   </programme>
   <programme start="20261013040000 +0000" stop="20261013050000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
-  <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  <programme start="20261013040000 +0000" stop="20261013043000 +0000" channel="co#zoom">
+    <title lang="es">Global Es</title>
+    <title lang="en">Magazine</title>
+    <category lang="es">Magazine</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261013050000 +0000" stop="20261013053000 +0000" channel="co#zoom">
+  <programme start="20261013043000 +0000" stop="20261013050000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
@@ -83297,6 +83304,11 @@
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013053000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20261013053000 +0000" stop="20261013063000 +0000" channel="co#zoom">
     <title lang="es">Encuadre Iberoamericano</title>
@@ -97014,17 +97026,17 @@
     <category lang="es">Copa Tierra Pijao</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Jaguares FC vs. Deportes Tolima</title>
-    <title lang="en">Fecha 14, Estadio Jaraguay</title>
-    <category lang="es">Fecha 14, Estadio Jaraguay</category>
-    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
-  </programme>
   <programme start="20261012070000 +0000" stop="20261012073000 +0000" channel="WinSports.co@SD">
     <title lang="es">Post - Torneo BetPlay Dimayor</title>
     <title lang="en">Post - Torneo BetPlay Dimayor</title>
     <category lang="es">Post - Torneo BetPlay Dimayor</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-post-torneo-betplay-dimayor-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261012070000 +0000" stop="20261012090000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Jaguares FC vs. Deportes Tolima</title>
+    <title lang="en">Fecha 14, Estadio Jaraguay</title>
+    <category lang="es">Fecha 14, Estadio Jaraguay</category>
+    <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
   <programme start="20261012073000 +0000" stop="20261012083000 +0000" channel="WinSports.co@SD">
     <title lang="es">Win Noticias</title>
@@ -97050,17 +97062,17 @@
     <category lang="es">Fecha 14, Santiago de las Atalayas</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20261012103000 +0000" stop="20261012120000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Mucho + Fútbol</title>
-    <title lang="en">Mucho + Fútbol</title>
-    <category lang="es">Mucho + Fútbol</category>
-    <image>https://cdn.mitvstatic.com/programs/co_futbol-mucho-futbol_l_m.jpg</image>
-  </programme>
   <programme start="20261012103000 +0000" stop="20261012110000 +0000" channel="WinSports.co@SD">
     <title lang="es">Boyacá Chicó vs. Cúcuta Deportivo</title>
     <title lang="en">Fecha 14, Estadio La Independencia</title>
     <category lang="es">Fecha 14, Estadio La Independencia</category>
     <image>https://cdn.mitvstatic.com/tags/co_futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20261012103000 +0000" stop="20261012120000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Mucho + Fútbol</title>
+    <title lang="en">Mucho + Fútbol</title>
+    <category lang="es">Mucho + Fútbol</category>
+    <image>https://cdn.mitvstatic.com/programs/co_futbol-mucho-futbol_l_m.jpg</image>
   </programme>
   <programme start="20261012110000 +0000" stop="20261013010000 +0000" channel="WinSports.co@SD">
     <title lang="es">Boyacá Chicó vs. Cúcuta Deportivo</title>
@@ -97074,18 +97086,18 @@
     <category lang="es">Planeta fútbol</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261013010000 +0000" stop="20261013030000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Final</title>
-    <title lang="en">Torneo de Las Américas</title>
-    <category lang="es">Torneo de Las Américas</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
   <programme start="20261013010000 +0000" stop="20261013020000 +0000" channel="WinSports.co@SD">
     <title lang="es">Primer Campeón</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261013010000 +0000" stop="20261013030000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Final</title>
+    <title lang="en">Torneo de Las Américas</title>
+    <category lang="es">Torneo de Las Américas</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20261013020000 +0000" stop="20261013023000 +0000" channel="WinSports.co@SD">
     <title lang="es">Primer Campeón</title>
@@ -97113,17 +97125,17 @@
     <category lang="es">Lo mejor de la fecha</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-lo-mejor-de-la-fecha_l_m.jpg</image>
   </programme>
-  <programme start="20261013050000 +0000" stop="20261013070000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Final</title>
-    <title lang="en">Torneo de Las Américas</title>
-    <category lang="es">Torneo de Las Américas</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
-  </programme>
   <programme start="20261013050000 +0000" stop="20261013060000 +0000" channel="WinSports.co@SD">
     <title lang="es">El chiringuito de Jugones</title>
     <title lang="en">El chiringuito de Jugones</title>
     <category lang="es">El chiringuito de Jugones</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-el-chiringuito-de-jugones_l_m.jpg</image>
+  </programme>
+  <programme start="20261013050000 +0000" stop="20261013070000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Final</title>
+    <title lang="en">Torneo de Las Américas</title>
+    <category lang="es">Torneo de Las Américas</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
   <programme start="20261013070000 +0000" stop="20261013083000 +0000" channel="WinSports.co@SD">
     <title lang="es">Win Noticias</title>
