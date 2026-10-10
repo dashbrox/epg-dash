@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261010010226 +0000">
+<tv generator-info-name="custom-epg" date="20261010100536 +0000">
   <channel id="mx#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
-  <channel id="mx#a-plus">
-    <display-name>A+</display-name>
+  <channel id="mx#xh-gc-canal-5-hd">
+    <display-name>Canal 5 HD</display-name>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="Canal5.mx@SD">
+    <display-name>Canal 5</display-name>
+    <icon src="https://i.imgur.com/uZdVSoW.png"/>
   </channel>
-  <channel id="mx#animal-planet">
-    <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="mx#amc-hd">
-    <display-name>AMC HD</display-name>
+  <channel id="XEIPNTDT.mx@SD">
+    <display-name>Canal Once</display-name>
+    <icon src="https://i.imgur.com/K0351vF.png"/>
   </channel>
   <channel id="WOBI.ar@SD">
     <display-name>WOBI TV</display-name>
@@ -377,16 +375,18 @@
   <channel id="mx#axn">
     <display-name>AXN</display-name>
   </channel>
-  <channel id="mx#xh-gc-canal-5-hd">
-    <display-name>Canal 5 HD</display-name>
+  <channel id="mx#animal-planet">
+    <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="Canal5.mx@SD">
-    <display-name>Canal 5</display-name>
-    <icon src="https://i.imgur.com/uZdVSoW.png"/>
+  <channel id="mx#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
-  <channel id="XEIPNTDT.mx@SD">
-    <display-name>Canal Once</display-name>
-    <icon src="https://i.imgur.com/K0351vF.png"/>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  </channel>
+  <channel id="mx#a-plus">
+    <display-name>A+</display-name>
   </channel>
   <programme start="20261010060000 +0000" stop="20261010083000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">El justiciero</title>
@@ -9417,7 +9417,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_el-acuario-s01e09-delfin-doctor_l_m.jpg</image>
   </programme>
-  <programme start="20261011053600 +0000" stop="20261011063600 +0000" channel="mx#animal-planet">
+  <programme start="20261011053600 +0000" stop="20261011062400 +0000" channel="mx#animal-planet">
     <title lang="es">Alaska: la última frontera</title>
     <sub-title lang="es">Rueda, rueda</sub-title>
     <category lang="es">Serie</category>
@@ -9425,7 +9425,7 @@
     <episode-num system="onscreen">S08E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_alaska-la-ultima-frontera-s08e03-rueda-rueda_l_m.jpg</image>
   </programme>
-  <programme start="20261011053600 +0000" stop="20261011062400 +0000" channel="mx#animal-planet">
+  <programme start="20261011053600 +0000" stop="20261011063600 +0000" channel="mx#animal-planet">
     <title lang="es">Alaska: la última frontera</title>
     <sub-title lang="es">Rueda, rueda</sub-title>
     <category lang="es">Serie</category>
@@ -14334,87 +14334,101 @@
     <episode-num system="onscreen">S15E63</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_tnt-buzz-s15e63_l_m.jpg</image>
   </programme>
-  <programme start="20261010120000 +0000" stop="20261010125800 +0000" channel="mx#cinemax">
-    <title lang="es">Mi gran boda griega 2</title>
-    <title lang="en">My Big Fat Greek Wedding 2</title>
-    <category lang="es">Comedia</category>
-    <rating><value>6.1</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/mx_mi-gran-boda-griega-2-2016_l_m.jpg</image>
+  <programme start="20261010120000 +0000" stop="20261010120100 +0000" channel="mx#cinemax">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.61.0/1</episode-num>
+    <episode-num system="onscreen">S15E62</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_tnt-buzz-s15e62_l_m.jpg</image>
   </programme>
-  <programme start="20261010125800 +0000" stop="20261010143600 +0000" channel="mx#cinemax">
+  <programme start="20261010120100 +0000" stop="20261010120700 +0000" channel="mx#cinemax">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.63.0/1</episode-num>
+    <episode-num system="onscreen">S15E64</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_tnt-buzz-s15e64_l_m.jpg</image>
+  </programme>
+  <programme start="20261010120700 +0000" stop="20261010121500 +0000" channel="mx#cinemax">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.38.0/1</episode-num>
+    <episode-num system="onscreen">S01E39</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_hollywood-one-on-one-s00e39_l_m.jpg</image>
+  </programme>
+  <programme start="20261010121500 +0000" stop="20261010134500 +0000" channel="mx#cinemax">
     <title lang="es">Kung Fu Panda 2</title>
     <title lang="en">Animación</title>
     <rating><value>7.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_kung-fu-panda-2-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261010143600 +0000" stop="20261010160500 +0000" channel="mx#cinemax">
+  <programme start="20261010134500 +0000" stop="20261010151400 +0000" channel="mx#cinemax">
     <title lang="es">Hotel Transylvania 2</title>
     <title lang="en">Familiar</title>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_hotel-transylvania-2-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261010160500 +0000" stop="20261010174400 +0000" channel="mx#cinemax">
+  <programme start="20261010151400 +0000" stop="20261010165200 +0000" channel="mx#cinemax">
     <title lang="es">Mi villano favorito 2</title>
     <title lang="en">Despicable Me 2</title>
     <category lang="es">Animación</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_mi-villano-favorito-2-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261010174400 +0000" stop="20261010191300 +0000" channel="mx#cinemax">
+  <programme start="20261010165200 +0000" stop="20261010184500 +0000" channel="mx#cinemax">
     <title lang="es">¿Quién son los Millers?</title>
     <title lang="en">We&apos;re the Millers</title>
     <category lang="es">Comedia</category>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_quien-son-los-millers-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261010191300 +0000" stop="20261010204700 +0000" channel="mx#cinemax">
+  <programme start="20261010184500 +0000" stop="20261010203200 +0000" channel="mx#cinemax">
     <title lang="es">¿Qué pasó ayer? - Parte II</title>
     <title lang="en">The Hangover - Part II</title>
     <category lang="es">Comedia</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_que-paso-ayer-parte-ii-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261010204700 +0000" stop="20261010221400 +0000" channel="mx#cinemax">
+  <programme start="20261010203200 +0000" stop="20261010220000 +0000" channel="mx#cinemax">
     <title lang="es">Hotel Transylvania 2</title>
     <title lang="en">Familiar</title>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_hotel-transylvania-2-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261010221400 +0000" stop="20261010235400 +0000" channel="mx#cinemax">
+  <programme start="20261010220000 +0000" stop="20261010233900 +0000" channel="mx#cinemax">
     <title lang="es">Mi villano favorito 2</title>
     <title lang="en">Despicable Me 2</title>
     <category lang="es">Animación</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_mi-villano-favorito-2-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261010235400 +0000" stop="20261011012400 +0000" channel="mx#cinemax">
+  <programme start="20261010233900 +0000" stop="20261011010900 +0000" channel="mx#cinemax">
     <title lang="es">Kung Fu Panda 2</title>
     <title lang="en">Animación</title>
     <rating><value>7.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_kung-fu-panda-2-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261011012400 +0000" stop="20261011030000 +0000" channel="mx#cinemax">
+  <programme start="20261011010900 +0000" stop="20261011030000 +0000" channel="mx#cinemax">
     <title lang="es">¿Qué pasó ayer? - Parte II</title>
     <title lang="en">The Hangover - Part II</title>
     <category lang="es">Comedia</category>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_que-paso-ayer-parte-ii-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261011030000 +0000" stop="20261011050000 +0000" channel="mx#cinemax">
+  <programme start="20261011030000 +0000" stop="20261011050300 +0000" channel="mx#cinemax">
     <title lang="es">¿Quién son los Millers?</title>
     <title lang="en">We&apos;re the Millers</title>
     <category lang="es">Comedia</category>
     <rating><value>7.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_quien-son-los-millers-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261011050000 +0000" stop="20261011060000 +0000" channel="mx#cinemax">
+  <programme start="20261011050300 +0000" stop="20261011070200 +0000" channel="mx#cinemax">
     <title lang="es">American Pie: el reencuentro</title>
     <title lang="en">American Reunion</title>
     <category lang="es">Comedia</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/mx_american-pie-el-reencuentro-2012_l_m.jpg</image>
   </programme>
-  <programme start="20261011050300 +0000" stop="20261011070200 +0000" channel="mx#cinemax">
+  <programme start="20261011050300 +0000" stop="20261011060300 +0000" channel="mx#cinemax">
     <title lang="es">American Pie: el reencuentro</title>
     <title lang="en">American Reunion</title>
     <category lang="es">Comedia</category>
@@ -17369,12 +17383,12 @@
     <image>https://cdn.mitvstatic.com/programs/mx_south-park-s13e14-pis_l_m.jpg</image>
   </programme>
   <programme start="20261013040000 +0000" stop="20261013042500 +0000" channel="mx#comedy-central">
-    <title lang="es">Drunk History</title>
+    <title lang="es">Drunk History US - MX</title>
     <sub-title lang="es">Robos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">4.8.0/1</episode-num>
     <episode-num system="onscreen">S05E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_drunk-history-s05e09-robos_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/mx_drunk-history-us-mx-s05e09-robos_l_m.jpg</image>
   </programme>
   <programme start="20261013042500 +0000" stop="20261013045000 +0000" channel="mx#comedy-central">
     <title lang="es">Otro período</title>
@@ -21821,7 +21835,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mini-beat-power-rockers-s02e04-baby-divo_l_m.jpg</image>
   </programme>
-  <programme start="20261012054000 +0000" stop="20261012060500 +0000" channel="mx#discovery-kids">
+  <programme start="20261012054000 +0000" stop="20261012060600 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Pio-Pio</sub-title>
     <category lang="es">Serie</category>
@@ -21837,7 +21851,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mini-beat-power-rockers-s03e04-pio-pio_l_m.jpg</image>
   </programme>
-  <programme start="20261012060500 +0000" stop="20261012061900 +0000" channel="mx#discovery-kids">
+  <programme start="20261012060600 +0000" stop="20261012061900 +0000" channel="mx#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Mo-zart guitarrista</sub-title>
     <category lang="es">Serie</category>
@@ -21853,7 +21867,7 @@
     <episode-num system="onscreen">S01E28</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012063100 +0000" stop="20261012064400 +0000" channel="mx#discovery-kids">
+  <programme start="20261012063100 +0000" stop="20261012064500 +0000" channel="mx#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Más rápido</sub-title>
     <category lang="es">Serie</category>
@@ -21861,7 +21875,7 @@
     <episode-num system="onscreen">S01E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012064400 +0000" stop="20261012065800 +0000" channel="mx#discovery-kids">
+  <programme start="20261012064500 +0000" stop="20261012065800 +0000" channel="mx#discovery-kids">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">El pensamiento que habla</sub-title>
     <category lang="es">Serie</category>
@@ -21901,7 +21915,7 @@
     <episode-num system="onscreen">S01E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012074600 +0000" stop="20261012075900 +0000" channel="mx#discovery-kids">
+  <programme start="20261012074600 +0000" stop="20261012080000 +0000" channel="mx#discovery-kids">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">Bienvenido a casa, Campeón</sub-title>
     <category lang="es">Serie</category>
@@ -21909,7 +21923,7 @@
     <episode-num system="onscreen">S01E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012075900 +0000" stop="20261012081100 +0000" channel="mx#discovery-kids">
+  <programme start="20261012080000 +0000" stop="20261012081200 +0000" channel="mx#discovery-kids">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">El torneo de los holgazanes</sub-title>
     <category lang="es">Serie</category>
@@ -21917,7 +21931,7 @@
     <episode-num system="onscreen">S01E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012081100 +0000" stop="20261012083500 +0000" channel="mx#discovery-kids">
+  <programme start="20261012081200 +0000" stop="20261012083600 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El coreógrafo / ¡A mover el esqueleto! / El cumpleaños de Carlos / Guitarra de Troya</sub-title>
     <category lang="es">Serie</category>
@@ -21925,7 +21939,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mini-beat-power-rockers-s00e09_l_m.jpg</image>
   </programme>
-  <programme start="20261012083500 +0000" stop="20261012090100 +0000" channel="mx#discovery-kids">
+  <programme start="20261012083600 +0000" stop="20261012090100 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El rock de mis sueños</sub-title>
     <category lang="es">Serie</category>
@@ -21941,7 +21955,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_agente-binky-al-rescate-s01e07-el-rescate_l_m.jpg</image>
   </programme>
-  <programme start="20261012092300 +0000" stop="20261012094600 +0000" channel="mx#discovery-kids">
+  <programme start="20261012092300 +0000" stop="20261012094700 +0000" channel="mx#discovery-kids">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">Luces, cámara, agentes / Un paseo en el parque</sub-title>
     <category lang="es">Serie</category>
@@ -21949,7 +21963,7 @@
     <episode-num system="onscreen">S01E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_agente-binky-al-rescate-s01e19-comida-verde_l_m.jpg</image>
   </programme>
-  <programme start="20261012094600 +0000" stop="20261012101100 +0000" channel="mx#discovery-kids">
+  <programme start="20261012094700 +0000" stop="20261012101100 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El coreógrafo / ¡A mover el esqueleto! / El cumpleaños de Carlos / Guitarra de Troya</sub-title>
     <category lang="es">Serie</category>
@@ -21957,7 +21971,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mini-beat-power-rockers-s00e09_l_m.jpg</image>
   </programme>
-  <programme start="20261012101100 +0000" stop="20261012103500 +0000" channel="mx#discovery-kids">
+  <programme start="20261012101100 +0000" stop="20261012103600 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El rock de mis sueños</sub-title>
     <category lang="es">Serie</category>
@@ -21965,7 +21979,7 @@
     <episode-num system="onscreen">S03E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_mini-beat-power-rockers-s03e09-el-rock-de-mis-suenos_l_m.jpg</image>
   </programme>
-  <programme start="20261012103500 +0000" stop="20261012110000 +0000" channel="mx#discovery-kids">
+  <programme start="20261012103600 +0000" stop="20261012110000 +0000" channel="mx#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Instrumentos musicales / Los animales del jardín / Adivina ¿quién soy? / Mis zapatos nuevos</sub-title>
     <category lang="es">Serie</category>
@@ -21973,7 +21987,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_peppa-pig-s01e04-instrumentos-musicales-los-animales-del-jardin-adivina-quien-soy-mis-zapatos-nuevos_l_m.jpg</image>
   </programme>
-  <programme start="20261012110000 +0000" stop="20261012112400 +0000" channel="mx#discovery-kids">
+  <programme start="20261012110000 +0000" stop="20261012112500 +0000" channel="mx#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El paseo de Tedy / El día del deporte/ El cumpleaños de George / El dentista / La pelota que rebota</sub-title>
     <category lang="es">Serie</category>
@@ -21981,7 +21995,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_peppa-pig-s00e04-grampy-rabbit-dino-park-bedtime-story-lost-keys-george-new-dino-grandpa-pig_l_m.jpg</image>
   </programme>
-  <programme start="20261012112400 +0000" stop="20261012113100 +0000" channel="mx#discovery-kids">
+  <programme start="20261012112500 +0000" stop="20261012113100 +0000" channel="mx#discovery-kids">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Comida para llevar en la casa club</sub-title>
     <category lang="es">Serie</category>
@@ -22231,7 +22245,7 @@
   </programme>
   <programme start="20261012194500 +0000" stop="20261012195000 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">¡No te rindas Wat!</sub-title>
+    <sub-title lang="es">La planta cancionívora / Sigan al líder / Ritmo de gol / Carlos invisible / Nuestra primera</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.5.0/1</episode-num>
     <episode-num system="onscreen">S03E06</episode-num>
@@ -22511,7 +22525,7 @@
   </programme>
   <programme start="20261013043900 +0000" stop="20261013044400 +0000" channel="mx#discovery-kids">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">¡No te rindas Wat!</sub-title>
+    <sub-title lang="es">La planta cancionívora / Sigan al líder / Ritmo de gol / Carlos invisible / Nuestra primera</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.5.0/1</episode-num>
     <episode-num system="onscreen">S03E06</episode-num>
@@ -25129,7 +25143,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_henry-monstruito-s01e07-solo-promesas-noche-de-fuegos-artificiales_l_m.jpg</image>
   </programme>
-  <programme start="20261013000200 +0000" stop="20261013002900 +0000" channel="mx#disney-jr">
+  <programme start="20261013000200 +0000" stop="20261013003000 +0000" channel="mx#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Musical Statues / Stories / Puppets</sub-title>
     <category lang="es">Serie</category>
@@ -25137,7 +25151,7 @@
     <episode-num system="onscreen">S03E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_bluey-s03e12-perro-pastor_l_m.jpg</image>
   </programme>
-  <programme start="20261013002900 +0000" stop="20261013010000 +0000" channel="mx#disney-jr">
+  <programme start="20261013003000 +0000" stop="20261013010000 +0000" channel="mx#disney-jr">
     <title lang="es">Princesita Sofía: magia real</title>
     <sub-title lang="es">Una acción vegeta-genial / El lirio gnomo</sub-title>
     <category lang="es">Serie</category>
@@ -25185,7 +25199,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261013033200 +0000" stop="20261013040000 +0000" channel="mx#disney-jr">
+  <programme start="20261013033200 +0000" stop="20261013040100 +0000" channel="mx#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Hijos / Mariposas / El arroyo</sub-title>
     <category lang="es">Serie</category>
@@ -25193,7 +25207,7 @@
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_bluey-s01e09-kids-butterflies-the-creek_l_m.jpg</image>
   </programme>
-  <programme start="20261013040000 +0000" stop="20261013042900 +0000" channel="mx#disney-jr">
+  <programme start="20261013040100 +0000" stop="20261013042900 +0000" channel="mx#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Hadas / Trabajo / Bumpy y el sabio sabueso</sub-title>
     <category lang="es">Serie</category>
@@ -25201,7 +25215,7 @@
     <episode-num system="onscreen">S01E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_bluey-s01e10_l_m.jpg</image>
   </programme>
-  <programme start="20261013042900 +0000" stop="20261013050000 +0000" channel="mx#disney-jr">
+  <programme start="20261013042900 +0000" stop="20261013045900 +0000" channel="mx#disney-jr">
     <title lang="es">Cachorros a la obra</title>
     <sub-title lang="es">Astro-cachorros / Casas gemelas</sub-title>
     <category lang="es">Serie</category>
@@ -25209,7 +25223,7 @@
     <episode-num system="onscreen">S02E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261013050000 +0000" stop="20261013053100 +0000" channel="mx#disney-jr">
+  <programme start="20261013045900 +0000" stop="20261013053100 +0000" channel="mx#disney-jr">
     <title lang="es">Puppy Dog Pals</title>
     <sub-title lang="es">El primo Cody / El juguete favorito de Hissy</sub-title>
     <category lang="es">Serie</category>
@@ -29944,7 +29958,7 @@
     <rating><value>4.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261012100300 +0000" stop="20261012104800 +0000" channel="mx#fx">
+  <programme start="20261012100300 +0000" stop="20261012104900 +0000" channel="mx#fx">
     <title lang="es">The Amazing Race</title>
     <sub-title lang="es">Such a Nice Pheromone Smell to You; Just Makes Me Want to Stay Close to You</sub-title>
     <category lang="es">Serie</category>
@@ -29952,7 +29966,7 @@
     <episode-num system="onscreen">S04E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012104800 +0000" stop="20261012130000 +0000" channel="mx#fx">
+  <programme start="20261012104900 +0000" stop="20261012130000 +0000" channel="mx#fx">
     <title lang="es">The Amazing Race</title>
     <sub-title lang="es">He&apos;s a Few Ticks Away from Having a Heart Attack!</sub-title>
     <category lang="es">Serie</category>
@@ -31200,7 +31214,7 @@
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261011040000 +0000" stop="20261011055800 +0000" channel="mx#hbo-oeste">
+  <programme start="20261011040000 +0000" stop="20261011055700 +0000" channel="mx#hbo-oeste">
     <title lang="es">Evil Dead: en llamas</title>
     <title lang="en">Evil Dead Burn</title>
     <category lang="es">Terror</category>
@@ -31213,7 +31227,7 @@
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261011055800 +0000" stop="20261011065800 +0000" channel="mx#hbo-oeste">
+  <programme start="20261011055700 +0000" stop="20261011065700 +0000" channel="mx#hbo-oeste">
     <title lang="es">Mortal Kombat II</title>
     <title lang="en">Acción</title>
     <rating><value>6.7</value></rating>
@@ -37691,7 +37705,7 @@
   </programme>
   <programme start="20261012113500 +0000" stop="20261012120000 +0000" channel="mx#nick-jr">
     <title lang="es">Tim Rex en el espacio</title>
-    <sub-title lang="es">Tesoro</sub-title>
+    <sub-title lang="es">Mamut</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.6.0/1</episode-num>
     <episode-num system="onscreen">S01E07</episode-num>
@@ -37899,7 +37913,7 @@
   </programme>
   <programme start="20261012202500 +0000" stop="20261012205000 +0000" channel="mx#nick-jr">
     <title lang="es">Santiago de los mares</title>
-    <sub-title lang="es">La princesa y el cachorro pirata / La caleta caracol</sub-title>
+    <sub-title lang="es">La maldición del halcón dorado / La isla de las cosas perdidas</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -46920,8 +46934,10 @@
   </programme>
   <programme start="20261012153000 +0000" stop="20261012160000 +0000" channel="mx#tv-unam">
     <title lang="es">Fuerza latina</title>
-    <title lang="en">- Alessandra Yupanqui. El orgullo del origen quechua</title>
-    <category lang="es">- Alessandra Yupanqui. El orgullo del origen quechua</category>
+    <sub-title lang="es">Alessandra Yupanqui. El orgullo del origen quechua</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.184.0/1</episode-num>
+    <episode-num system="onscreen">S01E185</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20261012160000 +0000" stop="20261012170000 +0000" channel="mx#tv-unam">
@@ -46975,22 +46991,24 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_patrimonio-mundial-s00e14-milan-santa-maria-delle-grazie-y-la-ultima-cena-italia_l_m.jpg</image>
   </programme>
-  <programme start="20261012223000 +0000" stop="20261012233000 +0000" channel="mx#tv-unam">
+  <programme start="20261012223000 +0000" stop="20261012230000 +0000" channel="mx#tv-unam">
     <title lang="es">Dr. Guillermo Soberón, el médico, el rector</title>
     <title lang="en">Especial</title>
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012233000 +0000" stop="20261013000000 +0000" channel="mx#tv-unam">
+  <programme start="20261012230000 +0000" stop="20261012233000 +0000" channel="mx#tv-unam">
+    <title lang="es">Fuerza latina</title>
+    <sub-title lang="es">Alessandra Yupanqui. El orgullo del origen quechua</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.184.0/1</episode-num>
+    <episode-num system="onscreen">S01E185</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261012233000 +0000" stop="20261013003000 +0000" channel="mx#tv-unam">
     <title lang="es">En directo</title>
     <title lang="en">- Razorlight - Reino Unido</title>
     <category lang="es">- Razorlight - Reino Unido</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20261013000000 +0000" stop="20261013003000 +0000" channel="mx#tv-unam">
-    <title lang="es">Fuerza latina</title>
-    <title lang="en">- Alessandra Yupanqui. El orgullo del origen quechua</title>
-    <category lang="es">- Alessandra Yupanqui. El orgullo del origen quechua</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20261013003000 +0000" stop="20261013010000 +0000" channel="mx#tv-unam">
@@ -47741,23 +47759,25 @@
     <category lang="es">Arte</category>
     <image>https://cdn.mitvstatic.com/programs/mx_metropolis_l_m.jpg</image>
   </programme>
-  <programme start="20261012060000 +0000" stop="20261012084500 +0000" channel="mx#tve">
-    <title lang="es">Noticias 24 h</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_noticias-24-h_l_m.jpg</image>
+  <programme start="20261012055000 +0000" stop="20261012080000 +0000" channel="mx#tve">
+    <title lang="es">La hora de la 1</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.200.0/1</episode-num>
+    <episode-num system="onscreen">S01E201</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-hora-de-la-1-s00e201_l_m.jpg</image>
   </programme>
-  <programme start="20261012084500 +0000" stop="20261012104500 +0000" channel="mx#tve">
+  <programme start="20261012080000 +0000" stop="20261012103000 +0000" channel="mx#tve">
     <title lang="es">Dia de la Fiesta Nacional 2026</title>
     <title lang="en">Especial</title>
     <category lang="es">Especial</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012104500 +0000" stop="20261012125500 +0000" channel="mx#tve">
-    <title lang="es">La hora de la 1</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-hora-de-la-1_l_m.jpg</image>
+  <programme start="20261012103000 +0000" stop="20261012125500 +0000" channel="mx#tve">
+    <title lang="es">Mañaneros 360</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.795.0/1</episode-num>
+    <episode-num system="onscreen">S01E796</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20261012125500 +0000" stop="20261012135000 +0000" channel="mx#tve">
     <title lang="es">Telediario 1º edición</title>
@@ -47771,19 +47791,23 @@
     <category lang="es">Teledeporte 1</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261012135500 +0000" stop="20261012145100 +0000" channel="mx#tve">
+  <programme start="20261012135500 +0000" stop="20261012144700 +0000" channel="mx#tve">
     <title lang="es">Españoles en el mundo</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_espanoles-en-el-mundo_l_m.jpg</image>
+    <sub-title lang="es">Vietnam de norte a sur</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.42.0/1</episode-num>
+    <episode-num system="onscreen">S01E43</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_espanoles-en-el-mundo-s00e43-vietnam-de-norte-a-sur_l_m.jpg</image>
   </programme>
-  <programme start="20261012145100 +0000" stop="20261012155000 +0000" channel="mx#tve">
+  <programme start="20261012144700 +0000" stop="20261012153500 +0000" channel="mx#tve">
     <title lang="es">Españoles en el mundo</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_espanoles-en-el-mundo_l_m.jpg</image>
+    <sub-title lang="es">Washington, distrito Columbia</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.56.0/1</episode-num>
+    <episode-num system="onscreen">S01E57</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_espanoles-en-el-mundo-s00e57-washington-distrito-columbia_l_m.jpg</image>
   </programme>
-  <programme start="20261012155000 +0000" stop="20261012165000 +0000" channel="mx#tve">
+  <programme start="20261012153500 +0000" stop="20261012163000 +0000" channel="mx#tve">
     <title lang="es">Senderos del mundo</title>
     <sub-title lang="es">Te echo de menos</sub-title>
     <category lang="es">Serie</category>
@@ -47791,76 +47815,85 @@
     <episode-num system="onscreen">S01E35</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_senderos-del-mundo-s00e35-te-echo-de-menos_l_m.jpg</image>
   </programme>
-  <programme start="20261012165000 +0000" stop="20261012173500 +0000" channel="mx#tve">
+  <programme start="20261012163000 +0000" stop="20261012171500 +0000" channel="mx#tve">
     <title lang="es">Saber y ganar</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.636.0/1</episode-num>
     <episode-num system="onscreen">S01E637</episode-num>
     <image>https://cdn.mitvstatic.com/programs/mx_saber-y-ganar-s00e637_l_m.jpg</image>
   </programme>
-  <programme start="20261012173500 +0000" stop="20261012182500 +0000" channel="mx#tve">
-    <title lang="es">Las rutas de...</title>
-    <title lang="en">Cocina</title>
-    <category lang="es">Cocina</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_las-rutas-de_l_m.jpg</image>
+  <programme start="20261012171500 +0000" stop="20261012180000 +0000" channel="mx#tve">
+    <title lang="es">Saber y ganar</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.377.0/1</episode-num>
+    <episode-num system="onscreen">S01E378</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_saber-y-ganar-s00e378_l_m.jpg</image>
   </programme>
-  <programme start="20261012182500 +0000" stop="20261012185500 +0000" channel="mx#tve">
-    <title lang="es">Turismo rural en el mundo</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_turismo-rural-en-el-mundo_l_m.jpg</image>
+  <programme start="20261012180000 +0000" stop="20261012185500 +0000" channel="mx#tve">
+    <title lang="es">Un país mágico</title>
+    <sub-title lang="es">Córdoba</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_un-pais-magico-s00e04_l_m.jpg</image>
   </programme>
-  <programme start="20261012185500 +0000" stop="20261012195000 +0000" channel="mx#tve">
+  <programme start="20261012185500 +0000" stop="20261012194000 +0000" channel="mx#tve">
     <title lang="es">Telediario 2</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261012195000 +0000" stop="20261012195500 +0000" channel="mx#tve">
+  <programme start="20261012194000 +0000" stop="20261012194500 +0000" channel="mx#tve">
     <title lang="es">Teledeporte 1</title>
     <title lang="en">Teledeporte 1</title>
     <category lang="es">Teledeporte 1</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
   </programme>
-  <programme start="20261012195500 +0000" stop="20261012202500 +0000" channel="mx#tve">
+  <programme start="20261012194500 +0000" stop="20261012201500 +0000" channel="mx#tve">
     <title lang="es">Cifras y letras</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.527.0/1</episode-num>
-    <episode-num system="onscreen">S01E528</episode-num>
+    <episode-num system="xmltv_ns">0.525.0/1</episode-num>
+    <episode-num system="onscreen">S01E526</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012202500 +0000" stop="20261012205500 +0000" channel="mx#tve">
+  <programme start="20261012201500 +0000" stop="20261012204500 +0000" channel="mx#tve">
     <title lang="es">Cifras y letras</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.185.0/1</episode-num>
     <episode-num system="onscreen">S01E186</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012205500 +0000" stop="20261012214500 +0000" channel="mx#tve">
-    <title lang="es">Las rutas de...</title>
-    <title lang="en">Cocina</title>
-    <category lang="es">Cocina</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_las-rutas-de_l_m.jpg</image>
-  </programme>
-  <programme start="20261012214500 +0000" stop="20261012223500 +0000" channel="mx#tve">
-    <title lang="es">La promesa</title>
+  <programme start="20261012204500 +0000" stop="20261012212900 +0000" channel="mx#tve">
+    <title lang="es">De tapas por España</title>
+    <sub-title lang="es">Cádiz - Fenicia, Atlántica y Liberal</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.922.0/1</episode-num>
-    <episode-num system="onscreen">S01E923</episode-num>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012223500 +0000" stop="20261012232000 +0000" channel="mx#tve">
-    <title lang="es">Sukha</title>
+  <programme start="20261012212900 +0000" stop="20261012221400 +0000" channel="mx#tve">
+    <title lang="es">De tapas por España</title>
+    <sub-title lang="es">Cáceres. Ciudad Museo. Tierra de conquistadores</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.122.0/1</episode-num>
-    <episode-num system="onscreen">S01E123</episode-num>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261012232000 +0000" stop="20261013000000 +0000" channel="mx#tve">
-    <title lang="es">Turismo rural en el mundo</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_turismo-rural-en-el-mundo_l_m.jpg</image>
+  <programme start="20261012221400 +0000" stop="20261012231000 +0000" channel="mx#tve">
+    <title lang="es">De tapas por España</title>
+    <sub-title lang="es">Granada. La ciudad romántica Nazarí</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.14.0/1</episode-num>
+    <episode-num system="onscreen">S01E15</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261012231000 +0000" stop="20261013000000 +0000" channel="mx#tve">
+    <title lang="es">Un país mágico</title>
+    <sub-title lang="es">Tarragona</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_un-pais-magico-s00e11_l_m.jpg</image>
   </programme>
   <programme start="20261013000000 +0000" stop="20261013003000 +0000" channel="mx#tve">
     <title lang="es">TD Internacional 24 Horas</title>
@@ -47868,37 +47901,42 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/mx_td-internacional-24-horas_l_m.jpg</image>
   </programme>
-  <programme start="20261013003000 +0000" stop="20261013014500 +0000" channel="mx#tve">
-    <title lang="es">La revuelta</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
+  <programme start="20261013003000 +0000" stop="20261013011000 +0000" channel="mx#tve">
+    <title lang="es">Calentando fogones</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261013014500 +0000" stop="20261013043500 +0000" channel="mx#tve">
+  <programme start="20261013011000 +0000" stop="20261013041000 +0000" channel="mx#tve">
     <title lang="es">MasterChef Celebrity Legends</title>
+    <sub-title lang="es">Masterchef Celebrity</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">10.78.0/1</episode-num>
-    <episode-num system="onscreen">S11E79</episode-num>
+    <episode-num system="xmltv_ns">10.76.0/1</episode-num>
+    <episode-num system="onscreen">S11E77</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261013043500 +0000" stop="20261013053000 +0000" channel="mx#tve">
-    <title lang="es">Viaje al centro de la tele</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_viaje-al-centro-de-la-tele_l_m.jpg</image>
+  <programme start="20261013041000 +0000" stop="20261013045500 +0000" channel="mx#tve">
+    <title lang="es">De tapas por España</title>
+    <sub-title lang="es">Girona y figueres. un viaje mágico</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
-  <programme start="20261013053000 +0000" stop="20261013055000 +0000" channel="mx#tve">
-    <title lang="es">Telediario matinal</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/mx_telediario-matinal_l_m.jpg</image>
+  <programme start="20261013045500 +0000" stop="20261013055000 +0000" channel="mx#tve">
+    <title lang="es">Viaje al centro de la tele</title>
+    <sub-title lang="es">Musica en femenino</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.180.0/1</episode-num>
+    <episode-num system="onscreen">S01E181</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_viaje-al-centro-de-la-tele-s00e181-musica-en-femenino_l_m.jpg</image>
   </programme>
   <programme start="20261013055000 +0000" stop="20261013065000 +0000" channel="mx#tve">
     <title lang="es">La hora de la 1</title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.200.0/1</episode-num>
-    <episode-num system="onscreen">S01E201</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/mx_la-hora-de-la-1-s00e201_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.201.0/1</episode-num>
+    <episode-num system="onscreen">S01E202</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/mx_la-hora-de-la-1-s00e202_l_m.jpg</image>
   </programme>
   <programme start="20261010060000 +0000" stop="20261010070000 +0000" channel="mx#univision">
     <title lang="es">Como dice el dicho</title>
