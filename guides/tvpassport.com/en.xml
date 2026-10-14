@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261014172837 +0000">
+<tv generator-info-name="custom-epg" date="20261014215119 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
   </channel>
-  <channel id="E.us@West">
-    <display-name>E! Entertainment USA HD - Pacific</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
   </channel>
-  <channel id="Bravo.us@East">
-    <display-name>Bravo USA HD - Eastern Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-on-demand/6784">
+    <display-name>TSN On Demand</display-name>
   </channel>
-  <channel id="Bravo.us@West">
-    <display-name>Bravo USA HD - Pacific Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-4k/19467">
+    <display-name>TSN 4K</display-name>
   </channel>
   <channel id="tsn-4k-senators/31606">
     <display-name>TSN 4K Senators</display-name>
@@ -69,14 +66,17 @@
   <channel id="tsn1-hd/2819">
     <display-name>TSN1 HD</display-name>
   </channel>
-  <channel id="tsn-on-demand/6784">
-    <display-name>TSN On Demand</display-name>
+  <channel id="Bravo.us@West">
+    <display-name>Bravo USA HD - Pacific Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="tsn-4k/19467">
-    <display-name>TSN 4K</display-name>
+  <channel id="Bravo.us@East">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
+  <channel id="E.us@West">
+    <display-name>E! Entertainment USA HD - Pacific</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
   </channel>
   <programme start="20261014100000 +0000" stop="20261014103000 +0000" channel="Bravo.us@East">
     <title lang="en">Watch What Happens Live With Andy Cohen</title>
@@ -132,7 +132,7 @@
     <category lang="en">Reality TV</category>
     <category lang="en">Performing Arts</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p18737696_b_v12_ao.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p20547935_e_h10_aa.jpg</image>
   </programme>
   <programme start="20261014113000 +0000" stop="20261014123000 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of Salt Lake City</title>
@@ -3711,7 +3711,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261016190000 +0000" stop="20261016200000 +0000" channel="TSN1.ca@SD">
     <title lang="en">NBA Today</title>
@@ -4197,7 +4197,13 @@
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
+  </programme>
+  <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="tsn2--no-habs-hd/32779">
+    <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
+    <category lang="en">Sports</category>
+    <category lang="en">Miscellaneous</category>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="tsn2--no-habs-hd/32779">
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
@@ -4205,12 +4211,6 @@
     <category lang="en">Miscellaneous</category>
     <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
   </programme>
-  <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="tsn2--no-habs-hd/32779">
-    <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
-    <category lang="en">Sports</category>
-    <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
-  </programme>
   <programme start="20261014230000 +0000" stop="20261014233000 +0000" channel="tsn2--no-habs-hd/32779">
     <title lang="en">Film Never Lies with Luke Willson</title>
     <category lang="en">Sports</category>
@@ -4758,19 +4758,19 @@
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="tsn2--no-habs/32778">
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="tsn2--no-habs/32778">
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261014230000 +0000" stop="20261014233000 +0000" channel="tsn2--no-habs/32778">
     <title lang="en">Film Never Lies with Luke Willson</title>
@@ -5055,7 +5055,7 @@
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261014230000 +0000" stop="20261014233000 +0000" channel="tsn2-hd/5920">
     <title lang="en">Film Never Lies with Luke Willson</title>
@@ -5374,7 +5374,7 @@
     <title lang="en">Women&apos;s Rugby</title>
     <category lang="en">Sports</category>
     <category lang="en">Rugby</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p998398_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p998398_i_s4_an.jpg</image>
   </programme>
   <programme start="20261017010000 +0000" stop="20261017013000 +0000" channel="tsn2-hd/5920">
     <title lang="en">SC</title>
@@ -5572,7 +5572,7 @@
     <title lang="en">Beyond Their Years: The Incredible Legacies of Herb Carnegie and Buck O&apos;Neil</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_v7_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24940034_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261014230000 +0000" stop="20261014233000 +0000" channel="TSN2.ca@SD">
     <title lang="en">Film Never Lies with Luke Willson</title>
@@ -5891,7 +5891,7 @@
     <title lang="en">Women&apos;s Rugby</title>
     <category lang="en">Sports</category>
     <category lang="en">Rugby</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p998398_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p998398_i_s4_an.jpg</image>
   </programme>
   <programme start="20261017010000 +0000" stop="20261017013000 +0000" channel="TSN2.ca@SD">
     <title lang="en">SC</title>
@@ -6141,7 +6141,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261015170000 +0000" stop="20261015173000 +0000" channel="tsn3-hd/13768">
     <title lang="en">Canadian Superbike Championship</title>
@@ -6321,7 +6321,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261016190000 +0000" stop="20261016200000 +0000" channel="tsn3-hd/13768">
     <title lang="en">NBA Today</title>
@@ -6787,7 +6787,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261016190000 +0000" stop="20261016200000 +0000" channel="TSN3.ca@SD">
     <title lang="en">NBA Today</title>
@@ -6931,7 +6931,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261014183000 +0000" stop="20261014190000 +0000" channel="tsn4-hd/13769">
     <title lang="en">Canadian Superbike Championship</title>
@@ -6950,7 +6950,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014233000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SportsCentre</title>
@@ -7065,7 +7065,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261015220000 +0000" stop="20261015223000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SportsCentre</title>
@@ -7077,7 +7077,7 @@
     <title lang="en">Toronto Maple Leafs Pregame</title>
     <category lang="en">Sports</category>
     <category lang="en">Hockey</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11231298_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p11231298_i_h10_aa.jpg</image>
   </programme>
   <programme start="20261015230000 +0000" stop="20261016013000 +0000" channel="tsn4-hd/13769">
     <title lang="en">NHL Hockey</title>
@@ -7173,7 +7173,7 @@
     <title lang="en">The Cannons -- Brothers on Ice</title>
     <category lang="en">Sports</category>
     <category lang="en">Hockey</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p29555216_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p29555216_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261016190000 +0000" stop="20261016200000 +0000" channel="tsn4-hd/13769">
     <title lang="en">NBA Today</title>
@@ -7186,7 +7186,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261016220000 +0000" stop="20261016233000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SportsCentre</title>
@@ -7306,7 +7306,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261014183000 +0000" stop="20261014190000 +0000" channel="TSN4.ca@SD">
     <title lang="en">Canadian Superbike Championship</title>
@@ -7325,7 +7325,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014233000 +0000" channel="TSN4.ca@SD">
     <title lang="en">SportsCentre</title>
@@ -7548,7 +7548,7 @@
     <title lang="en">The Cannons -- Brothers on Ice</title>
     <category lang="en">Sports</category>
     <category lang="en">Hockey</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p29555216_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p29555216_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261016190000 +0000" stop="20261016200000 +0000" channel="TSN4.ca@SD">
     <title lang="en">NBA Today</title>
@@ -7561,7 +7561,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261016220000 +0000" stop="20261016233000 +0000" channel="TSN4.ca@SD">
     <title lang="en">SportsCentre</title>
@@ -7795,7 +7795,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261014183000 +0000" stop="20261014190000 +0000" channel="tsn5-hd/13770">
     <title lang="en">Canadian Superbike Championship</title>
@@ -7814,7 +7814,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SportsCentre</title>
@@ -7917,7 +7917,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261015170000 +0000" stop="20261015173000 +0000" channel="tsn5-hd/13770">
     <title lang="en">Canadian Superbike Championship</title>
@@ -7948,7 +7948,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261015220000 +0000" stop="20261015230000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SportsCentre</title>
@@ -8183,7 +8183,7 @@
     <title lang="en">Motorcycle Experience</title>
     <category lang="en">Sports</category>
     <category lang="en">Motorcycle Racing</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p809237_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261014183000 +0000" stop="20261014190000 +0000" channel="TSN5.ca@SD">
     <title lang="en">Canadian Superbike Championship</title>
@@ -8202,7 +8202,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="TSN5.ca@SD">
     <title lang="en">SportsCentre</title>
@@ -9037,12 +9037,12 @@
   <programme start="20261014110000 +0000" stop="20261014130000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day New York</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_b_v7_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261014130000 +0000" stop="20261014140000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day New York</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_b_v7_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261014140000 +0000" stop="20261014150000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Newsroom Live</title>
@@ -9058,7 +9058,7 @@
   <programme start="20261014160000 +0000" stop="20261014170000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">The Noon</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17326137_b_v11_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17326137_b_h8_ac.jpg</image>
   </programme>
   <programme start="20261014170000 +0000" stop="20261014173000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">TMZ</title>
@@ -9077,7 +9077,7 @@
     <title lang="en">Family Feud</title>
     <category lang="en">Game Shows</category>
     <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8314079_b_v12_af.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8314079_i_h8_af.jpg</image>
   </programme>
   <programme start="20261014183000 +0000" stop="20261014190000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Family Feud</title>
@@ -9143,7 +9143,7 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261015033000 +0000" stop="20261015040000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Battleground Midterms</title>
@@ -9176,14 +9176,14 @@
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261015063000 +0000" stop="20261015070000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Paid Programming</title>
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261015070000 +0000" stop="20261015080000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Victim of Nursing Home Abuse?</title>
@@ -9194,7 +9194,7 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261015083000 +0000" stop="20261015090000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up</title>
@@ -9214,12 +9214,12 @@
   <programme start="20261015110000 +0000" stop="20261015130000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day New York</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_b_v7_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261015130000 +0000" stop="20261015140000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day New York</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_b_v7_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261015140000 +0000" stop="20261015150000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Newsroom Live</title>
@@ -9235,7 +9235,7 @@
   <programme start="20261015160000 +0000" stop="20261015170000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">The Noon</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17326137_b_v11_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17326137_b_h8_ac.jpg</image>
   </programme>
   <programme start="20261015170000 +0000" stop="20261015173000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">TMZ</title>
@@ -9260,7 +9260,7 @@
     <title lang="en">Family Feud</title>
     <category lang="en">Game Shows</category>
     <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8314079_b_v12_af.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8314079_i_h8_af.jpg</image>
   </programme>
   <programme start="20261015190000 +0000" stop="20261015200000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">TMZ Live</title>
@@ -9321,7 +9321,7 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261016033000 +0000" stop="20261016040000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Battleground Midterms</title>
@@ -9334,7 +9334,7 @@
     <title lang="en">Front Office Sports Tonight</title>
     <category lang="en">Sports</category>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33800854_b_v12_ab.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33800854_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261016043000 +0000" stop="20261016053000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">TMZ Live</title>
@@ -9354,14 +9354,14 @@
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261016063000 +0000" stop="20261016070000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Paid Programming</title>
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261016070000 +0000" stop="20261016073000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Victim of Nursing Home Abuse?</title>
@@ -9373,13 +9373,13 @@
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261016080000 +0000" stop="20261016083000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261016083000 +0000" stop="20261016090000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up</title>
@@ -9399,12 +9399,12 @@
   <programme start="20261016110000 +0000" stop="20261016130000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day New York</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_b_v7_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261016130000 +0000" stop="20261016140000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day New York</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_b_v7_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706448_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261016140000 +0000" stop="20261016150000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Newsroom Live</title>
@@ -9420,7 +9420,7 @@
   <programme start="20261016160000 +0000" stop="20261016170000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">The Noon</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17326137_b_v11_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17326137_b_h8_ac.jpg</image>
   </programme>
   <programme start="20261016170000 +0000" stop="20261016173000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">TMZ</title>
@@ -9439,7 +9439,7 @@
     <title lang="en">Family Feud</title>
     <category lang="en">Game Shows</category>
     <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8314079_b_v12_af.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8314079_i_h8_af.jpg</image>
   </programme>
   <programme start="20261016183000 +0000" stop="20261016190000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Family Feud</title>
@@ -9463,7 +9463,7 @@
   <programme start="20261016203000 +0000" stop="20261016210000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Street Soldiers</title>
     <category lang="en">News Magazine</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p12442514_b_v8_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p12442514_b_s2_aa.jpg</image>
   </programme>
   <programme start="20261016210000 +0000" stop="20261016220000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">The 5 O&apos;Clock News</title>
@@ -9532,42 +9532,33 @@
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261017063000 +0000" stop="20261017070000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Paid Programming</title>
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261017070000 +0000" stop="20261017073000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Paid Programming</title>
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
   <programme start="20261017073000 +0000" stop="20261017080000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Paid Programming</title>
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
-  <programme start="20261017080000 +0000" stop="20261017083000 +0000" channel="WNYWDT1.us@SD">
-    <title lang="en">Paid Programming</title>
+  <programme start="20261017080000 +0000" stop="20261017090000 +0000" channel="WNYWDT1.us@SD">
+    <title lang="en">Victim of Nursing Home Abuse?</title>
     <category lang="en">Paid Program</category>
-    <category lang="en">Shopping</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
-  </programme>
-  <programme start="20261017083000 +0000" stop="20261017090000 +0000" channel="WNYWDT1.us@SD">
-    <title lang="en">Paid Programming</title>
-    <category lang="en">Paid Program</category>
-    <category lang="en">Shopping</category>
-    <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p32656820_b_v12_aa.jpg</image>
   </programme>
   <programme start="20261017090000 +0000" stop="20261017093000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Coffee With America</title>
@@ -9581,6 +9572,6 @@
     <category lang="en">Paid Program</category>
     <category lang="en">Shopping</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_b_v12_ba.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p459763_i_h8_ac.jpg</image>
   </programme>
 </tv>
