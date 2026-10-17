@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261017204555 +0000">
+<tv generator-info-name="custom-epg" date="20261017231630 +0000">
   <channel id="TVOCanal23.sv@SD">
     <display-name>TVO Canal 23</display-name>
     <icon src="https://i.imgur.com/nsXXEUZ.png"/>
+  </channel>
+  <channel id="sv#a-e-mundo">
+    <display-name>A&amp;E</display-name>
+  </channel>
+  <channel id="sv#amc">
+    <display-name>AMC</display-name>
   </channel>
   <channel id="sv#warner">
     <display-name>Warner Channel</display-name>
@@ -14,8 +20,18 @@
   <channel id="sv#vh1">
     <display-name>VH1</display-name>
   </channel>
-  <channel id="sv#ve-plus-tv">
-    <display-name>Ve Plus TV</display-name>
+  <channel id="sv#az-corazon">
+    <display-name>Az Corazón</display-name>
+  </channel>
+  <channel id="Canal2.sv@SD">
+    <display-name>Canal 2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/960px-Canal_2_TCS.png"/>
+  </channel>
+  <channel id="sv#cine-latino">
+    <display-name>Cinelatino</display-name>
+  </channel>
+  <channel id="sv#espn">
+    <display-name>ESPN</display-name>
   </channel>
   <channel id="sv#universal-channel">
     <display-name>Universal TV</display-name>
@@ -141,8 +157,8 @@
   <channel id="sv#espn-2">
     <display-name>ESPN 2</display-name>
   </channel>
-  <channel id="sv#espn">
-    <display-name>ESPN</display-name>
+  <channel id="sv#ve-plus-tv">
+    <display-name>Ve Plus TV</display-name>
   </channel>
   <channel id="sv#entertainment">
     <display-name>E!</display-name>
@@ -204,9 +220,6 @@
   <channel id="sv#cinecanal">
     <display-name>Cinecanal</display-name>
   </channel>
-  <channel id="sv#cine-latino">
-    <display-name>Cinelatino</display-name>
-  </channel>
   <channel id="sv#cartoon-network">
     <display-name>Cartoon Network</display-name>
   </channel>
@@ -245,9 +258,8 @@
     <display-name>Canal 4</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Canal_4_TCS.png/960px-Canal_4_TCS.png"/>
   </channel>
-  <channel id="Canal2.sv@SD">
-    <display-name>Canal 2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Canal_2_TCS.png/960px-Canal_2_TCS.png"/>
+  <channel id="sv#axn">
+    <display-name>AXN</display-name>
   </channel>
   <channel id="sv#boomerang-cartoon">
     <display-name>Cartoonito</display-name>
@@ -261,20 +273,8 @@
   <channel id="sv#azteca-13">
     <display-name>Azteca 13</display-name>
   </channel>
-  <channel id="sv#az-corazon">
-    <display-name>Az Corazón</display-name>
-  </channel>
-  <channel id="sv#axn">
-    <display-name>AXN</display-name>
-  </channel>
   <channel id="sv#animal-planet">
     <display-name>Animal Planet</display-name>
-  </channel>
-  <channel id="sv#amc">
-    <display-name>AMC</display-name>
-  </channel>
-  <channel id="sv#a-e-mundo">
-    <display-name>A&amp;E</display-name>
   </channel>
   <programme start="20261017070000 +0000" stop="20261017130000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Cierre de transmisión</title>
@@ -362,14 +362,14 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261019050000 +0000" stop="20261019070000 +0000" channel="Canal2.sv@SD">
+  <programme start="20261019050000 +0000" stop="20261019060000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Maligno</title>
     <title lang="en">Malignant</title>
     <category lang="es">Terror</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261019050000 +0000" stop="20261019060000 +0000" channel="Canal2.sv@SD">
+  <programme start="20261019050000 +0000" stop="20261019070000 +0000" channel="Canal2.sv@SD">
     <title lang="es">Maligno</title>
     <title lang="en">Malignant</title>
     <category lang="es">Terror</category>
@@ -889,6 +889,107 @@
     <category lang="es">Acción</category>
     <rating><value>6.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_el-turista-2010_l_m.jpg</image>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018080000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Everly</title>
+    <title lang="en">Acción</title>
+    <rating><value>5.1</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_everly-2014_l_m.jpg</image>
+  </programme>
+  <programme start="20261018080000 +0000" stop="20261018120000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Cierre de transmisión</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_cierre-de-transmision_l_m.jpg</image>
+  </programme>
+  <programme start="20261018120000 +0000" stop="20261018123000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Star Wars: aventuras de jóvenes Jedi</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20261018123000 +0000" stop="20261018130000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Kung Fu Panda: El guerrero dragón</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018133000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Tiempo del espíritu</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_tiempo-del-espiritu_l_m.jpg</image>
+  </programme>
+  <programme start="20261018133000 +0000" stop="20261018140000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Lumen 2000</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_lumen-2000_l_m.jpg</image>
+  </programme>
+  <programme start="20261018140000 +0000" stop="20261018150000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Santa Misa dominical</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_santa-misa-dominical-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261018150000 +0000" stop="20261018170000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Stuart Little</title>
+    <title lang="en">Comedia</title>
+    <rating><value>5.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_stuart-little-1999_l_m.jpg</image>
+  </programme>
+  <programme start="20261018170000 +0000" stop="20261018190000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">La familia Monster</title>
+    <title lang="en">The Munsters</title>
+    <category lang="es">Comedia</category>
+    <rating><value>4.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
+  </programme>
+  <programme start="20261018190000 +0000" stop="20261018210000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Más rápido y más furioso</title>
+    <title lang="en">2 Fast 2 Furious</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_mas-rapido-y-mas-furioso-2003_l_m.jpg</image>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261018230000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">El rascacielos</title>
+    <title lang="en">Skyscraper</title>
+    <category lang="es">Acción</category>
+    <rating><value>5.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_el-rascacielos-2018_l_m.jpg</image>
+  </programme>
+  <programme start="20261018230000 +0000" stop="20261019010000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Por mis pistolas</title>
+    <title lang="en">Comedia</title>
+    <rating><value>6.7</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_por-mis-pistolas-1968_l_m.jpg</image>
+  </programme>
+  <programme start="20261019010000 +0000" stop="20261019013000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">El noticiero - Fin de semana</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_el-noticiero-fin-de-semana_l_m.jpg</image>
+  </programme>
+  <programme start="20261019013000 +0000" stop="20261019020000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Noticiero Univisión</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-univision_l_m.jpg</image>
+  </programme>
+  <programme start="20261019020000 +0000" stop="20261019040000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">007 Operación Skyfall</title>
+    <title lang="en">Skyfall</title>
+    <category lang="es">Acción</category>
+    <rating><value>7.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_007-operacion-skyfall-2012_l_m.jpg</image>
+  </programme>
+  <programme start="20261019040000 +0000" stop="20261019050000 +0000" channel="Canal6.sv@SD">
+    <title lang="es">Cementerio maldito</title>
+    <title lang="en">Pet Sematary</title>
+    <category lang="es">Terror</category>
+    <rating><value>5.7</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_cementerio-maldito-2019_l_m.jpg</image>
   </programme>
   <programme start="20261019060000 +0000" stop="20261019083000 +0000" channel="Canal6.sv@SD">
     <title lang="es">Cuentos del cazador de sombras</title>
@@ -1773,9 +1874,10 @@
     <image>https://cdn.mitvstatic.com/programs/sv_heidi_l_m.jpg</image>
   </programme>
   <programme start="20261018140000 +0000" stop="20261018143000 +0000" channel="Canal12.sv@SD">
-    <title lang="es">Bakugan</title>
-    <category lang="es">Animación</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_bakugan_l_m.jpg</image>
+    <title lang="es">Dino Ranch</title>
+    <title lang="en">Infantil</title>
+    <category lang="es">Infantil</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261018143000 +0000" stop="20261018150000 +0000" channel="Canal12.sv@SD">
     <title lang="es">Plaza Sésamo</title>
@@ -1813,10 +1915,9 @@
     <image>https://cdn.mitvstatic.com/programs/sv_don-gato-y-su-pandilla_l_m.jpg</image>
   </programme>
   <programme start="20261018180000 +0000" stop="20261018190000 +0000" channel="Canal12.sv@SD">
-    <title lang="es">Everest</title>
-    <title lang="en">Miniserie</title>
-    <category lang="es">Miniserie</category>
-    <image>https://cdn.mitvstatic.com/programs/sv_everest_l_m.jpg</image>
+    <title lang="es">Shaka Zulu</title>
+    <category lang="es">Acción</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_shaka-zulu_l_m.jpg</image>
   </programme>
   <programme start="20261018190000 +0000" stop="20261018200000 +0000" channel="Canal12.sv@SD">
     <title lang="es">El show de Tom y Jerry</title>
@@ -1872,11 +1973,11 @@
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
   <programme start="20261019033000 +0000" stop="20261019053000 +0000" channel="Canal12.sv@SD">
-    <title lang="es">Condenada sin ley</title>
-    <title lang="en">Time Served</title>
-    <category lang="es">Drama</category>
-    <rating><value>3.8</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/sv_condenada-sin-ley-1999_l_m.jpg</image>
+    <title lang="es">Hansel y Gretel: la bruja del bosque negro</title>
+    <title lang="en">Hansel &amp; Gretel Get Baked</title>
+    <category lang="es">Comedia</category>
+    <rating><value>4.3</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/sv_hansel-y-gretel-la-bruja-del-bosque-negro-2013_l_m.jpg</image>
   </programme>
   <programme start="20261019053000 +0000" stop="20261019063000 +0000" channel="Canal12.sv@SD">
     <title lang="es">Mar de plástico</title>
@@ -3519,7 +3620,7 @@
     <episode-num system="onscreen">S08E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-da-ma-s08e02-algunos-lo-prefieren-mas-caliente_l_m.jpg</image>
   </programme>
-  <programme start="20261018055200 +0000" stop="20261018061400 +0000" channel="sv#a-e-mundo">
+  <programme start="20261018055200 +0000" stop="20261018065200 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">En busca del éxito</sub-title>
     <category lang="es">Serie</category>
@@ -3527,7 +3628,7 @@
     <episode-num system="onscreen">S08E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_quien-da-ma-s08e03-en-busca-del-exito_l_m.jpg</image>
   </programme>
-  <programme start="20261018055200 +0000" stop="20261018065200 +0000" channel="sv#a-e-mundo">
+  <programme start="20261018055200 +0000" stop="20261018061400 +0000" channel="sv#a-e-mundo">
     <title lang="es">¿Quién da má$?</title>
     <sub-title lang="es">En busca del éxito</sub-title>
     <category lang="es">Serie</category>
@@ -4369,14 +4470,14 @@
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_como-si-fuera-la-primera-vez-2004_l_m.jpg</image>
   </programme>
-  <programme start="20261019055000 +0000" stop="20261019075000 +0000" channel="sv#amc">
+  <programme start="20261019055000 +0000" stop="20261019065000 +0000" channel="sv#amc">
     <title lang="es">El precio del mañana</title>
     <title lang="en">In Time</title>
     <category lang="es">Acción</category>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/sv_el-precio-del-manana-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261019055000 +0000" stop="20261019065000 +0000" channel="sv#amc">
+  <programme start="20261019055000 +0000" stop="20261019075000 +0000" channel="sv#amc">
     <title lang="es">El precio del mañana</title>
     <title lang="en">In Time</title>
     <category lang="es">Acción</category>
@@ -6109,14 +6210,14 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_la-mujer-de-judas-s00e08_l_m.jpg</image>
   </programme>
-  <programme start="20261018052400 +0000" stop="20261018061200 +0000" channel="sv#az-corazon">
+  <programme start="20261018052400 +0000" stop="20261018062400 +0000" channel="sv#az-corazon">
     <title lang="es">La mujer de Judas</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
     <episode-num system="onscreen">S01E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_la-mujer-de-judas-s00e09_l_m.jpg</image>
   </programme>
-  <programme start="20261018052400 +0000" stop="20261018062400 +0000" channel="sv#az-corazon">
+  <programme start="20261018052400 +0000" stop="20261018061200 +0000" channel="sv#az-corazon">
     <title lang="es">La mujer de Judas</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.8.0/1</episode-num>
@@ -9297,7 +9398,1347 @@
     <episode-num system="onscreen">S03E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e29-pocoyo-s-restaurant_l_m.jpg</image>
   </programme>
+  <programme start="20261018055600 +0000" stop="20261018060400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El restaurante de Pocoyó</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.28.0/1</episode-num>
+    <episode-num system="onscreen">S03E29</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e29-pocoyo-s-restaurant_l_m.jpg</image>
+  </programme>
+  <programme start="20261018060400 +0000" stop="20261018061100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Risas pegadizas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.11.0/1</episode-num>
+    <episode-num system="onscreen">S05E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s05e12-risas-pegadizas_l_m.jpg</image>
+  </programme>
+  <programme start="20261018061100 +0000" stop="20261018061800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Misión espacial</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.8.0/1</episode-num>
+    <episode-num system="onscreen">S03E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e09-mision-espacial_l_m.jpg</image>
+  </programme>
+  <programme start="20261018061800 +0000" stop="20261018062500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Amor de vinilo - Parte 1</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.41.0/1</episode-num>
+    <episode-num system="onscreen">S05E42</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s05e42-amor-de-vinilo-parte-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261018062500 +0000" stop="20261018063200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Amor de vinilo - Parte 2</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.42.0/1</episode-num>
+    <episode-num system="onscreen">S05E43</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s05e43-amor-de-vinilo-parte-2_l_m.jpg</image>
+  </programme>
+  <programme start="20261018063200 +0000" stop="20261018064400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">Gaita futurística</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018064400 +0000" stop="20261018065500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">Caminata elevadora</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.37.0/1</episode-num>
+    <episode-num system="onscreen">S01E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018065500 +0000" stop="20261018070700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">El ritmo del trueno centellante</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.38.0/1</episode-num>
+    <episode-num system="onscreen">S01E39</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018070700 +0000" stop="20261018071800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">Banco de murciélagos brumoso</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.18.0/1</episode-num>
+    <episode-num system="onscreen">S01E19</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018071800 +0000" stop="20261018072900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">El farol cantante</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.43.0/1</episode-num>
+    <episode-num system="onscreen">S01E44</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018072900 +0000" stop="20261018073600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">El gran intercambio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.21.0/1</episode-num>
+    <episode-num system="onscreen">S05E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018073600 +0000" stop="20261018074300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">El duende de la Navidad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.9.0/1</episode-num>
+    <episode-num system="onscreen">S05E10</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018074300 +0000" stop="20261018075000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">Rocódromo divertido</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.19.0/1</episode-num>
+    <episode-num system="onscreen">S05E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018075000 +0000" stop="20261018075700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">Mundos redondos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.25.0/1</episode-num>
+    <episode-num system="onscreen">S05E26</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018075700 +0000" stop="20261018080400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">El director</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.22.0/1</episode-num>
+    <episode-num system="onscreen">S05E23</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018080400 +0000" stop="20261018081500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Pajarito digno vencedor</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.17.0/1</episode-num>
+    <episode-num system="onscreen">S02E18</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018081500 +0000" stop="20261018082700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Mi arena es tu arena</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.21.0/1</episode-num>
+    <episode-num system="onscreen">S02E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018082700 +0000" stop="20261018083100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs Bunny y sus amigos a la obra: Hora de trabajar</title>
+    <sub-title lang="es">Escondite</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018083100 +0000" stop="20261018084200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Como los chorros del pato</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.16.0/1</episode-num>
+    <episode-num system="onscreen">S02E17</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018084200 +0000" stop="20261018085400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Viaje en globo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.26.0/1</episode-num>
+    <episode-num system="onscreen">S02E27</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018085400 +0000" stop="20261018090500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">La historia de las dos Bibis</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018090500 +0000" stop="20261018091600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Cómplice al rescate</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018091600 +0000" stop="20261018092800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Detengan al patito</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018092800 +0000" stop="20261018093900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">El mayordomo lo hizo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.13.0/1</episode-num>
+    <episode-num system="onscreen">S03E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018093900 +0000" stop="20261018095000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Kitty Kong</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.4.0/1</episode-num>
+    <episode-num system="onscreen">S03E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018095000 +0000" stop="20261018100200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">El error de Bam</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.17.0/1</episode-num>
+    <episode-num system="onscreen">S01E18</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018100200 +0000" stop="20261018100900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Pecera cinco estrellas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.30.0/1</episode-num>
+    <episode-num system="onscreen">S04E31</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e31-pecera-cinco-estrellas_l_m.jpg</image>
+  </programme>
+  <programme start="20261018100900 +0000" stop="20261018101600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Lemming lobo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.71.0/1</episode-num>
+    <episode-num system="onscreen">S04E72</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e72-lemming-lobo_l_m.jpg</image>
+  </programme>
+  <programme start="20261018101600 +0000" stop="20261018102300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Cabaña en la Luna</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.12.0/1</episode-num>
+    <episode-num system="onscreen">S04E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e13-cabana-en-la-luna_l_m.jpg</image>
+  </programme>
+  <programme start="20261018102300 +0000" stop="20261018103100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Las diez plagas de Grizzy</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.47.0/1</episode-num>
+    <episode-num system="onscreen">S04E48</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e48-las-diez-plagas-de-grizzy_l_m.jpg</image>
+  </programme>
+  <programme start="20261018103100 +0000" stop="20261018103800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Choco-helado</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.17.0/1</episode-num>
+    <episode-num system="onscreen">S04E18</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e18-choco-helado_l_m.jpg</image>
+  </programme>
+  <programme start="20261018103800 +0000" stop="20261018104500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Oso malherido</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.27.0/1</episode-num>
+    <episode-num system="onscreen">S04E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e28-oso-malherido_l_m.jpg</image>
+  </programme>
+  <programme start="20261018104500 +0000" stop="20261018105200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Indigestión de Yummy</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.24.0/1</episode-num>
+    <episode-num system="onscreen">S04E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e25-indigestion-de-yummy_l_m.jpg</image>
+  </programme>
+  <programme start="20261018105200 +0000" stop="20261018110000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Nido acogedor</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.2.0/1</episode-num>
+    <episode-num system="onscreen">S04E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e03-nido-acogedor_l_m.jpg</image>
+  </programme>
+  <programme start="20261018110000 +0000" stop="20261018110300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Locura Monster Truck</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.31.0/1</episode-num>
+    <episode-num system="onscreen">S01E32</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018110300 +0000" stop="20261018110700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Morphle se baña</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018110700 +0000" stop="20261018111000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Bebé gigante</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018111000 +0000" stop="20261018111400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Mila súper-heroína persigue a Robofreeze</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018111400 +0000" stop="20261018111800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Los bandidos viajeros en el tiempo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.40.0/1</episode-num>
+    <episode-num system="onscreen">S01E41</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018111800 +0000" stop="20261018112100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Frankenmorphle</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.28.0/1</episode-num>
+    <episode-num system="onscreen">S01E29</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018112100 +0000" stop="20261018112500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Mila la detective</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.43.0/1</episode-num>
+    <episode-num system="onscreen">S01E44</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018112500 +0000" stop="20261018112900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Bandidos hipnóticos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018112900 +0000" stop="20261018113400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">La gran carrera de superbichos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.1.0/1</episode-num>
+    <episode-num system="onscreen">S08E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018113400 +0000" stop="20261018113900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">Misión espacial</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.3.0/1</episode-num>
+    <episode-num system="onscreen">S08E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018113900 +0000" stop="20261018114400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">La súper seleccionadora</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.15.0/1</episode-num>
+    <episode-num system="onscreen">S06E16</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018114400 +0000" stop="20261018115000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">El torneo de bolos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.14.0/1</episode-num>
+    <episode-num system="onscreen">S08E15</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018115000 +0000" stop="20261018115500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">La votación</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.18.0/1</episode-num>
+    <episode-num system="onscreen">S06E19</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018115500 +0000" stop="20261018120000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">¿Cuántos números puedo formar?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.27.0/1</episode-num>
+    <episode-num system="onscreen">S06E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018120000 +0000" stop="20261018120700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Lucas solitario</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <episode-num system="onscreen">S02E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018120700 +0000" stop="20261018121500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">El doctor Lucas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.30.0/1</episode-num>
+    <episode-num system="onscreen">S01E31</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018121500 +0000" stop="20261018122300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Lucas y sus amigos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.47.0/1</episode-num>
+    <episode-num system="onscreen">S01E48</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018122300 +0000" stop="20261018123000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">¡No te burles de mi!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.64.0/1</episode-num>
+    <episode-num system="onscreen">S01E65</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018123000 +0000" stop="20261018123800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Hay algo allí arriba</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.12.0/1</episode-num>
+    <episode-num system="onscreen">S02E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018123800 +0000" stop="20261018124400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Baile</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018124400 +0000" stop="20261018125000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Mundo submarino</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018125000 +0000" stop="20261018125400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs Bunny y sus amigos a la obra: Hora de trabajar</title>
+    <sub-title lang="es">Bugs Bunny Boogie</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <episode-num system="onscreen">S01E01</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018125400 +0000" stop="20261018130000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Picnic</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018130600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Arena</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018130600 +0000" stop="20261018133000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La casa de muñecas de Gabby</title>
+    <sub-title lang="es">Búsqueda del tesoro de dijes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.4.0/1</episode-num>
+    <episode-num system="onscreen">S08E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018133000 +0000" stop="20261018135300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La casa de muñecas de Gabby</title>
+    <sub-title lang="es">¡Feliz Gato-ween!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.5.0/1</episode-num>
+    <episode-num system="onscreen">S05E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018135300 +0000" stop="20261018150700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Scooby Doo y el Franken-Monstruo</title>
+    <title lang="en">Scooby Doo! Frankencreepy</title>
+    <category lang="es">Animación</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_scooby-doo-y-el-franken-monstruo-2014_l_m.jpg</image>
+  </programme>
+  <programme start="20261018150700 +0000" stop="20261018151500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Pulpo chillón</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018151500 +0000" stop="20261018152400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Barcos de hojas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.43.0/1</episode-num>
+    <episode-num system="onscreen">S01E44</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018152400 +0000" stop="20261018153200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Clase de natación</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.51.0/1</episode-num>
+    <episode-num system="onscreen">S01E52</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018153200 +0000" stop="20261018154000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Patrick se cayó</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018154000 +0000" stop="20261018154800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Abrazos de bichos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018154800 +0000" stop="20261018155700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Ese es mi favorito</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.25.0/1</episode-num>
+    <episode-num system="onscreen">S01E26</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018155700 +0000" stop="20261018160500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Mi amigo Apio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.37.0/1</episode-num>
+    <episode-num system="onscreen">S01E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018160500 +0000" stop="20261018161200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">¿Tú tocaste?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.19.0/1</episode-num>
+    <episode-num system="onscreen">S02E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018161200 +0000" stop="20261018162000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Adiós, compañero</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.61.0/1</episode-num>
+    <episode-num system="onscreen">S01E62</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018162000 +0000" stop="20261018162800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Apestoso</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.42.0/1</episode-num>
+    <episode-num system="onscreen">S01E43</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018162800 +0000" stop="20261018163500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">El pirata Lucas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.76.0/1</episode-num>
+    <episode-num system="onscreen">S01E77</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018163500 +0000" stop="20261018164200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">Cuida de esa boca</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018164200 +0000" stop="20261018165000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">¿De dónde viene la lluvia?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018165000 +0000" stop="20261018165700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">¿Qué insecto es ese?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.7.0/1</episode-num>
+    <episode-num system="onscreen">S02E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018165700 +0000" stop="20261018170400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">Abre las puertas de la creatividad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018170400 +0000" stop="20261018171700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Creciendo con la Gallina Pintadita</title>
+    <sub-title lang="es">Cuarto organizado</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018171700 +0000" stop="20261018172000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita</title>
+    <sub-title lang="es">Querida Chupeta, Bye-Bye</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.84.0/1</episode-num>
+    <episode-num system="onscreen">S01E85</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018172000 +0000" stop="20261018172300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita</title>
+    <sub-title lang="es">Vamos passear</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.29.0/1</episode-num>
+    <episode-num system="onscreen">S01E30</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018172300 +0000" stop="20261018172500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita</title>
+    <sub-title lang="es">Pelos polos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018172500 +0000" stop="20261018173300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Teatro de marionetas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.37.0/1</episode-num>
+    <episode-num system="onscreen">S03E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e38-pocoyo-s-puppet-theater_l_m.jpg</image>
+  </programme>
+  <programme start="20261018173300 +0000" stop="20261018174000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">La casa de los colores</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <episode-num system="onscreen">S04E10</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e10-la-casa-de-los-colores_l_m.jpg</image>
+  </programme>
+  <programme start="20261018174000 +0000" stop="20261018174700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El salón de casa de Pato</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.41.0/1</episode-num>
+    <episode-num system="onscreen">S03E42</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e42-pato-s-living-room_l_m.jpg</image>
+  </programme>
+  <programme start="20261018174700 +0000" stop="20261018175400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El juego del silencio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.37.0/1</episode-num>
+    <episode-num system="onscreen">S04E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e38-el-juego-del-silencio_l_m.jpg</image>
+  </programme>
+  <programme start="20261018175400 +0000" stop="20261018180200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Fiesta de disfraces</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.33.0/1</episode-num>
+    <episode-num system="onscreen">S04E34</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e34-fancy-dress-party-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261018180200 +0000" stop="20261018180900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Preparados, listos, ya!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.6.0/1</episode-num>
+    <episode-num system="onscreen">S03E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e07-ready-steady-go_l_m.jpg</image>
+  </programme>
+  <programme start="20261018180900 +0000" stop="20261018181600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El móvil de Pato</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.32.0/1</episode-num>
+    <episode-num system="onscreen">S04E33</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e33-pato-s-phone-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261018181600 +0000" stop="20261018182300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">La fama</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.20.0/1</episode-num>
+    <episode-num system="onscreen">S05E21</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s05e21-la-fama_l_m.jpg</image>
+  </programme>
+  <programme start="20261018182300 +0000" stop="20261018183000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El baile de Elly</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.8.0/1</episode-num>
+    <episode-num system="onscreen">S05E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s05e09-el-baile-de-elly_l_m.jpg</image>
+  </programme>
+  <programme start="20261018183000 +0000" stop="20261018184200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">Escalera flexible congelada</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.34.0/1</episode-num>
+    <episode-num system="onscreen">S01E35</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018184200 +0000" stop="20261018185400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">El tesoro que respira</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.41.0/1</episode-num>
+    <episode-num system="onscreen">S01E42</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018185400 +0000" stop="20261018190500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">Jalea de esculturas abstractas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018190500 +0000" stop="20261018191600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">Helado de frijoles</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.31.0/1</episode-num>
+    <episode-num system="onscreen">S01E32</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018191600 +0000" stop="20261018192700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Hey Fuzzy Yellow</title>
+    <sub-title lang="es">El festín escondido de las tortugas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018192700 +0000" stop="20261018193400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">El eco</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.18.0/1</episode-num>
+    <episode-num system="onscreen">S05E19</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018193400 +0000" stop="20261018194100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">Año Nuevo Chino</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.11.0/1</episode-num>
+    <episode-num system="onscreen">S05E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018194100 +0000" stop="20261018194900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">Realidad virtual</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.16.0/1</episode-num>
+    <episode-num system="onscreen">S05E17</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018194900 +0000" stop="20261018195600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">El paciente</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.10.0/1</episode-num>
+    <episode-num system="onscreen">S05E11</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018195600 +0000" stop="20261018200300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Booba</title>
+    <sub-title lang="es">Hipo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.4.0/1</episode-num>
+    <episode-num system="onscreen">S05E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018200300 +0000" stop="20261018201400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Cucú Cucú</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.35.0/1</episode-num>
+    <episode-num system="onscreen">S02E36</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018201400 +0000" stop="20261018202500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Abuelo Oink</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.13.0/1</episode-num>
+    <episode-num system="onscreen">S02E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018202500 +0000" stop="20261018203700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Juguetones</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.30.0/1</episode-num>
+    <episode-num system="onscreen">S01E31</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018203700 +0000" stop="20261018204900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Despegue</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018204900 +0000" stop="20261018210000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Bugs y sus amigos a la obra</title>
+    <sub-title lang="es">Tweety da la vuelta</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261018211100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Un as bajo la manga</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.29.0/1</episode-num>
+    <episode-num system="onscreen">S01E30</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018211100 +0000" stop="20261018212300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Caos del maestro de música</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.22.0/1</episode-num>
+    <episode-num system="onscreen">S02E23</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018212300 +0000" stop="20261018213500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">El camuflaje de Redbird</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.68.0/1</episode-num>
+    <episode-num system="onscreen">S02E69</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018213500 +0000" stop="20261018214600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Bat-amigas para siempre</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.33.0/1</episode-num>
+    <episode-num system="onscreen">S02E34</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018214600 +0000" stop="20261018215700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Batiautos</title>
+    <sub-title lang="es">Pánico mecánico</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.38.0/1</episode-num>
+    <episode-num system="onscreen">S01E39</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018215700 +0000" stop="20261018220400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Frosty Cup</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.16.0/1</episode-num>
+    <episode-num system="onscreen">S04E17</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e17-frosty-cup_l_m.jpg</image>
+  </programme>
+  <programme start="20261018220400 +0000" stop="20261018221100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Academia Grizzy</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.13.0/1</episode-num>
+    <episode-num system="onscreen">S04E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e14-academia-grizzy_l_m.jpg</image>
+  </programme>
+  <programme start="20261018221100 +0000" stop="20261018221800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Exterminador de termitas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.267.0/1</episode-num>
+    <episode-num system="onscreen">S04E268</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e268-exterminador-de-termitas_l_m.jpg</image>
+  </programme>
+  <programme start="20261018221800 +0000" stop="20261018222500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Doma digital</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.19.0/1</episode-num>
+    <episode-num system="onscreen">S04E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e20-doma-digital_l_m.jpg</image>
+  </programme>
+  <programme start="20261018222500 +0000" stop="20261018223400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Hada buena, hada mala</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.68.0/1</episode-num>
+    <episode-num system="onscreen">S04E69</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e69-hada-buena-hada-mala_l_m.jpg</image>
+  </programme>
+  <programme start="20261018223400 +0000" stop="20261018224100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Laberinto sinuoso</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.1.0/1</episode-num>
+    <episode-num system="onscreen">S04E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e02-laberinto-sinuoso_l_m.jpg</image>
+  </programme>
+  <programme start="20261018224100 +0000" stop="20261018224800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Robos, gallinas y chocolate</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.72.0/1</episode-num>
+    <episode-num system="onscreen">S04E73</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e73-robos-gallinas-y-chocolate_l_m.jpg</image>
+  </programme>
+  <programme start="20261018224800 +0000" stop="20261018225500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Inteligencia artificial</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.55.0/1</episode-num>
+    <episode-num system="onscreen">S04E56</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e56-inteligencia-artificial_l_m.jpg</image>
+  </programme>
+  <programme start="20261018225500 +0000" stop="20261018230200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Grizzy y los Lemmings</title>
+    <sub-title lang="es">Familia chiflada</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.26.0/1</episode-num>
+    <episode-num system="onscreen">S04E27</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_grizzy-y-los-lemmings-s04e27-familia-chiflada_l_m.jpg</image>
+  </programme>
+  <programme start="20261018230200 +0000" stop="20261018230500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Locura Monster Truck</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.31.0/1</episode-num>
+    <episode-num system="onscreen">S01E32</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018230500 +0000" stop="20261018230900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Morphle se baña</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.24.0/1</episode-num>
+    <episode-num system="onscreen">S01E25</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018230900 +0000" stop="20261018231200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Bebé gigante</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.9.0/1</episode-num>
+    <episode-num system="onscreen">S01E10</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018231200 +0000" stop="20261018231600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Mila súper-heroína persigue a Robofreeze</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.21.0/1</episode-num>
+    <episode-num system="onscreen">S01E22</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018231600 +0000" stop="20261018232000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Los bandidos viajeros en el tiempo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.40.0/1</episode-num>
+    <episode-num system="onscreen">S01E41</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018232000 +0000" stop="20261018232300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Frankenmorphle</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.28.0/1</episode-num>
+    <episode-num system="onscreen">S01E29</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018232300 +0000" stop="20261018232700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Mila la detective</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.43.0/1</episode-num>
+    <episode-num system="onscreen">S01E44</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018232700 +0000" stop="20261018233000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mi mascota mágica Morphle</title>
+    <sub-title lang="es">Bandidos hipnóticos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018233000 +0000" stop="20261018233600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">La gran carrera de superbichos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.1.0/1</episode-num>
+    <episode-num system="onscreen">S08E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018233600 +0000" stop="20261018234100 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">Misión espacial</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.3.0/1</episode-num>
+    <episode-num system="onscreen">S08E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018234100 +0000" stop="20261018234600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">La súper seleccionadora</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.15.0/1</episode-num>
+    <episode-num system="onscreen">S06E16</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018234600 +0000" stop="20261018235200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">El torneo de bolos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.14.0/1</episode-num>
+    <episode-num system="onscreen">S08E15</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018235200 +0000" stop="20261018235700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">La votación</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.18.0/1</episode-num>
+    <episode-num system="onscreen">S06E19</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018235700 +0000" stop="20261019000200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Numberblocks</title>
+    <sub-title lang="es">¿Cuántos números puedo formar?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.27.0/1</episode-num>
+    <episode-num system="onscreen">S06E28</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019000200 +0000" stop="20261019000900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">El doctor Lucas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.30.0/1</episode-num>
+    <episode-num system="onscreen">S01E31</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019000900 +0000" stop="20261019001700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Lucas y sus amigos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.47.0/1</episode-num>
+    <episode-num system="onscreen">S01E48</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019001700 +0000" stop="20261019002500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">¡No te burles de mi!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.64.0/1</episode-num>
+    <episode-num system="onscreen">S01E65</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019002500 +0000" stop="20261019003200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Hay algo allí arriba</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.12.0/1</episode-num>
+    <episode-num system="onscreen">S02E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019003200 +0000" stop="20261019003800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Baile</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019003800 +0000" stop="20261019004500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Tableta</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.7.0/1</episode-num>
+    <episode-num system="onscreen">S01E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019004500 +0000" stop="20261019005200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Mundo submarino</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.4.0/1</episode-num>
+    <episode-num system="onscreen">S01E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019005200 +0000" stop="20261019005800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Picnic</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019005800 +0000" stop="20261019010400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Cuquin</title>
+    <sub-title lang="es">Arena</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019010400 +0000" stop="20261019012900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La casa de muñecas de Gabby</title>
+    <sub-title lang="es">Búsqueda del tesoro de dijes</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">7.4.0/1</episode-num>
+    <episode-num system="onscreen">S08E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019012900 +0000" stop="20261019015200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La casa de muñecas de Gabby</title>
+    <sub-title lang="es">¡Feliz Gato-ween!</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">4.5.0/1</episode-num>
+    <episode-num system="onscreen">S05E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019015200 +0000" stop="20261019030700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Scooby Doo y el Franken-Monstruo</title>
+    <title lang="en">Scooby Doo! Frankencreepy</title>
+    <category lang="es">Animación</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_scooby-doo-y-el-franken-monstruo-2014_l_m.jpg</image>
+  </programme>
+  <programme start="20261019030700 +0000" stop="20261019031500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Pulpo chillón</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.36.0/1</episode-num>
+    <episode-num system="onscreen">S01E37</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019031500 +0000" stop="20261019032300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Barcos de hojas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.43.0/1</episode-num>
+    <episode-num system="onscreen">S01E44</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019032300 +0000" stop="20261019033200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Clase de natación</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.51.0/1</episode-num>
+    <episode-num system="onscreen">S01E52</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019033200 +0000" stop="20261019034000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Patrick se cayó</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.13.0/1</episode-num>
+    <episode-num system="onscreen">S01E14</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019034000 +0000" stop="20261019034800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Abrazos de bichos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019034800 +0000" stop="20261019035700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Ese es mi favorito</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.25.0/1</episode-num>
+    <episode-num system="onscreen">S01E26</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019035700 +0000" stop="20261019040500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Lu y sus amigos</title>
+    <sub-title lang="es">Mi amigo Apio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.37.0/1</episode-num>
+    <episode-num system="onscreen">S01E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019040500 +0000" stop="20261019041200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">¿Tú tocaste?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.19.0/1</episode-num>
+    <episode-num system="onscreen">S02E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019041200 +0000" stop="20261019042000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Adiós, compañero</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.61.0/1</episode-num>
+    <episode-num system="onscreen">S01E62</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019042000 +0000" stop="20261019042800 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">Apestoso</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.42.0/1</episode-num>
+    <episode-num system="onscreen">S01E43</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019042800 +0000" stop="20261019043500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">La araña Lucas</title>
+    <sub-title lang="es">El pirata Lucas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.76.0/1</episode-num>
+    <episode-num system="onscreen">S01E77</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019043500 +0000" stop="20261019044200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">Cuida de esa boca</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.1.0/1</episode-num>
+    <episode-num system="onscreen">S02E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019044200 +0000" stop="20261019045000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">¿De dónde viene la lluvia?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.4.0/1</episode-num>
+    <episode-num system="onscreen">S02E05</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019045000 +0000" stop="20261019045700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">¿Qué insecto es ese?</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.7.0/1</episode-num>
+    <episode-num system="onscreen">S02E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019045700 +0000" stop="20261019050400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita: ¡Imagínate!</title>
+    <sub-title lang="es">Abre las puertas de la creatividad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.2.0/1</episode-num>
+    <episode-num system="onscreen">S02E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019050400 +0000" stop="20261019051700 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Creciendo con la Gallina Pintadita</title>
+    <sub-title lang="es">Cuarto organizado</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.5.0/1</episode-num>
+    <episode-num system="onscreen">S01E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019051700 +0000" stop="20261019052000 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita</title>
+    <sub-title lang="es">Querida Chupeta, Bye-Bye</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.84.0/1</episode-num>
+    <episode-num system="onscreen">S01E85</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019052000 +0000" stop="20261019052300 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita</title>
+    <sub-title lang="es">Vamos passear</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.29.0/1</episode-num>
+    <episode-num system="onscreen">S01E30</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019052300 +0000" stop="20261019052500 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Mundo Bita</title>
+    <sub-title lang="es">Pelos polos</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.6.0/1</episode-num>
+    <episode-num system="onscreen">S01E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019052500 +0000" stop="20261019053200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Teatro de marionetas</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.37.0/1</episode-num>
+    <episode-num system="onscreen">S03E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e38-pocoyo-s-puppet-theater_l_m.jpg</image>
+  </programme>
+  <programme start="20261019053200 +0000" stop="20261019053900 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">La casa de los colores</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.9.0/1</episode-num>
+    <episode-num system="onscreen">S04E10</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e10-la-casa-de-los-colores_l_m.jpg</image>
+  </programme>
+  <programme start="20261019053900 +0000" stop="20261019054600 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El salón de casa de Pato</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.41.0/1</episode-num>
+    <episode-num system="onscreen">S03E42</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s03e42-pato-s-living-room_l_m.jpg</image>
+  </programme>
+  <programme start="20261019054600 +0000" stop="20261019055400 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">El juego del silencio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.37.0/1</episode-num>
+    <episode-num system="onscreen">S04E38</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e38-el-juego-del-silencio_l_m.jpg</image>
+  </programme>
   <programme start="20261019055400 +0000" stop="20261019060200 +0000" channel="sv#boomerang-cartoon">
+    <title lang="es">Pocoyó</title>
+    <sub-title lang="es">Fiesta de disfraces</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.33.0/1</episode-num>
+    <episode-num system="onscreen">S04E34</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_pocoyo-s04e34-fancy-dress-party-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261019055400 +0000" stop="20261019065400 +0000" channel="sv#boomerang-cartoon">
     <title lang="es">Pocoyó</title>
     <sub-title lang="es">Fiesta de disfraces</sub-title>
     <category lang="es">Serie</category>
@@ -13478,12 +14919,12 @@
     <title lang="en">Acción</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261018050000 +0000" stop="20261018062500 +0000" channel="sv#cine-latino">
+  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="sv#cine-latino">
     <title lang="es">Draculito y Draculero</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/sv_draculito-y-draculero-2019_l_m.jpg</image>
   </programme>
-  <programme start="20261018050000 +0000" stop="20261018060000 +0000" channel="sv#cine-latino">
+  <programme start="20261018050000 +0000" stop="20261018062500 +0000" channel="sv#cine-latino">
     <title lang="es">Draculito y Draculero</title>
     <title lang="en">Comedia</title>
     <image>https://cdn.mitvstatic.com/programs/sv_draculito-y-draculero-2019_l_m.jpg</image>
@@ -27306,7 +28747,7 @@
     <episode-num system="onscreen">S04E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_million-dollar-listing-new-york-s04e08-no-cuente-los-pollitos-antes-de-nacer_l_m.jpg</image>
   </programme>
-  <programme start="20261018055000 +0000" stop="20261018064000 +0000" channel="sv#entertainment">
+  <programme start="20261018055000 +0000" stop="20261018065000 +0000" channel="sv#entertainment">
     <title lang="es">Million Dollar Listing: New York</title>
     <sub-title lang="es">Amigo, ¿dónde está mi corredor?</sub-title>
     <category lang="es">Serie</category>
@@ -27314,7 +28755,7 @@
     <episode-num system="onscreen">S04E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_million-dollar-listing-new-york-s04e09-amigo-donde-esta-mi-corredor_l_m.jpg</image>
   </programme>
-  <programme start="20261018055000 +0000" stop="20261018065000 +0000" channel="sv#entertainment">
+  <programme start="20261018055000 +0000" stop="20261018064000 +0000" channel="sv#entertainment">
     <title lang="es">Million Dollar Listing: New York</title>
     <sub-title lang="es">Amigo, ¿dónde está mi corredor?</sub-title>
     <category lang="es">Serie</category>
@@ -27975,6 +29416,114 @@
     <title lang="en">Fecha 12, Estadio TSM Corona</title>
     <category lang="es">Fecha 12, Estadio TSM Corona</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261019060000 +0000" stop="20261019070000 +0000" channel="sv#espn">
+    <title lang="es">Fútbol picante</title>
+    <title lang="en">Fútbol picante</title>
+    <category lang="es">Fútbol picante</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_futbol-futbol-picante_l_m.jpg</image>
+  </programme>
+  <programme start="20261019070000 +0000" stop="20261019080000 +0000" channel="sv#espn">
+    <title lang="es">Fútbol picante</title>
+    <title lang="en">Fútbol picante</title>
+    <category lang="es">Fútbol picante</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_futbol-futbol-picante_l_m.jpg</image>
+  </programme>
+  <programme start="20261019080000 +0000" stop="20261019090000 +0000" channel="sv#espn">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261019090000 +0000" stop="20261019110000 +0000" channel="sv#espn">
+    <title lang="es">Cambuur vs. AZ</title>
+    <title lang="en">Fecha 9, Kooi Stadion</title>
+    <category lang="es">Fecha 9, Kooi Stadion</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261019110000 +0000" stop="20261019120000 +0000" channel="sv#espn">
+    <title lang="es">Fútbol picante</title>
+    <title lang="en">Fútbol picante</title>
+    <category lang="es">Fútbol picante</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_futbol-futbol-picante_l_m.jpg</image>
+  </programme>
+  <programme start="20261019120000 +0000" stop="20261019130000 +0000" channel="sv#espn">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261019130000 +0000" stop="20261019140000 +0000" channel="sv#espn">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261019140000 +0000" stop="20261019160000 +0000" channel="sv#espn">
+    <title lang="es">FC Groningen vs. Ajax</title>
+    <title lang="en">Fecha 9, Hitachi Capital Mobility Stadion</title>
+    <category lang="es">Fecha 9, Hitachi Capital Mobility Stadion</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261019160000 +0000" stop="20261019165000 +0000" channel="sv#espn">
+    <title lang="es">Fútbol picante</title>
+    <title lang="en">Fútbol picante</title>
+    <category lang="es">Fútbol picante</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_futbol-futbol-picante_l_m.jpg</image>
+  </programme>
+  <programme start="20261019165000 +0000" stop="20261019190000 +0000" channel="sv#espn">
+    <title lang="es">Trabzonspor vs. Besiktas</title>
+    <title lang="en">Fecha 8, Papara Park</title>
+    <category lang="es">Fecha 8, Papara Park</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261019190000 +0000" stop="20261019210000 +0000" channel="sv#espn">
+    <title lang="es">Fecha 7</title>
+    <title lang="en">Serie A</title>
+    <category lang="es">Serie A</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261019210000 +0000" stop="20261019220000 +0000" channel="sv#espn">
+    <title lang="es">PGA Tour Highlights - FedExCup Playoffs Official Film</title>
+    <title lang="en">PGA Tour Highlights - FedExCup Playoffs Official Film</title>
+    <category lang="es">PGA Tour Highlights - FedExCup Playoffs Official Film</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261019220000 +0000" stop="20261019230000 +0000" channel="sv#espn">
+    <title lang="es">Goles de la UEFA Europa League</title>
+    <title lang="en">Goles de la UEFA Europa League</title>
+    <category lang="es">Goles de la UEFA Europa League</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_futbol-goles-de-la-uefa-europa-league_l_m.jpg</image>
+  </programme>
+  <programme start="20261019230000 +0000" stop="20261020000000 +0000" channel="sv#espn">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261020000000 +0000" stop="20261020030000 +0000" channel="sv#espn">
+    <title lang="es">Cleveland Guardians vs. Tampa Bay Rays</title>
+    <title lang="en">Juego 6 - Series de Campeonato, Tropicana Field</title>
+    <category lang="es">Juego 6 - Series de Campeonato, Tropicana Field</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261020030000 +0000" stop="20261020040000 +0000" channel="sv#espn">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261020040000 +0000" stop="20261020050000 +0000" channel="sv#espn">
+    <title lang="es">Generación fútbol</title>
+    <title lang="en">Generación fútbol</title>
+    <category lang="es">Generación fútbol</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261020050000 +0000" stop="20261020060000 +0000" channel="sv#espn">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_noticiero-sportscenter-1_l_m.jpg</image>
   </programme>
   <programme start="20261017060000 +0000" stop="20261017070000 +0000" channel="sv#espn-2">
     <title lang="es">SportsCenter</title>
@@ -40314,6 +41863,67 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/sv_telesur-noticias-1_l_m.jpg</image>
   </programme>
+  <programme start="20261017060000 +0000" stop="20261017065000 +0000" channel="sv#tlnovelas">
+    <title lang="es">La rosa de Guadalupe</title>
+    <title lang="en">Episodio 1600 - Distroyer y su plebe</title>
+    <category lang="es">Episodio 1600 - Distroyer y su plebe</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_la-rosa-de-guadalupe-s00e1600-distroyer-y-su-plebe_l_m.jpg</image>
+  </programme>
+  <programme start="20261017065000 +0000" stop="20261017112000 +0000" channel="sv#tlnovelas">
+    <title lang="es">En nombre del amor</title>
+    <title lang="en">- 166 al 170</title>
+    <category lang="es">- 166 al 170</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261017112000 +0000" stop="20261017121000 +0000" channel="sv#tlnovelas">
+    <title lang="es">Rina</title>
+    <title lang="en">- 124 y 125</title>
+    <category lang="es">- 124 y 125</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261017121000 +0000" stop="20261017130500 +0000" channel="sv#tlnovelas">
+    <title lang="es">Niña amada mía</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.108.0/1</episode-num>
+    <episode-num system="onscreen">S01E109</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/sv_nina-amada-mia-s00e109_l_m.jpg</image>
+  </programme>
+  <programme start="20261017130500 +0000" stop="20261017151000 +0000" channel="sv#tlnovelas">
+    <title lang="es">Cuna de lobos</title>
+    <title lang="en">- 16 al 20</title>
+    <category lang="es">- 16 al 20</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_cuna-de-lobos-16-al-20_l_m.jpg</image>
+  </programme>
+  <programme start="20261017151000 +0000" stop="20261017191000 +0000" channel="sv#tlnovelas">
+    <title lang="es">Para volver a amar</title>
+    <title lang="en">- 119 al 123</title>
+    <category lang="es">- 119 al 123</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261017191000 +0000" stop="20261017221000 +0000" channel="sv#tlnovelas">
+    <title lang="es">En nombre del amor</title>
+    <title lang="en">- 167 al 170</title>
+    <category lang="es">- 167 al 170</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261017221000 +0000" stop="20261018021000 +0000" channel="sv#tlnovelas">
+    <title lang="es">Vivo por Elena</title>
+    <title lang="en">- 77 al 81</title>
+    <category lang="es">- 77 al 81</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018021000 +0000" stop="20261018051000 +0000" channel="sv#tlnovelas">
+    <title lang="es">Para volver a amar</title>
+    <title lang="en">- 121 al 124</title>
+    <category lang="es">- 121 al 124</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018051000 +0000" stop="20261018061000 +0000" channel="sv#tlnovelas">
+    <title lang="es">Rina</title>
+    <title lang="en">- 126 y 127</title>
+    <category lang="es">- 126 y 127</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
   <programme start="20261018060000 +0000" stop="20261018065000 +0000" channel="sv#tlnovelas">
     <title lang="es">La rosa de Guadalupe</title>
     <title lang="en">Episodio 1601 - Su corazón es un tesoro</title>
@@ -44021,7 +45631,7 @@
     <episode-num system="onscreen">S02E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s02e16-the-cushion-saturation_l_m.jpg</image>
   </programme>
-  <programme start="20261018055500 +0000" stop="20261018061700 +0000" channel="sv#warner">
+  <programme start="20261018055500 +0000" stop="20261018065500 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El desacoplamiento Terminator</sub-title>
     <category lang="es">Serie</category>
@@ -44029,7 +45639,7 @@
     <episode-num system="onscreen">S02E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/sv_the-big-bang-theory-s02e17-the-terminator-decoupling_l_m.jpg</image>
   </programme>
-  <programme start="20261018055500 +0000" stop="20261018065500 +0000" channel="sv#warner">
+  <programme start="20261018055500 +0000" stop="20261018061700 +0000" channel="sv#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">El desacoplamiento Terminator</sub-title>
     <category lang="es">Serie</category>
@@ -44966,6 +46576,134 @@
     <title lang="es">TCS Noticias</title>
     <title lang="en">- Emisión del día viernes</title>
     <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018060000 +0000" stop="20261018070000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Llevátelo+</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018070000 +0000" stop="20261018073000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Conexión digital</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018073000 +0000" stop="20261018093000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Los doctores</title>
+    <title lang="en">- Emisión del día jueves, viernes</title>
+    <category lang="es">- Emisión del día jueves, viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_los-doctores-emision-del-dia-jueves-viernes_l_m.jpg</image>
+  </programme>
+  <programme start="20261018093000 +0000" stop="20261018100000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">El noticiero - Fin de semana</title>
+    <title lang="en">- Emisión del día sabado</title>
+    <category lang="es">- Emisión del día sabado</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_el-noticiero-fin-de-semana-emision-del-dia-sabado_l_m.jpg</image>
+  </programme>
+  <programme start="20261018100000 +0000" stop="20261018130000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Viva la mañana</title>
+    <title lang="en">- Emisión del día jueves</title>
+    <category lang="es">- Emisión del día jueves</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_viva-la-manana-emision-del-dia-jueves_l_m.jpg</image>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018140000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Los doctores</title>
+    <title lang="en">- Emisión del día jueves</title>
+    <category lang="es">- Emisión del día jueves</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_los-doctores-emision-del-dia-jueves_l_m.jpg</image>
+  </programme>
+  <programme start="20261018140000 +0000" stop="20261018143000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">El tiempo del espíritu</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
+  <programme start="20261018143000 +0000" stop="20261018150000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Lumen 2000</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_lumen-2000_l_m.jpg</image>
+  </programme>
+  <programme start="20261018150000 +0000" stop="20261018160000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Santa Misa dominical</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_santa-misa-dominical-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261018160000 +0000" stop="20261018190000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Viva la mañana</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_viva-la-manana-emision-del-dia-viernes_l_m.jpg</image>
+  </programme>
+  <programme start="20261018190000 +0000" stop="20261018210000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Llevátelo+</title>
+    <title lang="en">- Emisión del día domingo</title>
+    <category lang="es">- Emisión del día domingo</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261018210000 +0000" stop="20261018220000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Play</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_play-emision-del-dia-viernes_l_m.jpg</image>
+  </programme>
+  <programme start="20261018220000 +0000" stop="20261018230000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Emisión del día viernes</title>
+    <title lang="en">Noticiero DC4</title>
+    <category lang="es">Noticiero DC4</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261018230000 +0000" stop="20261019003000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Emisión del día viernes</title>
+    <title lang="en">La polémica</title>
+    <category lang="es">La polémica</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_deportivo-emision-del-dia-viernes_l_m.jpg</image>
+  </programme>
+  <programme start="20261019003000 +0000" stop="20261019013000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Llevátelo+</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019013000 +0000" stop="20261019020000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Conexión digital</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019020000 +0000" stop="20261019023000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">El noticiero - Fin de semana</title>
+    <title lang="en">- Emisión del día domingo</title>
+    <category lang="es">- Emisión del día domingo</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_el-noticiero-fin-de-semana-emision-del-dia-domingo_l_m.jpg</image>
+  </programme>
+  <programme start="20261019023000 +0000" stop="20261019030000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Conexión digital</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+  </programme>
+  <programme start="20261019030000 +0000" stop="20261019040000 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Los doctores</title>
+    <title lang="en">- Emisión del día viernes</title>
+    <category lang="es">- Emisión del día viernes</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_los-doctores-emision-del-dia-viernes_l_m.jpg</image>
+  </programme>
+  <programme start="20261019040000 +0000" stop="20261019054500 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Tiempo extra</title>
+    <title lang="en">Tiempo extra</title>
+    <category lang="es">Tiempo extra</category>
+    <image>https://cdn.mitvstatic.com/programs/sv_deportivo-tiempo-extra_l_m.jpg</image>
+  </programme>
+  <programme start="20261019054500 +0000" stop="20261019064500 +0000" channel="VTVCanal35.sv@SD">
+    <title lang="es">Canasteando con la Tenchis</title>
+    <sub-title lang="es">San Pedro Puxtla</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.39.0/1</episode-num>
+    <episode-num system="onscreen">S01E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
   </programme>
   <programme start="20261019060000 +0000" stop="20261019070000 +0000" channel="VTVCanal35.sv@SD">
