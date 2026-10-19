@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261019132817 +0000">
+<tv generator-info-name="custom-epg" date="20261019203910 +0000">
   <channel id="247CanaldeNoticias.ar@SD">
     <display-name>24/7 Canal de Noticias</display-name>
     <icon src="https://i.imgur.com/4hDCB1M.png"/>
@@ -11,6 +11,10 @@
   <channel id="Atrescine.es@SD">
     <display-name>Atrescine</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
+  </channel>
+  <channel id="AMCLatinAmerica.us@SD">
+    <display-name>AMC</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
   <channel id="AELatinAmerica.us@South">
     <display-name>A&amp;E</display-name>
@@ -769,9 +773,9 @@
     <display-name>América TV</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png"/>
   </channel>
-  <channel id="AMCLatinAmerica.us@SD">
-    <display-name>AMC</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
+  <channel id="ZooMoo.sg@SD">
+    <display-name>ZooMoo</display-name>
+    <icon src="https://i.imgur.com/ciTJrnl.png"/>
   </channel>
   <channel id="WarnerChannel.us@South">
     <display-name>Warner Channel</display-name>
@@ -780,10 +784,6 @@
   <channel id="VTV.uy@SD">
     <display-name>VTV</display-name>
     <icon src="https://i.imgur.com/SiImXjJ.png"/>
-  </channel>
-  <channel id="ZooMoo.sg@SD">
-    <display-name>ZooMoo</display-name>
-    <icon src="https://i.imgur.com/ciTJrnl.png"/>
   </channel>
   <programme start="20261019030000 +0000" stop="20261019090000 +0000" channel="247CanaldeNoticias.ar@SD">
     <title lang="es">Trasnoche de 24/7</title>
@@ -1392,14 +1392,14 @@
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_un-paseo-por-las-tumbas-2014_l_m.jpg</image>
   </programme>
-  <programme start="20261020054500 +0000" stop="20261020072000 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20261020054500 +0000" stop="20261020064500 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Carnada</title>
     <title lang="en">Something in the Water</title>
     <category lang="es">Aventura</category>
     <rating><value>4.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261020054500 +0000" stop="20261020064500 +0000" channel="AMCLatinAmerica.us@SD">
+  <programme start="20261020054500 +0000" stop="20261020072000 +0000" channel="AMCLatinAmerica.us@SD">
     <title lang="es">Carnada</title>
     <title lang="en">Something in the Water</title>
     <category lang="es">Aventura</category>
@@ -5658,7 +5658,7 @@
   </programme>
   <programme start="20261019212900 +0000" stop="20261019220000 +0000" channel="ar#disney-jr">
     <title lang="es">Princesita Sofía: magia real</title>
-    <sub-title lang="es">El lago encantado / Trixie, la ladrona</sub-title>
+    <sub-title lang="es">Travesuras de Halloween / Lucha de disfraces</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -6018,7 +6018,7 @@
   </programme>
   <programme start="20261020150000 +0000" stop="20261020153000 +0000" channel="ar#disney-jr">
     <title lang="es">Princesita Sofía: magia real</title>
-    <sub-title lang="es">El lago encantado / Trixie, la ladrona</sub-title>
+    <sub-title lang="es">Travesuras de Halloween / Lucha de disfraces</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -6129,7 +6129,7 @@
   </programme>
   <programme start="20261020213000 +0000" stop="20261020220000 +0000" channel="ar#disney-jr">
     <title lang="es">Princesita Sofía: magia real</title>
-    <sub-title lang="es">El lago encantado / Trixie, la ladrona</sub-title>
+    <sub-title lang="es">Travesuras de Halloween / Lucha de disfraces</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.12.0/1</episode-num>
     <episode-num system="onscreen">S01E13</episode-num>
@@ -29051,7 +29051,7 @@
   </programme>
   <programme start="20261021173000 +0000" stop="20261021174000 +0000" channel="CartoonNetworkLatinAmerica.us@SouthAtlantic">
     <title lang="es">Clarence</title>
-    <sub-title lang="es">Intercambio</sub-title>
+    <sub-title lang="es">Los niños de la caja maldita</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.24.0/1</episode-num>
     <episode-num system="onscreen">S03E25</episode-num>
@@ -39061,7 +39061,7 @@
   </programme>
   <programme start="20261020225500 +0000" stop="20261020232000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">¡Apágalo! / Fuz, el rebelde / Jugosa limonada / Pio-Pio / Rockeando el silencio</sub-title>
+    <sub-title lang="es">¡Yo no fui! / Canta conmigo / El día de los deportes / Baby Divo / Myo y el cachorro</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.0.0/1</episode-num>
     <episode-num system="onscreen">S03E01</episode-num>
@@ -67416,7 +67416,7 @@
   </programme>
   <programme start="20261020152500 +0000" stop="20261020154000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">El show de Patricio Estrella</title>
-    <sub-title lang="es">Helado picante</sub-title>
+    <sub-title lang="es">El juego del amor / Helado picante</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.1.0/1</episode-num>
     <episode-num system="onscreen">S04E02</episode-num>
@@ -67424,7 +67424,7 @@
   </programme>
   <programme start="20261020154000 +0000" stop="20261020160500 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Los Marsupilamis</title>
-    <sub-title lang="es">Siguiendo a Twister / Jade la acróbata</sub-title>
+    <sub-title lang="es">Following Twister</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.18.0/1</episode-num>
     <episode-num system="onscreen">S01E19</episode-num>
@@ -67784,7 +67784,7 @@
   </programme>
   <programme start="20261021080500 +0000" stop="20261021082000 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">El show de Patricio Estrella</title>
-    <sub-title lang="es">Pat-a-ton</sub-title>
+    <sub-title lang="es">La venta de garaje</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.3.0/1</episode-num>
     <episode-num system="onscreen">S01E04</episode-num>
@@ -68530,7 +68530,7 @@
   </programme>
   <programme start="20261019181000 +0000" stop="20261019183000 +0000" channel="NickJrLatinAmerica.us@South">
     <title lang="es">Rubble y equipo</title>
-    <sub-title lang="es">El equipo construye un centro de entrenamiento para bomberos / El equipo construye...</sub-title>
+    <sub-title lang="es">The Crew Builds a Firefighter Training Center</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.6.0/1</episode-num>
     <episode-num system="onscreen">S03E07</episode-num>
@@ -68554,7 +68554,7 @@
   </programme>
   <programme start="20261019192000 +0000" stop="20261019194000 +0000" channel="NickJrLatinAmerica.us@South">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">Boris</sub-title>
+    <sub-title lang="es">Nacido para ser libre</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.2.0/1</episode-num>
     <episode-num system="onscreen">S01E03</episode-num>
@@ -69802,7 +69802,7 @@
   </programme>
   <programme start="20261022020500 +0000" stop="20261022022000 +0000" channel="NickJrLatinAmerica.us@South">
     <title lang="es">Barbapapá</title>
-    <sub-title lang="es">El cumpleaños de los Barbabebés</sub-title>
+    <sub-title lang="es">El árbol de Barbapapá / El cumpleaños de los Barbabebés</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -89828,7 +89828,7 @@
     <episode-num system="onscreen">S03E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_the-big-bang-theory-s03e09-the-vengeance-formulation_l_m.jpg</image>
   </programme>
-  <programme start="20261020055300 +0000" stop="20261020065300 +0000" channel="WarnerChannel.us@South">
+  <programme start="20261020055300 +0000" stop="20261020061600 +0000" channel="WarnerChannel.us@South">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Un buen tiempo en África Central</sub-title>
     <category lang="es">Serie</category>
@@ -89836,7 +89836,7 @@
     <episode-num system="onscreen">S08E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dos-hombres-y-medio-s08e09-un-buen-tiempo-en-africa-central_l_m.jpg</image>
   </programme>
-  <programme start="20261020055300 +0000" stop="20261020061600 +0000" channel="WarnerChannel.us@South">
+  <programme start="20261020055300 +0000" stop="20261020065300 +0000" channel="WarnerChannel.us@South">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Un buen tiempo en África Central</sub-title>
     <category lang="es">Serie</category>
@@ -90099,7 +90099,7 @@
     <episode-num system="onscreen">S08E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dos-hombres-y-medio-s08e16-el-punetero-cura_l_m.jpg</image>
   </programme>
-  <programme start="20261021055600 +0000" stop="20261021061900 +0000" channel="WarnerChannel.us@South">
+  <programme start="20261021055600 +0000" stop="20261021065600 +0000" channel="WarnerChannel.us@South">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Piloto</sub-title>
     <category lang="es">Serie</category>
@@ -90107,7 +90107,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dos-hombres-y-medio-s01e01-piloto_l_m.jpg</image>
   </programme>
-  <programme start="20261021055600 +0000" stop="20261021065600 +0000" channel="WarnerChannel.us@South">
+  <programme start="20261021055600 +0000" stop="20261021061900 +0000" channel="WarnerChannel.us@South">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Piloto</sub-title>
     <category lang="es">Serie</category>
@@ -90319,7 +90319,7 @@
   </programme>
   <programme start="20261019063000 +0000" stop="20261019064500 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Contando con Paula</title>
-    <sub-title lang="pt">La nueva mascota de Tim</sub-title>
+    <sub-title lang="pt">Cálculo de alta tecnología</sub-title>
     <category lang="pt">Serie</category>
     <episode-num system="xmltv_ns">3.40.0/1</episode-num>
     <episode-num system="onscreen">S04E41</episode-num>
@@ -90351,7 +90351,7 @@
   </programme>
   <programme start="20261019073000 +0000" stop="20261019074500 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Contando con Paula</title>
-    <sub-title lang="pt">La foto ganadora</sub-title>
+    <sub-title lang="pt">Paula, la oficial de seguridad contra incendios</sub-title>
     <category lang="pt">Serie</category>
     <episode-num system="xmltv_ns">3.51.0/1</episode-num>
     <episode-num system="onscreen">S04E52</episode-num>
@@ -90447,7 +90447,7 @@
   </programme>
   <programme start="20261019103000 +0000" stop="20261019104500 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Contando con Paula</title>
-    <sub-title lang="pt">La nueva mascota de Tim</sub-title>
+    <sub-title lang="pt">Cálculo de alta tecnología</sub-title>
     <category lang="pt">Serie</category>
     <episode-num system="xmltv_ns">3.40.0/1</episode-num>
     <episode-num system="onscreen">S04E41</episode-num>
@@ -90479,7 +90479,7 @@
   </programme>
   <programme start="20261019113000 +0000" stop="20261019114500 +0000" channel="ZooMoo.sg@SD">
     <title lang="es">Contando con Paula</title>
-    <sub-title lang="pt">La foto ganadora</sub-title>
+    <sub-title lang="pt">Paula, la oficial de seguridad contra incendios</sub-title>
     <category lang="pt">Serie</category>
     <episode-num system="xmltv_ns">3.51.0/1</episode-num>
     <episode-num system="onscreen">S04E52</episode-num>
