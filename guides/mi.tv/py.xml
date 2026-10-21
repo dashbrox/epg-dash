@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261021001011 +0000">
+<tv generator-info-name="custom-epg" date="20261021050511 +0000">
   <channel id="py#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -21,6 +21,12 @@
   <channel id="py#discovery-turbo">
     <display-name>Discovery Turbo</display-name>
   </channel>
+  <channel id="py#golden">
+    <display-name>Golden</display-name>
+  </channel>
+  <channel id="py#gol-tv">
+    <display-name>Gol TV</display-name>
+  </channel>
   <channel id="py#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
@@ -29,6 +35,12 @@
   </channel>
   <channel id="py#discovery-kids">
     <display-name>Discovery Kids</display-name>
+  </channel>
+  <channel id="py#fx">
+    <display-name>FX</display-name>
+  </channel>
+  <channel id="py#fox-sports-3">
+    <display-name>FOX Sports 3</display-name>
   </channel>
   <channel id="py#discovery">
     <display-name>Discovery Channel</display-name>
@@ -115,18 +127,6 @@
   <channel id="py#disney">
     <display-name>Disney Channel</display-name>
   </channel>
-  <channel id="py#history">
-    <display-name>History</display-name>
-  </channel>
-  <channel id="py#hei-network-hd">
-    <display-name>HEi Network HD</display-name>
-  </channel>
-  <channel id="py#hei-network">
-    <display-name>HEi Network</display-name>
-  </channel>
-  <channel id="py#hbo-signature">
-    <display-name>HBO Signature</display-name>
-  </channel>
   <channel id="py#hbo-plus-este">
     <display-name>HBO Plus Este</display-name>
   </channel>
@@ -136,17 +136,14 @@
   <channel id="py#hbo">
     <display-name>HBO</display-name>
   </channel>
-  <channel id="py#golden">
-    <display-name>Golden</display-name>
+  <channel id="py#warner-channel">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#gol-tv">
-    <display-name>Gol TV</display-name>
+  <channel id="py#warner">
+    <display-name>Warner Channel</display-name>
   </channel>
-  <channel id="py#fx">
-    <display-name>FX</display-name>
-  </channel>
-  <channel id="py#fox-sports-3">
-    <display-name>FOX Sports 3</display-name>
+  <channel id="py#venus">
+    <display-name>Venus</display-name>
   </channel>
   <channel id="py#univision">
     <display-name>Univision</display-name>
@@ -184,6 +181,9 @@
   <channel id="py#tigo-sports">
     <display-name>Tigo Sports</display-name>
   </channel>
+  <channel id="py#telemundo">
+    <display-name>Telemundo</display-name>
+  </channel>
   <channel id="py#telefuturo">
     <display-name>Telefuturo</display-name>
   </channel>
@@ -192,9 +192,6 @@
   </channel>
   <channel id="py#telecafe">
     <display-name>Telecafé</display-name>
-  </channel>
-  <channel id="py#teleamiga">
-    <display-name>TeleAmiga</display-name>
   </channel>
   <channel id="py#sur-tv">
     <display-name>Sur TV</display-name>
@@ -244,20 +241,23 @@
   <channel id="py#la-tele">
     <display-name>latele</display-name>
   </channel>
-  <channel id="py#warner-channel">
-    <display-name>Warner Channel</display-name>
-  </channel>
-  <channel id="py#warner">
-    <display-name>Warner Channel</display-name>
-  </channel>
-  <channel id="py#venus">
-    <display-name>Venus</display-name>
-  </channel>
-  <channel id="py#telemundo">
-    <display-name>Telemundo</display-name>
-  </channel>
   <channel id="py#htv">
     <display-name>HTV</display-name>
+  </channel>
+  <channel id="py#history">
+    <display-name>History</display-name>
+  </channel>
+  <channel id="py#hei-network-hd">
+    <display-name>HEi Network HD</display-name>
+  </channel>
+  <channel id="py#hei-network">
+    <display-name>HEi Network</display-name>
+  </channel>
+  <channel id="py#teleamiga">
+    <display-name>TeleAmiga</display-name>
+  </channel>
+  <channel id="py#hbo-signature">
+    <display-name>HBO Signature</display-name>
   </channel>
   <programme start="20261021060000 +0000" stop="20261021070000 +0000" channel="CNNenEspanol.us@SD">
     <title lang="es">Deportes CNN</title>
@@ -23899,13 +23899,13 @@
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261023044000 +0000" stop="20261023065900 +0000" channel="py#hbo-plus-este">
+  <programme start="20261023044000 +0000" stop="20261023054000 +0000" channel="py#hbo-plus-este">
     <title lang="es">El conjuro 2</title>
     <title lang="en">The Conjuring 2: The Enfield Poltergeist</title>
     <category lang="es">Terror</category>
     <image>https://cdn.mitvstatic.com/programs/py_el-conjuro-2-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261023044000 +0000" stop="20261023054000 +0000" channel="py#hbo-plus-este">
+  <programme start="20261023044000 +0000" stop="20261023065900 +0000" channel="py#hbo-plus-este">
     <title lang="es">El conjuro 2</title>
     <title lang="en">The Conjuring 2: The Enfield Poltergeist</title>
     <category lang="es">Terror</category>
@@ -25126,7 +25126,7 @@
     <episode-num system="onscreen">S13E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_alienigenas-ancestrales-t13e02-da-vinci-codigos-prohibidos_l_m.jpg</image>
   </programme>
-  <programme start="20261023054800 +0000" stop="20261023064800 +0000" channel="py#history">
+  <programme start="20261023054800 +0000" stop="20261023064500 +0000" channel="py#history">
     <title lang="es">Alienígenas ancestrales</title>
     <sub-title lang="es">El protocolo alienígena</sub-title>
     <category lang="es">Serie</category>
@@ -25134,7 +25134,7 @@
     <episode-num system="onscreen">S13E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_alienigenas-ancestrales-t13e03-el-protocolo-alienigena_l_m.jpg</image>
   </programme>
-  <programme start="20261023054800 +0000" stop="20261023064500 +0000" channel="py#history">
+  <programme start="20261023054800 +0000" stop="20261023064800 +0000" channel="py#history">
     <title lang="es">Alienígenas ancestrales</title>
     <sub-title lang="es">El protocolo alienígena</sub-title>
     <category lang="es">Serie</category>
@@ -25370,13 +25370,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261022040000 +0000" stop="20261022120000 +0000" channel="py#htv">
+  <programme start="20261022040000 +0000" stop="20261022050000 +0000" channel="py#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261022040000 +0000" stop="20261022050000 +0000" channel="py#htv">
+  <programme start="20261022040000 +0000" stop="20261022120000 +0000" channel="py#htv">
     <title lang="es">HTV</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -26758,7 +26758,7 @@
     <episode-num system="onscreen">S38E38</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_ridiculousness-t38e38-sterling-and-lolo-wood-xxxii_l_m.jpg</image>
   </programme>
-  <programme start="20261022055000 +0000" stop="20261022065000 +0000" channel="py#mtv">
+  <programme start="20261022055000 +0000" stop="20261022061000 +0000" channel="py#mtv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Lolo Wood XXX</sub-title>
     <category lang="es">Serie</category>
@@ -26766,7 +26766,7 @@
     <episode-num system="onscreen">S38E39</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_ridiculousness-t38e39-sterling-and-lolo-wood-xxx_l_m.jpg</image>
   </programme>
-  <programme start="20261022055000 +0000" stop="20261022061000 +0000" channel="py#mtv">
+  <programme start="20261022055000 +0000" stop="20261022065000 +0000" channel="py#mtv">
     <title lang="es">Ridiculousness</title>
     <sub-title lang="es">Sterling and Lolo Wood XXX</sub-title>
     <category lang="es">Serie</category>
@@ -27957,7 +27957,7 @@
     <episode-num system="onscreen">S25E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_mayday-catastrofes-aereas-t25e10-vuelo-de-prueba-fatal_l_m.jpg</image>
   </programme>
-  <programme start="20261022055000 +0000" stop="20261022063400 +0000" channel="py#national-geographic">
+  <programme start="20261022055000 +0000" stop="20261022065000 +0000" channel="py#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Muertes en Pompeya</sub-title>
     <category lang="es">Serie</category>
@@ -27965,7 +27965,7 @@
     <episode-num system="onscreen">S05E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_secreto-en-los-oceanos-t05e01-muertes-en-pompeya_l_m.jpg</image>
   </programme>
-  <programme start="20261022055000 +0000" stop="20261022065000 +0000" channel="py#national-geographic">
+  <programme start="20261022055000 +0000" stop="20261022063400 +0000" channel="py#national-geographic">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Muertes en Pompeya</sub-title>
     <category lang="es">Serie</category>
@@ -28845,13 +28845,13 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261022010000 +0000" stop="20261022080000 +0000" channel="py#parana-tv">
+  <programme start="20261022010000 +0000" stop="20261022020000 +0000" channel="py#parana-tv">
     <title lang="es">24 horas</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/py_24-horas_l_m.jpg</image>
   </programme>
-  <programme start="20261022010000 +0000" stop="20261022020000 +0000" channel="py#parana-tv">
+  <programme start="20261022010000 +0000" stop="20261022080000 +0000" channel="py#parana-tv">
     <title lang="es">24 horas</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
@@ -29586,9 +29586,9 @@
   </programme>
   <programme start="20261021070000 +0000" stop="20261021073000 +0000" channel="py#russia-today-hd">
     <title lang="es">Entrevista</title>
-    <title lang="en">- Ariel Wilkis, doctor en sociología argentino</title>
-    <category lang="es">- Ariel Wilkis, doctor en sociología argentino</category>
-    <image>https://cdn.mitvstatic.com/programs/py_entrevista-ariel-wilkis-doctor-en-sociologia-argentino_l_m.jpg</image>
+    <title lang="en">- Elena Basile, exembajadora de Italia en Bélgica</title>
+    <category lang="es">- Elena Basile, exembajadora de Italia en Bélgica</category>
+    <image>https://cdn.mitvstatic.com/programs/py_entrevista-elena-basile-exembajadora-de-italia-en-belgica_l_m.jpg</image>
   </programme>
   <programme start="20261021073000 +0000" stop="20261021080000 +0000" channel="py#russia-today-hd">
     <title lang="es">Líbano: la línea amarilla</title>
@@ -29604,9 +29604,9 @@
   </programme>
   <programme start="20261021083000 +0000" stop="20261021090000 +0000" channel="py#russia-today-hd">
     <title lang="es">Entrevista</title>
-    <title lang="en">- Ariel Wilkis, doctor en sociología argentino</title>
-    <category lang="es">- Ariel Wilkis, doctor en sociología argentino</category>
-    <image>https://cdn.mitvstatic.com/programs/py_entrevista-ariel-wilkis-doctor-en-sociologia-argentino_l_m.jpg</image>
+    <title lang="en">- Elena Basile, exembajadora de Italia en Bélgica</title>
+    <category lang="es">- Elena Basile, exembajadora de Italia en Bélgica</category>
+    <image>https://cdn.mitvstatic.com/programs/py_entrevista-elena-basile-exembajadora-de-italia-en-belgica_l_m.jpg</image>
   </programme>
   <programme start="20261021090000 +0000" stop="20261021093000 +0000" channel="py#russia-today-hd">
     <title lang="es">RT reporta</title>
@@ -29623,9 +29623,9 @@
   </programme>
   <programme start="20261021100000 +0000" stop="20261021103000 +0000" channel="py#russia-today-hd">
     <title lang="es">Entrevista</title>
-    <title lang="en">- Ariel Wilkis, doctor en sociología argentino</title>
-    <category lang="es">- Ariel Wilkis, doctor en sociología argentino</category>
-    <image>https://cdn.mitvstatic.com/programs/py_entrevista-ariel-wilkis-doctor-en-sociologia-argentino_l_m.jpg</image>
+    <title lang="en">- Elena Basile, exembajadora de Italia en Bélgica</title>
+    <category lang="es">- Elena Basile, exembajadora de Italia en Bélgica</category>
+    <image>https://cdn.mitvstatic.com/programs/py_entrevista-elena-basile-exembajadora-de-italia-en-belgica_l_m.jpg</image>
   </programme>
   <programme start="20261021103000 +0000" stop="20261021110000 +0000" channel="py#russia-today-hd">
     <title lang="es">Líbano: la línea amarilla</title>
@@ -30727,13 +30727,13 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="py#sony">
+  <programme start="20261022030000 +0000" stop="20261022064000 +0000" channel="py#sony">
     <title lang="es">Titanic</title>
     <title lang="en">Drama</title>
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_titanic-1997_l_m.jpg</image>
   </programme>
-  <programme start="20261022030000 +0000" stop="20261022064000 +0000" channel="py#sony">
+  <programme start="20261022030000 +0000" stop="20261022040000 +0000" channel="py#sony">
     <title lang="es">Titanic</title>
     <title lang="en">Drama</title>
     <rating><value>7.7</value></rating>
@@ -31615,14 +31615,14 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261022050300 +0000" stop="20261022063000 +0000" channel="py#space">
+  <programme start="20261022050300 +0000" stop="20261022060300 +0000" channel="py#space">
     <title lang="es">La maldición de La Llorona</title>
     <title lang="en">The Curse of La Llorona</title>
     <category lang="es">Terror</category>
     <rating><value>5.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_la-maldicion-de-la-llorona-2019_l_m.jpg</image>
   </programme>
-  <programme start="20261022050300 +0000" stop="20261022060300 +0000" channel="py#space">
+  <programme start="20261022050300 +0000" stop="20261022063000 +0000" channel="py#space">
     <title lang="es">La maldición de La Llorona</title>
     <title lang="en">The Curse of La Llorona</title>
     <category lang="es">Terror</category>
@@ -31703,14 +31703,14 @@
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/py_pesadilla-en-la-calle-elm-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261023044500 +0000" stop="20261023054500 +0000" channel="py#space">
+  <programme start="20261023044500 +0000" stop="20261023064500 +0000" channel="py#space">
     <title lang="es">Maligno</title>
     <title lang="en">Malignant</title>
     <category lang="es">Terror</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261023044500 +0000" stop="20261023064500 +0000" channel="py#space">
+  <programme start="20261023044500 +0000" stop="20261023054500 +0000" channel="py#space">
     <title lang="es">Maligno</title>
     <title lang="en">Malignant</title>
     <category lang="es">Terror</category>
@@ -32240,13 +32240,13 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/py_en-la-piel-de-alicia_l_m.jpg</image>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023090000 +0000" channel="py#sur-tv">
+  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="py#sur-tv">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/py_fin-de-transmision_l_m.jpg</image>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="py#sur-tv">
+  <programme start="20261023030000 +0000" stop="20261023090000 +0000" channel="py#sur-tv">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -33894,13 +33894,13 @@
     <category lang="es">Cocina</category>
     <image>https://cdn.mitvstatic.com/programs/py_sabores-de-campo_l_m.jpg</image>
   </programme>
-  <programme start="20261023054500 +0000" stop="20261023064500 +0000" channel="py#telefe-internacional">
+  <programme start="20261023054500 +0000" stop="20261023070000 +0000" channel="py#telefe-internacional">
     <title lang="es">Ariel en su salsa</title>
     <title lang="en">Cocina</title>
     <category lang="es">Cocina</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261023054500 +0000" stop="20261023070000 +0000" channel="py#telefe-internacional">
+  <programme start="20261023054500 +0000" stop="20261023064500 +0000" channel="py#telefe-internacional">
     <title lang="es">Ariel en su salsa</title>
     <title lang="en">Cocina</title>
     <category lang="es">Cocina</category>
@@ -34186,13 +34186,13 @@
     <category lang="es">Drama</category>
     <image>https://cdn.mitvstatic.com/programs/py_bajo-presion_l_m.jpg</image>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="py#telefuturo">
+  <programme start="20261023030000 +0000" stop="20261023082000 +0000" channel="py#telefuturo">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/py_fin-de-transmision_l_m.jpg</image>
   </programme>
-  <programme start="20261023030000 +0000" stop="20261023082000 +0000" channel="py#telefuturo">
+  <programme start="20261023030000 +0000" stop="20261023040000 +0000" channel="py#telefuturo">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -34369,13 +34369,13 @@
     <category lang="es">Fecha 15, Estadio Martin Torres</category>
     <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20261022050000 +0000" stop="20261022070000 +0000" channel="py#tigo-sports">
+  <programme start="20261022050000 +0000" stop="20261022060000 +0000" channel="py#tigo-sports">
     <title lang="es">Sportivo Luqueño vs. San Lorenzo</title>
     <title lang="en">Fecha 15, Estadio Feliciano Cáceres</title>
     <category lang="es">Fecha 15, Estadio Feliciano Cáceres</category>
     <image>https://cdn.mitvstatic.com/tags/py_futbol_l_m.jpg</image>
   </programme>
-  <programme start="20261022050000 +0000" stop="20261022060000 +0000" channel="py#tigo-sports">
+  <programme start="20261022050000 +0000" stop="20261022070000 +0000" channel="py#tigo-sports">
     <title lang="es">Sportivo Luqueño vs. San Lorenzo</title>
     <title lang="en">Fecha 15, Estadio Feliciano Cáceres</title>
     <category lang="es">Fecha 15, Estadio Feliciano Cáceres</category>
@@ -35382,7 +35382,7 @@
     <episode-num system="onscreen">S04E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_el-mentalista-t04e10-fuga-en-rojo_l_m.jpg</image>
   </programme>
-  <programme start="20261022052200 +0000" stop="20261022062200 +0000" channel="py#tnt-series">
+  <programme start="20261022052200 +0000" stop="20261022060500 +0000" channel="py#tnt-series">
     <title lang="es">CSI</title>
     <sub-title lang="es">Amor en venta</sub-title>
     <category lang="es">Serie</category>
@@ -35390,7 +35390,7 @@
     <episode-num system="onscreen">S14E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_csi-t14e15-amor-en-venta_l_m.jpg</image>
   </programme>
-  <programme start="20261022052200 +0000" stop="20261022060500 +0000" channel="py#tnt-series">
+  <programme start="20261022052200 +0000" stop="20261022062200 +0000" channel="py#tnt-series">
     <title lang="es">CSI</title>
     <sub-title lang="es">Amor en venta</sub-title>
     <category lang="es">Serie</category>
@@ -38831,13 +38831,13 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/py_tvs-noticias_l_m.jpg</image>
   </programme>
-  <programme start="20261022013000 +0000" stop="20261022080000 +0000" channel="py#tvs">
+  <programme start="20261022013000 +0000" stop="20261022023000 +0000" channel="py#tvs">
     <title lang="es">Cierre de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/py_cierre-de-transmision_l_m.jpg</image>
   </programme>
-  <programme start="20261022013000 +0000" stop="20261022023000 +0000" channel="py#tvs">
+  <programme start="20261022013000 +0000" stop="20261022080000 +0000" channel="py#tvs">
     <title lang="es">Cierre de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -40167,7 +40167,7 @@
     <episode-num system="onscreen">S05E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_chicago-fire-t05e20-cargame_l_m.jpg</image>
   </programme>
-  <programme start="20261022055000 +0000" stop="20261022065000 +0000" channel="py#universal-channel">
+  <programme start="20261022055000 +0000" stop="20261022064000 +0000" channel="py#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Sesenta días</sub-title>
     <category lang="es">Serie</category>
@@ -40175,7 +40175,7 @@
     <episode-num system="onscreen">S05E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_chicago-fire-t05e21-sesenta-dias_l_m.jpg</image>
   </programme>
-  <programme start="20261022055000 +0000" stop="20261022064000 +0000" channel="py#universal-channel">
+  <programme start="20261022055000 +0000" stop="20261022065000 +0000" channel="py#universal-channel">
     <title lang="es">Chicago Fire</title>
     <sub-title lang="es">Sesenta días</sub-title>
     <category lang="es">Serie</category>
@@ -41872,13 +41872,13 @@
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261022054200 +0000" stop="20261022070900 +0000" channel="py#venus">
+  <programme start="20261022054200 +0000" stop="20261022064200 +0000" channel="py#venus">
     <title lang="es">E-Girls se masturban</title>
     <title lang="en">Masturbating E-Girls</title>
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261022054200 +0000" stop="20261022064200 +0000" channel="py#venus">
+  <programme start="20261022054200 +0000" stop="20261022070900 +0000" channel="py#venus">
     <title lang="es">E-Girls se masturban</title>
     <title lang="en">Masturbating E-Girls</title>
     <category lang="es">Erótica</category>
@@ -41977,13 +41977,13 @@
     <title lang="en">Erótica</title>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261023054300 +0000" stop="20261023064300 +0000" channel="py#venus">
+  <programme start="20261023054300 +0000" stop="20261023071100 +0000" channel="py#venus">
     <title lang="es">Ménaje con Roommates</title>
     <title lang="en">Horny Roommates&apos; Sneaky Threesomes!</title>
     <category lang="es">Erótica</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261023054300 +0000" stop="20261023071100 +0000" channel="py#venus">
+  <programme start="20261023054300 +0000" stop="20261023064300 +0000" channel="py#venus">
     <title lang="es">Ménaje con Roommates</title>
     <title lang="en">Horny Roommates&apos; Sneaky Threesomes!</title>
     <category lang="es">Erótica</category>
@@ -42303,7 +42303,7 @@
     <episode-num system="onscreen">S03E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t03e16-the-excelsior-acquisition_l_m.jpg</image>
   </programme>
-  <programme start="20261022055300 +0000" stop="20261022061400 +0000" channel="py#warner">
+  <programme start="20261022055300 +0000" stop="20261022065300 +0000" channel="py#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">Una fragmentación muy valiosa</sub-title>
     <category lang="es">Serie</category>
@@ -42311,7 +42311,7 @@
     <episode-num system="onscreen">S03E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_the-big-bang-theory-t03e17-the-precious-fragmentation_l_m.jpg</image>
   </programme>
-  <programme start="20261022055300 +0000" stop="20261022065300 +0000" channel="py#warner">
+  <programme start="20261022055300 +0000" stop="20261022061400 +0000" channel="py#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">Una fragmentación muy valiosa</sub-title>
     <category lang="es">Serie</category>
@@ -43282,7 +43282,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_dos-hombres-y-medio-t01e11-el-sex-appeal-de-alan_l_m.jpg</image>
   </programme>
-  <programme start="20261023054200 +0000" stop="20261023060300 +0000" channel="py#warner-channel">
+  <programme start="20261023054200 +0000" stop="20261023064200 +0000" channel="py#warner-channel">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Cigarrillos y feromonas</sub-title>
     <category lang="es">Serie</category>
@@ -43290,7 +43290,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/py_dos-hombres-y-medio-t01e12-cigarrillos-y-feromonas_l_m.jpg</image>
   </programme>
-  <programme start="20261023054200 +0000" stop="20261023064200 +0000" channel="py#warner-channel">
+  <programme start="20261023054200 +0000" stop="20261023060300 +0000" channel="py#warner-channel">
     <title lang="es">Dos hombres y medio</title>
     <sub-title lang="es">Cigarrillos y feromonas</sub-title>
     <category lang="es">Serie</category>
