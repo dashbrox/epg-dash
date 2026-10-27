@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261027153331 +0000">
+<tv generator-info-name="custom-epg" date="20261027222643 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
   </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
+  <channel id="E.us@West">
+    <display-name>E! Entertainment USA HD - Pacific</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
   </channel>
-  <channel id="tsn-on-demand/6784">
-    <display-name>TSN On Demand</display-name>
+  <channel id="Bravo.us@East">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="tsn-4k/19467">
-    <display-name>TSN 4K</display-name>
+  <channel id="Bravo.us@West">
+    <display-name>Bravo USA HD - Pacific Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
   <channel id="tsn-4k-senators/31606">
     <display-name>TSN 4K Senators</display-name>
@@ -66,17 +69,14 @@
   <channel id="tsn1-hd/2819">
     <display-name>TSN1 HD</display-name>
   </channel>
-  <channel id="Bravo.us@West">
-    <display-name>Bravo USA HD - Pacific Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-on-demand/6784">
+    <display-name>TSN On Demand</display-name>
   </channel>
-  <channel id="Bravo.us@East">
-    <display-name>Bravo USA HD - Eastern Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="tsn-4k/19467">
+    <display-name>TSN 4K</display-name>
   </channel>
-  <channel id="E.us@West">
-    <display-name>E! Entertainment USA HD - Pacific</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
   </channel>
   <programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of New York City</title>
@@ -153,14 +153,14 @@
     <category lang="en">Reality TV</category>
     <category lang="en">Performing Arts</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p186003_b_v12_ah.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8018063_e_h10_ac.jpg</image>
   </programme>
   <programme start="20261027130000 +0000" stop="20261027140000 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of New York City</title>
     <category lang="en">Reality TV</category>
     <category lang="en">Performing Arts</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p186003_b_v12_ah.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8018063_e_h10_ac.jpg</image>
   </programme>
   <programme start="20261027140000 +0000" stop="20261027150000 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of New York City</title>
@@ -432,14 +432,14 @@
     <category lang="en">Reality TV</category>
     <category lang="en">Performing Arts</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p186003_b_v12_ah.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p186003_b_h8_ag.jpg</image>
   </programme>
   <programme start="20261028024500 +0000" stop="20261028034500 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of New York City</title>
     <category lang="en">Reality TV</category>
     <category lang="en">Performing Arts</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p186003_b_v12_ah.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p186003_b_h8_ag.jpg</image>
   </programme>
   <programme start="20261028034500 +0000" stop="20261028044500 +0000" channel="Bravo.us@East">
     <title lang="en">The Real Housewives of New York City</title>
@@ -1483,7 +1483,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Comedy Drama</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_h8_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_s4_ad.jpg</image>
   </programme>
   <programme start="20261027233000 +0000" stop="20261028020000 +0000" channel="E.us@East">
     <title lang="en">The Devil Wears Prada</title>
@@ -1504,7 +1504,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Comedy Drama</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_h8_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_s4_ad.jpg</image>
   </programme>
   <programme start="20261028020000 +0000" stop="20261028033200 +0000" channel="E.us@East">
     <title lang="en">The Golden Life</title>
@@ -2160,7 +2160,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Comedy Drama</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_h8_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_s4_ad.jpg</image>
   </programme>
   <programme start="20261028000000 +0000" stop="20261028023000 +0000" channel="E.us@West">
     <title lang="en">The Devil Wears Prada</title>
@@ -2181,7 +2181,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Comedy Drama</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_h8_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p159800_k_s4_ad.jpg</image>
   </programme>
   <programme start="20261028023000 +0000" stop="20261028050000 +0000" channel="E.us@West">
     <title lang="en">The Devil Wears Prada</title>
@@ -4934,13 +4934,13 @@
     <title lang="en">BarDown: Shattuck-St. Mary&apos;s School Tour</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33240268_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p33240268_i_s4_aa.jpg</image>
   </programme>
   <programme start="20261028190000 +0000" stop="20261028220000 +0000" channel="tsn2-hd/5920">
     <title lang="en">2024 IIHF Women&apos;s World Championship</title>
     <category lang="en">Sports</category>
     <category lang="en">Hockey</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p26728957_b_v12_ab.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p26733093_tb2_v12_af.jpg</image>
   </programme>
   <programme start="20261028220000 +0000" stop="20261028223000 +0000" channel="tsn2-hd/5920">
     <title lang="en">SC</title>
@@ -4971,7 +4971,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Wrestling</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17392976_b_v12_ay.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17392976_b_h8_ay.jpg</image>
   </programme>
   <programme start="20261029020000 +0000" stop="20261029023000 +0000" channel="tsn2-hd/5920">
     <title lang="en">SC</title>
@@ -5002,7 +5002,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Wrestling</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17392976_b_v12_ay.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17392976_b_h8_ay.jpg</image>
   </programme>
   <programme start="20261029070000 +0000" stop="20261029100000 +0000" channel="tsn2-hd/5920">
     <title lang="en">Golf</title>
@@ -6704,7 +6704,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261027220000 +0000" stop="20261027233000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SportsCentre</title>
@@ -6795,7 +6795,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261028220000 +0000" stop="20261028230000 +0000" channel="tsn4-hd/13769">
     <title lang="en">SportsCentre</title>
@@ -7242,7 +7242,7 @@
     <title lang="en">WNBA Playoffs Pregame</title>
     <category lang="en">Sports</category>
     <category lang="en">Basketball</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17477426_b_v12_ab.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p17477426_b_s4_ab.jpg</image>
   </programme>
   <programme start="20261029163000 +0000" stop="20261029190000 +0000" channel="TSN4.ca@SD">
     <title lang="en">2026 WNBA Finals</title>
@@ -7261,7 +7261,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261029220000 +0000" stop="20261029230000 +0000" channel="TSN4.ca@SD">
     <title lang="en">SportsCentre</title>
@@ -7399,55 +7399,55 @@
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029070000 +0000" stop="20261029100000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029100000 +0000" stop="20261029140000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029140000 +0000" stop="20261029170000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029170000 +0000" stop="20261029200000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029200000 +0000" stop="20261030000000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261030000000 +0000" stop="20261030023000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261030023000 +0000" stop="20261030060000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261030060000 +0000" stop="20261030100000 +0000" channel="tsn5-4k/35986">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261027100000 +0000" stop="20261027110000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SC With Jay Onrait</title>
@@ -7599,7 +7599,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261028220000 +0000" stop="20261028230000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SportsCentre</title>
@@ -7696,7 +7696,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261029220000 +0000" stop="20261029233000 +0000" channel="tsn5-hd/13770">
     <title lang="en">SportsCentre</title>
@@ -7926,7 +7926,7 @@
     <category lang="en">Sports</category>
     <category lang="en">Talk Show</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_v12_ad.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p10291361_b_s4_ad.jpg</image>
   </programme>
   <programme start="20261028220000 +0000" stop="20261028230000 +0000" channel="TSN5.ca@SD">
     <title lang="en">SportsCentre</title>
@@ -8185,13 +8185,13 @@
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029070000 +0000" stop="20261029100000 +0000" channel="tsn-4k-hd/31604">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029100000 +0000" stop="20261029140000 +0000" channel="tsn-4k-hd/31604">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
@@ -8449,13 +8449,13 @@
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029070000 +0000" stop="20261029100000 +0000" channel="tsn-4k-senators/31606">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029100000 +0000" stop="20261029140000 +0000" channel="tsn-4k-senators/31606">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
@@ -8581,13 +8581,13 @@
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029070000 +0000" stop="20261029100000 +0000" channel="tsn-4k/19467">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
     <category lang="en">Sports</category>
     <category lang="en">Miscellaneous</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p34235380_b_s4_aa.jpg</image>
   </programme>
   <programme start="20261029100000 +0000" stop="20261029140000 +0000" channel="tsn-4k/19467">
     <title lang="en">Next live 4K event Oct. 31 at 4:30pm EST</title>
@@ -8732,7 +8732,7 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261028043000 +0000" stop="20261028050000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Battleground Midterms</title>
@@ -8782,17 +8782,17 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261028083000 +0000" stop="20261028090000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_b_v8_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261028090000 +0000" stop="20261028100000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_b_v8_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261028100000 +0000" stop="20261028110000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up 2</title>
@@ -8895,7 +8895,7 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261029043000 +0000" stop="20261029050000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Battleground Midterms</title>
@@ -8939,17 +8939,17 @@
     <title lang="en">Good Night New York</title>
     <category lang="en">News Magazine</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_b_v12_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p27878460_i_h8_aa.jpg</image>
   </programme>
   <programme start="20261029083000 +0000" stop="20261029090000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_b_v8_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261029090000 +0000" stop="20261029100000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up</title>
     <category lang="en">News</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_b_v8_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p706488_i_h8_ab.jpg</image>
   </programme>
   <programme start="20261029100000 +0000" stop="20261029110000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Wake Up 2</title>
