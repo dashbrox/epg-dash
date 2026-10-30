@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261030101622 +0000">
+<tv generator-info-name="custom-epg" date="20261030181253 +0000">
   <channel id="E.us@East">
     <display-name>E! Entertainment USA HD - East</display-name>
     <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
   </channel>
-  <channel id="WNYWDT1.us@SD">
-    <display-name>FOX (WNYW) New York, NY HD</display-name>
+  <channel id="E.us@West">
+    <display-name>E! Entertainment USA HD - Pacific</display-name>
+    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
   </channel>
-  <channel id="tsn-on-demand/6784">
-    <display-name>TSN On Demand</display-name>
+  <channel id="Bravo.us@East">
+    <display-name>Bravo USA HD - Eastern Feed</display-name>
+    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  </channel>
+  <channel id="TSN1.ca@SD">
+    <display-name>TSN1</display-name>
+    <icon src="https://i.imgur.com/eRFE0jZ.png"/>
+  </channel>
+  <channel id="tsn3-hd/13768">
+    <display-name>TSN3 HD</display-name>
   </channel>
   <channel id="tsn-4k/19467">
     <display-name>TSN 4K</display-name>
+  </channel>
+  <channel id="tsn1-hd/2819">
+    <display-name>TSN1 HD</display-name>
+  </channel>
+  <channel id="TSN2.ca@SD">
+    <display-name>TSN2</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/960px-TSN2.svg.png"/>
   </channel>
   <channel id="tsn-4k-senators/31606">
     <display-name>TSN 4K Senators</display-name>
@@ -43,13 +59,6 @@
     <display-name>TSN3</display-name>
     <icon src="https://i.imgur.com/AYza8KO.png"/>
   </channel>
-  <channel id="tsn3-hd/13768">
-    <display-name>TSN3 HD</display-name>
-  </channel>
-  <channel id="TSN2.ca@SD">
-    <display-name>TSN2</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TSN2.svg/960px-TSN2.svg.png"/>
-  </channel>
   <channel id="tsn2-hd/5920">
     <display-name>TSN2 HD</display-name>
   </channel>
@@ -59,24 +68,15 @@
   <channel id="tsn2--no-habs-hd/32779">
     <display-name>TSN2 - No Habs HD</display-name>
   </channel>
-  <channel id="TSN1.ca@SD">
-    <display-name>TSN1</display-name>
-    <icon src="https://i.imgur.com/eRFE0jZ.png"/>
-  </channel>
-  <channel id="tsn1-hd/2819">
-    <display-name>TSN1 HD</display-name>
-  </channel>
   <channel id="Bravo.us@West">
     <display-name>Bravo USA HD - Pacific Feed</display-name>
     <icon src="https://i.imgur.com/JmTIRLF.png"/>
   </channel>
-  <channel id="Bravo.us@East">
-    <display-name>Bravo USA HD - Eastern Feed</display-name>
-    <icon src="https://i.imgur.com/JmTIRLF.png"/>
+  <channel id="WNYWDT1.us@SD">
+    <display-name>FOX (WNYW) New York, NY HD</display-name>
   </channel>
-  <channel id="E.us@West">
-    <display-name>E! Entertainment USA HD - Pacific</display-name>
-    <icon src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRh4Jl1fTw1wQ6v7_xNCTUzhIJKiotiuU-brASo35hXeempwRDt7Y86J0&amp;s=10"/>
+  <channel id="tsn-on-demand/6784">
+    <display-name>TSN On Demand</display-name>
   </channel>
   <programme start="20261030100000 +0000" stop="20261030110000 +0000" channel="Bravo.us@East">
     <title lang="en">Below Deck</title>
@@ -377,7 +377,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Horror</category>
     <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p35188_i_h10_ab.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p35188_p_v8_ab.jpg</image>
   </programme>
   <programme start="20261031030000 +0000" stop="20261031053000 +0000" channel="Bravo.us@East">
     <title lang="en">Blade: Trinity</title>
@@ -398,7 +398,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Horror</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24952036_i_s2_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24952036_p_v12_aa.jpg</image>
   </programme>
   <programme start="20261031053000 +0000" stop="20261031073000 +0000" channel="Bravo.us@East">
     <title lang="en">Night Swim</title>
@@ -419,7 +419,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Drama</category>
     <rating><value>TV-G</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p22549793_k_h8_ag.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p22549793_p_v8_ad.jpg</image>
   </programme>
   <programme start="20261031073000 +0000" stop="20261031100000 +0000" channel="Bravo.us@East">
     <title lang="en">Inside</title>
@@ -825,7 +825,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Horror</category>
     <rating><value>TV-PG</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p35188_i_h10_ab.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p35188_p_v8_ab.jpg</image>
   </programme>
   <programme start="20261031060000 +0000" stop="20261031083000 +0000" channel="Bravo.us@West">
     <title lang="en">Blade: Trinity</title>
@@ -846,7 +846,7 @@
     <category lang="en">Movies</category>
     <category lang="en">Horror</category>
     <rating><value>TV-14</value></rating>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24952036_i_s2_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p24952036_p_v12_aa.jpg</image>
   </programme>
   <programme start="20261031083000 +0000" stop="20261031103000 +0000" channel="Bravo.us@West">
     <title lang="en">Night Swim</title>
@@ -4137,7 +4137,7 @@
     <title lang="en">College GameDay</title>
     <category lang="en">Sports</category>
     <category lang="en">Football</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p629309_b_s4_ac.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p629309_b_v12_ab.jpg</image>
   </programme>
   <programme start="20261031160000 +0000" stop="20261031163000 +0000" channel="TSN2.ca@SD">
     <title lang="en">SC</title>
@@ -7493,7 +7493,7 @@
   <programme start="20261031100000 +0000" stop="20261031103000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Good Day Street Talk</title>
     <category lang="en">Regular</category>
-    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8083062_i_s1_aa.jpg</image>
+    <image>https://cdn.tvpassport.com/image/show/960x540/v2/p8083062_b_v8_aa.jpg</image>
   </programme>
   <programme start="20261031103000 +0000" stop="20261031110000 +0000" channel="WNYWDT1.us@SD">
     <title lang="en">Paid Programming</title>
