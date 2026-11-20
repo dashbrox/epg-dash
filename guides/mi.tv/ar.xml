@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261120022348 +0000">
+<tv generator-info-name="custom-epg" date="20261120115004 +0000">
   <channel id="247CanaldeNoticias.ar@SD">
     <display-name>24/7 Canal de Noticias</display-name>
     <icon src="https://i.imgur.com/4hDCB1M.png"/>
   </channel>
-  <channel id="ZooMoo.sg@SD">
-    <display-name>ZooMoo</display-name>
-    <icon src="https://i.imgur.com/ciTJrnl.png"/>
+  <channel id="Canal26.ar@SD">
+    <display-name>Canal 26</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
   </channel>
-  <channel id="WarnerChannel.us@South">
-    <display-name>Warner Channel</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
+  <channel id="Atrescine.es@SD">
+    <display-name>Atrescine</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
+  </channel>
+  <channel id="AELatinAmerica.us@South">
+    <display-name>A&amp;E</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
   </channel>
   <channel id="VTV.uy@SD">
     <display-name>VTV</display-name>
@@ -773,17 +777,13 @@
     <display-name>AMC</display-name>
     <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png"/>
   </channel>
-  <channel id="AELatinAmerica.us@South">
-    <display-name>A&amp;E</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png"/>
+  <channel id="WarnerChannel.us@South">
+    <display-name>Warner Channel</display-name>
+    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png"/>
   </channel>
-  <channel id="Atrescine.es@SD">
-    <display-name>Atrescine</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Atrescine_logo.svg/960px-Atrescine_logo.svg.png"/>
-  </channel>
-  <channel id="Canal26.ar@SD">
-    <display-name>Canal 26</display-name>
-    <icon src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png"/>
+  <channel id="ZooMoo.sg@SD">
+    <display-name>ZooMoo</display-name>
+    <icon src="https://i.imgur.com/ciTJrnl.png"/>
   </channel>
   <programme start="20261120010000 +0000" stop="20261120090000 +0000" channel="247CanaldeNoticias.ar@SD">
     <title lang="es">Trasnoche de 24/7</title>
@@ -4186,12 +4186,13 @@
     <category lang="es">Servicios</category>
     <image>https://cdn.mitvstatic.com/programs/ar_sorteo-quini-6_l_m.jpg</image>
   </programme>
-  <programme start="20261123023000 +0000" stop="20261123033000 +0000" channel="ar#canal-7-hd">
-    <title lang="es">Unísono</title>
-    <category lang="es">Musical</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_unisono_l_m.jpg</image>
+  <programme start="20261123023000 +0000" stop="20261123050000 +0000" channel="ar#canal-7-hd">
+    <title lang="es">Se siente Argentina</title>
+    <title lang="en">- Fiesta del Sol - San Juan</title>
+    <category lang="es">- Fiesta del Sol - San Juan</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_se-siente-argentina-fiesta-del-sol-san-juan_l_m.jpg</image>
   </programme>
-  <programme start="20261123033000 +0000" stop="20261123043000 +0000" channel="ar#canal-7-hd">
+  <programme start="20261123050000 +0000" stop="20261123060000 +0000" channel="ar#canal-7-hd">
     <title lang="es">Fin de transmisión</title>
     <title lang="en">Variedades</title>
     <category lang="es">Variedades</category>
@@ -4400,7 +4401,7 @@
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_shrek-2001_l_m.jpg</image>
   </programme>
-  <programme start="20261122050800 +0000" stop="20261122065300 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122044800 +0000" stop="20261122063300 +0000" channel="ar#cinemax-sur">
     <title lang="es">Borrar historial</title>
     <title lang="en">Clear History</title>
     <category lang="es">Comedia</category>
@@ -4414,44 +4415,80 @@
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_borrar-historial-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261122065300 +0000" stop="20261122090000 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122063300 +0000" stop="20261122080700 +0000" channel="ar#cinemax-sur">
     <title lang="es">A Special Lady</title>
     <title lang="en">Mi-ok</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_a-special-lady-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122090000 +0000" stop="20261122100100 +0000" channel="ar#cinemax-sur">
-    <title lang="es">Volver al futuro III</title>
-    <title lang="en">Back to the Future III</title>
-    <category lang="es">Aventura</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_volver-al-futuro-iii-1990_l_m.jpg</image>
+  <programme start="20261122080700 +0000" stop="20261122084200 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.18.0/1</episode-num>
+    <episode-num system="onscreen">S01E19</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e19_l_m.jpg</image>
   </programme>
-  <programme start="20261122100100 +0000" stop="20261122122100 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122084200 +0000" stop="20261122085500 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.60.0/1</episode-num>
+    <episode-num system="onscreen">S01E61</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e61_l_m.jpg</image>
+  </programme>
+  <programme start="20261122085500 +0000" stop="20261122085700 +0000" channel="ar#cinemax-sur">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.108.0/1</episode-num>
+    <episode-num system="onscreen">S15E109</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e109_l_m.jpg</image>
+  </programme>
+  <programme start="20261122085700 +0000" stop="20261122090000 +0000" channel="ar#cinemax-sur">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.109.0/1</episode-num>
+    <episode-num system="onscreen">S15E110</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e110_l_m.jpg</image>
+  </programme>
+  <programme start="20261122090000 +0000" stop="20261122093800 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e20_l_m.jpg</image>
+  </programme>
+  <programme start="20261122093800 +0000" stop="20261122101300 +0000" channel="ar#cinemax-sur">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.20.0/1</episode-num>
+    <episode-num system="onscreen">S01E21</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e21_l_m.jpg</image>
+  </programme>
+  <programme start="20261122101300 +0000" stop="20261122122600 +0000" channel="ar#cinemax-sur">
     <title lang="es">Rápidos y furiosos 6</title>
     <title lang="en">Fast &amp; Furious 6</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-6-2013-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122122100 +0000" stop="20261122145300 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122122600 +0000" stop="20261122145900 +0000" channel="ar#cinemax-sur">
     <title lang="es">Rápidos y furiosos 8</title>
     <title lang="en">Fast &amp; Furious 8</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-8-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122145300 +0000" stop="20261122172700 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122145900 +0000" stop="20261122173000 +0000" channel="ar#cinemax-sur">
     <title lang="es">El plan perfecto</title>
     <title lang="en">Inside Man</title>
     <category lang="es">Thriller</category>
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-plan-perfecto-2006_l_m.jpg</image>
   </programme>
-  <programme start="20261122172700 +0000" stop="20261122194900 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122173000 +0000" stop="20261122195100 +0000" channel="ar#cinemax-sur">
     <title lang="es">Volver al futuro III</title>
     <title lang="en">Back to the Future III</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/ar_volver-al-futuro-iii-1990_l_m.jpg</image>
   </programme>
-  <programme start="20261122194900 +0000" stop="20261122222000 +0000" channel="ar#cinemax-sur">
+  <programme start="20261122195100 +0000" stop="20261122222000 +0000" channel="ar#cinemax-sur">
     <title lang="es">Rápidos y furiosos 6</title>
     <title lang="en">Fast &amp; Furious 6</title>
     <category lang="es">Acción</category>
@@ -4463,21 +4500,21 @@
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-8-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261123010000 +0000" stop="20261123031700 +0000" channel="ar#cinemax-sur">
+  <programme start="20261123010000 +0000" stop="20261123031300 +0000" channel="ar#cinemax-sur">
     <title lang="es">El libro de los secretos</title>
     <title lang="en">The Book of Eli</title>
     <category lang="es">Acción</category>
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-libro-de-los-secretos-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261123031700 +0000" stop="20261123050400 +0000" channel="ar#cinemax-sur">
+  <programme start="20261123031300 +0000" stop="20261123050200 +0000" channel="ar#cinemax-sur">
     <title lang="es">La purga por siempre</title>
     <title lang="en">The Forever Purge</title>
     <category lang="es">Acción</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_la-purga-por-siempre-2021_l_m.jpg</image>
   </programme>
-  <programme start="20261123050400 +0000" stop="20261123060400 +0000" channel="ar#cinemax-sur">
+  <programme start="20261123050200 +0000" stop="20261123060200 +0000" channel="ar#cinemax-sur">
     <title lang="es">Ouija</title>
     <title lang="en">Terror</title>
     <image>https://cdn.mitvstatic.com/programs/ar_ouija-2014_l_m.jpg</image>
@@ -6102,7 +6139,7 @@
   </programme>
   <programme start="20261122083200 +0000" stop="20261122085500 +0000" channel="ar#disney-jr">
     <title lang="es">Fancy Nancy Clancy</title>
-    <sub-title lang="es">El campamento elegante / El tocador d&apos;art de Nancy</sub-title>
+    <sub-title lang="es">Le café parfait / Mademoiselle mamá</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.9.0/1</episode-num>
     <episode-num system="onscreen">S01E10</episode-num>
@@ -6300,7 +6337,7 @@
   </programme>
   <programme start="20261122180100 +0000" stop="20261122180300 +0000" channel="ar#disney-jr">
     <title lang="es">Pequeñas historias de Bluey</title>
-    <sub-title lang="es">Poción poderosa</sub-title>
+    <sub-title lang="es">Los tres cerditos</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.14.0/1</episode-num>
     <episode-num system="onscreen">S01E15</episode-num>
@@ -6308,7 +6345,7 @@
   </programme>
   <programme start="20261122180300 +0000" stop="20261122180400 +0000" channel="ar#disney-jr">
     <title lang="es">Pequeñas historias de Bluey</title>
-    <sub-title lang="es">Tattoo Shop</sub-title>
+    <sub-title lang="es">Hora del té</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -6377,7 +6414,7 @@
     <episode-num system="onscreen">S03E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_bluey-s03e16-telefonos_l_m.jpg</image>
   </programme>
-  <programme start="20261122222300 +0000" stop="20261122224800 +0000" channel="ar#disney-jr">
+  <programme start="20261122222300 +0000" stop="20261122224700 +0000" channel="ar#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Pizza Girls / Tina / Whale Watching</sub-title>
     <category lang="es">Serie</category>
@@ -6385,7 +6422,7 @@
     <episode-num system="onscreen">S03E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_bluey-s03e07-mini-bluey_l_m.jpg</image>
   </programme>
-  <programme start="20261122224800 +0000" stop="20261122231100 +0000" channel="ar#disney-jr">
+  <programme start="20261122224700 +0000" stop="20261122231000 +0000" channel="ar#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Faceytalk / Ragdoll / Fairytale</sub-title>
     <category lang="es">Serie</category>
@@ -6393,7 +6430,7 @@
     <episode-num system="onscreen">S03E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_bluey-s03e08-unicorse_l_m.jpg</image>
   </programme>
-  <programme start="20261122231100 +0000" stop="20261122233400 +0000" channel="ar#disney-jr">
+  <programme start="20261122231000 +0000" stop="20261122233400 +0000" channel="ar#disney-jr">
     <title lang="es">Bluey</title>
     <sub-title lang="es">Dirt / Cricket / Driving</sub-title>
     <category lang="es">Serie</category>
@@ -6409,7 +6446,7 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_bluey-s03e10-magic_l_m.jpg</image>
   </programme>
-  <programme start="20261123000400 +0000" stop="20261123002900 +0000" channel="ar#disney-jr">
+  <programme start="20261123000400 +0000" stop="20261123002800 +0000" channel="ar#disney-jr">
     <title lang="es">Puppy Dog Pals</title>
     <sub-title lang="es">La nueva casita de Keia / El hada de los colmillos</sub-title>
     <category lang="es">Serie</category>
@@ -6417,7 +6454,7 @@
     <episode-num system="onscreen">S02E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_puppy-dog-pals-s02e02-keia-s-new-doghouse-the-fang-fairy_l_m.jpg</image>
   </programme>
-  <programme start="20261123002900 +0000" stop="20261123010000 +0000" channel="ar#disney-jr">
+  <programme start="20261123002800 +0000" stop="20261123005900 +0000" channel="ar#disney-jr">
     <title lang="es">Puppy Dog Pals</title>
     <sub-title lang="es">El picnic de la guardería de Bingo y Rolly / El juez Rolly</sub-title>
     <category lang="es">Serie</category>
@@ -6425,7 +6462,7 @@
     <episode-num system="onscreen">S03E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_puppy-dog-pals-s03e06-el-picnic-de-la-guarderia-de-bingo-y-rolly_l_m.jpg</image>
   </programme>
-  <programme start="20261123010000 +0000" stop="20261123013000 +0000" channel="ar#disney-jr">
+  <programme start="20261123005900 +0000" stop="20261123012900 +0000" channel="ar#disney-jr">
     <title lang="es">Equipo de rescate</title>
     <sub-title lang="es">Alcalde por un día / El desastre de la excavadora</sub-title>
     <category lang="es">Serie</category>
@@ -6433,7 +6470,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_equipo-de-rescate-s02e14-alcalde-por-un-dia-el-desastre-de-la-excavadora_l_m.jpg</image>
   </programme>
-  <programme start="20261123013000 +0000" stop="20261123020000 +0000" channel="ar#disney-jr">
+  <programme start="20261123012900 +0000" stop="20261123015900 +0000" channel="ar#disney-jr">
     <title lang="es">Cachorros a la obra</title>
     <sub-title lang="es">Profesor Frazzle / Un vecino gruñón</sub-title>
     <category lang="es">Serie</category>
@@ -6441,7 +6478,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_cachorros-a-la-obra-s01e11-aventuras-en-bulldozing_l_m.jpg</image>
   </programme>
-  <programme start="20261123020000 +0000" stop="20261123023000 +0000" channel="ar#disney-jr">
+  <programme start="20261123015900 +0000" stop="20261123022900 +0000" channel="ar#disney-jr">
     <title lang="es">Disney Junior&apos;s Ariel</title>
     <sub-title lang="es">La gran exhibición de jardinería / El resfriado de flounder</sub-title>
     <category lang="es">Serie</category>
@@ -6449,7 +6486,7 @@
     <episode-num system="onscreen">S01E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_disney-junior-s-ariel-s01e19-la-gran-exhibicion-de-jardineria-el-resfriado-de-flounder_l_m.jpg</image>
   </programme>
-  <programme start="20261123023000 +0000" stop="20261123030000 +0000" channel="ar#disney-jr">
+  <programme start="20261123022900 +0000" stop="20261123025900 +0000" channel="ar#disney-jr">
     <title lang="es">Supergatitos</title>
     <sub-title lang="es">Los Supergatitos y la gata de Miaulowin</sub-title>
     <category lang="es">Serie</category>
@@ -6457,7 +6494,7 @@
     <episode-num system="onscreen">S01E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_supergatitos-s01e22_l_m.jpg</image>
   </programme>
-  <programme start="20261123030000 +0000" stop="20261123032700 +0000" channel="ar#disney-jr">
+  <programme start="20261123025900 +0000" stop="20261123032600 +0000" channel="ar#disney-jr">
     <title lang="es">La casa de Mickey Mouse+</title>
     <sub-title lang="es">El nuevo gallinero de Clarabella</sub-title>
     <category lang="es">Serie</category>
@@ -6465,7 +6502,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-casa-de-mickey-mouse-s01e02-el-nuevo-gallinero-de-clarabella_l_m.jpg</image>
   </programme>
-  <programme start="20261123032700 +0000" stop="20261123035100 +0000" channel="ar#disney-jr">
+  <programme start="20261123032600 +0000" stop="20261123035100 +0000" channel="ar#disney-jr">
     <title lang="es">Princesita Sofía: magia real</title>
     <sub-title lang="es">¡Abraca-asombra! / Trabajo de magia</sub-title>
     <category lang="es">Serie</category>
@@ -6473,7 +6510,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_princesita-sofia-magia-real-s01e02-abracadazzle-show-and-spell-1_l_m.jpg</image>
   </programme>
-  <programme start="20261123035100 +0000" stop="20261123041600 +0000" channel="ar#disney-jr">
+  <programme start="20261123035100 +0000" stop="20261123041500 +0000" channel="ar#disney-jr">
     <title lang="es">Equipo de rescate</title>
     <sub-title lang="es">Bo envarado / Comida en un flash</sub-title>
     <category lang="es">Serie</category>
@@ -6481,7 +6518,7 @@
     <episode-num system="onscreen">S02E48</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_equipo-de-rescate-s02e48-bo-envarado-comida-en-un-flash_l_m.jpg</image>
   </programme>
-  <programme start="20261123041600 +0000" stop="20261123043800 +0000" channel="ar#disney-jr">
+  <programme start="20261123041500 +0000" stop="20261123043800 +0000" channel="ar#disney-jr">
     <title lang="es">Gigantosaurus</title>
     <sub-title lang="es">Cazadores de misterios / Vigilándote</sub-title>
     <category lang="es">Serie</category>
@@ -6489,7 +6526,7 @@
     <episode-num system="onscreen">S03E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_gigantosaurus-s03e16-mystery-hunters-watching-you_l_m.jpg</image>
   </programme>
-  <programme start="20261123043800 +0000" stop="20261123050300 +0000" channel="ar#disney-jr">
+  <programme start="20261123043800 +0000" stop="20261123050200 +0000" channel="ar#disney-jr">
     <title lang="es">Mickey Mouse Funhouse</title>
     <sub-title lang="es">¡Sin emociones, por favor! / Perro espacial</sub-title>
     <category lang="es">Serie</category>
@@ -6497,7 +6534,7 @@
     <episode-num system="onscreen">S02E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_mickey-mouse-funhouse-s02e11-sin-emociones-por-favor-perro-espacial_l_m.jpg</image>
   </programme>
-  <programme start="20261123050300 +0000" stop="20261123052700 +0000" channel="ar#disney-jr">
+  <programme start="20261123050200 +0000" stop="20261123052700 +0000" channel="ar#disney-jr">
     <title lang="es">Star Wars: aventuras de jóvenes Jedi</title>
     <sub-title lang="es">El Jedi y la ladrona / El kibbin perdido</sub-title>
     <category lang="es">Serie</category>
@@ -6505,7 +6542,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_star-wars-aventuras-de-jovenes-jedi-s01e07-the-jedi-and-the-thief-the-missing-kibbin_l_m.jpg</image>
   </programme>
-  <programme start="20261123052700 +0000" stop="20261123055200 +0000" channel="ar#disney-jr">
+  <programme start="20261123052700 +0000" stop="20261123055100 +0000" channel="ar#disney-jr">
     <title lang="es">Spidey y sus sorprendentes amigos</title>
     <sub-title lang="es">Saqueo pirata Error garrafal / Bot malo</sub-title>
     <category lang="es">Serie</category>
@@ -6513,7 +6550,7 @@
     <episode-num system="onscreen">S02E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_spidey-y-sus-sorprendentes-amigos-s02e14_l_m.jpg</image>
   </programme>
-  <programme start="20261123055200 +0000" stop="20261123065200 +0000" channel="ar#disney-jr">
+  <programme start="20261123055100 +0000" stop="20261123065100 +0000" channel="ar#disney-jr">
     <title lang="es">Supergatitos</title>
     <sub-title lang="es">Supergatitos y el misterioso bandido de las botas / Los Supergatitos y la situación resbalosa</sub-title>
     <category lang="es">Serie</category>
@@ -6770,12 +6807,7 @@
     <category lang="es">Infantil</category>
     <image>https://cdn.mitvstatic.com/programs/ar_sofy_l_m.jpg</image>
   </programme>
-  <programme start="20261122133000 +0000" stop="20261122143000 +0000" channel="ar#el-doce">
-    <title lang="es">La familia Ingalls</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_la-familia-ingalls_l_m.jpg</image>
-  </programme>
-  <programme start="20261122143000 +0000" stop="20261122160000 +0000" channel="ar#el-doce">
+  <programme start="20261122133000 +0000" stop="20261122160000 +0000" channel="ar#el-doce">
     <title lang="es">Fútbol infantil</title>
     <title lang="en">Fútbol infantil</title>
     <category lang="es">Fútbol infantil</category>
@@ -6803,17 +6835,12 @@
     <category lang="es">Comedia</category>
     <image>https://cdn.mitvstatic.com/programs/ar_chichilo-en-el-doce-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122210000 +0000" stop="20261122220000 +0000" channel="ar#el-doce">
-    <title lang="es">Plan TV</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_plan-tv_l_m.jpg</image>
-  </programme>
-  <programme start="20261122220000 +0000" stop="20261122230000 +0000" channel="ar#el-doce">
-    <title lang="es">El Garage</title>
-    <title lang="en">El Garage</title>
-    <category lang="es">El Garage</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-el-garage_l_m.jpg</image>
+  <programme start="20261122210000 +0000" stop="20261122230000 +0000" channel="ar#el-doce">
+    <title lang="es">El especialista</title>
+    <title lang="en">The Fall Guy</title>
+    <category lang="es">Comedia</category>
+    <rating><value>6.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/ar_el-especialista-2024_l_m.jpg</image>
   </programme>
   <programme start="20261122230000 +0000" stop="20261123000000 +0000" channel="ar#el-doce">
     <title lang="es">Dejaron todo tirado</title>
@@ -6828,10 +6855,11 @@
     <image>https://cdn.mitvstatic.com/programs/ar_deportivo-deportes-en-marcha_l_m.jpg</image>
   </programme>
   <programme start="20261123010000 +0000" stop="20261123030000 +0000" channel="ar#el-doce">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">Parpadea dos veces</title>
+    <title lang="en">Blink Twice</title>
+    <category lang="es">Suspenso</category>
+    <rating><value>6.5</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/ar_parpadea-dos-veces-2024_l_m.jpg</image>
   </programme>
   <programme start="20261123030000 +0000" stop="20261123040000 +0000" channel="ar#el-doce">
     <title lang="es">Motores en marcha</title>
@@ -7159,29 +7187,11 @@
     <category lang="es">Fecha 11, MKM Stadium</category>
     <image>https://cdn.mitvstatic.com/programs/ar_futbol-hull-city-vs-brighton-and-hove-albion-fecha-11-mkm-stadium_l_m.jpg</image>
   </programme>
-  <programme start="20261122155500 +0000" stop="20261122162000 +0000" channel="ar#espn">
-    <title lang="es">ATP Tour Uncovered</title>
-    <title lang="en">ATP Tour Uncovered</title>
-    <category lang="es">ATP Tour Uncovered</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tenis-atp-tour-uncovered_l_m.jpg</image>
-  </programme>
-  <programme start="20261122162000 +0000" stop="20261122170000 +0000" channel="ar#espn">
-    <title lang="es">SportsCenter+</title>
-    <title lang="en">SportsCenter+</title>
-    <category lang="es">SportsCenter+</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_noticiero-sportscenter-2_l_m.jpg</image>
-  </programme>
-  <programme start="20261122170000 +0000" stop="20261122190000 +0000" channel="ar#espn">
-    <title lang="es">Final, Inalpi Arena, Turin, Italy</title>
-    <title lang="en">Nitto ATP Finals</title>
-    <category lang="es">Nitto ATP Finals</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tenis-final-inalpi-arena-turin-italy_l_m.jpg</image>
-  </programme>
-  <programme start="20261122190000 +0000" stop="20261122193000 +0000" channel="ar#espn">
-    <title lang="es">UEFA Champions League Weekly</title>
-    <title lang="en">UEFA Champions League Weekly</title>
-    <category lang="es">UEFA Champions League Weekly</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_futbol-uefa-champions-league-weekly_l_m.jpg</image>
+  <programme start="20261122155500 +0000" stop="20261122193000 +0000" channel="ar#espn">
+    <title lang="es">Semifinal 1</title>
+    <title lang="en">Copa Potrero</title>
+    <category lang="es">Copa Potrero</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_futbol-semifinal-1-33_l_m.jpg</image>
   </programme>
   <programme start="20261122193000 +0000" stop="20261122214000 +0000" channel="ar#espn">
     <title lang="es">Atalanta vs. Inter</title>
@@ -7762,7 +7772,13 @@
     <category lang="es">ESPN F10</category>
     <image>https://cdn.mitvstatic.com/programs/ar_futbol-espn-f10_l_m.jpg</image>
   </programme>
-  <programme start="20261122024500 +0000" stop="20261122040000 +0000" channel="ar#espn-2">
+  <programme start="20261122024500 +0000" stop="20261122030000 +0000" channel="ar#espn-2">
+    <title lang="es">SportsCenter</title>
+    <title lang="en">SportsCenter</title>
+    <category lang="es">SportsCenter</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_noticiero-sportscenter-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261122030000 +0000" stop="20261122040000 +0000" channel="ar#espn-2">
     <title lang="es">SportsCenter</title>
     <title lang="en">SportsCenter</title>
     <category lang="es">SportsCenter</category>
@@ -8153,10 +8169,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_basquet-accion-de-la-nba_l_m.jpg</image>
   </programme>
   <programme start="20261122155500 +0000" stop="20261122193000 +0000" channel="ar#espn-3">
-    <title lang="es">A confirmar</title>
-    <title lang="en">A confirmar</title>
-    <category lang="es">A confirmar</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_deportivo-a-confirmar_l_m.jpg</image>
+    <title lang="es">Semifinal 1</title>
+    <title lang="en">Copa Potrero</title>
+    <category lang="es">Copa Potrero</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_futbol-semifinal-1-33_l_m.jpg</image>
   </programme>
   <programme start="20261122193000 +0000" stop="20261122214000 +0000" channel="ar#espn-3">
     <title lang="es">Olympique de Marseille vs. Le Mans</title>
@@ -9120,14 +9136,14 @@
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-planeta-de-los-simios-confrontacion-2014_l_m.jpg</image>
   </programme>
-  <programme start="20261121224800 +0000" stop="20261122005900 +0000" channel="ar#fox-hd">
+  <programme start="20261121224800 +0000" stop="20261122010000 +0000" channel="ar#fox-hd">
     <title lang="es">Match: La reina de las apps de citas</title>
     <title lang="en">Swiped</title>
     <category lang="es">Drama</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_match-la-reina-de-las-apps-de-citas-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122005900 +0000" stop="20261122030000 +0000" channel="ar#fox-hd">
+  <programme start="20261122010000 +0000" stop="20261122030000 +0000" channel="ar#fox-hd">
     <title lang="es">Mira cómo corren</title>
     <title lang="en">See How They Run</title>
     <category lang="es">Comedia</category>
@@ -9696,162 +9712,162 @@
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-prisionero-de-azkaban-2004_l_m.jpg</image>
   </programme>
-  <programme start="20261121070300 +0000" stop="20261121091100 +0000" channel="ar#hbo">
+  <programme start="20261121070300 +0000" stop="20261121090000 +0000" channel="ar#hbo">
     <title lang="es">Annabelle 2: La creación</title>
     <title lang="en">Annabelle: Creation</title>
     <category lang="es">Terror</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_annabelle-2-la-creacion-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261121091100 +0000" stop="20261121105700 +0000" channel="ar#hbo">
+  <programme start="20261121090000 +0000" stop="20261121104500 +0000" channel="ar#hbo">
     <title lang="es">The Moment</title>
     <title lang="en">Comedia</title>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_the-moment-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261121105700 +0000" stop="20261121125600 +0000" channel="ar#hbo">
+  <programme start="20261121104500 +0000" stop="20261121124500 +0000" channel="ar#hbo">
     <title lang="es">No te olvidaré</title>
     <title lang="en">Reminders of Him</title>
     <category lang="es">Drama</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_no-te-olvidare-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261121125600 +0000" stop="20261121150500 +0000" channel="ar#hbo">
+  <programme start="20261121124500 +0000" stop="20261121145400 +0000" channel="ar#hbo">
     <title lang="es">Cómo entrenar a tu dragón</title>
     <title lang="en">How to Train Your Dragon</title>
     <category lang="es">Aventura</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_como-entrenar-a-tu-dragon-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261121150500 +0000" stop="20261121170100 +0000" channel="ar#hbo">
+  <programme start="20261121145400 +0000" stop="20261121165000 +0000" channel="ar#hbo">
     <title lang="es">Godzilla vs. Kong</title>
     <title lang="en">C.Ficción</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_godzilla-vs-kong-2021_l_m.jpg</image>
   </programme>
-  <programme start="20261121170100 +0000" stop="20261121185900 +0000" channel="ar#hbo">
+  <programme start="20261121165000 +0000" stop="20261121184800 +0000" channel="ar#hbo">
     <title lang="es">El plan del asesino</title>
     <title lang="en">Knox Goes Away</title>
     <category lang="es">Acción</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-plan-del-asesino-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121185900 +0000" stop="20261121205600 +0000" channel="ar#hbo">
+  <programme start="20261121184800 +0000" stop="20261121204500 +0000" channel="ar#hbo">
     <title lang="es">Agente Fortune: el gran engaño</title>
     <title lang="en">Operation Fortune: Ruse de Guerre</title>
     <category lang="es">Acción</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_agente-fortune-el-gran-engano-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121205600 +0000" stop="20261121230100 +0000" channel="ar#hbo">
+  <programme start="20261121204500 +0000" stop="20261121224600 +0000" channel="ar#hbo">
     <title lang="es">Escape bajo fuego</title>
     <title lang="en">Kandahar</title>
     <category lang="es">Acción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_escape-bajo-fuego-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121230100 +0000" stop="20261122011100 +0000" channel="ar#hbo">
+  <programme start="20261121224600 +0000" stop="20261122010000 +0000" channel="ar#hbo">
     <title lang="es">Cómo entrenar a tu dragón</title>
     <title lang="en">How to Train Your Dragon</title>
     <category lang="es">Aventura</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_como-entrenar-a-tu-dragon-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122011100 +0000" stop="20261122025600 +0000" channel="ar#hbo">
+  <programme start="20261122010000 +0000" stop="20261122024500 +0000" channel="ar#hbo">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122025600 +0000" stop="20261122044100 +0000" channel="ar#hbo">
+  <programme start="20261122024500 +0000" stop="20261122043000 +0000" channel="ar#hbo">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122044100 +0000" stop="20261122070100 +0000" channel="ar#hbo">
+  <programme start="20261122043000 +0000" stop="20261122064900 +0000" channel="ar#hbo">
     <title lang="es">Spider-Man: de regreso a casa</title>
     <title lang="en">Spider-Man: Homecoming</title>
     <category lang="es">Acción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_spider-man-de-regreso-a-casa-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122044100 +0000" stop="20261122054100 +0000" channel="ar#hbo">
+  <programme start="20261122043000 +0000" stop="20261122053000 +0000" channel="ar#hbo">
     <title lang="es">Spider-Man: de regreso a casa</title>
     <title lang="en">Spider-Man: Homecoming</title>
     <category lang="es">Acción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_spider-man-de-regreso-a-casa-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122070100 +0000" stop="20261122091100 +0000" channel="ar#hbo">
+  <programme start="20261122064900 +0000" stop="20261122090000 +0000" channel="ar#hbo">
     <title lang="es">Black Adam</title>
     <title lang="en">Acción</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_black-adam-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261122091100 +0000" stop="20261122111600 +0000" channel="ar#hbo">
+  <programme start="20261122090000 +0000" stop="20261122110500 +0000" channel="ar#hbo">
     <title lang="es">Loco y estúpido amor</title>
     <title lang="en">Crazy, Stupid, Love</title>
     <category lang="es">Comedia</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_loco-y-estupido-amor-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261122111600 +0000" stop="20261122131100 +0000" channel="ar#hbo">
+  <programme start="20261122110500 +0000" stop="20261122125900 +0000" channel="ar#hbo">
     <title lang="es">La leyenda de Tarzán</title>
     <title lang="en">The Legend of Tarzan</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/ar_la-leyenda-de-tarzan-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261122131100 +0000" stop="20261122155300 +0000" channel="ar#hbo">
+  <programme start="20261122125900 +0000" stop="20261122154300 +0000" channel="ar#hbo">
     <title lang="es">Harry Potter y el cáliz de fuego</title>
     <title lang="en">Harry Potter and the Goblet of Fire</title>
     <category lang="es">Aventura</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-caliz-de-fuego-2005_l_m.jpg</image>
   </programme>
-  <programme start="20261122155300 +0000" stop="20261122173900 +0000" channel="ar#hbo">
+  <programme start="20261122154300 +0000" stop="20261122172800 +0000" channel="ar#hbo">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122173900 +0000" stop="20261122195000 +0000" channel="ar#hbo">
+  <programme start="20261122172800 +0000" stop="20261122193900 +0000" channel="ar#hbo">
     <title lang="es">Jurassic Park</title>
     <title lang="en">Aventura</title>
     <rating><value>8.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_jurassic-park-1993_l_m.jpg</image>
   </programme>
-  <programme start="20261122195000 +0000" stop="20261122213800 +0000" channel="ar#hbo">
+  <programme start="20261122193900 +0000" stop="20261122212600 +0000" channel="ar#hbo">
     <title lang="es">Gato con botas: el último deseo</title>
     <title lang="en">Puss in Boots: The Last Wish</title>
     <category lang="es">Aventura</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_gato-con-botas-el-ultimo-deseo-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261122213800 +0000" stop="20261122233100 +0000" channel="ar#hbo">
+  <programme start="20261122212600 +0000" stop="20261122231700 +0000" channel="ar#hbo">
     <title lang="es">Supergirl</title>
     <title lang="en">Acción</title>
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_supergirl-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122233100 +0000" stop="20261123011600 +0000" channel="ar#hbo">
+  <programme start="20261122231700 +0000" stop="20261123011600 +0000" channel="ar#hbo">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261123011600 +0000" stop="20261123020000 +0000" channel="ar#hbo">
+  <programme start="20261123011600 +0000" stop="20261123020100 +0000" channel="ar#hbo">
     <title lang="es">Ciudad de Dios - La lucha no para</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ciudad-de-dios-la-lucha-no-para-s02e03_l_m.jpg</image>
   </programme>
-  <programme start="20261123020000 +0000" stop="20261123031100 +0000" channel="ar#hbo">
+  <programme start="20261123020100 +0000" stop="20261123030000 +0000" channel="ar#hbo">
     <title lang="es">La edad dorada</title>
     <sub-title lang="es">Good Taste</sub-title>
     <category lang="es">Serie</category>
@@ -9859,7 +9875,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-edad-dorada-s04e04-good-taste_l_m.jpg</image>
   </programme>
-  <programme start="20261123031100 +0000" stop="20261123045000 +0000" channel="ar#hbo">
+  <programme start="20261123030000 +0000" stop="20261123045000 +0000" channel="ar#hbo">
     <title lang="es">El protector</title>
     <title lang="en">Beekeeper: sentencia de muerte</title>
     <category lang="es">Acción</category>
@@ -9872,6 +9888,13 @@
     <episode-num system="xmltv_ns">3.3.0/1</episode-num>
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-edad-dorada-s04e04-good-taste_l_m.jpg</image>
+  </programme>
+  <programme start="20261123055000 +0000" stop="20261123065000 +0000" channel="ar#hbo">
+    <title lang="es">La monja</title>
+    <title lang="en">The Nun</title>
+    <category lang="es">Terror</category>
+    <rating><value>5.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/ar_la-monja-2018_l_m.jpg</image>
   </programme>
   <programme start="20261120045100 +0000" stop="20261120063800 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Tierras perdidas</title>
@@ -9976,42 +9999,42 @@
     <rating><value>5.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-payaso-del-maizal-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261121071700 +0000" stop="20261121090100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121071700 +0000" stop="20261121090000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Dos contra el mundo</title>
     <title lang="en">War on Everyone</title>
     <category lang="es">Comedia</category>
     <rating><value>5.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_dos-contra-el-mundo-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261121090100 +0000" stop="20261121120100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121090000 +0000" stop="20261121120000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Batman</title>
     <title lang="en">The Batman</title>
     <category lang="es">Acción</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_batman-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261121120100 +0000" stop="20261121135400 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121120000 +0000" stop="20261121135300 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Annabelle 2: La creación</title>
     <title lang="en">Annabelle: Creation</title>
     <category lang="es">Terror</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_annabelle-2-la-creacion-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261121135400 +0000" stop="20261121155300 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121135300 +0000" stop="20261121155200 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Asesino por casualidad</title>
     <title lang="en">Hit Man</title>
     <category lang="es">Comedia</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_asesino-por-casualidad-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121155300 +0000" stop="20261121180100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121155200 +0000" stop="20261121180300 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Jurassic World: mundo jurásico</title>
     <title lang="en">Jurassic World</title>
     <category lang="es">C.Ficción</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_jurassic-world-mundo-jurasico-2015-1_l_m.jpg</image>
   </programme>
-  <programme start="20261121180100 +0000" stop="20261121190200 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121180300 +0000" stop="20261121190000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Guerra</title>
     <sub-title lang="es">Partners</sub-title>
     <category lang="es">Serie</category>
@@ -10019,135 +10042,135 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_guerra-s01e08-partners_l_m.jpg</image>
   </programme>
-  <programme start="20261121190200 +0000" stop="20261121212500 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121190000 +0000" stop="20261121212600 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Harry Potter y el prisionero de Azkaban</title>
     <title lang="en">Harry Potter and the Prisoner of Azkaban</title>
     <category lang="es">Aventura</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-prisionero-de-azkaban-2004_l_m.jpg</image>
   </programme>
-  <programme start="20261121212500 +0000" stop="20261121231000 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121212600 +0000" stop="20261121231200 +0000" channel="ar#hbo-2-hd">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261121231000 +0000" stop="20261122010100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261121231200 +0000" stop="20261122010000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Noche del demonio: están entre nosotros</title>
     <title lang="en">Insidious: Out of the Further</title>
     <category lang="es">Terror</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/fallback_movies_l_m.jpg</image>
   </programme>
-  <programme start="20261122010100 +0000" stop="20261122025800 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122010000 +0000" stop="20261122025700 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Evil Dead: en llamas</title>
     <title lang="en">Evil Dead Burn</title>
     <category lang="es">Terror</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_evil-dead-en-llamas-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122025800 +0000" stop="20261122044100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122025700 +0000" stop="20261122043900 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Posesión infernal: El despertar</title>
     <title lang="en">Evil Dead Rise</title>
     <category lang="es">Terror</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_posesion-infernal-el-despertar-2023-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122044100 +0000" stop="20261122065200 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122043900 +0000" stop="20261122065000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Jurassic World: mundo jurásico</title>
     <title lang="en">Jurassic World</title>
     <category lang="es">C.Ficción</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_jurassic-world-mundo-jurasico-2015-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122044100 +0000" stop="20261122054100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122043900 +0000" stop="20261122053900 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Jurassic World: mundo jurásico</title>
     <title lang="en">Jurassic World</title>
     <category lang="es">C.Ficción</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_jurassic-world-mundo-jurasico-2015-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122065200 +0000" stop="20261122090100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122065000 +0000" stop="20261122090000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Cincuenta sombras de Grey</title>
     <title lang="en">Fifty Shades of Grey</title>
     <category lang="es">Romántica</category>
     <rating><value>4.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_cincuenta-sombras-de-grey-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261122090100 +0000" stop="20261122112400 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122090000 +0000" stop="20261122112200 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Mickey 17</title>
     <title lang="en">Aventura</title>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mickey-17-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122112400 +0000" stop="20261122133100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122112200 +0000" stop="20261122133000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Pasante de moda</title>
     <title lang="en">The Intern</title>
     <category lang="es">Comedia</category>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_pasante-de-moda-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261122133100 +0000" stop="20261122150800 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122133000 +0000" stop="20261122150700 +0000" channel="ar#hbo-2-hd">
     <title lang="es">El pez pucheros</title>
     <title lang="en">Animación</title>
     <image>https://cdn.mitvstatic.com/programs/ar_el-pez-pucheros-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122150800 +0000" stop="20261122165200 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122150700 +0000" stop="20261122165200 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122165200 +0000" stop="20261122182800 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122165200 +0000" stop="20261122182700 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Hotel Transylvania 2</title>
     <title lang="en">Familiar</title>
     <rating><value>6.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_hotel-transylvania-2-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261122182800 +0000" stop="20261122200400 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122182700 +0000" stop="20261122200300 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Minions</title>
     <title lang="en">Familiar</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_minions-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261122200400 +0000" stop="20261122214300 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122200300 +0000" stop="20261122214300 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Mi villano favorito</title>
     <title lang="en">Despicable Me</title>
     <category lang="es">Familiar</category>
     <rating><value>7.7</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mi-villano-favorito-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261122214300 +0000" stop="20261122231800 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122214300 +0000" stop="20261122231900 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Mi villano favorito 3</title>
     <title lang="en">Despicable Me 3</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mi-villano-favorito-3-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122231800 +0000" stop="20261123010100 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261122231900 +0000" stop="20261123010000 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261123010100 +0000" stop="20261123024900 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261123010000 +0000" stop="20261123024800 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Gato con botas: el último deseo</title>
     <title lang="en">Puss in Boots: The Last Wish</title>
     <category lang="es">Aventura</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_gato-con-botas-el-ultimo-deseo-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261123024900 +0000" stop="20261123050500 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261123024800 +0000" stop="20261123050300 +0000" channel="ar#hbo-2-hd">
     <title lang="es">¡Shazam! La furia de los dioses</title>
     <title lang="en">Shazam! Fury of the Gods</title>
     <category lang="es">Acción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_shazam-la-furia-de-los-dioses-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261123050500 +0000" stop="20261123060500 +0000" channel="ar#hbo-2-hd">
+  <programme start="20261123050300 +0000" stop="20261123060300 +0000" channel="ar#hbo-2-hd">
     <title lang="es">Karate Kid: Leyendas</title>
     <title lang="en">Karate Kid: Legends</title>
     <category lang="es">Drama</category>
@@ -10541,162 +10564,162 @@
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-prisionero-de-azkaban-2004_l_m.jpg</image>
   </programme>
-  <programme start="20261121070300 +0000" stop="20261121091100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121070300 +0000" stop="20261121090000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Annabelle 2: La creación</title>
     <title lang="en">Annabelle: Creation</title>
     <category lang="es">Terror</category>
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_annabelle-2-la-creacion-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261121091100 +0000" stop="20261121105700 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121090000 +0000" stop="20261121104500 +0000" channel="ar#hbo-hd-este">
     <title lang="es">The Moment</title>
     <title lang="en">Comedia</title>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_the-moment-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261121105700 +0000" stop="20261121125600 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121104500 +0000" stop="20261121124500 +0000" channel="ar#hbo-hd-este">
     <title lang="es">No te olvidaré</title>
     <title lang="en">Reminders of Him</title>
     <category lang="es">Drama</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_no-te-olvidare-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261121125600 +0000" stop="20261121150500 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121124500 +0000" stop="20261121145400 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Cómo entrenar a tu dragón</title>
     <title lang="en">How to Train Your Dragon</title>
     <category lang="es">Aventura</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_como-entrenar-a-tu-dragon-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261121150500 +0000" stop="20261121170100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121145400 +0000" stop="20261121165000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Godzilla vs. Kong</title>
     <title lang="en">C.Ficción</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_godzilla-vs-kong-2021_l_m.jpg</image>
   </programme>
-  <programme start="20261121170100 +0000" stop="20261121185900 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121165000 +0000" stop="20261121184800 +0000" channel="ar#hbo-hd-este">
     <title lang="es">El plan del asesino</title>
     <title lang="en">Knox Goes Away</title>
     <category lang="es">Acción</category>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-plan-del-asesino-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121185900 +0000" stop="20261121205600 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121184800 +0000" stop="20261121204500 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Agente Fortune: el gran engaño</title>
     <title lang="en">Operation Fortune: Ruse de Guerre</title>
     <category lang="es">Acción</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_agente-fortune-el-gran-engano-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121205600 +0000" stop="20261121230100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121204500 +0000" stop="20261121224600 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Escape bajo fuego</title>
     <title lang="en">Kandahar</title>
     <category lang="es">Acción</category>
     <rating><value>6.1</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_escape-bajo-fuego-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261121230100 +0000" stop="20261122011100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261121224600 +0000" stop="20261122010000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Cómo entrenar a tu dragón</title>
     <title lang="en">How to Train Your Dragon</title>
     <category lang="es">Aventura</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_como-entrenar-a-tu-dragon-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122011100 +0000" stop="20261122025600 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122010000 +0000" stop="20261122024500 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122025600 +0000" stop="20261122044100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122024500 +0000" stop="20261122043000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122044100 +0000" stop="20261122070100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122043000 +0000" stop="20261122064900 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Spider-Man: de regreso a casa</title>
     <title lang="en">Spider-Man: Homecoming</title>
     <category lang="es">Acción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_spider-man-de-regreso-a-casa-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122044100 +0000" stop="20261122054100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122043000 +0000" stop="20261122053000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Spider-Man: de regreso a casa</title>
     <title lang="en">Spider-Man: Homecoming</title>
     <category lang="es">Acción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_spider-man-de-regreso-a-casa-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122070100 +0000" stop="20261122091100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122064900 +0000" stop="20261122090000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Black Adam</title>
     <title lang="en">Acción</title>
     <rating><value>6.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_black-adam-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261122091100 +0000" stop="20261122111600 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122090000 +0000" stop="20261122110500 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Loco y estúpido amor</title>
     <title lang="en">Crazy, Stupid, Love</title>
     <category lang="es">Comedia</category>
     <rating><value>7.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_loco-y-estupido-amor-2011_l_m.jpg</image>
   </programme>
-  <programme start="20261122111600 +0000" stop="20261122131100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122110500 +0000" stop="20261122125900 +0000" channel="ar#hbo-hd-este">
     <title lang="es">La leyenda de Tarzán</title>
     <title lang="en">The Legend of Tarzan</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/ar_la-leyenda-de-tarzan-2016_l_m.jpg</image>
   </programme>
-  <programme start="20261122131100 +0000" stop="20261122155300 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122125900 +0000" stop="20261122154300 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Harry Potter y el cáliz de fuego</title>
     <title lang="en">Harry Potter and the Goblet of Fire</title>
     <category lang="es">Aventura</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-caliz-de-fuego-2005_l_m.jpg</image>
   </programme>
-  <programme start="20261122155300 +0000" stop="20261122173900 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122154300 +0000" stop="20261122172800 +0000" channel="ar#hbo-hd-este">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122173900 +0000" stop="20261122195000 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122172800 +0000" stop="20261122193900 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Jurassic Park</title>
     <title lang="en">Aventura</title>
     <rating><value>8.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_jurassic-park-1993_l_m.jpg</image>
   </programme>
-  <programme start="20261122195000 +0000" stop="20261122213800 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122193900 +0000" stop="20261122212600 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Gato con botas: el último deseo</title>
     <title lang="en">Puss in Boots: The Last Wish</title>
     <category lang="es">Aventura</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_gato-con-botas-el-ultimo-deseo-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261122213800 +0000" stop="20261122233100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122212600 +0000" stop="20261122231700 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Supergirl</title>
     <title lang="en">Acción</title>
     <rating><value>5.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_supergirl-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122233100 +0000" stop="20261123011600 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261122231700 +0000" stop="20261123011600 +0000" channel="ar#hbo-hd-este">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261123011600 +0000" stop="20261123020000 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261123011600 +0000" stop="20261123020100 +0000" channel="ar#hbo-hd-este">
     <title lang="es">Ciudad de Dios - La lucha no para</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ciudad-de-dios-la-lucha-no-para-s02e03_l_m.jpg</image>
   </programme>
-  <programme start="20261123020000 +0000" stop="20261123031100 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261123020100 +0000" stop="20261123030000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">La edad dorada</title>
     <sub-title lang="es">Good Taste</sub-title>
     <category lang="es">Serie</category>
@@ -10704,7 +10727,7 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-edad-dorada-s04e04-good-taste_l_m.jpg</image>
   </programme>
-  <programme start="20261123031100 +0000" stop="20261123045000 +0000" channel="ar#hbo-hd-este">
+  <programme start="20261123030000 +0000" stop="20261123045000 +0000" channel="ar#hbo-hd-este">
     <title lang="es">El protector</title>
     <title lang="en">Beekeeper: sentencia de muerte</title>
     <category lang="es">Acción</category>
@@ -10717,6 +10740,13 @@
     <episode-num system="xmltv_ns">3.3.0/1</episode-num>
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-edad-dorada-s04e04-good-taste_l_m.jpg</image>
+  </programme>
+  <programme start="20261123055000 +0000" stop="20261123065000 +0000" channel="ar#hbo-hd-este">
+    <title lang="es">La monja</title>
+    <title lang="en">The Nun</title>
+    <category lang="es">Terror</category>
+    <rating><value>5.4</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/ar_la-monja-2018_l_m.jpg</image>
   </programme>
   <programme start="20261120035900 +0000" stop="20261120061600 +0000" channel="ar#hbo-oeste">
     <title lang="es">Superman</title>
@@ -10901,7 +10931,7 @@
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122055600 +0000" stop="20261122075400 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122054400 +0000" stop="20261122074200 +0000" channel="ar#hbo-oeste">
     <title lang="es">Destino final: Lazos de sangre</title>
     <title lang="en">Final Destination: Bloodlines</title>
     <category lang="es">Terror</category>
@@ -10915,68 +10945,68 @@
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_destino-final-lazos-de-sangre-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122075400 +0000" stop="20261122094100 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122074200 +0000" stop="20261122093000 +0000" channel="ar#hbo-oeste">
     <title lang="es">Mamá</title>
     <title lang="en">Mama</title>
     <category lang="es">Terror</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mama-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261122094100 +0000" stop="20261122121100 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122093000 +0000" stop="20261122120000 +0000" channel="ar#hbo-oeste">
     <title lang="es">Diamante de sangre</title>
     <title lang="en">Blood Diamond</title>
     <category lang="es">Aventura</category>
     <rating><value>8.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_diamante-de-sangre-2006_l_m.jpg</image>
   </programme>
-  <programme start="20261122121100 +0000" stop="20261122141500 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122120000 +0000" stop="20261122140400 +0000" channel="ar#hbo-oeste">
     <title lang="es">300</title>
     <title lang="en">Acción</title>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_300-2006_l_m.jpg</image>
   </programme>
-  <programme start="20261122141500 +0000" stop="20261122162400 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122140400 +0000" stop="20261122161300 +0000" channel="ar#hbo-oeste">
     <title lang="es">Red social</title>
     <title lang="en">The Social Network</title>
     <category lang="es">Biográfico</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_red-social-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261122162400 +0000" stop="20261122190900 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122161300 +0000" stop="20261122185800 +0000" channel="ar#hbo-oeste">
     <title lang="es">Harry Potter y el cáliz de fuego</title>
     <title lang="en">Harry Potter and the Goblet of Fire</title>
     <category lang="es">Aventura</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-caliz-de-fuego-2005_l_m.jpg</image>
   </programme>
-  <programme start="20261122190900 +0000" stop="20261122210000 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122185800 +0000" stop="20261122204900 +0000" channel="ar#hbo-oeste">
     <title lang="es">Gato con botas: el último deseo</title>
     <title lang="en">Puss in Boots: The Last Wish</title>
     <category lang="es">Aventura</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_gato-con-botas-el-ultimo-deseo-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261122210000 +0000" stop="20261122230300 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122204900 +0000" stop="20261122225100 +0000" channel="ar#hbo-oeste">
     <title lang="es">Barbie</title>
     <title lang="en">Comedia</title>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_barbie-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261122230300 +0000" stop="20261123012500 +0000" channel="ar#hbo-oeste">
+  <programme start="20261122225100 +0000" stop="20261123011200 +0000" channel="ar#hbo-oeste">
     <title lang="es">Spider-Man: de regreso a casa</title>
     <title lang="en">Spider-Man: Homecoming</title>
     <category lang="es">Acción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_spider-man-de-regreso-a-casa-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261123012500 +0000" stop="20261123030000 +0000" channel="ar#hbo-oeste">
+  <programme start="20261123011200 +0000" stop="20261123030100 +0000" channel="ar#hbo-oeste">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261123030000 +0000" stop="20261123041100 +0000" channel="ar#hbo-oeste">
+  <programme start="20261123030100 +0000" stop="20261123041100 +0000" channel="ar#hbo-oeste">
     <title lang="es">La edad dorada</title>
     <sub-title lang="es">Good Taste</sub-title>
     <category lang="es">Serie</category>
@@ -10984,20 +11014,20 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-edad-dorada-s04e04-good-taste_l_m.jpg</image>
   </programme>
-  <programme start="20261123041100 +0000" stop="20261123051100 +0000" channel="ar#hbo-oeste">
+  <programme start="20261123041100 +0000" stop="20261123050000 +0000" channel="ar#hbo-oeste">
     <title lang="es">Ciudad de Dios - La lucha no para</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ciudad-de-dios-la-lucha-no-para-s02e03_l_m.jpg</image>
   </programme>
-  <programme start="20261123051100 +0000" stop="20261123053500 +0000" channel="ar#hbo-oeste">
+  <programme start="20261123050000 +0000" stop="20261123053500 +0000" channel="ar#hbo-oeste">
     <title lang="es">Oobah: Scams for a Better Tomorrow</title>
     <sub-title lang="es">Wellness</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_oobah-scams-for-a-better-tomorrow-s01e01-wellness_l_m.jpg</image>
   </programme>
   <programme start="20261123053500 +0000" stop="20261123063500 +0000" channel="ar#hbo-oeste">
     <title lang="es">La edad dorada</title>
@@ -11121,151 +11151,151 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/ar_cuando-un-testigo-se-retracta_l_m.jpg</image>
   </programme>
-  <programme start="20261121093900 +0000" stop="20261121121100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121093900 +0000" stop="20261121120000 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Corazones de hierro</title>
     <title lang="en">Fury</title>
     <category lang="es">Drama</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_corazones-de-hierro-2014_l_m.jpg</image>
   </programme>
-  <programme start="20261121121100 +0000" stop="20261121141900 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121120000 +0000" stop="20261121140800 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Pasante de moda</title>
     <title lang="en">The Intern</title>
     <category lang="es">Comedia</category>
     <rating><value>7.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_pasante-de-moda-2015_l_m.jpg</image>
   </programme>
-  <programme start="20261121141900 +0000" stop="20261121165800 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121140800 +0000" stop="20261121164700 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Mujer Maravilla 1984</title>
     <title lang="en">Wonder Woman 1984</title>
     <category lang="es">Acción</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mujer-maravilla-1984-2020_l_m.jpg</image>
   </programme>
-  <programme start="20261121165800 +0000" stop="20261121183100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121164700 +0000" stop="20261121182000 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Super agente Hitpig!</title>
     <title lang="en">Hitpig!</title>
     <category lang="es">Animación</category>
     <rating><value>5.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-agente-hitpig-2024_l_m.jpg</image>
   </programme>
-  <programme start="20261121183100 +0000" stop="20261121201300 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121182000 +0000" stop="20261121200200 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Karate Kid: Leyendas</title>
     <title lang="en">Karate Kid: Legends</title>
     <category lang="es">Drama</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_karate-kid-leyendas-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261121201300 +0000" stop="20261121220600 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121200200 +0000" stop="20261121215500 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">El protector</title>
     <title lang="en">Beekeeper: sentencia de muerte</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_el-protector-2024_l_m.jpg</image>
   </programme>
-  <programme start="20261121220600 +0000" stop="20261121235600 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121215500 +0000" stop="20261121234400 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Nunca te sueltes</title>
     <title lang="en">Never Let Go</title>
     <category lang="es">Terror</category>
     <rating><value>5.4</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_nunca-te-sueltes-2024_l_m.jpg</image>
   </programme>
-  <programme start="20261121235600 +0000" stop="20261122015800 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261121234400 +0000" stop="20261122014600 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Godzilla y Kong: El nuevo imperio</title>
     <title lang="en">Godzilla x Kong: The New Empire</title>
     <category lang="es">Acción</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_godzilla-y-kong-el-nuevo-imperio-2024_l_m.jpg</image>
   </programme>
-  <programme start="20261122015800 +0000" stop="20261122041100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122014600 +0000" stop="20261122040000 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Cómo entrenar a tu dragón</title>
     <title lang="en">How to Train Your Dragon</title>
     <category lang="es">Aventura</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_como-entrenar-a-tu-dragon-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122041100 +0000" stop="20261122055600 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122040000 +0000" stop="20261122054400 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Super Mario Galaxy: la película</title>
     <title lang="en">The Super Mario Galaxy Movie</title>
     <category lang="es">Animación</category>
     <rating><value>6.3</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_super-mario-galaxy-la-pelicula-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261122055600 +0000" stop="20261122075400 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122054400 +0000" stop="20261122074200 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Destino final: Lazos de sangre</title>
     <title lang="en">Final Destination: Bloodlines</title>
     <category lang="es">Terror</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_destino-final-lazos-de-sangre-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122055600 +0000" stop="20261122065600 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122054400 +0000" stop="20261122064400 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Destino final: Lazos de sangre</title>
     <title lang="en">Final Destination: Bloodlines</title>
     <category lang="es">Terror</category>
     <rating><value>6.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_destino-final-lazos-de-sangre-2025_l_m.jpg</image>
   </programme>
-  <programme start="20261122075400 +0000" stop="20261122094100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122074200 +0000" stop="20261122093000 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Mamá</title>
     <title lang="en">Mama</title>
     <category lang="es">Terror</category>
     <rating><value>6.2</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_mama-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261122094100 +0000" stop="20261122121100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122093000 +0000" stop="20261122120000 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Diamante de sangre</title>
     <title lang="en">Blood Diamond</title>
     <category lang="es">Aventura</category>
     <rating><value>8.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_diamante-de-sangre-2006_l_m.jpg</image>
   </programme>
-  <programme start="20261122121100 +0000" stop="20261122141500 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122120000 +0000" stop="20261122140400 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">300</title>
     <title lang="en">Acción</title>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_300-2006_l_m.jpg</image>
   </programme>
-  <programme start="20261122141500 +0000" stop="20261122162400 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122140400 +0000" stop="20261122161300 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Red social</title>
     <title lang="en">The Social Network</title>
     <category lang="es">Biográfico</category>
     <rating><value>7.8</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_red-social-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261122162400 +0000" stop="20261122190900 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122161300 +0000" stop="20261122185800 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Harry Potter y el cáliz de fuego</title>
     <title lang="en">Harry Potter and the Goblet of Fire</title>
     <category lang="es">Aventura</category>
     <rating><value>7.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_harry-potter-y-el-caliz-de-fuego-2005_l_m.jpg</image>
   </programme>
-  <programme start="20261122190900 +0000" stop="20261122210000 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122185800 +0000" stop="20261122204900 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Gato con botas: el último deseo</title>
     <title lang="en">Puss in Boots: The Last Wish</title>
     <category lang="es">Aventura</category>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_gato-con-botas-el-ultimo-deseo-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261122210000 +0000" stop="20261122230300 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122204900 +0000" stop="20261122225100 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Barbie</title>
     <title lang="en">Comedia</title>
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_barbie-2023_l_m.jpg</image>
   </programme>
-  <programme start="20261122230300 +0000" stop="20261123012500 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261122225100 +0000" stop="20261123011200 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Spider-Man: de regreso a casa</title>
     <title lang="en">Spider-Man: Homecoming</title>
     <category lang="es">Acción</category>
     <rating><value>7.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_spider-man-de-regreso-a-casa-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261123012500 +0000" stop="20261123030000 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261123011200 +0000" stop="20261123030100 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">El final de la Calle Oak</title>
     <title lang="en">The End of Oak Street</title>
     <category lang="es">Acción</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-final-de-la-calle-oak-2026_l_m.jpg</image>
   </programme>
-  <programme start="20261123030000 +0000" stop="20261123041100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261123030100 +0000" stop="20261123041100 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">La edad dorada</title>
     <sub-title lang="es">Good Taste</sub-title>
     <category lang="es">Serie</category>
@@ -11273,20 +11303,20 @@
     <episode-num system="onscreen">S04E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_la-edad-dorada-s04e04-good-taste_l_m.jpg</image>
   </programme>
-  <programme start="20261123041100 +0000" stop="20261123051100 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261123041100 +0000" stop="20261123050000 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Ciudad de Dios - La lucha no para</title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">1.2.0/1</episode-num>
     <episode-num system="onscreen">S02E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_ciudad-de-dios-la-lucha-no-para-s02e03_l_m.jpg</image>
   </programme>
-  <programme start="20261123051100 +0000" stop="20261123053500 +0000" channel="ar#hbo-oeste-hd">
+  <programme start="20261123050000 +0000" stop="20261123053500 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">Oobah: Scams for a Better Tomorrow</title>
     <sub-title lang="es">Wellness</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_oobah-scams-for-a-better-tomorrow-s01e01-wellness_l_m.jpg</image>
   </programme>
   <programme start="20261123053500 +0000" stop="20261123063500 +0000" channel="ar#hbo-oeste-hd">
     <title lang="es">La edad dorada</title>
@@ -12560,117 +12590,99 @@
     <category lang="es">Entrevista</category>
     <image>https://cdn.mitvstatic.com/programs/ar_tg2-mizar_l_m.jpg</image>
   </programme>
-  <programme start="20261122120000 +0000" stop="20261122130000 +0000" channel="ar#rai">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20261122120000 +0000" stop="20261122123000 +0000" channel="ar#rai">
+    <title lang="es">TG2 Giorno</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_tg2-giorno_l_m.jpg</image>
   </programme>
-  <programme start="20261122130000 +0000" stop="20261122144500 +0000" channel="ar#rai">
+  <programme start="20261122123000 +0000" stop="20261122124500 +0000" channel="ar#rai">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_documental_l_m.jpg</image>
+  </programme>
+  <programme start="20261122124500 +0000" stop="20261122131500 +0000" channel="ar#rai">
+    <title lang="es">Sulla via di Damasco</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_sulla-via-di-damasco_l_m.jpg</image>
+  </programme>
+  <programme start="20261122131500 +0000" stop="20261122133000 +0000" channel="ar#rai">
+    <title lang="es">Aspettando cristianità</title>
+    <title lang="en">Religioso</title>
+    <category lang="es">Religioso</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_aspettando-cristianita_l_m.jpg</image>
+  </programme>
+  <programme start="20261122133000 +0000" stop="20261122154500 +0000" channel="ar#rai">
     <title lang="es">Cristianità</title>
     <title lang="en">Religioso</title>
     <category lang="es">Religioso</category>
     <image>https://cdn.mitvstatic.com/programs/ar_cristianita-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122144500 +0000" stop="20261122151500 +0000" channel="ar#rai">
+  <programme start="20261122154500 +0000" stop="20261122174500 +0000" channel="ar#rai">
     <title lang="es">In mezz&apos;ora</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/ar_in-mezz-ora_l_m.jpg</image>
   </programme>
-  <programme start="20261122151500 +0000" stop="20261122160000 +0000" channel="ar#rai">
-    <title lang="es">Radici d&apos;Italia</title>
-    <title lang="en">Cultural</title>
-    <category lang="es">Cultural</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_radici-d-italia_l_m.jpg</image>
+  <programme start="20261122174500 +0000" stop="20261122190000 +0000" channel="ar#rai">
+    <title lang="es">L&apos;Eredità - Weekend</title>
+    <title lang="en">Entretenimientos</title>
+    <category lang="es">Entretenimientos</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_l-eredita-weekend-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122160000 +0000" stop="20261122164500 +0000" channel="ar#rai">
-    <title lang="es">TG2 Storie</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tg2-storie_l_m.jpg</image>
-  </programme>
-  <programme start="20261122164500 +0000" stop="20261122180000 +0000" channel="ar#rai">
-    <title lang="es">Reazione a catena</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_reazione-a-catena_l_m.jpg</image>
-  </programme>
-  <programme start="20261122180000 +0000" stop="20261122193000 +0000" channel="ar#rai">
+  <programme start="20261122190000 +0000" stop="20261122193000 +0000" channel="ar#rai">
     <title lang="es">TG1</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/ar_tg1_l_m.jpg</image>
   </programme>
-  <programme start="20261122193000 +0000" stop="20261122200000 +0000" channel="ar#rai">
-    <title lang="es">Clan - Scegli il tuo destino</title>
-    <category lang="es">Drama</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_clan-scegli-il-tuo-destino_l_m.jpg</image>
+  <programme start="20261122193000 +0000" stop="20261122203000 +0000" channel="ar#rai">
+    <title lang="es">Linea verde</title>
+    <title lang="en">Agro</title>
+    <category lang="es">Agro</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_linea-verde_l_m.jpg</image>
   </programme>
-  <programme start="20261122200000 +0000" stop="20261122201500 +0000" channel="ar#rai">
+  <programme start="20261122203000 +0000" stop="20261122210000 +0000" channel="ar#rai">
+    <title lang="es">Clan - Scegli il tuo destino</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.8.0/1</episode-num>
+    <episode-num system="onscreen">S01E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_clan-scegli-il-tuo-destino-s00e09_l_m.jpg</image>
+  </programme>
+  <programme start="20261122210000 +0000" stop="20261123000000 +0000" channel="ar#rai">
     <title lang="es">Domenica in</title>
     <title lang="en">Entretenimientos</title>
     <category lang="es">Entretenimientos</category>
     <image>https://cdn.mitvstatic.com/programs/ar_domenica-in_l_m.jpg</image>
   </programme>
-  <programme start="20261122201500 +0000" stop="20261122203000 +0000" channel="ar#rai">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
-  </programme>
-  <programme start="20261122203000 +0000" stop="20261122211500 +0000" channel="ar#rai">
-    <title lang="es">Il meglio di Domenica in - 50 anni</title>
-    <title lang="en">Entretenimientos</title>
-    <category lang="es">Entretenimientos</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_il-meglio-di-domenica-in-50-anni_l_m.jpg</image>
-  </programme>
-  <programme start="20261122211500 +0000" stop="20261122220000 +0000" channel="ar#rai">
-    <title lang="es">Sapore di Mare - Un&apos;estate italiana</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_sapore-di-mare-un-estate-italiana-1_l_m.jpg</image>
-  </programme>
-  <programme start="20261122220000 +0000" stop="20261122230000 +0000" channel="ar#rai">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
-  </programme>
-  <programme start="20261122230000 +0000" stop="20261123020000 +0000" channel="ar#rai">
+  <programme start="20261123000000 +0000" stop="20261123003000 +0000" channel="ar#rai">
     <title lang="es">TG Rai News</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/ar_tg-rai-news_l_m.jpg</image>
   </programme>
-  <programme start="20261123020000 +0000" stop="20261123030000 +0000" channel="ar#rai">
+  <programme start="20261123003000 +0000" stop="20261123010000 +0000" channel="ar#rai">
+    <title lang="es">Play Report</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_play-report-1_l_m.jpg</image>
+  </programme>
+  <programme start="20261123010000 +0000" stop="20261123030000 +0000" channel="ar#rai">
+    <title lang="es">Report</title>
+    <title lang="en">Periodístico</title>
+    <category lang="es">Periodístico</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_report_l_m.jpg</image>
+  </programme>
+  <programme start="20261123030000 +0000" stop="20261123050000 +0000" channel="ar#rai">
+    <title lang="es">Gas Sales Bluenergy Piacenza vs. Sir Susa Scai Perugia</title>
+    <title lang="en">SuperLega Credem Banca</title>
+    <category lang="es">SuperLega Credem Banca</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_sport_l_m.jpg</image>
+  </programme>
+  <programme start="20261123050000 +0000" stop="20261123060000 +0000" channel="ar#rai">
     <title lang="es">Speciale TG1</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/ar_speciale-tg1_l_m.jpg</image>
-  </programme>
-  <programme start="20261123030000 +0000" stop="20261123033000 +0000" channel="ar#rai">
-    <title lang="es">Antonia</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_antonia_l_m.jpg</image>
-  </programme>
-  <programme start="20261123033000 +0000" stop="20261123050000 +0000" channel="ar#rai">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
-  </programme>
-  <programme start="20261123050000 +0000" stop="20261123051500 +0000" channel="ar#rai">
-    <title lang="es">TG1</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_tg1_l_m.jpg</image>
-  </programme>
-  <programme start="20261123051500 +0000" stop="20261123061500 +0000" channel="ar#rai">
-    <title lang="es">Unomattina News</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_unomattina-news_l_m.jpg</image>
   </programme>
   <programme start="20261120055000 +0000" stop="20261120063000 +0000" channel="ar#sony-hd">
     <title lang="es">Casados con hijos</title>
@@ -14268,12 +14280,12 @@
     <title lang="en">Drama</title>
     <image>https://cdn.mitvstatic.com/programs/ar_el-lapiz-del-carpintero-2003_l_m.jpg</image>
   </programme>
-  <programme start="20261122050500 +0000" stop="20261122081500 +0000" channel="Atrescine.es@SD">
+  <programme start="20261122050500 +0000" stop="20261122060500 +0000" channel="Atrescine.es@SD">
     <title lang="es">Susana</title>
     <title lang="en">Película / 7.2</title>
     <image>https://cdn.mitvstatic.com/programs/ar_susana_l_m.jpg</image>
   </programme>
-  <programme start="20261122050500 +0000" stop="20261122060500 +0000" channel="Atrescine.es@SD">
+  <programme start="20261122050500 +0000" stop="20261122081500 +0000" channel="Atrescine.es@SD">
     <title lang="es">Susana</title>
     <title lang="en">Película / 7.2</title>
     <image>https://cdn.mitvstatic.com/programs/ar_susana_l_m.jpg</image>
@@ -22066,17 +22078,41 @@
     <category lang="es">Variedades</category>
     <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
   </programme>
-  <programme start="20261122060000 +0000" stop="20261122073000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">Bloomberg Investigates</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-investigates_l_m.jpg</image>
+  <programme start="20261122060000 +0000" stop="20261122070000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Post Credits</title>
+    <sub-title lang="es">Who Really Holds the Power in Entertainment? - Reza Izad</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.99.0/1</episode-num>
+    <episode-num system="onscreen">S01E100</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_post-credits-s00e100-who-really-holds-the-power-in-entertainment-reza-izad_l_m.jpg</image>
   </programme>
-  <programme start="20261122073000 +0000" stop="20261122090000 +0000" channel="BloombergTV.us@US">
+  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The Deal</title>
+    <sub-title lang="es">Nick Khan on Making WWE a Global Media Power</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.11.0/1</episode-num>
+    <episode-num system="onscreen">S04E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-deal-s04e12-nick-khan-on-making-wwe-a-global-media-power_l_m.jpg</image>
+  </programme>
+  <programme start="20261122073000 +0000" stop="20261122080000 +0000" channel="BloombergTV.us@US">
     <title lang="es">The Mishal Husain Show</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show_l_m.jpg</image>
+    <sub-title lang="es">Parag Khanna</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.57.0/1</episode-num>
+    <episode-num system="onscreen">S01E58</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show-s00e58-parag-khanna_l_m.jpg</image>
+  </programme>
+  <programme start="20261122080000 +0000" stop="20261122083000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The Best of 2026 Bloomberg New Economy Forum</title>
+    <title lang="en">Economía</title>
+    <category lang="es">Economía</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-best-of-2026-bloomberg-new-economy-forum_l_m.jpg</image>
+  </programme>
+  <programme start="20261122083000 +0000" stop="20261122090000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Bloomberg Screentime</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-screentime_l_m.jpg</image>
   </programme>
   <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg Wall Street Week</title>
@@ -22084,10 +22120,21 @@
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-wall-street-week_l_m.jpg</image>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">Post Credits</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_post-credits_l_m.jpg</image>
+  <programme start="20261122100000 +0000" stop="20261122103000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Quantum Marketing</title>
+    <sub-title lang="es">How Mattel Turned Decades-Old Toys Into IP Gold</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_quantum-marketing-s01e03-how-mattel-turned-decades-old-toys-into-ip-gold_l_m.jpg</image>
+  </programme>
+  <programme start="20261122103000 +0000" stop="20261122110000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Quantum Marketing</title>
+    <sub-title lang="es">How McLaren Racing&apos;s CEO Runs a Top Formula 1 Team</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_quantum-marketing-s01e04-how-mclaren-racing-s-ceo-runs-a-top-formula-1-team_l_m.jpg</image>
   </programme>
   <programme start="20261122110000 +0000" stop="20261122120000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg Wall Street Week</title>
@@ -22101,78 +22148,121 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-this-weekend_l_m.jpg</image>
   </programme>
-  <programme start="20261122150000 +0000" stop="20261122170000 +0000" channel="BloombergTV.us@US">
+  <programme start="20261122150000 +0000" stop="20261122153000 +0000" channel="BloombergTV.us@US">
     <title lang="es">The Mishal Husain Show</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show_l_m.jpg</image>
+    <sub-title lang="es">Parag Khanna</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.57.0/1</episode-num>
+    <episode-num system="onscreen">S01E58</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show-s00e58-parag-khanna_l_m.jpg</image>
   </programme>
-  <programme start="20261122170000 +0000" stop="20261122183000 +0000" channel="BloombergTV.us@US">
+  <programme start="20261122153000 +0000" stop="20261122160000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The David Rubenstein Show: Peer-to-Peer Conversations</title>
+    <sub-title lang="es">David Joyner, CVS Health Chairman, President &amp; CEO</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">11.6.0/1</episode-num>
+    <episode-num system="onscreen">S12E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-david-rubenstein-show-peer-to-peer-conversations-s12e07-david-joyner-cvs-health-chairman-president-ceo_l_m.jpg</image>
+  </programme>
+  <programme start="20261122160000 +0000" stop="20261122163000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The Circuit</title>
+    <sub-title lang="es">Waymo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.1.0/1</episode-num>
+    <episode-num system="onscreen">S06E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-circuit-s06e02-waymo_l_m.jpg</image>
+  </programme>
+  <programme start="20261122163000 +0000" stop="20261122170000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The Best of 2026 Bloomberg New Economy Forum</title>
+    <title lang="en">Economía</title>
+    <category lang="es">Economía</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-best-of-2026-bloomberg-new-economy-forum_l_m.jpg</image>
+  </programme>
+  <programme start="20261122170000 +0000" stop="20261122180000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg Wall Street Week</title>
     <title lang="en">Economía</title>
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-wall-street-week_l_m.jpg</image>
   </programme>
-  <programme start="20261122183000 +0000" stop="20261122190000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+  <programme start="20261122180000 +0000" stop="20261122183000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">The David Rubenstein Show: Peer-to-Peer Conversations</title>
+    <sub-title lang="es">David Joyner, CVS Health Chairman, President &amp; CEO</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">11.6.0/1</episode-num>
+    <episode-num system="onscreen">S12E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-david-rubenstein-show-peer-to-peer-conversations-s12e07-david-joyner-cvs-health-chairman-president-ceo_l_m.jpg</image>
   </programme>
-  <programme start="20261122190000 +0000" stop="20261122200000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">Bloomberg Investigates</title>
+  <programme start="20261122183000 +0000" stop="20261122190000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Bloomberg Originals</title>
     <title lang="en">Periodístico</title>
     <category lang="es">Periodístico</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-investigates_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-originals_l_m.jpg</image>
+  </programme>
+  <programme start="20261122190000 +0000" stop="20261122193000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Bloomberg Primer</title>
+    <sub-title lang="es">The Business of Adapting to Flood Risk</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.54.0/1</episode-num>
+    <episode-num system="onscreen">S02E55</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-primer-s02e55-the-business-of-adapting-to-flood-risk_l_m.jpg</image>
+  </programme>
+  <programme start="20261122193000 +0000" stop="20261122200000 +0000" channel="BloombergTV.us@US">
+    <title lang="es">Bloomberg Primer</title>
+    <sub-title lang="es">How the Electrical Grid Is Being Rebuilt for AI</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.5.0/1</episode-num>
+    <episode-num system="onscreen">S02E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-primer-s02e06-how-the-electrical-grid-is-being-rebuilt-for-ai_l_m.jpg</image>
   </programme>
   <programme start="20261122200000 +0000" stop="20261122203000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">The Deal</title>
+    <sub-title lang="es">Nick Khan on Making WWE a Global Media Power</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">3.11.0/1</episode-num>
+    <episode-num system="onscreen">S04E12</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-deal-s04e12-nick-khan-on-making-wwe-a-global-media-power_l_m.jpg</image>
   </programme>
   <programme start="20261122203000 +0000" stop="20261122210000 +0000" channel="BloombergTV.us@US">
     <title lang="es">The Mishal Husain Show</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show_l_m.jpg</image>
+    <sub-title lang="es">Parag Khanna</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.57.0/1</episode-num>
+    <episode-num system="onscreen">S01E58</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show-s00e58-parag-khanna_l_m.jpg</image>
   </programme>
   <programme start="20261122210000 +0000" stop="20261122213000 +0000" channel="BloombergTV.us@US">
     <title lang="es">The Mishal Husain Show</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show_l_m.jpg</image>
+    <sub-title lang="es">David Cameron</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.56.0/1</episode-num>
+    <episode-num system="onscreen">S01E57</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-mishal-husain-show-s00e57-david-cameron_l_m.jpg</image>
   </programme>
   <programme start="20261122213000 +0000" stop="20261122220000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
+    <title lang="es">The Best of 2026 Bloomberg New Economy Forum</title>
+    <title lang="en">Economía</title>
+    <category lang="es">Economía</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-best-of-2026-bloomberg-new-economy-forum_l_m.jpg</image>
   </programme>
   <programme start="20261122220000 +0000" stop="20261122230000 +0000" channel="BloombergTV.us@US">
-    <title lang="es">Post Credits</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_post-credits_l_m.jpg</image>
-  </programme>
-  <programme start="20261122230000 +0000" stop="20261123000000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg Wall Street Week</title>
     <title lang="en">Economía</title>
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-wall-street-week_l_m.jpg</image>
   </programme>
-  <programme start="20261123000000 +0000" stop="20261123020000 +0000" channel="BloombergTV.us@US">
+  <programme start="20261122230000 +0000" stop="20261123010000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg: The Asia Trade</title>
     <title lang="en">Economía</title>
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-the-asia-trade-2_l_m.jpg</image>
   </programme>
-  <programme start="20261123020000 +0000" stop="20261123040000 +0000" channel="BloombergTV.us@US">
+  <programme start="20261123010000 +0000" stop="20261123030000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Bloomberg: The China Show</title>
     <title lang="en">Economía</title>
     <category lang="es">Economía</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bloomberg-the-china-show_l_m.jpg</image>
   </programme>
-  <programme start="20261123040000 +0000" stop="20261123050000 +0000" channel="BloombergTV.us@US">
+  <programme start="20261123030000 +0000" stop="20261123050000 +0000" channel="BloombergTV.us@US">
     <title lang="es">Insight</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/ar_insight_l_m.jpg</image>
@@ -23093,9 +23183,9 @@
   </programme>
   <programme start="20261122230000 +0000" stop="20261122233000 +0000" channel="Canal5.uy@SD">
     <title lang="es">Especial: Medalla Delmira Agustini</title>
-    <title lang="en">Especial</title>
-    <category lang="es">Especial</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+    <title lang="en">Premiación</title>
+    <category lang="es">Premiación</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_especial-medalla-delmira-agustini_l_m.jpg</image>
   </programme>
   <programme start="20261122233000 +0000" stop="20261123010000 +0000" channel="Canal5.uy@SD">
     <title lang="es">Cultura.21</title>
@@ -30379,88 +30469,117 @@
     <rating><value>6.6</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_la-liga-de-la-justicia-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122050500 +0000" stop="20261122065400 +0000" channel="CinemaxLatinAmerica.us@SD">
-    <title lang="es">Shrek</title>
-    <title lang="en">Animación</title>
-    <rating><value>7.9</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/ar_shrek-2001_l_m.jpg</image>
-  </programme>
   <programme start="20261122050500 +0000" stop="20261122060500 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Shrek</title>
     <title lang="en">Animación</title>
     <rating><value>7.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_shrek-2001_l_m.jpg</image>
   </programme>
-  <programme start="20261122065400 +0000" stop="20261122083800 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122051000 +0000" stop="20261122064700 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Shrek</title>
+    <title lang="en">Animación</title>
+    <rating><value>7.9</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/ar_shrek-2001_l_m.jpg</image>
+  </programme>
+  <programme start="20261122064700 +0000" stop="20261122083200 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Borrar historial</title>
     <title lang="en">Clear History</title>
     <category lang="es">Comedia</category>
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_borrar-historial-2013_l_m.jpg</image>
   </programme>
-  <programme start="20261122083800 +0000" stop="20261122101100 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122083200 +0000" stop="20261122100600 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">A Special Lady</title>
     <title lang="en">Mi-ok</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_a-special-lady-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122101100 +0000" stop="20261122120000 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122100600 +0000" stop="20261122114900 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">The Brink: el abordaje</title>
     <title lang="en">Kuang shou</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_the-brink-el-abordaje-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122120000 +0000" stop="20261122134800 +0000" channel="CinemaxLatinAmerica.us@SD">
-    <title lang="es">Volver al futuro III</title>
-    <title lang="en">Back to the Future III</title>
-    <category lang="es">Aventura</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_volver-al-futuro-iii-1990_l_m.jpg</image>
+  <programme start="20261122114900 +0000" stop="20261122120000 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.62.0/1</episode-num>
+    <episode-num system="onscreen">S01E63</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e63_l_m.jpg</image>
   </programme>
-  <programme start="20261122134800 +0000" stop="20261122155900 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122120000 +0000" stop="20261122120100 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">TNT Buzz</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">14.109.0/1</episode-num>
+    <episode-num system="onscreen">S15E110</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_tnt-buzz-s15e110_l_m.jpg</image>
+  </programme>
+  <programme start="20261122120100 +0000" stop="20261122124200 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.19.0/1</episode-num>
+    <episode-num system="onscreen">S01E20</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e20_l_m.jpg</image>
+  </programme>
+  <programme start="20261122124200 +0000" stop="20261122125900 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">Hollywood One on One</title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.57.0/1</episode-num>
+    <episode-num system="onscreen">S01E58</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_hollywood-one-on-one-s00e58_l_m.jpg</image>
+  </programme>
+  <programme start="20261122125900 +0000" stop="20261122132700 +0000" channel="CinemaxLatinAmerica.us@SD">
+    <title lang="es">El nuevo traje nuevo del emperador</title>
+    <title lang="en">The Emperor&apos;s Newest Clothes</title>
+    <category lang="es">Animación</category>
+    <rating><value>4.8</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/ar_el-nuevo-traje-nuevo-del-emperador-2018_l_m.jpg</image>
+  </programme>
+  <programme start="20261122132700 +0000" stop="20261122154000 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Rápidos y furiosos 6</title>
     <title lang="en">Fast &amp; Furious 6</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-6-2013-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122155900 +0000" stop="20261122181900 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122154000 +0000" stop="20261122180200 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Rápidos y furiosos 8</title>
     <title lang="en">Fast &amp; Furious 8</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-8-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261122181900 +0000" stop="20261122201900 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122180200 +0000" stop="20261122200700 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">El libro de los secretos</title>
     <title lang="en">The Book of Eli</title>
     <category lang="es">Acción</category>
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-libro-de-los-secretos-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261122201900 +0000" stop="20261122222100 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122200700 +0000" stop="20261122221500 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Volver al futuro III</title>
     <title lang="en">Back to the Future III</title>
     <category lang="es">Aventura</category>
     <image>https://cdn.mitvstatic.com/programs/ar_volver-al-futuro-iii-1990_l_m.jpg</image>
   </programme>
-  <programme start="20261122222100 +0000" stop="20261123003400 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261122221500 +0000" stop="20261123003100 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Rápidos y furiosos 6</title>
     <title lang="en">Fast &amp; Furious 6</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-6-2013-1_l_m.jpg</image>
   </programme>
-  <programme start="20261123003400 +0000" stop="20261123030000 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261123003100 +0000" stop="20261123030000 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">Rápidos y furiosos 8</title>
     <title lang="en">Fast &amp; Furious 8</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_rapidos-y-furiosos-8-2017_l_m.jpg</image>
   </programme>
-  <programme start="20261123030000 +0000" stop="20261123050400 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261123030000 +0000" stop="20261123050900 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">El libro de los secretos</title>
     <title lang="en">The Book of Eli</title>
     <category lang="es">Acción</category>
     <rating><value>6.9</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_el-libro-de-los-secretos-2010_l_m.jpg</image>
   </programme>
-  <programme start="20261123050400 +0000" stop="20261123060400 +0000" channel="CinemaxLatinAmerica.us@SD">
+  <programme start="20261123050900 +0000" stop="20261123060900 +0000" channel="CinemaxLatinAmerica.us@SD">
     <title lang="es">La purga por siempre</title>
     <title lang="en">The Forever Purge</title>
     <category lang="es">Acción</category>
@@ -33188,33 +33307,22 @@
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom_l_m.jpg</image>
   </programme>
-  <programme start="20261122060000 +0000" stop="20261122063000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom_l_m.jpg</image>
-  </programme>
-  <programme start="20261122063000 +0000" stop="20261122070000 +0000" channel="CNNInternational.us@LatinAmerica">
+  <programme start="20261122063000 +0000" stop="20261122073000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Inside Africa</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-1_l_m.jpg</image>
-  </programme>
-  <programme start="20261122070000 +0000" stop="20261122073000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom_l_m.jpg</image>
+    <sub-title lang="es">Kenyan Aquaculture</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.738.0/1</episode-num>
+    <episode-num system="onscreen">S01E739</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-s00e739-kenyan-aquaculture_l_m.jpg</image>
   </programme>
   <programme start="20261122073000 +0000" stop="20261122074500 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Marketplace Europe</title>
-    <sub-title lang="es">Inside Lego</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.62.0/1</episode-num>
-    <episode-num system="onscreen">S01E63</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_marketplace-europe-s00e63-inside-lego_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.62.0/1</episode-num>
+    <episode-num system="onscreen">S04E63</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_marketplace-europe-s04e63_l_m.jpg</image>
   </programme>
-  <programme start="20261122074500 +0000" stop="20261122080000 +0000" channel="CNNInternational.us@LatinAmerica">
+  <programme start="20261122074500 +0000" stop="20261122083000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Marketplace Asia</title>
     <sub-title lang="es">Data Centers; Tennis</sub-title>
     <category lang="es">Serie</category>
@@ -33222,13 +33330,7 @@
     <episode-num system="onscreen">S01E61</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_marketplace-asia-s00e61-data-centers-tennis_l_m.jpg</image>
   </programme>
-  <programme start="20261122080000 +0000" stop="20261122083000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom_l_m.jpg</image>
-  </programme>
-  <programme start="20261122083000 +0000" stop="20261122090000 +0000" channel="CNNInternational.us@LatinAmerica">
+  <programme start="20261122083000 +0000" stop="20261122110000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">El mundo maravilloso de Quest</title>
     <sub-title lang="es">Sri Lanka</sub-title>
     <category lang="es">Serie</category>
@@ -33236,55 +33338,61 @@
     <episode-num system="onscreen">S01E84</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-mundo-maravilloso-de-quest-s00e84-sri-lanka_l_m.jpg</image>
   </programme>
-  <programme start="20261122090000 +0000" stop="20261122100000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom with Salma Abdelaziz</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom-with-salma-abdelaziz_l_m.jpg</image>
-  </programme>
-  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom with Salma Abdelaziz</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom-with-salma-abdelaziz_l_m.jpg</image>
-  </programme>
   <programme start="20261122110000 +0000" stop="20261122113000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Off Peak</title>
     <sub-title lang="es">The Magic of Troy</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_off-peak-s00e01-the-magic-of-troy_l_m.jpg</image>
   </programme>
   <programme start="20261122113000 +0000" stop="20261122120000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Inside Africa</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-1_l_m.jpg</image>
+    <sub-title lang="es">Kenyan Aquaculture</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.738.0/1</episode-num>
+    <episode-num system="onscreen">S01E739</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-s00e739-kenyan-aquaculture_l_m.jpg</image>
   </programme>
-  <programme start="20261122120000 +0000" stop="20261122150000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN This Morning Weekend</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-this-morning-weekend_l_m.jpg</image>
+  <programme start="20261122120000 +0000" stop="20261122123000 +0000" channel="CNNInternational.us@LatinAmerica">
+    <title lang="es">African Voices Playmakers</title>
+    <sub-title lang="es">Hakeem Olajuwon</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.12.0/1</episode-num>
+    <episode-num system="onscreen">S01E13</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_african-voices-playmakers-s00e13-hakeem-olajuwon_l_m.jpg</image>
   </programme>
-  <programme start="20261122150000 +0000" stop="20261122170000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">Fareed Zakaria GPS</title>
-    <title lang="en">Periodístico</title>
-    <category lang="es">Periodístico</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_fareed-zakaria-gps_l_m.jpg</image>
+  <programme start="20261122123000 +0000" stop="20261122160000 +0000" channel="CNNInternational.us@LatinAmerica">
+    <title lang="es">Answering Tomorrow</title>
+    <sub-title lang="es">How We Adapt Today to Protect Tomorrow</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
+    <episode-num system="onscreen">S01E102</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_answering-tomorrow-s00e102-how-we-adapt-today-to-protect-tomorrow_l_m.jpg</image>
   </programme>
-  <programme start="20261122170000 +0000" stop="20261122173000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">World Sport</title>
-    <title lang="en">World Sport</title>
-    <category lang="es">World Sport</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_deportivo-world-sport_l_m.jpg</image>
+  <programme start="20261122160000 +0000" stop="20261122163000 +0000" channel="CNNInternational.us@LatinAmerica">
+    <title lang="es">Inside Africa</title>
+    <sub-title lang="es">Raffia: From Forest to Fashion</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.737.0/1</episode-num>
+    <episode-num system="onscreen">S01E738</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-s00e738-raffia-from-forest-to-fashion_l_m.jpg</image>
+  </programme>
+  <programme start="20261122163000 +0000" stop="20261122173000 +0000" channel="CNNInternational.us@LatinAmerica">
+    <title lang="es">Answering Tomorrow</title>
+    <sub-title lang="es">How We Adapt Today to Protect Tomorrow</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.101.0/1</episode-num>
+    <episode-num system="onscreen">S01E102</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_answering-tomorrow-s00e102-how-we-adapt-today-to-protect-tomorrow_l_m.jpg</image>
   </programme>
   <programme start="20261122173000 +0000" stop="20261122180000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Inside Africa</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-1_l_m.jpg</image>
+    <sub-title lang="es">Kenyan Aquaculture</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.738.0/1</episode-num>
+    <episode-num system="onscreen">S01E739</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-s00e739-kenyan-aquaculture_l_m.jpg</image>
   </programme>
   <programme start="20261122180000 +0000" stop="20261122183000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">African Voices Playmakers</title>
@@ -33294,19 +33402,13 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_african-voices-playmakers-s00e13-hakeem-olajuwon_l_m.jpg</image>
   </programme>
-  <programme start="20261122183000 +0000" stop="20261122190000 +0000" channel="CNNInternational.us@LatinAmerica">
+  <programme start="20261122183000 +0000" stop="20261122223000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Off Peak</title>
     <sub-title lang="es">The Magic of Troy</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
-  </programme>
-  <programme start="20261122190000 +0000" stop="20261122223000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_off-peak-s00e01-the-magic-of-troy_l_m.jpg</image>
   </programme>
   <programme start="20261122223000 +0000" stop="20261123010000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Off Peak</title>
@@ -33314,18 +33416,12 @@
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/fallback_tvepisode_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_off-peak-s00e01-the-magic-of-troy_l_m.jpg</image>
   </programme>
-  <programme start="20261123010000 +0000" stop="20261123020000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">La historia completa con Anderson Cooper</title>
+  <programme start="20261123010000 +0000" stop="20261123030000 +0000" channel="CNNInternational.us@LatinAmerica">
+    <title lang="es">The Trials of Lindsay Clancy</title>
     <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_la-historia-completa-con-anderson-cooper_l_m.jpg</image>
-  </programme>
-  <programme start="20261123020000 +0000" stop="20261123030000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">Elecciones de mitad de mandato de 2026: Cuenta regresiva para la noche electoral</title>
-    <title lang="en">Político</title>
-    <category lang="es">Político</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_elecciones-de-mitad-de-mandato-de-2026-cuenta-regresiva-para-la-noche-electoral_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_the-trials-of-lindsay-clancy_l_m.jpg</image>
   </programme>
   <programme start="20261123030000 +0000" stop="20261123033000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">African Voices Playmakers</title>
@@ -33337,11 +33433,10 @@
   </programme>
   <programme start="20261123033000 +0000" stop="20261123034500 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Marketplace Europe</title>
-    <sub-title lang="es">Inside Lego</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.62.0/1</episode-num>
-    <episode-num system="onscreen">S01E63</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_marketplace-europe-s00e63-inside-lego_l_m.jpg</image>
+    <episode-num system="xmltv_ns">3.62.0/1</episode-num>
+    <episode-num system="onscreen">S04E63</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_marketplace-europe-s04e63_l_m.jpg</image>
   </programme>
   <programme start="20261123034500 +0000" stop="20261123040000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Marketplace Asia</title>
@@ -33352,22 +33447,20 @@
     <image>https://cdn.mitvstatic.com/programs/ar_marketplace-asia-s00e61-data-centers-tennis_l_m.jpg</image>
   </programme>
   <programme start="20261123040000 +0000" stop="20261123043000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">A confirmar</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_a-confirmar_l_m.jpg</image>
-  </programme>
-  <programme start="20261123043000 +0000" stop="20261123050000 +0000" channel="CNNInternational.us@LatinAmerica">
     <title lang="es">Inside Africa</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-1_l_m.jpg</image>
+    <sub-title lang="es">Senegalese Surfing</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.736.0/1</episode-num>
+    <episode-num system="onscreen">S01E737</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-s00e737-senegalese-surfing_l_m.jpg</image>
   </programme>
-  <programme start="20261123050000 +0000" stop="20261123060000 +0000" channel="CNNInternational.us@LatinAmerica">
-    <title lang="es">CNN Newsroom</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_cnn-newsroom_l_m.jpg</image>
+  <programme start="20261123043000 +0000" stop="20261123053000 +0000" channel="CNNInternational.us@LatinAmerica">
+    <title lang="es">Inside Africa</title>
+    <sub-title lang="es">Kenyan Aquaculture</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.738.0/1</episode-num>
+    <episode-num system="onscreen">S01E739</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_inside-africa-s00e739-kenyan-aquaculture_l_m.jpg</image>
   </programme>
   <programme start="20261120055500 +0000" stop="20261120062000 +0000" channel="ComedyCentralLatinAmerica.us@Panregional">
     <title lang="es">South Park</title>
@@ -44755,7 +44848,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_prodigiosa-las-aventuras-de-ladybug-s01e05-faraon_l_m.jpg</image>
   </programme>
-  <programme start="20261122133000 +0000" stop="20261122140100 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122133000 +0000" stop="20261122140000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Phineas y Ferb</title>
     <sub-title lang="es">Convención de nerds</sub-title>
     <category lang="es">Serie</category>
@@ -44763,7 +44856,7 @@
     <episode-num system="onscreen">S02E59</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_phineas-y-ferb-s02e59-day-of-the-living-gelatin_l_m.jpg</image>
   </programme>
-  <programme start="20261122140100 +0000" stop="20261122153400 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122140000 +0000" stop="20261122153400 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Amienemigas</title>
     <title lang="en">Frenemies</title>
     <category lang="es">Drama</category>
@@ -44778,7 +44871,7 @@
     <episode-num system="onscreen">S03E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_los-green-en-la-gran-ciudad-s03e22-un-regreso-de-perros_l_m.jpg</image>
   </programme>
-  <programme start="20261122154600 +0000" stop="20261122161300 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122154600 +0000" stop="20261122161200 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Los hechiceros más allá de Waverly Place</title>
     <sub-title lang="es">No puedes controlar al diente</sub-title>
     <category lang="es">Serie</category>
@@ -44786,7 +44879,7 @@
     <episode-num system="onscreen">S01E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_los-hechiceros-mas-alla-de-waverly-place-s01e08-wiz-taken-identity_l_m.jpg</image>
   </programme>
-  <programme start="20261122161300 +0000" stop="20261122163900 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122161200 +0000" stop="20261122163900 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Vampirina: una vampirina adolescente</title>
     <sub-title lang="es">La primera pesadilla</sub-title>
     <category lang="es">Serie</category>
@@ -44826,7 +44919,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_austin-y-ally-s03e04-club-de-playa-mejores-amigas_l_m.jpg</image>
   </programme>
-  <programme start="20261122182000 +0000" stop="20261122184800 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122182000 +0000" stop="20261122184700 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Electric Bloom: La mejor banda del mundo</title>
     <sub-title lang="es">Cómo aprendimos a amar a nuestros haters</sub-title>
     <category lang="es">Serie</category>
@@ -44834,7 +44927,7 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_electric-bloom-la-mejor-banda-del-mundo-s01e11-how-we-learned-to-love-our-haters_l_m.jpg</image>
   </programme>
-  <programme start="20261122184800 +0000" stop="20261122190000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122184700 +0000" stop="20261122185900 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Los Green en la gran ciudad</title>
     <sub-title lang="es">La Jungla de Pastel</sub-title>
     <category lang="es">Serie</category>
@@ -44842,7 +44935,7 @@
     <episode-num system="onscreen">S03E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_los-green-en-la-gran-ciudad-s03e23-la-jungla-de-pastel_l_m.jpg</image>
   </programme>
-  <programme start="20261122190000 +0000" stop="20261122192500 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122185900 +0000" stop="20261122192500 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Art Attack: modo desafío</title>
     <sub-title lang="es">Bajo el mar</sub-title>
     <category lang="es">Serie</category>
@@ -44874,7 +44967,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_los-green-en-la-gran-ciudad-s01e07-bienvenidos-a-casa-el-ataque-de-los-mapaches_l_m.jpg</image>
   </programme>
-  <programme start="20261122202800 +0000" stop="20261122205400 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122202800 +0000" stop="20261122205300 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Prodigiosa: las aventuras de Ladybug</title>
     <sub-title lang="es">Darkblade</sub-title>
     <category lang="es">Serie</category>
@@ -44882,7 +44975,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_prodigiosa-las-aventuras-de-ladybug-s01e12-darkblade_l_m.jpg</image>
   </programme>
-  <programme start="20261122205400 +0000" stop="20261122211500 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122205300 +0000" stop="20261122211500 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Mewbertad / Hadápolis</sub-title>
     <category lang="es">Serie</category>
@@ -44897,13 +44990,13 @@
     <rating><value>7.0</value></rating>
     <image>https://cdn.mitvstatic.com/programs/ar_la-era-de-hielo-3-2009_l_m.jpg</image>
   </programme>
-  <programme start="20261122225600 +0000" stop="20261123003900 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261122225600 +0000" stop="20261123003800 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Bichos, una aventura en miniatura</title>
     <title lang="en">A Bug&apos;s Life</title>
     <category lang="es">Acción</category>
     <image>https://cdn.mitvstatic.com/programs/ar_bichos-una-aventura-en-miniatura-1998_l_m.jpg</image>
   </programme>
-  <programme start="20261123003900 +0000" stop="20261123010000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261123003800 +0000" stop="20261123010000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Star vs. Las fuerzas del mal</title>
     <sub-title lang="es">Pinzas de langosta / Hechizos en sueño</sub-title>
     <category lang="es">Serie</category>
@@ -44935,7 +45028,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_selenkay-s01e03-bajo-presion_l_m.jpg</image>
   </programme>
-  <programme start="20261123022100 +0000" stop="20261123025200 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261123022100 +0000" stop="20261123025100 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Secretos en Sulphur Springs</title>
     <sub-title lang="es">El tiempo en un cristal</sub-title>
     <category lang="es">Serie</category>
@@ -44943,7 +45036,7 @@
     <episode-num system="onscreen">S03E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_secretos-en-sulphur-springs-s03e21-el-tiempo-en-un-cristal_l_m.jpg</image>
   </programme>
-  <programme start="20261123025200 +0000" stop="20261123032100 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261123025100 +0000" stop="20261123032000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Hannah Montana</title>
     <sub-title lang="es">Mascota inoportuna</sub-title>
     <category lang="es">Serie</category>
@@ -44951,7 +45044,7 @@
     <episode-num system="onscreen">S01E26</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_hannah-montana-s01e26-divida-entre-dos-hannahs_l_m.jpg</image>
   </programme>
-  <programme start="20261123032100 +0000" stop="20261123035000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
+  <programme start="20261123032000 +0000" stop="20261123035000 +0000" channel="DisneyChannelLatinAmerica.ar@South">
     <title lang="es">Jonas</title>
     <sub-title lang="es">House Party</sub-title>
     <category lang="es">Serie</category>
@@ -48781,6 +48874,14 @@
     <episode-num system="onscreen">S01E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-mejor-parrilero-s01e11-el-pasatiempo-favorito-de-estados-unidos_l_m.jpg</image>
   </programme>
+  <programme start="20261121053700 +0000" stop="20261121062100 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+    <title lang="es">Dulce genio</title>
+    <sub-title lang="es">Desafío</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
+    <episode-num system="onscreen">S02E07</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/ar_dulce-genio-s02e07-desafio_l_m.jpg</image>
+  </programme>
   <programme start="20261121053700 +0000" stop="20261121063700 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Dulce genio</title>
     <sub-title lang="es">Desafío</sub-title>
@@ -48789,15 +48890,7 @@
     <episode-num system="onscreen">S02E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_dulce-genio-s02e07-desafio_l_m.jpg</image>
   </programme>
-  <programme start="20261121054200 +0000" stop="20261121062600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
-    <title lang="es">Dulce genio</title>
-    <sub-title lang="es">Desafío</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.6.0/1</episode-num>
-    <episode-num system="onscreen">S02E07</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/ar_dulce-genio-s02e07-desafio_l_m.jpg</image>
-  </programme>
-  <programme start="20261121062600 +0000" stop="20261121071000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20261121062100 +0000" stop="20261121070600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Alex vs. América</title>
     <sub-title lang="es">Alex vs. Arroz</sub-title>
     <category lang="es">Serie</category>
@@ -48805,7 +48898,7 @@
     <episode-num system="onscreen">S04E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_alex-vs-america-s04e10-alex-vs-arroz_l_m.jpg</image>
   </programme>
-  <programme start="20261121071000 +0000" stop="20261121073200 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20261121070600 +0000" stop="20261121072700 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Delicias de la playa con Katie Lee</title>
     <sub-title lang="es">Recetas familiares</sub-title>
     <category lang="es">Serie</category>
@@ -48813,7 +48906,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_delicias-de-la-playa-con-katie-lee-s01e03-family-recipes_l_m.jpg</image>
   </programme>
-  <programme start="20261121073200 +0000" stop="20261121081600 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20261121072700 +0000" stop="20261121081000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">El pastel imbatible</title>
     <sub-title lang="es">El cumpleaños de Darci Lynne</sub-title>
     <category lang="es">Serie</category>
@@ -48821,7 +48914,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_el-pastel-imbatible-s01e03-bienvenido-a-casa-soldado_l_m.jpg</image>
   </programme>
-  <programme start="20261121081600 +0000" stop="20261121090000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
+  <programme start="20261121081000 +0000" stop="20261121090000 +0000" channel="FoodNetworkLatinAmerica.us@Panregional">
     <title lang="es">Guerra de pasteles</title>
     <sub-title lang="es">La mujer maravilla</sub-title>
     <category lang="es">Serie</category>
@@ -49681,10 +49774,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_surf-surf-rock_l_m.jpg</image>
   </programme>
   <programme start="20261122123000 +0000" stop="20261122130000 +0000" channel="FoxSports2.ar@SD">
-    <title lang="es">Sergio Hernandez</title>
+    <title lang="es">La vuelta</title>
     <title lang="en">La vuelta</title>
     <category lang="es">La vuelta</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_magazine-sergio-hernandez_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_magazine-la-vuelta_l_m.jpg</image>
   </programme>
   <programme start="20261122130000 +0000" stop="20261122150000 +0000" channel="FoxSports2.ar@SD">
     <title lang="es">Konyaspor vs. Besiktas</title>
@@ -49705,10 +49798,10 @@
     <image>https://cdn.mitvstatic.com/programs/ar_futbol-la-cocina-del-futbol_l_m.jpg</image>
   </programme>
   <programme start="20261122170000 +0000" stop="20261122180000 +0000" channel="FoxSports2.ar@SD">
-    <title lang="es">8 Hours of Bahrain, Fecha 9</title>
+    <title lang="es">F8 8 Hours of Bahrain</title>
     <title lang="en">WEC</title>
     <category lang="es">WEC</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-8-hours-of-bahrain-fecha-9_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-f8-8-hours-of-bahrain_l_m.jpg</image>
   </programme>
   <programme start="20261122180000 +0000" stop="20261122210000 +0000" channel="FoxSports2.ar@SD">
     <title lang="es">Pittsburgh Steelers vs. Philadelphia Eagles</title>
@@ -49716,23 +49809,11 @@
     <category lang="es">Fecha 11, Lincoln Financial Field</category>
     <image>https://cdn.mitvstatic.com/programs/ar_futbol-americano-pittsburgh-steelers-vs-philadelphia-eagles-fecha-11-lincoln-financial-field_l_m.jpg</image>
   </programme>
-  <programme start="20261122210000 +0000" stop="20261122213000 +0000" channel="FoxSports2.ar@SD">
-    <title lang="es">Sergio Hernandez</title>
+  <programme start="20261122210000 +0000" stop="20261123013000 +0000" channel="FoxSports2.ar@SD">
+    <title lang="es">La vuelta</title>
     <title lang="en">La vuelta</title>
     <category lang="es">La vuelta</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_magazine-sergio-hernandez_l_m.jpg</image>
-  </programme>
-  <programme start="20261122213000 +0000" stop="20261122233000 +0000" channel="FoxSports2.ar@SD">
-    <title lang="es">Universidad San Martin vs. Olva Latino</title>
-    <title lang="en">Fecha 6</title>
-    <category lang="es">Fecha 6</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_voley-universidad-san-martin-vs-olva-latino-fecha-6_l_m.jpg</image>
-  </programme>
-  <programme start="20261122233000 +0000" stop="20261123013000 +0000" channel="FoxSports2.ar@SD">
-    <title lang="es">Alianza Lima vs. Atlético Atenea</title>
-    <title lang="en">Fecha 6</title>
-    <category lang="es">Fecha 6</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_voley-alianza-lima-vs-atletico-atenea-fecha-6_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_magazine-la-vuelta_l_m.jpg</image>
   </programme>
   <programme start="20261123013000 +0000" stop="20261123020000 +0000" channel="FoxSports2.ar@SD">
     <title lang="es">Surf &amp; Rock</title>
@@ -49947,18 +50028,18 @@
     <image>https://cdn.mitvstatic.com/programs/ar_futbol-vitoria-guimaraes-vs-sc-braga-16vos-de-final-estadio-d-afonso-henriques_l_m.jpg</image>
   </programme>
   <programme start="20261122063000 +0000" stop="20261122100000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
-    <title lang="es">Final 3</title>
+    <title lang="es">Copa Rotax - RMC</title>
     <title lang="en">Copa Rotax - RMC</title>
     <category lang="es">Copa Rotax - RMC</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-final-3-1_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-copa-rotax-rmc_l_m.jpg</image>
   </programme>
-  <programme start="20261122100000 +0000" stop="20261122111000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
+  <programme start="20261122100000 +0000" stop="20261122110000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
     <title lang="es">Circuito ROTAX</title>
     <title lang="en">Circuito ROTAX</title>
     <category lang="es">Circuito ROTAX</category>
     <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-circuito-rotax-1_l_m.jpg</image>
   </programme>
-  <programme start="20261122111000 +0000" stop="20261122133000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
+  <programme start="20261122110000 +0000" stop="20261122133000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
     <title lang="es">Raków Czestochowa vs. Widzew Lodz</title>
     <title lang="en">Fecha 15</title>
     <category lang="es">Fecha 15</category>
@@ -49976,17 +50057,11 @@
     <category lang="es">Lady fierros</category>
     <image>https://cdn.mitvstatic.com/programs/ar_deportivo-lady-fierros_l_m.jpg</image>
   </programme>
-  <programme start="20261122150000 +0000" stop="20261122155000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
-    <title lang="es">Media cancha</title>
-    <title lang="en">Media cancha</title>
-    <category lang="es">Media cancha</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_basquet-media-cancha_l_m.jpg</image>
-  </programme>
-  <programme start="20261122155000 +0000" stop="20261122180000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
-    <title lang="es">Trabzonspor vs. Eyupspor</title>
-    <title lang="en">Fecha 12, Papara Park</title>
-    <category lang="es">Fecha 12, Papara Park</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_futbol-trabzonspor-vs-eyupspor-fecha-12-papara-park_l_m.jpg</image>
+  <programme start="20261122150000 +0000" stop="20261122180000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
+    <title lang="es">Copa Rotax - RMC</title>
+    <title lang="en">Copa Rotax - RMC</title>
+    <category lang="es">Copa Rotax - RMC</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_automovilismo-copa-rotax-rmc_l_m.jpg</image>
   </programme>
   <programme start="20261122180000 +0000" stop="20261122210000 +0000" channel="FoxSports3LatinAmerica.us@Panregional">
     <title lang="es">New Orleans Saints vs. Chicago Bears</title>
@@ -50152,9 +50227,9 @@
   </programme>
   <programme start="20261121073000 +0000" stop="20261121093000 +0000" channel="FoxSports.ar@SD">
     <title lang="es">Arminia Bielefeld vs. Magdeburgo</title>
-    <title lang="en">Fecha 12, Schüco Arena</title>
-    <category lang="es">Fecha 12, Schüco Arena</category>
-    <image>https://cdn.mitvstatic.com/programs/ar_futbol-arminia-bielefeld-vs-magdeburgo-fecha-12-schuco-arena_l_m.jpg</image>
+    <title lang="en">Fecha 12, Schüco-Arena</title>
+    <category lang="es">Fecha 12, Schüco-Arena</category>
+    <image>https://cdn.mitvstatic.com/programs/ar_futbol-arminia-bielefeld-vs-magdeburgo-fecha-12-schuco-arena-1_l_m.jpg</image>
   </programme>
   <programme start="20261121093000 +0000" stop="20261121100000 +0000" channel="FoxSports.ar@SD">
     <title lang="es">El show de la UEFA Champions League</title>
@@ -65720,7 +65795,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_david-blaine-la-magia-de-lo-inesperado-s01e03-india_l_m.jpg</image>
   </programme>
-  <programme start="20261123005800 +0000" stop="20261123021400 +0000" channel="NationalGeographicLatinAmerica.us@South">
+  <programme start="20261123005800 +0000" stop="20261123021500 +0000" channel="NationalGeographicLatinAmerica.us@South">
     <title lang="es">Photographer</title>
     <sub-title lang="es">Paul Nicklen y Cristina Mittermeier: ganar o morir</sub-title>
     <category lang="es">Serie</category>
@@ -65728,7 +65803,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_photographer-s01e01-paul-nicklen-y-cristina-mittermeier-ganar-o-morir_l_m.jpg</image>
   </programme>
-  <programme start="20261123021400 +0000" stop="20261123031400 +0000" channel="NationalGeographicLatinAmerica.us@South">
+  <programme start="20261123021500 +0000" stop="20261123031400 +0000" channel="NationalGeographicLatinAmerica.us@South">
     <title lang="es">Animales viajeros</title>
     <sub-title lang="es">Viajeros frecuentes</sub-title>
     <category lang="es">Serie</category>
@@ -65736,7 +65811,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_animales-viajeros-s01e06-viajeros-frecuentes_l_m.jpg</image>
   </programme>
-  <programme start="20261123031400 +0000" stop="20261123041400 +0000" channel="NationalGeographicLatinAmerica.us@South">
+  <programme start="20261123031400 +0000" stop="20261123041500 +0000" channel="NationalGeographicLatinAmerica.us@South">
     <title lang="es">Alerta aeropuerto</title>
     <sub-title lang="es">Adicto al engaño</sub-title>
     <category lang="es">Serie</category>
@@ -65744,7 +65819,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_alerta-aeropuerto-s03e04_l_m.jpg</image>
   </programme>
-  <programme start="20261123041400 +0000" stop="20261123051500 +0000" channel="NationalGeographicLatinAmerica.us@South">
+  <programme start="20261123041500 +0000" stop="20261123051400 +0000" channel="NationalGeographicLatinAmerica.us@South">
     <title lang="es">Alerta aeropuerto</title>
     <sub-title lang="es">Sorpresa y media</sub-title>
     <category lang="es">Serie</category>
@@ -65752,7 +65827,7 @@
     <episode-num system="onscreen">S07E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_alerta-aeropuerto-s07e05-sorpresa-y-media_l_m.jpg</image>
   </programme>
-  <programme start="20261123051500 +0000" stop="20261123055900 +0000" channel="NationalGeographicLatinAmerica.us@South">
+  <programme start="20261123051400 +0000" stop="20261123055800 +0000" channel="NationalGeographicLatinAmerica.us@South">
     <title lang="es">Mayday: catástrofes aéreas</title>
     <sub-title lang="es">Diálogo mortal</sub-title>
     <category lang="es">Serie</category>
@@ -65760,7 +65835,7 @@
     <episode-num system="onscreen">S23E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_mayday-catastrofes-aereas-s23e01-directiva-letal_l_m.jpg</image>
   </programme>
-  <programme start="20261123055900 +0000" stop="20261123065900 +0000" channel="NationalGeographicLatinAmerica.us@South">
+  <programme start="20261123055800 +0000" stop="20261123065800 +0000" channel="NationalGeographicLatinAmerica.us@South">
     <title lang="es">Secreto en los océanos</title>
     <sub-title lang="es">Naufragios olvidados</sub-title>
     <category lang="es">Serie</category>
@@ -67913,7 +67988,7 @@
   </programme>
   <programme start="20261122142000 +0000" stop="20261122144500 +0000" channel="NickelodeonLatinAmerica.us@Panregional">
     <title lang="es">Bob Esponja</title>
-    <sub-title lang="es">La salchicha se lleva todo / Encerrado en el ascensor</sub-title>
+    <sub-title lang="es">La entrega del mal / Mi padre, el bote</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">14.10.0/1</episode-num>
     <episode-num system="onscreen">S15E11</episode-num>
@@ -83946,7 +84021,7 @@
   </programme>
   <programme start="20261122095000 +0000" stop="20261122100000 +0000" channel="Tooncast.us@SD">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">Los exploradores son de Marte</sub-title>
+    <sub-title lang="es">Campeonato Runny Ruma</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -84018,7 +84093,7 @@
   </programme>
   <programme start="20261122113300 +0000" stop="20261122114400 +0000" channel="Tooncast.us@SD">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">Jake, el cuatro ojos</sub-title>
+    <sub-title lang="es">Comportamiento humano</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.47.0/1</episode-num>
     <episode-num system="onscreen">S04E48</episode-num>
@@ -84098,7 +84173,7 @@
   </programme>
   <programme start="20261122130300 +0000" stop="20261122130400 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Coffee Tables</sub-title>
+    <sub-title lang="es">Hasty Rent a Car</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -84138,7 +84213,7 @@
   </programme>
   <programme start="20261122131200 +0000" stop="20261122131300 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Meatballs</sub-title>
+    <sub-title lang="es">Shopping Station</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -84162,7 +84237,7 @@
   </programme>
   <programme start="20261122132300 +0000" stop="20261122132400 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Meatballs</sub-title>
+    <sub-title lang="es">Shopping Station</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -84330,7 +84405,7 @@
   </programme>
   <programme start="20261122184800 +0000" stop="20261122185800 +0000" channel="Tooncast.us@SD">
     <title lang="es">Los autos locos</title>
-    <sub-title lang="es">Carrera a chaparrera</sub-title>
+    <sub-title lang="es">La carrera de Ski Roto</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.15.0/1</episode-num>
     <episode-num system="onscreen">S01E16</episode-num>
@@ -84422,7 +84497,7 @@
   </programme>
   <programme start="20261122215200 +0000" stop="20261122220200 +0000" channel="Tooncast.us@SD">
     <title lang="es">El campamento de Lazlo</title>
-    <sub-title lang="es">Los exploradores son de Marte</sub-title>
+    <sub-title lang="es">Campeonato Runny Ruma</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.4.0/1</episode-num>
     <episode-num system="onscreen">S01E05</episode-num>
@@ -84494,7 +84569,7 @@
   </programme>
   <programme start="20261122233500 +0000" stop="20261122234600 +0000" channel="Tooncast.us@SD">
     <title lang="es">Mi compañero de clase es un mono</title>
-    <sub-title lang="es">Jake, el cuatro ojos</sub-title>
+    <sub-title lang="es">Comportamiento humano</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">3.47.0/1</episode-num>
     <episode-num system="onscreen">S04E48</episode-num>
@@ -84574,7 +84649,7 @@
   </programme>
   <programme start="20261123010500 +0000" stop="20261123010600 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Coffee Tables</sub-title>
+    <sub-title lang="es">Hasty Rent a Car</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.10.0/1</episode-num>
     <episode-num system="onscreen">S01E11</episode-num>
@@ -84614,7 +84689,7 @@
   </programme>
   <programme start="20261123011400 +0000" stop="20261123011500 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Meatballs</sub-title>
+    <sub-title lang="es">Shopping Station</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -84638,7 +84713,7 @@
   </programme>
   <programme start="20261123012600 +0000" stop="20261123012700 +0000" channel="Tooncast.us@SD">
     <title lang="es">Sheep en la gran ciudad</title>
-    <sub-title lang="es">About Meatballs</sub-title>
+    <sub-title lang="es">Shopping Station</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.0.0/1</episode-num>
     <episode-num system="onscreen">S01E01</episode-num>
@@ -90067,7 +90142,7 @@
     <episode-num system="onscreen">S11E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_the-big-bang-theory-s11e11_l_m.jpg</image>
   </programme>
-  <programme start="20261122055100 +0000" stop="20261122061100 +0000" channel="WarnerChannel.us@South">
+  <programme start="20261122055100 +0000" stop="20261122065100 +0000" channel="WarnerChannel.us@South">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La métrica matrimonial</sub-title>
     <category lang="es">Serie</category>
@@ -90075,7 +90150,7 @@
     <episode-num system="onscreen">S11E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/ar_the-big-bang-theory-s11e12_l_m.jpg</image>
   </programme>
-  <programme start="20261122055100 +0000" stop="20261122065100 +0000" channel="WarnerChannel.us@South">
+  <programme start="20261122055100 +0000" stop="20261122061100 +0000" channel="WarnerChannel.us@South">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La métrica matrimonial</sub-title>
     <category lang="es">Serie</category>
