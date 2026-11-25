@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="custom-epg" date="20261124135344 +0000">
+<tv generator-info-name="custom-epg" date="20261124235919 +0000">
   <channel id="co#a-e-mundo">
     <display-name>A&amp;E</display-name>
   </channel>
@@ -9,9 +9,6 @@
   <channel id="AlientoVision.us@SD">
     <display-name>Aliento Vision</display-name>
     <icon src="https://i.imgur.com/h5EWT2n.png"/>
-  </channel>
-  <channel id="co#amc-hd">
-    <display-name>AMC HD</display-name>
   </channel>
   <channel id="co#amc">
     <display-name>AMC</display-name>
@@ -683,8 +680,8 @@
   <channel id="co#animal-planet">
     <display-name>Animal Planet</display-name>
   </channel>
-  <channel id="co#zoom">
-    <display-name>Zoom</display-name>
+  <channel id="co#amc-hd">
+    <display-name>AMC HD</display-name>
   </channel>
   <channel id="WinSports.co@SD">
     <display-name>Win Sports HD</display-name>
@@ -692,6 +689,9 @@
   </channel>
   <channel id="co#win-sports">
     <display-name>Win Sports</display-name>
+  </channel>
+  <channel id="co#zoom">
+    <display-name>Zoom</display-name>
   </channel>
   <programme start="20261124060000 +0000" stop="20261124063000 +0000" channel="AlientoVision.us@SD">
     <title lang="es">Billy Graham Classics</title>
@@ -8209,17 +8209,17 @@
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
   </programme>
-  <programme start="20261126010000 +0000" stop="20261126031000 +0000" channel="co#amc-hd">
-    <title lang="es">Saltburn</title>
-    <title lang="en">Suspenso</title>
-    <rating><value>7.0</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/co_saltburn-2023_l_m.jpg</image>
-  </programme>
   <programme start="20261126010000 +0000" stop="20261126013000 +0000" channel="co#amc-hd">
     <title lang="es">Infomerciales</title>
     <title lang="en">Publicidad</title>
     <category lang="es">Publicidad</category>
     <image>https://cdn.mitvstatic.com/programs/co_infomerciales_l_m.jpg</image>
+  </programme>
+  <programme start="20261126010000 +0000" stop="20261126031000 +0000" channel="co#amc-hd">
+    <title lang="es">Saltburn</title>
+    <title lang="en">Suspenso</title>
+    <rating><value>7.0</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/co_saltburn-2023_l_m.jpg</image>
   </programme>
   <programme start="20261126013000 +0000" stop="20261126020000 +0000" channel="co#amc-hd">
     <title lang="es">Infomerciales</title>
@@ -82268,6 +82268,12 @@
     <episode-num system="onscreen">S05E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_cobra-kai-t05e04-caida-en-espiral_l_m.jpg</image>
   </programme>
+  <programme start="20261126052900 +0000" stop="20261126075500 +0000" channel="co#warner">
+    <title lang="es">Jack Reacher</title>
+    <title lang="en">Thriller</title>
+    <rating><value>7.0</value></rating>
+    <image>https://cdn.mitvstatic.com/programs/co_jack-reacher-2012_l_m.jpg</image>
+  </programme>
   <programme start="20261126052900 +0000" stop="20261126055100 +0000" channel="co#warner">
     <title lang="es">The Big Bang Theory</title>
     <sub-title lang="es">La colisión planetaria</sub-title>
@@ -82275,12 +82281,6 @@
     <episode-num system="xmltv_ns">11.4.0/1</episode-num>
     <episode-num system="onscreen">S12E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_the-big-bang-theory-t12e05_l_m.jpg</image>
-  </programme>
-  <programme start="20261126052900 +0000" stop="20261126075500 +0000" channel="co#warner">
-    <title lang="es">Jack Reacher</title>
-    <title lang="en">Thriller</title>
-    <rating><value>7.0</value></rating>
-    <image>https://cdn.mitvstatic.com/programs/co_jack-reacher-2012_l_m.jpg</image>
   </programme>
   <programme start="20261126055100 +0000" stop="20261126065100 +0000" channel="co#warner">
     <title lang="es">The Big Bang Theory</title>
@@ -82708,22 +82708,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_noticiero-win-noticias_l_m.jpg</image>
   </programme>
   <programme start="20261126070000 +0000" stop="20261126090000 +0000" channel="co#win-sports">
-    <title lang="es">Medio tiempo</title>
-    <title lang="en">Medio tiempo</title>
-    <category lang="es">Medio tiempo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_deportivo-medio-tiempo_l_m.jpg</image>
-  </programme>
-  <programme start="20261126070000 +0000" stop="20261126090000 +0000" channel="co#win-sports">
     <title lang="es">Santa Fe vs. Once Caldas</title>
     <title lang="en">Cuadrangulares</title>
     <category lang="es">Cuadrangulares</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-santa-fe-vs-once-caldas-cuadrangulares_l_m.jpg</image>
   </programme>
-  <programme start="20261126090000 +0000" stop="20261126110000 +0000" channel="co#win-sports">
-    <title lang="es">Saque largo</title>
-    <title lang="en">Saque largo</title>
-    <category lang="es">Saque largo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_futbol-saque-largo_l_m.jpg</image>
+  <programme start="20261126070000 +0000" stop="20261126090000 +0000" channel="co#win-sports">
+    <title lang="es">Medio tiempo</title>
+    <title lang="en">Medio tiempo</title>
+    <category lang="es">Medio tiempo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_deportivo-medio-tiempo_l_m.jpg</image>
   </programme>
   <programme start="20261126090000 +0000" stop="20261126100000 +0000" channel="co#win-sports">
     <title lang="es">Atl. Nacional vs. Ind. Medellín</title>
@@ -82731,23 +82725,29 @@
     <category lang="es">Cuadrangulares</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-atl-nacional-vs-ind-medellin-cuadrangulares-1_l_m.jpg</image>
   </programme>
+  <programme start="20261126090000 +0000" stop="20261126110000 +0000" channel="co#win-sports">
+    <title lang="es">Saque largo</title>
+    <title lang="en">Saque largo</title>
+    <category lang="es">Saque largo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_futbol-saque-largo_l_m.jpg</image>
+  </programme>
   <programme start="20261126100000 +0000" stop="20261126110000 +0000" channel="co#win-sports">
     <title lang="es">Atl. Nacional vs. Ind. Medellín</title>
     <title lang="en">Cuadrangulares</title>
     <category lang="es">Cuadrangulares</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-atl-nacional-vs-ind-medellin-cuadrangulares-1_l_m.jpg</image>
   </programme>
-  <programme start="20261126110000 +0000" stop="20261126113000 +0000" channel="co#win-sports">
-    <title lang="es">Santa Fe vs. Once Caldas</title>
-    <title lang="en">Cuadrangulares</title>
-    <category lang="es">Cuadrangulares</category>
-    <image>https://cdn.mitvstatic.com/programs/co_futbol-santa-fe-vs-once-caldas-cuadrangulares-1_l_m.jpg</image>
-  </programme>
   <programme start="20261126110000 +0000" stop="20261127010000 +0000" channel="co#win-sports">
     <title lang="es">Planeta fútbol</title>
     <title lang="en">Planeta fútbol</title>
     <category lang="es">Planeta fútbol</category>
     <image>https://cdn.mitvstatic.com/programs/co_magazine-planeta-futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20261126110000 +0000" stop="20261126113000 +0000" channel="co#win-sports">
+    <title lang="es">Santa Fe vs. Once Caldas</title>
+    <title lang="en">Cuadrangulares</title>
+    <category lang="es">Cuadrangulares</category>
+    <image>https://cdn.mitvstatic.com/programs/co_futbol-santa-fe-vs-once-caldas-cuadrangulares-1_l_m.jpg</image>
   </programme>
   <programme start="20261126113000 +0000" stop="20261127013000 +0000" channel="co#win-sports">
     <title lang="es">Santa Fe vs. Once Caldas</title>
@@ -83207,21 +83207,15 @@
     <image>https://cdn.mitvstatic.com/programs/co_ncc-climatico_l_m.jpg</image>
   </programme>
   <programme start="20261126063000 +0000" stop="20261126070000 +0000" channel="co#zoom">
-    <title lang="es">Viva la U</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_viva-la-u_l_m.jpg</image>
-  </programme>
-  <programme start="20261126063000 +0000" stop="20261126070000 +0000" channel="co#zoom">
     <title lang="es">Rodando caminos</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_rodando-caminos_l_m.jpg</image>
   </programme>
-  <programme start="20261126070000 +0000" stop="20261126080000 +0000" channel="co#zoom">
-    <title lang="es">El pupitre</title>
+  <programme start="20261126063000 +0000" stop="20261126070000 +0000" channel="co#zoom">
+    <title lang="es">Viva la U</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_el-pupitre_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_viva-la-u_l_m.jpg</image>
   </programme>
   <programme start="20261126070000 +0000" stop="20261126073000 +0000" channel="co#zoom">
     <title lang="es">NCC Salud</title>
@@ -83229,12 +83223,13 @@
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
   </programme>
-  <programme start="20261126073000 +0000" stop="20261126080000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  <programme start="20261126070000 +0000" stop="20261126080000 +0000" channel="co#zoom">
+    <title lang="es">El pupitre</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_el-pupitre_l_m.jpg</image>
   </programme>
-  <programme start="20261126080000 +0000" stop="20261126083000 +0000" channel="co#zoom">
+  <programme start="20261126073000 +0000" stop="20261126080000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
@@ -83244,16 +83239,15 @@
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_encuadre-iberoamericano_l_m.jpg</image>
   </programme>
+  <programme start="20261126080000 +0000" stop="20261126083000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
   <programme start="20261126083000 +0000" stop="20261126090000 +0000" channel="co#zoom">
     <title lang="es">Otra excursión a los indios Ranqueles</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_otra-excursion-a-los-indios-ranqueles_l_m.jpg</image>
-  </programme>
-  <programme start="20261126090000 +0000" stop="20261126093000 +0000" channel="co#zoom">
-    <title lang="es">Hablando claro con Clara</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_hablando-claro-con-clara_l_m.jpg</image>
   </programme>
   <programme start="20261126090000 +0000" stop="20261126093000 +0000" channel="co#zoom">
     <title lang="es">Yo soy juvenil TV</title>
@@ -83261,17 +83255,23 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_yo-soy-juvenil-tv_l_m.jpg</image>
   </programme>
-  <programme start="20261126093000 +0000" stop="20261126100000 +0000" channel="co#zoom">
-    <title lang="es">Educación y desarrollo sostenible</title>
+  <programme start="20261126090000 +0000" stop="20261126093000 +0000" channel="co#zoom">
+    <title lang="es">Hablando claro con Clara</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_educacion-y-desarrollo-sostenible_l_m.jpg</image>
+    <image>https://cdn.mitvstatic.com/programs/co_hablando-claro-con-clara_l_m.jpg</image>
   </programme>
   <programme start="20261126093000 +0000" stop="20261126103000 +0000" channel="co#zoom">
     <title lang="es">Fútbol entre líneas</title>
     <title lang="en">Fútbol entre líneas</title>
     <category lang="es">Fútbol entre líneas</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-futbol-entre-lineas_l_m.jpg</image>
+  </programme>
+  <programme start="20261126093000 +0000" stop="20261126100000 +0000" channel="co#zoom">
+    <title lang="es">Educación y desarrollo sostenible</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_educacion-y-desarrollo-sostenible_l_m.jpg</image>
   </programme>
   <programme start="20261126100000 +0000" stop="20261126101500 +0000" channel="co#zoom">
     <title lang="es">Cortos</title>
@@ -83286,22 +83286,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_accion_l_m.jpg</image>
   </programme>
   <programme start="20261126103000 +0000" stop="20261126110000 +0000" channel="co#zoom">
-    <title lang="es">¡Escápate!</title>
-    <title lang="en">Turismo</title>
-    <category lang="es">Turismo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_escapate-1_l_m.jpg</image>
-  </programme>
-  <programme start="20261126103000 +0000" stop="20261126110000 +0000" channel="co#zoom">
     <title lang="es">Viva la U</title>
     <title lang="en">Interés general</title>
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_viva-la-u_l_m.jpg</image>
   </programme>
-  <programme start="20261126110000 +0000" stop="20261126113000 +0000" channel="co#zoom">
-    <title lang="es">NCC</title>
-    <title lang="en">Noticiero</title>
-    <category lang="es">Noticiero</category>
-    <image>https://cdn.mitvstatic.com/programs/co_ncc_l_m.jpg</image>
+  <programme start="20261126103000 +0000" stop="20261126110000 +0000" channel="co#zoom">
+    <title lang="es">¡Escápate!</title>
+    <title lang="en">Turismo</title>
+    <category lang="es">Turismo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_escapate-1_l_m.jpg</image>
   </programme>
   <programme start="20261126110000 +0000" stop="20261126120000 +0000" channel="co#zoom">
     <title lang="es">El pupitre</title>
@@ -83309,21 +83303,27 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_el-pupitre_l_m.jpg</image>
   </programme>
+  <programme start="20261126110000 +0000" stop="20261126113000 +0000" channel="co#zoom">
+    <title lang="es">NCC</title>
+    <title lang="en">Noticiero</title>
+    <category lang="es">Noticiero</category>
+    <image>https://cdn.mitvstatic.com/programs/co_ncc_l_m.jpg</image>
+  </programme>
   <programme start="20261126113000 +0000" stop="20261126120000 +0000" channel="co#zoom">
     <title lang="es">Eco Latinoamérica</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_eco-latinoamerica_l_m.jpg</image>
   </programme>
-  <programme start="20261126120000 +0000" stop="20261126124500 +0000" channel="co#zoom">
-    <title lang="es">Hablemos de cine</title>
-    <category lang="es">Cine</category>
-    <image>https://cdn.mitvstatic.com/programs/co_hablemos-de-cine_l_m.jpg</image>
-  </programme>
   <programme start="20261126120000 +0000" stop="20261126123000 +0000" channel="co#zoom">
     <title lang="es">Documental</title>
     <category lang="es">Documental</category>
     <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
+  </programme>
+  <programme start="20261126120000 +0000" stop="20261126124500 +0000" channel="co#zoom">
+    <title lang="es">Hablemos de cine</title>
+    <category lang="es">Cine</category>
+    <image>https://cdn.mitvstatic.com/programs/co_hablemos-de-cine_l_m.jpg</image>
   </programme>
   <programme start="20261126123000 +0000" stop="20261127010000 +0000" channel="co#zoom">
     <title lang="es">Otra excursión a los indios Ranqueles</title>
@@ -83337,22 +83337,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_territorios-comunes_l_m.jpg</image>
   </programme>
   <programme start="20261127010000 +0000" stop="20261127013000 +0000" channel="co#zoom">
-    <title lang="es">La lista de Erick</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/co_la-lista-de-erick_l_m.jpg</image>
-  </programme>
-  <programme start="20261127010000 +0000" stop="20261127013000 +0000" channel="co#zoom">
     <title lang="es">NCC Salud</title>
     <title lang="en">Salud</title>
     <category lang="es">Salud</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-salud_l_m.jpg</image>
   </programme>
-  <programme start="20261127013000 +0000" stop="20261127014500 +0000" channel="co#zoom">
-    <title lang="es">Sazón Es</title>
-    <title lang="en">Interés general</title>
-    <category lang="es">Interés general</category>
-    <image>https://cdn.mitvstatic.com/programs/co_sazon-es_l_m.jpg</image>
+  <programme start="20261127010000 +0000" stop="20261127013000 +0000" channel="co#zoom">
+    <title lang="es">La lista de Erick</title>
+    <title lang="en">Magazine</title>
+    <category lang="es">Magazine</category>
+    <image>https://cdn.mitvstatic.com/programs/co_la-lista-de-erick_l_m.jpg</image>
   </programme>
   <programme start="20261127013000 +0000" stop="20261127014500 +0000" channel="co#zoom">
     <title lang="es">JC informa</title>
@@ -83360,11 +83354,11 @@
     <category lang="es">Interés general</category>
     <image>https://cdn.mitvstatic.com/programs/co_jc-informa_l_m.jpg</image>
   </programme>
-  <programme start="20261127014500 +0000" stop="20261127015000 +0000" channel="co#zoom">
-    <title lang="es">Huertas a la carta</title>
-    <title lang="en">Variedades</title>
-    <category lang="es">Variedades</category>
-    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  <programme start="20261127013000 +0000" stop="20261127014500 +0000" channel="co#zoom">
+    <title lang="es">Sazón Es</title>
+    <title lang="en">Interés general</title>
+    <category lang="es">Interés general</category>
+    <image>https://cdn.mitvstatic.com/programs/co_sazon-es_l_m.jpg</image>
   </programme>
   <programme start="20261127014500 +0000" stop="20261127020000 +0000" channel="co#zoom">
     <title lang="es">Gatipedia</title>
@@ -83372,22 +83366,28 @@
     <category lang="es">Educativo</category>
     <image>https://cdn.mitvstatic.com/programs/co_gatipedia_l_m.jpg</image>
   </programme>
+  <programme start="20261127014500 +0000" stop="20261127015000 +0000" channel="co#zoom">
+    <title lang="es">Huertas a la carta</title>
+    <title lang="en">Variedades</title>
+    <category lang="es">Variedades</category>
+    <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
+  </programme>
   <programme start="20261127015000 +0000" stop="20261127020000 +0000" channel="co#zoom">
     <title lang="es">Autores materiales</title>
     <title lang="en">Cultural</title>
     <category lang="es">Cultural</category>
     <image>https://cdn.mitvstatic.com/programs/co_autores-materiales_l_m.jpg</image>
   </programme>
-  <programme start="20261127020000 +0000" stop="20261127030000 +0000" channel="co#zoom">
-    <title lang="es">Amazonia, arqueología de la selva</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_amazonia-arqueologia-de-la-selva_l_m.jpg</image>
-  </programme>
   <programme start="20261127020000 +0000" stop="20261127023000 +0000" channel="co#zoom">
     <title lang="es">NCC</title>
     <title lang="en">Noticiero</title>
     <category lang="es">Noticiero</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc_l_m.jpg</image>
+  </programme>
+  <programme start="20261127020000 +0000" stop="20261127030000 +0000" channel="co#zoom">
+    <title lang="es">Amazonia, arqueología de la selva</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_amazonia-arqueologia-de-la-selva_l_m.jpg</image>
   </programme>
   <programme start="20261127023000 +0000" stop="20261127033000 +0000" channel="co#zoom">
     <title lang="es">Signos vitales</title>
@@ -83407,16 +83407,16 @@
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/fallback_other_l_m.jpg</image>
   </programme>
-  <programme start="20261127040000 +0000" stop="20261127050000 +0000" channel="co#zoom">
-    <title lang="es">Documental</title>
-    <category lang="es">Documental</category>
-    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
-  </programme>
   <programme start="20261127040000 +0000" stop="20261127043000 +0000" channel="co#zoom">
     <title lang="es">Global Es</title>
     <title lang="en">Magazine</title>
     <category lang="es">Magazine</category>
     <image>https://cdn.mitvstatic.com/programs/co_global-es_l_m.jpg</image>
+  </programme>
+  <programme start="20261127040000 +0000" stop="20261127050000 +0000" channel="co#zoom">
+    <title lang="es">Documental</title>
+    <category lang="es">Documental</category>
+    <image>https://cdn.mitvstatic.com/programs/co_documental_l_m.jpg</image>
   </programme>
   <programme start="20261127043000 +0000" stop="20261127050000 +0000" channel="co#zoom">
     <title lang="es">Fuerza latina</title>
@@ -83424,28 +83424,28 @@
     <image>https://cdn.mitvstatic.com/programs/co_fuerza-latina_l_m.jpg</image>
   </programme>
   <programme start="20261127050000 +0000" stop="20261127053000 +0000" channel="co#zoom">
-    <title lang="es">Entrevista RT</title>
-    <title lang="en">Entrevista</title>
-    <category lang="es">Entrevista</category>
-    <image>https://cdn.mitvstatic.com/programs/co_entrevista-rt_l_m.jpg</image>
-  </programme>
-  <programme start="20261127050000 +0000" stop="20261127053000 +0000" channel="co#zoom">
     <title lang="es">NCC Climático</title>
     <title lang="en">Clima</title>
     <category lang="es">Clima</category>
     <image>https://cdn.mitvstatic.com/programs/co_ncc-climatico_l_m.jpg</image>
   </programme>
-  <programme start="20261127053000 +0000" stop="20261127063000 +0000" channel="co#zoom">
-    <title lang="es">Euromaxx</title>
-    <title lang="en">Magazine</title>
-    <category lang="es">Magazine</category>
-    <image>https://cdn.mitvstatic.com/programs/co_euromaxx_l_m.jpg</image>
+  <programme start="20261127050000 +0000" stop="20261127053000 +0000" channel="co#zoom">
+    <title lang="es">Entrevista RT</title>
+    <title lang="en">Entrevista</title>
+    <category lang="es">Entrevista</category>
+    <image>https://cdn.mitvstatic.com/programs/co_entrevista-rt_l_m.jpg</image>
   </programme>
   <programme start="20261127053000 +0000" stop="20261127063000 +0000" channel="co#zoom">
     <title lang="es">Fútbol entre líneas</title>
     <title lang="en">Fútbol entre líneas</title>
     <category lang="es">Fútbol entre líneas</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-futbol-entre-lineas_l_m.jpg</image>
+  </programme>
+  <programme start="20261127053000 +0000" stop="20261127063000 +0000" channel="co#zoom">
+    <title lang="es">Euromaxx</title>
+    <title lang="en">Magazine</title>
+    <category lang="es">Magazine</category>
+    <image>https://cdn.mitvstatic.com/programs/co_euromaxx_l_m.jpg</image>
   </programme>
   <programme start="20261127063000 +0000" stop="20261127070000 +0000" channel="co#zoom">
     <title lang="es">Entrevista RT</title>
@@ -86395,7 +86395,7 @@
     <episode-num system="onscreen">S09E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t09e06-el-tesoro-del-mar_l_m.jpg</image>
   </programme>
-  <programme start="20261124110000 +0000" stop="20261124112500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124110000 +0000" stop="20261124112600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">¡No te rindas Wat! / Despeja tu mente / La paradoja del ukelele / El rock de mis sueños / Y...</sub-title>
     <category lang="es">Serie</category>
@@ -86403,7 +86403,7 @@
     <episode-num system="onscreen">S03E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e02-fuz-el-rebelde_l_m.jpg</image>
   </programme>
-  <programme start="20261124112500 +0000" stop="20261124113800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124112600 +0000" stop="20261124113900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">¿Dónde se inventó la pasta?</sub-title>
     <category lang="es">Serie</category>
@@ -86411,7 +86411,7 @@
     <episode-num system="onscreen">S08E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_el-mundo-de-luna-t08e23-donde-se-invento-la-pasta_l_m.jpg</image>
   </programme>
-  <programme start="20261124113800 +0000" stop="20261124120000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124113900 +0000" stop="20261124120100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Jorge, el curioso</title>
     <sub-title lang="es">El delfín del sombrero amarillo / El día de descanso del perro</sub-title>
     <category lang="es">Serie</category>
@@ -86419,7 +86419,7 @@
     <episode-num system="onscreen">S14E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_jorge-el-curioso-t14e07-el-delfin-del-sombrero-amarillo-el-dia-de-descanso-del-perro_l_m.jpg</image>
   </programme>
-  <programme start="20261124120000 +0000" stop="20261124121300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124120100 +0000" stop="20261124121400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Reacciones en cadena</sub-title>
     <category lang="es">Serie</category>
@@ -86427,7 +86427,7 @@
     <episode-num system="onscreen">S01E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_bubble-s-hotel-t01e16-reacciones-en-cadena_l_m.jpg</image>
   </programme>
-  <programme start="20261124121300 +0000" stop="20261124122500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124121400 +0000" stop="20261124122600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">¡Por fin 10!</sub-title>
     <category lang="es">Serie</category>
@@ -86435,7 +86435,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e01-por-fin-10_l_m.jpg</image>
   </programme>
-  <programme start="20261124122500 +0000" stop="20261124123900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124122600 +0000" stop="20261124123900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">¡Burrogón a la vista!</sub-title>
     <category lang="es">Serie</category>
@@ -86451,7 +86451,7 @@
     <episode-num system="onscreen">S05E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_polly-pocket-t05e15-hadas-acuaticas_l_m.jpg</image>
   </programme>
-  <programme start="20261124125000 +0000" stop="20261125010100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261124125000 +0000" stop="20261125010200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">¿Dónde está el bonsái?</sub-title>
     <category lang="es">Serie</category>
@@ -86459,7 +86459,7 @@
     <episode-num system="onscreen">S02E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t02e19-donde-esta-el-bonsai_l_m.jpg</image>
   </programme>
-  <programme start="20261125010100 +0000" stop="20261125012500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125010200 +0000" stop="20261125012600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">Grimoria vuelve</sub-title>
     <category lang="es">Serie</category>
@@ -86467,7 +86467,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t02e10-grimoria-vuelve_l_m.jpg</image>
   </programme>
-  <programme start="20261125012500 +0000" stop="20261125014800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125012600 +0000" stop="20261125015100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La Abuela Oveja se muda</sub-title>
     <category lang="es">Serie</category>
@@ -86475,7 +86475,7 @@
     <episode-num system="onscreen">S10E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e05-la-abuela-oveja-se-muda_l_m.jpg</image>
   </programme>
-  <programme start="20261125014800 +0000" stop="20261125021400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125015100 +0000" stop="20261125021400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">The Castle / Parachute Jump / Gerald Giraffe / Ms Rabbit&apos;s Taxi / Playing Pretend</sub-title>
     <category lang="es">Serie</category>
@@ -86491,7 +86491,7 @@
     <episode-num system="onscreen">S11E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e17-cuidando-al-abuelo-cerdito_l_m.jpg</image>
   </programme>
-  <programme start="20261125021900 +0000" stop="20261125023100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125021900 +0000" stop="20261125023200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">Gordon el fantasma</sub-title>
     <category lang="es">Serie</category>
@@ -86499,7 +86499,7 @@
     <episode-num system="onscreen">S01E23</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_talking-tom-heroes-los-superpoderosos-t01e23-gordon-the-ghost_l_m.jpg</image>
   </programme>
-  <programme start="20261125023100 +0000" stop="20261125024400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125023200 +0000" stop="20261125024400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">Tras los orbes</sub-title>
     <category lang="es">Serie</category>
@@ -86531,7 +86531,7 @@
     <episode-num system="onscreen">S01E32</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t01e32-la-fiesta-del-te_l_m.jpg</image>
   </programme>
-  <programme start="20261125033000 +0000" stop="20261125034400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125033000 +0000" stop="20261125034300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">Los ojos del bosque</sub-title>
     <category lang="es">Serie</category>
@@ -86539,7 +86539,7 @@
     <episode-num system="onscreen">S09E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_el-mundo-de-luna-t09e07-los-ojos-del-bosque_l_m.jpg</image>
   </programme>
-  <programme start="20261125034400 +0000" stop="20261125035600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125034300 +0000" stop="20261125035500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">¡Por fin 10!</sub-title>
     <category lang="es">Serie</category>
@@ -86547,7 +86547,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e01-por-fin-10_l_m.jpg</image>
   </programme>
-  <programme start="20261125035600 +0000" stop="20261125040800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125035500 +0000" stop="20261125040600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">¡Burrogón a la vista!</sub-title>
     <category lang="es">Serie</category>
@@ -86555,7 +86555,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e02-burrogon-a-la-vista_l_m.jpg</image>
   </programme>
-  <programme start="20261125040800 +0000" stop="20261125042100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125040600 +0000" stop="20261125041900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">Sendero de regalos</sub-title>
     <category lang="es">Serie</category>
@@ -86563,7 +86563,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e03-sendero-de-regalos_l_m.jpg</image>
   </programme>
-  <programme start="20261125042100 +0000" stop="20261125043500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125041900 +0000" stop="20261125043300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">Simón dice: &quot;relájense&quot;</sub-title>
     <category lang="es">Serie</category>
@@ -86571,7 +86571,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e04-simon-dice-relajense_l_m.jpg</image>
   </programme>
-  <programme start="20261125043500 +0000" stop="20261125044000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125043300 +0000" stop="20261125043800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Carrera de patos</sub-title>
     <category lang="es">Serie</category>
@@ -86579,7 +86579,7 @@
     <episode-num system="onscreen">S11E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e20-carrera-de-patos_l_m.jpg</image>
   </programme>
-  <programme start="20261125044000 +0000" stop="20261125050300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125043800 +0000" stop="20261125050100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Cajas de cartón</sub-title>
     <category lang="es">Serie</category>
@@ -86587,7 +86587,7 @@
     <episode-num system="onscreen">S10E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e06-cajas-de-carton_l_m.jpg</image>
   </programme>
-  <programme start="20261125050300 +0000" stop="20261125052700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125050100 +0000" stop="20261125052600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El tesoro pirata / La luna y las estrellas / El circo de Peppa / El estanque / Cuando eras chiq</sub-title>
     <category lang="es">Serie</category>
@@ -86595,7 +86595,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t01e05-el-cumpleanos-de-mama-se-me-cayo-un-diente-el-auto-de-papa-el-tesoro-escondido-no-me-siento_l_m.jpg</image>
   </programme>
-  <programme start="20261125052700 +0000" stop="20261125055100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125052600 +0000" stop="20261125054900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Jorge, el curioso</title>
     <sub-title lang="es">El delfín del sombrero amarillo / El día de descanso del perro</sub-title>
     <category lang="es">Serie</category>
@@ -86603,7 +86603,7 @@
     <episode-num system="onscreen">S14E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_jorge-el-curioso-t14e07-el-delfin-del-sombrero-amarillo-el-dia-de-descanso-del-perro_l_m.jpg</image>
   </programme>
-  <programme start="20261125055100 +0000" stop="20261125061300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125054900 +0000" stop="20261125061100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Magia de sirenas</title>
     <sub-title lang="es">Peligro en el centro de rescate</sub-title>
     <category lang="es">Serie</category>
@@ -86611,15 +86611,15 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_magia-de-sirenas-t01e06_l_m.jpg</image>
   </programme>
-  <programme start="20261125055300 +0000" stop="20261125061700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125055100 +0000" stop="20261125061500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">El día de las profesiones / Conga refrescante / El regreso de Babythoven / Atrapados en una</sub-title>
+    <sub-title lang="es">El poder de Myo / Percusión dental / Bring it on! / En sus marcas... listos... ¡fuera! / La h...</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.8.0/1</episode-num>
     <episode-num system="onscreen">S03E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e09-el-rock-de-mis-suenos_l_m.jpg</image>
   </programme>
-  <programme start="20261125061300 +0000" stop="20261125063600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125061100 +0000" stop="20261125063400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">Código Trampa</sub-title>
     <category lang="es">Serie</category>
@@ -86627,7 +86627,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_lego-dreamzzz-t01e07-codigo-trampa_l_m.jpg</image>
   </programme>
-  <programme start="20261125061700 +0000" stop="20261125062200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125061500 +0000" stop="20261125062000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Las niñelimpíadas</sub-title>
     <category lang="es">Serie</category>
@@ -86635,7 +86635,7 @@
     <episode-num system="onscreen">S04E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t04e40-las-ninelimpiadas_l_m.jpg</image>
   </programme>
-  <programme start="20261125062200 +0000" stop="20261125063400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125062000 +0000" stop="20261125063300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Sam juega con el tiempo</sub-title>
     <category lang="es">Serie</category>
@@ -86643,7 +86643,7 @@
     <episode-num system="onscreen">S01E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_heroes-y-hermanos-t01e31-sam-juega-con-el-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20261125063400 +0000" stop="20261125064700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125063300 +0000" stop="20261125064500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">A volar</sub-title>
     <category lang="es">Serie</category>
@@ -86651,7 +86651,7 @@
     <episode-num system="onscreen">S01E32</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_heroes-y-hermanos-t01e32-a-volar_l_m.jpg</image>
   </programme>
-  <programme start="20261125063600 +0000" stop="20261125070000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125063400 +0000" stop="20261125065800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">Espías niñeras</sub-title>
     <category lang="es">Serie</category>
@@ -86659,7 +86659,7 @@
     <episode-num system="onscreen">S07E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_tres-espias-sin-limite-t07e20-espias-nineras_l_m.jpg</image>
   </programme>
-  <programme start="20261125064700 +0000" stop="20261125065800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125064500 +0000" stop="20261125065600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Héroes y hermanos</title>
     <sub-title lang="es">Frankensam</sub-title>
     <category lang="es">Serie</category>
@@ -86667,7 +86667,7 @@
     <episode-num system="onscreen">S01E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_heroes-y-hermanos-t01e22-un-filtro-hermoso_l_m.jpg</image>
   </programme>
-  <programme start="20261125065800 +0000" stop="20261125070900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125065600 +0000" stop="20261125070700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">El lugar más feliz del mundo</sub-title>
     <category lang="es">Serie</category>
@@ -86675,7 +86675,7 @@
     <episode-num system="onscreen">S01E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_ba-da-bean-t01e31-el-lugar-mas-feliz-del-mundo_l_m.jpg</image>
   </programme>
-  <programme start="20261125070000 +0000" stop="20261125072400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125065800 +0000" stop="20261125072300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El bote salvavidas / La canasta de la suerte / Gelatina / George aprende a ir al baño</sub-title>
     <category lang="es">Serie</category>
@@ -86683,7 +86683,7 @@
     <episode-num system="onscreen">S09E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t09e04-hollywood_l_m.jpg</image>
   </programme>
-  <programme start="20261125070900 +0000" stop="20261125072000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125070700 +0000" stop="20261125071800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">Sequía de rojo</sub-title>
     <category lang="es">Serie</category>
@@ -86691,7 +86691,7 @@
     <episode-num system="onscreen">S01E32</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_ba-da-bean-t01e32-sequia-de-rojo_l_m.jpg</image>
   </programme>
-  <programme start="20261125072000 +0000" stop="20261125073200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125071800 +0000" stop="20261125073100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Ba da Bean</title>
     <sub-title lang="es">Los dobleces de Kami</sub-title>
     <category lang="es">Serie</category>
@@ -86699,7 +86699,7 @@
     <episode-num system="onscreen">S01E33</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_ba-da-bean-t01e33-los-dobleces-de-kami_l_m.jpg</image>
   </programme>
-  <programme start="20261125072400 +0000" stop="20261125074900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125072300 +0000" stop="20261125074800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La oficina de Peppa</sub-title>
     <category lang="es">Serie</category>
@@ -86707,7 +86707,7 @@
     <episode-num system="onscreen">S10E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e09-la-oficina-de-peppa_l_m.jpg</image>
   </programme>
-  <programme start="20261125073200 +0000" stop="20261125074600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125073100 +0000" stop="20261125074400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">El arcade - Parte 2</sub-title>
     <category lang="es">Serie</category>
@@ -86715,7 +86715,7 @@
     <episode-num system="onscreen">S01E44</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_underdogs-united-t01e44-el-arcade-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20261125074600 +0000" stop="20261125075800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125074400 +0000" stop="20261125075700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">¿Dónde está Beto?</sub-title>
     <category lang="es">Serie</category>
@@ -86723,7 +86723,7 @@
     <episode-num system="onscreen">S01E45</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_underdogs-united-t01e45-donde-esta-beto_l_m.jpg</image>
   </programme>
-  <programme start="20261125074900 +0000" stop="20261125075400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125074800 +0000" stop="20261125075300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Un minigigante</sub-title>
     <category lang="es">Serie</category>
@@ -86731,7 +86731,7 @@
     <episode-num system="onscreen">S05E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t05e13-un-minigigante_l_m.jpg</image>
   </programme>
-  <programme start="20261125075400 +0000" stop="20261125075900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125075300 +0000" stop="20261125075700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Palabras mágicas</sub-title>
     <category lang="es">Serie</category>
@@ -86739,7 +86739,7 @@
     <episode-num system="onscreen">S03E33</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e33-palabras-magicas_l_m.jpg</image>
   </programme>
-  <programme start="20261125075800 +0000" stop="20261125080900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125075700 +0000" stop="20261125080800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Underdogs United</title>
     <sub-title lang="es">El Superclásico</sub-title>
     <category lang="es">Serie</category>
@@ -86747,7 +86747,7 @@
     <episode-num system="onscreen">S01E46</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_underdogs-united-t01e46-el-superclasico_l_m.jpg</image>
   </programme>
-  <programme start="20261125075900 +0000" stop="20261125080400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125075700 +0000" stop="20261125080200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Mi estación favorita</sub-title>
     <category lang="es">Serie</category>
@@ -86755,7 +86755,7 @@
     <episode-num system="onscreen">S03E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e34-mi-estacion-favorita_l_m.jpg</image>
   </programme>
-  <programme start="20261125080400 +0000" stop="20261125081600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125080200 +0000" stop="20261125081500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">Los movimientos correctos</sub-title>
     <category lang="es">Serie</category>
@@ -86763,7 +86763,7 @@
     <episode-num system="onscreen">S01E41</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_talking-tom-heroes-los-superpoderosos-t01e41-los-movimientos-correctos_l_m.jpg</image>
   </programme>
-  <programme start="20261125080900 +0000" stop="20261125083400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125080800 +0000" stop="20261125083400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Regalo misterioso / El pasito de Wat / Espionaje en la guardería / Día del Legado / Mundo A</sub-title>
     <category lang="es">Serie</category>
@@ -86771,7 +86771,7 @@
     <episode-num system="onscreen">S03E19</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e19-melodia-inolvidable_l_m.jpg</image>
   </programme>
-  <programme start="20261125081600 +0000" stop="20261125083000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125081500 +0000" stop="20261125082800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mojo Swoptops</title>
     <sub-title lang="es">Queso a todo dar</sub-title>
     <category lang="es">Serie</category>
@@ -86779,7 +86779,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mojo-swoptops-t01e04-queso-a-todo-dar_l_m.jpg</image>
   </programme>
-  <programme start="20261125083000 +0000" stop="20261125084200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125082800 +0000" stop="20261125083900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Zuk, la brujita</title>
     <sub-title lang="es">La nueva amiga</sub-title>
     <category lang="es">Serie</category>
@@ -86795,7 +86795,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t01e04-a-dormir_l_m.jpg</image>
   </programme>
-  <programme start="20261125084200 +0000" stop="20261125090400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125083900 +0000" stop="20261125090000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Winx Club: Vuelve la magia</title>
     <sub-title lang="es">Bloom oscura</sub-title>
     <category lang="es">Serie</category>
@@ -86803,7 +86803,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_winx-club-vuelve-la-magia-t01e07-bloom-oscura_l_m.jpg</image>
   </programme>
-  <programme start="20261125090000 +0000" stop="20261125092200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125090000 +0000" stop="20261125092400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">Rompecabezas / Mal olor</sub-title>
     <category lang="es">Serie</category>
@@ -86811,7 +86811,7 @@
     <episode-num system="onscreen">S01E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_agente-binky-al-rescate-t01e20-rompecabezas-mal-olor_l_m.jpg</image>
   </programme>
-  <programme start="20261125090400 +0000" stop="20261125091600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125090000 +0000" stop="20261125091300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">Viaje a Marte</sub-title>
     <category lang="es">Serie</category>
@@ -86819,7 +86819,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t01e03-viaje-a-marte_l_m.jpg</image>
   </programme>
-  <programme start="20261125091600 +0000" stop="20261125094100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125091300 +0000" stop="20261125093800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El día romano / Avistamiento de aves / Peppa en el cine / El juego de pelota / El tesoro enterrado</sub-title>
     <category lang="es">Serie</category>
@@ -86827,7 +86827,7 @@
     <episode-num system="onscreen">S08E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t08e05-la-flauta-dulce_l_m.jpg</image>
   </programme>
-  <programme start="20261125092200 +0000" stop="20261125094500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125092400 +0000" stop="20261125094700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">¡Agente Binky al rescate!</title>
     <sub-title lang="es">Día del perro / Congelado</sub-title>
     <category lang="es">Serie</category>
@@ -86835,7 +86835,7 @@
     <episode-num system="onscreen">S01E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_agente-binky-al-rescate-t01e21-dia-del-perro-congelado_l_m.jpg</image>
   </programme>
-  <programme start="20261125094100 +0000" stop="20261125100400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125093800 +0000" stop="20261125100100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Comida para llevar en la casa club</sub-title>
     <category lang="es">Serie</category>
@@ -86843,7 +86843,7 @@
     <episode-num system="onscreen">S10E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e07-comida-para-llevar_l_m.jpg</image>
   </programme>
-  <programme start="20261125094500 +0000" stop="20261125101100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125094700 +0000" stop="20261125101000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El invernadero / El velero / Máscaras / Mollytop / George y el patio de juegos</sub-title>
     <category lang="es">Serie</category>
@@ -86851,7 +86851,7 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t00e06-biggest-muddy-puddle-in-the-world-doctor-hamster-s-tortoise-the-miss-rabbit_l_m.jpg</image>
   </programme>
-  <programme start="20261125100400 +0000" stop="20261125102800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125100100 +0000" stop="20261125102600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Juegos en el jardín / A navegar / La tetera del señor Toribio / Fruta / El globo de George</sub-title>
     <category lang="es">Serie</category>
@@ -86859,7 +86859,7 @@
     <episode-num system="onscreen">S06E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t06e04-juegos-en-el-jardin-a-navegar-la-tetera-del-senor-toribio-fruta-el-globo-de-george_l_m.jpg</image>
   </programme>
-  <programme start="20261125101100 +0000" stop="20261125103500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125101000 +0000" stop="20261125103500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Aviones de papel /La ropa nueva de George / Casa de Madame Gazelle / Viaje en tren</sub-title>
     <category lang="es">Serie</category>
@@ -86867,7 +86867,7 @@
     <episode-num system="onscreen">S07E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t07e10-ciencia-facil_l_m.jpg</image>
   </programme>
-  <programme start="20261125102800 +0000" stop="20261125105300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125102600 +0000" stop="20261125105100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El bote salvavidas / La canasta de la suerte / Gelatina / George aprende a ir al baño</sub-title>
     <category lang="es">Serie</category>
@@ -86883,7 +86883,7 @@
     <episode-num system="onscreen">S09E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t09e07-monito-esta-enfermo_l_m.jpg</image>
   </programme>
-  <programme start="20261125105300 +0000" stop="20261125105800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125105100 +0000" stop="20261125105600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">¡Despierta, Carlos!</sub-title>
     <category lang="es">Serie</category>
@@ -86891,7 +86891,7 @@
     <episode-num system="onscreen">S04E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t04e20-despierta-carlos_l_m.jpg</image>
   </programme>
-  <programme start="20261125105800 +0000" stop="20261125110300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125105600 +0000" stop="20261125110100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">El tambor parlante</sub-title>
     <category lang="es">Serie</category>
@@ -86899,7 +86899,7 @@
     <episode-num system="onscreen">S04E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t04e31-el-tambor-parlante_l_m.jpg</image>
   </programme>
-  <programme start="20261125110000 +0000" stop="20261125112500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125110000 +0000" stop="20261125112600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">La nube / Una cucharada de metal / Armonía entre hermanos / Una visión rockera / Pinta tu mú...</sub-title>
     <category lang="es">Serie</category>
@@ -86907,7 +86907,7 @@
     <episode-num system="onscreen">S03E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e03-jugosa-limonada_l_m.jpg</image>
   </programme>
-  <programme start="20261125110300 +0000" stop="20261125112800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125110100 +0000" stop="20261125112600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Por la izquierda / Cumpleaños virtual / El rey Carlos / Hipo y Scat / El pulgar de Baby Div...</sub-title>
     <category lang="es">Serie</category>
@@ -86915,7 +86915,7 @@
     <episode-num system="onscreen">S03E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e10-yo-puedo-hacerlo_l_m.jpg</image>
   </programme>
-  <programme start="20261125112500 +0000" stop="20261125113800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125112600 +0000" stop="20261125113800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">¡Superpoderosos!</sub-title>
     <category lang="es">Serie</category>
@@ -86923,7 +86923,7 @@
     <episode-num system="onscreen">S08E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_el-mundo-de-luna-t08e24-superpoderosos_l_m.jpg</image>
   </programme>
-  <programme start="20261125112800 +0000" stop="20261125115200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125112600 +0000" stop="20261125114900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">La anomalía</sub-title>
     <category lang="es">Serie</category>
@@ -86939,7 +86939,7 @@
     <episode-num system="onscreen">S14E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_jorge-el-curioso-t14e08-como-tratar-a-una-mula-jorge-el-mesero_l_m.jpg</image>
   </programme>
-  <programme start="20261125115200 +0000" stop="20261125121400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125114900 +0000" stop="20261125121100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Shasha y Milo</title>
     <sub-title lang="es">La curiosidad de los gatos</sub-title>
     <category lang="es">Serie</category>
@@ -86947,7 +86947,7 @@
     <episode-num system="onscreen">S01E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_shasha-y-milo-t01e01-la-curiosidad-de-los-gatos_l_m.jpg</image>
   </programme>
-  <programme start="20261125120000 +0000" stop="20261125121300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125120000 +0000" stop="20261125121400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Bubble&apos;s Hotel</title>
     <sub-title lang="es">Día de nieve</sub-title>
     <category lang="es">Serie</category>
@@ -86955,15 +86955,7 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_bubble-s-hotel-t01e17-dia-de-nieve_l_m.jpg</image>
   </programme>
-  <programme start="20261125121300 +0000" stop="20261125122500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Super Wish</title>
-    <sub-title lang="es">Sendero de regalos</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
-    <episode-num system="onscreen">S01E03</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e03-sendero-de-regalos_l_m.jpg</image>
-  </programme>
-  <programme start="20261125121400 +0000" stop="20261125122700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125121100 +0000" stop="20261125122400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mojo Swoptops</title>
     <sub-title lang="es">Mojo rockea</sub-title>
     <category lang="es">Serie</category>
@@ -86971,15 +86963,15 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mojo-swoptops-t01e02_l_m.jpg</image>
   </programme>
-  <programme start="20261125122500 +0000" stop="20261125123900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125121400 +0000" stop="20261125122600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
-    <sub-title lang="es">Simón dice: &quot;relájense&quot;</sub-title>
+    <sub-title lang="es">Sendero de regalos</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
-    <episode-num system="onscreen">S01E04</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e04-simon-dice-relajense_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.2.0/1</episode-num>
+    <episode-num system="onscreen">S01E03</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e03-sendero-de-regalos_l_m.jpg</image>
   </programme>
-  <programme start="20261125122700 +0000" stop="20261125123800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125122400 +0000" stop="20261125123500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Zuk, la brujita</title>
     <sub-title lang="es">1,2,3 Merlín</sub-title>
     <category lang="es">Serie</category>
@@ -86987,7 +86979,15 @@
     <episode-num system="onscreen">S01E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_zuk-la-brujita-t01e17-1-2-3-merlin_l_m.jpg</image>
   </programme>
-  <programme start="20261125123800 +0000" stop="20261126010300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261125122600 +0000" stop="20261125123900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Super Wish</title>
+    <sub-title lang="es">Simón dice: &quot;relájense&quot;</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <episode-num system="onscreen">S01E04</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e04-simon-dice-relajense_l_m.jpg</image>
+  </programme>
+  <programme start="20261125123500 +0000" stop="20261126010000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Academia Unicornio</title>
     <sub-title lang="es">El grupo incorrecto</sub-title>
     <category lang="es">Serie</category>
@@ -87011,15 +87011,7 @@
     <episode-num system="onscreen">S02E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t02e20-el-mapa-del-tesoro_l_m.jpg</image>
   </programme>
-  <programme start="20261126010100 +0000" stop="20261126012500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Academia Unicornio</title>
-    <sub-title lang="es">El templo oculto</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
-    <episode-num system="onscreen">S01E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t01e02-el-templo-oculto_l_m.jpg</image>
-  </programme>
-  <programme start="20261126010300 +0000" stop="20261126012600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126010000 +0000" stop="20261126012300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">Un mundo de queso</sub-title>
     <category lang="es">Serie</category>
@@ -87027,15 +87019,15 @@
     <episode-num system="onscreen">S08E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_tres-espias-sin-limite-t08e07-un-mundo-de-queso_l_m.jpg</image>
   </programme>
-  <programme start="20261126012500 +0000" stop="20261126014800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Peppa Pig</title>
-    <sub-title lang="es">Cajas de cartón</sub-title>
+  <programme start="20261126010100 +0000" stop="20261126012600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Academia Unicornio</title>
+    <sub-title lang="es">El templo oculto</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">9.5.0/1</episode-num>
-    <episode-num system="onscreen">S10E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e06-cajas-de-carton_l_m.jpg</image>
+    <episode-num system="xmltv_ns">0.1.0/1</episode-num>
+    <episode-num system="onscreen">S01E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t01e02-el-templo-oculto_l_m.jpg</image>
   </programme>
-  <programme start="20261126012600 +0000" stop="20261126015000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126012300 +0000" stop="20261126014700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Magia de sirenas</title>
     <sub-title lang="es">Una aventura volcánica</sub-title>
     <category lang="es">Serie</category>
@@ -87043,15 +87035,15 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_magia-de-sirenas-t01e07_l_m.jpg</image>
   </programme>
-  <programme start="20261126014800 +0000" stop="20261126021400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126012600 +0000" stop="20261126014900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
-    <sub-title lang="es">Scooters / Concurso de calabazas / Lección de Música / Londres /Ciencia fácil</sub-title>
+    <sub-title lang="es">Cajas de cartón</sub-title>
     <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">6.1.0/1</episode-num>
-    <episode-num system="onscreen">S07E02</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t07e02-salto-en-paracaidas_l_m.jpg</image>
+    <episode-num system="xmltv_ns">9.5.0/1</episode-num>
+    <episode-num system="onscreen">S10E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e06-cajas-de-carton_l_m.jpg</image>
   </programme>
-  <programme start="20261126015000 +0000" stop="20261126020100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126014700 +0000" stop="20261126015800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">El chef Gigio</sub-title>
     <category lang="es">Serie</category>
@@ -87059,7 +87051,15 @@
     <episode-num system="onscreen">S01E42</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t01e42-el-chef-gigio_l_m.jpg</image>
   </programme>
-  <programme start="20261126020100 +0000" stop="20261126022500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126014900 +0000" stop="20261126021400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Peppa Pig</title>
+    <sub-title lang="es">Scooters / Concurso de calabazas / Lección de Música / Londres /Ciencia fácil</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">6.1.0/1</episode-num>
+    <episode-num system="onscreen">S07E02</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t07e02-salto-en-paracaidas_l_m.jpg</image>
+  </programme>
+  <programme start="20261126015800 +0000" stop="20261126022300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">La reina / La isla desierta / Perfume / La fiesta de los niños / El acuario</sub-title>
     <category lang="es">Serie</category>
@@ -87075,7 +87075,7 @@
     <episode-num system="onscreen">S11E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e18-la-fiesta-de-penny-osa-polar_l_m.jpg</image>
   </programme>
-  <programme start="20261126021900 +0000" stop="20261126023100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126021900 +0000" stop="20261126023200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">Súper niños</sub-title>
     <category lang="es">Serie</category>
@@ -87083,7 +87083,7 @@
     <episode-num system="onscreen">S01E24</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_talking-tom-heroes-los-superpoderosos-t01e24-super-ninos_l_m.jpg</image>
   </programme>
-  <programme start="20261126022500 +0000" stop="20261126025000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126022300 +0000" stop="20261126024800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El concurso de frutas y vegetales / Día vikingo / Nuevos instrumentos musicales / En el futuro</sub-title>
     <category lang="es">Serie</category>
@@ -87091,7 +87091,7 @@
     <episode-num system="onscreen">S08E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t08e07-multa-de-estacionamiento_l_m.jpg</image>
   </programme>
-  <programme start="20261126023100 +0000" stop="20261126024400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126023200 +0000" stop="20261126024400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">No es día de mostrar y contar</sub-title>
     <category lang="es">Serie</category>
@@ -87107,7 +87107,7 @@
     <episode-num system="onscreen">S01E30</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_zuk-la-brujita-t01e30-campeona-de-telaranas_l_m.jpg</image>
   </programme>
-  <programme start="20261126025000 +0000" stop="20261126030200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126024800 +0000" stop="20261126025900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">¡Por fin 10!</sub-title>
     <category lang="es">Serie</category>
@@ -87123,7 +87123,7 @@
     <episode-num system="onscreen">S02E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mermicorno-lluvia-de-estrellas-t02e11-el-regreso-de-sharkicorno_l_m.jpg</image>
   </programme>
-  <programme start="20261126030200 +0000" stop="20261126031400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126025900 +0000" stop="20261126031000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">¡Burrogón a la vista!</sub-title>
     <category lang="es">Serie</category>
@@ -87131,7 +87131,7 @@
     <episode-num system="onscreen">S01E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e02-burrogon-a-la-vista_l_m.jpg</image>
   </programme>
-  <programme start="20261126031400 +0000" stop="20261126032700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126031000 +0000" stop="20261126032400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">Sendero de regalos</sub-title>
     <category lang="es">Serie</category>
@@ -87139,7 +87139,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e03-sendero-de-regalos_l_m.jpg</image>
   </programme>
-  <programme start="20261126031700 +0000" stop="20261126033000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126031700 +0000" stop="20261126033100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">¡Que empiece la fiesta!</sub-title>
     <category lang="es">Serie</category>
@@ -87147,7 +87147,7 @@
     <episode-num system="onscreen">S01E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t01e34-que-empiece-la-fiesta_l_m.jpg</image>
   </programme>
-  <programme start="20261126032700 +0000" stop="20261126034100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126032400 +0000" stop="20261126033700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Super Wish</title>
     <sub-title lang="es">Simón dice: &quot;relájense&quot;</sub-title>
     <category lang="es">Serie</category>
@@ -87155,7 +87155,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e04-simon-dice-relajense_l_m.jpg</image>
   </programme>
-  <programme start="20261126033000 +0000" stop="20261126034400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126033100 +0000" stop="20261126034400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">El mundo de Luna</title>
     <sub-title lang="es">¡Las plantas pueden hacerlo todo!</sub-title>
     <category lang="es">Serie</category>
@@ -87163,7 +87163,7 @@
     <episode-num system="onscreen">S09E08</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_el-mundo-de-luna-t09e08-las-plantas-pueden-hacerlo-todo_l_m.jpg</image>
   </programme>
-  <programme start="20261126034100 +0000" stop="20261126034600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126033700 +0000" stop="20261126034200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Flamenco</sub-title>
     <category lang="es">Serie</category>
@@ -87171,15 +87171,7 @@
     <episode-num system="onscreen">S11E38</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e38-flamenco_l_m.jpg</image>
   </programme>
-  <programme start="20261126034400 +0000" stop="20261126040700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Winx Club: Vuelve la magia</title>
-    <sub-title lang="es">Un nuevo enemigo</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
-    <episode-num system="onscreen">S01E11</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_winx-club-vuelve-la-magia-t01e11-un-nuevo-enemigo_l_m.jpg</image>
-  </programme>
-  <programme start="20261126034600 +0000" stop="20261126035100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126034200 +0000" stop="20261126034700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Evie en el futuro</sub-title>
     <category lang="es">Serie</category>
@@ -87187,7 +87179,15 @@
     <episode-num system="onscreen">S11E39</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e39-evie-in-the-future_l_m.jpg</image>
   </programme>
-  <programme start="20261126035100 +0000" stop="20261126041300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126034400 +0000" stop="20261126040800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Winx Club: Vuelve la magia</title>
+    <sub-title lang="es">Un nuevo enemigo</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.10.0/1</episode-num>
+    <episode-num system="onscreen">S01E11</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_winx-club-vuelve-la-magia-t01e11-un-nuevo-enemigo_l_m.jpg</image>
+  </programme>
+  <programme start="20261126034700 +0000" stop="20261126040900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Shasha y Milo</title>
     <sub-title lang="es">El origen (Gato al futuro)</sub-title>
     <category lang="es">Serie</category>
@@ -87195,7 +87195,7 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_shasha-y-milo-t01e14-el-origen_l_m.jpg</image>
   </programme>
-  <programme start="20261126040700 +0000" stop="20261126043100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126040800 +0000" stop="20261126043100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Winx Club: Vuelve la magia</title>
     <sub-title lang="es">La fortaleza de la luz</sub-title>
     <category lang="es">Serie</category>
@@ -87203,7 +87203,7 @@
     <episode-num system="onscreen">S01E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_winx-club-vuelve-la-magia-t01e12-la-fortaleza-de-la-luz_l_m.jpg</image>
   </programme>
-  <programme start="20261126041300 +0000" stop="20261126042500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126040900 +0000" stop="20261126042200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Polly Pocket</title>
     <sub-title lang="es">Cuestión de tiempo</sub-title>
     <category lang="es">Serie</category>
@@ -87211,7 +87211,7 @@
     <episode-num system="onscreen">S05E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_polly-pocket-t05e22-cuestion-de-tiempo_l_m.jpg</image>
   </programme>
-  <programme start="20261126042500 +0000" stop="20261126043600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126042200 +0000" stop="20261126043400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">La invitación</sub-title>
     <category lang="es">Serie</category>
@@ -87227,6 +87227,14 @@
     <episode-num system="onscreen">S01E16</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t01e16-detencion_l_m.jpg</image>
   </programme>
+  <programme start="20261126043400 +0000" stop="20261126044700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Topo Gigio</title>
+    <sub-title lang="es">Representante estudiantil</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
+    <episode-num system="onscreen">S01E23</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t01e23-representante-estudiantil_l_m.jpg</image>
+  </programme>
   <programme start="20261126043500 +0000" stop="20261126044000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Artes marciales</sub-title>
@@ -87234,14 +87242,6 @@
     <episode-num system="xmltv_ns">10.20.0/1</episode-num>
     <episode-num system="onscreen">S11E21</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e21-artes-marciales_l_m.jpg</image>
-  </programme>
-  <programme start="20261126043600 +0000" stop="20261126044900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Topo Gigio</title>
-    <sub-title lang="es">Representante estudiantil</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">0.22.0/1</episode-num>
-    <episode-num system="onscreen">S01E23</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t01e23-representante-estudiantil_l_m.jpg</image>
   </programme>
   <programme start="20261126044000 +0000" stop="20261126050300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
@@ -87251,7 +87251,7 @@
     <episode-num system="onscreen">S10E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e07-comida-para-llevar_l_m.jpg</image>
   </programme>
-  <programme start="20261126044900 +0000" stop="20261126045400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126044700 +0000" stop="20261126045200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Batalla de bandas</sub-title>
     <category lang="es">Serie</category>
@@ -87259,7 +87259,7 @@
     <episode-num system="onscreen">S04E29</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t04e29-batalla-de-bandas_l_m.jpg</image>
   </programme>
-  <programme start="20261126045400 +0000" stop="20261126045900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126045200 +0000" stop="20261126045600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Una canción en altura</sub-title>
     <category lang="es">Serie</category>
@@ -87267,7 +87267,7 @@
     <episode-num system="onscreen">S04E39</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t04e39-una-cancion-en-altura_l_m.jpg</image>
   </programme>
-  <programme start="20261126045900 +0000" stop="20261126050400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126045600 +0000" stop="20261126050100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Las niñelimpíadas</sub-title>
     <category lang="es">Serie</category>
@@ -87275,15 +87275,7 @@
     <episode-num system="onscreen">S04E40</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t04e40-las-ninelimpiadas_l_m.jpg</image>
   </programme>
-  <programme start="20261126050300 +0000" stop="20261126052700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Peppa Pig</title>
-    <sub-title lang="es">Vamos a esquiar / Perfume / El arenero / La tetera del señor Toribio</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">5.5.0/1</episode-num>
-    <episode-num system="onscreen">S06E06</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t06e06-vamos-a-esquiar-perfume-el-arenero-la-tetera-del-senor-toribio_l_m.jpg</image>
-  </programme>
-  <programme start="20261126050400 +0000" stop="20261126051500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126050100 +0000" stop="20261126051200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">El Día de la Amistad</sub-title>
     <category lang="es">Serie</category>
@@ -87291,7 +87283,15 @@
     <episode-num system="onscreen">S01E13</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t01e13-el-dia-de-la-amistad_l_m.jpg</image>
   </programme>
-  <programme start="20261126051500 +0000" stop="20261126052700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126050300 +0000" stop="20261126052800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Peppa Pig</title>
+    <sub-title lang="es">Vamos a esquiar / Perfume / El arenero / La tetera del señor Toribio</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">5.5.0/1</episode-num>
+    <episode-num system="onscreen">S06E06</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t06e06-vamos-a-esquiar-perfume-el-arenero-la-tetera-del-senor-toribio_l_m.jpg</image>
+  </programme>
+  <programme start="20261126051200 +0000" stop="20261126052500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">El gorro para pensar de P.I.</sub-title>
     <category lang="es">Serie</category>
@@ -87299,21 +87299,21 @@
     <episode-num system="onscreen">S01E14</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t01e14-el-gorro-para-pensar-de-p-i_l_m.jpg</image>
   </programme>
-  <programme start="20261126052700 +0000" stop="20261126055100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Jorge, el curioso</title>
-    <sub-title lang="es">Cómo tratar a una mula / Jorge, el mesero</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">13.7.0/1</episode-num>
-    <episode-num system="onscreen">S14E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_jorge-el-curioso-t14e08-como-tratar-a-una-mula-jorge-el-mesero_l_m.jpg</image>
-  </programme>
-  <programme start="20261126052700 +0000" stop="20261126055300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126052500 +0000" stop="20261126055100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Música de hielo / Una imaginación majestuosa / ¡Sigan a Carlos! / Sr. Calcetino / ¡Olé!</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">2.16.0/1</episode-num>
     <episode-num system="onscreen">S03E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e17-musica-escondida_l_m.jpg</image>
+  </programme>
+  <programme start="20261126052800 +0000" stop="20261126055100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Jorge, el curioso</title>
+    <sub-title lang="es">Cómo tratar a una mula / Jorge, el mesero</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">13.7.0/1</episode-num>
+    <episode-num system="onscreen">S14E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_jorge-el-curioso-t14e08-como-tratar-a-una-mula-jorge-el-mesero_l_m.jpg</image>
   </programme>
   <programme start="20261126055100 +0000" stop="20261126061300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Magia de sirenas</title>
@@ -87323,6 +87323,14 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_magia-de-sirenas-t01e07_l_m.jpg</image>
   </programme>
+  <programme start="20261126055100 +0000" stop="20261126065100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Mini Beat Power Rockers</title>
+    <sub-title lang="es">El poder de Myo / Percusión dental / Bring it on! / En sus marcas... listos... ¡fuera! / La h...</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">2.8.0/1</episode-num>
+    <episode-num system="onscreen">S03E09</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e09-el-rock-de-mis-suenos_l_m.jpg</image>
+  </programme>
   <programme start="20261126055300 +0000" stop="20261126061700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Dee, el perfecto / ¡Boogie Woogie Woo! / Rock del espacio / El cumpleaños de Jay / El cuart</sub-title>
@@ -87331,15 +87339,7 @@
     <episode-num system="onscreen">S02E10</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t02e10-naci-para-rockear-parte-2_l_m.jpg</image>
   </programme>
-  <programme start="20261126055300 +0000" stop="20261126065300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Mini Beat Power Rockers</title>
-    <sub-title lang="es">El día de las profesiones / Conga refrescante / El regreso de Babythoven / Atrapados en una</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">2.8.0/1</episode-num>
-    <episode-num system="onscreen">S03E09</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e09-el-rock-de-mis-suenos_l_m.jpg</image>
-  </programme>
-  <programme start="20261126061300 +0000" stop="20261126063600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126061300 +0000" stop="20261126063700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">El panorama general</sub-title>
     <category lang="es">Serie</category>
@@ -87371,7 +87371,7 @@
     <episode-num system="onscreen">S01E35</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_heroes-y-hermanos-t01e35-videojuego-de-la-vida-real_l_m.jpg</image>
   </programme>
-  <programme start="20261126063600 +0000" stop="20261126070000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126063700 +0000" stop="20261126070000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">Espionaje tecnológico</sub-title>
     <category lang="es">Serie</category>
@@ -87395,7 +87395,7 @@
     <episode-num system="onscreen">S01E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_ba-da-bean-t01e34-de-mal-humor_l_m.jpg</image>
   </programme>
-  <programme start="20261126070000 +0000" stop="20261126072400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126070000 +0000" stop="20261126072500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Revisión médica / La patineta / Escalando montañas / El barco de la policía / El tractor</sub-title>
     <category lang="es">Serie</category>
@@ -87419,7 +87419,7 @@
     <episode-num system="onscreen">S01E36</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_ba-da-bean-t01e36-fuera-de-forma_l_m.jpg</image>
   </programme>
-  <programme start="20261126072400 +0000" stop="20261126074900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126072500 +0000" stop="20261126074900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Pequeño vencejo</sub-title>
     <category lang="es">Serie</category>
@@ -87475,7 +87475,7 @@
     <episode-num system="onscreen">S03E36</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e36-la-matrioshka_l_m.jpg</image>
   </programme>
-  <programme start="20261126080400 +0000" stop="20261126081600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126080400 +0000" stop="20261126081700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Talking Tom Heroes: Los Superpoderosos</title>
     <sub-title lang="es">Ginger se entera</sub-title>
     <category lang="es">Serie</category>
@@ -87491,7 +87491,7 @@
     <episode-num system="onscreen">S03E20</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e20-un-dia-de-rodeo_l_m.jpg</image>
   </programme>
-  <programme start="20261126081600 +0000" stop="20261126083000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126081700 +0000" stop="20261126083000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mojo Swoptops</title>
     <sub-title lang="es">OVNI</sub-title>
     <category lang="es">Serie</category>
@@ -87531,7 +87531,7 @@
     <episode-num system="onscreen">S01E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_agente-binky-al-rescate-t01e22-sonidos-asombrosos-dolly-la-muneca_l_m.jpg</image>
   </programme>
-  <programme start="20261126090400 +0000" stop="20261126091600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126090400 +0000" stop="20261126091700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">La clase de judo</sub-title>
     <category lang="es">Serie</category>
@@ -87539,7 +87539,7 @@
     <episode-num system="onscreen">S01E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t01e04-la-clase-de-judo_l_m.jpg</image>
   </programme>
-  <programme start="20261126091600 +0000" stop="20261126094100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126091700 +0000" stop="20261126094100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Navidad en el hospital / El Día de San Valentín / El día perfecto / Listos para desayunar /</sub-title>
     <category lang="es">Serie</category>
@@ -87571,7 +87571,7 @@
     <episode-num system="onscreen">S01E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t00e07-mr-scarecrow-foggy-day-grandpa-s-little-train-nature-trail-the-sleepover_l_m.jpg</image>
   </programme>
-  <programme start="20261126100400 +0000" stop="20261126102800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126100400 +0000" stop="20261126102900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El tesoro pirata / La luna y las estrellas / El circo de Peppa / El estanque / Cuando eras chiq</sub-title>
     <category lang="es">Serie</category>
@@ -87587,7 +87587,7 @@
     <episode-num system="onscreen">S07E11</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t07e11-el-conejito-de-pascua_l_m.jpg</image>
   </programme>
-  <programme start="20261126102800 +0000" stop="20261126105300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126102900 +0000" stop="20261126105300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Revisión médica / La patineta / Escalando montañas / El barco de la policía / El tractor</sub-title>
     <category lang="es">Serie</category>
@@ -87627,7 +87627,7 @@
     <episode-num system="onscreen">S03E04</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mini-beat-power-rockers-t03e04-pio-pio_l_m.jpg</image>
   </programme>
-  <programme start="20261126110300 +0000" stop="20261126112800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126110300 +0000" stop="20261126112900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Armonía musical / El clarinete prohibido / La banda de silbidos / El diente de Dylan / La c</sub-title>
     <category lang="es">Serie</category>
@@ -87643,7 +87643,7 @@
     <episode-num system="onscreen">S08E25</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_el-mundo-de-luna-t08e25-invisible-o-imposible_l_m.jpg</image>
   </programme>
-  <programme start="20261126112800 +0000" stop="20261126115200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126112900 +0000" stop="20261126115200 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">LEGO DreamZzz</title>
     <sub-title lang="es">Código Trampa</sub-title>
     <category lang="es">Serie</category>
@@ -87683,7 +87683,7 @@
     <episode-num system="onscreen">S01E05</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e05-el-ritmo-de-la-jungla_l_m.jpg</image>
   </programme>
-  <programme start="20261126121400 +0000" stop="20261126122700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126121400 +0000" stop="20261126122800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mojo Swoptops</title>
     <sub-title lang="es">Te agarré la cabra</sub-title>
     <category lang="es">Serie</category>
@@ -87699,21 +87699,13 @@
     <episode-num system="onscreen">S01E06</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_super-wish-t01e06-el-boton-y-la-moneda_l_m.jpg</image>
   </programme>
-  <programme start="20261126122700 +0000" stop="20261126123800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261126122800 +0000" stop="20261126123900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Zuk, la brujita</title>
     <sub-title lang="es">El centauro Nono</sub-title>
     <category lang="es">Serie</category>
     <episode-num system="xmltv_ns">0.17.0/1</episode-num>
     <episode-num system="onscreen">S01E18</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_zuk-la-brujita-t01e18-el-centauro-nono_l_m.jpg</image>
-  </programme>
-  <programme start="20261126123800 +0000" stop="20261127010300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
-    <title lang="es">Academia Unicornio</title>
-    <sub-title lang="es">La prueba final - Parte 1</sub-title>
-    <category lang="es">Serie</category>
-    <episode-num system="xmltv_ns">1.7.0/1</episode-num>
-    <episode-num system="onscreen">S02E08</episode-num>
-    <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t02e08-la-prueba-final-parte-1_l_m.jpg</image>
   </programme>
   <programme start="20261126123900 +0000" stop="20261126125000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Polly Pocket</title>
@@ -87722,6 +87714,14 @@
     <episode-num system="xmltv_ns">4.16.0/1</episode-num>
     <episode-num system="onscreen">S05E17</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_polly-pocket-t05e17-ninera-koala_l_m.jpg</image>
+  </programme>
+  <programme start="20261126123900 +0000" stop="20261127010300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+    <title lang="es">Academia Unicornio</title>
+    <sub-title lang="es">La prueba final - Parte 1</sub-title>
+    <category lang="es">Serie</category>
+    <episode-num system="xmltv_ns">1.7.0/1</episode-num>
+    <episode-num system="onscreen">S02E08</episode-num>
+    <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t02e08-la-prueba-final-parte-1_l_m.jpg</image>
   </programme>
   <programme start="20261126125000 +0000" stop="20261127010100 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
@@ -87739,7 +87739,7 @@
     <episode-num system="onscreen">S01E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_academia-unicornio-t01e03-la-carrera_l_m.jpg</image>
   </programme>
-  <programme start="20261127010300 +0000" stop="20261127012600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127010300 +0000" stop="20261127012700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Tres espías sin límite</title>
     <sub-title lang="es">Espías robot</sub-title>
     <category lang="es">Serie</category>
@@ -87755,7 +87755,7 @@
     <episode-num system="onscreen">S10E07</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t10e07-comida-para-llevar_l_m.jpg</image>
   </programme>
-  <programme start="20261127012600 +0000" stop="20261127015000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127012700 +0000" stop="20261127015000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Magia de sirenas</title>
     <sub-title lang="es">El regreso a Sirenotopia</sub-title>
     <category lang="es">Serie</category>
@@ -87779,7 +87779,7 @@
     <episode-num system="onscreen">S01E43</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_topo-gigio-t01e43-el-rey-de-la-tele_l_m.jpg</image>
   </programme>
-  <programme start="20261127020100 +0000" stop="20261127022500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127020100 +0000" stop="20261127022600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">El carro de carreras / El botecito / El arenero / Animales nocturnos / Vacaciones</sub-title>
     <category lang="es">Serie</category>
@@ -87803,7 +87803,7 @@
     <episode-num system="onscreen">S01E25</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_talking-tom-heroes-los-superpoderosos-t01e25-angela-piensa-rapido_l_m.jpg</image>
   </programme>
-  <programme start="20261127022500 +0000" stop="20261127025000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127022600 +0000" stop="20261127025000 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Peppa Pig</title>
     <sub-title lang="es">Mariposas / Abuelo Conejo al rescate / Un auto perdido / El auto eléctrico / La Edad de Pie</sub-title>
     <category lang="es">Serie</category>
@@ -87827,7 +87827,7 @@
     <episode-num system="onscreen">S01E31</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_zuk-la-brujita-t01e31-las-flechas-de-cupido_l_m.jpg</image>
   </programme>
-  <programme start="20261127025000 +0000" stop="20261127031300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127025000 +0000" stop="20261127031400 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Winx Club: Vuelve la magia</title>
     <sub-title lang="es">Un nuevo enemigo</sub-title>
     <category lang="es">Serie</category>
@@ -87843,7 +87843,7 @@
     <episode-num system="onscreen">S02E12</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_mermicorno-lluvia-de-estrellas-t02e12-un-mar-de-estrellas-parte-1_l_m.jpg</image>
   </programme>
-  <programme start="20261127031300 +0000" stop="20261127033700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127031400 +0000" stop="20261127033700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Winx Club: Vuelve la magia</title>
     <sub-title lang="es">La fortaleza de la luz</sub-title>
     <category lang="es">Serie</category>
@@ -87947,7 +87947,7 @@
     <episode-num system="onscreen">S01E34</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t01e34-que-empiece-la-fiesta_l_m.jpg</image>
   </programme>
-  <programme start="20261127041300 +0000" stop="20261127042500 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127041300 +0000" stop="20261127042600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Polly Pocket</title>
     <sub-title lang="es">Juegos de mascotas de Littleton</sub-title>
     <category lang="es">Serie</category>
@@ -87963,7 +87963,7 @@
     <episode-num system="onscreen">S06E01</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t06e01-el-nuevo-batido_l_m.jpg</image>
   </programme>
-  <programme start="20261127042500 +0000" stop="20261127043600 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127042600 +0000" stop="20261127043700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">El día de los abuelos</sub-title>
     <category lang="es">Serie</category>
@@ -87979,7 +87979,7 @@
     <episode-num system="onscreen">S11E22</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_peppa-pig-t11e22-la-granja-de-hormigas-de-la-doctora-hamster_l_m.jpg</image>
   </programme>
-  <programme start="20261127043600 +0000" stop="20261127044900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127043700 +0000" stop="20261127044900 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Topo Gigio</title>
     <sub-title lang="es">La búsqueda del tesoro</sub-title>
     <category lang="es">Serie</category>
@@ -88035,7 +88035,7 @@
     <episode-num system="onscreen">S01E15</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_hello-kitty-super-style-t01e15-un-puente-entre-castores_l_m.jpg</image>
   </programme>
-  <programme start="20261127051500 +0000" stop="20261127052700 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127051500 +0000" stop="20261127052800 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Hello Kitty: Super Style!</title>
     <sub-title lang="es">Buenas noches, Zing</sub-title>
     <category lang="es">Serie</category>
@@ -88051,7 +88051,7 @@
     <episode-num system="onscreen">S14E09</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_jorge-el-curioso-t14e09-jorge-en-un-desfile-el-hotel-de-mascotas-de-jorge-y-allie_l_m.jpg</image>
   </programme>
-  <programme start="20261127052700 +0000" stop="20261127055300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
+  <programme start="20261127052800 +0000" stop="20261127055300 +0000" channel="DiscoveryKidsLatinAmerica.us@Panregional">
     <title lang="es">Mini Beat Power Rockers</title>
     <sub-title lang="es">Regalo misterioso / El pasito de Wat / Espionaje en la guardería / Día del Legado / Mundo A</sub-title>
     <category lang="es">Serie</category>
@@ -90645,7 +90645,7 @@
     <rating><value>6.5</value></rating>
     <image>https://cdn.mitvstatic.com/programs/co_mira-como-corren-2022_l_m.jpg</image>
   </programme>
-  <programme start="20261125120000 +0000" stop="20261125122600 +0000" channel="StarChannel.co@SD">
+  <programme start="20261125120000 +0000" stop="20261125122500 +0000" channel="StarChannel.co@SD">
     <title lang="es">Scrubs</title>
     <sub-title lang="es">Mis últimas palabras</sub-title>
     <category lang="es">Serie</category>
@@ -90653,7 +90653,7 @@
     <episode-num system="onscreen">S08E02</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_scrubs-t08e02-my-last-words_l_m.jpg</image>
   </programme>
-  <programme start="20261125122600 +0000" stop="20261126012600 +0000" channel="StarChannel.co@SD">
+  <programme start="20261125122500 +0000" stop="20261126012500 +0000" channel="StarChannel.co@SD">
     <title lang="es">Scrubs</title>
     <sub-title lang="es">Mi único mérito</sub-title>
     <category lang="es">Serie</category>
@@ -90661,7 +90661,7 @@
     <episode-num system="onscreen">S08E03</episode-num>
     <image>https://cdn.mitvstatic.com/programs/co_scrubs-t08e03-my-saving-grace_l_m.jpg</image>
   </programme>
-  <programme start="20261126012600 +0000" stop="20261126041400 +0000" channel="StarChannel.co@SD">
+  <programme start="20261126012500 +0000" stop="20261126041400 +0000" channel="StarChannel.co@SD">
     <title lang="es">Terremoto 8.5</title>
     <title lang="en">Baekdusan</title>
     <category lang="es">Acción</category>
@@ -97221,22 +97221,16 @@
     <image>https://cdn.mitvstatic.com/programs/co_noticiero-win-noticias_l_m.jpg</image>
   </programme>
   <programme start="20261126070000 +0000" stop="20261126090000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Medio tiempo</title>
-    <title lang="en">Medio tiempo</title>
-    <category lang="es">Medio tiempo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_deportivo-medio-tiempo_l_m.jpg</image>
-  </programme>
-  <programme start="20261126070000 +0000" stop="20261126090000 +0000" channel="WinSports.co@SD">
     <title lang="es">Santa Fe vs. Once Caldas</title>
     <title lang="en">Cuadrangulares</title>
     <category lang="es">Cuadrangulares</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-santa-fe-vs-once-caldas-cuadrangulares_l_m.jpg</image>
   </programme>
-  <programme start="20261126090000 +0000" stop="20261126110000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Saque largo</title>
-    <title lang="en">Saque largo</title>
-    <category lang="es">Saque largo</category>
-    <image>https://cdn.mitvstatic.com/programs/co_futbol-saque-largo_l_m.jpg</image>
+  <programme start="20261126070000 +0000" stop="20261126090000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Medio tiempo</title>
+    <title lang="en">Medio tiempo</title>
+    <category lang="es">Medio tiempo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_deportivo-medio-tiempo_l_m.jpg</image>
   </programme>
   <programme start="20261126090000 +0000" stop="20261126100000 +0000" channel="WinSports.co@SD">
     <title lang="es">Atl. Nacional vs. Ind. Medellín</title>
@@ -97244,23 +97238,29 @@
     <category lang="es">Cuadrangulares</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-atl-nacional-vs-ind-medellin-cuadrangulares-1_l_m.jpg</image>
   </programme>
+  <programme start="20261126090000 +0000" stop="20261126110000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Saque largo</title>
+    <title lang="en">Saque largo</title>
+    <category lang="es">Saque largo</category>
+    <image>https://cdn.mitvstatic.com/programs/co_futbol-saque-largo_l_m.jpg</image>
+  </programme>
   <programme start="20261126100000 +0000" stop="20261126110000 +0000" channel="WinSports.co@SD">
     <title lang="es">Atl. Nacional vs. Ind. Medellín</title>
     <title lang="en">Cuadrangulares</title>
     <category lang="es">Cuadrangulares</category>
     <image>https://cdn.mitvstatic.com/programs/co_futbol-atl-nacional-vs-ind-medellin-cuadrangulares-1_l_m.jpg</image>
   </programme>
-  <programme start="20261126110000 +0000" stop="20261126113000 +0000" channel="WinSports.co@SD">
-    <title lang="es">Santa Fe vs. Once Caldas</title>
-    <title lang="en">Cuadrangulares</title>
-    <category lang="es">Cuadrangulares</category>
-    <image>https://cdn.mitvstatic.com/programs/co_futbol-santa-fe-vs-once-caldas-cuadrangulares-1_l_m.jpg</image>
-  </programme>
   <programme start="20261126110000 +0000" stop="20261127010000 +0000" channel="WinSports.co@SD">
     <title lang="es">Planeta fútbol</title>
     <title lang="en">Planeta fútbol</title>
     <category lang="es">Planeta fútbol</category>
     <image>https://cdn.mitvstatic.com/programs/co_magazine-planeta-futbol_l_m.jpg</image>
+  </programme>
+  <programme start="20261126110000 +0000" stop="20261126113000 +0000" channel="WinSports.co@SD">
+    <title lang="es">Santa Fe vs. Once Caldas</title>
+    <title lang="en">Cuadrangulares</title>
+    <category lang="es">Cuadrangulares</category>
+    <image>https://cdn.mitvstatic.com/programs/co_futbol-santa-fe-vs-once-caldas-cuadrangulares-1_l_m.jpg</image>
   </programme>
   <programme start="20261126113000 +0000" stop="20261127013000 +0000" channel="WinSports.co@SD">
     <title lang="es">Santa Fe vs. Once Caldas</title>
